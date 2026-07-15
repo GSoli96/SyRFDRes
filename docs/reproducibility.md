@@ -106,3 +106,10 @@ not part of this repository (see paper references).
 - Trained checkpoints are not included in this artifact (see the note on
   checkpoints in `README.md`); regenerate them with the training scripts
   under the same fixed seed.
+- A handful of raw result files under `augmentation_results/v7_variable_*/`
+  have long auto-generated filenames (up to ~130 characters). On Windows,
+  `git clone` may fail on these files if the repository is cloned into an
+  already deeply nested destination path, due to the OS's legacy 260-character
+  path limit. If this happens, clone closer to a drive root (e.g. `C:\src\...`)
+  or enable Windows long-path support (`git config --global core.longpaths true`
+  and the corresponding Windows policy setting).
