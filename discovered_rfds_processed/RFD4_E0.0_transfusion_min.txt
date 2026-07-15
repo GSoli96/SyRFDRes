@@ -1,0 +1,2 @@
+****** DISCOVERED RFDs *******
+Attr2@4.0, -> Attr1@4.0

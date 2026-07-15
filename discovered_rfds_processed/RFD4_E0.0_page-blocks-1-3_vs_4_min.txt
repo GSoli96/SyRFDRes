@@ -1,0 +1,20 @@
+****** DISCOVERED RFDs *******
+Attr2@4.0, -> Attr9@4.0
+Attr8@4.0, -> Attr1@4.0
+Attr8@4.0, -> Attr0@4.0
+Attr2@4.0, -> Attr0@4.0
+Attr8@4.0, -> Attr9@4.0
+Attr2@4.0, -> Attr1@4.0
+Attr1@4.0,Attr9@4.0, -> Attr0@4.0
+Attr0@4.0, -> Attr3@4.0
+Attr1@4.0, -> Attr3@4.0
+Attr2@4.0, -> Attr3@4.0
+Attr4@4.0, -> Attr3@4.0
+Attr8@4.0, -> Attr3@4.0
+Attr9@4.0, -> Attr3@4.0
+Attr0@4.0, -> Attr4@4.0
+Attr1@4.0, -> Attr4@4.0
+Attr2@4.0, -> Attr4@4.0
+Attr3@4.0, -> Attr4@4.0
+Attr8@4.0, -> Attr4@4.0
+Attr9@4.0, -> Attr4@4.0

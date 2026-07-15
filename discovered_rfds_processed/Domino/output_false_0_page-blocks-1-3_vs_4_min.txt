@@ -1,0 +1,3102 @@
+****** DISCOVERED RFDs *******
+Attr2@0.0->Attr1@1.0	 
+Attr2@0.0->Attr8@0.0	 
+Attr1@0.0->Attr2@0.0	 
+Attr1@0.0->Attr8@0.0	 
+Attr2@0.0->Attr9@0.0	 
+Attr1@0.0->Attr9@0.0	 
+Attr2@0.0->Attr0@1.0	 
+Attr1@0.0->Attr0@1.0	 
+Attr0@0.0->Attr2@1600.0	 
+Attr4@0.1, Attr9@0.0->Attr8@100.0	 
+Attr2@200.0, Attr4@0.1->Attr8@200.0	 
+Attr2@600.0, Attr4@0.1->Attr8@300.0	 
+Attr1@1.0->Attr0@9.0	 
+Attr1@0.0->Attr3@0.0	 
+Attr0@0.0->Attr1@13.0	 
+Attr2@800.0, Attr4@0.1->Attr8@600.0	 
+Attr2@1100.0, Attr4@0.1->Attr8@800.0	 
+Attr8@0.0->Attr0@10.0	 
+Attr4@0.1, Attr9@0.0->Attr0@2.0	 
+Attr8@100.0->Attr2@2600.0	 
+Attr2@200.0, Attr9@350.0->Attr1@1.0	 
+Attr2@200.0, Attr9@350.0->Attr8@0.0	 
+Attr4@0.1, Attr9@0.0->Attr2@1700.0	 
+Attr1@1.0, Attr8@6900.0->Attr2@0.0	 
+Attr2@500.0->Attr1@20.0	 
+Attr3@0.1, Attr9@0.0->Attr2@0.0	 
+Attr4@0.0, Attr8@500.0->Attr2@0.0	 
+Attr1@2.0, Attr8@4700.0->Attr2@0.0	 
+Attr1@1.0, Attr4@0.1->Attr0@8.0	 
+Attr4@0.0, Attr9@0.0->Attr2@0.0	 
+Attr0@0.0, Attr4@0.1->Attr1@10.0	 
+Attr2@500.0, Attr9@350.0->Attr0@1.0	 
+Attr2@500.0, Attr9@350.0->Attr8@300.0	 
+Attr3@0.1, Attr9@0.0->Attr1@1.0	 
+Attr3@0.1, Attr9@0.0->Attr8@0.0	 
+Attr1@1.0, Attr8@6900.0->Attr9@0.0	 
+Attr4@0.0, Attr8@500.0->Attr1@1.0	 
+Attr0@4.0, Attr3@0.3->Attr2@1600.0	 
+Attr2@600.0, Attr4@0.0->Attr1@1.0	 
+Attr2@200.0, Attr3@0.1->Attr1@1.0	 
+Attr2@600.0, Attr4@0.0->Attr8@0.0	 
+Attr2@200.0, Attr3@0.1->Attr8@0.0	 
+Attr4@0.0, Attr9@0.0->Attr1@1.0	 
+Attr4@0.0, Attr9@0.0->Attr8@0.0	 
+Attr1@3.0, Attr8@3200.0->Attr2@0.0	 
+Attr2@1600.0->Attr1@24.0	 
+Attr3@0.3, Attr9@0.0->Attr2@1400.0	 
+Attr1@5.0, Attr9@100.0->Attr2@0.0	 
+Attr3@0.3, Attr8@0.0->Attr0@5.0	 
+Attr8@0.0, Attr9@130.0->Attr2@0.0	 
+Attr2@2500.0->Attr1@29.0	 
+Attr1@1.0, Attr8@6900.0->Attr0@1.0	 
+Attr0@1.0, Attr9@350.0->Attr8@700.0	 
+Attr4@0.0, Attr8@500.0->Attr9@0.0	 
+Attr1@2.0, Attr8@4700.0->Attr9@0.0	 
+Attr3@0.0, Attr8@1300.0->Attr2@0.0	 
+Attr1@5.0, Attr9@100.0->Attr8@0.0	 
+Attr2@600.0, Attr4@0.0->Attr9@0.0	 
+Attr2@200.0, Attr3@0.1->Attr9@0.0	 
+Attr8@0.0, Attr9@130.0->Attr1@1.0	 
+Attr3@0.3, Attr4@0.1, Attr9@0.0->Attr2@0.0	 
+Attr3@0.3, Attr4@0.1, Attr8@100.0->Attr2@0.0	 
+Attr1@6.0, Attr9@100.0->Attr2@300.0	 
+Attr1@22.0, Attr9@0.0->Attr2@0.0	 
+Attr1@12.0, Attr9@100.0->Attr2@500.0	 
+Attr8@100.0->Attr0@19.0	 
+Attr1@2.0->Attr0@19.0	 
+Attr3@0.3, Attr8@0.0->Attr2@1800.0	 
+Attr0@4.0, Attr1@75.0->Attr2@1700.0	 
+Attr0@0.0, Attr9@350.0->Attr2@800.0	 
+Attr3@0.0, Attr8@1300.0->Attr1@1.0	 
+Attr1@22.0, Attr9@10.0->Attr2@300.0	 
+Attr0@1.0, Attr1@75.0->Attr2@1600.0	 
+Attr3@0.3, Attr4@0.1, Attr8@200.0->Attr2@100.0	 
+Attr3@0.3, Attr4@0.1, Attr9@0.0->Attr1@1.0	 
+Attr3@0.3, Attr4@0.1, Attr9@0.0->Attr8@0.0	 
+Attr3@0.3, Attr4@0.1, Attr8@100.0->Attr1@1.0	 
+Attr3@0.1, Attr9@0.0->Attr0@1.0	 
+Attr1@3.0, Attr8@3200.0->Attr9@0.0	 
+Attr1@22.0, Attr9@0.0->Attr8@0.0	 
+Attr4@0.0, Attr8@500.0->Attr0@1.0	 
+Attr4@0.1, Attr8@100.0->Attr0@10.0	 
+Attr2@400.0, Attr3@0.1->Attr0@1.0	 
+Attr1@2.0, Attr8@4700.0->Attr0@1.0	 
+Attr2@400.0, Attr3@0.1->Attr8@300.0	 
+Attr2@600.0, Attr4@0.0->Attr0@1.0	 
+Attr2@700.0, Attr9@350.0->Attr1@7.0	 
+Attr2@400.0, Attr9@350.0->Attr1@6.0	 
+Attr3@0.3, Attr8@800.0->Attr2@2000.0	 
+Attr1@15.0, Attr9@100.0->Attr0@1.0	 
+Attr4@0.0, Attr9@0.0->Attr0@1.0	 
+Attr1@1.0->Attr2@3600.0	 
+Attr1@75.0, Attr9@0.0->Attr2@1700.0	 
+Attr1@22.0, Attr9@20.0->Attr2@500.0	 
+Attr1@15.0, Attr8@0.0->Attr2@0.0	 
+Attr1@12.0, Attr9@100.0->Attr8@300.0	 
+Attr0@14.0, Attr2@200.0->Attr1@1.0	 
+Attr0@14.0, Attr2@200.0->Attr8@0.0	 
+Attr0@7.0, Attr1@3.0->Attr2@0.0	 
+Attr8@800.0, Attr9@350.0->Attr0@5.0	 
+Attr3@0.3, Attr4@0.1, Attr8@500.0->Attr2@500.0	 
+Attr3@0.0, Attr8@1300.0->Attr9@0.0	 
+Attr1@22.0, Attr9@30.0->Attr0@1.0	 
+Attr1@3.0, Attr8@3200.0->Attr0@1.0	 
+Attr0@1.0, Attr9@350.0->Attr2@1400.0	 
+Attr3@0.3, Attr4@0.1, Attr8@100.0->Attr9@0.0	 
+Attr2@600.0, Attr3@0.0->Attr1@1.0	 
+Attr2@600.0, Attr3@0.0->Attr8@0.0	 
+Attr2@800.0, Attr9@110.0->Attr0@1.0	 
+Attr0@4.0, Attr8@0.0->Attr2@0.0	 
+Attr8@0.0, Attr9@130.0->Attr0@1.0	 
+Attr0@1.0, Attr3@0.3->Attr1@13.0	 
+Attr2@1500.0, Attr4@0.0->Attr8@800.0	 
+Attr2@700.0, Attr9@110.0->Attr8@300.0	 
+Attr0@7.0, Attr1@3.0->Attr8@0.0	 
+Attr1@15.0, Attr9@100.0->Attr2@800.0	 
+Attr1@17.0, Attr9@100.0->Attr2@900.0	 
+Attr1@22.0, Attr9@20.0->Attr8@300.0	 
+Attr1@12.0, Attr2@200.0->Attr8@0.0	 
+Attr0@28.0, Attr3@0.0->Attr1@5.0	 
+Attr0@1.0, Attr8@200.0->Attr2@0.0	 
+Attr4@0.1, Attr8@500.0->Attr2@2600.0	 
+Attr0@1.0, Attr9@0.0->Attr2@0.0	 
+Attr0@14.0, Attr2@200.0->Attr9@0.0	 
+Attr2@1600.0, Attr8@100.0->Attr1@1.0	 
+Attr1@15.0, Attr9@100.0->Attr8@700.0	 
+Attr8@4900.0, Attr9@0.0->Attr0@2.0	 
+Attr2@1700.0, Attr8@0.0->Attr1@1.0	 
+Attr1@17.0, Attr9@100.0->Attr0@2.0	 
+Attr8@800.0, Attr9@350.0->Attr2@1800.0	 
+Attr1@17.0, Attr9@100.0->Attr8@800.0	 
+Attr3@0.0, Attr8@1300.0->Attr0@1.0	 
+Attr2@1300.0, Attr9@0.0->Attr1@1.0	 
+Attr2@1300.0, Attr9@0.0->Attr8@0.0	 
+Attr0@4.0, Attr8@0.0->Attr1@1.0	 
+Attr1@22.0, Attr9@30.0->Attr2@800.0	 
+Attr3@0.3, Attr4@0.1, Attr8@700.0->Attr2@700.0	 
+Attr1@2.0, Attr2@1300.0->Attr8@0.0	 
+Attr3@0.3, Attr4@0.1, Attr9@0.0->Attr0@1.0	 
+Attr0@1.0, Attr9@10.0->Attr2@300.0	 
+Attr0@0.0, Attr9@20.0->Attr2@0.0	 
+Attr3@0.3, Attr4@0.1, Attr8@100.0->Attr0@1.0	 
+Attr1@22.0, Attr9@40.0->Attr2@900.0	 
+Attr1@5.0, Attr2@400.0->Attr8@0.0	 
+Attr1@4.0, Attr2@500.0->Attr8@0.0	 
+Attr2@600.0, Attr3@0.0->Attr9@0.0	 
+Attr0@4.0, Attr3@0.3->Attr1@16.0	 
+Attr0@1.0, Attr8@200.0->Attr1@1.0	 
+Attr0@1.0, Attr9@0.0->Attr1@1.0	 
+Attr0@2.0, Attr9@140.0->Attr8@800.0	 
+Attr0@1.0, Attr9@0.0->Attr8@0.0	 
+Attr1@15.0, Attr8@0.0->Attr9@0.0	 
+Attr4@0.1, Attr8@0.0, Attr9@350.0->Attr2@0.0	 
+Attr1@22.0, Attr9@30.0->Attr8@700.0	 
+Attr0@4.0, Attr8@6900.0->Attr2@1700.0	 
+Attr8@800.0, Attr9@130.0->Attr0@2.0	 
+Attr0@0.0, Attr8@600.0->Attr2@0.0	 
+Attr0@7.0, Attr1@3.0->Attr9@0.0	 
+Attr1@22.0, Attr9@40.0->Attr0@2.0	 
+Attr0@1.0, Attr8@6900.0->Attr2@1600.0	 
+Attr1@22.0, Attr9@40.0->Attr8@800.0	 
+Attr3@0.2, Attr8@900.0->Attr2@2000.0	 
+Attr1@12.0, Attr2@200.0->Attr9@0.0	 
+Attr2@700.0, Attr3@0.1->Attr1@7.0	 
+Attr2@400.0, Attr3@0.1->Attr1@6.0	 
+Attr0@8.0, Attr3@0.0->Attr2@700.0	 
+Attr2@800.0, Attr9@110.0->Attr8@700.0	 
+Attr2@400.0, Attr3@0.1->Attr9@10.0	 
+Attr0@14.0, Attr2@400.0->Attr8@300.0	 
+Attr0@2.0, Attr9@0.0->Attr8@100.0	 
+Attr2@1700.0, Attr8@100.0->Attr9@0.0	 
+Attr0@0.0, Attr9@20.0->Attr1@1.0	 
+Attr0@0.0, Attr9@20.0->Attr8@0.0	 
+Attr2@1300.0, Attr9@110.0->Attr0@2.0	 
+Attr2@1300.0, Attr9@110.0->Attr8@800.0	 
+Attr1@3.0->Attr0@23.0	 
+Attr2@1300.0, Attr9@30.0->Attr0@1.0	 
+Attr2@1300.0, Attr3@0.0->Attr0@1.0	 
+Attr0@4.0, Attr8@200.0->Attr9@0.0	 
+Attr3@0.3, Attr8@100.0->Attr1@16.0	 
+Attr3@0.3, Attr4@0.1, Attr8@800.0->Attr2@900.0	 
+Attr8@6900.0, Attr9@0.0->Attr2@1700.0	 
+Attr2@3100.0, Attr3@0.0->Attr1@5.0	 
+Attr0@9.0, Attr3@0.0->Attr1@4.0	 
+Attr4@0.1, Attr8@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@7.0, Attr1@9.0->Attr2@700.0	 
+Attr1@2.0, Attr2@1300.0->Attr9@0.0	 
+Attr0@0.0, Attr8@600.0->Attr1@1.0	 
+Attr0@0.0, Attr4@0.1, Attr9@350.0->Attr2@0.0	 
+Attr2@2100.0, Attr3@0.0->Attr1@4.0	 
+Attr0@1.0, Attr8@300.0->Attr2@500.0	 
+Attr1@5.0, Attr2@400.0->Attr9@0.0	 
+Attr1@4.0, Attr2@500.0->Attr9@0.0	 
+Attr0@9.0, Attr2@500.0->Attr8@300.0	 
+Attr1@15.0, Attr8@0.0->Attr0@1.0	 
+Attr0@0.0, Attr2@600.0->Attr1@1.0	 
+Attr0@8.0, Attr2@600.0->Attr8@300.0	 
+Attr0@0.0, Attr2@600.0->Attr8@0.0	 
+Attr2@1300.0, Attr9@20.0->Attr8@300.0	 
+Attr0@0.0, Attr8@2800.0->Attr2@800.0	 
+Attr1@1.0, Attr9@350.0->Attr0@8.0	 
+Attr1@12.0, Attr2@400.0->Attr0@1.0	 
+Attr0@4.0, Attr3@0.2->Attr1@13.0	 
+Attr1@12.0, Attr2@400.0->Attr8@300.0	 
+Attr0@2.0, Attr9@10.0->Attr8@300.0	 
+Attr2@600.0->Attr0@24.0	 
+Attr1@44.0, Attr8@0.0->Attr0@5.0	 
+Attr8@1600.0, Attr9@20.0->Attr0@2.0	 
+Attr0@7.0, Attr3@0.1->Attr2@1800.0	 
+Attr8@1300.0, Attr9@30.0->Attr0@2.0	 
+Attr3@0.3, Attr8@900.0->Attr2@2300.0	 
+Attr0@2.0, Attr9@20.0->Attr8@400.0	 
+Attr1@28.0, Attr9@40.0->Attr2@1400.0	 
+Attr2@1600.0, Attr8@100.0->Attr0@1.0	 
+Attr2@1200.0, Attr4@0.1->Attr1@20.0	 
+Attr2@1700.0, Attr8@0.0->Attr0@1.0	 
+Attr0@0.0, Attr4@0.1, Attr9@350.0->Attr1@1.0	 
+Attr1@22.0, Attr9@100.0->Attr8@900.0	 
+Attr0@0.0, Attr4@0.1, Attr9@350.0->Attr8@0.0	 
+Attr2@1300.0->Attr0@25.0	 
+Attr8@900.0, Attr9@40.0->Attr0@2.0	 
+Attr0@0.0->Attr8@2900.0	 
+Attr2@800.0, Attr9@350.0->Attr1@13.0	 
+Attr1@2.0, Attr2@1300.0->Attr0@1.0	 
+Attr3@0.2, Attr4@0.1, Attr8@900.0->Attr2@700.0	 
+Attr0@0.0, Attr8@600.0->Attr9@0.0	 
+Attr2@1300.0, Attr9@350.0->Attr0@9.0	 
+Attr1@2.0, Attr9@260.0->Attr0@8.0	 
+Attr1@4.0, Attr2@500.0->Attr0@1.0	 
+Attr1@33.0, Attr9@40.0->Attr2@1700.0	 
+Attr2@1300.0, Attr9@30.0->Attr8@700.0	 
+Attr0@2.0, Attr9@30.0->Attr8@700.0	 
+Attr2@1700.0, Attr3@0.1->Attr1@11.0	 
+Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr0@0.0, Attr2@600.0->Attr9@0.0	 
+Attr2@1300.0, Attr4@0.1->Attr1@21.0	 
+Attr1@44.0, Attr4@0.1, Attr8@0.0->Attr2@0.0	 
+Attr2@800.0, Attr4@0.1, Attr9@350.0->Attr0@1.0	 
+Attr0@4.0, Attr3@0.1->Attr1@11.0	 
+Attr2@800.0, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr1@44.0, Attr8@0.0->Attr2@1800.0	 
+Attr0@1.0, Attr8@2800.0->Attr2@1400.0	 
+Attr0@1.0, Attr3@0.1->Attr1@10.0	 
+Attr0@2.0, Attr9@140.0->Attr2@1700.0	 
+Attr4@0.1, Attr9@50.0->Attr8@1800.0	 
+Attr8@800.0, Attr9@130.0->Attr2@1700.0	 
+Attr4@0.1, Attr9@20.0->Attr2@3200.0	 
+Attr0@6.0, Attr8@2900.0->Attr2@1800.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1->Attr2@1600.0	 
+Attr0@4.0, Attr1@28.0->Attr2@1600.0	 
+Attr0@14.0, Attr2@700.0->Attr1@7.0	 
+Attr0@14.0, Attr2@400.0->Attr1@6.0	 
+Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr1@1.0	 
+Attr0@7.0, Attr8@2300.0->Attr2@1800.0	 
+Attr0@14.0, Attr2@400.0->Attr9@10.0	 
+Attr4@0.1, Attr8@0.0, Attr9@350.0->Attr0@1.0	 
+Attr0@1.0, Attr4@0.1, Attr9@350.0->Attr8@400.0	 
+Attr2@1600.0, Attr4@0.1->Attr1@23.0	 
+Attr0@28.0, Attr3@0.1->Attr1@17.0	 
+Attr1@5.0, Attr4@0.1, Attr8@3200.0->Attr2@0.0	 
+Attr2@1300.0, Attr9@350.0->Attr1@16.0	 
+Attr0@8.0, Attr8@1800.0->Attr2@1800.0	 
+Attr3@0.1, Attr4@0.1, Attr8@900.0->Attr2@500.0	 
+Attr2@1100.0, Attr3@0.2, Attr4@0.1->Attr8@600.0	 
+Attr1@44.0, Attr8@800.0->Attr2@2000.0	 
+Attr1@75.0, Attr8@900.0->Attr2@2600.0	 
+Attr1@17.0, Attr9@110.0->Attr0@8.0	 
+Attr2@1700.0, Attr8@100.0->Attr0@2.0	 
+Attr0@7.0, Attr1@25.0->Attr2@1800.0	 
+Attr0@9.0, Attr3@0.0->Attr2@1400.0	 
+Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr0@2.0	 
+Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr2@1300.0, Attr9@10.0->Attr1@6.0	 
+Attr0@9.0, Attr8@1400.0->Attr2@1800.0	 
+Attr8@0.0, Attr9@350.0->Attr1@16.0	 
+Attr1@12.0, Attr2@400.0->Attr9@10.0	 
+Attr8@1600.0, Attr9@20.0->Attr2@1700.0	 
+Attr0@7.0, Attr1@15.0->Attr2@1600.0	 
+Attr8@1300.0, Attr9@30.0->Attr2@1700.0	 
+Attr1@6.0, Attr4@0.1, Attr8@3200.0->Attr2@300.0	 
+Attr2@1300.0, Attr9@20.0->Attr1@7.0	 
+Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr1@28.0, Attr4@0.1, Attr9@0.0->Attr2@0.0	 
+Attr0@3.0, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr1@44.0, Attr4@0.1, Attr8@100.0->Attr9@0.0	 
+Attr4@0.1, Attr8@800.0, Attr9@350.0->Attr0@2.0	 
+Attr0@1.0, Attr9@10.0->Attr1@6.0	 
+Attr1@28.0, Attr4@0.1, Attr8@100.0->Attr2@0.0	 
+Attr3@0.1, Attr4@0.1, Attr8@900.0->Attr0@1.0	 
+Attr0@0.0, Attr2@700.0->Attr1@4.0	 
+Attr8@900.0, Attr9@40.0->Attr2@1700.0	 
+Attr0@9.0, Attr2@500.0->Attr9@20.0	 
+Attr2@2500.0, Attr8@0.0->Attr0@5.0	 
+Attr0@9.0, Attr3@0.0, Attr4@0.1->Attr2@0.0	 
+Attr3@0.3, Attr8@900.0->Attr1@20.0	 
+Attr0@8.0, Attr2@600.0->Attr9@20.0	 
+Attr1@8.0, Attr9@150.0->Attr0@9.0	 
+Attr1@15.0, Attr4@0.1, Attr9@100.0->Attr2@500.0	 
+Attr0@23.0, Attr2@200.0, Attr4@0.1->Attr1@1.0	 
+Attr0@23.0, Attr2@200.0, Attr4@0.1->Attr8@0.0	 
+Attr8@900.0, Attr9@350.0->Attr2@2300.0	 
+Attr1@17.0, Attr8@1700.0->Attr2@2000.0	 
+Attr1@28.0, Attr4@0.1, Attr9@10.0->Attr2@300.0	 
+Attr2@3100.0, Attr3@0.1->Attr1@17.0	 
+Attr1@7.0, Attr8@2600.0->Attr2@2000.0	 
+Attr1@5.0, Attr8@3200.0->Attr2@2000.0	 
+Attr0@4.0, Attr8@600.0->Attr9@20.0	 
+Attr0@28.0, Attr3@0.0->Attr2@2200.0	 
+Attr0@6.0, Attr1@75.0, Attr4@0.1->Attr2@1700.0	 
+Attr1@7.0, Attr4@0.1, Attr8@3200.0->Attr2@500.0	 
+Attr1@19.0, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr0@0.0, Attr4@0.1, Attr8@2800.0->Attr2@0.0	 
+Attr3@0.0, Attr8@1900.0->Attr9@30.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1->Attr1@10.0	 
+Attr2@1100.0, Attr3@0.1, Attr4@0.1->Attr0@1.0	 
+Attr1@28.0, Attr4@0.1, Attr8@200.0->Attr2@100.0	 
+Attr2@1100.0, Attr3@0.1, Attr4@0.1->Attr8@300.0	 
+Attr1@2.0, Attr3@0.0->Attr2@1400.0	 
+Attr1@28.0, Attr4@0.1, Attr9@0.0->Attr8@0.0	 
+Attr1@13.0, Attr9@120.0->Attr0@9.0	 
+Attr0@8.0, Attr3@0.1->Attr1@16.0	 
+Attr1@5.0, Attr4@0.1, Attr8@3200.0->Attr9@0.0	 
+Attr0@1.0, Attr8@300.0->Attr1@7.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.1->Attr1@3.0	 
+Attr3@0.3, Attr9@0.0->Attr0@15.0	 
+Attr2@1900.0, Attr8@100.0->Attr0@5.0	 
+Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr2@500.0	 
+Attr1@7.0, Attr4@0.1->Attr0@20.0	 
+Attr2@1800.0, Attr3@0.1->Attr1@16.0	 
+Attr3@0.1, Attr8@900.0->Attr1@16.0	 
+Attr0@9.0, Attr3@0.0, Attr4@0.1->Attr1@1.0	 
+Attr1@22.0, Attr4@0.1, Attr9@30.0->Attr2@500.0	 
+Attr0@9.0, Attr3@0.0, Attr4@0.1->Attr8@0.0	 
+Attr1@1.0, Attr2@3500.0, Attr4@0.1->Attr8@0.0	 
+Attr0@29.0, Attr4@0.1, Attr9@30.0->Attr8@400.0	 
+Attr2@1200.0, Attr4@0.1->Attr8@1900.0	 
+Attr1@44.0, Attr4@0.1, Attr8@0.0->Attr0@1.0	 
+Attr0@8.0, Attr8@2300.0->Attr2@2200.0	 
+Attr2@800.0, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr1@1.0	 
+Attr1@30.0, Attr3@0.0->Attr2@2200.0	 
+Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@0.0	 
+Attr0@0.0, Attr4@0.1, Attr8@2800.0->Attr1@1.0	 
+Attr1@15.0, Attr4@0.1, Attr9@100.0->Attr8@300.0	 
+Attr0@23.0, Attr2@800.0->Attr1@13.0	 
+Attr0@7.0, Attr1@5.0, Attr4@0.1->Attr2@0.0	 
+Attr3@0.3, Attr8@4900.0, Attr9@0.0->Attr2@0.0	 
+Attr0@29.0, Attr4@0.1, Attr9@10.0->Attr8@300.0	 
+Attr2@2100.0, Attr4@0.1, Attr9@190.0->Attr0@2.0	 
+Attr2@2600.0, Attr3@0.3->Attr1@24.0	 
+Attr2@2100.0, Attr4@0.1, Attr9@190.0->Attr8@800.0	 
+Attr0@23.0, Attr2@200.0, Attr4@0.1->Attr9@0.0	 
+Attr1@19.0, Attr2@200.0, Attr4@0.1->Attr8@0.0	 
+Attr2@2200.0, Attr4@0.1, Attr9@170.0->Attr0@2.0	 
+Attr2@2200.0, Attr4@0.1, Attr9@170.0->Attr8@800.0	 
+Attr0@27.0, Attr3@0.3->Attr1@30.0	 
+Attr1@28.0, Attr4@0.1, Attr9@30.0->Attr0@1.0	 
+Attr4@0.1, Attr9@0.0->Attr1@29.0	 
+Attr1@28.0, Attr4@0.1, Attr8@300.0->Attr2@500.0	 
+Attr1@2.0, Attr2@2800.0, Attr4@0.1->Attr8@0.0	 
+Attr1@7.0, Attr4@0.1, Attr8@3200.0->Attr0@1.0	 
+Attr1@2.0, Attr3@0.0, Attr4@0.1->Attr2@0.0	 
+Attr0@9.0, Attr4@0.1, Attr8@0.0->Attr2@0.0	 
+Attr1@33.0, Attr4@0.1, Attr9@30.0->Attr8@400.0	 
+Attr0@1.0, Attr8@1900.0->Attr9@30.0	 
+Attr1@2.0, Attr9@350.0->Attr0@12.0	 
+Attr1@2.0->Attr2@5200.0	 
+Attr2@1100.0, Attr3@0.1->Attr0@10.0	 
+Attr2@2500.0, Attr4@0.1, Attr8@0.0->Attr1@1.0	 
+Attr0@24.0, Attr2@800.0, Attr4@0.1->Attr8@300.0	 
+Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr0@1.0	 
+Attr1@33.0, Attr4@0.1, Attr9@10.0->Attr8@300.0	 
+Attr1@22.0, Attr4@0.1, Attr8@500.0->Attr2@500.0	 
+Attr1@22.0, Attr4@0.1, Attr9@30.0->Attr8@300.0	 
+Attr1@5.0, Attr2@1900.0, Attr4@0.1->Attr8@0.0	 
+Attr0@9.0, Attr3@0.0, Attr4@0.1->Attr9@0.0	 
+Attr3@0.3, Attr8@4900.0, Attr9@0.0->Attr1@1.0	 
+Attr0@7.0, Attr1@5.0, Attr4@0.1->Attr8@0.0	 
+Attr1@1.0, Attr2@3500.0, Attr4@0.1->Attr9@0.0	 
+Attr1@44.0, Attr8@1300.0->Attr2@2300.0	 
+Attr1@33.0, Attr9@100.0->Attr2@2300.0	 
+Attr1@75.0, Attr9@0.0->Attr0@15.0	 
+Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.1->Attr1@3.0	 
+Attr0@9.0, Attr4@0.1, Attr8@0.0->Attr1@1.0	 
+Attr0@7.0, Attr1@6.0, Attr4@0.1->Attr2@300.0	 
+Attr1@2.0, Attr3@0.0, Attr4@0.1->Attr8@0.0	 
+Attr1@46.0, Attr8@1300.0->Attr2@2600.0	 
+Attr1@19.0, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr0@0.0, Attr4@0.1, Attr8@2800.0->Attr9@0.0	 
+Attr0@7.0, Attr3@0.3->Attr2@3500.0	 
+Attr2@2200.0, Attr9@350.0->Attr0@15.0	 
+Attr0@3.0, Attr4@0.1, Attr9@350.0->Attr2@1700.0	 
+Attr3@0.3, Attr8@200.0, Attr9@130.0->Attr2@0.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1->Attr1@10.0	 
+Attr1@40.0, Attr8@1400.0->Attr2@2300.0	 
+Attr4@0.1, Attr8@800.0, Attr9@350.0->Attr2@1700.0	 
+Attr1@17.0, Attr4@0.1, Attr8@700.0->Attr2@500.0	 
+Attr0@4.0, Attr8@1900.0->Attr9@40.0	 
+Attr1@19.0, Attr2@200.0, Attr4@0.1->Attr9@0.0	 
+Attr1@30.0, Attr3@0.0->Attr0@10.0	 
+Attr1@2.0, Attr2@2800.0, Attr4@0.1->Attr9@0.0	 
+Attr0@23.0, Attr2@1200.0->Attr1@16.0	 
+Attr2@1600.0, Attr4@0.1, Attr9@0.0->Attr1@1.0	 
+Attr0@4.0, Attr3@0.3, Attr9@350.0->Attr2@900.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@30.0->Attr8@400.0	 
+Attr2@1600.0, Attr4@0.1, Attr9@0.0->Attr8@0.0	 
+Attr0@11.0, Attr3@0.3->Attr2@3600.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.1->Attr2@500.0	 
+Attr1@4.0, Attr3@0.0->Attr2@2000.0	 
+Attr0@7.0, Attr3@0.3, Attr9@350.0->Attr8@800.0	 
+Attr1@44.0, Attr4@0.1, Attr8@100.0->Attr0@2.0	 
+Attr1@33.0, Attr4@0.1, Attr9@40.0->Attr0@2.0	 
+Attr0@1.0, Attr3@0.3, Attr9@350.0->Attr2@800.0	 
+Attr1@33.0, Attr4@0.1, Attr9@40.0->Attr8@800.0	 
+Attr1@1.0, Attr4@0.1->Attr9@110.0	 
+Attr2@2500.0, Attr4@0.1, Attr8@100.0->Attr9@0.0	 
+Attr1@28.0, Attr4@0.1, Attr8@100.0->Attr0@1.0	 
+Attr0@0.0, Attr1@9.0, Attr4@0.1->Attr2@0.0	 
+Attr0@8.0, Attr3@0.3->Attr1@26.0	 
+Attr3@0.1, Attr4@0.1, Attr8@900.0->Attr1@7.0	 
+Attr3@0.3, Attr9@0.0->Attr1@23.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1->Attr1@16.0	 
+Attr1@33.0, Attr8@2600.0->Attr2@2700.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@10.0->Attr8@300.0	 
+Attr2@3400.0->Attr1@45.0	 
+Attr2@3100.0, Attr3@0.3->Attr1@30.0	 
+Attr0@29.0, Attr8@1400.0->Attr2@2600.0	 
+Attr1@29.0, Attr8@1700.0->Attr2@2300.0	 
+Attr1@5.0, Attr2@1900.0, Attr4@0.1->Attr9@0.0	 
+Attr2@1900.0, Attr3@0.0->Attr0@9.0	 
+Attr1@17.0, Attr4@0.1, Attr8@1700.0->Attr2@900.0	 
+Attr4@0.1, Attr9@30.0->Attr2@3800.0	 
+Attr0@6.0, Attr4@0.1, Attr8@6900.0->Attr2@1700.0	 
+Attr3@0.3, Attr8@200.0, Attr9@130.0->Attr1@1.0	 
+Attr1@22.0, Attr4@0.1, Attr8@700.0->Attr2@700.0	 
+Attr1@2.0, Attr8@6900.0, Attr9@350.0->Attr2@0.0	 
+Attr1@1.0, Attr2@3500.0, Attr4@0.1->Attr0@1.0	 
+Attr0@28.0, Attr3@0.2->Attr1@26.0	 
+Attr0@7.0, Attr1@5.0, Attr4@0.1->Attr9@0.0	 
+Attr0@9.0, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr1@19.0, Attr4@0.1, Attr8@500.0->Attr0@1.0	 
+Attr2@1300.0, Attr9@30.0->Attr1@13.0	 
+Attr3@0.1, Attr4@0.1, Attr8@900.0->Attr9@20.0	 
+Attr1@19.0, Attr2@600.0, Attr4@0.1->Attr0@1.0	 
+Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr0@1.0	 
+Attr0@29.0, Attr8@1700.0->Attr2@2700.0	 
+Attr1@2.0, Attr3@0.0, Attr4@0.1->Attr9@0.0	 
+Attr1@40.0, Attr8@1600.0->Attr2@2700.0	 
+Attr1@2.0, Attr2@2800.0->Attr0@9.0	 
+Attr1@17.0, Attr4@0.1, Attr8@1700.0->Attr0@2.0	 
+Attr2@1200.0, Attr3@0.2->Attr1@20.0	 
+Attr2@1100.0, Attr3@0.1, Attr4@0.1->Attr1@7.0	 
+Attr2@3100.0, Attr3@0.0->Attr0@10.0	 
+Attr0@10.0, Attr4@0.1, Attr9@50.0->Attr8@800.0	 
+Attr2@1600.0, Attr4@0.1, Attr9@30.0->Attr0@1.0	 
+Attr1@17.0, Attr4@0.1, Attr8@700.0->Attr0@1.0	 
+Attr0@0.0, Attr1@9.0, Attr4@0.1->Attr8@0.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.1->Attr0@1.0	 
+Attr2@3100.0, Attr3@0.2->Attr1@23.0	 
+Attr2@2200.0, Attr4@0.0->Attr1@18.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.1->Attr8@300.0	 
+Attr0@4.0, Attr8@700.0->Attr9@30.0	 
+Attr1@2.0, Attr2@2800.0, Attr4@0.1->Attr0@1.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.1->Attr8@300.0	 
+Attr0@0.0, Attr2@1500.0, Attr4@0.1->Attr1@1.0	 
+Attr0@0.0, Attr2@1500.0, Attr4@0.1->Attr8@0.0	 
+Attr2@12600.0, Attr9@0.0->Attr0@15.0	 
+Attr1@15.0, Attr2@1100.0, Attr4@0.1->Attr0@1.0	 
+Attr2@2600.0, Attr4@0.1, Attr9@170.0->Attr8@900.0	 
+Attr1@15.0, Attr2@1100.0, Attr4@0.1->Attr8@300.0	 
+Attr2@1100.0, Attr3@0.1, Attr4@0.1->Attr9@20.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@40.0->Attr0@2.0	 
+Attr0@14.0, Attr2@1300.0->Attr1@16.0	 
+Attr0@6.0, Attr1@75.0->Attr2@3500.0	 
+Attr1@2.0, Attr8@6900.0->Attr2@2900.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@150.0->Attr8@900.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@40.0->Attr8@800.0	 
+Attr2@1300.0, Attr4@0.1, Attr9@30.0->Attr8@300.0	 
+Attr1@7.0, Attr2@1900.0, Attr4@0.1->Attr0@1.0	 
+Attr3@0.3, Attr8@600.0, Attr9@130.0->Attr2@500.0	 
+Attr0@14.0, Attr3@0.3, Attr9@0.0->Attr2@0.0	 
+Attr1@7.0, Attr2@1900.0, Attr4@0.1->Attr8@300.0	 
+Attr1@3.0, Attr3@0.2, Attr8@4700.0->Attr2@0.0	 
+Attr2@2500.0, Attr4@0.1, Attr8@0.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.0, Attr9@350.0->Attr2@0.0	 
+Attr2@2200.0, Attr4@0.1->Attr0@25.0	 
+Attr1@7.0, Attr3@0.3->Attr0@20.0	 
+Attr1@4.0, Attr2@1800.0->Attr0@9.0	 
+Attr2@1300.0, Attr3@0.2->Attr1@21.0	 
+Attr2@2600.0, Attr4@0.0->Attr1@19.0	 
+Attr2@1500.0, Attr3@0.1, Attr4@0.1->Attr1@8.0	 
+Attr0@7.0, Attr1@45.0, Attr4@0.1->Attr2@1700.0	 
+Attr1@22.0, Attr4@0.1, Attr8@800.0->Attr2@900.0	 
+Attr1@6.0, Attr4@0.1, Attr8@3200.0->Attr9@10.0	 
+Attr1@2.0, Attr3@0.0->Attr0@9.0	 
+Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr2@0.0	 
+Attr3@0.3, Attr8@4900.0, Attr9@0.0->Attr0@1.0	 
+Attr0@10.0, Attr1@75.0->Attr2@3600.0	 
+Attr1@33.0, Attr4@0.1, Attr9@100.0->Attr8@900.0	 
+Attr0@6.0, Attr1@75.0, Attr9@350.0->Attr8@800.0	 
+Attr1@34.0, Attr3@0.0, Attr9@350.0->Attr2@0.0	 
+Attr1@2.0, Attr4@0.0->Attr0@12.0	 
+Attr0@1.0, Attr2@1300.0->Attr1@13.0	 
+Attr1@67.0, Attr9@20.0->Attr2@3200.0	 
+Attr0@14.0, Attr3@0.3, Attr9@10.0->Attr2@300.0	 
+Attr3@0.3, Attr8@1600.0, Attr9@10.0->Attr2@300.0	 
+Attr2@2200.0, Attr4@0.1, Attr9@350.0->Attr0@9.0	 
+Attr1@2.0, Attr3@0.0, Attr4@0.1->Attr0@1.0	 
+Attr0@1.0, Attr4@0.0, Attr9@350.0->Attr2@0.0	 
+Attr4@0.1, Attr8@500.0->Attr0@24.0	 
+Attr0@18.0, Attr2@1200.0, Attr4@0.1->Attr8@800.0	 
+Attr0@10.0, Attr8@2300.0->Attr2@2700.0	 
+Attr0@14.0, Attr2@1500.0, Attr4@0.1->Attr8@800.0	 
+Attr0@14.0, Attr3@0.3, Attr9@0.0->Attr1@1.0	 
+Attr0@14.0, Attr3@0.3, Attr9@0.0->Attr8@0.0	 
+Attr0@0.0, Attr1@9.0, Attr4@0.1->Attr9@0.0	 
+Attr1@1.0->Attr3@0.1	 
+Attr0@29.0, Attr3@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@29.0, Attr3@0.0, Attr9@350.0->Attr8@0.0	 
+Attr1@44.0, Attr4@0.1, Attr8@800.0->Attr2@1700.0	 
+Attr0@0.0, Attr1@9.0->Attr3@0.0	 
+Attr0@23.0, Attr2@800.0, Attr4@0.1->Attr1@7.0	 
+Attr2@2500.0, Attr8@0.0->Attr1@16.0	 
+Attr2@0.0->Attr3@0.1	 
+Attr1@7.0, Attr4@0.1, Attr8@3200.0->Attr9@20.0	 
+Attr0@0.0, Attr2@1500.0, Attr4@0.1->Attr9@0.0	 
+Attr0@29.0, Attr3@0.2->Attr1@31.0	 
+Attr8@6900.0, Attr9@0.0->Attr0@15.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1->Attr1@10.0	 
+Attr3@0.3, Attr8@700.0, Attr9@130.0->Attr0@1.0	 
+Attr0@23.0, Attr2@400.0, Attr4@0.1->Attr1@6.0	 
+Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr1@1.0	 
+Attr0@1.0, Attr2@1300.0, Attr4@0.1->Attr8@300.0	 
+Attr0@23.0, Attr2@400.0, Attr4@0.1->Attr9@10.0	 
+Attr2@800.0, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@29.0, Attr4@0.1, Attr9@30.0->Attr2@1700.0	 
+Attr0@14.0, Attr3@0.3, Attr9@20.0->Attr2@500.0	 
+Attr0@0.0, Attr9@20.0->Attr3@0.0	 
+Attr2@800.0, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr1@34.0, Attr3@0.0, Attr9@350.0->Attr8@0.0	 
+Attr0@4.0, Attr3@0.2, Attr9@350.0->Attr2@800.0	 
+Attr3@0.3, Attr8@1600.0, Attr9@20.0->Attr2@500.0	 
+Attr0@1.0, Attr2@1500.0, Attr4@0.1->Attr8@400.0	 
+Attr2@1800.0, Attr3@0.1, Attr4@0.1->Attr1@10.0	 
+Attr4@0.1, Attr9@20.0->Attr1@35.0	 
+Attr2@1600.0, Attr9@350.0->Attr1@23.0	 
+Attr1@5.0, Attr8@3200.0, Attr9@350.0->Attr2@0.0	 
+Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr9@20.0	 
+Attr0@7.0, Attr3@0.2, Attr9@350.0->Attr8@700.0	 
+Attr0@1.0, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@1.0, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr0@23.0, Attr2@800.0, Attr4@0.1->Attr9@20.0	 
+Attr1@13.0, Attr3@0.3->Attr0@21.0	 
+Attr1@12.0, Attr2@1100.0->Attr0@10.0	 
+Attr1@7.0, Attr2@1800.0->Attr0@10.0	 
+Attr2@2200.0, Attr4@0.1, Attr9@190.0->Attr0@8.0	 
+Attr1@5.0, Attr8@6900.0, Attr9@150.0->Attr2@0.0	 
+Attr0@9.0, Attr8@0.0->Attr1@16.0	 
+Attr0@4.0, Attr3@0.3, Attr8@200.0->Attr2@0.0	 
+Attr0@14.0, Attr3@0.3, Attr9@100.0->Attr2@900.0	 
+Attr0@0.0, Attr8@600.0->Attr3@0.0	 
+Attr1@17.0, Attr4@0.1, Attr9@150.0->Attr0@8.0	 
+Attr1@17.0, Attr2@1100.0, Attr4@0.1->Attr0@2.0	 
+Attr0@0.0, Attr3@0.1, Attr9@350.0->Attr2@0.0	 
+Attr0@1.0, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr1@40.0, Attr8@2600.0->Attr2@3200.0	 
+Attr0@4.0, Attr3@0.1, Attr9@350.0->Attr2@500.0	 
+Attr0@0.0, Attr2@700.0->Attr3@0.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1300.0->Attr2@0.0	 
+Attr2@800.0, Attr8@6900.0, Attr9@350.0->Attr0@1.0	 
+Attr0@7.0, Attr3@0.3, Attr9@350.0->Attr2@1800.0	 
+Attr2@2500.0, Attr4@0.1, Attr8@100.0->Attr0@2.0	 
+Attr8@100.0->Attr1@45.0	 
+Attr0@14.0, Attr3@0.3, Attr9@100.0->Attr8@800.0	 
+Attr1@7.0, Attr3@0.2->Attr0@19.0	 
+Attr0@1.0, Attr9@350.0->Attr1@23.0	 
+Attr0@1.0, Attr2@12600.0->Attr1@23.0	 
+Attr0@7.0, Attr1@28.0, Attr4@0.1->Attr2@1600.0	 
+Attr1@2.0, Attr4@0.0, Attr8@6900.0->Attr2@0.0	 
+Attr0@6.0, Attr2@12600.0, Attr9@350.0->Attr8@800.0	 
+Attr1@3.0, Attr3@0.2, Attr8@4700.0->Attr9@0.0	 
+Attr2@2600.0, Attr9@350.0->Attr1@29.0	 
+Attr1@38.0, Attr9@100.0->Attr2@3200.0	 
+Attr0@7.0, Attr4@0.1, Attr8@2300.0->Attr2@1700.0	 
+Attr0@29.0, Attr3@0.3, Attr9@100.0->Attr2@1400.0	 
+Attr0@7.0, Attr3@0.3, Attr9@130.0->Attr2@900.0	 
+Attr1@28.0, Attr4@0.1, Attr8@800.0->Attr2@1400.0	 
+Attr2@1700.0, Attr3@0.3, Attr8@100.0->Attr1@1.0	 
+Attr1@75.0, Attr4@0.0, Attr8@700.0->Attr2@700.0	 
+Attr8@6900.0, Attr9@20.0->Attr2@3200.0	 
+Attr1@2.0, Attr8@6900.0, Attr9@350.0->Attr0@1.0	 
+Attr2@3100.0, Attr9@350.0->Attr1@30.0	 
+Attr0@4.0, Attr3@0.3, Attr8@200.0->Attr1@1.0	 
+Attr0@8.0, Attr4@0.1, Attr8@1800.0->Attr2@1700.0	 
+Attr0@10.0, Attr4@0.1, Attr9@50.0->Attr2@1700.0	 
+Attr3@0.3, Attr8@700.0, Attr9@130.0->Attr2@800.0	 
+Attr1@19.0, Attr2@400.0, Attr4@0.1->Attr9@10.0	 
+Attr0@0.0, Attr3@0.1, Attr9@350.0->Attr1@1.0	 
+Attr0@28.0, Attr3@0.1->Attr2@3600.0	 
+Attr1@6.0, Attr8@3200.0, Attr9@350.0->Attr2@300.0	 
+Attr0@14.0, Attr3@0.3, Attr9@20.0->Attr8@300.0	 
+Attr0@0.0, Attr3@0.1, Attr9@350.0->Attr8@0.0	 
+Attr0@0.0, Attr4@0.1, Attr9@350.0->Attr3@0.0	 
+Attr1@33.0, Attr9@40.0->Attr0@15.0	 
+Attr3@0.3, Attr8@1600.0, Attr9@20.0->Attr0@1.0	 
+Attr2@3600.0, Attr3@0.3->Attr1@35.0	 
+Attr1@6.0, Attr8@6900.0, Attr9@150.0->Attr2@300.0	 
+Attr3@0.3, Attr8@1300.0, Attr9@30.0->Attr0@1.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0->Attr2@700.0	 
+Attr1@12.0, Attr8@3200.0, Attr9@350.0->Attr2@500.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1300.0->Attr1@1.0	 
+Attr1@22.0, Attr3@0.2, Attr9@100.0->Attr0@1.0	 
+Attr0@7.0, Attr3@0.1, Attr9@350.0->Attr8@300.0	 
+Attr1@24.0, Attr3@0.1->Attr0@19.0	 
+Attr1@40.0, Attr9@70.0->Attr2@3200.0	 
+Attr3@0.3, Attr8@800.0, Attr9@130.0->Attr2@900.0	 
+Attr1@12.0, Attr8@6900.0, Attr9@150.0->Attr2@500.0	 
+Attr2@3100.0, Attr3@0.0, Attr9@350.0->Attr1@1.0	 
+Attr3@0.3, Attr4@0.1, Attr8@200.0, Attr9@350.0->Attr2@0.0	 
+Attr2@3100.0, Attr3@0.0, Attr9@350.0->Attr8@0.0	 
+Attr0@4.0, Attr3@0.3, Attr8@2800.0->Attr2@900.0	 
+Attr0@7.0, Attr1@75.0, Attr9@190.0->Attr8@800.0	 
+Attr1@19.0, Attr4@0.1, Attr8@500.0->Attr9@20.0	 
+Attr0@6.0, Attr8@6900.0->Attr2@3500.0	 
+Attr1@6.0, Attr2@1900.0, Attr4@0.1->Attr9@10.0	 
+Attr0@1.0, Attr3@0.3, Attr8@2800.0->Attr2@800.0	 
+Attr0@29.0, Attr3@0.1, Attr9@100.0->Attr2@500.0	 
+Attr1@19.0, Attr2@600.0, Attr4@0.1->Attr9@20.0	 
+Attr0@14.0, Attr3@0.3, Attr9@30.0->Attr2@800.0	 
+Attr0@4.0, Attr3@0.3->Attr8@2900.0	 
+Attr0@7.0, Attr1@6.0, Attr4@0.1->Attr9@10.0	 
+Attr0@29.0, Attr4@0.0, Attr9@30.0->Attr2@0.0	 
+Attr0@9.0, Attr4@0.1, Attr8@1400.0->Attr2@1700.0	 
+Attr0@7.0, Attr3@0.3->Attr8@3000.0	 
+Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr9@30.0	 
+Attr2@1300.0, Attr4@0.1, Attr9@30.0->Attr1@7.0	 
+Attr2@1600.0, Attr4@0.1, Attr9@10.0->Attr1@6.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.0->Attr2@0.0	 
+Attr8@900.0, Attr9@350.0->Attr1@29.0	 
+Attr0@14.0, Attr1@75.0, Attr9@0.0->Attr8@100.0	 
+Attr1@17.0, Attr4@0.1, Attr8@700.0->Attr9@20.0	 
+Attr0@4.0, Attr3@0.3, Attr8@600.0->Attr2@500.0	 
+Attr1@3.0, Attr3@0.2, Attr8@4700.0->Attr0@1.0	 
+Attr0@6.0, Attr2@12600.0->Attr1@29.0	 
+Attr0@1.0, Attr8@6900.0->Attr1@23.0	 
+Attr0@10.0, Attr8@6900.0->Attr2@3600.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.1->Attr2@2000.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.1->Attr9@20.0	 
+Attr2@3100.0, Attr3@0.1->Attr0@19.0	 
+Attr2@1500.0, Attr3@0.1, Attr4@0.0->Attr1@1.0	 
+Attr2@1500.0, Attr3@0.1, Attr4@0.0->Attr8@0.0	 
+Attr1@8.0, Attr9@350.0->Attr0@20.0	 
+Attr1@75.0, Attr4@0.0, Attr8@800.0->Attr2@900.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.1->Attr9@20.0	 
+Attr0@14.0, Attr3@0.3, Attr9@30.0->Attr8@700.0	 
+Attr1@15.0, Attr2@1100.0, Attr4@0.1->Attr9@20.0	 
+Attr1@15.0, Attr8@3200.0, Attr9@350.0->Attr0@1.0	 
+Attr1@24.0, Attr3@0.1->Attr2@3600.0	 
+Attr0@11.0, Attr1@52.0->Attr2@3600.0	 
+Attr1@33.0, Attr3@0.1, Attr9@100.0->Attr2@500.0	 
+Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr0@1.0	 
+Attr3@0.3, Attr4@0.1, Attr8@200.0, Attr9@350.0->Attr1@1.0	 
+Attr4@0.1, Attr9@50.0->Attr2@5400.0	 
+Attr1@40.0, Attr8@3200.0->Attr2@3600.0	 
+Attr1@2.0, Attr2@3500.0, Attr9@350.0->Attr8@0.0	 
+Attr0@9.0, Attr4@0.1, Attr8@700.0->Attr9@20.0	 
+Attr0@6.0, Attr1@75.0, Attr9@350.0->Attr2@1800.0	 
+Attr1@34.0, Attr3@0.0, Attr9@350.0->Attr0@1.0	 
+Attr3@0.2, Attr8@900.0, Attr9@130.0->Attr0@1.0	 
+Attr1@15.0, Attr8@6900.0, Attr9@150.0->Attr0@1.0	 
+Attr1@7.0, Attr2@1900.0, Attr4@0.1->Attr9@20.0	 
+Attr2@3100.0, Attr9@40.0->Attr0@15.0	 
+Attr2@1300.0, Attr8@6900.0, Attr9@350.0->Attr0@2.0	 
+Attr1@33.0, Attr4@0.0, Attr9@30.0->Attr2@0.0	 
+Attr3@0.2, Attr8@900.0, Attr9@350.0->Attr0@5.0	 
+Attr3@0.3, Attr8@1300.0, Attr9@30.0->Attr2@800.0	 
+Attr1@15.0, Attr4@0.0, Attr9@100.0->Attr2@0.0	 
+Attr1@22.0, Attr3@0.2, Attr9@100.0->Attr2@800.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1300.0->Attr9@0.0	 
+Attr0@29.0, Attr4@0.0, Attr9@30.0->Attr1@1.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.0->Attr2@0.0	 
+Attr0@29.0, Attr4@0.0, Attr9@30.0->Attr8@0.0	 
+Attr0@18.0, Attr1@3.0, Attr8@6900.0->Attr2@0.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.0->Attr1@1.0	 
+Attr3@0.3, Attr8@3200.0->Attr2@4100.0	 
+Attr1@38.0, Attr9@110.0->Attr2@3600.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.0->Attr8@0.0	 
+Attr1@3.0, Attr2@8700.0, Attr8@3800.0->Attr9@0.0	 
+Attr0@7.0, Attr1@45.0->Attr2@3500.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.1->Attr2@2000.0	 
+Attr1@15.0, Attr8@200.0, Attr9@350.0->Attr2@0.0	 
+Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr8@600.0	 
+Attr0@7.0, Attr1@5.0, Attr9@350.0->Attr2@0.0	 
+Attr1@7.0, Attr4@0.0, Attr8@3200.0->Attr2@0.0	 
+Attr0@10.0, Attr1@75.0, Attr9@100.0->Attr8@800.0	 
+Attr0@29.0, Attr3@0.1, Attr9@100.0->Attr8@300.0	 
+Attr1@2.0, Attr4@0.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@17.0, Attr3@0.2->Attr0@21.0	 
+Attr0@23.0, Attr2@200.0, Attr8@6900.0->Attr1@1.0	 
+Attr0@14.0, Attr1@75.0, Attr9@10.0->Attr8@300.0	 
+Attr2@5800.0->Attr1@56.0	 
+Attr0@14.0, Attr3@0.2, Attr9@100.0->Attr2@800.0	 
+Attr1@22.0, Attr3@0.2, Attr9@100.0->Attr8@700.0	 
+Attr3@0.3, Attr8@500.0->Attr0@24.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.0->Attr0@1.0	 
+Attr2@12600.0, Attr9@0.0->Attr1@29.0	 
+Attr0@24.0, Attr4@0.0, Attr8@700.0->Attr2@0.0	 
+Attr0@1.0, Attr2@1300.0, Attr4@0.1->Attr1@7.0	 
+Attr1@33.0, Attr3@0.3, Attr9@40.0->Attr2@1400.0	 
+Attr3@0.3, Attr4@0.1, Attr8@700.0, Attr9@350.0->Attr2@500.0	 
+Attr3@0.3, Attr8@600.0, Attr9@130.0->Attr1@7.0	 
+Attr3@0.3, Attr8@900.0, Attr9@40.0->Attr2@900.0	 
+Attr1@15.0, Attr4@0.0, Attr8@1700.0->Attr2@0.0	 
+Attr0@7.0, Attr1@45.0, Attr9@350.0->Attr8@800.0	 
+Attr0@14.0, Attr1@75.0, Attr9@20.0->Attr8@400.0	 
+Attr2@2200.0, Attr4@0.0, Attr9@350.0->Attr0@2.0	 
+Attr0@6.0, Attr8@6900.0->Attr1@29.0	 
+Attr2@2200.0, Attr4@0.0, Attr9@350.0->Attr8@800.0	 
+Attr0@7.0, Attr2@12600.0, Attr9@190.0->Attr8@800.0	 
+Attr1@33.0, Attr4@0.0, Attr9@30.0->Attr8@0.0	 
+Attr0@1.0, Attr2@1500.0, Attr4@0.1->Attr9@20.0	 
+Attr2@1300.0, Attr3@0.2, Attr9@110.0->Attr0@1.0	 
+Attr0@23.0, Attr2@1300.0->Attr1@21.0	 
+Attr1@15.0, Attr4@0.0, Attr9@100.0->Attr8@0.0	 
+Attr2@1500.0, Attr3@0.1, Attr4@0.0->Attr9@0.0	 
+Attr3@0.1, Attr8@900.0->Attr0@19.0	 
+Attr0@4.0, Attr1@75.0->Attr8@2900.0	 
+Attr2@1700.0, Attr3@0.3, Attr8@100.0->Attr0@1.0	 
+Attr2@700.0, Attr3@0.1, Attr8@6900.0->Attr0@1.0	 
+Attr2@2100.0, Attr3@0.3, Attr4@0.1->Attr1@21.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1, Attr9@350.0->Attr2@500.0	 
+Attr0@14.0, Attr3@0.2, Attr9@100.0->Attr8@700.0	 
+Attr0@29.0, Attr3@0.1, Attr9@10.0->Attr2@300.0	 
+Attr2@1700.0, Attr8@4900.0, Attr9@350.0->Attr0@2.0	 
+Attr1@33.0, Attr3@0.1, Attr9@100.0->Attr0@1.0	 
+Attr1@15.0, Attr8@3200.0, Attr9@350.0->Attr2@800.0	 
+Attr0@29.0, Attr3@0.0, Attr8@1900.0->Attr2@0.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.0->Attr8@0.0	 
+Attr0@7.0, Attr1@75.0->Attr8@3000.0	 
+Attr1@33.0, Attr3@0.1, Attr9@100.0->Attr8@300.0	 
+Attr0@1.0, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr3@0.3, Attr8@800.0->Attr0@25.0	 
+Attr3@0.2, Attr8@900.0, Attr9@130.0->Attr2@800.0	 
+Attr0@7.0, Attr3@0.2, Attr9@130.0->Attr2@800.0	 
+Attr1@15.0, Attr8@6900.0, Attr9@150.0->Attr2@800.0	 
+Attr2@3100.0, Attr9@150.0->Attr1@29.0	 
+Attr2@1300.0, Attr8@1700.0->Attr1@20.0	 
+Attr1@2.0, Attr9@260.0->Attr2@3600.0	 
+Attr0@7.0, Attr1@5.0, Attr9@350.0->Attr8@0.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@0.0->Attr8@100.0	 
+Attr1@34.0, Attr3@0.0, Attr8@1900.0->Attr2@0.0	 
+Attr3@0.2, Attr8@900.0, Attr9@350.0->Attr2@1800.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1300.0->Attr0@1.0	 
+Attr0@3.0, Attr4@0.0, Attr9@350.0->Attr2@900.0	 
+Attr0@14.0, Attr1@75.0, Attr9@30.0->Attr8@700.0	 
+Attr1@19.0, Attr2@600.0->Attr0@15.0	 
+Attr2@2600.0, Attr3@0.3, Attr4@0.1->Attr1@23.0	 
+Attr0@24.0, Attr4@0.0, Attr8@700.0->Attr1@1.0	 
+Attr4@0.0, Attr8@800.0, Attr9@350.0->Attr2@900.0	 
+Attr0@19.0, Attr1@3.0, Attr8@4700.0->Attr2@0.0	 
+Attr1@28.0, Attr8@4900.0, Attr9@0.0->Attr2@0.0	 
+Attr0@24.0, Attr2@800.0, Attr4@0.0->Attr8@0.0	 
+Attr2@3100.0, Attr3@0.0, Attr9@350.0->Attr0@1.0	 
+Attr1@3.0, Attr2@8700.0, Attr8@3800.0->Attr0@1.0	 
+Attr0@24.0, Attr2@800.0, Attr4@0.0->Attr1@1.0	 
+Attr0@7.0, Attr1@6.0, Attr9@350.0->Attr2@300.0	 
+Attr1@40.0, Attr3@0.0, Attr8@1700.0->Attr2@0.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.0->Attr9@0.0	 
+Attr2@3100.0, Attr4@0.0->Attr1@30.0	 
+Attr1@33.0, Attr3@0.1, Attr9@10.0->Attr2@300.0	 
+Attr1@2.0, Attr4@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr1@3.0, Attr3@0.0, Attr8@6900.0->Attr2@0.0	 
+Attr0@7.0, Attr1@12.0, Attr9@350.0->Attr2@500.0	 
+Attr3@0.1, Attr8@900.0, Attr9@130.0->Attr2@500.0	 
+Attr0@7.0, Attr3@0.1, Attr9@130.0->Attr2@500.0	 
+Attr1@17.0, Attr2@1100.0->Attr0@15.0	 
+Attr0@14.0, Attr3@0.3, Attr9@10.0->Attr1@6.0	 
+Attr0@23.0, Attr2@200.0, Attr8@6900.0->Attr9@0.0	 
+Attr0@23.0, Attr2@1600.0->Attr1@23.0	 
+Attr3@0.3, Attr8@1600.0, Attr9@10.0->Attr1@6.0	 
+Attr0@4.0, Attr3@0.2, Attr8@2800.0->Attr2@800.0	 
+Attr8@6900.0, Attr9@0.0->Attr1@29.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.0->Attr1@10.0	 
+Attr0@29.0, Attr3@0.0, Attr8@1900.0->Attr1@1.0	 
+Attr2@1600.0, Attr8@200.0, Attr9@350.0->Attr1@1.0	 
+Attr1@67.0, Attr9@30.0->Attr2@3800.0	 
+Attr1@41.0, Attr8@3200.0->Attr2@3700.0	 
+Attr0@0.0, Attr1@12.0, Attr9@350.0->Attr2@0.0	 
+Attr3@0.3, Attr4@0.1, Attr8@700.0, Attr9@350.0->Attr0@1.0	 
+Attr0@1.0, Attr4@0.0, Attr8@2800.0->Attr1@1.0	 
+Attr0@4.0, Attr3@0.3, Attr8@700.0->Attr2@800.0	 
+Attr4@0.0, Attr8@1600.0, Attr9@20.0->Attr2@0.0	 
+Attr1@28.0, Attr8@4900.0, Attr9@10.0->Attr2@300.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr2@0.0	 
+Attr0@14.0, Attr3@0.3, Attr9@20.0->Attr1@7.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@110.0->Attr0@1.0	 
+Attr3@0.3, Attr8@1600.0, Attr9@20.0->Attr1@7.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.0->Attr1@1.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@30.0->Attr1@1.0	 
+Attr0@6.0, Attr1@75.0, Attr4@0.0->Attr2@1600.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.0->Attr8@0.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@30.0->Attr8@0.0	 
+Attr1@7.0, Attr2@3500.0, Attr4@0.0->Attr8@0.0	 
+Attr1@15.0, Attr8@600.0, Attr9@350.0->Attr2@500.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@110.0->Attr8@300.0	 
+Attr3@0.3, Attr4@0.1, Attr9@70.0->Attr8@1800.0	 
+Attr1@13.0, Attr2@11700.0->Attr0@23.0	 
+Attr1@33.0, Attr3@0.2, Attr9@100.0->Attr2@1400.0	 
+Attr0@10.0, Attr2@12600.0, Attr9@100.0->Attr8@800.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr2@1700.0, Attr3@0.1, Attr9@350.0->Attr1@7.0	 
+Attr1@75.0, Attr8@500.0->Attr0@24.0	 
+Attr0@7.0, Attr3@0.3, Attr9@350.0->Attr1@16.0	 
+Attr0@18.0, Attr3@0.3, Attr8@1400.0->Attr2@1800.0	 
+Attr1@17.0, Attr8@6900.0, Attr9@130.0->Attr2@900.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@10.0->Attr8@300.0	 
+Attr1@8.0, Attr9@150.0->Attr2@3600.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.0->Attr9@0.0	 
+Attr1@19.0, Attr3@0.2->Attr0@25.0	 
+Attr1@2.0, Attr2@3500.0, Attr9@350.0->Attr0@1.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.1->Attr1@23.0	 
+Attr3@0.3, Attr8@0.0->Attr9@140.0	 
+Attr0@18.0, Attr1@3.0, Attr8@6900.0->Attr9@0.0	 
+Attr0@7.0, Attr1@75.0, Attr9@190.0->Attr2@1800.0	 
+Attr0@7.0, Attr3@0.3, Attr8@2900.0->Attr2@1800.0	 
+Attr1@5.0, Attr2@500.0, Attr9@350.0->Attr8@0.0	 
+Attr1@46.0, Attr8@3200.0->Attr2@3800.0	 
+Attr2@3500.0, Attr9@350.0->Attr1@35.0	 
+Attr2@3100.0, Attr3@0.2->Attr0@25.0	 
+Attr0@29.0, Attr3@0.3, Attr8@1400.0->Attr2@2000.0	 
+Attr0@6.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr1@7.0, Attr4@0.0, Attr8@3200.0->Attr9@0.0	 
+Attr0@4.0, Attr3@0.1, Attr9@350.0->Attr1@7.0	 
+Attr0@0.0, Attr3@0.1, Attr8@1900.0->Attr2@0.0	 
+Attr2@1300.0, Attr3@0.2, Attr9@110.0->Attr8@700.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@20.0->Attr8@400.0	 
+Attr0@7.0, Attr4@0.1, Attr8@2300.0->Attr9@40.0	 
+Attr1@9.0, Attr2@2600.0, Attr4@0.0->Attr8@0.0	 
+Attr0@28.0, Attr3@0.2, Attr4@0.1->Attr1@23.0	 
+Attr1@8.0, Attr2@11800.0->Attr0@23.0	 
+Attr1@17.0, Attr8@6900.0, Attr9@130.0->Attr0@2.0	 
+Attr0@19.0, Attr3@0.3->Attr2@5200.0	 
+Attr1@17.0, Attr4@0.0, Attr8@700.0->Attr2@0.0	 
+Attr1@28.0, Attr8@200.0, Attr9@130.0->Attr2@0.0	 
+Attr0@0.0, Attr1@12.0, Attr9@350.0->Attr8@0.0	 
+Attr1@17.0, Attr4@0.1, Attr8@1700.0->Attr9@40.0	 
+Attr0@4.0, Attr3@0.1, Attr8@1900.0->Attr2@500.0	 
+Attr0@24.0, Attr4@0.0, Attr8@700.0->Attr9@0.0	 
+Attr1@7.0, Attr8@3200.0->Attr0@19.0	 
+Attr4@0.0, Attr8@1600.0, Attr9@20.0->Attr1@1.0	 
+Attr0@4.0, Attr2@12600.0->Attr8@2900.0	 
+Attr0@8.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr0@24.0, Attr2@800.0, Attr4@0.0->Attr9@0.0	 
+Attr1@17.0, Attr8@1700.0->Attr0@19.0	 
+Attr3@0.3, Attr8@800.0, Attr9@350.0->Attr1@16.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr1@1.0	 
+Attr1@75.0, Attr8@800.0->Attr0@25.0	 
+Attr2@1100.0, Attr3@0.1, Attr8@6900.0->Attr0@2.0	 
+Attr1@13.0, Attr9@120.0->Attr2@3600.0	 
+Attr0@29.0, Attr1@75.0, Attr9@30.0->Attr2@1700.0	 
+Attr0@7.0, Attr2@12600.0->Attr8@3000.0	 
+Attr1@15.0, Attr4@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr0@6.0, Attr8@6900.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.0->Attr2@0.0	 
+Attr2@3100.0, Attr4@0.1, Attr9@170.0->Attr8@1500.0	 
+Attr0@7.0, Attr1@12.0, Attr9@350.0->Attr8@300.0	 
+Attr2@1600.0, Attr8@1700.0->Attr1@23.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1, Attr9@350.0->Attr2@900.0	 
+Attr1@17.0, Attr8@6100.0->Attr0@23.0	 
+Attr0@23.0, Attr2@1100.0, Attr4@0.1->Attr9@40.0	 
+Attr2@1800.0, Attr8@4900.0, Attr9@350.0->Attr0@5.0	 
+Attr0@29.0, Attr3@0.1, Attr9@130.0->Attr1@7.0	 
+Attr1@41.0, Attr9@70.0->Attr2@3700.0	 
+Attr4@0.0, Attr9@50.0->Attr2@3700.0	 
+Attr0@0.0, Attr4@0.1, Attr8@2800.0->Attr3@0.0	 
+Attr1@19.0, Attr2@200.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@7.0, Attr8@3800.0->Attr0@20.0	 
+Attr0@29.0, Attr4@0.0, Attr9@50.0->Attr2@900.0	 
+Attr0@28.0, Attr3@0.0, Attr8@4200.0->Attr2@700.0	 
+Attr1@75.0, Attr3@0.2, Attr4@0.1, Attr8@900.0->Attr2@700.0	 
+Attr0@29.0, Attr3@0.0, Attr8@1900.0->Attr9@0.0	 
+Attr1@2.0, Attr2@2800.0, Attr8@6900.0->Attr9@0.0	 
+Attr4@0.1, Attr9@30.0->Attr1@42.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@30.0->Attr8@700.0	 
+Attr2@3900.0, Attr4@0.1->Attr1@46.0	 
+Attr1@75.0, Attr8@1700.0->Attr2@4100.0	 
+Attr0@1.0, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr1@13.0, Attr8@6900.0->Attr0@23.0	 
+Attr1@17.0, Attr3@0.3, Attr9@150.0->Attr0@9.0	 
+Attr1@34.0, Attr3@0.0, Attr8@3700.0->Attr0@1.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr2@500.0	 
+Attr3@0.2, Attr4@0.1, Attr8@900.0, Attr9@350.0->Attr2@500.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr0@14.0, Attr1@52.0, Attr9@100.0->Attr8@800.0	 
+Attr0@7.0, Attr2@3500.0, Attr9@350.0->Attr8@800.0	 
+Attr0@10.0, Attr1@75.0, Attr9@100.0->Attr2@1700.0	 
+Attr1@33.0, Attr4@0.0, Attr9@30.0->Attr0@1.0	 
+Attr1@28.0, Attr8@4900.0, Attr9@30.0->Attr0@1.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.0->Attr9@0.0	 
+Attr1@7.0, Attr2@3500.0, Attr4@0.0->Attr9@0.0	 
+Attr2@1600.0, Attr8@300.0->Attr1@20.0	 
+Attr0@0.0, Attr3@0.1, Attr8@1900.0->Attr1@1.0	 
+Attr0@7.0, Attr1@75.0, Attr9@130.0->Attr2@1700.0	 
+Attr0@29.0, Attr3@0.0, Attr8@3700.0->Attr2@700.0	 
+Attr0@18.0, Attr1@5.0, Attr8@1900.0->Attr2@0.0	 
+Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr8@0.0	 
+Attr1@34.0, Attr3@0.0, Attr8@1900.0->Attr9@0.0	 
+Attr2@3500.0, Attr4@0.0->Attr8@2900.0	 
+Attr1@22.0, Attr3@0.2, Attr9@260.0->Attr0@9.0	 
+Attr1@30.0, Attr3@0.0, Attr8@4200.0->Attr0@1.0	 
+Attr1@33.0, Attr4@0.1, Attr8@3200.0->Attr2@2700.0	 
+Attr0@4.0, Attr1@22.0, Attr9@350.0->Attr2@900.0	 
+Attr2@3600.0, Attr3@0.0, Attr8@1700.0->Attr1@1.0	 
+Attr2@2600.0, Attr4@0.0, Attr9@350.0->Attr8@900.0	 
+Attr0@29.0, Attr4@0.0, Attr9@50.0->Attr8@800.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.0->Attr0@1.0	 
+Attr0@9.0, Attr4@0.1, Attr8@1400.0->Attr9@40.0	 
+Attr0@19.0, Attr1@3.0, Attr8@4700.0->Attr9@0.0	 
+Attr0@29.0, Attr4@0.0, Attr8@1400.0->Attr2@900.0	 
+Attr0@1.0, Attr1@22.0, Attr9@350.0->Attr2@800.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.0->Attr8@0.0	 
+Attr2@3500.0, Attr4@0.1->Attr1@45.0	 
+Attr1@40.0, Attr3@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr1@46.0, Attr9@70.0->Attr2@3800.0	 
+Attr1@34.0, Attr3@0.0, Attr8@3700.0->Attr2@700.0	 
+Attr2@2100.0, Attr3@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr0@8.0, Attr8@2300.0->Attr1@29.0	 
+Attr2@3100.0, Attr3@0.0, Attr8@1900.0->Attr1@1.0	 
+Attr8@6900.0, Attr9@30.0->Attr2@3800.0	 
+Attr3@0.1, Attr8@1300.0, Attr9@30.0->Attr2@500.0	 
+Attr1@5.0, Attr2@3500.0, Attr9@110.0->Attr8@0.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.0->Attr8@0.0	 
+Attr1@3.0, Attr3@0.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@17.0, Attr8@6900.0, Attr9@150.0->Attr0@5.0	 
+Attr1@16.0, Attr8@3200.0, Attr9@350.0->Attr0@5.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr0@18.0, Attr1@4.0, Attr8@6900.0->Attr2@700.0	 
+Attr0@8.0, Attr2@700.0, Attr9@350.0->Attr8@300.0	 
+Attr3@0.2, Attr8@900.0->Attr0@25.0	 
+Attr0@0.0, Attr2@700.0, Attr9@350.0->Attr1@1.0	 
+Attr1@75.0, Attr4@0.1, Attr9@70.0->Attr8@1800.0	 
+Attr0@0.0, Attr2@700.0, Attr9@350.0->Attr8@0.0	 
+Attr0@7.0, Attr1@15.0, Attr9@350.0->Attr2@800.0	 
+Attr1@30.0, Attr3@0.0, Attr8@4200.0->Attr2@700.0	 
+Attr1@9.0, Attr2@2600.0, Attr4@0.0->Attr9@0.0	 
+Attr0@9.0, Attr8@2300.0->Attr1@30.0	 
+Attr0@28.0, Attr3@0.0, Attr8@4200.0->Attr1@4.0	 
+Attr0@18.0, Attr2@1200.0, Attr4@0.1->Attr9@40.0	 
+Attr1@19.0, Attr2@600.0, Attr8@6900.0->Attr0@1.0	 
+Attr2@1600.0, Attr8@700.0, Attr9@350.0->Attr0@1.0	 
+Attr0@2.0, Attr9@140.0->Attr1@29.0	 
+Attr1@17.0, Attr8@3800.0->Attr0@21.0	 
+Attr1@17.0, Attr8@2200.0, Attr9@350.0->Attr0@5.0	 
+Attr0@14.0, Attr3@0.3, Attr9@150.0->Attr1@16.0	 
+Attr1@75.0, Attr8@3200.0->Attr2@5400.0	 
+Attr0@9.0, Attr3@0.0, Attr8@6900.0->Attr2@700.0	 
+Attr0@14.0, Attr2@1500.0, Attr4@0.1->Attr9@40.0	 
+Attr2@12600.0, Attr8@500.0->Attr0@24.0	 
+Attr0@4.0, Attr3@0.3, Attr8@600.0->Attr1@7.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@200.0->Attr1@1.0	 
+Attr0@7.0, Attr1@45.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@29.0, Attr4@0.0, Attr8@700.0->Attr2@700.0	 
+Attr1@3.0, Attr2@1800.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@33.0, Attr3@0.3, Attr4@0.1, Attr9@30.0->Attr2@500.0	 
+Attr2@1100.0, Attr3@0.1, Attr8@1900.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.0, Attr8@3700.0->Attr1@4.0	 
+Attr0@8.0, Attr2@3500.0->Attr1@29.0	 
+Attr2@1300.0, Attr3@0.2, Attr9@350.0->Attr1@13.0	 
+Attr0@29.0, Attr8@1400.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@29.0, Attr1@52.0, Attr9@100.0->Attr2@1700.0	 
+Attr0@7.0, Attr1@15.0, Attr9@350.0->Attr8@700.0	 
+Attr1@2.0, Attr2@2800.0, Attr8@6900.0->Attr0@1.0	 
+Attr0@9.0, Attr1@9.0, Attr8@6900.0->Attr2@700.0	 
+Attr1@17.0, Attr2@1800.0->Attr0@19.0	 
+Attr1@17.0, Attr2@700.0, Attr8@6900.0->Attr0@1.0	 
+Attr2@3900.0, Attr3@0.3->Attr1@42.0	 
+Attr0@9.0, Attr2@3500.0->Attr1@30.0	 
+Attr0@18.0, Attr3@0.2, Attr8@1800.0->Attr2@1800.0	 
+Attr0@14.0, Attr1@28.0, Attr9@0.0->Attr2@0.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@200.0->Attr1@1.0	 
+Attr1@47.0, Attr8@3200.0->Attr2@4000.0	 
+Attr1@5.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@0.0	 
+Attr2@2100.0, Attr8@2200.0, Attr9@350.0->Attr0@5.0	 
+Attr2@2200.0, Attr8@4900.0, Attr9@130.0->Attr0@2.0	 
+Attr2@3100.0, Attr3@0.0, Attr8@4200.0->Attr0@1.0	 
+Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr9@100.0->Attr2@900.0	 
+Attr0@1.0, Attr3@0.1, Attr8@2800.0->Attr2@700.0	 
+Attr0@18.0, Attr1@6.0, Attr8@1900.0->Attr2@300.0	 
+Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@50.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@30.0->Attr0@1.0	 
+Attr1@15.0, Attr2@2600.0, Attr4@0.0->Attr0@1.0	 
+Attr1@7.0, Attr2@3500.0, Attr4@0.0->Attr0@1.0	 
+Attr1@19.0, Attr8@500.0->Attr0@19.0	 
+Attr1@33.0, Attr3@0.1, Attr9@350.0->Attr0@9.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.0->Attr1@10.0	 
+Attr2@1600.0, Attr8@4900.0, Attr9@0.0->Attr1@1.0	 
+Attr0@29.0, Attr1@22.0, Attr9@100.0->Attr2@900.0	 
+Attr1@28.0, Attr8@300.0, Attr9@130.0->Attr2@500.0	 
+Attr0@18.0, Attr1@12.0, Attr8@1900.0->Attr2@500.0	 
+Attr0@0.0, Attr3@0.1, Attr8@1900.0->Attr9@0.0	 
+Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr9@0.0	 
+Attr2@2200.0, Attr8@1800.0, Attr9@350.0->Attr0@5.0	 
+Attr1@37.0, Attr3@0.2->Attr2@5200.0	 
+Attr1@33.0, Attr4@0.0, Attr9@40.0->Attr2@900.0	 
+Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr0@8.0, Attr2@2100.0, Attr9@350.0->Attr8@800.0	 
+Attr1@5.0, Attr2@600.0, Attr8@6900.0->Attr9@0.0	 
+Attr2@12600.0, Attr9@20.0->Attr1@35.0	 
+Attr1@33.0, Attr8@4900.0, Attr9@40.0->Attr0@2.0	 
+Attr1@4.0, Attr3@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr1@7.0, Attr2@1800.0, Attr8@6900.0->Attr0@1.0	 
+Attr0@19.0, Attr1@75.0->Attr2@5400.0	 
+Attr0@29.0, Attr3@0.2->Attr2@5200.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr2@500.0	 
+Attr1@17.0, Attr4@0.0, Attr8@700.0->Attr9@0.0	 
+Attr2@3600.0, Attr3@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr2@3600.0, Attr9@190.0->Attr1@35.0	 
+Attr0@8.0, Attr3@0.3, Attr9@170.0->Attr1@16.0	 
+Attr0@1.0, Attr2@1500.0, Attr4@0.0->Attr1@1.0	 
+Attr2@600.0, Attr3@0.1, Attr8@6900.0->Attr9@20.0	 
+Attr1@40.0, Attr3@0.0, Attr8@1700.0->Attr0@1.0	 
+Attr1@46.0, Attr3@0.2, Attr8@1300.0->Attr2@2000.0	 
+Attr0@18.0, Attr1@9.0, Attr8@4200.0->Attr2@700.0	 
+Attr0@1.0, Attr2@1500.0, Attr4@0.0->Attr8@0.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.0->Attr9@0.0	 
+Attr2@2200.0, Attr8@6900.0->Attr0@25.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@130.0->Attr1@7.0	 
+Attr1@22.0, Attr8@600.0, Attr9@130.0->Attr2@500.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr9@100.0->Attr8@800.0	 
+Attr0@14.0, Attr2@5300.0, Attr9@100.0->Attr8@800.0	 
+Attr1@17.0, Attr2@1100.0, Attr4@0.1->Attr9@40.0	 
+Attr0@9.0, Attr8@1400.0->Attr1@29.0	 
+Attr0@9.0, Attr2@2600.0->Attr1@29.0	 
+Attr1@10.0, Attr2@1100.0, Attr8@6900.0->Attr0@1.0	 
+Attr0@14.0, Attr1@28.0, Attr9@10.0->Attr2@300.0	 
+Attr0@7.0, Attr1@9.0, Attr4@0.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.0, Attr8@1900.0->Attr9@0.0	 
+Attr1@7.0, Attr2@2800.0, Attr4@0.1->Attr0@10.0	 
+Attr0@8.0, Attr3@0.3, Attr8@2900.0->Attr2@2200.0	 
+Attr1@16.0, Attr8@3200.0, Attr9@350.0->Attr2@1800.0	 
+Attr1@17.0, Attr8@6900.0, Attr9@150.0->Attr2@1800.0	 
+Attr0@29.0, Attr1@22.0, Attr9@100.0->Attr8@800.0	 
+Attr1@15.0, Attr2@3500.0, Attr9@110.0->Attr0@1.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.0->Attr1@16.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0->Attr1@5.0	 
+Attr0@6.0, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr0@8.0, Attr4@0.0, Attr8@2300.0->Attr2@900.0	 
+Attr0@7.0, Attr3@0.1->Attr8@2900.0	 
+Attr0@10.0, Attr8@6900.0, Attr9@150.0->Attr2@1800.0	 
+Attr0@29.0, Attr3@0.2, Attr8@1700.0->Attr2@2000.0	 
+Attr3@0.0, Attr8@1700.0, Attr9@20.0->Attr2@0.0	 
+Attr1@4.0, Attr3@0.0, Attr8@6900.0->Attr2@700.0	 
+Attr2@2100.0, Attr8@4900.0, Attr9@190.0->Attr0@5.0	 
+Attr4@0.0, Attr8@1600.0, Attr9@20.0->Attr0@1.0	 
+Attr3@0.3, Attr8@700.0, Attr9@130.0->Attr1@13.0	 
+Attr3@0.3, Attr4@0.1, Attr8@700.0, Attr9@350.0->Attr1@7.0	 
+Attr1@17.0, Attr8@2200.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@6.0, Attr4@0.0, Attr8@2800.0->Attr2@900.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@14.0, Attr1@28.0, Attr9@0.0->Attr8@0.0	 
+Attr1@22.0, Attr3@0.2, Attr9@110.0->Attr0@8.0	 
+Attr2@2200.0, Attr8@4900.0, Attr9@170.0->Attr0@5.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr0@1.0	 
+Attr1@41.0, Attr3@0.2->Attr2@5500.0	 
+Attr1@52.0, Attr8@3200.0->Attr2@4100.0	 
+Attr1@40.0, Attr3@0.2, Attr8@1600.0->Attr2@2000.0	 
+Attr0@8.0, Attr3@0.1, Attr8@6900.0->Attr2@1800.0	 
+Attr0@8.0, Attr2@800.0, Attr9@350.0->Attr8@700.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr8@1500.0, Attr9@350.0->Attr2@4100.0	 
+Attr0@23.0, Attr3@0.3, Attr8@1400.0->Attr1@16.0	 
+Attr0@7.0, Attr8@6900.0, Attr9@190.0->Attr2@1800.0	 
+Attr0@8.0, Attr8@6900.0, Attr9@170.0->Attr2@1800.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr2@500.0	 
+Attr1@12.0, Attr2@3500.0, Attr9@110.0->Attr8@300.0	 
+Attr1@33.0, Attr3@0.3, Attr4@0.1, Attr9@30.0->Attr8@300.0	 
+Attr0@4.0, Attr1@28.0, Attr9@350.0->Attr2@1400.0	 
+Attr2@12600.0, Attr4@0.1, Attr9@90.0->Attr8@1800.0	 
+Attr3@0.2, Attr8@900.0, Attr9@350.0->Attr1@16.0	 
+Attr0@18.0, Attr1@5.0, Attr8@1900.0->Attr9@0.0	 
+Attr2@9600.0, Attr8@800.0->Attr0@25.0	 
+Attr2@3500.0, Attr4@0.0->Attr1@35.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr8@1600.0, Attr9@20.0->Attr1@29.0	 
+Attr0@20.0, Attr3@0.2, Attr8@1800.0->Attr2@2000.0	 
+Attr1@28.0, Attr8@700.0, Attr9@130.0->Attr0@1.0	 
+Attr8@1300.0, Attr9@30.0->Attr1@29.0	 
+Attr1@6.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@300.0	 
+Attr0@18.0, Attr1@15.0, Attr8@200.0->Attr2@0.0	 
+Attr2@1300.0, Attr4@0.1, Attr8@6900.0->Attr1@20.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr8@1400.0->Attr2@900.0	 
+Attr2@1600.0, Attr8@4900.0, Attr9@30.0->Attr0@1.0	 
+Attr1@47.0, Attr9@70.0->Attr2@4000.0	 
+Attr0@10.0, Attr8@6900.0, Attr9@130.0->Attr2@1700.0	 
+Attr1@61.0, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr3@0.1, Attr8@3300.0->Attr2@4100.0	 
+Attr2@3100.0, Attr3@0.0, Attr8@4200.0->Attr1@4.0	 
+Attr1@17.0, Attr8@3200.0, Attr9@350.0->Attr2@1900.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr2@500.0	 
+Attr2@11300.0, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@200.0->Attr9@0.0	 
+Attr1@17.0, Attr2@8700.0, Attr9@260.0->Attr0@9.0	 
+Attr3@0.0, Attr8@3700.0->Attr2@3800.0	 
+Attr0@8.0, Attr2@3500.0, Attr9@170.0->Attr8@800.0	 
+Attr0@23.0, Attr2@700.0, Attr8@6900.0->Attr1@7.0	 
+Attr0@23.0, Attr2@400.0, Attr8@6900.0->Attr1@6.0	 
+Attr1@33.0, Attr3@0.2, Attr8@1700.0->Attr2@2000.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr2@500.0	 
+Attr0@23.0, Attr2@400.0, Attr8@6900.0->Attr9@10.0	 
+Attr1@17.0, Attr3@0.3, Attr4@0.1->Attr0@21.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@350.0->Attr0@9.0	 
+Attr0@9.0, Attr3@0.1, Attr8@6900.0->Attr2@1900.0	 
+Attr0@29.0, Attr8@6900.0, Attr9@30.0->Attr2@1700.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr0@1.0	 
+Attr0@14.0, Attr3@0.3, Attr9@30.0->Attr1@13.0	 
+Attr0@1.0, Attr2@12600.0, Attr4@0.0->Attr1@10.0	 
+Attr0@0.0, Attr2@1500.0, Attr4@0.1->Attr3@0.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr8@300.0	 
+Attr0@29.0, Attr3@0.1, Attr9@10.0->Attr1@6.0	 
+Attr3@0.0, Attr8@1700.0, Attr9@20.0->Attr1@1.0	 
+Attr0@4.0, Attr1@28.0, Attr8@200.0->Attr2@0.0	 
+Attr2@3100.0, Attr8@4900.0, Attr9@40.0->Attr0@2.0	 
+Attr2@3600.0, Attr3@0.0, Attr8@1700.0->Attr0@1.0	 
+Attr8@6900.0, Attr9@20.0->Attr1@35.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr8@300.0	 
+Attr1@16.0, Attr2@3700.0->Attr0@23.0	 
+Attr0@23.0, Attr2@1600.0, Attr8@200.0->Attr1@1.0	 
+Attr0@18.0, Attr1@10.0, Attr8@2800.0->Attr2@700.0	 
+Attr0@29.0, Attr3@0.1, Attr9@350.0->Attr1@17.0	 
+Attr0@1.0, Attr2@1500.0, Attr4@0.0->Attr9@0.0	 
+Attr3@0.3, Attr4@0.1, Attr8@1300.0, Attr9@30.0->Attr2@500.0	 
+Attr1@22.0, Attr3@0.2, Attr9@350.0->Attr0@12.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.0->Attr0@8.0	 
+Attr1@17.0, Attr8@3200.0, Attr9@190.0->Attr0@5.0	 
+Attr3@0.1, Attr8@900.0, Attr9@130.0->Attr1@7.0	 
+Attr1@46.0, Attr3@0.3, Attr8@1300.0->Attr2@2300.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr2@0.0	 
+Attr1@17.0, Attr2@1100.0, Attr8@6900.0->Attr0@2.0	 
+Attr0@7.0, Attr1@45.0, Attr4@0.0->Attr2@1600.0	 
+Attr8@1600.0, Attr9@260.0->Attr2@4100.0	 
+Attr0@20.0, Attr3@0.2, Attr8@2600.0->Attr2@2200.0	 
+Attr0@18.0, Attr3@0.1, Attr8@4200.0->Attr2@1900.0	 
+Attr1@17.0, Attr2@2600.0, Attr4@0.0->Attr0@2.0	 
+Attr1@67.0, Attr9@70.0->Attr2@5400.0	 
+Attr1@40.0, Attr4@0.1, Attr8@3200.0->Attr2@3200.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@500.0	 
+Attr0@8.0, Attr1@3.0, Attr2@3500.0->Attr8@0.0	 
+Attr0@23.0, Attr2@600.0, Attr8@6900.0->Attr9@20.0	 
+Attr2@5300.0, Attr4@0.1->Attr1@48.0	 
+Attr1@4.0, Attr3@0.2, Attr8@4700.0->Attr2@2000.0	 
+Attr4@0.1, Attr8@500.0->Attr1@45.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.0->Attr1@10.0	 
+Attr0@18.0, Attr1@15.0, Attr8@2800.0->Attr2@800.0	 
+Attr0@14.0, Attr2@3500.0, Attr9@110.0->Attr8@800.0	 
+Attr1@46.0, Attr8@1300.0, Attr9@40.0->Attr0@2.0	 
+Attr0@7.0, Attr3@0.3, Attr8@2900.0->Attr1@16.0	 
+Attr0@14.0, Attr3@0.2, Attr9@130.0->Attr1@13.0	 
+Attr1@52.0, Attr9@70.0->Attr2@4100.0	 
+Attr1@5.0, Attr3@0.2, Attr8@4200.0->Attr2@2000.0	 
+Attr0@0.0, Attr1@12.0, Attr8@1900.0->Attr2@0.0	 
+Attr2@3600.0, Attr3@0.0, Attr4@0.0->Attr9@10.0	 
+Attr1@5.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr9@0.0	 
+Attr1@7.0, Attr2@1900.0, Attr8@3800.0->Attr0@1.0	 
+Attr0@29.0, Attr1@28.0, Attr9@100.0->Attr2@1400.0	 
+Attr0@0.0, Attr4@0.1->Attr3@0.1	 
+Attr2@3100.0, Attr3@0.3, Attr4@0.1, Attr9@30.0->Attr8@300.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr8@300.0	 
+Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@30.0	 
+Attr2@2200.0, Attr8@4900.0, Attr9@350.0->Attr0@9.0	 
+Attr1@2.0, Attr3@0.1, Attr9@350.0->Attr0@8.0	 
+Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr0@1.0	 
+Attr3@0.3, Attr8@1300.0, Attr9@30.0->Attr1@13.0	 
+Attr0@0.0, Attr3@0.1, Attr8@2800.0->Attr1@4.0	 
+Attr0@18.0, Attr3@0.1, Attr8@6900.0->Attr2@2200.0	 
+Attr0@18.0, Attr3@0.2, Attr8@2900.0->Attr2@2200.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@40.0->Attr2@900.0	 
+Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr8@300.0	 
+Attr0@29.0, Attr3@0.3, Attr8@2600.0->Attr2@2700.0	 
+Attr1@33.0, Attr3@0.3, Attr4@0.1, Attr9@40.0->Attr2@900.0	 
+Attr1@46.0, Attr3@0.2, Attr4@0.1, Attr8@1300.0->Attr2@700.0	 
+Attr0@8.0, Attr3@0.0->Attr8@2000.0	 
+Attr1@15.0, Attr2@3500.0, Attr9@110.0->Attr8@700.0	 
+Attr3@0.3, Attr8@900.0, Attr9@350.0->Attr1@19.0	 
+Attr1@51.0, Attr3@0.1->Attr2@5500.0	 
+Attr1@67.0, Attr3@0.0->Attr2@5000.0	 
+Attr3@0.3, Attr4@0.0, Attr8@1300.0->Attr2@2300.0	 
+Attr0@29.0, Attr8@1700.0, Attr9@150.0->Attr2@1800.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.1, Attr9@30.0->Attr8@400.0	 
+Attr2@2200.0, Attr8@2200.0, Attr9@350.0->Attr0@8.0	 
+Attr1@40.0, Attr4@0.1, Attr9@100.0->Attr2@3200.0	 
+Attr1@17.0, Attr2@3500.0, Attr9@110.0->Attr0@2.0	 
+Attr0@8.0, Attr3@0.3, Attr8@1800.0->Attr1@16.0	 
+Attr0@14.0, Attr3@0.2, Attr9@170.0->Attr1@16.0	 
+Attr1@17.0, Attr2@3500.0, Attr9@110.0->Attr8@800.0	 
+Attr1@40.0, Attr8@1600.0, Attr9@40.0->Attr0@2.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr2@0.0	 
+Attr1@17.0, Attr2@5100.0, Attr9@350.0->Attr0@9.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr1@1.0	 
+Attr1@3.0->Attr2@8800.0	 
+Attr0@18.0, Attr3@0.1, Attr8@2200.0->Attr2@1800.0	 
+Attr1@40.0, Attr3@0.0, Attr8@1900.0->Attr9@10.0	 
+Attr1@5.0, Attr2@1900.0, Attr8@1900.0->Attr9@0.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@40.0->Attr0@2.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.1, Attr8@2600.0->Attr2@2000.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr2@700.0	 
+Attr1@19.0, Attr2@400.0, Attr8@6900.0->Attr9@10.0	 
+Attr0@7.0, Attr1@22.0, Attr9@130.0->Attr2@900.0	 
+Attr1@15.0, Attr4@0.1, Attr8@3200.0, Attr9@350.0->Attr2@500.0	 
+Attr0@1.0, Attr4@0.0, Attr8@6900.0->Attr1@10.0	 
+Attr0@8.0, Attr1@3.0, Attr3@0.0->Attr2@0.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.1, Attr9@10.0->Attr8@300.0	 
+Attr1@28.0, Attr4@0.1, Attr8@200.0, Attr9@350.0->Attr2@0.0	 
+Attr1@17.0, Attr4@0.1, Attr9@350.0->Attr0@20.0	 
+Attr0@4.0, Attr3@0.1, Attr8@1900.0->Attr1@7.0	 
+Attr3@0.1, Attr8@5100.0->Attr2@5500.0	 
+Attr1@37.0, Attr3@0.1->Attr2@5000.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr2@900.0	 
+Attr1@40.0, Attr3@0.2, Attr4@0.1, Attr8@1600.0->Attr2@700.0	 
+Attr0@23.0, Attr2@1700.0, Attr8@200.0->Attr9@0.0	 
+Attr0@29.0, Attr3@0.1->Attr2@5000.0	 
+Attr1@13.0, Attr2@11700.0, Attr9@150.0->Attr0@9.0	 
+Attr1@2.0, Attr2@5100.0, Attr9@350.0->Attr0@8.0	 
+Attr1@40.0, Attr4@0.1, Attr9@150.0->Attr2@3600.0	 
+Attr0@8.0, Attr2@3400.0->Attr8@2900.0	 
+Attr0@7.0, Attr1@25.0->Attr8@2900.0	 
+Attr0@8.0, Attr2@1500.0->Attr8@2000.0	 
+Attr0@7.0, Attr1@9.0->Attr8@2000.0	 
+Attr1@15.0, Attr2@1900.0, Attr8@1800.0->Attr0@1.0	 
+Attr1@22.0, Attr8@700.0, Attr9@130.0->Attr2@800.0	 
+Attr0@18.0, Attr1@15.0, Attr8@600.0->Attr2@500.0	 
+Attr0@7.0, Attr2@3400.0, Attr3@0.3->Attr1@16.0	 
+Attr0@1.0, Attr3@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr1@7.0	 
+Attr0@29.0, Attr8@1700.0, Attr9@130.0->Attr2@1700.0	 
+Attr1@33.0, Attr3@0.1, Attr9@110.0->Attr0@8.0	 
+Attr2@5800.0, Attr4@0.1->Attr1@53.0	 
+Attr1@17.0, Attr8@3200.0, Attr9@190.0->Attr2@1800.0	 
+Attr2@1300.0, Attr3@0.0->Attr8@2000.0	 
+Attr1@17.0, Attr2@10200.0, Attr9@150.0->Attr0@9.0	 
+Attr1@22.0, Attr2@2200.0, Attr9@110.0->Attr0@2.0	 
+Attr0@23.0, Attr3@0.2, Attr8@1800.0->Attr1@16.0	 
+Attr2@1100.0, Attr3@0.1, Attr8@1900.0->Attr1@7.0	 
+Attr2@1600.0, Attr8@300.0, Attr9@350.0->Attr1@7.0	 
+Attr1@5.0, Attr3@0.2, Attr8@4700.0->Attr2@2200.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1->Attr8@2900.0	 
+Attr1@22.0, Attr2@2200.0, Attr9@110.0->Attr8@800.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr3@0.3, Attr4@0.1, Attr8@3200.0->Attr2@4000.0	 
+Attr0@14.0, Attr2@1600.0, Attr9@0.0->Attr8@0.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr0@1.0	 
+Attr0@14.0, Attr2@1600.0, Attr9@0.0->Attr1@1.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.1, Attr8@1800.0->Attr2@900.0	 
+Attr2@2200.0, Attr8@4900.0, Attr9@190.0->Attr0@8.0	 
+Attr3@0.2, Attr8@5100.0->Attr2@6000.0	 
+Attr0@8.0, Attr2@3500.0->Attr8@3000.0	 
+Attr0@8.0, Attr1@3.0, Attr2@3500.0->Attr9@0.0	 
+Attr2@1300.0, Attr8@600.0, Attr9@350.0->Attr1@7.0	 
+Attr1@22.0, Attr8@800.0, Attr9@130.0->Attr2@900.0	 
+Attr0@18.0, Attr1@15.0, Attr8@200.0->Attr9@0.0	 
+Attr0@4.0, Attr3@0.1, Attr8@1900.0->Attr9@20.0	 
+Attr1@19.0, Attr2@600.0, Attr8@6900.0->Attr9@20.0	 
+Attr2@1900.0, Attr3@0.1, Attr8@1800.0->Attr0@5.0	 
+Attr0@19.0, Attr1@52.0->Attr2@5200.0	 
+Attr1@30.0, Attr3@0.1->Attr2@4600.0	 
+Attr1@33.0, Attr3@0.1, Attr8@2600.0->Attr2@2000.0	 
+Attr0@4.0, Attr1@22.0, Attr8@2800.0->Attr2@900.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr2@700.0	 
+Attr1@19.0, Attr3@0.2, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr8@2300.0	 
+Attr1@17.0, Attr2@800.0, Attr8@1900.0->Attr0@1.0	 
+Attr1@17.0, Attr8@3200.0, Attr9@350.0->Attr0@9.0	 
+Attr0@29.0, Attr3@0.1, Attr9@190.0->Attr1@16.0	 
+Attr3@0.2, Attr8@900.0, Attr9@130.0->Attr1@13.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr3@0.2, Attr4@0.1, Attr8@900.0, Attr9@350.0->Attr1@7.0	 
+Attr1@17.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr2@500.0	 
+Attr1@5.0, Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr8@0.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@10.0->Attr1@6.0	 
+Attr1@33.0, Attr3@0.2, Attr9@350.0->Attr0@15.0	 
+Attr0@8.0, Attr1@22.0, Attr8@6900.0->Attr2@1800.0	 
+Attr0@1.0, Attr1@22.0, Attr8@2800.0->Attr2@800.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr2@500.0	 
+Attr0@9.0, Attr1@15.0, Attr8@6900.0->Attr2@1600.0	 
+Attr0@14.0, Attr2@1800.0, Attr3@0.3->Attr1@16.0	 
+Attr1@30.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr2@700.0	 
+Attr1@15.0, Attr2@1100.0, Attr8@1900.0->Attr0@1.0	 
+Attr0@4.0, Attr1@28.0, Attr8@300.0->Attr2@500.0	 
+Attr2@1100.0, Attr3@0.1, Attr8@1900.0->Attr9@20.0	 
+Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@1800.0	 
+Attr0@8.0, Attr1@3.0, Attr3@0.0->Attr8@0.0	 
+Attr1@5.0, Attr2@8700.0, Attr4@0.1, Attr8@4700.0->Attr9@0.0	 
+Attr8@6900.0, Attr9@90.0->Attr2@5400.0	 
+Attr0@18.0, Attr3@0.3, Attr8@2900.0->Attr2@2700.0	 
+Attr0@8.0, Attr8@6900.0, Attr9@190.0->Attr2@2200.0	 
+Attr1@46.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr2@500.0	 
+Attr2@3600.0, Attr8@1600.0, Attr9@40.0->Attr0@2.0	 
+Attr2@3900.0, Attr8@1300.0, Attr9@40.0->Attr0@2.0	 
+Attr2@1700.0, Attr3@0.1, Attr8@1900.0->Attr1@8.0	 
+Attr2@3600.0, Attr3@0.0, Attr8@1900.0->Attr9@10.0	 
+Attr0@4.0, Attr1@22.0, Attr8@600.0->Attr2@500.0	 
+Attr0@29.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr2@0.0	 
+Attr1@17.0, Attr2@2000.0->Attr0@23.0	 
+Attr2@2200.0, Attr4@0.0, Attr9@350.0->Attr1@16.0	 
+Attr3@0.1, Attr8@1300.0, Attr9@30.0->Attr1@7.0	 
+Attr0@28.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr9@0.0	 
+Attr0@7.0, Attr1@45.0, Attr8@2900.0->Attr2@1800.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.1->Attr0@19.0	 
+Attr0@17.0, Attr8@6900.0->Attr2@5400.0	 
+Attr0@18.0, Attr1@44.0, Attr8@1400.0->Attr2@1800.0	 
+Attr0@14.0, Attr2@2100.0, Attr3@0.3->Attr1@17.0	 
+Attr0@9.0, Attr1@22.0, Attr8@6900.0->Attr2@1900.0	 
+Attr0@18.0, Attr1@15.0, Attr8@4200.0->Attr2@1600.0	 
+Attr1@44.0, Attr8@0.0->Attr9@140.0	 
+Attr0@8.0, Attr1@3.0->Attr9@110.0	 
+Attr0@4.0, Attr3@0.2, Attr8@1900.0->Attr9@30.0	 
+Attr3@0.0, Attr8@1700.0, Attr9@20.0->Attr0@1.0	 
+Attr0@0.0, Attr2@700.0, Attr8@1900.0->Attr1@1.0	 
+Attr1@75.0, Attr4@0.0, Attr8@1300.0->Attr2@2300.0	 
+Attr0@1.0, Attr1@12.0, Attr8@2800.0->Attr2@700.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr2@500.0	 
+Attr1@34.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr2@0.0	 
+Attr1@4.0, Attr2@1900.0, Attr3@0.3->Attr0@9.0	 
+Attr0@3.0, Attr4@0.1, Attr9@350.0->Attr1@29.0	 
+Attr0@4.0, Attr3@0.3, Attr8@700.0->Attr1@13.0	 
+Attr0@23.0, Attr2@1200.0, Attr3@0.2->Attr1@13.0	 
+Attr0@29.0, Attr1@44.0, Attr8@1400.0->Attr2@2000.0	 
+Attr1@17.0, Attr2@8700.0, Attr9@350.0->Attr0@12.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.1, Attr8@1600.0->Attr2@500.0	 
+Attr1@19.0, Attr2@1700.0, Attr8@200.0->Attr9@0.0	 
+Attr2@2600.0, Attr3@0.3, Attr9@350.0->Attr1@23.0	 
+Attr3@0.3, Attr8@900.0, Attr9@40.0->Attr1@16.0	 
+Attr1@34.0, Attr3@0.0->Attr0@29.0	 
+Attr0@9.0, Attr1@16.0, Attr8@6900.0->Attr2@1800.0	 
+Attr2@3500.0, Attr4@0.1, Attr9@190.0->Attr8@1900.0	 
+Attr0@0.0, Attr1@12.0, Attr8@1900.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr0@1.0	 
+Attr2@5900.0->Attr1@64.0	 
+Attr0@28.0, Attr3@0.2, Attr4@0.0->Attr1@18.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.3->Attr1@16.0	 
+Attr3@0.0, Attr4@0.1, Attr9@230.0->Attr8@1800.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr8@300.0	 
+Attr1@3.0, Attr2@1300.0, Attr3@0.0->Attr8@0.0	 
+Attr1@6.0, Attr2@600.0, Attr8@6900.0->Attr9@10.0	 
+Attr8@5000.0, Attr9@110.0->Attr2@5400.0	 
+Attr3@0.3, Attr4@0.1, Attr9@70.0->Attr2@4000.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr1@1.0	 
+Attr0@9.0, Attr1@5.0, Attr2@500.0->Attr8@0.0	 
+Attr0@6.0, Attr2@12600.0, Attr4@0.0->Attr1@16.0	 
+Attr3@0.3, Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr2@0.0	 
+Attr0@18.0, Attr1@22.0, Attr8@4200.0->Attr2@1900.0	 
+Attr0@18.0, Attr1@25.0, Attr8@6900.0->Attr2@2200.0	 
+Attr0@8.0, Attr1@5.0, Attr2@600.0->Attr8@0.0	 
+Attr0@18.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr2@500.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.1, Attr8@4700.0->Attr0@1.0	 
+Attr1@17.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3, Attr9@350.0->Attr1@30.0	 
+Attr0@29.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr1@1.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr9@0.0	 
+Attr0@8.0, Attr8@1800.0->Attr9@140.0	 
+Attr2@3100.0, Attr3@0.2, Attr9@350.0->Attr0@15.0	 
+Attr8@1700.0, Attr9@120.0->Attr2@4100.0	 
+Attr0@18.0, Attr1@16.0, Attr8@4200.0->Attr2@1800.0	 
+Attr0@7.0, Attr1@28.0, Attr9@130.0->Attr2@1400.0	 
+Attr0@7.0, Attr1@75.0, Attr4@0.1->Attr8@2900.0	 
+Attr0@7.0, Attr8@1900.0->Attr9@140.0	 
+Attr1@20.0, Attr2@2000.0->Attr0@25.0	 
+Attr1@15.0, Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr0@1.0	 
+Attr1@28.0, Attr2@1700.0, Attr8@100.0->Attr0@1.0	 
+Attr3@0.3, Attr4@0.0, Attr8@800.0->Attr1@18.0	 
+Attr1@15.0, Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@24.0, Attr2@1100.0, Attr3@0.2, Attr4@0.1->Attr8@300.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr1@7.0	 
+Attr1@22.0, Attr2@2200.0, Attr9@350.0->Attr0@9.0	 
+Attr0@3.0, Attr4@0.0, Attr9@350.0->Attr1@16.0	 
+Attr0@8.0, Attr1@3.0, Attr3@0.0->Attr9@0.0	 
+Attr1@15.0, Attr2@1900.0, Attr8@200.0->Attr9@0.0	 
+Attr1@17.0, Attr2@12600.0, Attr4@0.1->Attr0@21.0	 
+Attr1@3.0, Attr2@2800.0, Attr3@0.3->Attr0@10.0	 
+Attr1@17.0, Attr2@1700.0, Attr8@1800.0->Attr0@2.0	 
+Attr1@46.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr0@1.0	 
+Attr3@0.3, Attr4@0.0, Attr8@1300.0->Attr1@19.0	 
+Attr4@0.0, Attr8@800.0, Attr9@350.0->Attr1@16.0	 
+Attr2@1600.0, Attr8@4900.0, Attr9@10.0->Attr1@6.0	 
+Attr1@41.0, Attr4@0.1, Attr9@150.0->Attr2@3700.0	 
+Attr1@22.0, Attr2@3500.0, Attr9@110.0->Attr8@900.0	 
+Attr0@29.0, Attr3@0.1, Attr8@3700.0->Attr1@17.0	 
+Attr0@18.0, Attr1@29.0, Attr8@1800.0->Attr2@1800.0	 
+Attr1@46.0, Attr8@1300.0, Attr9@40.0->Attr2@1700.0	 
+Attr0@1.0, Attr2@1500.0, Attr3@0.3, Attr4@0.1->Attr8@300.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.1->Attr1@17.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@700.0->Attr1@7.0	 
+Attr0@18.0, Attr1@6.0, Attr8@1900.0->Attr9@10.0	 
+Attr0@8.0, Attr3@0.3, Attr9@350.0->Attr1@23.0	 
+Attr3@0.0, Attr8@5100.0->Attr2@5000.0	 
+Attr1@33.0, Attr8@6900.0, Attr9@150.0->Attr2@2300.0	 
+Attr1@7.0, Attr2@5100.0, Attr4@0.0->Attr0@8.0	 
+Attr2@1800.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr0@2.0	 
+Attr0@14.0, Attr2@1700.0, Attr3@0.2->Attr1@13.0	 
+Attr0@4.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr2@700.0	 
+Attr2@1800.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr0@29.0, Attr3@0.3, Attr9@150.0->Attr1@23.0	 
+Attr0@29.0, Attr8@3200.0->Attr2@5400.0	 
+Attr3@0.3, Attr9@0.0->Attr8@5000.0	 
+Attr1@19.0, Attr2@1700.0, Attr8@500.0->Attr0@1.0	 
+Attr0@0.0, Attr2@1500.0, Attr3@0.1->Attr1@4.0	 
+Attr0@18.0, Attr1@22.0, Attr8@2200.0->Attr2@1800.0	 
+Attr0@18.0, Attr1@12.0, Attr8@1900.0->Attr9@20.0	 
+Attr2@3100.0, Attr3@0.1, Attr9@190.0->Attr1@16.0	 
+Attr3@0.3, Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr1@1.0	 
+Attr0@18.0, Attr3@0.3, Attr8@6900.0->Attr2@3500.0	 
+Attr1@29.0, Attr8@3200.0, Attr9@350.0->Attr2@2300.0	 
+Attr1@46.0, Attr8@1300.0, Attr9@350.0->Attr2@2300.0	 
+Attr1@28.0, Attr8@800.0, Attr9@130.0->Attr2@1400.0	 
+Attr1@67.0, Attr9@70.0->Attr8@5000.0	 
+Attr0@23.0, Attr2@700.0, Attr8@1900.0->Attr9@20.0	 
+Attr0@1.0, Attr1@22.0, Attr4@0.1, Attr9@350.0->Attr2@500.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.2, Attr9@350.0->Attr1@23.0	 
+Attr0@29.0, Attr3@0.1, Attr8@2200.0->Attr1@16.0	 
+Attr0@4.0, Attr1@28.0, Attr8@2800.0->Attr2@1400.0	 
+Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr9@30.0	 
+Attr0@0.0, Attr2@700.0, Attr8@1900.0->Attr9@0.0	 
+Attr4@0.1, Attr9@50.0->Attr1@53.0	 
+Attr0@1.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.1, Attr8@1600.0->Attr0@1.0	 
+Attr1@19.0, Attr3@0.2, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr1@40.0, Attr8@1600.0, Attr9@40.0->Attr2@1700.0	 
+Attr1@7.0, Attr2@1900.0, Attr3@0.3->Attr0@10.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr1@1.0	 
+Attr1@16.0, Attr4@0.1, Attr8@3200.0, Attr9@350.0->Attr2@900.0	 
+Attr0@9.0, Attr8@1400.0->Attr9@140.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr1@2.0	 
+Attr1@46.0, Attr4@0.1, Attr9@150.0->Attr2@3800.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@700.0->Attr9@20.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr2@5800.0, Attr3@0.3->Attr1@48.0	 
+Attr2@3100.0, Attr3@0.3, Attr4@0.1, Attr9@30.0->Attr1@7.0	 
+Attr8@3200.0, Attr9@120.0->Attr2@5400.0	 
+Attr0@18.0, Attr8@4100.0->Attr2@5400.0	 
+Attr0@19.0, Attr8@3600.0->Attr2@5400.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.1, Attr9@350.0->Attr2@500.0	 
+Attr0@29.0, Attr1@52.0, Attr4@0.1, Attr9@100.0->Attr8@800.0	 
+Attr1@3.0, Attr2@1300.0, Attr3@0.0->Attr9@0.0	 
+Attr1@17.0, Attr2@1700.0, Attr8@700.0->Attr0@1.0	 
+Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr9@260.0->Attr1@1.0	 
+Attr0@6.0, Attr4@0.0, Attr8@6900.0->Attr1@16.0	 
+Attr1@17.0, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr2@900.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr9@0.0	 
+Attr0@9.0, Attr1@5.0, Attr2@500.0->Attr9@0.0	 
+Attr2@12600.0, Attr9@90.0->Attr8@5000.0	 
+Attr1@28.0, Attr4@0.1, Attr8@700.0, Attr9@350.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr1@7.0	 
+Attr0@29.0, Attr1@29.0, Attr8@1700.0->Attr2@2000.0	 
+Attr0@8.0, Attr1@5.0, Attr2@600.0->Attr9@0.0	 
+Attr1@16.0, Attr4@0.1, Attr8@3200.0, Attr9@350.0->Attr0@2.0	 
+Attr1@30.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr0@1.0	 
+Attr0@1.0, Attr2@1500.0, Attr3@0.1->Attr1@7.0	 
+Attr0@19.0, Attr3@0.3, Attr9@260.0->Attr2@3600.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@350.0->Attr2@2300.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@18.0, Attr2@1200.0, Attr3@0.2, Attr4@0.1->Attr8@300.0	 
+Attr0@9.0, Attr2@600.0->Attr9@120.0	 
+Attr0@29.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr9@0.0	 
+Attr1@24.0, Attr3@0.2, Attr4@0.1->Attr0@25.0	 
+Attr2@6000.0->Attr1@65.0	 
+Attr2@3900.0, Attr9@350.0->Attr1@46.0	 
+Attr2@12600.0, Attr9@30.0->Attr1@42.0	 
+Attr0@29.0, Attr3@0.3, Attr8@1400.0->Attr1@20.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@350.0->Attr8@1500.0	 
+Attr0@14.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr8@300.0	 
+Attr2@3900.0, Attr9@190.0->Attr1@42.0	 
+Attr2@11300.0, Attr9@100.0->Attr8@5000.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.0->Attr1@18.0	 
+Attr1@75.0, Attr4@0.1, Attr8@1700.0->Attr2@4000.0	 
+Attr0@7.0, Attr1@75.0, Attr4@0.1, Attr9@190.0->Attr2@1700.0	 
+Attr1@17.0, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr0@2.0	 
+Attr4@0.0, Attr9@50.0->Attr1@41.0	 
+Attr0@20.0, Attr1@29.0, Attr8@1800.0->Attr2@2000.0	 
+Attr1@17.0, Attr4@0.1, Attr8@6900.0->Attr0@21.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr1@6.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr9@10.0	 
+Attr0@19.0, Attr3@0.3, Attr8@6900.0->Attr2@3600.0	 
+Attr0@20.0, Attr1@22.0, Attr8@2600.0->Attr2@2000.0	 
+Attr1@34.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr9@0.0	 
+Attr1@40.0, Attr3@0.3, Attr9@100.0->Attr2@3200.0	 
+Attr1@33.0, Attr8@3200.0, Attr9@350.0->Attr2@2700.0	 
+Attr0@4.0, Attr1@22.0, Attr8@700.0->Attr2@800.0	 
+Attr3@0.3, Attr4@0.1, Attr8@1300.0, Attr9@30.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr9@150.0->Attr1@16.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0, Attr9@350.0->Attr2@0.0	 
+Attr1@19.0, Attr3@0.2, Attr4@0.1, Attr8@500.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr2@1200.0	 
+Attr0@29.0, Attr1@45.0, Attr4@0.1, Attr9@100.0->Attr8@800.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@1.0, Attr1@22.0, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr1@17.0, Attr3@0.3, Attr9@350.0->Attr0@20.0	 
+Attr2@2100.0, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr0@2.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.1, Attr8@1600.0->Attr0@1.0	 
+Attr0@29.0, Attr4@0.0, Attr9@50.0->Attr1@16.0	 
+Attr1@5.0, Attr3@0.2, Attr8@6900.0->Attr2@2900.0	 
+Attr0@8.0, Attr1@45.0, Attr8@2900.0->Attr2@2200.0	 
+Attr0@7.0, Attr2@12600.0, Attr4@0.1->Attr8@2900.0	 
+Attr2@1500.0, Attr3@0.1, Attr4@0.1->Attr8@1900.0	 
+Attr2@3900.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr0@1.0	 
+Attr3@0.3, Attr8@3200.0->Attr1@48.0	 
+Attr1@40.0, Attr3@0.3, Attr9@150.0->Attr2@3600.0	 
+Attr1@6.0, Attr2@1900.0, Attr8@1900.0->Attr9@10.0	 
+Attr1@5.0, Attr2@2800.0, Attr4@0.1, Attr8@6900.0->Attr9@0.0	 
+Attr0@23.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr1@8.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr0@8.0	 
+Attr1@16.0, Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr0@2.0	 
+Attr1@16.0, Attr2@3500.0, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr3@0.2, Attr4@0.1, Attr9@110.0->Attr2@4000.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr1@17.0, Attr2@1900.0, Attr8@1800.0->Attr0@5.0	 
+Attr2@2200.0, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr0@2.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr1@3.0, Attr2@1300.0->Attr9@120.0	 
+Attr2@3900.0, Attr3@0.3, Attr8@1300.0->Attr1@20.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0->Attr1@18.0	 
+Attr0@29.0, Attr3@0.3, Attr9@150.0->Attr2@3600.0	 
+Attr0@20.0, Attr1@29.0, Attr8@2600.0->Attr2@2200.0	 
+Attr1@75.0, Attr9@0.0->Attr8@5000.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.0->Attr0@12.0	 
+Attr2@3100.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr0@1.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1400.0->Attr1@20.0	 
+Attr2@2100.0, Attr3@0.3, Attr4@0.1, Attr9@350.0->Attr1@17.0	 
+Attr0@11.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr0@24.0, Attr4@0.0, Attr8@1400.0->Attr9@40.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr9@20.0	 
+Attr1@12.0, Attr2@1900.0, Attr8@1800.0->Attr9@20.0	 
+Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr9@260.0->Attr0@8.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr2@0.0	 
+Attr1@15.0, Attr2@1500.0, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@23.0, Attr1@44.0, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr0@9.0	 
+Attr0@23.0, Attr1@28.0, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr1@4.0, Attr2@600.0->Attr9@120.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr2@1200.0	 
+Attr2@3100.0, Attr3@0.3, Attr9@150.0->Attr1@23.0	 
+Attr0@28.0, Attr2@6300.0, Attr3@0.3->Attr1@30.0	 
+Attr0@29.0, Attr4@0.1, Attr9@30.0->Attr1@29.0	 
+Attr8@6900.0, Attr9@30.0->Attr1@42.0	 
+Attr2@3100.0, Attr3@0.1, Attr8@2200.0->Attr1@16.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0, Attr4@0.1->Attr1@3.0	 
+Attr1@51.0, Attr4@0.1, Attr9@150.0->Attr2@4000.0	 
+Attr0@19.0, Attr1@4.0, Attr8@4700.0->Attr2@2000.0	 
+Attr0@29.0, Attr2@5300.0, Attr4@0.1, Attr9@100.0->Attr8@800.0	 
+Attr1@17.0, Attr2@700.0, Attr8@1900.0->Attr9@20.0	 
+Attr0@23.0, Attr2@1300.0, Attr8@6900.0->Attr1@16.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0, Attr9@350.0->Attr1@1.0	 
+Attr0@18.0, Attr1@29.0, Attr8@2900.0->Attr2@2200.0	 
+Attr0@19.0, Attr1@5.0, Attr8@4200.0->Attr2@2000.0	 
+Attr0@7.0, Attr1@22.0, Attr4@0.1, Attr9@350.0->Attr2@900.0	 
+Attr0@29.0, Attr2@3500.0, Attr4@0.1, Attr9@150.0->Attr8@800.0	 
+Attr0@23.0, Attr2@1600.0, Attr8@300.0->Attr1@7.0	 
+Attr3@0.3, Attr4@0.0, Attr9@100.0->Attr8@1800.0	 
+Attr0@24.0, Attr2@2600.0, Attr4@0.0->Attr1@16.0	 
+Attr0@24.0, Attr4@0.0, Attr8@1400.0->Attr1@16.0	 
+Attr2@2500.0, Attr8@0.0->Attr9@140.0	 
+Attr1@7.0, Attr2@1900.0, Attr8@1900.0->Attr9@20.0	 
+Attr1@17.0, Attr2@2600.0, Attr4@0.1->Attr0@19.0	 
+Attr0@23.0, Attr2@1300.0, Attr8@600.0->Attr1@7.0	 
+Attr1@7.0->Attr2@11900.0	 
+Attr0@29.0, Attr1@52.0, Attr8@2300.0->Attr2@2700.0	 
+Attr0@23.0, Attr2@1700.0, Attr8@600.0->Attr9@20.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr2@8600.0, Attr3@0.0->Attr1@42.0	 
+Attr2@2600.0, Attr3@0.3, Attr8@1700.0->Attr1@20.0	 
+Attr2@3600.0, Attr3@0.1, Attr8@1600.0->Attr1@16.0	 
+Attr1@12.0, Attr2@1100.0, Attr8@1900.0->Attr9@20.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr1@6.0, Attr2@8700.0, Attr4@0.1, Attr8@4700.0->Attr9@10.0	 
+Attr2@3900.0, Attr3@0.1, Attr8@1300.0->Attr1@16.0	 
+Attr0@28.0, Attr3@0.3, Attr8@4200.0->Attr1@30.0	 
+Attr0@10.0, Attr8@6900.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@24.0, Attr1@19.0, Attr4@0.1, Attr8@200.0->Attr2@0.0	 
+Attr1@7.0, Attr2@8700.0, Attr3@0.3->Attr0@19.0	 
+Attr1@7.0, Attr2@2800.0, Attr4@0.1, Attr8@6900.0->Attr0@1.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr1@22.0, Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr1@3.0, Attr2@8700.0, Attr3@0.3, Attr8@4700.0->Attr9@0.0	 
+Attr2@1300.0, Attr8@700.0, Attr9@350.0->Attr1@13.0	 
+Attr1@40.0, Attr3@0.2, Attr9@260.0->Attr2@3600.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr0@18.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr2@2200.0	 
+Attr2@5800.0, Attr4@0.0->Attr1@46.0	 
+Attr0@29.0, Attr2@6300.0, Attr3@0.3->Attr1@31.0	 
+Attr0@14.0, Attr2@1600.0, Attr9@10.0->Attr1@6.0	 
+Attr1@9.0, Attr3@0.1, Attr4@0.1, Attr8@4700.0->Attr2@1200.0	 
+Attr1@17.0, Attr4@0.1, Attr8@3200.0, Attr9@190.0->Attr2@900.0	 
+Attr0@29.0, Attr2@2600.0, Attr4@0.1, Attr9@170.0->Attr8@800.0	 
+Attr0@18.0, Attr1@15.0, Attr8@600.0->Attr9@20.0	 
+Attr0@29.0, Attr3@0.3, Attr8@3700.0->Attr1@30.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr0@8.0	 
+Attr0@29.0, Attr3@0.3, Attr8@3200.0->Attr2@3600.0	 
+Attr0@29.0, Attr3@0.2, Attr9@260.0->Attr2@3600.0	 
+Attr2@700.0, Attr9@350.0->Attr3@0.1	 
+Attr1@52.0, Attr4@0.1, Attr9@140.0->Attr2@4000.0	 
+Attr0@10.0, Attr2@12600.0->Attr1@46.0	 
+Attr3@0.0, Attr8@5100.0->Attr1@42.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.3->Attr1@30.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr0@29.0, Attr4@0.1, Attr8@1400.0, Attr9@350.0->Attr2@1700.0	 
+Attr0@24.0, Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr2@500.0	 
+Attr0@29.0, Attr3@0.2, Attr8@1800.0->Attr1@20.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr0@18.0, Attr1@15.0, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@20.0, Attr1@15.0, Attr4@0.1, Attr8@1800.0->Attr2@500.0	 
+Attr0@14.0, Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr8@800.0	 
+Attr2@1900.0, Attr8@100.0->Attr9@140.0	 
+Attr0@7.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr2@1300.0, Attr3@0.2, Attr8@6900.0->Attr1@20.0	 
+Attr0@8.0, Attr4@0.0, Attr8@2300.0->Attr9@40.0	 
+Attr1@52.0, Attr4@0.1, Attr8@3200.0->Attr2@4000.0	 
+Attr0@23.0, Attr2@1100.0, Attr3@0.2, Attr4@0.1->Attr1@7.0	 
+Attr0@0.0, Attr1@12.0, Attr9@350.0->Attr3@0.0	 
+Attr0@24.0, Attr2@1500.0, Attr4@0.0->Attr9@40.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr4@0.1, Attr8@1500.0, Attr9@350.0->Attr2@4000.0	 
+Attr0@29.0, Attr1@45.0, Attr8@2600.0->Attr2@2700.0	 
+Attr1@17.0, Attr4@0.1, Attr8@3200.0, Attr9@190.0->Attr0@2.0	 
+Attr0@10.0, Attr4@0.1, Attr9@50.0->Attr1@29.0	 
+Attr0@1.0, Attr2@1500.0, Attr3@0.3, Attr4@0.1->Attr1@7.0	 
+Attr3@0.3, Attr8@6900.0->Attr2@8800.0	 
+Attr0@19.0, Attr1@5.0, Attr8@4700.0->Attr2@2200.0	 
+Attr0@28.0, Attr3@0.2, Attr8@6900.0->Attr2@3600.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@350.0->Attr1@19.0	 
+Attr1@17.0, Attr3@0.2, Attr4@0.1, Attr8@1700.0->Attr9@20.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.1, Attr8@4700.0->Attr9@20.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.0->Attr0@12.0	 
+Attr0@29.0, Attr3@0.3->Attr1@54.0	 
+Attr1@75.0, Attr3@0.2, Attr4@0.0, Attr8@1300.0->Attr2@700.0	 
+Attr1@16.0, Attr2@8700.0, Attr4@0.1, Attr9@260.0->Attr0@8.0	 
+Attr1@7.0, Attr2@3500.0, Attr4@0.1, Attr8@4700.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4200.0->Attr1@31.0	 
+Attr0@23.0, Attr2@2600.0, Attr3@0.3->Attr1@23.0	 
+Attr0@24.0, Attr2@800.0, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr3@0.0, Attr4@0.1, Attr9@230.0->Attr2@3800.0	 
+Attr8@0.0, Attr9@350.0->Attr3@0.1	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr9@100.0->Attr2@0.0	 
+Attr0@18.0, Attr2@1500.0, Attr3@0.1, Attr4@0.1->Attr8@300.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr0@8.0, Attr4@0.0, Attr8@2300.0->Attr1@16.0	 
+Attr0@23.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr1@1.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0->Attr2@0.0	 
+Attr2@12600.0, Attr9@100.0->Attr8@5100.0	 
+Attr0@23.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@0.0	 
+Attr1@17.0, Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr0@2.0	 
+Attr2@3700.0, Attr3@0.0->Attr1@41.0	 
+Attr3@0.1, Attr4@0.1, Attr8@3300.0->Attr2@4000.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0->Attr2@1600.0	 
+Attr0@18.0, Attr1@15.0, Attr8@1900.0->Attr9@30.0	 
+Attr1@46.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr9@20.0	 
+Attr0@23.0, Attr2@1100.0, Attr3@0.2, Attr4@0.1->Attr9@20.0	 
+Attr2@2100.0, Attr3@0.3, Attr4@0.1, Attr9@190.0->Attr1@16.0	 
+Attr1@41.0, Attr3@0.3, Attr9@150.0->Attr2@3700.0	 
+Attr2@2200.0, Attr3@0.3, Attr4@0.1, Attr9@170.0->Attr1@16.0	 
+Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr2@1200.0	 
+Attr2@2100.0, Attr3@0.2, Attr8@4900.0->Attr1@20.0	 
+Attr1@40.0, Attr8@1600.0, Attr9@150.0->Attr2@2300.0	 
+Attr0@18.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0->Attr2@1900.0	 
+Attr0@19.0, Attr1@7.0, Attr4@0.1, Attr8@4700.0->Attr2@700.0	 
+Attr1@34.0, Attr2@4900.0, Attr3@0.0->Attr0@10.0	 
+Attr4@0.1, Attr8@1700.0, Attr9@260.0->Attr2@4000.0	 
+Attr0@23.0, Attr2@800.0, Attr8@1900.0->Attr9@30.0	 
+Attr0@29.0, Attr4@0.0, Attr8@2300.0->Attr2@2700.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@4700.0->Attr2@1900.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@10.0->Attr2@300.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr1@8.0	 
+Attr0@7.0, Attr2@12600.0, Attr3@0.2, Attr9@350.0->Attr8@700.0	 
+Attr2@3600.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr9@10.0	 
+Attr1@38.0, Attr9@100.0->Attr8@5000.0	 
+Attr1@19.0, Attr2@1700.0, Attr8@500.0->Attr9@20.0	 
+Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr0@8.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr1@8.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr1@75.0, Attr4@0.0, Attr9@100.0->Attr8@1800.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr0@1.0	 
+Attr3@0.1, Attr4@0.1, Attr9@140.0->Attr2@4000.0	 
+Attr1@67.0, Attr3@0.0, Attr9@350.0->Attr8@1800.0	 
+Attr1@19.0, Attr2@1900.0, Attr8@500.0->Attr0@5.0	 
+Attr1@33.0, Attr2@2200.0, Attr4@0.1, Attr9@170.0->Attr0@2.0	 
+Attr1@17.0, Attr2@3500.0, Attr4@0.1, Attr9@190.0->Attr0@2.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@800.0->Attr1@18.0	 
+Attr0@8.0, Attr2@3500.0, Attr4@0.0->Attr1@16.0	 
+Attr0@18.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr1@7.0	 
+Attr1@40.0, Attr8@3200.0, Attr9@350.0->Attr2@3200.0	 
+Attr0@7.0, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@1700.0	 
+Attr0@8.0, Attr4@0.1, Attr8@6900.0, Attr9@170.0->Attr2@1700.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0, Attr9@100.0->Attr2@0.0	 
+Attr2@1900.0, Attr3@0.1, Attr4@0.1->Attr8@2900.0	 
+Attr1@33.0, Attr2@2200.0, Attr4@0.1, Attr9@170.0->Attr8@800.0	 
+Attr1@17.0, Attr2@3500.0, Attr4@0.1, Attr9@190.0->Attr8@800.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@1400.0->Attr9@40.0	 
+Attr0@18.0, Attr2@1200.0, Attr3@0.2, Attr4@0.1->Attr1@7.0	 
+Attr2@5300.0, Attr9@350.0->Attr1@48.0	 
+Attr2@12600.0, Attr8@500.0->Attr1@45.0	 
+Attr1@46.0, Attr3@0.3, Attr9@150.0->Attr2@3800.0	 
+Attr0@10.0, Attr8@6900.0->Attr1@46.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@1300.0->Attr1@19.0	 
+Attr0@14.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr1@7.0	 
+Attr1@40.0, Attr8@6900.0, Attr9@150.0->Attr2@3200.0	 
+Attr0@18.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0->Attr2@2700.0	 
+Attr0@7.0, Attr1@28.0, Attr4@0.1, Attr9@350.0->Attr2@1400.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr2@9600.0, Attr8@900.0->Attr1@45.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@130.0->Attr2@900.0	 
+Attr1@2.0, Attr9@260.0->Attr3@0.1	 
+Attr1@20.0, Attr2@1500.0, Attr4@0.1->Attr8@1900.0	 
+Attr0@18.0, Attr1@2.0, Attr2@3500.0, Attr4@0.1->Attr8@0.0	 
+Attr0@8.0, Attr3@0.3, Attr8@2900.0->Attr1@23.0	 
+Attr1@75.0, Attr4@0.1, Attr9@70.0->Attr2@5400.0	 
+Attr0@19.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0->Attr2@2900.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr9@100.0->Attr8@0.0	 
+Attr1@15.0, Attr2@8700.0, Attr8@6900.0, Attr9@350.0->Attr0@1.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@40.0->Attr1@16.0	 
+Attr0@23.0, Attr2@1200.0, Attr3@0.2, Attr4@0.1->Attr1@8.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@3700.0->Attr2@1900.0	 
+Attr0@29.0, Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr2@700.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr1@17.0, Attr2@1700.0, Attr8@600.0->Attr9@20.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.0, Attr8@1700.0->Attr2@0.0	 
+Attr0@20.0, Attr1@2.0, Attr2@2800.0, Attr4@0.1->Attr8@0.0	 
+Attr0@23.0, Attr1@5.0, Attr2@1900.0, Attr4@0.1->Attr8@0.0	 
+Attr1@15.0, Attr2@1900.0, Attr8@600.0->Attr9@20.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr0@12.0	 
+Attr1@33.0, Attr3@0.3, Attr8@4900.0, Attr9@10.0->Attr2@300.0	 
+Attr0@29.0, Attr3@0.2, Attr8@2900.0->Attr1@23.0	 
+Attr0@1.0, Attr1@22.0, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr1@2.0, Attr8@6900.0->Attr3@0.1	 
+Attr0@18.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr9@20.0	 
+Attr1@16.0, Attr2@5100.0, Attr4@0.1, Attr9@350.0->Attr0@8.0	 
+Attr1@24.0, Attr3@0.2, Attr8@5700.0->Attr2@3600.0	 
+Attr0@18.0, Attr1@45.0, Attr8@2900.0->Attr2@2700.0	 
+Attr0@18.0, Attr2@1200.0, Attr3@0.2, Attr4@0.1->Attr9@20.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@20.0->Attr2@500.0	 
+Attr3@0.3, Attr4@0.0, Attr8@3200.0->Attr2@3700.0	 
+Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr8@4700.0->Attr2@1600.0	 
+Attr2@12600.0, Attr3@0.0, Attr9@350.0->Attr8@1800.0	 
+Attr0@14.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr9@20.0	 
+Attr0@9.0, Attr1@6.0, Attr2@500.0->Attr9@10.0	 
+Attr1@22.0, Attr2@2200.0, Attr4@0.1, Attr9@190.0->Attr0@2.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0, Attr9@350.0->Attr0@1.0	 
+Attr1@41.0, Attr3@0.2, Attr9@260.0->Attr2@3700.0	 
+Attr1@40.0, Attr3@0.1, Attr9@350.0->Attr2@3600.0	 
+Attr1@22.0, Attr2@2200.0, Attr4@0.1, Attr9@190.0->Attr8@800.0	 
+Attr0@24.0, Attr1@19.0, Attr4@0.1, Attr8@200.0->Attr9@0.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr1@1.0	 
+Attr1@40.0, Attr3@0.0, Attr4@0.1, Attr8@3700.0->Attr9@10.0	 
+Attr0@20.0, Attr1@22.0, Attr4@0.1, Attr8@1800.0->Attr2@900.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr4@0.0, Attr9@30.0->Attr3@0.1	 
+Attr1@67.0, Attr3@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@30.0->Attr8@400.0	 
+Attr0@8.0, Attr1@6.0, Attr2@600.0->Attr9@10.0	 
+Attr0@23.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr9@0.0	 
+Attr0@29.0, Attr3@0.2, Attr8@3700.0->Attr1@26.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.1, Attr8@1600.0->Attr1@7.0	 
+Attr1@17.0, Attr2@8700.0, Attr4@0.1, Attr9@190.0->Attr0@8.0	 
+Attr0@20.0, Attr1@22.0, Attr4@0.1, Attr8@2200.0->Attr2@1200.0	 
+Attr3@0.3, Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr2@0.0	 
+Attr0@9.0, Attr1@5.0, Attr2@3500.0, Attr4@0.1->Attr8@0.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.2->Attr1@26.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@1800.0->Attr1@20.0	 
+Attr2@3600.0, Attr3@0.2, Attr8@1600.0->Attr1@20.0	 
+Attr2@3900.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr1@7.0	 
+Attr4@0.1, Attr8@1500.0->Attr2@9700.0	 
+Attr1@75.0, Attr8@6900.0->Attr2@8800.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0, Attr9@100.0->Attr8@0.0	 
+Attr1@19.0, Attr3@0.2, Attr8@6900.0->Attr2@3600.0	 
+Attr0@29.0, Attr3@0.1, Attr9@350.0->Attr2@3600.0	 
+Attr1@17.0, Attr3@0.3, Attr8@6100.0->Attr0@21.0	 
+Attr2@1700.0, Attr3@0.2, Attr8@4900.0, Attr9@350.0->Attr0@1.0	 
+Attr3@0.3, Attr4@0.0, Attr9@110.0->Attr2@3700.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@3700.0->Attr2@1900.0	 
+Attr1@24.0, Attr3@0.1, Attr4@0.1, Attr8@4700.0->Attr2@1900.0	 
+Attr0@18.0, Attr1@22.0, Attr4@0.1, Attr8@2200.0->Attr2@900.0	 
+Attr2@3500.0, Attr9@110.0->Attr8@5000.0	 
+Attr0@23.0, Attr2@1700.0, Attr8@1800.0->Attr9@40.0	 
+Attr0@19.0, Attr1@9.0, Attr4@0.1, Attr8@4700.0->Attr2@1200.0	 
+Attr2@3900.0, Attr8@2000.0->Attr1@45.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@4000.0->Attr2@1900.0	 
+Attr0@24.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@200.0	 
+Attr4@0.0, Attr8@1300.0, Attr9@40.0->Attr1@16.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@10.0->Attr8@300.0	 
+Attr1@19.0, Attr3@0.2, Attr4@0.1, Attr8@500.0->Attr9@20.0	 
+Attr2@5800.0, Attr9@350.0->Attr1@53.0	 
+Attr0@8.0, Attr2@3400.0, Attr3@0.3->Attr1@23.0	 
+Attr1@40.0, Attr3@0.2, Attr8@3300.0->Attr2@3600.0	 
+Attr1@37.0, Attr3@0.2, Attr8@3700.0->Attr2@3600.0	 
+Attr1@33.0, Attr3@0.3, Attr8@4900.0, Attr9@20.0->Attr2@500.0	 
+Attr0@7.0, Attr2@12600.0, Attr3@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.0, Attr8@1700.0->Attr1@1.0	 
+Attr1@46.0, Attr3@0.2, Attr9@260.0->Attr2@3800.0	 
+Attr0@29.0, Attr3@0.2, Attr8@3700.0->Attr2@3600.0	 
+Attr0@29.0, Attr3@0.3, Attr8@6900.0, Attr9@130.0->Attr2@1400.0	 
+Attr0@7.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr1@17.0, Attr2@1500.0, Attr4@0.0->Attr9@40.0	 
+Attr2@500.0->Attr3@0.2	 
+Attr1@8.0, Attr9@150.0->Attr3@0.1	 
+Attr0@29.0, Attr2@2600.0, Attr4@0.0->Attr1@18.0	 
+Attr0@29.0, Attr4@0.0, Attr8@1400.0->Attr1@18.0	 
+Attr1@61.0, Attr4@0.1, Attr9@140.0->Attr2@5400.0	 
+Attr1@2.0->Attr3@0.2	 
+Attr1@15.0, Attr2@1900.0, Attr8@1800.0->Attr9@30.0	 
+Attr2@3900.0, Attr3@0.1, Attr4@0.1, Attr8@1300.0->Attr9@20.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr0@29.0, Attr2@3400.0, Attr3@0.2->Attr1@23.0	 
+Attr0@19.0, Attr3@0.3, Attr4@0.1, Attr8@4700.0->Attr2@2700.0	 
+Attr2@12600.0, Attr3@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr0@23.0, Attr2@1100.0, Attr8@1900.0->Attr9@40.0	 
+Attr1@15.0, Attr2@2600.0, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr0@6.0, Attr1@75.0, Attr4@0.0, Attr9@350.0->Attr2@900.0	 
+Attr1@9.0, Attr2@1900.0, Attr4@0.1->Attr8@1900.0	 
+Attr0@18.0, Attr1@2.0, Attr2@3500.0, Attr4@0.1->Attr9@0.0	 
+Attr0@29.0, Attr8@1700.0->Attr1@45.0	 
+Attr0@29.0, Attr4@0.1, Attr8@1700.0, Attr9@150.0->Attr2@1700.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr9@30.0->Attr8@100.0	 
+Attr1@13.0, Attr2@11700.0, Attr9@350.0->Attr0@20.0	 
+Attr2@3100.0, Attr4@0.0, Attr9@150.0->Attr1@19.0	 
+Attr1@7.0, Attr4@0.1->Attr2@8800.0	 
+Attr1@71.0, Attr3@0.0, Attr4@0.1->Attr2@5000.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr1@6.0, Attr2@2800.0, Attr4@0.1, Attr8@6900.0->Attr9@10.0	 
+Attr1@7.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0->Attr9@0.0	 
+Attr3@0.1, Attr8@5100.0->Attr1@48.0	 
+Attr2@4000.0, Attr3@0.1->Attr1@47.0	 
+Attr3@0.3, Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr1@1.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr8@3200.0->Attr2@2700.0	 
+Attr0@20.0, Attr1@16.0, Attr4@0.1, Attr8@2800.0->Attr2@1200.0	 
+Attr0@28.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@300.0	 
+Attr0@20.0, Attr1@2.0, Attr2@2800.0, Attr4@0.1->Attr9@0.0	 
+Attr0@23.0, Attr1@5.0, Attr2@1900.0, Attr4@0.1->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0->Attr1@8.0	 
+Attr0@11.0, Attr1@75.0, Attr4@0.0->Attr2@3600.0	 
+Attr1@46.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@30.0	 
+Attr1@17.0, Attr2@800.0, Attr8@1900.0->Attr9@30.0	 
+Attr2@7800.0, Attr3@0.1->Attr1@48.0	 
+Attr1@15.0, Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr2@0.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr1@17.0, Attr2@10200.0, Attr9@350.0->Attr0@20.0	 
+Attr1@33.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3->Attr2@8800.0	 
+Attr0@18.0, Attr1@16.0, Attr4@0.1, Attr8@2800.0->Attr2@900.0	 
+Attr0@10.0, Attr2@2100.0, Attr4@0.1, Attr9@190.0->Attr8@800.0	 
+Attr1@3.0, Attr8@3800.0->Attr9@160.0	 
+Attr4@0.1, Attr8@3200.0, Attr9@260.0->Attr2@5400.0	 
+Attr0@19.0, Attr1@52.0, Attr9@260.0->Attr2@3600.0	 
+Attr0@18.0, Attr2@1700.0, Attr8@1900.0->Attr9@40.0	 
+Attr0@19.0, Attr8@4100.0->Attr2@7600.0	 
+Attr1@30.0, Attr3@0.2, Attr8@4000.0->Attr2@3600.0	 
+Attr1@12.0, Attr9@120.0->Attr3@0.1	 
+Attr4@0.0, Attr8@500.0->Attr3@0.1	 
+Attr0@24.0, Attr1@5.0, Attr2@1900.0, Attr4@0.1->Attr8@200.0	 
+Attr1@15.0, Attr2@1100.0, Attr8@1900.0->Attr9@30.0	 
+Attr1@75.0, Attr4@0.0, Attr9@140.0->Attr2@3700.0	 
+Attr0@9.0, Attr1@3.0, Attr3@0.0, Attr4@0.1->Attr2@0.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr0@9.0, Attr2@3500.0, Attr4@0.1->Attr8@2900.0	 
+Attr0@29.0, Attr3@0.1, Attr8@6900.0, Attr9@130.0->Attr2@500.0	 
+Attr1@44.0, Attr8@0.0->Attr3@0.1	 
+Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@1800.0	 
+Attr0@9.0, Attr8@1800.0->Attr9@160.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@11.0, Attr2@5300.0->Attr1@46.0	 
+Attr0@23.0, Attr2@1700.0, Attr8@700.0->Attr9@30.0	 
+Attr2@600.0, Attr4@0.0->Attr3@0.1	 
+Attr0@7.0, Attr1@75.0, Attr9@350.0->Attr8@2400.0	 
+Attr0@9.0, Attr1@5.0, Attr2@3500.0, Attr4@0.1->Attr9@0.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@40.0->Attr0@2.0	 
+Attr0@18.0, Attr1@45.0, Attr8@6900.0->Attr2@3500.0	 
+Attr0@8.0, Attr1@22.0, Attr4@0.1, Attr8@6900.0->Attr2@1600.0	 
+Attr1@9.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0->Attr2@0.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@40.0->Attr8@800.0	 
+Attr0@19.0, Attr1@52.0, Attr8@6900.0->Attr2@3600.0	 
+Attr1@29.0, Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@900.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@150.0->Attr8@900.0	 
+Attr1@17.0, Attr8@6900.0, Attr9@350.0->Attr0@20.0	 
+Attr1@47.0, Attr3@0.3, Attr9@150.0->Attr2@4000.0	 
+Attr1@16.0, Attr2@2600.0, Attr3@0.3->Attr0@19.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0->Attr1@30.0	 
+Attr1@75.0, Attr4@0.0, Attr8@3200.0->Attr2@3700.0	 
+Attr0@8.0, Attr1@22.0, Attr4@0.1, Attr8@2800.0->Attr2@900.0	 
+Attr0@9.0, Attr1@9.0, Attr4@0.1->Attr9@110.0	 
+Attr1@7.0, Attr2@2800.0, Attr4@0.1, Attr8@6900.0->Attr9@20.0	 
+Attr2@3100.0, Attr3@0.3, Attr4@0.1, Attr9@40.0->Attr1@16.0	 
+Attr1@30.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr2@800.0	 
+Attr0@0.0->Attr3@0.2	 
+Attr0@24.0, Attr1@15.0, Attr2@1100.0, Attr4@0.1->Attr8@300.0	 
+Attr1@30.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@300.0	 
+Attr0@14.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1->Attr1@10.0	 
+Attr1@17.0, Attr3@0.2, Attr4@0.0, Attr8@1700.0->Attr2@0.0	 
+Attr1@22.0, Attr2@3500.0, Attr4@0.1, Attr9@190.0->Attr8@900.0	 
+Attr0@23.0, Attr1@44.0, Attr4@0.1, Attr8@700.0->Attr9@20.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr1@40.0, Attr3@0.0, Attr9@350.0->Attr2@3200.0	 
+Attr1@2.0, Attr2@5100.0->Attr3@0.1	 
+Attr1@7.0, Attr8@3200.0->Attr3@0.1	 
+Attr0@14.0, Attr1@75.0, Attr9@100.0->Attr8@1800.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr1@30.0, Attr3@0.3->Attr2@8800.0	 
+Attr8@1500.0, Attr9@350.0->Attr1@48.0	 
+Attr2@1300.0, Attr4@0.1, Attr8@700.0, Attr9@350.0->Attr1@7.0	 
+Attr1@41.0, Attr3@0.1, Attr9@350.0->Attr2@3700.0	 
+Attr1@40.0, Attr3@0.3, Attr8@1600.0, Attr9@10.0->Attr2@300.0	 
+Attr0@19.0, Attr1@5.0, Attr8@6900.0->Attr2@2900.0	 
+Attr0@9.0, Attr8@1900.0->Attr9@180.0	 
+Attr0@18.0, Attr2@1500.0, Attr3@0.1, Attr4@0.1->Attr1@7.0	 
+Attr0@20.0, Attr1@28.0, Attr4@0.1, Attr8@1800.0->Attr2@1400.0	 
+Attr0@9.0, Attr1@9.0, Attr2@3500.0, Attr4@0.1->Attr8@300.0	 
+Attr1@20.0, Attr2@1900.0, Attr4@0.1->Attr8@2900.0	 
+Attr2@1800.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr1@8.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr1@1.0	 
+Attr0@29.0, Attr1@52.0, Attr9@150.0->Attr2@3600.0	 
+Attr0@19.0, Attr1@16.0, Attr4@0.1, Attr8@4700.0->Attr2@1600.0	 
+Attr0@9.0, Attr1@3.0, Attr3@0.0, Attr4@0.1->Attr8@0.0	 
+Attr1@16.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr0@5.0	 
+Attr0@23.0, Attr2@1300.0, Attr8@700.0->Attr1@13.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr9@100.0->Attr2@900.0	 
+Attr1@17.0, Attr2@1700.0, Attr8@1800.0->Attr9@40.0	 
+Attr1@17.0, Attr2@2000.0, Attr3@0.3->Attr0@19.0	 
+Attr0@29.0, Attr3@0.2, Attr8@4900.0, Attr9@130.0->Attr2@800.0	 
+Attr0@10.0, Attr8@2300.0->Attr1@45.0	 
+Attr1@61.0, Attr3@0.3, Attr9@140.0->Attr2@4100.0	 
+Attr0@24.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr1@1.0	 
+Attr0@14.0, Attr2@1900.0, Attr4@0.1->Attr8@2900.0	 
+Attr0@24.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr8@0.0	 
+Attr2@4900.0, Attr3@0.0, Attr4@0.1, Attr8@6900.0->Attr9@30.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr0@1.0	 
+Attr1@33.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr2@800.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr9@100.0->Attr2@0.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@67.0, Attr3@0.3, Attr9@70.0->Attr2@4100.0	 
+Attr1@51.0, Attr3@0.3, Attr9@150.0->Attr2@4100.0	 
+Attr0@11.0, Attr1@2.0, Attr4@0.1->Attr9@110.0	 
+Attr1@7.0, Attr2@3500.0, Attr4@0.1, Attr8@4700.0->Attr9@20.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr2@9600.0, Attr8@1700.0->Attr1@48.0	 
+Attr1@41.0, Attr3@0.2, Attr8@3300.0->Attr2@3700.0	 
+Attr0@29.0, Attr1@29.0, Attr4@0.1, Attr8@1700.0->Attr2@1700.0	 
+Attr1@33.0, Attr3@0.3, Attr8@4900.0, Attr9@40.0->Attr2@900.0	 
+Attr1@12.0, Attr8@1700.0->Attr3@0.1	 
+Attr0@18.0, Attr1@15.0, Attr2@1500.0, Attr4@0.1->Attr8@300.0	 
+Attr0@18.0, Attr2@1500.0, Attr3@0.1, Attr4@0.1->Attr9@20.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.0, Attr8@1600.0->Attr2@0.0	 
+Attr1@17.0, Attr2@2600.0, Attr4@0.1, Attr8@1800.0->Attr0@2.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1->Attr1@10.0	 
+Attr1@46.0, Attr3@0.1, Attr9@350.0->Attr2@3800.0	 
+Attr1@63.0, Attr4@0.0, Attr9@150.0->Attr2@3700.0	 
+Attr2@12600.0, Attr9@90.0->Attr1@53.0	 
+Attr3@0.1, Attr4@0.0, Attr9@270.0->Attr2@3700.0	 
+Attr1@47.0, Attr3@0.2, Attr9@260.0->Attr2@4000.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr9@100.0->Attr8@800.0	 
+Attr1@17.0, Attr2@1100.0, Attr8@1900.0->Attr9@40.0	 
+Attr2@11300.0, Attr9@110.0->Attr1@53.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.1, Attr8@1800.0->Attr2@1700.0	 
+Attr0@11.0, Attr2@3500.0->Attr1@45.0	 
+Attr1@40.0, Attr3@0.3, Attr8@1600.0, Attr9@20.0->Attr2@500.0	 
+Attr0@14.0, Attr2@3500.0, Attr4@0.1, Attr9@150.0->Attr8@900.0	 
+Attr0@18.0, Attr1@9.0, Attr2@1900.0, Attr4@0.1->Attr8@300.0	 
+Attr1@7.0, Attr2@1900.0, Attr3@0.3, Attr8@6900.0->Attr0@1.0	 
+Attr0@29.0, Attr1@75.0->Attr2@8800.0	 
+Attr0@19.0, Attr1@22.0, Attr4@0.1, Attr8@4700.0->Attr2@1900.0	 
+Attr0@0.0, Attr1@12.0, Attr8@2800.0->Attr3@0.0	 
+Attr0@14.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr8@300.0	 
+Attr1@15.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr2@3900.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@30.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@1400.0->Attr1@19.0	 
+Attr3@0.3, Attr8@6900.0, Attr9@140.0->Attr2@4100.0	 
+Attr1@24.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr2@2900.0	 
+Attr0@28.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@2700.0	 
+Attr0@20.0, Attr1@29.0, Attr4@0.1, Attr8@1800.0->Attr2@1700.0	 
+Attr2@9600.0, Attr8@2000.0->Attr1@53.0	 
+Attr8@1600.0, Attr9@260.0->Attr1@48.0	 
+Attr1@22.0, Attr9@20.0->Attr3@0.1	 
+Attr2@3100.0, Attr3@0.3, Attr4@0.1, Attr9@150.0->Attr1@19.0	 
+Attr2@2100.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0->Attr1@20.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr3@0.0, Attr4@0.0, Attr9@350.0->Attr8@1800.0	 
+Attr1@46.0, Attr3@0.2, Attr8@3300.0->Attr2@3800.0	 
+Attr2@8100.0, Attr9@130.0->Attr1@53.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.0, Attr8@2800.0->Attr2@900.0	 
+Attr0@11.0, Attr1@12.0->Attr3@0.1	 
+Attr0@7.0, Attr2@12600.0, Attr9@350.0->Attr8@2400.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr9@100.0->Attr8@0.0	 
+Attr1@22.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr0@29.0, Attr1@52.0, Attr8@3200.0->Attr2@3600.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0->Attr2@3600.0	 
+Attr0@7.0, Attr1@75.0, Attr4@0.0, Attr9@190.0->Attr2@900.0	 
+Attr0@24.0, Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr9@20.0	 
+Attr1@33.0, Attr3@0.1, Attr8@3700.0->Attr0@19.0	 
+Attr0@29.0, Attr2@3500.0, Attr9@350.0->Attr1@30.0	 
+Attr0@10.0, Attr2@12600.0, Attr9@190.0->Attr1@30.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@3700.0->Attr2@2700.0	 
+Attr0@20.0, Attr1@16.0, Attr4@0.1, Attr8@3200.0->Attr2@1600.0	 
+Attr1@17.0, Attr2@1700.0, Attr8@700.0->Attr9@30.0	 
+Attr0@18.0, Attr1@15.0, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr0@20.0, Attr1@15.0, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr1@40.0, Attr3@0.3, Attr8@1600.0, Attr9@30.0->Attr0@1.0	 
+Attr1@28.0, Attr8@100.0->Attr3@0.1	 
+Attr0@14.0, Attr2@2600.0, Attr4@0.1, Attr9@170.0->Attr8@900.0	 
+Attr1@16.0, Attr2@3700.0, Attr3@0.3->Attr0@21.0	 
+Attr1@30.0, Attr3@0.1, Attr8@4000.0->Attr0@19.0	 
+Attr1@46.0, Attr3@0.2, Attr8@1300.0, Attr9@130.0->Attr0@1.0	 
+Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr2@3700.0	 
+Attr0@9.0, Attr1@3.0, Attr3@0.0, Attr4@0.1->Attr9@0.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@10.0, Attr2@12600.0, Attr9@150.0->Attr1@29.0	 
+Attr0@8.0, Attr2@12600.0, Attr9@190.0->Attr1@29.0	 
+Attr1@67.0, Attr3@0.0, Attr9@350.0->Attr2@3800.0	 
+Attr1@16.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@1800.0	 
+Attr1@33.0, Attr2@4500.0, Attr3@0.1->Attr0@19.0	 
+Attr0@18.0, Attr1@20.0, Attr2@1500.0, Attr4@0.1->Attr8@800.0	 
+Attr0@11.0, Attr2@12600.0->Attr1@53.0	 
+Attr1@51.0, Attr3@0.2, Attr9@260.0->Attr2@4100.0	 
+Attr1@9.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0->Attr9@0.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr1@41.0, Attr8@6900.0, Attr9@150.0->Attr2@3700.0	 
+Attr0@24.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr9@0.0	 
+Attr2@7500.0, Attr9@140.0->Attr1@53.0	 
+Attr1@7.0, Attr2@5100.0, Attr4@0.1, Attr8@4700.0->Attr0@8.0	 
+Attr1@16.0, Attr2@8700.0, Attr8@6900.0, Attr9@350.0->Attr0@5.0	 
+Attr0@28.0, Attr1@45.0, Attr3@0.0, Attr4@0.1->Attr2@2000.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@100.0->Attr8@1800.0	 
+Attr1@22.0, Attr3@0.2, Attr8@6900.0, Attr9@190.0->Attr0@5.0	 
+Attr0@29.0, Attr8@1700.0, Attr9@350.0->Attr1@30.0	 
+Attr1@19.0, Attr8@500.0->Attr3@0.1	 
+Attr0@29.0, Attr8@1400.0, Attr9@350.0->Attr1@29.0	 
+Attr8@5000.0, Attr9@120.0->Attr2@8200.0	 
+Attr0@7.0, Attr1@28.0, Attr4@0.1, Attr8@2800.0->Attr2@1400.0	 
+Attr0@6.0, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr2@7500.0->Attr1@75.0	 
+Attr0@29.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@2200.0	 
+Attr8@6900.0, Attr9@90.0->Attr1@53.0	 
+Attr0@14.0, Attr2@700.0->Attr3@0.1	 
+Attr1@17.0, Attr3@0.2, Attr4@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr1@33.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr0@5.0	 
+Attr1@24.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@2700.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.0, Attr9@350.0->Attr2@0.0	 
+Attr0@1.0, Attr1@22.0, Attr2@1500.0, Attr4@0.1->Attr8@300.0	 
+Attr2@5300.0, Attr8@2000.0->Attr1@48.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr1@1.0	 
+Attr1@30.0, Attr3@0.2, Attr4@0.1, Attr8@4000.0->Attr2@2700.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.0->Attr2@3600.0	 
+Attr0@20.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr0@19.0, Attr1@12.0, Attr8@6900.0, Attr9@350.0->Attr2@700.0	 
+Attr1@12.0, Attr2@1800.0->Attr3@0.1	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@10.0->Attr1@6.0	 
+Attr2@9600.0, Attr8@3200.0->Attr1@56.0	 
+Attr0@29.0, Attr2@5300.0, Attr9@190.0->Attr1@30.0	 
+Attr1@67.0, Attr3@0.2, Attr9@140.0->Attr2@4100.0	 
+Attr1@46.0, Attr8@6900.0, Attr9@150.0->Attr2@3800.0	 
+Attr0@9.0, Attr1@9.0, Attr3@0.0, Attr4@0.1->Attr2@700.0	 
+Attr1@46.0, Attr3@0.3, Attr8@1300.0, Attr9@40.0->Attr2@900.0	 
+Attr0@7.0, Attr1@15.0, Attr2@1500.0, Attr4@0.1->Attr8@300.0	 
+Attr0@29.0, Attr2@5300.0, Attr9@150.0->Attr1@29.0	 
+Attr1@51.0, Attr3@0.2, Attr9@350.0->Attr2@5200.0	 
+Attr1@17.0, Attr8@600.0->Attr3@0.1	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@3700.0->Attr0@1.0	 
+Attr1@33.0, Attr2@5100.0, Attr4@0.1, Attr9@40.0->Attr0@8.0	 
+Attr1@33.0, Attr3@0.2, Attr8@6900.0, Attr9@170.0->Attr2@1800.0	 
+Attr0@4.0, Attr1@22.0, Attr3@0.2, Attr9@350.0->Attr2@800.0	 
+Attr1@46.0, Attr3@0.1, Attr8@1300.0->Attr0@19.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@20.0->Attr1@7.0	 
+Attr0@29.0, Attr2@12600.0, Attr4@0.0, Attr9@100.0->Attr8@800.0	 
+Attr1@17.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr8@0.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@30.0->Attr0@1.0	 
+Attr1@15.0, Attr2@2600.0, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr1@33.0, Attr3@0.2, Attr8@4900.0, Attr9@170.0->Attr0@5.0	 
+Attr0@10.0, Attr8@6900.0, Attr9@190.0->Attr1@30.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.0, Attr8@1600.0->Attr1@1.0	 
+Attr0@29.0, Attr4@0.0, Attr8@6900.0, Attr9@130.0->Attr2@900.0	 
+Attr0@24.0, Attr1@19.0, Attr4@0.1, Attr8@700.0->Attr9@20.0	 
+Attr0@17.0, Attr2@12600.0->Attr1@56.0	 
+Attr0@29.0, Attr2@12600.0, Attr9@30.0->Attr1@29.0	 
+Attr1@40.0, Attr3@0.3, Attr8@1600.0, Attr9@30.0->Attr2@800.0	 
+Attr8@5000.0, Attr9@110.0->Attr1@53.0	 
+Attr1@7.0, Attr2@8700.0, Attr8@3800.0->Attr0@19.0	 
+Attr1@17.0, Attr2@2600.0, Attr3@0.2->Attr0@19.0	 
+Attr2@4000.0, Attr9@40.0->Attr1@47.0	 
+Attr1@63.0, Attr3@0.2, Attr8@3300.0->Attr2@4100.0	 
+Attr1@47.0, Attr3@0.1, Attr9@350.0->Attr2@4000.0	 
+Attr0@19.0, Attr1@15.0, Attr8@6900.0, Attr9@350.0->Attr2@800.0	 
+Attr1@46.0, Attr3@0.2, Attr8@1300.0, Attr9@130.0->Attr2@800.0	 
+Attr1@30.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr9@10.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.0, Attr8@1600.0->Attr9@0.0	 
+Attr0@10.0, Attr8@6900.0, Attr9@150.0->Attr1@29.0	 
+Attr2@2500.0, Attr8@0.0->Attr3@0.1	 
+Attr0@8.0, Attr8@6900.0, Attr9@190.0->Attr1@29.0	 
+Attr2@3900.0, Attr8@1300.0, Attr9@350.0->Attr1@29.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3200.0->Attr2@3600.0	 
+Attr1@40.0, Attr3@0.3, Attr8@1600.0, Attr9@40.0->Attr2@900.0	 
+Attr0@28.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr9@20.0	 
+Attr0@11.0, Attr8@6900.0->Attr1@53.0	 
+Attr2@3600.0, Attr8@1400.0, Attr9@350.0->Attr1@29.0	 
+Attr0@29.0, Attr3@0.1, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr1@24.0, Attr3@0.2, Attr8@5700.0->Attr0@25.0	 
+Attr0@4.0, Attr1@22.0, Attr3@0.1, Attr9@350.0->Attr2@500.0	 
+Attr0@29.0, Attr1@30.0, Attr3@0.1->Attr2@3600.0	 
+Attr0@0.0, Attr9@20.0->Attr4@0.0	 
+Attr1@40.0, Attr3@0.1, Attr8@1600.0->Attr0@19.0	 
+Attr1@22.0, Attr3@0.2, Attr8@6900.0, Attr9@190.0->Attr2@1800.0	 
+Attr0@7.0, Attr1@45.0, Attr4@0.0, Attr9@350.0->Attr2@900.0	 
+Attr0@23.0, Attr1@6.0, Attr2@1900.0, Attr4@0.1->Attr9@10.0	 
+Attr2@3600.0, Attr8@1600.0, Attr9@350.0->Attr1@30.0	 
+Attr0@19.0, Attr4@0.0, Attr8@3600.0->Attr2@3600.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0, Attr9@150.0->Attr2@900.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr2@3900.0, Attr3@0.2, Attr8@1300.0, Attr9@130.0->Attr0@1.0	 
+Attr3@0.1, Attr8@6900.0, Attr9@350.0->Attr2@4100.0	 
+Attr1@47.0, Attr3@0.2, Attr8@3300.0->Attr2@4000.0	 
+Attr1@46.0, Attr3@0.1, Attr8@1300.0, Attr9@130.0->Attr2@500.0	 
+Attr2@1300.0, Attr9@20.0->Attr3@0.1	 
+Attr2@3100.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr0@5.0	 
+Attr0@10.0, Attr8@2300.0, Attr9@350.0->Attr1@30.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr1@1.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr8@0.0	 
+Attr1@40.0, Attr3@0.0, Attr8@3700.0->Attr2@3200.0	 
+Attr1@33.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@9.0, Attr8@0.0->Attr3@0.1	 
+Attr0@14.0, Attr1@9.0, Attr2@1900.0, Attr4@0.1->Attr8@800.0	 
+Attr0@29.0, Attr2@7200.0->Attr1@56.0	 
+Attr0@0.0, Attr8@600.0->Attr4@0.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@18.0, Attr2@9000.0->Attr1@56.0	 
+Attr1@63.0, Attr3@0.2, Attr8@6900.0->Attr2@5500.0	 
+Attr3@0.0, Attr8@6900.0, Attr9@350.0->Attr2@3800.0	 
+Attr3@0.1, Attr4@0.0, Attr8@3300.0->Attr2@3700.0	 
+Attr1@33.0, Attr3@0.1, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@500.0	 
+Attr0@9.0, Attr1@6.0, Attr2@3500.0, Attr4@0.1->Attr9@10.0	 
+Attr1@34.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr8@0.0	 
+Attr0@0.0, Attr1@3.0->Attr4@0.0	 
+Attr2@3500.0, Attr3@0.1, Attr9@110.0->Attr8@1800.0	 
+Attr0@23.0, Attr1@44.0, Attr4@0.1, Attr8@1400.0->Attr9@40.0	 
+Attr1@51.0, Attr3@0.1, Attr9@350.0->Attr2@4100.0	 
+Attr1@75.0, Attr4@0.0, Attr8@1300.0, Attr9@30.0->Attr2@700.0	 
+Attr0@0.0, Attr2@600.0->Attr4@0.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0, Attr9@260.0->Attr0@8.0	 
+Attr1@17.0, Attr2@2600.0, Attr3@0.2, Attr4@0.0->Attr0@1.0	 
+Attr0@29.0, Attr2@2600.0, Attr4@0.0, Attr9@350.0->Attr8@800.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr9@350.0->Attr8@700.0	 
+Attr0@23.0, Attr1@15.0, Attr2@1100.0, Attr4@0.1->Attr9@20.0	 
+Attr4@0.0, Attr8@6900.0, Attr9@90.0->Attr2@3700.0	 
+Attr0@29.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0, Attr9@150.0->Attr2@900.0	 
+Attr0@7.0, Attr1@15.0, Attr3@0.1, Attr9@350.0->Attr2@500.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@170.0->Attr2@500.0	 
+Attr0@1.0, Attr9@10.0->Attr3@0.1	 
+Attr2@1600.0, Attr8@100.0->Attr3@0.1	 
+Attr0@0.0, Attr1@12.0, Attr2@1500.0->Attr3@0.0	 
+Attr1@67.0, Attr3@0.2, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr1@17.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr9@0.0	 
+Attr8@3200.0, Attr9@120.0->Attr1@53.0	 
+Attr8@1700.0, Attr9@120.0->Attr1@48.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3600.0, Attr9@150.0->Attr2@900.0	 
+Attr0@22.0, Attr1@3.0, Attr2@8700.0, Attr8@4700.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@4900.0, Attr9@170.0->Attr0@5.0	 
+Attr0@29.0, Attr8@2000.0->Attr1@53.0	 
+Attr0@29.0, Attr4@0.0, Attr8@2300.0->Attr1@30.0	 
+Attr0@9.0, Attr1@9.0, Attr2@3500.0, Attr4@0.1->Attr9@20.0	 
+Attr0@17.0, Attr8@6900.0->Attr1@56.0	 
+Attr0@29.0, Attr8@6900.0, Attr9@30.0->Attr1@29.0	 
+Attr1@17.0, Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr2@900.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.0, Attr8@1600.0->Attr9@0.0	 
+Attr1@15.0, Attr2@1500.0, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr1@33.0, Attr3@0.1, Attr8@6900.0, Attr9@190.0->Attr0@5.0	 
+Attr2@1800.0, Attr3@0.1, Attr8@6900.0, Attr9@350.0->Attr0@5.0	 
+Attr0@28.0, Attr2@1500.0, Attr3@0.2, Attr4@0.0->Attr8@600.0	 
+Attr4@0.0, Attr8@5000.0, Attr9@130.0->Attr2@3700.0	 
+Attr3@0.0, Attr4@0.0, Attr9@350.0->Attr2@3700.0	 
+Attr0@8.0, Attr2@3500.0, Attr9@350.0->Attr8@1900.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0->Attr0@1.0	 
+Attr0@20.0, Attr1@15.0, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr3@0.3, Attr4@0.1, Attr9@40.0->Attr1@47.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@10.0->Attr1@6.0	 
+Attr1@9.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0->Attr8@0.0	 
+Attr2@3600.0, Attr3@0.1, Attr8@1600.0->Attr0@19.0	 
+Attr0@8.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr2@900.0	 
+Attr0@23.0, Attr1@3.0, Attr2@8700.0, Attr8@3800.0->Attr9@0.0	 
+Attr1@30.0, Attr3@0.2, Attr4@0.0->Attr0@25.0	 
+Attr1@33.0, Attr3@0.2, Attr8@2200.0, Attr9@350.0->Attr0@8.0	 
+Attr2@1600.0, Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr1@1.0	 
+Attr1@33.0, Attr3@0.2, Attr8@3700.0->Attr0@25.0	 
+Attr2@3900.0, Attr3@0.1, Attr8@1300.0->Attr0@19.0	 
+Attr0@1.0, Attr8@300.0->Attr3@0.1	 
+Attr1@30.0, Attr3@0.2, Attr8@4000.0->Attr0@25.0	 
+Attr1@17.0, Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr0@2.0	 
+Attr1@30.0, Attr2@8700.0, Attr3@0.0, Attr8@4200.0->Attr0@1.0	 
+Attr0@29.0, Attr8@6900.0->Attr2@9100.0	 
+Attr1@47.0, Attr8@6900.0, Attr9@150.0->Attr2@4000.0	 
+Attr0@29.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr2@2000.0	 
+Attr0@28.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1600.0, Attr9@20.0->Attr2@0.0	 
+Attr0@18.0, Attr1@15.0, Attr2@1500.0, Attr4@0.1->Attr9@20.0	 
+Attr0@19.0, Attr2@7500.0->Attr1@56.0	 
+Attr2@5800.0, Attr3@0.3, Attr4@0.0->Attr1@41.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@20.0->Attr1@7.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@170.0->Attr2@500.0	 
+Attr0@29.0, Attr8@1700.0, Attr9@150.0->Attr1@29.0	 
+Attr0@29.0, Attr2@3500.0, Attr4@0.0->Attr1@30.0	 
+Attr0@19.0, Attr3@0.3, Attr8@6900.0, Attr9@350.0->Attr2@2700.0	 
+Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr8@1800.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@150.0->Attr1@16.0	 
+Attr0@24.0, Attr1@15.0, Attr4@0.0, Attr8@1700.0->Attr2@0.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr9@0.0	 
+Attr0@18.0, Attr2@1500.0, Attr4@0.1, Attr8@6900.0->Attr9@40.0	 
+Attr0@18.0, Attr1@9.0, Attr2@1900.0, Attr4@0.1->Attr9@20.0	 
+Attr0@24.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr1@8.0	 
+Attr1@75.0, Attr4@0.0, Attr8@1300.0, Attr9@40.0->Attr2@900.0	 
+Attr0@29.0, Attr1@45.0, Attr4@0.0, Attr9@100.0->Attr2@900.0	 
+Attr1@40.0, Attr4@0.0, Attr8@1600.0, Attr9@30.0->Attr2@0.0	 
+Attr0@7.0, Attr1@45.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@14.0, Attr2@1900.0, Attr3@0.0, Attr4@0.1->Attr9@20.0	 
+Attr4@0.0, Attr8@3600.0, Attr9@140.0->Attr2@3700.0	 
+Attr0@29.0, Attr3@0.1, Attr8@6900.0, Attr9@190.0->Attr2@1800.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr2@500.0	 
+Attr1@33.0, Attr2@4000.0, Attr3@0.2->Attr0@25.0	 
+Attr1@33.0, Attr3@0.1, Attr8@2200.0, Attr9@350.0->Attr0@5.0	 
+Attr3@0.0, Attr4@0.1, Attr9@230.0->Attr1@42.0	 
+Attr0@29.0, Attr3@0.3, Attr8@1400.0, Attr9@350.0->Attr1@16.0	 
+Attr1@75.0, Attr8@6900.0, Attr9@140.0->Attr2@5400.0	 
+Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr0@1.0	 
+Attr3@0.3, Attr4@0.1, Attr9@70.0->Attr1@48.0	 
+Attr2@800.0, Attr4@0.1, Attr9@350.0->Attr3@0.1	 
+Attr0@8.0, Attr2@3500.0, Attr3@0.2, Attr9@170.0->Attr8@700.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0->Attr0@29.0	 
+Attr1@75.0, Attr3@0.0, Attr4@0.1, Attr9@350.0->Attr8@1800.0	 
+Attr1@34.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr9@0.0	 
+Attr1@51.0, Attr3@0.1, Attr9@350.0->Attr2@5000.0	 
+Attr0@18.0, Attr3@0.3, Attr8@1400.0->Attr9@140.0	 
+Attr0@29.0, Attr2@3500.0, Attr3@0.1, Attr9@110.0->Attr8@300.0	 
+Attr1@33.0, Attr3@0.2, Attr8@4900.0, Attr9@190.0->Attr0@8.0	 
+Attr1@33.0, Attr2@2200.0, Attr4@0.0, Attr9@350.0->Attr8@800.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr1@33.0, Attr3@0.2, Attr8@4000.0->Attr0@29.0	 
+Attr1@33.0, Attr2@2200.0, Attr4@0.0, Attr9@350.0->Attr0@2.0	 
+Attr1@7.0, Attr2@8700.0, Attr4@0.1, Attr8@4700.0->Attr0@12.0	 
+Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@500.0	 
+Attr0@8.0, Attr2@3500.0, Attr3@0.1, Attr9@350.0->Attr8@700.0	 
+Attr1@37.0, Attr3@0.2, Attr4@0.1, Attr8@3700.0->Attr2@3200.0	 
+Attr1@40.0, Attr3@0.2, Attr4@0.1, Attr8@3300.0->Attr2@3200.0	 
+Attr1@30.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr0@20.0, Attr1@29.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr1@71.0, Attr3@0.1, Attr8@6900.0->Attr2@5500.0	 
+Attr1@52.0, Attr8@6900.0, Attr9@150.0->Attr2@4100.0	 
+Attr0@29.0, Attr8@3200.0->Attr1@56.0	 
+Attr3@0.1, Attr4@0.0, Attr8@1600.0, Attr9@20.0->Attr1@1.0	 
+Attr1@17.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@800.0	 
+Attr1@17.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr0@2.0	 
+Attr2@2100.0, Attr3@0.3, Attr8@4900.0, Attr9@350.0->Attr1@17.0	 
+Attr2@3100.0, Attr3@0.1, Attr8@6900.0, Attr9@190.0->Attr0@5.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.0->Attr2@5500.0	 
+Attr1@37.0, Attr3@0.2, Attr8@6900.0->Attr2@5000.0	 
+Attr1@24.0, Attr3@0.2, Attr8@6900.0->Attr2@4100.0	 
+Attr1@33.0, Attr3@0.1, Attr8@6900.0, Attr9@190.0->Attr2@1800.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr2@500.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@4900.0, Attr9@350.0->Attr0@9.0	 
+Attr0@29.0, Attr3@0.2, Attr8@6900.0->Attr2@5000.0	 
+Attr0@29.0, Attr3@0.1, Attr8@2200.0, Attr9@350.0->Attr2@1800.0	 
+Attr1@46.0, Attr3@0.2, Attr8@1300.0->Attr0@25.0	 
+Attr1@9.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0->Attr9@0.0	 
+Attr1@40.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@10.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@2200.0, Attr9@350.0->Attr0@8.0	 
+Attr2@8600.0, Attr3@0.1, Attr4@0.1->Attr1@47.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.1, Attr9@110.0->Attr0@1.0	 
+Attr0@18.0, Attr8@4100.0->Attr1@56.0	 
+Attr0@19.0, Attr8@3600.0->Attr1@56.0	 
+Attr3@0.3, Attr4@0.0, Attr8@3200.0->Attr1@41.0	 
+Attr1@71.0, Attr3@0.2, Attr8@6900.0->Attr2@6000.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.1, Attr9@110.0->Attr8@300.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.0, Attr9@30.0->Attr8@0.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@170.0->Attr0@1.0	 
+Attr1@4.0, Attr2@8700.0, Attr3@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr1@33.0, Attr2@8700.0, Attr4@0.1, Attr9@40.0->Attr0@12.0	 
+Attr2@8600.0, Attr3@0.3->Attr1@65.0	 
+Attr0@29.0, Attr8@4100.0->Attr2@8800.0	 
+Attr1@30.0, Attr3@0.2, Attr8@6900.0->Attr2@4600.0	 
+Attr0@29.0, Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@1500.0	 
+Attr0@29.0, Attr2@5300.0, Attr4@0.1->Attr1@46.0	 
+Attr2@3600.0, Attr8@1600.0, Attr9@150.0->Attr1@29.0	 
+Attr0@8.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@800.0	 
+Attr1@40.0, Attr3@0.2, Attr8@1600.0->Attr0@25.0	 
+Attr3@0.3, Attr4@0.0, Attr9@110.0->Attr1@41.0	 
+Attr0@24.0, Attr1@19.0, Attr4@0.1, Attr8@1700.0->Attr9@40.0	 
+Attr0@18.0, Attr1@22.0, Attr4@0.1, Attr8@2200.0->Attr9@40.0	 
+Attr0@23.0, Attr2@2500.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr2@3100.0, Attr3@0.1, Attr8@2200.0, Attr9@350.0->Attr0@5.0	 
+Attr1@63.0, Attr8@6900.0, Attr9@150.0->Attr2@5400.0	 
+Attr2@12600.0, Attr3@0.3, Attr9@100.0->Attr8@5000.0	 
+Attr1@33.0, Attr3@0.1, Attr8@2200.0, Attr9@350.0->Attr2@1800.0	 
+Attr3@0.2, Attr4@0.0, Attr8@1300.0->Attr0@25.0	 
+Attr1@34.0, Attr2@4900.0, Attr3@0.0, Attr8@4200.0->Attr0@1.0	 
+Attr3@0.1, Attr4@0.1, Attr8@5100.0->Attr1@47.0	 
+Attr1@8.0, Attr9@350.0->Attr2@8800.0	 
+Attr1@15.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0->Attr0@1.0	 
+Attr1@34.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr0@1.0	 
+Attr0@7.0, Attr1@15.0, Attr2@1500.0, Attr4@0.1->Attr9@20.0	 
+Attr0@20.0, Attr1@9.0, Attr2@3500.0, Attr4@0.0->Attr8@0.0	 
+Attr0@20.0, Attr1@15.0, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@4900.0, Attr9@190.0->Attr0@8.0	 
+Attr3@0.3, Attr8@5100.0->Attr1@65.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@1600.0->Attr1@30.0	 
+Attr1@9.0, Attr3@0.1, Attr4@0.0->Attr9@110.0	 
+Attr1@17.0, Attr2@2600.0, Attr8@3800.0->Attr0@19.0	 
+Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr0@1.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@10.0->Attr1@6.0	 
+Attr0@29.0, Attr3@0.3, Attr8@3200.0, Attr9@350.0->Attr2@2700.0	 
+Attr3@0.3, Attr8@6900.0, Attr9@150.0->Attr2@6000.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr8@3700.0->Attr2@1600.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.0, Attr8@2800.0->Attr2@0.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@1500.0	 
+Attr2@3600.0, Attr8@2300.0, Attr9@350.0->Attr1@35.0	 
+Attr0@24.0, Attr1@9.0, Attr2@2600.0, Attr4@0.0->Attr8@0.0	 
+Attr0@29.0, Attr3@0.3, Attr8@6900.0, Attr9@150.0->Attr2@2700.0	 
+Attr1@9.0, Attr2@3500.0, Attr4@0.0->Attr8@1800.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr0@1.0	 
+Attr0@29.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr1@13.0	 
+Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@6000.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@20.0->Attr1@7.0	 
+Attr0@19.0, Attr1@22.0, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@500.0	 
+Attr1@15.0, Attr4@0.1, Attr9@150.0->Attr3@0.1	 
+Attr2@3600.0, Attr4@0.0, Attr8@1600.0, Attr9@30.0->Attr1@1.0	 
+Attr1@61.0, Attr3@0.3, Attr9@100.0->Attr8@5000.0	 
+Attr2@3600.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@10.0	 
+Attr0@24.0, Attr1@15.0, Attr4@0.0, Attr8@1700.0->Attr9@0.0	 
+Attr1@17.0, Attr2@1700.0, Attr3@0.2, Attr8@1800.0->Attr0@1.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr0@18.0, Attr1@16.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr1@7.0, Attr4@0.1, Attr8@4700.0->Attr9@160.0	 
+Attr0@19.0, Attr1@16.0, Attr8@6900.0, Attr9@350.0->Attr2@1800.0	 
+Attr0@29.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr1@16.0	 
+Attr2@800.0, Attr4@0.1->Attr3@0.2	 
+Attr1@17.0, Attr2@3700.0, Attr8@6900.0->Attr0@23.0	 
+Attr1@17.0, Attr2@8700.0, Attr4@0.0, Attr9@260.0->Attr0@8.0	 
+Attr2@2100.0, Attr3@0.3, Attr8@4900.0, Attr9@190.0->Attr1@16.0	 
+Attr2@2200.0, Attr3@0.3, Attr8@4900.0, Attr9@170.0->Attr1@16.0	 
+Attr0@29.0, Attr2@4900.0, Attr3@0.0, Attr8@4200.0->Attr1@4.0	 
+Attr1@71.0, Attr3@0.1, Attr4@0.0->Attr2@5500.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@3700.0->Attr2@1600.0	 
+Attr0@8.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@500.0	 
+Attr0@29.0, Attr3@0.2, Attr8@4900.0, Attr9@130.0->Attr1@13.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.0, Attr8@6900.0->Attr2@1600.0	 
+Attr0@18.0, Attr3@0.2, Attr8@1800.0->Attr9@140.0	 
+Attr2@3600.0, Attr3@0.2, Attr8@1600.0->Attr0@25.0	 
+Attr1@29.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@900.0	 
+Attr0@18.0, Attr1@16.0, Attr8@6900.0, Attr9@350.0->Attr2@1800.0	 
+Attr2@3900.0, Attr3@0.2, Attr8@1300.0->Attr0@25.0	 
+Attr3@0.2, Attr4@0.1, Attr9@110.0->Attr1@48.0	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0->Attr2@5200.0	 
+Attr0@7.0, Attr2@3500.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.0, Attr8@2800.0->Attr2@900.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@500.0	 
+Attr0@8.0, Attr1@22.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr1@7.0, Attr2@5100.0, Attr4@0.0->Attr9@110.0	 
+Attr0@29.0, Attr1@75.0, Attr9@140.0->Attr2@5400.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr2@500.0	 
+Attr0@18.0, Attr2@2100.0, Attr4@0.1, Attr8@2200.0->Attr9@40.0	 
+Attr2@8600.0, Attr3@0.1->Attr1@62.0	 
+Attr1@71.0, Attr3@0.2, Attr4@0.0->Attr2@6000.0	 
+Attr3@0.0, Attr4@0.0, Attr8@3700.0->Attr2@3700.0	 
+Attr0@20.0, Attr1@29.0, Attr4@0.0, Attr8@2800.0->Attr2@900.0	 
+Attr1@15.0, Attr2@2600.0, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@29.0, Attr1@69.0, Attr9@150.0->Attr2@5400.0	 
+Attr1@41.0, Attr3@0.0, Attr8@3700.0->Attr2@3700.0	 
+Attr0@18.0, Attr2@1800.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@20.0, Attr1@9.0, Attr2@3500.0, Attr4@0.0->Attr9@0.0	 
+Attr1@16.0, Attr2@1900.0, Attr8@6900.0, Attr9@350.0->Attr0@5.0	 
+Attr1@17.0, Attr2@1800.0, Attr8@6900.0, Attr9@350.0->Attr0@5.0	 
+Attr0@29.0, Attr3@0.2, Attr8@4900.0, Attr9@170.0->Attr1@16.0	 
+Attr1@71.0, Attr3@0.0, Attr8@6900.0->Attr2@5000.0	 
+Attr0@8.0, Attr2@3500.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr0@29.0, Attr1@29.0, Attr4@0.0, Attr8@1700.0->Attr2@900.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.0, Attr8@3700.0->Attr1@10.0	 
+Attr1@75.0, Attr2@12600.0, Attr9@100.0->Attr8@5000.0	 
+Attr0@14.0, Attr2@1700.0, Attr3@0.1, Attr9@350.0->Attr1@7.0	 
+Attr0@24.0, Attr1@9.0, Attr2@2600.0, Attr4@0.0->Attr9@0.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr0@1.0	 
+Attr0@8.0, Attr1@45.0, Attr8@6900.0, Attr9@350.0->Attr2@2200.0	 
+Attr1@7.0, Attr2@5100.0, Attr4@0.1->Attr3@0.1	 
+Attr1@61.0, Attr3@0.3, Attr4@0.1, Attr9@140.0->Attr2@4000.0	 
+Attr1@17.0, Attr2@2600.0, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr3@0.1, Attr4@0.1, Attr9@140.0->Attr1@47.0	 
+Attr1@17.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0->Attr0@2.0	 
+Attr1@35.0, Attr3@0.3, Attr4@0.1->Attr2@8800.0	 
+Attr1@67.0, Attr3@0.3, Attr4@0.1, Attr9@70.0->Attr2@4000.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr2@500.0	 
+Attr1@40.0, Attr4@0.0, Attr8@1600.0, Attr9@30.0->Attr0@1.0	 
+Attr1@38.0, Attr9@120.0->Attr2@10300.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.0, Attr9@30.0->Attr0@1.0	 
+Attr0@23.0, Attr1@3.0, Attr2@1800.0, Attr8@6900.0->Attr9@0.0	 
+Attr0@8.0, Attr1@22.0, Attr2@3500.0, Attr9@350.0->Attr8@800.0	 
+Attr1@17.0, Attr2@5100.0, Attr4@0.0, Attr9@350.0->Attr0@8.0	 
+Attr4@0.0, Attr8@1700.0->Attr2@9700.0	 
+Attr3@0.1, Attr4@0.1, Attr9@230.0->Attr1@52.0	 
+Attr3@0.1, Attr4@0.0, Attr9@270.0->Attr1@41.0	 
+Attr3@0.3, Attr4@0.1, Attr8@6900.0, Attr9@140.0->Attr2@4000.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@30.0->Attr1@13.0	 
+Attr1@32.0, Attr9@350.0->Attr2@11800.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr0@1.0	 
+Attr0@18.0, Attr1@15.0, Attr3@0.1, Attr8@1900.0->Attr2@700.0	 
+Attr1@61.0, Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@1800.0	 
+Attr0@7.0, Attr1@15.0, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr1@16.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr0@1.0	 
+Attr1@67.0, Attr3@0.2, Attr9@100.0->Attr8@5000.0	 
+Attr0@29.0, Attr2@12600.0, Attr4@0.1, Attr9@100.0->Attr8@1800.0	 
+Attr1@16.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@9.0, Attr4@0.1, Attr8@2200.0->Attr9@180.0	 
+Attr1@40.0, Attr2@4900.0, Attr3@0.0, Attr4@0.0->Attr9@10.0	 
+Attr0@8.0, Attr2@2100.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr1@22.0, Attr2@2200.0, Attr8@6900.0, Attr9@190.0->Attr0@5.0	 
+Attr0@28.0, Attr2@1500.0, Attr3@0.1, Attr4@0.0->Attr9@10.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@1800.0, Attr9@350.0->Attr1@16.0	 
+Attr0@8.0, Attr4@0.1, Attr8@2300.0->Attr9@180.0	 
+Attr0@8.0, Attr3@0.3, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr0@18.0, Attr1@20.0, Attr2@1500.0, Attr4@0.1->Attr9@40.0	 
+Attr1@33.0, Attr2@2200.0, Attr8@1800.0, Attr9@350.0->Attr0@5.0	 
+Attr8@6900.0, Attr9@120.0->Attr2@11400.0	 
+Attr0@23.0, Attr2@1800.0, Attr3@0.3, Attr8@4900.0->Attr1@16.0	 
+Attr1@15.0, Attr4@0.1, Attr8@1700.0->Attr3@0.1	 
+Attr1@69.0, Attr8@6900.0, Attr9@150.0->Attr2@6000.0	 
+Attr0@23.0, Attr2@800.0, Attr4@0.1->Attr3@0.1	 
+Attr1@22.0, Attr4@0.1, Attr9@30.0->Attr3@0.1	 
+Attr1@75.0, Attr3@0.0, Attr4@0.1, Attr9@350.0->Attr2@3800.0	 
+Attr1@33.0, Attr2@4900.0, Attr3@0.1, Attr4@0.0->Attr0@8.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr0@1.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@1600.0, Attr9@30.0->Attr0@1.0	 
+Attr2@8600.0, Attr3@0.1, Attr4@0.0->Attr1@41.0	 
+Attr1@51.0, Attr4@0.1, Attr9@350.0->Attr2@8800.0	 
+Attr2@9600.0, Attr4@0.1, Attr8@3200.0->Attr1@53.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr1@7.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@0.0	 
+Attr4@0.0, Attr8@2300.0, Attr9@350.0->Attr1@41.0	 
+Attr1@30.0, Attr2@5100.0, Attr3@0.1, Attr4@0.0->Attr0@8.0	 
+Attr4@0.1, Attr8@3200.0, Attr9@260.0->Attr1@53.0	 
+Attr4@0.1, Attr8@1700.0, Attr9@260.0->Attr1@48.0	 
+Attr1@75.0, Attr8@6900.0, Attr9@150.0->Attr2@7300.0	 
+Attr1@28.0, Attr4@0.1, Attr9@10.0->Attr3@0.1	 
+Attr0@14.0, Attr2@2600.0, Attr3@0.3, Attr9@170.0->Attr1@16.0	 
+Attr0@29.0, Attr2@12600.0, Attr4@0.0, Attr9@130.0->Attr1@16.0	 
+Attr2@3100.0, Attr3@0.2, Attr8@4900.0, Attr9@170.0->Attr1@16.0	 
+Attr1@40.0, Attr4@0.0, Attr8@1600.0, Attr9@40.0->Attr2@900.0	 
+Attr1@38.0, Attr9@230.0->Attr2@11800.0	 
+Attr1@33.0, Attr2@4900.0, Attr3@0.1, Attr9@350.0->Attr0@10.0	 
+Attr0@23.0, Attr2@2100.0, Attr3@0.3, Attr8@4900.0->Attr1@17.0	 
+Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr8@300.0	 
+Attr4@0.1, Attr8@5000.0, Attr9@150.0->Attr2@8200.0	 
+Attr1@15.0, Attr2@2600.0, Attr4@0.1->Attr3@0.1	 
+Attr1@33.0, Attr2@2200.0, Attr8@4900.0, Attr9@170.0->Attr0@5.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@2300.0->Attr1@35.0	 
+Attr0@23.0, Attr2@1300.0, Attr3@0.2, Attr8@6900.0->Attr1@13.0	 
+Attr2@3900.0, Attr3@0.1, Attr8@1300.0, Attr9@130.0->Attr1@7.0	 
+Attr0@28.0, Attr1@45.0, Attr3@0.0, Attr4@0.0->Attr2@1600.0	 
+Attr0@9.0, Attr4@0.1, Attr8@2800.0->Attr9@200.0	 
+Attr2@11300.0, Attr4@0.0, Attr9@130.0->Attr1@41.0	 
+Attr3@0.1, Attr4@0.0, Attr8@5100.0->Attr1@41.0	 
+Attr0@10.0, Attr1@22.0, Attr8@6900.0, Attr9@190.0->Attr2@1800.0	 
+Attr0@11.0, Attr1@15.0, Attr4@0.1->Attr3@0.1	 
+Attr0@8.0, Attr2@3500.0, Attr3@0.1->Attr8@2900.0	 
+Attr0@29.0, Attr1@75.0, Attr2@3500.0, Attr4@0.1, Attr9@150.0->Attr8@800.0	 
+Attr0@11.0, Attr1@9.0, Attr4@0.0->Attr9@110.0	 
+Attr0@17.0, Attr2@12600.0, Attr4@0.1->Attr1@53.0	 
+Attr0@8.0, Attr2@3400.0, Attr3@0.3, Attr9@170.0->Attr1@16.0	 
+Attr0@28.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0->Attr2@2700.0	 
+Attr1@71.0, Attr3@0.0, Attr4@0.0->Attr8@3800.0	 
+Attr1@28.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr0@1.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@40.0->Attr1@16.0	 
+Attr0@29.0, Attr3@0.3, Attr9@100.0->Attr8@5000.0	 
+Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr0@2.0	 
+Attr0@18.0, Attr2@12600.0, Attr4@0.0, Attr9@150.0->Attr1@16.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@0.0	 
+Attr2@4900.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@30.0	 
+Attr0@14.0, Attr2@2100.0, Attr3@0.3, Attr9@190.0->Attr1@16.0	 
+Attr0@18.0, Attr3@0.1, Attr8@1900.0->Attr9@140.0	 
+Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr0@23.0, Attr2@2600.0, Attr3@0.3, Attr8@1800.0->Attr1@16.0	 
+Attr1@75.0, Attr8@4000.0, Attr9@150.0->Attr2@6000.0	 
+Attr1@22.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr0@1.0	 
+Attr2@12600.0, Attr4@0.0, Attr9@90.0->Attr1@41.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr1@1.0	 
+Attr0@20.0, Attr1@28.0, Attr3@0.3, Attr4@0.1, Attr8@1800.0->Attr2@900.0	 
+Attr1@22.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr8@300.0	 
+Attr2@12600.0, Attr3@0.0, Attr9@350.0->Attr1@42.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.1, Attr8@3300.0->Attr2@4000.0	 
+Attr0@20.0, Attr1@29.0, Attr4@0.0, Attr8@3200.0->Attr2@1600.0	 
+Attr0@7.0, Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr8@0.0	 
+Attr2@7200.0, Attr9@330.0->Attr1@65.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@2300.0->Attr1@41.0	 
+Attr2@3500.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr8@1800.0	 
+Attr1@2.0, Attr2@3500.0, Attr4@0.1->Attr8@4800.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1400.0, Attr9@350.0->Attr1@19.0	 
+Attr0@1.0, Attr1@22.0, Attr4@0.1->Attr3@0.1	 
+Attr3@0.3, Attr9@110.0->Attr1@68.0	 
+Attr0@20.0, Attr1@28.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr2@500.0	 
+Attr0@20.0, Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr8@300.0	 
+Attr1@17.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr0@1.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr0@1.0	 
+Attr0@29.0, Attr2@6300.0, Attr4@0.1->Attr1@53.0	 
+Attr0@18.0, Attr2@9000.0, Attr4@0.1->Attr1@53.0	 
+Attr0@23.0, Attr2@2100.0, Attr3@0.3, Attr8@2200.0->Attr1@16.0	 
+Attr1@17.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr0@14.0, Attr1@9.0, Attr2@1900.0, Attr4@0.1->Attr9@40.0	 
+Attr0@27.0, Attr2@7200.0, Attr4@0.1->Attr1@53.0	 
+Attr2@5800.0, Attr4@0.0, Attr9@190.0->Attr1@41.0	 
+Attr1@30.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0->Attr2@2700.0	 
+Attr0@28.0, Attr1@44.0, Attr3@0.0, Attr8@4200.0->Attr2@1800.0	 
+Attr0@18.0, Attr3@0.3, Attr8@1800.0->Attr9@160.0	 
+Attr2@12600.0, Attr3@0.3, Attr9@140.0->Attr1@48.0	 
+Attr0@23.0, Attr2@1700.0, Attr3@0.2, Attr8@4900.0->Attr1@13.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@30.0->Attr1@13.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.1, Attr9@140.0->Attr2@4000.0	 
+Attr0@29.0, Attr4@0.0, Attr8@6900.0, Attr9@130.0->Attr1@16.0	 
+Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@4000.0	 
+Attr1@19.0, Attr2@600.0, Attr4@0.1->Attr3@0.1	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr1@15.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@50.0	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.0, Attr9@150.0->Attr1@16.0	 
+Attr1@22.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@600.0	 
+Attr0@9.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr8@300.0	 
+Attr1@7.0, Attr2@2100.0, Attr3@0.0, Attr8@6900.0->Attr0@1.0	 
+Attr2@12600.0, Attr3@0.3->Attr1@73.0	 
+Attr1@69.0, Attr4@0.0, Attr9@150.0->Attr2@6000.0	 
+Attr2@5300.0, Attr4@0.1, Attr9@40.0->Attr1@47.0	 
+Attr0@8.0, Attr2@12600.0, Attr4@0.0, Attr9@190.0->Attr1@16.0	 
+Attr0@17.0, Attr4@0.1, Attr8@6900.0->Attr1@53.0	 
+Attr1@17.0, Attr4@0.1, Attr8@700.0->Attr3@0.1	 
+Attr2@2600.0, Attr3@0.3, Attr8@4900.0, Attr9@170.0->Attr1@19.0	 
+Attr0@18.0, Attr8@6900.0, Attr9@150.0->Attr2@5400.0	 
+Attr0@29.0, Attr8@6900.0, Attr9@110.0->Attr2@5400.0	 
+Attr1@7.0, Attr4@0.0->Attr9@270.0	 
+Attr1@17.0, Attr2@800.0, Attr4@0.1->Attr3@0.1	 
+Attr1@44.0, Attr2@3100.0, Attr3@0.0, Attr8@4200.0->Attr0@5.0	 
+Attr2@7500.0, Attr4@0.0, Attr9@140.0->Attr1@41.0	 
+Attr2@3100.0, Attr3@0.3, Attr8@4900.0, Attr9@150.0->Attr1@19.0	 
+Attr1@51.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr2@4000.0	 
+Attr0@18.0, Attr1@44.0, Attr8@1400.0->Attr9@140.0	 
+Attr0@18.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr2@500.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0, Attr9@150.0->Attr1@16.0	 
+Attr2@3100.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr1@7.0	 
+Attr0@23.0, Attr2@1700.0, Attr3@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr1@75.0, Attr4@0.0, Attr9@150.0->Attr2@7300.0	 
+Attr1@3.0, Attr3@0.3, Attr8@4700.0->Attr9@160.0	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.1->Attr1@54.0	 
+Attr2@3900.0, Attr3@0.2, Attr8@1300.0, Attr9@130.0->Attr1@13.0	 
+Attr2@7200.0, Attr8@6900.0->Attr1@65.0	 
+Attr0@29.0, Attr4@0.0, Attr8@1400.0, Attr9@350.0->Attr1@16.0	 
+Attr1@28.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr0@1.0	 
+Attr0@29.0, Attr2@2600.0, Attr4@0.0, Attr9@350.0->Attr1@16.0	 
+Attr2@1300.0, Attr4@0.1, Attr9@30.0->Attr3@0.1	 
+Attr0@18.0, Attr3@0.3, Attr8@1900.0->Attr9@180.0	 
+Attr4@0.0, Attr8@6900.0, Attr9@90.0->Attr1@41.0	 
+Attr0@19.0, Attr2@7500.0, Attr4@0.1->Attr1@53.0	 
+Attr3@0.0, Attr8@6900.0, Attr9@350.0->Attr1@42.0	 
+Attr0@7.0, Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr9@0.0	 
+Attr0@29.0, Attr1@75.0, Attr9@100.0->Attr8@5000.0	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr9@140.0->Attr1@16.0	 
+Attr0@23.0, Attr2@1100.0, Attr3@0.1, Attr8@1900.0->Attr1@7.0	 
+Attr4@0.1, Attr8@5000.0, Attr9@260.0->Attr2@9100.0	 
+Attr4@0.1, Attr8@4100.0, Attr9@260.0->Attr2@8800.0	 
+Attr4@0.0, Attr8@5000.0, Attr9@130.0->Attr1@41.0	 
+Attr3@0.0, Attr4@0.0, Attr9@350.0->Attr1@41.0	 
+Attr1@72.0, Attr3@0.0, Attr4@0.1->Attr2@8700.0	 
+Attr0@23.0, Attr2@1700.0, Attr3@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr4@0.0, Attr8@3200.0, Attr9@190.0->Attr1@41.0	 
+Attr0@19.0, Attr8@6900.0, Attr9@130.0->Attr2@5400.0	 
+Attr2@1900.0, Attr3@0.1, Attr8@1800.0->Attr9@140.0	 
+Attr2@1600.0, Attr4@0.1, Attr9@10.0->Attr3@0.1	 
+Attr0@29.0, Attr3@0.2, Attr4@0.0, Attr8@3700.0->Attr1@18.0	 
+Attr3@0.3, Attr8@6900.0, Attr9@140.0->Attr1@48.0	 
+Attr0@19.0, Attr2@7500.0, Attr4@0.0, Attr9@150.0->Attr1@16.0	 
+Attr0@8.0, Attr2@3400.0, Attr3@0.3, Attr8@1800.0->Attr1@16.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3600.0, Attr9@150.0->Attr1@16.0	 
+Attr0@7.0, Attr1@28.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr2@900.0	 
+Attr0@8.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr9@170.0->Attr8@300.0	 
+Attr0@29.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr1@7.0	 
+Attr0@8.0, Attr1@25.0, Attr2@3500.0->Attr8@2900.0	 
+Attr0@29.0, Attr1@75.0, Attr9@150.0->Attr2@7300.0	 
+Attr0@18.0, Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@8.0, Attr1@9.0, Attr2@3500.0->Attr8@2000.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@40.0->Attr1@16.0	 
+Attr0@23.0, Attr2@1100.0, Attr3@0.1, Attr8@1900.0->Attr9@20.0	 
+Attr0@18.0, Attr2@1700.0, Attr3@0.1, Attr8@1900.0->Attr1@7.0	 
+Attr0@18.0, Attr1@16.0, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr3@0.3, Attr8@6900.0->Attr1@73.0	 
+Attr2@3900.0, Attr8@2300.0, Attr9@350.0->Attr1@42.0	 
+Attr0@7.0, Attr1@28.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr0@18.0, Attr1@29.0, Attr8@1800.0->Attr9@140.0	 
+Attr0@8.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr1@16.0	 
+Attr0@29.0, Attr4@0.1, Attr8@3200.0->Attr1@53.0	 
+Attr4@0.0, Attr8@3600.0, Attr9@140.0->Attr1@41.0	 
+Attr0@29.0, Attr2@5100.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr1@1.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@1900.0	 
+Attr1@40.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@3600.0	 
+Attr0@29.0, Attr1@45.0, Attr8@3200.0, Attr9@350.0->Attr2@2700.0	 
+Attr2@8600.0, Attr3@0.0, Attr4@0.0->Attr8@3800.0	 
+Attr0@23.0, Attr2@1700.0, Attr3@0.2, Attr8@1800.0->Attr9@30.0	 
+Attr1@75.0, Attr3@0.0, Attr4@0.1->Attr2@8800.0	 
+Attr0@8.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr2@500.0	 
+Attr1@30.0, Attr2@3500.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr0@1.0	 
+Attr1@30.0, Attr2@3500.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr8@300.0	 
+Attr0@18.0, Attr2@1700.0, Attr3@0.1, Attr8@1900.0->Attr9@20.0	 
+Attr0@18.0, Attr4@0.1, Attr8@4100.0->Attr1@53.0	 
+Attr0@18.0, Attr1@22.0, Attr8@1900.0->Attr9@140.0	 
+Attr0@19.0, Attr4@0.1, Attr8@3600.0->Attr1@53.0	 
+Attr0@8.0, Attr1@22.0, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr0@1.0, Attr2@1300.0, Attr4@0.1->Attr3@0.1	 
+Attr1@52.0, Attr4@0.1, Attr8@6900.0, Attr9@150.0->Attr2@4000.0	 
+Attr2@7500.0, Attr9@330.0->Attr1@70.0	 
+Attr2@8100.0, Attr8@3600.0->Attr1@65.0	 
+Attr3@0.3, Attr4@0.1, Attr9@110.0->Attr1@62.0	 
+Attr0@23.0, Attr2@1100.0, Attr3@0.2, Attr8@1900.0->Attr9@30.0	 
+Attr2@12600.0, Attr3@0.1, Attr9@350.0->Attr1@48.0	 
+Attr0@7.0, Attr2@12600.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@100.0	 
+Attr1@51.0, Attr3@0.3, Attr9@350.0->Attr2@8800.0	 
+Attr1@15.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@30.0	 
+Attr4@0.1, Attr8@1700.0, Attr9@40.0->Attr1@47.0	 
+Attr0@29.0, Attr2@5300.0, Attr9@350.0->Attr1@46.0	 
+Attr1@72.0, Attr3@0.2, Attr8@6900.0->Attr2@8700.0	 
+Attr0@19.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@2700.0	 
+Attr2@7500.0, Attr8@4000.0->Attr1@65.0	 
+Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr1@46.0	 
+Attr2@3600.0, Attr3@0.3, Attr8@1600.0, Attr9@150.0->Attr1@19.0	 
+Attr0@23.0, Attr2@1900.0, Attr8@1800.0->Attr9@140.0	 
+Attr0@18.0, Attr2@1700.0, Attr3@0.2, Attr8@1900.0->Attr9@30.0	 
+Attr1@33.0, Attr3@0.2, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr0@1.0	 
+Attr1@12.0, Attr2@8700.0, Attr9@260.0->Attr3@0.1	 
+Attr0@20.0, Attr1@44.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr0@14.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr0@29.0, Attr2@12600.0, Attr9@100.0->Attr8@5000.0	 
+Attr1@20.0, Attr2@1800.0, Attr4@0.1, Attr9@350.0->Attr8@1900.0	 
+Attr0@29.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@1500.0	 
+Attr2@3600.0, Attr3@0.2, Attr8@1600.0, Attr9@350.0->Attr1@19.0	 
+Attr0@18.0, Attr2@2500.0, Attr8@1800.0->Attr9@140.0	 
+Attr1@44.0, Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr0@1.0, Attr1@75.0, Attr4@0.0->Attr3@0.1	 
+Attr0@9.0, Attr1@75.0, Attr2@3500.0, Attr4@0.1->Attr8@2900.0	 
+Attr0@14.0, Attr2@3500.0, Attr3@0.1, Attr4@0.1, Attr9@190.0->Attr8@300.0	 
+Attr1@75.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@1800.0	 
+Attr0@18.0, Attr1@22.0, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@900.0	 
+Attr2@1700.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@30.0	 
+Attr2@7500.0, Attr8@6900.0->Attr1@70.0	 
+Attr2@3100.0, Attr3@0.1, Attr4@0.1, Attr8@2200.0, Attr9@350.0->Attr1@7.0	 
+Attr0@29.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@0.0	 
+Attr0@18.0, Attr2@2100.0, Attr8@1900.0->Attr9@140.0	 
+Attr1@33.0, Attr2@3500.0, Attr4@0.0, Attr9@350.0->Attr8@1500.0	 
+Attr1@33.0, Attr2@4500.0, Attr3@0.2, Attr4@0.1->Attr0@29.0	 
+Attr0@29.0, Attr1@52.0, Attr8@3200.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@350.0->Attr1@7.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@3200.0->Attr1@46.0	 
+Attr1@75.0, Attr3@0.1, Attr4@0.0, Attr9@350.0->Attr2@3700.0	 
+Attr0@14.0, Attr2@3500.0, Attr4@0.1, Attr9@190.0->Attr8@1900.0	 
+Attr3@0.1, Attr8@6900.0, Attr9@350.0->Attr1@48.0	 
+Attr0@29.0, Attr1@30.0, Attr3@0.0, Attr8@4200.0->Attr2@2000.0	 
+Attr2@800.0, Attr9@350.0->Attr3@0.2	 
+Attr0@20.0, Attr1@15.0, Attr2@1500.0, Attr4@0.0->Attr9@20.0	 
+Attr1@64.0, Attr3@0.3, Attr4@0.0->Attr2@8800.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.0, Attr9@260.0->Attr2@3700.0	 
+Attr1@41.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@3700.0	 
+Attr0@0.0, Attr3@0.1, Attr9@350.0->Attr4@0.0	 
+Attr1@17.0, Attr2@1700.0, Attr3@0.2, Attr8@1800.0->Attr9@30.0	 
+Attr0@18.0, Attr2@12600.0, Attr4@0.0->Attr1@46.0	 
+Attr0@18.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr1@7.0	 
+Attr4@0.1, Attr8@6900.0, Attr9@260.0->Attr2@11400.0	 
+Attr1@12.0, Attr2@11700.0, Attr9@150.0->Attr3@0.1	 
+Attr1@12.0, Attr2@5100.0, Attr9@350.0->Attr3@0.1	 
+Attr3@0.1, Attr9@220.0->Attr1@68.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@1.0	 
+Attr0@23.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr1@8.0	 
+Attr0@29.0, Attr3@0.0, Attr4@0.0->Attr8@3800.0	 
+Attr0@9.0, Attr2@2600.0, Attr8@1800.0->Attr9@140.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr0@18.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr9@20.0	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0, Attr9@260.0->Attr2@3600.0	 
+Attr1@46.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@3800.0	 
+Attr1@72.0, Attr3@0.2, Attr4@0.0->Attr2@8700.0	 
+Attr3@0.3, Attr4@0.0, Attr8@6900.0, Attr9@140.0->Attr2@3700.0	 
+Attr0@20.0, Attr1@29.0, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr0@14.0, Attr2@2100.0, Attr4@0.1, Attr9@190.0->Attr8@1800.0	 
+Attr4@0.0, Attr8@700.0, Attr9@350.0->Attr3@0.1	 
+Attr4@0.0, Attr8@3600.0, Attr9@150.0->Attr2@6000.0	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0, Attr8@6900.0->Attr2@3600.0	 
+Attr2@3600.0, Attr3@0.2, Attr4@0.0, Attr8@1600.0->Attr1@18.0	 
+Attr0@29.0, Attr1@28.0, Attr4@0.1, Attr8@1800.0, Attr9@350.0->Attr2@1400.0	 
+Attr0@9.0, Attr1@75.0, Attr3@0.0, Attr4@0.1->Attr8@2900.0	 
+Attr0@18.0, Attr1@20.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr8@300.0	 
+Attr1@17.0, Attr2@1900.0, Attr8@1800.0->Attr9@140.0	 
+Attr0@29.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@2700.0	 
+Attr1@12.0, Attr8@3200.0, Attr9@350.0->Attr3@0.1	 
+Attr0@29.0, Attr2@6300.0, Attr4@0.0->Attr1@46.0	 
+Attr0@1.0, Attr4@0.0, Attr9@350.0->Attr3@0.1	 
+Attr0@1.0, Attr2@12600.0, Attr4@0.0->Attr3@0.1	 
+Attr0@27.0, Attr2@7200.0, Attr4@0.0->Attr1@46.0	 
+Attr1@12.0, Attr8@6900.0, Attr9@150.0->Attr3@0.1	 
+Attr0@24.0, Attr1@29.0, Attr4@0.0, Attr8@1700.0->Attr9@40.0	 
+Attr0@23.0, Attr1@12.0, Attr2@1900.0, Attr8@1800.0->Attr9@20.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3200.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@14.0, Attr1@22.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr8@300.0	 
+Attr0@24.0, Attr2@2600.0, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr0@14.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr9@190.0->Attr1@7.0	 
+Attr2@12600.0, Attr8@3200.0, Attr9@350.0->Attr1@53.0	 
+Attr2@12600.0, Attr8@1700.0, Attr9@350.0->Attr1@48.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0->Attr1@46.0	 
+Attr0@23.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr1@10.0	 
+Attr1@7.0, Attr4@0.0, Attr8@6900.0->Attr9@160.0	 
+Attr1@7.0, Attr2@5100.0, Attr4@0.1, Attr8@4700.0->Attr9@110.0	 
+Attr0@23.0, Attr2@2500.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr1@7.0	 
+Attr0@18.0, Attr1@9.0, Attr4@0.1, Attr8@6900.0->Attr9@110.0	 
+Attr2@8600.0, Attr3@0.1, Attr8@6900.0->Attr1@48.0	 
+Attr1@75.0, Attr3@0.2, Attr4@0.0->Attr2@8800.0	 
+Attr0@19.0, Attr4@0.0, Attr8@3600.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@20.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr2@1400.0	 
+Attr0@29.0, Attr1@29.0, Attr2@3500.0, Attr4@0.1, Attr9@170.0->Attr8@800.0	 
+Attr4@0.0, Attr8@5000.0, Attr9@150.0->Attr2@7600.0	 
+Attr1@75.0, Attr4@0.0, Attr9@350.0->Attr2@8800.0	 
+Attr0@23.0, Attr1@12.0, Attr2@1100.0, Attr8@1900.0->Attr9@20.0	 
+Attr0@18.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr9@20.0	 
+Attr0@23.0, Attr2@2500.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr9@20.0	 
+Attr0@23.0, Attr2@1800.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0->Attr1@16.0	 
+Attr0@20.0, Attr4@0.0, Attr8@2300.0->Attr9@160.0	 
+Attr1@7.0, Attr2@8700.0, Attr8@3800.0->Attr3@0.1	 
+Attr0@29.0, Attr2@7500.0->Attr1@70.0	 
+Attr0@19.0, Attr2@7500.0, Attr4@0.0->Attr1@46.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3600.0->Attr1@46.0	 
+Attr0@19.0, Attr8@6900.0, Attr9@150.0->Attr2@7600.0	 
+Attr0@19.0, Attr4@0.0, Attr8@6900.0->Attr2@7600.0	 
+Attr0@24.0, Attr4@0.0, Attr8@1700.0->Attr9@160.0	 
+Attr0@1.0, Attr4@0.0, Attr8@6900.0->Attr3@0.1	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr9@140.0->Attr2@3600.0	 
+Attr0@23.0, Attr2@2100.0, Attr3@0.3, Attr4@0.1, Attr8@6900.0->Attr1@17.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr8@6900.0, Attr9@140.0->Attr2@900.0	 
+Attr0@24.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@300.0	 
+Attr1@17.0, Attr2@2600.0, Attr3@0.3, Attr8@6900.0->Attr0@19.0	 
+Attr0@18.0, Attr1@44.0, Attr8@1800.0->Attr9@160.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.0, Attr8@3300.0->Attr2@3700.0	 
+Attr0@29.0, Attr1@69.0, Attr4@0.0, Attr8@6900.0, Attr9@150.0->Attr2@900.0	 
+Attr0@29.0, Attr1@69.0, Attr4@0.0, Attr9@150.0->Attr2@3600.0	 
+Attr0@17.0, Attr2@12600.0, Attr9@350.0->Attr1@53.0	 
+Attr1@47.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@4000.0	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0, Attr8@6900.0, Attr9@150.0->Attr2@900.0	 
+Attr0@18.0, Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr0@19.0, Attr1@12.0, Attr9@260.0->Attr3@0.1	 
+Attr0@18.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr1@7.0	 
+Attr1@15.0, Attr8@3200.0->Attr3@0.2	 
+Attr1@28.0, Attr8@300.0, Attr9@350.0->Attr3@0.1	 
+Attr0@29.0, Attr1@30.0, Attr3@0.2, Attr8@6900.0->Attr2@3600.0	 
+Attr0@24.0, Attr1@19.0, Attr2@1700.0, Attr8@600.0->Attr9@20.0	 
+Attr1@30.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr0@1.0	 
+Attr0@18.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr3@0.1, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@3700.0	 
+Attr1@13.0, Attr9@120.0->Attr3@0.2	 
+Attr1@30.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@300.0	 
+Attr0@23.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr1@8.0	 
+Attr0@29.0, Attr1@28.0, Attr4@0.1, Attr8@3200.0, Attr9@170.0->Attr2@1400.0	 
+Attr0@29.0, Attr2@5300.0, Attr8@2000.0->Attr1@45.0	 
+Attr2@1300.0->Attr3@0.3	 
+Attr0@19.0, Attr1@12.0, Attr8@6900.0->Attr3@0.1	 
+Attr0@8.0, Attr2@3500.0, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr1@22.0, Attr8@600.0, Attr9@350.0->Attr3@0.1	 
+Attr0@18.0, Attr1@44.0, Attr8@1900.0->Attr9@180.0	 
+Attr0@8.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr1@15.0, Attr9@110.0->Attr3@0.2	 
+Attr0@18.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr9@20.0	 
+Attr0@29.0, Attr1@22.0, Attr4@0.1, Attr8@3200.0, Attr9@190.0->Attr2@1400.0	 
+Attr1@19.0, Attr2@1900.0, Attr8@500.0->Attr9@140.0	 
+Attr1@17.0, Attr2@2600.0, Attr4@0.0, Attr8@2800.0->Attr9@40.0	 
+Attr0@29.0, Attr2@7200.0, Attr9@350.0->Attr1@53.0	 
+Attr0@18.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr0@18.0, Attr2@9000.0, Attr9@350.0->Attr1@53.0	 
+Attr0@28.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@600.0	 
+Attr0@23.0, Attr2@700.0, Attr8@6900.0->Attr3@0.1	 
+Attr0@9.0, Attr2@2600.0, Attr3@0.3, Attr8@1800.0->Attr1@20.0	 
+Attr0@29.0, Attr1@30.0, Attr3@0.1, Attr4@0.1, Attr8@4700.0->Attr2@1900.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr8@4000.0, Attr9@150.0->Attr2@900.0	 
+Attr3@0.0, Attr9@230.0->Attr1@68.0	 
+Attr0@19.0, Attr1@15.0->Attr3@0.2	 
+Attr0@10.0, Attr1@22.0, Attr4@0.1, Attr8@6900.0, Attr9@190.0->Attr2@1700.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr0@29.0, Attr1@12.0, Attr9@150.0->Attr3@0.1	 
+Attr0@20.0, Attr4@0.0, Attr8@2800.0->Attr9@200.0	 
+Attr0@17.0, Attr8@6900.0, Attr9@350.0->Attr1@53.0	 
+Attr1@33.0, Attr3@0.1, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr0@2.0	 
+Attr0@18.0, Attr1@2.0, Attr3@0.1, Attr4@0.1->Attr9@110.0	 
+Attr0@0.0, Attr1@12.0, Attr9@350.0->Attr4@0.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr1@7.0	 
+Attr1@22.0, Attr9@30.0->Attr3@0.2	 
+Attr0@23.0, Attr2@800.0->Attr3@0.2	 
+Attr1@17.0, Attr2@3700.0, Attr3@0.3, Attr8@6900.0->Attr0@21.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@1600.0, Attr9@40.0->Attr1@16.0	 
+Attr1@63.0, Attr3@0.2, Attr8@6900.0, Attr9@350.0->Attr2@5400.0	 
+Attr0@19.0, Attr2@7500.0, Attr9@350.0->Attr1@53.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@1300.0, Attr9@40.0->Attr1@18.0	 
+Attr1@28.0, Attr9@10.0->Attr3@0.2	 
+Attr0@20.0, Attr3@0.3, Attr4@0.1, Attr8@1800.0->Attr9@160.0	 
+Attr1@17.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr0@1.0	 
+Attr1@17.0, Attr2@3500.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr8@300.0	 
+Attr0@23.0, Attr3@0.3, Attr4@0.1, Attr8@1700.0->Attr9@160.0	 
+Attr0@8.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr9@20.0	 
+Attr0@14.0, Attr2@1800.0, Attr3@0.2, Attr4@0.1, Attr8@2800.0->Attr1@8.0	 
+Attr0@23.0, Attr1@15.0, Attr2@1900.0, Attr8@1800.0->Attr9@30.0	 
+Attr0@18.0, Attr1@2.0, Attr2@5100.0, Attr4@0.1->Attr9@110.0	 
+Attr0@18.0, Attr1@20.0, Attr2@1500.0, Attr3@0.2, Attr4@0.1->Attr9@20.0	 
+Attr0@22.0, Attr1@3.0, Attr8@4700.0->Attr9@160.0	 
+Attr0@0.0, Attr3@0.1, Attr8@1900.0->Attr4@0.0	 
+Attr0@29.0, Attr8@6900.0, Attr9@150.0->Attr2@8200.0	 
+Attr1@28.0, Attr8@300.0->Attr3@0.2	 
+Attr0@20.0, Attr1@12.0, Attr2@5100.0->Attr3@0.1	 
+Attr1@19.0, Attr2@600.0, Attr8@6900.0->Attr3@0.1	 
+Attr0@24.0, Attr4@0.0, Attr8@700.0->Attr3@0.1	 
+Attr1@23.0, Attr2@800.0->Attr3@0.2	 
+Attr0@24.0, Attr2@800.0, Attr4@0.0->Attr3@0.1	 
+Attr1@28.0, Attr8@4900.0, Attr9@10.0->Attr3@0.1	 
+Attr0@24.0, Attr2@2600.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr1@1.0	 
+Attr1@22.0, Attr8@700.0->Attr3@0.2	 
+Attr1@75.0, Attr3@0.0, Attr4@0.0->Attr8@5200.0	 
+Attr0@29.0, Attr8@3200.0, Attr9@350.0->Attr1@53.0	 
+Attr0@11.0, Attr2@5300.0, Attr8@2300.0->Attr1@45.0	 
+Attr0@18.0, Attr2@12600.0, Attr4@0.0, Attr9@190.0->Attr1@30.0	 
+Attr0@22.0, Attr1@7.0, Attr2@5100.0->Attr3@0.1	 
+Attr2@1600.0, Attr8@300.0, Attr9@350.0->Attr3@0.1	 
+Attr0@0.0, Attr2@700.0, Attr9@350.0->Attr4@0.0	 
+Attr0@23.0, Attr1@15.0, Attr2@1100.0, Attr8@1900.0->Attr9@30.0	 
+Attr0@9.0, Attr2@2100.0, Attr3@0.2, Attr4@0.1, Attr8@2200.0->Attr1@8.0	 
+Attr2@800.0, Attr8@1700.0->Attr3@0.2	 
+Attr2@1300.0, Attr8@600.0, Attr9@350.0->Attr3@0.1	 
+Attr1@33.0, Attr2@4900.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr0@8.0	 
+Attr0@1.0, Attr1@22.0->Attr3@0.2	 
+Attr1@17.0, Attr2@700.0, Attr8@6900.0->Attr3@0.1	 
+Attr1@17.0, Attr3@0.1, Attr4@0.1, Attr8@1800.0->Attr9@140.0	 
+Attr0@18.0, Attr3@0.3, Attr4@0.1, Attr8@2200.0->Attr9@180.0	 
+Attr0@24.0, Attr1@19.0, Attr2@1700.0, Attr8@1800.0->Attr9@40.0	 
+Attr0@18.0, Attr8@4100.0, Attr9@350.0->Attr1@53.0	 
+Attr0@19.0, Attr8@3600.0, Attr9@350.0->Attr1@53.0	 
+Attr0@18.0, Attr2@12600.0, Attr9@150.0->Attr1@53.0	 
+Attr0@29.0, Attr2@12600.0, Attr9@110.0->Attr1@53.0	 
+Attr2@3600.0, Attr4@0.0, Attr8@1600.0, Attr9@150.0->Attr1@19.0	 
+Attr2@12600.0, Attr3@0.1, Attr4@0.1, Attr9@350.0->Attr1@47.0	 
+Attr1@63.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr2@5200.0	 
+Attr1@15.0, Attr2@1800.0->Attr3@0.2	 
+Attr0@20.0, Attr1@12.0, Attr8@3200.0->Attr3@0.1	 
+Attr2@12600.0, Attr3@0.3, Attr9@350.0->Attr1@65.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr1@12.0, Attr2@2600.0, Attr8@3800.0->Attr3@0.1	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.0, Attr9@190.0->Attr1@30.0	 
+Attr0@29.0, Attr1@30.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0->Attr2@2900.0	 
+Attr0@19.0, Attr2@12600.0, Attr9@130.0->Attr1@53.0	 
+Attr2@8100.0, Attr8@3600.0, Attr9@140.0->Attr1@53.0	 
+Attr4@0.0, Attr8@5000.0, Attr9@350.0->Attr2@8800.0	 
+Attr2@1300.0, Attr9@30.0->Attr3@0.2	 
+Attr0@24.0, Attr2@2600.0, Attr3@0.2, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr1@30.0	 
+Attr0@18.0, Attr1@29.0, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@900.0	 
+Attr0@18.0, Attr2@2500.0, Attr8@1900.0->Attr9@180.0	 
+Attr0@24.0, Attr1@19.0, Attr2@1700.0, Attr8@700.0->Attr9@30.0	 
+Attr0@28.0, Attr1@2.0, Attr3@0.0, Attr4@0.1->Attr9@110.0	 
+Attr0@18.0, Attr8@6900.0, Attr9@150.0->Attr1@53.0	 
+Attr0@29.0, Attr8@6900.0, Attr9@110.0->Attr1@53.0	 
+Attr2@1600.0, Attr9@10.0->Attr3@0.2	 
+Attr0@8.0, Attr3@0.3, Attr4@0.1, Attr8@2800.0->Attr9@180.0	 
+Attr0@20.0, Attr2@3500.0, Attr3@0.2, Attr4@0.1, Attr8@1800.0->Attr9@40.0	 
+Attr3@0.1, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr1@47.0	 
+Attr2@12600.0, Attr3@0.3, Attr4@0.0, Attr9@140.0->Attr1@41.0	 
+Attr2@12600.0, Attr3@0.0, Attr4@0.0->Attr8@5200.0	 
+Attr3@0.3, Attr8@6900.0, Attr9@350.0->Attr1@65.0	 
+Attr0@23.0, Attr1@28.0, Attr8@300.0->Attr3@0.1	 
+Attr0@19.0, Attr2@7500.0, Attr4@0.0, Attr9@190.0->Attr1@30.0	 
+Attr0@29.0, Attr4@0.0, Attr8@3600.0, Attr9@190.0->Attr1@30.0	 
+Attr0@22.0, Attr1@12.0, Attr2@2600.0->Attr3@0.1	 
+Attr0@29.0, Attr1@30.0, Attr3@0.2, Attr4@0.1, Attr8@4700.0->Attr2@2700.0	 
+Attr2@1600.0, Attr8@300.0->Attr3@0.2	 
+Attr2@1300.0, Attr8@700.0->Attr3@0.2	 
+Attr0@23.0, Attr1@22.0, Attr8@600.0->Attr3@0.1	 
+Attr0@19.0, Attr8@6900.0, Attr9@130.0->Attr1@53.0	 
+Attr2@1600.0, Attr8@4900.0, Attr9@10.0->Attr3@0.1	 
+Attr0@24.0, Attr1@19.0, Attr8@600.0->Attr3@0.1	 
+Attr1@33.0, Attr2@4500.0, Attr3@0.2, Attr8@5700.0->Attr0@25.0	 
+Attr0@1.0, Attr2@1300.0->Attr3@0.2	 
+Attr0@9.0, Attr1@9.0, Attr3@0.0, Attr4@0.1->Attr8@2000.0	 
+Attr1@44.0, Attr2@3100.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@29.0, Attr2@8100.0, Attr8@3600.0->Attr1@56.0	 
+Attr1@75.0, Attr3@0.3, Attr4@0.0, Attr9@150.0->Attr2@6000.0	 
+Attr0@14.0, Attr1@28.0, Attr9@10.0->Attr3@0.1	 
+Attr2@9600.0, Attr3@0.3, Attr4@0.0, Attr8@3200.0->Attr1@41.0	 
+Attr3@0.3, Attr4@0.0, Attr8@6900.0, Attr9@140.0->Attr1@41.0	 
+Attr0@29.0, Attr2@7500.0, Attr8@4000.0->Attr1@56.0	 
+Attr1@75.0, Attr3@0.2, Attr4@0.0, Attr9@350.0->Attr2@6000.0	 
+Attr0@18.0, Attr1@2.0, Attr4@0.1->Attr9@270.0	 
+Attr1@15.0, Attr2@8700.0, Attr4@0.1->Attr3@0.2	 
+Attr1@15.0, Attr2@5100.0, Attr4@0.1, Attr9@350.0->Attr3@0.1	 
+Attr0@29.0, Attr4@0.0, Attr8@6900.0->Attr2@8800.0	 
+Attr0@0.0, Attr1@12.0, Attr8@1900.0->Attr4@0.0	 
+Attr1@33.0, Attr2@3500.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@0.0	 
+Attr0@8.0, Attr1@22.0, Attr2@3500.0, Attr3@0.2, Attr9@350.0->Attr8@700.0	 
+Attr1@33.0, Attr2@4900.0, Attr3@0.2, Attr4@0.0->Attr0@25.0	 
+Attr2@12600.0, Attr3@0.1, Attr4@0.0, Attr9@350.0->Attr1@41.0	 
+Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr2@11400.0	 
+Attr0@23.0, Attr2@1600.0, Attr8@300.0->Attr3@0.1	 
+Attr0@23.0, Attr2@1300.0, Attr8@600.0->Attr3@0.1	 
+Attr0@0.0, Attr2@700.0, Attr8@1900.0->Attr4@0.0	 
+Attr0@14.0, Attr2@1600.0, Attr9@10.0->Attr3@0.1	 
+Attr0@29.0, Attr1@29.0, Attr4@0.0, Attr8@3200.0, Attr9@350.0->Attr2@1400.0	 
+Attr3@0.1, Attr4@0.0, Attr8@6900.0, Attr9@350.0->Attr1@41.0	 
+Attr0@20.0, Attr1@44.0, Attr4@0.1, Attr8@1800.0->Attr9@160.0	 
+Attr0@23.0, Attr1@44.0, Attr4@0.1, Attr8@1700.0->Attr9@160.0	 
+Attr0@8.0, Attr1@22.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@500.0	 
+Attr0@29.0, Attr1@75.0, Attr8@4000.0, Attr9@150.0->Attr2@5400.0	 
+Attr1@7.0, Attr4@0.1->Attr3@0.3	 
+Attr0@18.0, Attr1@44.0, Attr4@0.1, Attr8@2200.0->Attr9@180.0	 
+Attr0@9.0, Attr1@16.0, Attr3@0.2, Attr4@0.1, Attr8@6900.0, Attr9@350.0->Attr2@500.0	 
+Attr0@28.0, Attr1@9.0, Attr3@0.1, Attr4@0.0->Attr9@110.0	 
+Attr0@18.0, Attr2@1800.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@8.0, Attr1@45.0, Attr4@0.1, Attr8@2800.0->Attr9@180.0	 
+Attr0@20.0, Attr1@15.0, Attr2@5100.0, Attr4@0.1->Attr3@0.1	 
+Attr0@20.0, Attr1@9.0, Attr2@5100.0, Attr4@0.0->Attr9@110.0	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr2@2700.0	 
+Attr0@8.0, Attr1@22.0, Attr2@3500.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@3200.0, Attr9@190.0->Attr1@41.0	 
+Attr0@20.0, Attr3@0.3, Attr4@0.0, Attr8@2800.0->Attr9@160.0	 
+Attr0@18.0, Attr2@12600.0, Attr4@0.1, Attr8@4100.0->Attr1@53.0	 
+Attr0@18.0, Attr1@20.0, Attr2@1800.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@29.0, Attr2@8100.0, Attr4@0.1, Attr8@3600.0->Attr1@53.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@3600.0, Attr9@140.0->Attr1@41.0	 
+Attr0@18.0, Attr2@2500.0, Attr4@0.1, Attr8@2200.0->Attr9@180.0	 
+Attr0@20.0, Attr1@9.0, Attr4@0.1, Attr8@1800.0->Attr9@160.0	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.1, Attr8@4200.0->Attr1@53.0	 
+Attr1@17.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@140.0	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.1, Attr8@4000.0->Attr1@53.0	 
+Attr0@19.0, Attr2@9000.0, Attr4@0.1, Attr8@3600.0->Attr1@53.0	 
+Attr0@8.0, Attr2@3500.0, Attr4@0.1, Attr8@2800.0->Attr9@180.0	 
+Attr0@18.0, Attr1@16.0, Attr2@1900.0, Attr4@0.1, Attr8@2800.0->Attr9@40.0	 
+Attr0@18.0, Attr4@0.1, Attr8@6900.0, Attr9@150.0->Attr1@53.0	 
+Attr0@22.0, Attr1@15.0, Attr2@2600.0, Attr4@0.1->Attr3@0.1	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr8@4000.0, Attr9@150.0->Attr1@16.0	 
+Attr1@15.0, Attr2@8700.0, Attr9@350.0->Attr3@0.2	 
+Attr4@0.0, Attr8@3600.0, Attr9@350.0->Attr1@65.0	 
+Attr2@1900.0, Attr3@0.1, Attr4@0.0, Attr8@2800.0->Attr9@140.0	 
+Attr2@9600.0, Attr4@0.0, Attr8@3600.0->Attr1@65.0	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.0, Attr9@350.0->Attr1@46.0	 
+Attr1@75.0, Attr4@0.0, Attr8@700.0->Attr3@0.2	 
+Attr0@20.0, Attr1@9.0, Attr4@0.0->Attr9@270.0	 
+Attr1@13.0, Attr2@11700.0, Attr9@150.0->Attr3@0.2	 
+Attr1@15.0, Attr2@10200.0, Attr9@150.0->Attr3@0.2	 
+Attr1@8.0, Attr9@350.0->Attr3@0.3	 
+Attr1@15.0, Attr8@6900.0, Attr9@150.0->Attr3@0.2	 
+Attr1@15.0, Attr2@8700.0, Attr8@3800.0->Attr3@0.2	 
+Attr2@9600.0, Attr4@0.0, Attr8@700.0->Attr3@0.2	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.0, Attr8@4200.0->Attr1@46.0	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr8@4000.0->Attr1@46.0	 
+Attr0@29.0, Attr4@0.0, Attr8@6900.0, Attr9@150.0->Attr2@7600.0	 
+Attr0@22.0, Attr1@15.0, Attr2@8700.0->Attr3@0.2	 
+Attr0@20.0, Attr1@45.0, Attr4@0.0, Attr8@2800.0->Attr9@160.0	 
+Attr0@24.0, Attr1@19.0, Attr2@1900.0, Attr8@1800.0->Attr9@140.0	 
+Attr4@0.0, Attr9@40.0->Attr3@0.3	 
+Attr1@17.0, Attr8@3800.0->Attr3@0.3	 
+Attr2@2200.0, Attr4@0.0->Attr3@0.3	 
+Attr0@22.0, Attr1@22.0->Attr3@0.3	 
+Attr0@29.0, Attr1@15.0, Attr9@150.0->Attr3@0.2	 
+Attr1@17.0, Attr9@110.0->Attr3@0.3	 
+Attr0@29.0, Attr2@7500.0, Attr8@4000.0, Attr9@350.0->Attr1@53.0	 
+Attr0@18.0, Attr1@16.0, Attr3@0.1, Attr4@0.1, Attr8@2800.0->Attr9@110.0	 
+Attr0@29.0, Attr4@0.0, Attr8@700.0->Attr3@0.2	 
+Attr0@20.0, Attr2@3500.0, Attr4@0.0, Attr8@2800.0->Attr9@160.0	 
+Attr1@22.0, Attr9@40.0->Attr3@0.3	 
+Attr1@22.0, Attr2@1800.0->Attr3@0.3	 
+Attr1@22.0, Attr8@800.0->Attr3@0.3	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr8@4000.0, Attr9@190.0->Attr1@30.0	 
+Attr1@17.0, Attr4@0.1, Attr9@350.0->Attr3@0.3	 
+Attr1@17.0, Attr2@12600.0, Attr4@0.1->Attr3@0.3	 
+Attr2@0.0->Attr4@0.1	 
+Attr1@17.0, Attr4@0.1, Attr8@6900.0->Attr3@0.3	 
+Attr1@0.0->Attr4@0.1	 
+Attr0@29.0, Attr1@22.0, Attr4@0.1->Attr3@0.3	 
+Attr1@13.0, Attr2@11700.0, Attr9@350.0->Attr3@0.3	 
+Attr1@17.0, Attr2@10200.0, Attr9@350.0->Attr3@0.3	 
+Attr1@17.0, Attr8@6900.0, Attr9@350.0->Attr3@0.3	 
+Attr0@6.0, Attr1@75.0, Attr4@0.0->Attr3@0.3	 
+Attr1@75.0, Attr4@0.0, Attr8@800.0->Attr3@0.3	 
+Attr0@29.0, Attr1@22.0, Attr9@350.0->Attr3@0.3	 
+Attr0@29.0, Attr1@45.0, Attr4@0.0->Attr3@0.3	 
+Attr0@6.0, Attr2@12600.0, Attr4@0.0->Attr3@0.3	 
+Attr0@3.0, Attr4@0.0, Attr9@350.0->Attr3@0.3	 
+Attr4@0.0, Attr8@800.0, Attr9@350.0->Attr3@0.3	 
+Attr0@29.0, Attr4@0.0, Attr8@2300.0->Attr3@0.3	 
+Attr0@6.0, Attr4@0.0, Attr8@6900.0->Attr3@0.3	 
+Attr2@9600.0, Attr4@0.0, Attr8@800.0->Attr3@0.3	 
+Attr1@22.0, Attr2@2200.0, Attr9@350.0->Attr3@0.3	 
+Attr0@29.0, Attr2@3500.0, Attr4@0.0->Attr3@0.3	 
+Attr0@29.0, Attr4@0.0, Attr9@50.0->Attr3@0.3	 
+Attr0@29.0, Attr1@22.0, Attr8@3800.0->Attr3@0.3	 
+Attr2@500.0, Attr9@350.0->Attr4@0.1	 
+Attr1@2.0, Attr9@350.0->Attr4@0.1	 
+Attr1@22.0, Attr2@2200.0, Attr8@3800.0->Attr3@0.3	 
+Attr2@500.0, Attr8@6900.0->Attr4@0.1	 
+Attr1@2.0, Attr8@6900.0->Attr4@0.1	 
+Attr8@4900.0, Attr9@20.0->Attr4@0.1	 
+Attr3@0.1, Attr9@0.0->Attr4@0.1	 
+Attr2@400.0, Attr3@0.1->Attr4@0.1	 
+Attr1@3.0, Attr8@3800.0->Attr4@0.1	 
+Attr1@12.0, Attr9@110.0->Attr4@0.1	 
+Attr3@0.0, Attr8@1900.0->Attr4@0.1	 
+Attr8@600.0, Attr9@130.0->Attr4@0.1	 
+Attr2@700.0, Attr9@110.0->Attr4@0.1	 
+Attr1@22.0, Attr9@20.0->Attr4@0.1	 
+Attr2@700.0, Attr8@1700.0->Attr4@0.1	 
+Attr0@14.0, Attr2@400.0->Attr4@0.1	 
+Attr0@9.0, Attr2@500.0->Attr4@0.1	 
+Attr2@600.0, Attr3@0.0->Attr4@0.1	 
+Attr0@8.0, Attr1@3.0->Attr4@0.1	 
+Attr2@1700.0, Attr8@600.0->Attr4@0.1	 
+Attr0@8.0, Attr2@600.0->Attr4@0.1	 
+Attr1@15.0, Attr8@0.0->Attr4@0.1	 
+Attr2@1300.0, Attr9@20.0->Attr4@0.1	 
+Attr0@2.0, Attr9@20.0->Attr4@0.1	 
+Attr1@12.0, Attr2@400.0->Attr4@0.1	 
+Attr0@4.0, Attr8@600.0->Attr4@0.1	 
+Attr1@2.0, Attr2@1300.0->Attr4@0.1	 
+Attr1@4.0, Attr2@500.0->Attr4@0.1	 
+Attr0@29.0, Attr1@69.0, Attr4@0.0, Attr9@190.0->Attr3@0.3	 
+Attr0@19.0, Attr1@75.0, Attr4@0.0, Attr9@190.0->Attr3@0.3	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr9@140.0->Attr3@0.3	 
+Attr0@29.0, Attr2@12600.0, Attr4@0.0, Attr9@130.0->Attr3@0.3	 
+Attr0@18.0, Attr2@12600.0, Attr4@0.0, Attr9@190.0->Attr3@0.3	 
+Attr0@29.0, Attr2@7200.0, Attr4@0.0, Attr9@190.0->Attr3@0.3	 
+Attr0@29.0, Attr4@0.0, Attr8@6900.0, Attr9@130.0->Attr3@0.3	 
+Attr0@18.0, Attr4@0.0, Attr8@6900.0, Attr9@190.0->Attr3@0.3	 
+Attr1@3.0, Attr3@0.3, Attr8@6900.0->Attr4@0.1	 
+Attr1@67.0, Attr3@0.0, Attr9@350.0->Attr4@0.1	 
+Attr0@19.0, Attr2@7500.0, Attr4@0.0, Attr9@190.0->Attr3@0.3	 
+Attr0@29.0, Attr4@0.0, Attr8@3600.0, Attr9@190.0->Attr3@0.3	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr9@140.0->Attr3@0.3	 
+Attr2@12600.0, Attr3@0.0, Attr9@350.0->Attr4@0.1	 
+Attr3@0.0, Attr8@6900.0, Attr9@350.0->Attr4@0.1	 
+Attr1@12.0, Attr8@6900.0, Attr9@350.0->Attr4@0.1	 
+Attr1@67.0, Attr3@0.1, Attr9@30.0->Attr4@0.1	 
+Attr2@600.0, Attr3@0.2, Attr8@6900.0->Attr4@0.1	 
+Attr2@700.0, Attr8@6900.0, Attr9@350.0->Attr4@0.1	 
+Attr1@47.0, Attr3@0.1, Attr9@110.0->Attr4@0.1	 
+Attr2@12600.0, Attr3@0.1, Attr9@30.0->Attr4@0.1	 
+Attr0@14.0, Attr3@0.3, Attr9@20.0->Attr4@0.1	 
+Attr0@4.0, Attr3@0.1, Attr9@350.0->Attr4@0.1	 
+Attr0@29.0, Attr3@0.0, Attr9@350.0->Attr4@0.1	 
+Attr3@0.1, Attr8@6900.0, Attr9@30.0->Attr4@0.1	 
+Attr2@4000.0, Attr3@0.1, Attr9@110.0->Attr4@0.1	 
+Attr0@29.0, Attr3@0.1, Attr9@110.0->Attr4@0.1	 
+Attr0@14.0, Attr1@75.0, Attr9@20.0->Attr4@0.1	 
+Attr2@700.0, Attr3@0.2, Attr8@1900.0->Attr4@0.1	 
+Attr4@0.1->class@0.0	 
+Attr0@14.0, Attr2@12600.0, Attr9@20.0->Attr4@0.1	 
+Attr0@23.0, Attr2@600.0, Attr8@6900.0->Attr4@0.1	 
+Attr0@8.0, Attr1@12.0, Attr9@350.0->Attr4@0.1	 
+Attr0@22.0, Attr1@3.0, Attr8@6900.0->Attr4@0.1	 
+Attr0@8.0, Attr3@0.1, Attr9@130.0->Attr4@0.1	 
+Attr3@0.1, Attr8@900.0, Attr9@130.0->Attr4@0.1	 
+Attr1@15.0, Attr8@600.0, Attr9@350.0->Attr4@0.1	 
+Attr0@14.0, Attr8@6900.0, Attr9@20.0->Attr4@0.1	 
+Attr1@23.0, Attr2@600.0, Attr8@6900.0->Attr4@0.1	 
+Attr2@1700.0, Attr3@0.1, Attr8@1900.0->Attr4@0.1	 
+Attr0@8.0, Attr2@700.0, Attr9@350.0->Attr4@0.1	 
+Attr0@4.0, Attr3@0.1, Attr8@1900.0->Attr4@0.1	 
+Attr1@3.0, Attr2@1800.0, Attr8@6900.0->Attr4@0.1	 
+Attr3@0.3->class@0.0	 
+Attr0@18.0, Attr1@12.0, Attr8@1900.0->Attr4@0.1	 
+Attr0@23.0, Attr2@700.0, Attr8@1900.0->Attr4@0.1	 
+Attr1@23.0, Attr2@700.0, Attr8@1900.0->Attr4@0.1	 
+Attr1@75.0->class@0.0	 
+Attr1@12.0, Attr2@1900.0, Attr8@1900.0->Attr4@0.1	 
+Attr0@18.0, Attr1@15.0, Attr8@600.0->Attr4@0.1	 
+Attr9@350.0->class@0.0	 
+Attr2@12600.0->class@0.0	 
+Attr0@29.0, Attr1@75.0, Attr4@0.0, Attr8@4000.0, Attr9@190.0->Attr3@0.3	 
+Attr1@15.0, Attr2@1900.0, Attr8@600.0->Attr4@0.1	 
+Attr8@6900.0->class@0.0	 
+Attr1@3.0, Attr2@1300.0, Attr3@0.0->Attr4@0.1	 
+Attr0@29.0->class@0.0	 
+Attr0@29.0, Attr2@7500.0, Attr4@0.0, Attr8@4000.0, Attr9@190.0->Attr3@0.3	 
+Attr0@4.0, Attr1@75.0, Attr3@0.1, Attr9@350.0->Attr4@0.1	 
+Attr0@29.0, Attr3@0.1, Attr8@6900.0, Attr9@130.0->Attr4@0.1	 
+Attr0@8.0, Attr1@15.0, Attr3@0.1, Attr9@350.0->Attr4@0.1	 
+Attr0@8.0, Attr2@1700.0, Attr3@0.1, Attr9@350.0->Attr4@0.1	 

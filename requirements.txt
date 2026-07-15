@@ -1,0 +1,19 @@
+# Core numerical / data stack
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+
+# Deep learning (CUDA 12.4 build; use the CPU build from
+# https://pytorch.org/get-started/locally/ if no GPU is available)
+torch==2.6.0
+
+# Plotting
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Progress bars
+tqdm==4.66.5
+
+# LLM baselines (Ollama Cloud / local client)
+ollama==0.6.2

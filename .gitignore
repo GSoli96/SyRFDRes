@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.tmp
+tmp*.csv
+.venv/
+venv/
+*.egg-info/
+
+# Intermediate download artifacts
+imbalanced_datasets/SUSY.csv.gz

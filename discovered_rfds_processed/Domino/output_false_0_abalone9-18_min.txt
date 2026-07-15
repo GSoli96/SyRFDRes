@@ -1,0 +1,35 @@
+****** DISCOVERED RFDs *******
+Attr0@0.0, Attr1@0.0, Attr5@0.0->Attr2@0.0	 
+Attr0@0.0, Attr1@0.0, Attr3@0.0, Attr7@0.0->Attr2@0.0	 
+Attr1@0.0, Attr5@0.0, Attr7@0.0->Attr2@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.1, Attr7@0.0->Attr2@0.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr6@0.0, Attr7@0.0->Attr1@0.0	 
+Attr2@0.0->Attr1@0.1	 
+Attr5@0.1->Attr1@0.1	 
+Attr0@1.0, Attr5@0.0->Attr6@0.1	 
+Attr1@0.0, Attr5@0.0->Attr6@0.1	 
+class@1.0->Attr3@0.1	 
+Attr3@0.1->class@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.1->Attr6@0.1	 
+Attr5@0.1->Attr2@0.1	 
+Attr1@0.1, Attr3@0.0, Attr6@0.1->Attr2@0.1	 
+Attr2@0.1->Attr3@0.1	 
+Attr2@0.1->class@0.0	 
+Attr1@0.0, Attr5@0.1, Attr7@0.1->Attr6@0.1	 
+Attr1@0.1->Attr3@0.1	 
+Attr1@0.1->class@0.0	 
+Attr1@0.0->Attr2@0.1	 
+Attr6@0.1, Attr7@0.1->Attr2@0.1	 
+Attr6@0.0->Attr2@0.1	 
+Attr6@0.1->Attr3@0.1	 
+Attr6@0.1->class@0.0	 
+Attr0@1.0, Attr7@0.0->Attr1@0.1	 
+Attr7@0.0->Attr2@0.1	 
+Attr0@1.0, Attr7@0.1->Attr2@0.1	 
+Attr0@1.0->Attr3@0.1	 
+Attr0@1.0->class@0.0	 
+Attr0@0.0, Attr1@0.1, Attr3@0.0->Attr2@0.1	 
+Attr7@0.1->Attr3@0.1	 
+Attr7@0.1->class@0.0	 
+Attr5@0.1->class@0.0	 
+Attr5@0.1->Attr3@0.1

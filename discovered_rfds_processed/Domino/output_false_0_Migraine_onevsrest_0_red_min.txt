@@ -1,0 +1,923 @@
+****** DISCOVERED RFDs *******
+Attr0@0.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr10@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr10@0.0	 
+Attr4@1.0->Attr3@0.0	 
+Attr3@1.0->Attr4@0.0	 
+Attr5@0.0->Attr3@0.0	 
+Attr5@0.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@0.0	 
+Attr0@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@0.0	 
+Attr0@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@0.0	 
+Attr0@0.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr1@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr7@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr7@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr7@0.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr11@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@0.0	 
+Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr7@0.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr10@1.0	 
+Attr0@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@3.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr2@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr7@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@5.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@5.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@1.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0->Attr3@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr10@1.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr10@0.0->Attr5@1.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr10@0.0->Attr5@1.0	 
+Attr0@3.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr14@1.0->Attr5@1.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr14@1.0->Attr4@0.0	 
+Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@3.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0->Attr3@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0->Attr4@0.0	 
+Attr0@1.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@1.0, Attr10@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr5@1.0, Attr10@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@5.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@0.0, Attr3@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr4@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr10@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr10@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr20@1.0->Attr4@0.0	 
+Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@0.0	 
+Attr0@2.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@2.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@3.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@3.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr20@1.0->Attr5@1.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr5@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr5@1.0->Attr4@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr11@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr11@1.0->Attr4@0.0	 
+Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr5@1.0	 
+Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr20@1.0->Attr3@0.0	 
+Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@2.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr4@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr11@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0->Attr3@0.0	 
+Attr0@2.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0->Attr4@0.0	 
+Attr0@4.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@4.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@5.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@5.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr5@1.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@5.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr4@0.0	 
+Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr10@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr11@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@4.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@0.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@4.0, Attr2@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr3@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr4@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr11@0.0	 
+Attr0@5.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@5.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@3.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@3.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@5.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@1.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr10@0.0->Attr11@1.0	 
+Attr0@4.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@1.0, Attr5@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr3@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@3.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@3.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@4.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@3.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0->Attr3@0.0	 
+Attr0@3.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@3.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr4@0.0	 
+Attr0@2.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@0.0, Attr12@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@2.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@2.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0->Attr11@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr11@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@5.0, Attr2@0.0, Attr5@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@3.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@3.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@3.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@3.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr14@1.0->Attr5@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@1.0->Attr4@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr14@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@3.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@3.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@4.0, Attr2@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr2@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr5@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr14@1.0->Attr11@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@2.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0->Attr3@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@1.0, Attr13@1.0->Attr4@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr5@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr20@1.0->Attr5@1.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@0.0, Attr5@0.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr4@1.0, Attr7@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr3@1.0, Attr7@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@0.0	 
+Attr0@0.0, Attr7@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0->Attr5@1.0	 
+Attr0@0.0, Attr5@1.0, Attr7@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0->Attr14@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@4.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr3@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr4@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr14@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@0.0, Attr2@0.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr2@0.0, Attr4@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr3@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@0.0, Attr2@0.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr10@1.0, Attr12@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr2@0.0, Attr5@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr4@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@3.0, Attr1@0.0, Attr5@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr2@0.0, Attr10@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr7@1.0, Attr10@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr7@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr12@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr11@0.0, Attr12@1.0, Attr20@1.0->Attr14@0.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@1.0, Attr1@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr10@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr10@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@1.0, Attr7@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@1.0, Attr7@1.0, Attr11@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr14@0.0	 
+Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr14@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr14@0.0	 
+Attr0@2.0, Attr1@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0->Attr14@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr13@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr20@1.0->Attr14@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr3@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr4@0.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@3.0, Attr1@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr5@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@3.0, Attr1@1.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr11@1.0	 
+Attr1@1.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr4@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr3@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@1.0, Attr5@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr5@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr5@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr5@0.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@0.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr5@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr4@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr3@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr2@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@4.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr10@0.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr2@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@0.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@0.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@4.0, Attr1@0.0, Attr5@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr4@1.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr3@1.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr2@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr4@1.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr3@1.0, Attr5@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr12@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr1@1.0, Attr2@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@4.0, Attr1@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@1.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@0.0, Attr5@0.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr2@0.0, Attr4@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr2@0.0, Attr3@1.0, Attr5@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr13@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@1.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr10@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr10@0.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@3.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0->Attr11@1.0	 
+Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@4.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr12@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@2.0, Attr2@1.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr12@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@0.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr5@0.0, Attr7@1.0, Attr10@0.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr5@0.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr5@0.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr14@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr2@0.0, Attr4@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr2@0.0, Attr3@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@2.0, Attr1@0.0, Attr2@0.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr4@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr3@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr14@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@5.0, Attr1@0.0, Attr2@0.0, Attr5@1.0, Attr7@1.0, Attr10@1.0, Attr13@1.0, Attr20@1.0->Attr11@1.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr4@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 
+Attr0@1.0, Attr1@0.0, Attr2@1.0, Attr3@1.0, Attr5@1.0, Attr7@1.0, Attr10@0.0, Attr11@0.0, Attr13@1.0, Attr20@1.0->Attr12@0.0	 

@@ -1,0 +1,13 @@
+****** DISCOVERED RFDs *******
+Attr2@100.0->Attr1@0.0	
+Attr1@0.0->Attr2@0.0	
+Attr2@400.0->Attr1@1.0	
+Attr1@1.0->Attr2@200.0	
+Attr2@600.0->Attr1@2.0	
+Attr1@2.0->Attr2@500.0	
+Attr2@900.0->Attr1@3.0	
+Attr1@3.0->Attr2@700.0	
+Attr0@2.0->class@0.0	
+Attr2@900.0->class@0.0	
+Attr1@3.0->class@0.0	
+Attr3@11.0->class@0.0	

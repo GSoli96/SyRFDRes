@@ -1,0 +1,341 @@
+****** DISCOVERED RFDs *******
+Attr23@0.0->Attr22@0.0
+Attr22@0.0->Attr23@0.0
+Attr0@0.0, Attr9@1.0->Attr3@0.0
+Attr0@4.0, Attr4@1.0, Attr9@1.0->Attr3@0.0
+Attr0@4.0, Attr9@1.0, Attr26@0.0->Attr3@0.0
+Attr0@4.0, Attr9@1.0, Attr27@0.0->Attr3@0.0
+Attr4@0.0, Attr9@1.0, Attr25@0.0, Attr26@0.0->Attr3@0.0
+Attr4@0.0, Attr9@1.0, Attr25@0.0, Attr27@0.0->Attr3@0.0
+Attr4@0.0, Attr9@1.0, Attr24@0.0, Attr27@0.0->Attr3@0.0
+Attr4@0.0, Attr9@1.0, Attr24@0.0, Attr26@0.0->Attr3@0.0
+Attr3@0.0->Attr9@0.0
+Attr0@0.0->Attr3@1.0
+Attr0@4.0, Attr4@1.0->Attr3@1.0
+Attr3@1.0, Attr4@1.0->Attr0@0.0
+Attr0@4.0, Attr27@0.0->Attr3@1.0
+Attr0@4.0, Attr26@0.0->Attr3@1.0
+Attr3@1.0, Attr25@0.0->Attr0@0.0
+Attr3@1.0, Attr24@0.0->Attr0@0.0
+Attr3@1.0, Attr27@0.0, Attr39@0.0->Attr0@0.0
+Attr3@1.0, Attr26@0.0, Attr39@0.0->Attr0@0.0
+Attr3@1.0, Attr27@0.0, Attr40@0.0->Attr0@0.0
+Attr3@1.0, Attr26@0.0, Attr40@0.0->Attr0@0.0
+Attr3@1.0, Attr27@0.0, Attr37@0.0->Attr0@0.0
+Attr3@1.0, Attr27@0.0, Attr35@0.0->Attr0@0.0
+Attr3@1.0, Attr27@0.0, Attr38@0.0->Attr0@0.0
+Attr3@1.0, Attr26@0.0, Attr38@0.0->Attr0@0.0
+Attr3@1.0, Attr26@0.0, Attr37@0.0->Attr0@0.0
+Attr3@1.0, Attr26@0.0, Attr35@0.0->Attr0@0.0
+Attr3@0.0->Attr0@0.0
+Attr25@0.0->Attr24@0.0
+Attr24@0.0->Attr25@0.0
+Attr27@0.0->Attr26@0.0
+Attr26@0.0->Attr27@0.0
+Attr0@0.0->Attr26@0.0
+Attr0@0.0->Attr27@0.0
+Attr0@4.0, Attr4@1.0->Attr26@0.0
+Attr0@4.0, Attr4@1.0->Attr27@0.0
+Attr3@1.0, Attr4@1.0->Attr26@0.0
+Attr3@1.0, Attr4@1.0->Attr27@0.0
+Attr0@4.0, Attr3@1.0->Attr26@0.0
+Attr0@4.0, Attr3@1.0->Attr27@0.0
+Attr3@1.0, Attr25@0.0->Attr26@0.0
+Attr3@1.0, Attr24@0.0->Attr26@0.0
+Attr3@1.0, Attr25@0.0->Attr27@0.0
+Attr3@1.0, Attr24@0.0->Attr27@0.0
+Attr4@0.0, Attr24@0.0, Attr26@0.0->Attr0@0.0
+Attr4@0.0, Attr25@0.0, Attr26@0.0->Attr0@0.0
+Attr4@0.0, Attr25@0.0, Attr27@0.0->Attr0@0.0
+Attr4@0.0, Attr24@0.0, Attr27@0.0->Attr0@0.0
+Attr3@0.0->Attr26@0.0
+Attr3@0.0->Attr27@0.0
+Attr4@0.0, Attr25@0.0, Attr27@0.0->Attr3@1.0
+Attr4@0.0, Attr24@0.0, Attr26@0.0->Attr3@1.0
+Attr4@0.0, Attr24@0.0, Attr27@0.0->Attr3@1.0
+Attr4@0.0, Attr25@0.0, Attr26@0.0->Attr3@1.0
+Attr3@1.0, Attr22@0.0, Attr40@0.0->Attr0@0.0
+Attr3@1.0, Attr22@0.0, Attr39@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0, Attr39@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0, Attr40@0.0->Attr0@0.0
+Attr3@1.0, Attr22@0.0, Attr38@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0, Attr35@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0, Attr37@0.0->Attr0@0.0
+Attr3@1.0, Attr22@0.0, Attr35@0.0->Attr0@0.0
+Attr3@1.0, Attr22@0.0, Attr37@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0, Attr38@0.0->Attr0@0.0
+Attr3@1.0, Attr23@0.0->Attr26@0.0
+Attr3@1.0, Attr22@0.0->Attr26@0.0
+Attr3@1.0, Attr23@0.0->Attr27@0.0
+Attr3@1.0, Attr22@0.0->Attr27@0.0
+Attr37@0.0->Attr35@0.0
+Attr38@0.0->Attr35@0.0
+Attr35@0.0->Attr37@0.0
+Attr38@0.0->Attr37@0.0
+Attr35@0.0->Attr38@0.0
+Attr37@0.0->Attr38@0.0
+Attr40@0.0->Attr39@0.0
+Attr39@0.0->Attr40@0.0
+Attr35@0.0->Attr39@0.0
+Attr37@0.0->Attr39@0.0
+Attr38@0.0->Attr39@0.0
+Attr35@0.0->Attr40@0.0
+Attr37@0.0->Attr40@0.0
+Attr38@0.0->Attr40@0.0
+Attr24@0.0->Attr35@0.0
+Attr25@0.0->Attr35@0.0
+Attr24@0.0->Attr37@0.0
+Attr25@0.0->Attr37@0.0
+Attr24@0.0->Attr38@0.0
+Attr25@0.0->Attr38@0.0
+Attr24@0.0->Attr39@0.0
+Attr25@0.0->Attr39@0.0
+Attr24@0.0->Attr40@0.0
+Attr25@0.0->Attr40@0.0
+Attr0@0.0->Attr4@1.0
+Attr0@4.0, Attr40@0.0->Attr35@0.0
+Attr0@4.0, Attr39@0.0->Attr35@0.0
+Attr0@4.0, Attr40@0.0->Attr37@0.0
+Attr0@4.0, Attr39@0.0->Attr37@0.0
+Attr0@4.0, Attr40@0.0->Attr38@0.0
+Attr0@4.0, Attr39@0.0->Attr38@0.0
+Attr27@0.0, Attr39@0.0->Attr4@1.0
+Attr26@0.0, Attr39@0.0->Attr4@1.0
+Attr26@0.0, Attr40@0.0->Attr4@1.0
+Attr27@0.0, Attr40@0.0->Attr4@1.0
+Attr27@0.0, Attr37@0.0->Attr4@1.0
+Attr27@0.0, Attr38@0.0->Attr4@1.0
+Attr27@0.0, Attr35@0.0->Attr4@1.0
+Attr26@0.0, Attr37@0.0->Attr4@1.0
+Attr26@0.0, Attr35@0.0->Attr4@1.0
+Attr26@0.0, Attr38@0.0->Attr4@1.0
+Attr3@1.0, Attr39@0.0->Attr35@0.0
+Attr3@1.0, Attr40@0.0->Attr35@0.0
+Attr3@1.0, Attr39@0.0->Attr37@0.0
+Attr3@1.0, Attr40@0.0->Attr37@0.0
+Attr3@1.0, Attr39@0.0->Attr38@0.0
+Attr3@1.0, Attr40@0.0->Attr38@0.0
+Attr0@4.0, Attr27@0.0->Attr4@1.0
+Attr0@4.0, Attr26@0.0->Attr4@1.0
+Attr24@0.0, Attr26@0.0->Attr4@1.0
+Attr25@0.0, Attr26@0.0->Attr4@1.0
+Attr24@0.0, Attr27@0.0->Attr4@1.0
+Attr25@0.0, Attr27@0.0->Attr4@1.0
+Attr0@4.0, Attr3@1.0->Attr4@1.0
+Attr3@1.0, Attr25@0.0->Attr4@1.0
+Attr3@1.0, Attr24@0.0->Attr4@1.0
+Attr3@0.0->Attr4@1.0
+Attr23@1.0->Attr22@1.0
+Attr22@1.0->Attr23@1.0
+Attr0@4.0, Attr4@0.0->Attr35@0.0
+Attr0@4.0, Attr4@0.0->Attr37@0.0
+Attr0@4.0, Attr4@0.0->Attr38@0.0
+Attr0@4.0, Attr4@0.0->Attr39@0.0
+Attr0@4.0, Attr4@0.0->Attr40@0.0
+Attr4@0.0, Attr27@0.0->Attr39@0.0
+Attr4@0.0, Attr26@0.0->Attr39@0.0
+Attr4@0.0, Attr27@0.0->Attr40@0.0
+Attr4@0.0, Attr26@0.0->Attr40@0.0
+Attr3@1.0, Attr4@0.0->Attr35@0.0
+Attr3@1.0, Attr4@0.0->Attr37@0.0
+Attr3@1.0, Attr4@0.0->Attr38@0.0
+Attr3@1.0, Attr4@0.0->Attr39@0.0
+Attr3@1.0, Attr4@0.0->Attr40@0.0
+Attr35@1.0->Attr24@1.0
+Attr27@1.0->Attr24@1.0
+Attr39@1.0->Attr24@1.0
+Attr40@1.0->Attr24@1.0
+Attr37@1.0->Attr24@1.0
+Attr26@1.0->Attr24@1.0
+Attr25@1.0->Attr24@1.0
+Attr38@1.0->Attr24@1.0
+Attr35@1.0->Attr25@1.0
+Attr27@1.0->Attr25@1.0
+Attr39@1.0->Attr25@1.0
+Attr40@1.0->Attr25@1.0
+Attr37@1.0->Attr25@1.0
+Attr24@1.0->Attr25@1.0
+Attr26@1.0->Attr25@1.0
+Attr38@1.0->Attr25@1.0
+Attr35@1.0->Attr26@1.0
+Attr27@1.0->Attr26@1.0
+Attr39@1.0->Attr26@1.0
+Attr40@1.0->Attr26@1.0
+Attr37@1.0->Attr26@1.0
+Attr24@1.0->Attr26@1.0
+Attr25@1.0->Attr26@1.0
+Attr38@1.0->Attr26@1.0
+Attr35@1.0->Attr27@1.0
+Attr39@1.0->Attr27@1.0
+Attr40@1.0->Attr27@1.0
+Attr37@1.0->Attr27@1.0
+Attr24@1.0->Attr27@1.0
+Attr26@1.0->Attr27@1.0
+Attr25@1.0->Attr27@1.0
+Attr38@1.0->Attr27@1.0
+Attr27@1.0->Attr35@1.0
+Attr39@1.0->Attr35@1.0
+Attr40@1.0->Attr35@1.0
+Attr37@1.0->Attr35@1.0
+Attr24@1.0->Attr35@1.0
+Attr26@1.0->Attr35@1.0
+Attr25@1.0->Attr35@1.0
+Attr38@1.0->Attr35@1.0
+Attr35@1.0->Attr37@1.0
+Attr27@1.0->Attr37@1.0
+Attr39@1.0->Attr37@1.0
+Attr40@1.0->Attr37@1.0
+Attr24@1.0->Attr37@1.0
+Attr26@1.0->Attr37@1.0
+Attr25@1.0->Attr37@1.0
+Attr38@1.0->Attr37@1.0
+Attr35@1.0->Attr38@1.0
+Attr27@1.0->Attr38@1.0
+Attr39@1.0->Attr38@1.0
+Attr40@1.0->Attr38@1.0
+Attr37@1.0->Attr38@1.0
+Attr24@1.0->Attr38@1.0
+Attr26@1.0->Attr38@1.0
+Attr25@1.0->Attr38@1.0
+Attr35@1.0->Attr39@1.0
+Attr27@1.0->Attr39@1.0
+Attr40@1.0->Attr39@1.0
+Attr37@1.0->Attr39@1.0
+Attr24@1.0->Attr39@1.0
+Attr26@1.0->Attr39@1.0
+Attr25@1.0->Attr39@1.0
+Attr38@1.0->Attr39@1.0
+Attr35@1.0->Attr40@1.0
+Attr27@1.0->Attr40@1.0
+Attr39@1.0->Attr40@1.0
+Attr37@1.0->Attr40@1.0
+Attr24@1.0->Attr40@1.0
+Attr26@1.0->Attr40@1.0
+Attr25@1.0->Attr40@1.0
+Attr38@1.0->Attr40@1.0
+Attr23@1.0->Attr24@1.0
+Attr22@1.0->Attr24@1.0
+Attr23@1.0->Attr25@1.0
+Attr22@1.0->Attr25@1.0
+Attr23@1.0->Attr26@1.0
+Attr22@1.0->Attr26@1.0
+Attr23@1.0->Attr27@1.0
+Attr22@1.0->Attr27@1.0
+Attr23@1.0->Attr35@1.0
+Attr22@1.0->Attr35@1.0
+Attr23@1.0->Attr37@1.0
+Attr22@1.0->Attr37@1.0
+Attr23@1.0->Attr38@1.0
+Attr22@1.0->Attr38@1.0
+Attr23@1.0->Attr39@1.0
+Attr22@1.0->Attr39@1.0
+Attr23@1.0->Attr40@1.0
+Attr22@1.0->Attr40@1.0
+Attr4@1.0->Attr24@1.0
+Attr4@1.0->Attr25@1.0
+Attr4@1.0->Attr26@1.0
+Attr4@1.0->Attr27@1.0
+Attr4@1.0->Attr35@1.0
+Attr4@1.0->Attr37@1.0
+Attr4@1.0->Attr38@1.0
+Attr4@1.0->Attr39@1.0
+Attr4@1.0->Attr40@1.0
+Attr22@0.0, Attr39@0.0->Attr35@0.0
+Attr22@0.0, Attr40@0.0->Attr35@0.0
+Attr23@0.0, Attr40@0.0->Attr35@0.0
+Attr23@0.0, Attr39@0.0->Attr35@0.0
+Attr22@0.0, Attr39@0.0->Attr37@0.0
+Attr22@0.0, Attr40@0.0->Attr37@0.0
+Attr23@0.0, Attr40@0.0->Attr37@0.0
+Attr23@0.0, Attr39@0.0->Attr37@0.0
+Attr22@0.0, Attr39@0.0->Attr38@0.0
+Attr22@0.0, Attr40@0.0->Attr38@0.0
+Attr23@0.0, Attr40@0.0->Attr38@0.0
+Attr23@0.0, Attr39@0.0->Attr38@0.0
+Attr0@4.0->Attr24@1.0
+Attr0@4.0->Attr25@1.0
+Attr0@4.0->Attr26@1.0
+Attr0@4.0->Attr27@1.0
+Attr0@4.0->Attr35@1.0
+Attr0@4.0->Attr37@1.0
+Attr0@4.0->Attr38@1.0
+Attr0@4.0->Attr39@1.0
+Attr0@4.0->Attr40@1.0
+Attr0@4.0, Attr22@0.0->Attr35@0.0
+Attr0@4.0, Attr23@0.0->Attr35@0.0
+Attr0@4.0, Attr22@0.0->Attr37@0.0
+Attr0@4.0, Attr23@0.0->Attr37@0.0
+Attr0@4.0, Attr22@0.0->Attr38@0.0
+Attr0@4.0, Attr23@0.0->Attr38@0.0
+Attr3@1.0->Attr24@1.0
+Attr3@1.0->Attr25@1.0
+Attr3@1.0->Attr26@1.0
+Attr3@1.0->Attr27@1.0
+Attr3@1.0->Attr35@1.0
+Attr3@1.0->Attr37@1.0
+Attr3@1.0->Attr38@1.0
+Attr3@1.0->Attr39@1.0
+Attr3@1.0->Attr40@1.0
+Attr0@4.0, Attr22@0.0->Attr39@0.0
+Attr0@4.0, Attr23@0.0->Attr39@0.0
+Attr0@4.0, Attr22@0.0->Attr40@0.0
+Attr0@4.0, Attr23@0.0->Attr40@0.0
+Attr9@1.0->Attr24@1.0
+Attr9@1.0->Attr25@1.0
+Attr9@1.0->Attr26@1.0
+Attr9@1.0->Attr27@1.0
+Attr9@1.0->Attr35@1.0
+Attr9@1.0->Attr37@1.0
+Attr9@1.0->Attr38@1.0
+Attr9@1.0->Attr39@1.0
+Attr9@1.0->Attr40@1.0
+Attr4@1.0, Attr23@0.0, Attr26@0.0->Attr35@0.0
+Attr4@1.0, Attr22@0.0, Attr27@0.0->Attr35@0.0
+Attr4@1.0, Attr23@0.0, Attr27@0.0->Attr35@0.0
+Attr4@1.0, Attr22@0.0, Attr26@0.0->Attr35@0.0
+Attr4@1.0, Attr23@0.0, Attr26@0.0->Attr37@0.0
+Attr4@1.0, Attr22@0.0, Attr27@0.0->Attr37@0.0
+Attr4@1.0, Attr23@0.0, Attr27@0.0->Attr37@0.0
+Attr4@1.0, Attr22@0.0, Attr26@0.0->Attr37@0.0
+Attr4@1.0, Attr23@0.0, Attr26@0.0->Attr38@0.0
+Attr4@1.0, Attr22@0.0, Attr27@0.0->Attr38@0.0
+Attr4@1.0, Attr23@0.0, Attr27@0.0->Attr38@0.0
+Attr4@1.0, Attr22@0.0, Attr26@0.0->Attr38@0.0
+Attr4@1.0, Attr23@0.0, Attr26@0.0->Attr39@0.0
+Attr4@1.0, Attr22@0.0, Attr27@0.0->Attr39@0.0
+Attr4@1.0, Attr23@0.0, Attr27@0.0->Attr39@0.0
+Attr4@1.0, Attr22@0.0, Attr26@0.0->Attr39@0.0
+Attr4@1.0, Attr23@0.0, Attr26@0.0->Attr40@0.0
+Attr4@1.0, Attr22@0.0, Attr27@0.0->Attr40@0.0
+Attr4@1.0, Attr23@0.0, Attr27@0.0->Attr40@0.0
+Attr4@1.0, Attr22@0.0, Attr26@0.0->Attr40@0.0
+Attr3@1.0, Attr22@0.0, Attr40@0.0->Attr4@1.0
+Attr3@1.0, Attr22@0.0, Attr39@0.0->Attr4@1.0
+Attr3@1.0, Attr23@0.0, Attr39@0.0->Attr4@1.0
+Attr3@1.0, Attr23@0.0, Attr40@0.0->Attr4@1.0
+Attr3@1.0, Attr22@0.0, Attr38@0.0->Attr4@1.0
+Attr3@1.0, Attr23@0.0, Attr35@0.0->Attr4@1.0
+Attr3@1.0, Attr23@0.0, Attr37@0.0->Attr4@1.0
+Attr3@1.0, Attr22@0.0, Attr35@0.0->Attr4@1.0
+Attr3@1.0, Attr22@0.0, Attr37@0.0->Attr4@1.0
+Attr3@1.0, Attr23@0.0, Attr38@0.0->Attr4@1.0
+Attr3@1.0, Attr4@1.0, Attr22@0.0->Attr35@0.0
+Attr3@1.0, Attr4@1.0, Attr23@0.0->Attr35@0.0
+Attr3@1.0, Attr4@1.0, Attr22@0.0->Attr37@0.0
+Attr3@1.0, Attr4@1.0, Attr23@0.0->Attr37@0.0
+Attr3@1.0, Attr4@1.0, Attr22@0.0->Attr38@0.0
+Attr3@1.0, Attr4@1.0, Attr23@0.0->Attr38@0.0
+Attr3@1.0, Attr4@1.0, Attr22@0.0->Attr39@0.0
+Attr3@1.0, Attr4@1.0, Attr23@0.0->Attr39@0.0
+Attr3@1.0, Attr4@1.0, Attr22@0.0->Attr40@0.0
+Attr3@1.0, Attr4@1.0, Attr23@0.0->Attr40@0.0
+Attr3@0.0, Attr23@0.0->Attr35@0.0
+Attr3@0.0, Attr22@0.0->Attr35@0.0
+Attr3@0.0, Attr23@0.0->Attr37@0.0
+Attr3@0.0, Attr22@0.0->Attr37@0.0
+Attr3@0.0, Attr23@0.0->Attr38@0.0
+Attr3@0.0, Attr22@0.0->Attr38@0.0
+Attr3@0.0, Attr23@0.0->Attr39@0.0
+Attr3@0.0, Attr22@0.0->Attr39@0.0
+Attr3@0.0, Attr23@0.0->Attr40@0.0
+Attr3@0.0, Attr22@0.0->Attr40@0.0

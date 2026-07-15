@@ -1,0 +1,20 @@
+****** DISCOVERED RFDs *******
+Attr2@8.0, -> Attr9@8.0
+Attr8@8.0, -> Attr1@8.0
+Attr8@8.0, -> Attr0@8.0
+Attr2@8.0, -> Attr0@8.0
+Attr8@8.0, -> Attr9@8.0
+Attr2@8.0, -> Attr1@8.0
+Attr1@8.0,Attr9@8.0, -> Attr0@8.0
+Attr0@8.0, -> Attr3@8.0
+Attr1@8.0, -> Attr3@8.0
+Attr2@8.0, -> Attr3@8.0
+Attr4@8.0, -> Attr3@8.0
+Attr8@8.0, -> Attr3@8.0
+Attr9@8.0, -> Attr3@8.0
+Attr0@8.0, -> Attr4@8.0
+Attr1@8.0, -> Attr4@8.0
+Attr2@8.0, -> Attr4@8.0
+Attr3@8.0, -> Attr4@8.0
+Attr8@8.0, -> Attr4@8.0
+Attr9@8.0, -> Attr4@8.0
