@@ -20,24 +20,24 @@ examples), `{cols}` = the exact output column header.
 ## Shared header (prepended to every strategy)
 
 ```
-Sei un esperto di data augmentation per dataset tabulari.
-Devi generare esattamente {n} nuove righe sintetiche
-appartenenti SOLO alla classe minoritaria: '{minority_class}'.
+You are an expert in data augmentation for tabular datasets.
+You must generate exactly {n} new synthetic rows
+belonging ONLY to the minority class: '{minority_class}'.
 
 {profile.schema_constraints}
 
 {profile.distribution_summary}
 
-Esempi reali della classe minoritaria (few-shot):
+Real examples of the minority class (few-shot):
 {examples_csv}
 ```
 
 ## Shared footer (appended to every strategy)
 
 ```
-Rispondi SOLO con un CSV valido (separatore virgola).
-Intestazione esatta prima riga: {cols}
-Nessun testo aggiuntivo, nessun blocco markdown, nessuna riga vuota.
+Respond ONLY with a valid CSV (comma-separated).
+Exact header on the first row: {cols}
+No additional text, no markdown block, no empty lines.
 ```
 
 ---
@@ -45,83 +45,83 @@ Nessun testo aggiuntivo, nessun blocco markdown, nessuna riga vuota.
 ## 1. Schema Constraints
 
 ```
-Rispetta RIGOROSAMENTE i vincoli di schema:
-- Nessun valore numerico fuori dai range indicati.
-- Solo valori ammessi per le colonne categoriche.
-- Nessun campo NULL o mancante.
-- Genera esattamente {n} righe.
+Strictly respect the schema constraints:
+- No numeric value outside the indicated ranges.
+- Only allowed values for categorical columns.
+- No NULL or missing fields.
+- Generate exactly {n} rows.
 ```
 
 ## 2. Distribution Guidance
 
 ```
-Segui la distribution guidance per produrre dati realistici:
-- I valori numerici devono riflettere la distribuzione osservata (Q25-Q75).
-- Introduci variabilita' realistica: non copiare gli esempi identici.
-- Mantieni le correlazioni tra colonne presenti negli esempi.
-Genera {n} righe variegate ma statisticamente coerenti.
+Follow the distribution guidance to produce realistic data:
+- Numeric values must reflect the observed distribution (Q25-Q75).
+- Introduce realistic variability: do not copy the examples identically.
+- Preserve the correlations between columns present in the examples.
+Generate {n} varied but statistically coherent rows.
 ```
 
 ## 3. Hierarchical Chain-of-Thought
 
 ```
-Segui questi livelli di ragionamento PRIMA di scrivere il CSV:
+Follow these reasoning levels BEFORE writing the CSV:
 
-LIVELLO 1 - STRUTTURA
-  Quali colonne sono numeriche? Quali categoriche?
-  Ci sono correlazioni evidenti tra le colonne negli esempi?
+LEVEL 1 - STRUCTURE
+  Which columns are numeric? Which are categorical?
+  Are there obvious correlations between columns in the examples?
 
-LIVELLO 2 - DISTRIBUZIONE
-  Per ogni colonna numerica, qual e' l'intervallo plausibile?
-  Per le categoriche, quali sono i valori dominanti?
+LEVEL 2 - DISTRIBUTION
+  For each numeric column, what is the plausible range?
+  For categorical columns, what are the dominant values?
 
-LIVELLO 3 - COERENZA INTERNA
-  Le colonne si influenzano a vicenda? (es. eta'<->reddito, ore<->produzione)
-  Le nuove righe devono rispettare queste relazioni.
+LEVEL 3 - INTERNAL CONSISTENCY
+  Do columns influence each other? (e.g. age<->income, hours<->output)
+  The new rows must respect these relationships.
 
-LIVELLO 4 - GENERAZIONE
-  Ora genera i {n} esempi applicando tutti i vincoli identificati sopra.
+LEVEL 4 - GENERATION
+  Now generate the {n} examples applying all constraints identified above.
 ```
 
 ## 4. Self-Consistency Chain-of-Thought
 
 ```
-Usa questo processo di auto-verifica prima di produrre il CSV finale:
+Use this self-verification process before producing the final CSV:
 
-PASSO 1 - Prima bozza
-  Genera {n} righe sintetiche rispettando schema e distribuzione.
+STEP 1 - First draft
+  Generate {n} synthetic rows respecting schema and distribution.
 
-PASSO 2 - Verifica statistica
-  Le medie e varianze delle righe generate sono coerenti con gli esempi?
-  Se no, correggi i valori anomali.
+STEP 2 - Statistical check
+  Are the means and variances of the generated rows consistent with the examples?
+  If not, correct the anomalous values.
 
-PASSO 3 - Verifica semantica
-  Ogni riga ha senso? Ci sono combinazioni impossibili o contraddittorie?
-  Se si, correggile.
+STEP 3 - Semantic check
+  Does each row make sense? Are there impossible or contradictory combinations?
+  If so, fix them.
 
-PASSO 4 - Output finale
-  Scrivi il CSV definitivo solo dopo aver applicato le correzioni.
+STEP 4 - Final output
+  Write the definitive CSV only after applying the corrections.
 ```
 
 ## 5. ReAct Chain-of-Thought
 
 ```
-Applica il pattern ReAct (Reasoning + Acting):
+Apply the ReAct pattern (Reasoning + Acting):
 
-[Thought 1] Quali caratteristiche statistiche chiave ha la classe '{mc}'?
-[Action 1]  Calcola media e range per ogni colonna numerica dagli esempi.
-[Obs 1]     Annota i valori.
+[Thought 1] What are the key statistical characteristics of class '{mc}'?
+[Action 1]  Compute the mean and range for each numeric column from the examples.
+[Obs 1]     Note the values.
 
-[Thought 2] Ci sono vincoli categorici importanti?
-[Action 2]  Elenca i valori ammessi per ogni colonna categorica.
-[Obs 2]     Annota i vincoli.
+[Thought 2] Are there important categorical constraints?
+[Action 2]  List the allowed values for each categorical column.
+[Obs 2]     Note the constraints.
 
-[Thought 3] Come si correlano le colonne tra loro?
-[Action 3]  Identifica le 2-3 correlazioni piu' forti dagli esempi.
-[Obs 3]     Annota le correlazioni.
+[Thought 3] How do the columns correlate with each other?
+[Action 3]  Identify the 2-3 strongest correlations from the examples.
+[Obs 3]     Note the correlations.
 
-[Thought 4] Genero {n} righe rispettando tutto quanto sopra.
-[Action 4]  Scrivi il CSV finale.
+[Thought 4] Generate {n} rows respecting everything above.
+[Action 4]  Write the final CSV.
 ```
 
 ## 6. Ensemble Chain-of-Thought (multi-perspective)
@@ -131,37 +131,37 @@ diversity), one per generation round:
 
 | Perspective | Focus |
 |---|---|
-| STATISTICA  | Priorita': fedelta' statistica - media, std e distribuzione devono corrispondere. |
-| SEMANTICA   | Priorita': plausibilita' semantica - ogni riga deve essere realistica nel dominio. |
-| DIVERSITA'  | Priorita': diversita' - copri bordi, casi rari, valori estremi ma plausibili. |
+| STATISTICAL | Priority: statistical fidelity - mean, std and distribution must match. |
+| SEMANTIC    | Priority: semantic plausibility - every row must be realistic within the domain. |
+| DIVERSITY   | Priority: diversity - cover edge cases, rare cases, extreme but plausible values. |
 
 ```
-Prospettiva attiva: {perspective_name}
+Active perspective: {perspective_name}
 {perspective_focus}
 
-Ragiona da questa prospettiva:
-1. Cosa devi garantire in modo prioritario con questa prospettiva?
-2. Quali colonne richiedono piu' attenzione?
-3. Genera {n} righe ottimizzate secondo questa prospettiva.
+Reason from this perspective:
+1. What must you guarantee as a priority from this perspective?
+2. Which columns require more attention?
+3. Generate {n} rows optimized according to this perspective.
 ```
 
 ## 7. Decision-Tree Chain-of-Thought
 
 ```
-Costruisci mentalmente un albero decisionale e usalo per generare:
+Mentally build a decision tree and use it to generate:
 
-RADICE -> classe = '{mc}'
+ROOT -> class = '{mc}'
 
-NODO [{pivot_attribute}]
-  Ramo A: {pivot_attribute} < mediana
-    -> quali altre feature tendono ad essere basse? quali valori categorici dominano?
-  Ramo B: {pivot_attribute} >= mediana
-    -> quali altre feature tendono ad essere alte? quali valori categorici dominano?
+NODE [{pivot_attribute}]
+  Branch A: {pivot_attribute} < median
+    -> which other features tend to be low? which categorical values dominate?
+  Branch B: {pivot_attribute} >= median
+    -> which other features tend to be high? which categorical values dominate?
 
-FOGLIE -> genera esempi seguendo i percorsi.
-         Distribuisci equamente tra Ramo A e Ramo B per massimizzare la varieta'.
+LEAVES -> generate examples following the paths.
+          Distribute evenly between Branch A and Branch B to maximize variety.
 
-Genera {n} righe in totale (bilanciato tra i rami).
+Generate {n} rows in total (balanced between the branches).
 ```
 
 `{pivot_attribute}` is the first numeric attribute in the dataset schema.
@@ -169,17 +169,17 @@ Genera {n} righe in totale (bilanciato tra i rami).
 ## 8. Confidence-Scoring Chain-of-Thought
 
 ```
-Per ogni riga, applica internamente questo filtro di confidenza:
+For each row, internally apply this confidence filter:
 
-  Score = 0.4 x (range numerico rispettato)
-        + 0.3 x (coerenza categorica)
-        + 0.3 x (plausibilita' semantica)
+  Score = 0.4 x (numeric range respected)
+        + 0.3 x (categorical consistency)
+        + 0.3 x (semantic plausibility)
 
-  Se score < 0.7 -> scarta e rigenera la riga.
-  Includi nel CSV finale SOLO righe con score >= 0.7.
+  If score < 0.7 -> discard and regenerate the row.
+  Include in the final CSV ONLY rows with score >= 0.7.
 
-Genera almeno {n} righe valide (il numero di righe scartate non conta).
-La colonna score NON deve apparire nel CSV - e' solo un filtro interno.
+Generate at least {n} valid rows (the number of discarded rows does not count).
+The score column must NOT appear in the CSV - it is only an internal filter.
 ```
 
 ---

@@ -1,32 +1,33 @@
 """
 download_susy.py
 =================
-Scarica e ricostruisce localmente i due file del dataset SUSY usati nella
-valutazione (D35 in Table 2 del paper), che NON sono inclusi nel repository
-per la loro dimensione (~750MB / ~340MB, oltre i limiti pratici di GitHub):
+Downloads and locally reconstructs the two SUSY dataset files used in the
+evaluation (D35 in Table 2 of the paper), which are NOT included in the
+repository due to their size (~750MB / ~340MB, beyond GitHub's practical
+limits):
 
-  imbalanced_datasets/susy_lowlevel8.csv       (5,000,000 righe)
-  imbalanced_datasets/min/susy_lowlevel8_min.csv  (solo classe minoritaria, class == 1)
+  imbalanced_datasets/susy_lowlevel8.csv          (5,000,000 rows)
+  imbalanced_datasets/min/susy_lowlevel8_min.csv  (minority class only, class == 1)
 
-Fonte originale: UCI Machine Learning Repository - SUSY Data Set
+Original source: UCI Machine Learning Repository - SUSY Data Set
 https://archive.ics.uci.edu/dataset/279/susy
 (Baldi, Sadowski, Whiteson, "Searching for Exotic Particles in High-Energy
 Physics with Deep Learning", Nature Communications, 2014)
 
-Il file originale SUSY.csv.gz contiene, per riga: 1 etichetta di classe seguita
-da 18 feature (le prime 8 "low-level" cinematiche, le successive 10
-"high-level" derivate). Questo script scarica il file, mantiene la label e
-SOLO le prime 8 feature low-level (Attr0..Attr7), rinomina le colonne secondo
-la convenzione usata nel resto del repository (colonne feature per prime,
-"class" come ultima colonna) e produce sia il file completo sia il
-sottoinsieme di sola classe minoritaria (class == 1, 2'287'827 righe attese,
-si veda Table 2 del paper).
+The original SUSY.csv.gz file contains, per row: 1 class label followed by
+18 features (the first 8 kinematic "low-level" features, the remaining 10
+derived "high-level" features). This script downloads the file, keeps the
+label and ONLY the first 8 low-level features (Attr0..Attr7), renames the
+columns according to the convention used in the rest of the repository
+(feature columns first, "class" as the last column), and produces both the
+full file and the minority-class-only subset (class == 1, 2,287,827 rows
+expected, see Table 2 of the paper).
 
-Uso:
+Usage:
     python scripts/download_susy.py
 
-Richiede una connessione a Internet e ~2.5GB di spazio disco temporaneo per
-il file .gz e il CSV decompresso.
+Requires an internet connection and ~2.5GB of temporary disk space for the
+.gz file and the decompressed CSV.
 """
 import gzip
 import os
@@ -47,7 +48,7 @@ HEADER = ",".join(f"Attr{i}" for i in range(N_LOWLEVEL_FEATURES)) + ",class"
 
 def download(url: str, dest: str) -> None:
     if os.path.exists(dest):
-        print(f"[skip] {dest} già presente.")
+        print(f"[skip] {dest} already present.")
         return
     print(f"[download] {url} -> {dest}")
     urllib.request.urlretrieve(url, dest)
@@ -75,19 +76,19 @@ def convert(gz_path: str, full_out: str, min_out: str) -> None:
             if class_val == "1":
                 f_min.write(row + "\n")
                 n_minority += 1
-    print(f"[done] {n_total} righe totali, {n_minority} nella classe minoritaria (class == 1).")
+    print(f"[done] {n_total} total rows, {n_minority} in the minority class (class == 1).")
 
 
 def main() -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(MIN_DIR, exist_ok=True)
     if os.path.exists(FULL_OUT) and os.path.exists(MIN_OUT):
-        print("[skip] I file SUSY ricostruiti sono già presenti.")
+        print("[skip] Reconstructed SUSY files are already present.")
         return
     download(SUSY_URL, GZ_PATH)
     convert(GZ_PATH, FULL_OUT, MIN_OUT)
     os.remove(GZ_PATH)
-    print("[cleanup] rimosso l'archivio .gz intermedio.")
+    print("[cleanup] removed intermediate .gz archive.")
 
 
 if __name__ == "__main__":

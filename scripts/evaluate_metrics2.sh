@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Script per eseguire src/evaluate_metrics_v5.py su tutti i dataset
-# Esecuzione riga per riga
+# Runs src/evaluate_metrics_v5.py for every dataset
+# One explicit call per dataset (no loop)
 
-# Directory base
+# Base directories
 BASE_DIR="./imbalanced_datasets"
 MIN_DIR="${BASE_DIR}/min"
 AUGMENTED_DIR="./augmented_datasets"
 RFD_DIR="./discovered_rfds_processed/Domino"
 OUTPUT_DIR="./evaluation_metrics"
 
-# Crea la directory di output
+# Create the output directory
 mkdir -p "${OUTPUT_DIR}"
 
 # Dataset 14: new-thyroid1

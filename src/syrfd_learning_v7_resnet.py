@@ -24,9 +24,7 @@ def set_seed(seed: int) -> None:
         torch.cuda.manual_seed_all(seed)
 
 
-# =========================================================================
-# 0. ROLLING BUFFER
-# =========================================================================
+# Rolling buffer
 
 class RollingBuffer:
     def __init__(self, capacity: int = 512, min_fill: int = 128):
@@ -52,9 +50,7 @@ class RollingBuffer:
         self._buf = []
         self._ptr = 0
 
-# =========================================================================
-# 1. LOSS FUNCTIONS
-# =========================================================================
+# Loss functions
 
 class SoftRFDLoss(nn.Module):
     def __init__(self, dependencies, attr_to_idx, threshold=4.0, tau=0.5):
@@ -70,7 +66,7 @@ class SoftRFDLoss(nn.Module):
         if B == 0 or N == 0 or not self.dependencies:
             return torch.tensor(0.0, device=x_gen.device, requires_grad=True)
         
-        # Sfrutta il broadcasting ma ottimizzato per non saturare la memoria
+        # Uses broadcasting, optimized to avoid saturating memory
         diffs = torch.abs(x_gen.unsqueeze(1) - x_real.unsqueeze(0))
         total, active = 0.0, 0
         for lhs_attrs, rhs_attr in self.dependencies:
@@ -110,26 +106,24 @@ class MMDLoss(nn.Module):
             min=0.0
         )
 
-# =========================================================================
-# 2. COMPOSITE METRIC LOSS (v6 - Snella e non ridondante)
-# =========================================================================
+# Composite metric loss (v7 - lean, non-redundant)
 
 class CompositeMetricLoss(nn.Module):
     """
-    Loss composita v6.1 — Fidelity + Diversity senza conflitti:
+    Composite loss v7.1 - Fidelity + Diversity without conflicts:
 
     Fidelity:
-      - SlicedWasserstein (SWD): sostituisce JS marginale. Differenziabile,
-        cattura le code meglio di JS (risolve kurt_diff elevato), non satura.
+      - SlicedWasserstein (SWD): replaces marginal JS. Differentiable,
+        captures the tails better than JS (fixes high kurt_diff), does not saturate.
 
     Diversity:
-      - CoverageLoss: minimizza la distanza media al nearest real neighbor.
-        Direttamente correlata alla metrica Recall/Coverage finale.
-        SOSTITUISCE _intra_compactness (che minimizzava la varianza
-        spingendo verso il mode collapse).
+      - CoverageLoss: minimizes the average distance to the nearest real neighbor.
+        Directly correlated with the final Recall/Coverage metric.
+        REPLACES _intra_compactness (which minimized variance,
+        pushing toward mode collapse).
 
-    Logging non-differenziabile (solo numpy, nessun gradiente):
-      - Silhouette e DBI sklearn per monitoraggio.
+    Non-differentiable logging (numpy only, no gradient):
+      - Silhouette and DBI from sklearn for monitoring.
     """
     def __init__(self, n_projections: int = 50, w_swd: float = 1.0, w_coverage: float = 0.5, eps: float = 1e-8):
         super().__init__()
@@ -140,23 +134,23 @@ class CompositeMetricLoss(nn.Module):
 
     def _sliced_wasserstein(self, x_gen: torch.Tensor, x_real: torch.Tensor) -> torch.Tensor:
         """
-        Sliced Wasserstein Distance — O(n log n), differenziabile.
-        Proietta su n_proj direzioni casuali e calcola la media delle WD 1D.
-        Cattura le code della distribuzione (risolve kurt_diff elevato).
+        Sliced Wasserstein Distance - O(n log n), differentiable.
+        Projects onto n_proj random directions and averages the 1D WDs.
+        Captures the tails of the distribution (fixes high kurt_diff).
         """
         D = x_gen.shape[1]
-        # Direzioni di proiezione casuali normalizzati
+        # Normalized random projection directions
         projs = torch.randn(D, self.n_proj, device=x_gen.device)
         projs = projs / (projs.norm(dim=0, keepdim=True) + self.eps)   # (D, n_proj)
 
         x_proj = x_gen  @ projs   # (B, n_proj)
         r_proj = x_real @ projs   # (N, n_proj)
 
-        # Sort lungo l'asse dei campioni per ogni proiezione
+        # Sort along the sample axis for each projection
         x_sorted, _ = x_proj.sort(dim=0)
         r_sorted, _ = r_proj.sort(dim=0)
 
-        # Allineamento dimensionale: se B != N, interpola il più corto
+        # Dimension alignment: if B != N, interpolate the shorter one
         if x_sorted.shape[0] != r_sorted.shape[0]:
             target = max(x_sorted.shape[0], r_sorted.shape[0])
             if x_sorted.shape[0] < target:
@@ -170,24 +164,24 @@ class CompositeMetricLoss(nn.Module):
 
     def _coverage_loss(self, x_gen: torch.Tensor, x_real: torch.Tensor, w_div: float = 0.3) -> torch.Tensor:
         """
-        Loss di coverage bilanciata: promuove copertura senza collasso al centroide.
+        Balanced coverage loss: promotes coverage without collapsing to the centroid.
 
-        Termine 1 — nn_coverage: minimizza la distanza al nearest real neighbor
-          → spinge ogni campione generato vicino a un reale diverso (alta recall).
+        Term 1 - nn_coverage: minimizes the distance to the nearest real neighbor
+          -> pushes each generated sample close to a distinct real one (high recall).
 
-        Termine 2 — diversity_penalty: penalizza la bassa varianza interna dei generati
-          → impedisce il collasso su un unico punto/centroide.
-          Costruita come max(0, target_var - var_attuale): attiva solo se la varianza
-          scende sotto target_var (= varianza dei reali), quindi non comprime mai
-          più del necessario. È l'opposto di _intra_compactness che minimizzava var.
+        Term 2 - diversity_penalty: penalizes low internal variance among generated samples
+          -> prevents collapse onto a single point/centroid.
+          Built as max(0, target_var - current_var): only active if variance
+          drops below target_var (= variance of the real data), so it never compresses
+          more than necessary. It is the opposite of _intra_compactness, which minimized variance.
 
-        w_div=0.3: peso leggero sulla diversity — la copertura resta il segnale primario.
+        w_div=0.3: light weight on diversity - coverage remains the primary signal.
         """
         dists = torch.cdist(x_gen, x_real, p=2)                     # (B, N)
         nn_coverage = dists.min(dim=1).values.mean()
 
-        # Varianza target = varianza dei reali; penalizza solo se gen è più compatto
-        target_var   = x_real.var(dim=0).mean().detach()             # nessun gradiente sui reali
+        # Target variance = variance of the real data; penalize only if generated data is more compact
+        target_var   = x_real.var(dim=0).mean().detach()             # no gradient on the real data
         current_var  = x_gen.var(dim=0).mean()
         diversity_penalty = torch.clamp(target_var - current_var, min=0.0)
 
@@ -210,16 +204,16 @@ class CompositeMetricLoss(nn.Module):
         except: return 1.0
 
     def forward(self, x_gen_n: torch.Tensor, x_real_n: torch.Tensor, mins: torch.Tensor = None, ranges: torch.Tensor = None, gen_buffer: np.ndarray | None = None, real_buffer: np.ndarray | None = None) -> tuple[torch.Tensor, dict]:
-        # x_gen_n e x_real_n sono già in [0,1]: nessuna ri-normalizzazione necessaria.
-        # mins e ranges mantenuti come parametri opzionali per compatibilità firma.
+        # x_gen_n and x_real_n are already in [0,1]: no re-normalization needed.
+        # mins and ranges kept as optional parameters for signature compatibility.
 
-        # --- Fidelity: Sliced Wasserstein (sostituisce JS marginale) ---
+        # --- Fidelity: Sliced Wasserstein (replaces marginal JS) ---
         swd = self._sliced_wasserstein(x_gen_n, x_real_n)
 
-        # --- Diversity: Coverage Loss con anti-collapse (sostituisce _intra_compactness) ---
+        # --- Diversity: Coverage Loss with anti-collapse (replaces _intra_compactness) ---
         cov_loss = self._coverage_loss(x_gen_n, x_real_n)
 
-        # Tracciamento NumPy (solo log, nessun gradiente inquinato)
+        # NumPy tracking (logging only, no gradient contamination)
         gp = gen_buffer  if gen_buffer  is not None else x_gen_n.detach().cpu().numpy()
         rp = real_buffer if real_buffer is not None else x_real_n.detach().cpu().numpy()
         sil_val = self._numpy_silhouette(gp, rp)
@@ -234,23 +228,21 @@ class CompositeMetricLoss(nn.Module):
             "silhouette":     sil_val,
             "loss_composite": loss.item(),
             "buffer_size":    len(gp),
-            # Alias per compatibilità con _extract_final_metrics e logging
-            "js":             swd.item(),       # SWD prende il ruolo di js nel logging
-            "compactness":    cov_loss.item(),  # coverage_loss prende il ruolo di compactness
-            "dbi_local":      0.0,              # rimosso, non più calcolato
+            # Alias for compatibility with _extract_final_metrics and logging
+            "js":             swd.item(),       # SWD takes the role of js in logging
+            "compactness":    cov_loss.item(),  # coverage_loss takes the role of compactness
+            "dbi_local":      0.0,              # removed, no longer computed
         }
         return loss, metrics
 
-# =========================================================================
-# 3. GENERATORE AVANZATO (TabResNet - Conserva la diversity)
-# =========================================================================
+# Advanced generator (TabResNet - preserves diversity)
 
 class ResidualBlock(nn.Module):
     """
-    Blocco residuale con LayerNorm (stabile su batch piccoli) e Dropout leggero.
-    LayerNorm normalizza per sample invece che per batch: nessuna instabilita'
-    con batch_size piccoli o dataset ridotti come ecoli.
-    Dropout=0.1 regolarizza senza soffocare il segnale.
+    Residual block with LayerNorm (stable on small batches) and light dropout.
+    LayerNorm normalizes per sample instead of per batch: no instability
+    with small batch sizes or small datasets like ecoli.
+    Dropout=0.1 regularizes without suppressing the signal.
     """
     def __init__(self, dim, dropout: float = 0.1):
         super().__init__()
@@ -269,10 +261,10 @@ class ResidualBlock(nn.Module):
 
 class TabResNetGenerator(nn.Module):
     """
-    Generatore basato su blocchi residuali per dati tabulari.
-    num_blocks=3: piu' profondita' per apprendere il manifold RFD-vincolato.
-    Nessun sigmoid nell'output: il training usa valori liberi, il sigmoid
-    e' applicato solo in generate() prima della denormalizzazione.
+    Generator based on residual blocks for tabular data.
+    num_blocks=3: more depth to learn the RFD-constrained manifold.
+    No sigmoid on the output: training uses unconstrained values, the sigmoid
+    is applied only in generate() before denormalization.
     """
     def __init__(self, latent_dim, data_dim, hidden_dim=256, num_blocks=3, dropout: float = 0.1):
         super().__init__()
@@ -283,8 +275,8 @@ class TabResNetGenerator(nn.Module):
         )
         self.res_blocks = nn.ModuleList([ResidualBlock(hidden_dim, dropout=dropout) for _ in range(num_blocks)])
         self.last_layer = nn.Linear(hidden_dim, data_dim)
-        # Nessuna attivazione finale: output libero durante training,
-        # sigmoid applicato esternamente solo in generate()
+        # No final activation: output is unconstrained during training,
+        # sigmoid applied externally only in generate()
 
     def forward(self, z):
         x = self.first_layer(z)
@@ -292,14 +284,12 @@ class TabResNetGenerator(nn.Module):
             x = block(x)
         return self.last_layer(x)
 
-# =========================================================================
-# 4. RFD VALIDATOR (Vettorizzato in NumPy - Velocità e Sicurezza Assoluta)
-# =========================================================================
+# RFD validator (vectorized in NumPy - speed and absolute safety)
 
 class RFDValidator:
     """
-    Garantisce matematicamente e in modo invalicabile la validità delle RFD.
-    Ottimizzato tramite vettorizzazione nativa NumPy in fette 3D per evitare cicli iterrows.
+    Mathematically and strictly guarantees the validity of the RFDs.
+    Optimized via native NumPy vectorization in 3D slices to avoid iterrows loops.
     """
     def __init__(self, dependencies, attributes, threshold: float, mode: str = "strict"):
         assert mode in ("strict", "relaxed")
@@ -307,15 +297,15 @@ class RFDValidator:
         self.attributes   = attributes
         self.threshold    = threshold
         self.mode         = mode
-        self._generated_matrix = None  # Storage np.ndarray veloce per lo strict storico
+        self._generated_matrix = None  # Fast np.ndarray storage for the strict-mode history
 
     def reset_generated(self):
         self._generated_matrix = None
 
     def _check_valid_vectorized(self, candidates: np.ndarray, reference: np.ndarray, attr_idx: dict) -> np.ndarray:
         """
-        Controlla in parallelo tutti i candidati rispetto alla matrice di riferimento.
-        Ritorna un array booleano di size (Len(candidates),) dove True significa 'Valido'.
+        Checks all candidates against the reference matrix in parallel.
+        Returns a boolean array of size (len(candidates),) where True means 'valid'.
         """
         num_candidates = candidates.shape[0]
         is_valid = np.ones(num_candidates, dtype=bool)
@@ -323,7 +313,7 @@ class RFDValidator:
         if num_candidates == 0 or reference.shape[0] == 0 or not self.dependencies:
             return is_valid
 
-        # Calcolo distanze assolute cross-prodotte: (Candidates, Reference, Attributes)
+        # Compute cross-product absolute distances: (Candidates, Reference, Attributes)
         diffs = np.abs(candidates[:, np.newaxis, :] - reference[np.newaxis, :, :])
 
         for lhs_list, rhs_attr in self.dependencies:
@@ -332,12 +322,12 @@ class RFDValidator:
             if not lhs_cols or rhs_col == -1:
                 continue
 
-            # Condizione di violazione RFD: LHS <= threshold E RHS > threshold
+            # RFD violation condition: LHS <= threshold AND RHS > threshold
             lhs_condition = np.all(diffs[:, :, lhs_cols] <= self.threshold, axis=2)
             rhs_condition = diffs[:, :, rhs_col] > self.threshold
             violation_matrix = lhs_condition & rhs_condition
 
-            # Se un candidato viola la regola con ALMENO una riga del reference, è invalido
+            # If a candidate violates the rule against AT LEAST one row of the reference, it is invalid
             has_violation = np.any(violation_matrix, axis=1)
             is_valid = is_valid & (~has_violation)
 
@@ -348,7 +338,7 @@ class RFDValidator:
         candidates = generated_df[self.attributes].values.astype(float)
         reference  = reference_df[self.attributes].values.astype(float)
 
-        # 1. Validazione rispetto agli originali
+        # 1. Validate against the originals
         valid_mask = self._check_valid_vectorized(candidates, reference, attr_idx)
         filtered_candidates = candidates[valid_mask]
         original_indices = np.where(valid_mask)[0]
@@ -356,12 +346,12 @@ class RFDValidator:
         if self.mode == "strict" and filtered_candidates.shape[0] > 0:
             strict_mask = np.ones(filtered_candidates.shape[0], dtype=bool)
             
-            # Se esiste già uno storico di tuple generate valide, controlla l'inter-validità totale
+            # If a history of valid generated tuples already exists, check total inter-validity
             if self._generated_matrix is not None:
                 passed_history = self._check_valid_vectorized(filtered_candidates, self._generated_matrix, attr_idx)
                 strict_mask = strict_mask & passed_history
 
-            # Controllo sequenziale interno tra i candidati stessi del batch corrente per preservare l'ordine
+            # Sequential internal check among the candidates of the current batch to preserve order
             final_accepted = []
             current_history = list(self._generated_matrix) if self._generated_matrix is not None else []
             
@@ -370,7 +360,7 @@ class RFDValidator:
                     continue
                 if len(current_history) > 0:
                     history_arr = np.array(current_history)
-                    # Controllo singolo candidato vs storia accumulata finora
+                    # Check a single candidate against the history accumulated so far
                     diffs_single = np.abs(history_arr - candidate)
                     violates = False
                     for lhs_list, rhs_attr in self.dependencies:
@@ -385,20 +375,18 @@ class RFDValidator:
                 
                 current_history.append(candidate)
             
-            # Aggiorna lo storage dello storico globale del validatore
+            # Update the validator's global history storage
             if len(current_history) > 0:
                 self._generated_matrix = np.array(current_history)
-            
-            # Rimappa la maschera finale sul DataFrame originale
+
+            # Remap the final mask onto the original DataFrame
             final_mask = np.zeros(len(generated_df), dtype=bool)
             final_mask[original_indices[strict_mask]] = True
             return generated_df[final_mask].reset_index(drop=True)
         else:
             return generated_df[valid_mask].reset_index(drop=True)
 
-# =========================================================================
-# 5. CHECKPOINT MANAGER
-# =========================================================================
+# Checkpoint manager
 
 class CheckpointManager:
     CKPT_DIR = "checkpoint"
@@ -411,7 +399,7 @@ class CheckpointManager:
     def save(self, generator: nn.Module, run_id: str, train_params: dict, final_metrics: dict) -> str:
         model_path = os.path.join(self.CKPT_DIR, f"{self.base_name}_{run_id}.pt")
         torch.save(generator.state_dict(), model_path)
-        print(f"Checkpoint salvato: {model_path}")
+        print(f"Checkpoint saved: {model_path}")
 
         row = {
             "run_id":     run_id,
@@ -433,14 +421,12 @@ class CheckpointManager:
     def load(self, generator: nn.Module, run_id: str) -> nn.Module:
         model_path = os.path.join(self.CKPT_DIR, f"{self.base_name}_{run_id}.pt")
         if not os.path.exists(model_path):
-            raise FileNotFoundError(f"Checkpoint non trovato: {model_path}")
+            raise FileNotFoundError(f"Checkpoint not found: {model_path}")
         generator.load_state_dict(torch.load(model_path, map_location="cpu"))
-        print(f"Checkpoint caricato: {model_path}")
+        print(f"Checkpoint loaded: {model_path}")
         return generator
 
-# =========================================================================
-# 6. LEARNER PRINCIPALE
-# =========================================================================
+# Main learner
 
 class SyRFDLearner:
     def __init__(self, data_path=None, rfd_path=None, threshold=4.0, latent_dim=64, rfd_mode="strict", device=None):
@@ -466,13 +452,13 @@ class SyRFDLearner:
 
         self.real_tensor = torch.tensor(self.df_min[self.attributes].values, dtype=torch.float32, device=self.device)
 
-        # Inizializzazione del nuovo generatore TabResNet
+        # Initialize the new TabResNet generator
         self.generator = TabResNetGenerator(self.latent_dim, self.data_dim).to(self.device)
         self.validator = RFDValidator(self.dependencies, self.attributes, self.file_threshold, mode=self.rfd_mode)
         self.ckpt_mgr  = CheckpointManager(self.base_name)
 
     def _load_real_data(self, path):
-        print(f"Caricamento dataset: {path}")
+        print(f"Loading dataset: {path}")
         df = pd.read_csv(path)
         counts = df['class'].value_counts()
         self.min_class  = counts.idxmin()
@@ -480,17 +466,17 @@ class SyRFDLearner:
         self.attributes = [c for c in self.df_min.columns if c != 'class']
 
     def _load_rfds(self, path):
-        print(f"Caricamento RFD dal file: {path}")
-        
-        # Estraiamo automaticamente la soglia dal nome del file (es. RFD2 -> soglia = 2.0)
+        print(f"Loading RFDs from file: {path}")
+
+        # Automatically extract the threshold from the file name (e.g. RFD2 -> threshold = 2.0)
         filename = os.path.basename(path)
         match = re.search(r"RFD(\d+(?:\.\d+)?)", filename)
         if match:
             self.file_threshold = float(match.group(1))
-            print(f"[INFO] Soglia epsilon estratta automaticamente dal nome del file: {self.file_threshold}")
+            print(f"[INFO] Epsilon threshold automatically extracted from file name: {self.file_threshold}")
         else:
-            self.file_threshold = self.threshold # Fallback sulla soglia passata come argomento
-            print(f"[ATTENZIONE] Nessuna soglia trovata nel nome file. Uso il default: {self.file_threshold}")
+            self.file_threshold = self.threshold # Fallback to the threshold passed as an argument
+            print(f"[WARNING] No threshold found in file name. Using default: {self.file_threshold}")
             
         self.dependencies = []
         with open(path) as f:
@@ -512,7 +498,7 @@ class SyRFDLearner:
         self.dependencies = [(['Attr1', 'Attr2'], 'Attr3')]
 
     def _denormalize(self, x_norm: torch.Tensor) -> torch.Tensor:
-        """Denormalizzazione con clamp: usata in generate() dopo sigmoid."""
+        """Denormalization with clamp: used in generate() after sigmoid."""
         return torch.clamp(x_norm, 0.0, 1.0) * self.ranges + self.mins
 
 
@@ -532,7 +518,7 @@ class SyRFDLearner:
         gen_buf  = RollingBuffer(capacity=buffer_capacity, min_fill=buffer_min_fill)
         real_buf_np = torch.clamp((self.real_tensor - self.mins) / (self.ranges + 1e-8), 0.0, 1.0).cpu().numpy()
 
-        print(f"\nInizio Addestramento TabResNet — run_id={run_id}")
+        print(f"\nStarting TabResNet training - run_id={run_id}")
         
         best_comp, patience_ctr = float('inf'), 0
         history = []
@@ -542,25 +528,25 @@ class SyRFDLearner:
             optimizer.zero_grad()
             z          = torch.randn(batch_size, self.latent_dim, device=self.device)
             
-            # Sigmoid applicato UNA SOLA VOLTA: output in [0,1] normalizzato.
-            # x_gen_norm viene passato direttamente alle loss che lavorano già
-            # in spazio normalizzato → nessuna ri-normalizzazione interna,
-            # nessun double-sigmoid, nessun collasso da output libero non vincolato.
-            # x_gen_den (denormalizzato) è usato solo per RFDLoss e generazione finale.
+            # Sigmoid applied ONLY ONCE: output normalized to [0,1].
+            # x_gen_norm is passed directly to the losses that already operate
+            # in normalized space -> no internal re-normalization,
+            # no double-sigmoid, no collapse from unconstrained free output.
+            # x_gen_den (denormalized) is used only for RFDLoss and final generation.
             x_gen_raw  = self.generator(z)
-            x_gen_norm = torch.sigmoid(x_gen_raw)                    # [0,1], una volta sola
-            x_gen_den  = self._denormalize(x_gen_norm)               # scala su [min, max]
+            x_gen_norm = torch.sigmoid(x_gen_raw)                    # [0,1], only once
+            x_gen_den  = self._denormalize(x_gen_norm)               # scaled to [min, max]
 
             idx          = torch.randint(0, len(self.real_tensor), (batch_size,), device=self.device)
             x_real_batch = self.real_tensor[idx]
-            # Versione normalizzata dei reali per le loss composite (già in [0,1])
+            # Normalized version of the real data for the composite losses (already in [0,1])
             x_real_norm  = torch.clamp((x_real_batch - self.mins) / (self.ranges + 1e-8), 0.0, 1.0)
 
             gen_buf.push(x_gen_norm.detach().cpu().numpy())
 
-            # MMDLoss riceve i denormalizzati + mins/ranges e ri-normalizza internamente: ok
+            # MMDLoss receives the denormalized data + mins/ranges and re-normalizes internally: ok
             loss_fid = fid_crit(x_gen_den, x_real_batch, mins=self.mins, ranges=self.ranges)
-            # RFDLoss lavora sui valori denormalizzati (confronto con soglia epsilon)
+            # RFDLoss operates on denormalized values (compared against the epsilon threshold)
             loss_rfd = rfd_crit(x_gen_den, self.real_tensor)
 
             if epoch <= warmup_epochs:
@@ -626,7 +612,7 @@ class SyRFDLearner:
 
         while total_generated_so_far < num_samples and attempt < rfd_max_attempts:
             attempt += 1
-            # Campionamento dinamico: genera più campioni se l'accettazione è bassa
+            # Dynamic sampling: generate more samples if the acceptance rate is low
             bs = max(num_samples * 3, 512)
             with torch.no_grad():
                 x_gen_den = self._denormalize(torch.sigmoid(self.generator(torch.randn(bs, self.latent_dim, device=self.device))))
@@ -636,13 +622,13 @@ class SyRFDLearner:
                 if (self.df_min[attr].dtype in ['int64','int32'] or np.issubdtype(self.df_min[attr].dtype, np.integer)):
                     df_gen[attr] = df_gen[attr].round().astype(int)
 
-            # Il Validator filtrerà istantaneamente via NumPy escludendo qualsiasi violazione
+            # The validator instantly filters via NumPy, excluding any violation
             df_valid = self.validator.filter_valid(df_gen, self.df_min)
             if len(df_valid) > 0:
                 valid_rows.append(df_valid)
                 total_generated_so_far = sum(len(d) for d in valid_rows)
-            
-            print(f"  Tentativo {attempt}: {len(df_valid)}/{bs} tuple valide superate. Totale: {total_generated_so_far}/{num_samples}")
+
+            print(f"  Attempt {attempt}: {len(df_valid)}/{bs} valid tuples passed. Total: {total_generated_so_far}/{num_samples}")
 
         if not valid_rows:
             return pd.DataFrame(columns=self.attributes + ['class'])
@@ -656,57 +642,55 @@ class SyRFDLearner:
     def load_checkpoint(self, run_id: str):
         self.ckpt_mgr.load(self.generator, run_id)
 
-# =========================================================================
-# 7. MAIN E INVOCAZIONE
-# =========================================================================
+# Main and entry point
 
 def run_gridsearch(data_path, rfd_path, rfd_mode="relaxed", epochs=1000, warmup_epochs=300):
     """
-    Esegue una Grid Search sistematica esplorando le combinazioni di iperparametri
-    e salvando i risultati nel file CSV dei checkpoint per il confronto.
+    Runs a systematic grid search over hyperparameter combinations
+    and saves the results to the checkpoint CSV file for comparison.
     """
-    # Definiamo lo spazio di ricerca (puoi modificarlo a piacimento)
+    # Define the search space (feel free to modify it)
     grid = {
         "lr": [0.001],
-        "lambda_fid": [1.0],               # Peso MMD (Fidelity di base)
-        "lambda_rfd": [5.0, 10.0, 20.0],    # Peso Vincoli RFD (Soglia logica)
-        "lambda_composite": [1.0, 2.0],    # Peso Geometria + Diversity
-        "w_swd": [1.0],                     # Peso Sliced Wasserstein Distance
-        "w_coverage": [0.2, 0.5, 1.0]      # Peso Coverage Loss (Diversity)
+        "lambda_fid": [1.0],               # MMD weight (base fidelity)
+        "lambda_rfd": [5.0, 10.0, 20.0],    # RFD constraint weight (logical threshold)
+        "lambda_composite": [1.0, 2.0],    # Geometry + diversity weight
+        "w_swd": [1.0],                     # Sliced Wasserstein Distance weight
+        "w_coverage": [0.2, 0.5, 1.0]      # Coverage loss weight (diversity)
     }
 
-    # Genera tutte le combinazioni possibili
+    # Generate all possible combinations
     keys, values = zip(*grid.items())
     experiments = [dict(zip(keys, v)) for v in itertools.product(*values)]
-    
+
     total_runs = len(experiments)
     print(f"\n========================================================")
-    
-    # Estraiamo temporaneamente la soglia per stamparla
+
+    # Temporarily extract the threshold for printing
     filename = os.path.basename(rfd_path)
     match = re.search(r"RFD(\d+(?:\.\d+)?)", filename)
     file_eps = float(match.group(1)) if match else 4.0
-    
-    print(f"AVVIO GRID SEARCH: {total_runs} combinazioni totali.")
+
+    print(f"STARTING GRID SEARCH: {total_runs} total combinations.")
     print(f"Dataset: {data_path} | RFD: {rfd_path} (Epsilon={file_eps})")
     print(f"========================================================\n")
 
     for i, params in enumerate(experiments, 1):
-        print(f"\n---> [Esperimento {i}/{total_runs}] Parametri attuali:")
+        print(f"\n---> [Experiment {i}/{total_runs}] Current parameters:")
         print(f"     lambda_rfd: {params['lambda_rfd']} | lambda_composite: {params['lambda_composite']} | w_coverage: {params['w_coverage']}")
-        
-        # Inizializziamo un learner fresco ad ogni iterazione per resettare la rete
+
+        # Initialize a fresh learner at each iteration to reset the network
         learner = SyRFDLearner(
-            data_path=data_path, 
-            rfd_path=rfd_path, 
+            data_path=data_path,
+            rfd_path=rfd_path,
             rfd_mode=rfd_mode
         )
-        
-        # Generiamo un run_id parlante o univoco per distinguerlo nel CSV
+
+        # Generate a descriptive/unique run_id to distinguish it in the CSV
         run_id = f"grid_{i:02d}_{uuid.uuid4().hex[:4]}"
-        
+
         try:
-            # Eseguiamo il training passando i parametri della combinazione corrente
+            # Run training passing the parameters of the current combination
             _, final_metrics = learner.train(
                 epochs=epochs,
                 warmup_epochs=warmup_epochs,
@@ -718,20 +702,20 @@ def run_gridsearch(data_path, rfd_path, rfd_mode="relaxed", epochs=1000, warmup_
                 w_swd=params["w_swd"],
                 w_coverage=params["w_coverage"],
                 run_id=run_id,
-                log_every=500,     # Meno log a schermo per non intasare il terminale
+                log_every=500,     # Less on-screen logging to avoid flooding the terminal
                 save_checkpoint=True
             )
-            
-            print(f"     Risultati -> SWD (Fidelity): {final_metrics['swd']:.4f} | CovLoss (Diversity): {final_metrics['coverage_loss']:.4f} | Silhouette: {final_metrics['silhouette']:.4f}")
-            
+
+            print(f"     Results -> SWD (Fidelity): {final_metrics['swd']:.4f} | CovLoss (Diversity): {final_metrics['coverage_loss']:.4f} | Silhouette: {final_metrics['silhouette']:.4f}")
+
         except Exception as e:
-            print(f"     [ERRORE] L'esperimento {i} è fallito: {e}")
+            print(f"     [ERROR] Experiment {i} failed: {e}")
             continue
 
-    print(f"\n[OK] Grid Search Completata! Controlla 'checkpoint/configuration_parameters.csv' per analizzare i risultati.")
+    print(f"\n[OK] Grid search complete. Check 'checkpoint/configuration_parameters.csv' to analyze the results.")
 
 def main():
-    parser = argparse.ArgumentParser(description="SyRFD v6 — TabResNet + Vectorized Validations")
+    parser = argparse.ArgumentParser(description="SyRFD v7 - TabResNet + Vectorized Validations")
     parser.add_argument("--data",         type=str,   default=None, required=True)
     parser.add_argument("--rfd",          type=str,   default=None, required=True)
     parser.add_argument("--oversampling", type=int,   default=100)
@@ -739,70 +723,70 @@ def main():
     parser.add_argument("--rfd_mode",     type=str,   default="strict", choices=["strict", "relaxed"])
     parser.add_argument("--generate_only",type=str,   default=None)
 
-    # NUOVO ARGOMENTO PER ABILITARE LA GRID SEARCH
-    parser.add_argument("--gridsearch",   action="store_true", help="Abilita la ricerca a griglia sugli iperparametri")
-    parser.add_argument("--seed",         type=int,   default=42, help="Seed per random/numpy/torch (riproducibilita')")
+    # New argument to enable grid search
+    parser.add_argument("--gridsearch",   action="store_true", help="Enable grid search over hyperparameters")
+    parser.add_argument("--seed",         type=int,   default=42, help="Seed for random/numpy/torch (reproducibility)")
 
     args = parser.parse_args()
     set_seed(args.seed)
 
-    # Se l'utente richiede la grid search, esegui il loop ed esci
+    # If the user requests grid search, run the loop and exit
     if args.gridsearch:
         run_gridsearch(
-            data_path=args.data, 
-            rfd_path=args.rfd, 
-            rfd_mode=args.rfd_mode, 
-            epochs=args.epochs,        # Es. 1000 o 2000
-            warmup_epochs=int(args.epochs * 0.2)  # 20% di warmup proporzionale
+            data_path=args.data,
+            rfd_path=args.rfd,
+            rfd_mode=args.rfd_mode,
+            epochs=args.epochs,        # e.g. 1000 or 2000
+            warmup_epochs=int(args.epochs * 0.2)  # 20% proportional warmup
         )
         return
 
-    # --- Flusso Standard di Singolo Train (se --gridsearch non è attivo) ---
-    # Nota: la threshold reale viene estratta e sovrascritta internamente da _load_rfds
+    # --- Standard single-training flow (if --gridsearch is not active) ---
+    # Note: the actual threshold is extracted and overwritten internally by _load_rfds
     learner = SyRFDLearner(data_path=args.data, rfd_path=args.rfd, threshold=4.0, latent_dim=64, rfd_mode=args.rfd_mode)
 
     if args.generate_only:
         learner.load_checkpoint(args.generate_only)
     else:
-        # Warmup proporzionale: 20% delle epoche totali, minimo 300.
-        # Evita che con --epochs bassi il warmup occupi l'intera sessione.
+        # Proportional warmup: 20% of total epochs, minimum 300.
+        # Avoids the warmup taking up the entire session when --epochs is low.
         warmup = max(300, int(args.epochs * 0.20))
         learner.train(epochs=args.epochs, log_every=200, warmup_epochs=warmup)
 
-    print(f"\nGenerazione finale di {args.oversampling} tuple...")
+    print(f"\nFinal generation of {args.oversampling} tuples...")
     df_gen = learner.generate(num_samples=args.oversampling)
-    print("\nAnteprima dati generati:")
+    print("\nPreview of generated data:")
     print(df_gen.head())
 
-    # --- LOGICA DI COSTRUZIONE DEL NOME FILE COMPORTAMENTALE ---
-    # 1. Estrae il nome base del dataset (es. kddcup-guess_passwd_vs_satan_min)
+    # --- Output file name construction logic ---
+    # 1. Extract the dataset base name (e.g. kddcup-guess_passwd_vs_satan_min)
     dataset_name = os.path.splitext(os.path.basename(args.data))[0]
-    
-    # 2. Recupera la vera soglia utilizzata nel file (salvata nel learner dopo _load_rfds)
-    # Se per qualsiasi motivo non è definita, prova ad estrarla al volo dal nome del file RFD
+
+    # 2. Retrieve the actual threshold used in the file (saved in the learner after _load_rfds)
+    # If for any reason it is not defined, try to extract it on the fly from the RFD file name
     file_threshold = getattr(learner, 'file_threshold', None)
     if file_threshold is None:
         filename_rfd = os.path.basename(args.rfd)
         match = re.search(r"RFD(\d+(?:\.\d+)?)", filename_rfd)
         file_threshold = float(match.group(1)) if match else 4.0
 
-    # Converte in intero se non ha decimali significativi (es. 2.0 -> 2)
+    # Convert to integer if there are no significant decimals (e.g. 2.0 -> 2)
     threshold_int = int(file_threshold) if file_threshold.is_integer() else file_threshold
 
-    # 3. Genera il timestamp in millisecondi
+    # 3. Generate the timestamp in milliseconds
     timestamp_ms = int(time.time() * 1000)
 
-    # 4. Compone il nome del file definitivo secondo le specifiche
+    # 4. Compose the final file name according to spec
     output_filename = f"{dataset_name}_thr{threshold_int}_{args.rfd_mode}_{args.oversampling}_resnet_{timestamp_ms}.csv"
-    
-    # Assicura che la cartella augmentation_results esista
+
+    # Ensure the augmentation_results folder exists
     output_dir = "augmentation_results"
     os.makedirs(output_dir, exist_ok=True)
     full_output_path = os.path.join(output_dir, output_filename)
 
-    # 5. Salvataggio finale
+    # 5. Final save
     df_gen.to_csv(full_output_path, index=False)
-    print(f"\n[SALVATO] Dati generati salvati con successo in: {full_output_path}")
+    print(f"\n[SAVED] Generated data successfully saved to: {full_output_path}")
     
 if __name__ == "__main__":
     main()

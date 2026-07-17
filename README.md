@@ -1,12 +1,5 @@
 # SyRFDRes: Constraint-Aware Minority Oversampling via Relaxed Functional Dependencies
 
-This repository contains the reference implementation, experimental pipeline,
-and results for **SyRFDRes** (**Sy**nthetic **R**elaxed **F**unctional
-**D**ependency-aware oversampling with **Res**idual networks), a generative
-framework for minority-class oversampling on imbalanced tabular data that
-treats compliance with Relaxed Functional Dependencies (RFDs) as a first-class
-objective, alongside statistical fidelity and diversity.
-
 ## Abstract
 
 Class imbalance is a pervasive challenge in real-world tabular datasets,
@@ -69,6 +62,7 @@ validator, and the complete experimental evaluation.
 ├── imbalanced_datasets/        Input datasets (36 KEEL/imbalanced-learn + UCI benchmarks)
 │   └── min/                    Minority-class partitions used for training
 ├── discovered_rfds_processed/  RFDs discovered on each minority partition (DiMe, Domino)
+├── checkpoint/                 Trained generator checkpoints (fixed and variable thresholds)
 ├── augmented_datasets/         Balanced datasets produced by SyRFDRes and every baseline
 ├── augmentation_results/       Raw SyRFDRes generation runs, grouped by threshold/mode
 ├── evaluation_metrics/         Per-dataset and aggregated fidelity/diversity/RFD-compliance metrics
@@ -84,21 +78,21 @@ validator, and the complete experimental evaluation.
 |---|---|
 | `syrfd_learning_v7_resnet.py` | Main SyRFDRes training/generation entry point (fixed similarity thresholds) |
 | `syrfd_learning_v7_resnet_variable.py` | Variant using per-attribute, automatically inferred thresholds (Domino) |
-| `syrfd_learning_v7_resnet_perattr.py` | Variant with per-attribute threshold configuration |
 | `generate_from_checkpoint.py` | Generate synthetic tuples from a saved checkpoint without retraining |
 | `generate_from_checkpoint_variable.py` | Same, for the variable-threshold variant |
-| `generate_from_grid_checkpoints.py` | Batch generation across a grid of saved checkpoints |
-| `balance_datasets.py` / `balance_datasets_variable.py` | Merge real + synthetic tuples into balanced datasets |
 | `validate_rfds.py` | Validate RFDs on real + synthetic data (compliance metrics) |
-| `evaluate_metrics.py` / `evaluate_metrics_v5.py` | Fidelity/diversity/utility evaluation of augmented datasets |
-| `aggregate_diversity_full.py`, `aggregate_fidelity_full.py`, `aggregate_fidelity_rfd_compliance.py`, `aggregate_rfd_compliance.py` | Aggregate per-dataset metrics into paper-ready tables |
-| `fidelity_analysis.py` | Additional fidelity analysis utilities |
-| `barplot_diversity.py`, `heatmap_rfd_compliance.py`, `plot_llm_diversity.py`, `plot_llm_diversity_with_error_bars.py`, `plot_llm_fidelity.py`, `plot_rfd_compliance.py` | Generate the paper's figures |
+| `evaluate_metrics_v5.py` | Fidelity/diversity/utility evaluation of augmented datasets |
 | `llm_generation_advanced2.py` | LLM baselines: 8 prompting strategies over 5 local/cloud models |
 
 All scripts expect to be run **from the repository root** (they resolve data
 paths such as `./imbalanced_datasets/` relative to the current working
 directory).
+
+> **Note on utility scripts.** Dataset-merging, metric-aggregation, and
+> plotting utilities used internally to go from raw per-run metrics to the
+> paper's tables and figures are not part of this artifact. Their outputs
+> are included directly under `augmented_datasets/`, `evaluation_metrics/`,
+> `evaluation_plots/`, and `plots/`, so no code is needed to inspect them.
 
 ## Installation
 
@@ -129,26 +123,22 @@ python src/syrfd_learning_v7_resnet.py \
     --rfd ./discovered_rfds_processed/RFD4_E0.0_abalone9-18.txt \
     --oversampling 1000 --epochs 2000 --rfd_mode strict --seed 42
 
-# 2. Rebalance the full datasets with the generated tuples
-python src/balance_datasets.py
-
-# 3. Evaluate fidelity / diversity / RFD compliance against all baselines
+# 2. Evaluate fidelity / diversity / RFD compliance against all baselines
 python src/evaluate_metrics_v5.py --real ... --imbalanced ... --augmented_dir ./augmented_datasets --rfd_dir ./discovered_rfds_processed --output_dir ./evaluation_metrics
-
-# 4. Aggregate metrics and regenerate the paper's tables/plots
-python src/aggregate_fidelity_full.py
-python src/aggregate_diversity_full.py
-python src/plot_rfd_compliance.py
 ```
 
 Ready-made runners for the full 36-dataset sweep are in `scripts/` (see
-`docs/reproducibility.md` for the complete end-to-end procedure).
+`docs/reproducibility.md` for the complete end-to-end procedure). Rebalanced
+datasets, aggregated tables, and figures are already included directly under
+`augmented_datasets/`, `evaluation_metrics/`, and `plots/` — the internal
+scripts that generate them from raw per-run output are not part of this
+artifact (see the note above).
 
-> **Note on checkpoints.** Trained generator checkpoints are not included in
-> this artifact to keep it lightweight. Since every training entry point
-> accepts a fixed `--seed` (default `42`), re-running `src/syrfd_learning_v7_resnet*.py`
-> with the same arguments reproduces the same generator (up to the
-> non-determinism of some CUDA kernels across GPU models/driver versions, see
+> **Note on checkpoints.** Trained generator checkpoints are included under
+> `checkpoint/`. Since every training entry point accepts a fixed `--seed`
+> (default `42`), re-running `src/syrfd_learning_v7_resnet*.py` with the
+> same arguments reproduces the same generator (up to the non-determinism
+> of some CUDA kernels across GPU models/driver versions, see
 > `docs/reproducibility.md`).
 
 ## Datasets

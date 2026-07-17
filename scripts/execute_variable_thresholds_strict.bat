@@ -1,5 +1,5 @@
 @echo off
-echo Avvio esecuzione su tutti i dataset...
+echo Starting run over all datasets...
 echo.
 
 py src/syrfd_learning_v7_resnet_variable.py --data ./imbalanced_datasets/min/abalone9-18_min.csv --rfd ./discovered_rfds_processed/Domino/output_false_0_abalone9-18_min.txt --oversampling 2000 --epochs 3000 --rfd_mode strict

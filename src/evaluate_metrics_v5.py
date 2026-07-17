@@ -1,59 +1,58 @@
 """
 evaluate_metrics_macro.py
-=============================================================================
-Valuta in modo esaustivo e confronta il dataset ORIGINALE (reale minoritario)
-rispetto a TUTTI i dataset bilanciati trovati nelle sottodirectory di
-"./augmented_datasets/" (una sottodirectory per ciascun algoritmo di data
-augmentation, vedi target_folders in find_matching_datasets).
+Exhaustively evaluates and compares the ORIGINAL dataset (real minority
+class) against ALL balanced datasets found in the subdirectories of
+"./augmented_datasets/" (one subdirectory per data augmentation algorithm,
+see target_folders in find_matching_datasets).
 
-A differenza delle versioni precedenti, l'output NON e' piu' un'unica
-macro-tabella: le metriche vengono divise in 3 CSV distinti, salvati in 3
-sottocartelle separate di "./evaluation_metrics/":
+Unlike earlier versions, the output is no longer a single macro-table: the
+metrics are split into 3 separate CSVs, saved in 3 separate subfolders of
+"./evaluation_metrics/":
 
-    ./evaluation_metrics/fidelity/       -> metriche di FIDELITY
-    ./evaluation_metrics/diversity/      -> metriche di DIVERSITY
-    ./evaluation_metrics/RFDcompliance/  -> metriche di RFD COMPLIANCE
+    ./evaluation_metrics/fidelity/       -> FIDELITY metrics
+    ./evaluation_metrics/diversity/      -> DIVERSITY metrics
+    ./evaluation_metrics/RFDcompliance/  -> RFD COMPLIANCE metrics
 
-Sezione "2bis. Metriche di RFD compliance":
+Section "2bis. RFD compliance metrics":
 
-parse_rfd_file: formato 'A@..., B@... -> C@...', soglia dal nome file con
-pattern RFD<k> o thr<k> (coerente con le cartelle SYRFD_thr2/4/8 e con i
-file scoperti in ./discovered_rfds_processed/).
-find_rfd_files: individua automaticamente, nella directory
-"./discovered_rfds_processed/", tutti i file di RFD relativi al dataset in
-esame (es. "RFD2_E0.0_abalone9-18_min.txt", "RFD4_E0.0_...", "RFD8_E0.0_...").
-Il numero e il valore delle soglie disponibili sono arbitrari: lo script non
-assume che esistano solo le soglie 2/4/8, ma scopre dinamicamente tutti i
-file presenti che matchano il dataset.
-_rfd_violations: test di violazione vettorizzato, con chunking sulle righe
-generate per non esplodere in memoria sui dataset grandi, ed esclusione
-della diagonale nel caso sintetico-vs-sintetico.
-compute_rfd_compliance: produce cinque metriche, allineate una-a-una con la
-Sezione 3 del paper:
+parse_rfd_file: format 'A@..., B@... -> C@...', threshold taken from the
+file name using the pattern RFD<k> or thr<k> (consistent with the
+SYRFD_thr2/4/8 folders and with the files discovered in
+./discovered_rfds_processed/).
+find_rfd_files: automatically locates, in the directory
+"./discovered_rfds_processed/", all RFD files related to the dataset under
+examination (e.g. "RFD2_E0.0_abalone9-18_min.txt", "RFD4_E0.0_...",
+"RFD8_E0.0_..."). The number and value of the available thresholds are
+arbitrary: the script does not assume that only thresholds 2/4/8 exist, it
+dynamically discovers all files present that match the dataset.
+_rfd_violations: vectorized violation test, with chunking over the
+generated rows to avoid exploding memory usage on large datasets, and
+exclusion of the diagonal in the synthetic-vs-synthetic case.
+compute_rfd_compliance: produces five metrics, aligned one-to-one with
+Section 3 of the paper:
 
-  - RFD_tuple_compliance_relaxed: frazione di tuple sintetiche senza
-    violazioni verso D+ (= Definizione di relaxed compliance);
-  - RFD_tuple_compliance_strict: pulite anche verso le altre sintetiche
-    (= strict compliance);
-  - RFD_pair_violation_mixed / RFD_pair_violation_synth: tassi a livello di
-    coppia, la vista piu' fine per dire di quanto un competitor viola;
-  - RFD_preserved_deps: frazione delle RFD di Sigma ancora valide su
-    D+ U S (vista a livello di dipendenza).
+  - RFD_tuple_compliance_relaxed: fraction of synthetic tuples with no
+    violations against D+ (= relaxed compliance definition);
+  - RFD_tuple_compliance_strict: also clean with respect to the other
+    synthetic tuples (= strict compliance);
+  - RFD_pair_violation_mixed / RFD_pair_violation_synth: pair-level rates,
+    the finer-grained view for showing how much a competitor violates;
+  - RFD_preserved_deps: fraction of Sigma's RFDs still valid on D+ U S
+    (dependency-level view).
 
-Per ogni dataset bilanciato trovato, le metriche di RFD compliance vengono
-calcolate UNA VOLTA PER OGNI soglia/file di RFD scoperto automaticamente:
-il CSV di RFD compliance e' quindi in formato "long" (una riga per ogni
-combinazione algoritmo/file bilanciato x soglia RFD).
+For each balanced dataset found, the RFD compliance metrics are computed
+ONCE FOR EACH automatically discovered RFD threshold/file: the RFD
+compliance CSV is therefore in "long" format (one row for each
+algorithm/balanced-file x RFD-threshold combination).
 
-Due scelte di design da conoscere: (1) i file aumentati dei competitor
-contengono anche le righe originali, quindi il set sintetico S viene
-ricavato filtrando la classe minoritaria e rimuovendo i duplicati esatti
-delle tuple reali - altrimenti le righe originali (compliant per
-costruzione) gonfierebbero le metriche di tutti. (2) Tutto e' calcolato su
-valori grezzi, come nel validatore, perche' le soglie sono in unita'
-originali.
+Two design choices worth knowing: (1) the competitors' augmented files also
+contain the original rows, so the synthetic set S is obtained by filtering
+the minority class and removing exact duplicates of the real tuples -
+otherwise the original rows (compliant by construction) would inflate
+everyone's metrics. (2) Everything is computed on raw values, as in the
+validator, because the thresholds are in original units.
 
-Uso:
+Usage:
     python evaluate_metrics_v5.py \
         --real ./imbalanced_datasets/min/abalone9-18_min.csv \
         --imbalanced ./imbalanced_datasets/abalone9-18.csv \
@@ -74,9 +73,7 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.decomposition import PCA
 
-# =========================================================================
-# 1. METRICHE DI FIDELITY
-# =========================================================================
+# 1. Fidelity metrics
 
 def compute_kl_divergence(real_vals: np.ndarray, gen_vals: np.ndarray, n_bins: int = 30) -> float:
     n_attrs = real_vals.shape[1]
@@ -84,7 +81,7 @@ def compute_kl_divergence(real_vals: np.ndarray, gen_vals: np.ndarray, n_bins: i
     for d in range(n_attrs):
         r, g = real_vals[:, d], gen_vals[:, d]
         lo, hi = min(r.min(), g.min()), max(r.max(), g.max())
-        # Salta attributi costanti nel reale: tutti i punti reali cadono in un bin -> distribuzione degenere
+        # Skip constant attributes in the real data: all real points fall into one bin -> degenerate distribution
         if np.std(r) < 1e-6:
             kl_per_attr.append(0.0)
             continue
@@ -102,7 +99,7 @@ def compute_js_divergence(real_vals: np.ndarray, gen_vals: np.ndarray, n_bins: i
     for d in range(n_attrs):
         r, g = real_vals[:, d], gen_vals[:, d]
         lo, hi = min(r.min(), g.min()), max(r.max(), g.max())
-        # Salta attributi costanti nel reale
+        # Skip constant attributes in the real data
         if np.std(r) < 1e-6:
             js_per_attr.append(0.0)
             continue
@@ -137,7 +134,7 @@ def compute_chi2_mean(real_vals: np.ndarray, gen_vals: np.ndarray, n_bins: int =
     for d in range(real_vals.shape[1]):
         r, g = real_vals[:, d], gen_vals[:, d]
         lo, hi = min(r.min(), g.min()), max(r.max(), g.max())
-        # Salta attributi costanti nel reale: tutti nel primo bin -> chi2 non significativo
+        # Skip constant attributes in the real data: all in the first bin -> chi2 not meaningful
         if np.std(r) < 1e-6:
             chi2_stats.append(0.0)
             continue
@@ -180,8 +177,8 @@ def compute_mad_mean(real_vals: np.ndarray, gen_vals: np.ndarray) -> float:
     mu_real = np.mean(real_vals, axis=0)
     mu_gen = np.mean(gen_vals, axis=0)
     std_real = np.std(real_vals, axis=0)
-    # Salta attributi a varianza zero nel reale (costanti nella classe minoritaria):
-    # il denominatore 1e-8 causerebbe overflow se il generato produce valori != 0
+    # Skip zero-variance attributes in the real data (constant within the minority class):
+    # a 1e-8 denominator would overflow if the generated data produces values != 0
     valid = std_real > 1e-6
     if not np.any(valid):
         return 0.0
@@ -219,7 +216,7 @@ def compute_moment_diffs(real_vals: np.ndarray, gen_vals: np.ndarray) -> tuple:
     std_r = np.std(real_vals, axis=0)
     var_r = m2_r
 
-    # Salta attributi a varianza zero (costanti nel reale): denominatore ~0 causa overflow
+    # Skip zero-variance attributes (constant in the real data): denominator ~0 causes overflow
     valid_std = std_r > 1e-6
     if np.any(valid_std):
         diff_m1 = float(np.mean(np.abs(m1_r[valid_std] - m1_g[valid_std]) / std_r[valid_std]))
@@ -235,9 +232,7 @@ def compute_moment_diffs(real_vals: np.ndarray, gen_vals: np.ndarray) -> tuple:
     diff_m4 = float(np.mean(np.abs(m4_r - m4_g)))
     return diff_m1, diff_m2, diff_m3, diff_m4
 
-# =========================================================================
-# 2. METRICHE DI DIVERSITY & SPAZIALI
-# =========================================================================
+# 2. Diversity and spatial metrics
 
 def compute_silhouette(real_vals: np.ndarray, gen_vals: np.ndarray) -> float:
     n_gen, n_real = len(gen_vals), len(real_vals)
@@ -307,8 +302,8 @@ def compute_fe_ratio_mean(real_vals: np.ndarray, gen_vals: np.ndarray, n_bins: i
     ratios = []
     for d in range(n_attrs):
         r, g = real_vals[:, d], gen_vals[:, d]
-        # Salta se il reale è costante: l'entropy del reale sarebbe ~0 -> divisione esplode.
-        # Non si usa il range combinato perché il generato potrebbe avere valori fuori dal range reale.
+        # Skip if the real data is constant: real entropy would be ~0 -> division blows up.
+        # The combined range is not used because the generated data may have values outside the real range.
         if np.std(r) < 1e-6:
             ratios.append(1.0)
             continue
@@ -346,20 +341,19 @@ def compute_coverage_div(real_vals: np.ndarray, gen_vals: np.ndarray) -> float:
         covered_fractions.append(active_bins / total_bins)
     return float(np.mean(covered_fractions))
 
-# =========================================================================
-# 2bis. METRICHE DI RFD COMPLIANCE
-# =========================================================================
-# Le soglie sono definite in unità ORIGINALI: tutte le metriche di questa
-# sezione operano su valori grezzi (non normalizzati), coerentemente con il
-# validatore di SYRFD. Si assume che Sigma sia stato scoperto su D+ (quindi
-# D+ soddisfa Sigma e le coppie reale-reale non vanno ricontrollate).
+# 2bis. RFD compliance metrics
+# Thresholds are defined in ORIGINAL units: all metrics in this section
+# operate on raw (non-normalized) values, consistently with the SYRFD
+# validator. It is assumed that Sigma was discovered on D+ (so D+ satisfies
+# Sigma and real-real pairs do not need to be rechecked).
 
 def parse_rfd_file(rfd_path: str):
     """
-    Parsa il file di RFD nel formato 'A@..., B@... -> C@...' (una per riga).
-    La soglia viene estratta dal nome del file (pattern 'RFD<k>' o 'thr<k>'),
-    con fallback 4.0; puo' essere sovrascritta da CLI con --rfd_threshold.
-    Ritorna (lista di (lhs_attrs, rhs_attr), soglia).
+    Parses the RFD file in the format 'A@..., B@... -> C@...' (one per line).
+    The threshold is extracted from the file name (pattern 'RFD<k>' or
+    'thr<k>'), with fallback 4.0; it can be overridden from the CLI with
+    --rfd_threshold.
+    Returns (list of (lhs_attrs, rhs_attr), threshold).
     """
     rfds = []
     with open(rfd_path, "r", encoding="utf-8") as f:
@@ -381,11 +375,11 @@ def _rfd_violations(gen_arr: np.ndarray, ref_arr: np.ndarray,
                     lhs_idx: list, rhs_idx: int, eps: float,
                     same_set: bool = False, chunk: int = 512):
     """
-    Test di violazione vettorizzato (broadcast) per UNA dipendenza X -> Y:
-    la coppia (g, r) viola sse |g[A]-r[A]| <= eps per ogni A in X
-    e |g[Y]-r[Y]| > eps. Chunking sulle righe generate per limitare la memoria.
-    Se same_set=True (gen_arr e' ref_arr), esclude le coppie (i, i).
-    Ritorna (viol_any per riga generata, numero di coppie ordinate violanti).
+    Vectorized (broadcast) violation test for ONE dependency X -> Y:
+    the pair (g, r) violates iff |g[A]-r[A]| <= eps for every A in X
+    and |g[Y]-r[Y]| > eps. Chunking over the generated rows to limit memory
+    usage. If same_set=True (gen_arr is ref_arr), excludes pairs (i, i).
+    Returns (viol_any per generated row, number of violating ordered pairs).
     """
     n_g = len(gen_arr)
     viol_any = np.zeros(n_g, dtype=bool)
@@ -400,7 +394,7 @@ def _rfd_violations(gen_arr: np.ndarray, ref_arr: np.ndarray,
         d_rhs = np.abs(G_r[:, None] - R_r[None, :])         # (c, N)
         V = np.all(d_lhs <= eps, axis=2) & (d_rhs > eps)
         if same_set:
-            V[np.arange(e - s), np.arange(s, e)] = False    # esclude (i, i)
+            V[np.arange(e - s), np.arange(s, e)] = False    # exclude (i, i)
         viol_any[s:e] |= V.any(axis=1)
         n_viol_pairs += int(V.sum())
     return viol_any, n_viol_pairs
@@ -409,24 +403,26 @@ def _rfd_violations(gen_arr: np.ndarray, ref_arr: np.ndarray,
 def compute_rfd_compliance(real_df: pd.DataFrame, gen_df: pd.DataFrame,
                            rfds: list, eps: float) -> dict:
     """
-    Calcola le metriche di RFD compliance del set sintetico S rispetto a D+:
+    Computes the RFD compliance metrics of the synthetic set S with respect
+    to D+:
 
-      - RFD_tuple_compliance_relaxed : frazione di tuple sintetiche che non
-        introducono alcuna violazione rispetto alle tuple reali minoritarie
-        (scope della modalita' relaxed / Definition Compliance-relaxed).
-      - RFD_tuple_compliance_strict  : frazione pulita anche rispetto alle
-        ALTRE tuple sintetiche (scope della modalita' strict).
-      - RFD_pair_violation_mixed     : coppie violanti / coppie controllate,
-        sulle coppie miste sintetico-reale (aggregato su tutte le RFD).
-      - RFD_pair_violation_synth     : idem sulle coppie sintetico-sintetico.
-      - RFD_preserved_deps           : frazione di RFD di Sigma prive di
-        violazioni su D+ U S (equivale a: la RFD resta valida sull'aumentato,
-        assumendo che D+ la soddisfi, come garantito dalla discovery su D+).
+      - RFD_tuple_compliance_relaxed : fraction of synthetic tuples that do
+        not introduce any violation with respect to the real minority
+        tuples (scope of the relaxed mode / Definition Compliance-relaxed).
+      - RFD_tuple_compliance_strict  : fraction also clean with respect to
+        the OTHER synthetic tuples (scope of the strict mode).
+      - RFD_pair_violation_mixed     : violating pairs / checked pairs, on
+        the mixed synthetic-real pairs (aggregated over all RFDs).
+      - RFD_pair_violation_synth     : same, on synthetic-synthetic pairs.
+      - RFD_preserved_deps           : fraction of Sigma's RFDs with no
+        violations on D+ U S (equivalent to: the RFD remains valid on the
+        augmented data, assuming D+ satisfies it, as guaranteed by
+        discovery on D+).
 
-    Il set S viene ricavato da gen_df filtrando la classe minoritaria (se la
-    colonna 'class' esiste) e rimuovendo i duplicati esatti delle tuple reali:
-    i file aumentati dei competitor contengono anche le righe originali, che
-    non vanno conteggiate come sintetiche.
+    The set S is obtained from gen_df by filtering the minority class (if
+    the 'class' column exists) and removing exact duplicates of the real
+    tuples: the competitors' augmented files also contain the original
+    rows, which must not be counted as synthetic.
     """
     out = {
         "RFD_tuple_compliance_relaxed": float("nan"),
@@ -441,27 +437,27 @@ def compute_rfd_compliance(real_df: pd.DataFrame, gen_df: pd.DataFrame,
     attrs = [c for c in real_df.columns if c != "class"]
     common = [a for a in attrs if a in gen_df.columns]
 
-    # --- estrazione del set sintetico S ---
+    # --- extraction of the synthetic set S ---
     gen_min = gen_df
     if "class" in gen_df.columns and "class" in real_df.columns:
         min_label = real_df["class"].iloc[0]
         mask = gen_df["class"].astype(str) == str(min_label)
         if mask.any():
             gen_min = gen_df[mask]
-    # rimozione dei duplicati esatti delle righe reali (righe originali incluse
-    # nei file aumentati): merge su tutti gli attributi comuni
+    # removal of exact duplicates of the real rows (original rows included
+    # in the augmented files): merge on all common attributes
     real_keys = set(map(tuple, np.round(real_df[common].values.astype(float), 10)))
     gen_vals_all = gen_min[common].values.astype(float)
     keep = np.array([tuple(np.round(row, 10)) not in real_keys for row in gen_vals_all])
     n_dropped = int((~keep).sum())
     if n_dropped > 0:
-        print(f"    [RFD] {n_dropped} righe identiche a tuple reali escluse dal set sintetico")
+        print(f"    [RFD] {n_dropped} rows identical to real tuples excluded from the synthetic set")
     gen_vals = gen_vals_all[keep]
     real_vals = real_df[common].values.astype(float)
 
     n_s, n_r = len(gen_vals), len(real_vals)
     if n_s == 0:
-        print("    [RFD] nessuna tupla sintetica individuata: metriche a NaN")
+        print("    [RFD] no synthetic tuple found: metrics set to NaN")
         return out
 
     col_idx = {a: i for i, a in enumerate(common)}
@@ -476,7 +472,7 @@ def compute_rfd_compliance(real_df: pd.DataFrame, gen_df: pd.DataFrame,
     for lhs, rhs in rfds:
         if rhs not in col_idx or any(a not in col_idx for a in lhs):
             missing = [a for a in lhs + [rhs] if a not in col_idx]
-            print(f"    [RFD] dipendenza saltata, attributi assenti: {missing}")
+            print(f"    [RFD] dependency skipped, missing attributes: {missing}")
             continue
         n_checked_deps += 1
         lhs_idx = [col_idx[a] for a in lhs]
@@ -499,7 +495,7 @@ def compute_rfd_compliance(real_df: pd.DataFrame, gen_df: pd.DataFrame,
             preserved += 1
 
     if n_checked_deps == 0:
-        print("    [RFD] nessuna dipendenza valutabile sugli attributi comuni")
+        print("    [RFD] no dependency evaluable on the common attributes")
         return out
 
     out["RFD_tuple_compliance_relaxed"] = float(np.mean(clean_mixed))
@@ -511,14 +507,12 @@ def compute_rfd_compliance(real_df: pd.DataFrame, gen_df: pd.DataFrame,
     out["RFD_preserved_deps"] = preserved / n_checked_deps
     return out
 
-# =========================================================================
-# 3. ENGINE DI VALUTAZIONE CORE
-# =========================================================================
-# Elenco esplicito delle chiavi prodotte da evaluate_all, usato dalla pipeline
-# main per instradare ciascuna metrica nel CSV corretto (fidelity/diversity).
-# Le metriche di RFD compliance sono calcolate a parte da compute_rfd_compliance
-# (una volta per ciascuna soglia/file di RFD scoperto automaticamente), perche'
-# non dipendono dalla normalizzazione ma dal file di RFD e dalla relativa soglia.
+# 3. Core evaluation engine
+# Explicit list of the keys produced by evaluate_all, used by the main
+# pipeline to route each metric into the correct CSV (fidelity/diversity).
+# The RFD compliance metrics are computed separately by compute_rfd_compliance
+# (once for each automatically discovered RFD threshold/file), because they
+# don't depend on normalization but on the RFD file and its threshold.
 FIDELITY_METRIC_KEYS = [
     'KL_mean', 'JS_mean', 'Q_multi_attr_sim', 'KS_mean', 'Chi2_mean',
     'WD_mean', 'pMSE', 'MAD_mean', 'MMD', 'PCA_WD_mean',
@@ -542,36 +536,36 @@ def evaluate_all(real_df: pd.DataFrame, gen_df: pd.DataFrame, n_bins: int = 30) 
     common = [a for a in attrs if a in gen_attrs]
 
     if not common:
-        raise ValueError("Nessun attributo in comune tra i due dataset.")
+        raise ValueError("No attribute in common between the two datasets.")
 
-    # ---- Imputation NaN ----
+    # ---- NaN imputation ----
     NAN_FILL_VALUE = 0.0000001
     nan_real = real_df[common].isna().any().any()
     nan_gen  = gen_df[common].isna().any().any()
     if nan_real:
         n_nan_real = real_df[common].isna().sum().sum()
-        print(f"    [INFO] Imputation NaN nel dataset reale: {n_nan_real} valori -> {NAN_FILL_VALUE}")
+        print(f"    [INFO] NaN imputation in the real dataset: {n_nan_real} values -> {NAN_FILL_VALUE}")
         real_df = real_df.copy()
         real_df[common] = real_df[common].fillna(NAN_FILL_VALUE)
     if nan_gen:
         n_nan_gen = gen_df[common].isna().sum().sum()
-        print(f"    [INFO] Imputation NaN nel dataset generato: {n_nan_gen} valori -> {NAN_FILL_VALUE}")
+        print(f"    [INFO] NaN imputation in the generated dataset: {n_nan_gen} values -> {NAN_FILL_VALUE}")
         gen_df = gen_df.copy()
         gen_df[common] = gen_df[common].fillna(NAN_FILL_VALUE)
 
     real_vals = real_df[common].values.astype(float)
     gen_vals  = gen_df[common].values.astype(float)
 
-    # Identifica e rimuove attributi a varianza zero nel reale (costanti nella classe minoritaria).
-    # MinMaxScaler su range=0 produce scale_=inf e inflaziona tutte le distanze euclidee
+    # Identify and remove zero-variance attributes in the real data (constant within the minority class).
+    # MinMaxScaler on a zero range produces scale_=inf and inflates all Euclidean distances
     # (mDCR, MMD, Precision/Recall/Density/Coverage, Silhouette, DBI).
-    # Gli attributi costanti vengono esclusi da tutte le metriche che usano dati normalizzati.
+    # Constant attributes are excluded from all metrics that use normalized data.
     col_std = np.std(real_vals, axis=0)
     valid_cols = col_std > 1e-6
     n_zero_var = int(np.sum(~valid_cols))
     if n_zero_var > 0:
         zero_var_names = [common[i] for i in range(len(common)) if not valid_cols[i]]
-        print(f"    [INFO] {n_zero_var} attributo/i a varianza zero escluso/i dalla normalizzazione: {zero_var_names}")
+        print(f"    [INFO] {n_zero_var} zero-variance attribute(s) excluded from normalization: {zero_var_names}")
         real_vals_scaled = real_vals[:, valid_cols]
         gen_vals_scaled  = gen_vals[:, valid_cols]
     else:
@@ -584,9 +578,9 @@ def evaluate_all(real_df: pd.DataFrame, gen_df: pd.DataFrame, n_bins: int = 30) 
     gen_n  = np.clip(scaler.transform(gen_vals_scaled), 0.0, 1.0)
 
     res = {}
-    
-    # Fidelity - metriche basate su istogrammi: usano real_vals/gen_vals grezzi
-    # (gestiscono internamente attributi costanti con il check hi-lo < 1e-10)
+
+    # Fidelity - histogram-based metrics: use raw real_vals/gen_vals
+    # (constant attributes are handled internally via the hi-lo < 1e-10 check)
     res['KL_mean'] = compute_kl_divergence(real_vals, gen_vals, n_bins)
     res['JS_mean'] = compute_js_divergence(real_vals, gen_vals, n_bins)
     res['Q_multi_attr_sim'] = compute_q_similarity(real_n, gen_n)
@@ -604,7 +598,7 @@ def evaluate_all(real_df: pd.DataFrame, gen_df: pd.DataFrame, n_bins: int = 30) 
     res['Moment_skew_diff'] = m3
     res['Moment_kurt_diff'] = m4
 
-    # Diversity - tutte le metriche spaziali usano dati normalizzati (senza colonne costanti)
+    # Diversity - all spatial metrics use normalized data (without constant columns)
     res['Silhouette'] = compute_silhouette(real_n, gen_n)
     res['Davies-Bouldin'] = compute_dbi(real_n, gen_n)
     res['Compactness_cls_k'] = compute_intra_compactness(gen_n)
@@ -622,30 +616,28 @@ def evaluate_all(real_df: pd.DataFrame, gen_df: pd.DataFrame, n_bins: int = 30) 
 
     return res
 
-# =========================================================================
-# 4. LOGICA DI MATCHING ADATTIVO AD ALTA PRECISIONE
-# =========================================================================
+# 4. Adaptive high-precision matching logic
 
 def clean_dataset_name(filename: str) -> str:
-    """Ritorna la radice pura del dataset eliminando l'estensione e la dicitura _min."""
+    """Returns the pure dataset root by removing the extension and the '_min' suffix."""
     ref_base, _ = os.path.splitext(os.path.basename(filename))
     return re.sub(r'_min$', '', ref_base, flags=re.IGNORECASE).lower().strip()
 
 def find_matching_datasets(base_dataset_name: str, search_dir: str) -> list:
-    """Scansiona ricorsivamente le directory cercando corrispondenze basate su prefisso."""
+    """Recursively scans the directories looking for prefix-based matches."""
     matched_files = []
     core_ref = clean_dataset_name(base_dataset_name)
-    
+
     if not os.path.exists(search_dir):
-        print(f"[ATTENZIONE] La directory '{search_dir}' non esiste sul file system.")
+        print(f"[WARNING] Directory '{search_dir}' does not exist on the file system.")
         return matched_files
 
-    # Array fisso e tassativo delle cartelle target fornite
+    # Fixed, exhaustive array of the given target folders
     target_folders = [ "SYRFD_variable_relaxed", "SYRFD_variable_strict"]
 
-    # Modelli che organizzano i file in sottocartelle per strategia:
-    # per questi, il campo "filename" include il nome della sottocartella come suffisso
-    # (es. "abalone9-18_balanced_confidence.csv") per distinguere le occorrenze.
+    # Models that organize their files into per-strategy subfolders:
+    # for these, the "filename" field includes the subfolder name as a suffix
+    # (e.g. "abalone9-18_balanced_confidence.csv") to distinguish occurrences.
     models_with_subfolders = {
         "devstral-small-2_24b-cloud",
         "gpt-oss_120b-cloud",
@@ -656,26 +648,26 @@ def find_matching_datasets(base_dataset_name: str, search_dir: str) -> list:
         folder_path = os.path.join(search_dir, folder)
         if not os.path.exists(folder_path):
             continue
-            
-        # Ricerca ricorsiva (os.walk) per penetrare nelle cartelle interne (es. /hierarchical/, /ensemble/)
+
+        # Recursive search (os.walk) to descend into nested folders (e.g. /hierarchical/, /ensemble/)
         for root, _, files in os.walk(folder_path):
             for file in files:
                 if file.endswith('.csv'):
                     file_base, _ = os.path.splitext(file)
                     file_base_lower = file_base.lower()
-                    
-                    # MATCH CRITICO ADATTIVO: verifica se il file inizia esattamente con il nome radice del dataset
+
+                    # KEY ADAPTIVE MATCH: check whether the file name starts exactly with the dataset root name
                     if file_base_lower.startswith(core_ref):
                         full_path = os.path.join(root, file)
 
-                        # Per i modelli con sottocartelle, arricchisce il filename con
-                        # il nome della sottocartella diretta che contiene il file,
-                        # in modo da distinguere le occorrenze dello stesso file
-                        # (es. confidence/abalone9-18_balanced.csv -> abalone9-18_balanced_confidence.csv)
+                        # For models with subfolders, enrich the filename with
+                        # the name of the direct subfolder containing the file,
+                        # to distinguish occurrences of the same file
+                        # (e.g. confidence/abalone9-18_balanced.csv -> abalone9-18_balanced_confidence.csv)
                         if folder in models_with_subfolders:
                             subfolder = os.path.relpath(root, folder_path)
                             if subfolder != '.':
-                                # Prende solo il primo livello di sottocartella (ignora eventuali nesting profondi)
+                                # Take only the first-level subfolder (ignore any deeper nesting)
                                 top_subfolder = subfolder.split(os.sep)[0]
                                 display_name = f"{file_base}_{top_subfolder}.csv"
                             else:
@@ -697,18 +689,19 @@ def load_minority(imbalanced_path: str) -> pd.DataFrame:
 
 def find_rfd_files(base_dataset_name: str, rfd_dir: str) -> list:
     """
-    Scansiona automaticamente 'rfd_dir' (default: ./discovered_rfds_processed/)
-    cercando tutti i file .txt di RFD relativi al dataset in esame.
+    Automatically scans 'rfd_dir' (default: ./discovered_rfds_processed/)
+    looking for all RFD .txt files related to the dataset under examination.
 
-    Formato tipico dei file: 'RFD<soglia>_E<epsilon>_<nome_dataset>[_min].txt'
-    (es. 'RFD2_E0.0_abalone9-18_min.txt', 'RFD4_E0.0_abalone9-18_min.txt',
-    'RFD8_E0.0_abalone9-18_min.txt'), ma il numero e il valore delle soglie
-    disponibili sono ARBITRARI: non ci si limita alle sole soglie 2/4/8, si
-    scoprono dinamicamente tutti i file presenti il cui nome contiene la
-    radice del dataset (stessa logica di match usata per i CSV bilanciati).
+    Typical file format: 'RFD<threshold>_E<epsilon>_<dataset_name>[_min].txt'
+    (e.g. 'RFD2_E0.0_abalone9-18_min.txt', 'RFD4_E0.0_abalone9-18_min.txt',
+    'RFD8_E0.0_abalone9-18_min.txt'), but the number and value of the
+    available thresholds are ARBITRARY: it is not limited to thresholds
+    2/4/8 only, it dynamically discovers all files present whose name
+    contains the dataset root (same matching logic used for the balanced
+    CSVs).
 
-    Ritorna una lista di dict, uno per ciascun file trovato, ordinata per
-    soglia crescente:
+    Returns a list of dicts, one per file found, sorted by increasing
+    threshold:
         {
           "filename": "RFD2_E0.0_abalone9-18_min.txt",
           "full_path": ".../RFD2_E0.0_abalone9-18_min.txt",
@@ -721,7 +714,7 @@ def find_rfd_files(base_dataset_name: str, rfd_dir: str) -> list:
     core_ref = clean_dataset_name(base_dataset_name)
 
     if not os.path.exists(rfd_dir):
-        print(f"[ATTENZIONE] La directory delle RFD '{rfd_dir}' non esiste sul file system.")
+        print(f"[WARNING] RFD directory '{rfd_dir}' does not exist on the file system.")
         return found
 
     for fname in sorted(os.listdir(rfd_dir)):
@@ -731,7 +724,7 @@ def find_rfd_files(base_dataset_name: str, rfd_dir: str) -> list:
         if not os.path.isfile(full_path):
             continue
 
-        # MATCH: la radice pulita del dataset deve comparire nel nome del file RFD
+        # MATCH: the cleaned dataset root must appear in the RFD file name
         fname_clean = clean_dataset_name(fname)
         if core_ref not in fname_clean:
             continue
@@ -739,11 +732,11 @@ def find_rfd_files(base_dataset_name: str, rfd_dir: str) -> list:
         try:
             rfds, threshold = parse_rfd_file(full_path)
         except Exception as e:
-            print(f"    [ATTENZIONE] Impossibile parsare il file RFD '{fname}': {e}")
+            print(f"    [WARNING] Could not parse RFD file '{fname}': {e}")
             continue
 
         if not rfds:
-            print(f"    [ATTENZIONE] Nessuna RFD valida trovata in '{fname}', file ignorato.")
+            print(f"    [WARNING] No valid RFD found in '{fname}', file ignored.")
             continue
 
         eps_match = re.search(r'_E(\d+(?:\.\d+)?)', fname, flags=re.IGNORECASE)
@@ -757,33 +750,31 @@ def find_rfd_files(base_dataset_name: str, rfd_dir: str) -> list:
             "epsilon": epsilon,
         })
 
-    # Ordina per soglia crescente (piu' leggibile nel CSV di output)
+    # Sort by increasing threshold (more readable in the output CSV)
     found.sort(key=lambda x: (x['threshold'] if x['threshold'] is not None else float('inf')))
     return found
 
-# =========================================================================
-# 5. MAIN PIPELINE
-# =========================================================================
+# 5. Main pipeline
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Benchmark comparativo del dataset originale vs. tutti i dataset bilanciati "
-                     "trovati nelle sottodirectory di augmented_dir; produce 3 CSV separati "
+        description="Comparative benchmark of the original dataset vs. all balanced datasets "
+                     "found in the subdirectories of augmented_dir; produces 3 separate CSVs "
                      "(fidelity, diversity, RFD compliance)."
     )
-    parser.add_argument("--real", type=str, help="CSV con sole tuple reali minoritarie")
-    parser.add_argument("--imbalanced", type=str, help="CSV imbilanciato originale di riferimento")
+    parser.add_argument("--real", type=str, help="CSV containing only real minority tuples")
+    parser.add_argument("--imbalanced", type=str, help="Original imbalanced reference CSV")
     parser.add_argument("--augmented_dir", type=str, default="./augmented_datasets",
-                        help="Path della root dei dataset bilanciati concorrenti")
+                        help="Path to the root of the competing balanced datasets")
     parser.add_argument("--rfd_dir", type=str, default="./discovered_rfds_processed",
-                        help="Path della directory con i file di RFD scoperti (es. RFD2_E0.0_<dataset>_min.txt)")
+                        help="Path to the directory with the discovered RFD files (e.g. RFD2_E0.0_<dataset>_min.txt)")
     parser.add_argument("--output_dir", type=str, default="./evaluation_metrics",
-                        help="Directory radice di output; verranno create le sottocartelle "
-                             "fidelity/, diversity/, RFDcompliance/")
+                        help="Root output directory; the subfolders "
+                             "fidelity/, diversity/, RFDcompliance/ will be created")
     parser.add_argument("--bins", type=int, default=30)
     args = parser.parse_args()
 
-    # ---- Identificazione del dataset ground truth ----
+    # ---- Ground-truth dataset identification ----
     if args.real:
         real_df = pd.read_csv(args.real)
         base_name = os.path.basename(args.real)
@@ -791,37 +782,37 @@ def main():
         real_df = load_minority(args.imbalanced)
         base_name = os.path.basename(args.imbalanced)
     else:
-        print("[ERRORE] Specificare tassativamente il file --real o il file --imbalanced.")
+        print("[ERROR] Either --real or --imbalanced must be specified.")
         sys.exit(1)
 
     clean_target = clean_dataset_name(base_name)
 
-    # ---- [1] Scouting automatico dei dataset bilanciati concorrenti ----
-    print(f"[1] Ricerca dataset bilanciati per la radice '{clean_target}' in '{args.augmented_dir}'...")
+    # ---- [1] Automatic scouting of competing balanced datasets ----
+    print(f"[1] Searching for balanced datasets for root '{clean_target}' in '{args.augmented_dir}'...")
     matching_datasets = find_matching_datasets(base_name, args.augmented_dir)
-    print(f"    Trovati {len(matching_datasets)} dataset di confronto compatibili.")
+    print(f"    Found {len(matching_datasets)} compatible comparison datasets.")
     if not matching_datasets:
-        print("[ERRORE] Nessun dataset bilanciato trovato: impossibile procedere.")
+        print("[ERROR] No balanced dataset found: cannot proceed.")
         sys.exit(1)
 
-    # ---- [2] Scouting automatico dei file di RFD (per la RFD compliance) ----
-    print(f"[2] Ricerca file di RFD per la radice '{clean_target}' in '{args.rfd_dir}'...")
+    # ---- [2] Automatic scouting of RFD files (for RFD compliance) ----
+    print(f"[2] Searching for RFD files for root '{clean_target}' in '{args.rfd_dir}'...")
     rfd_files = find_rfd_files(base_name, args.rfd_dir)
     if rfd_files:
         soglie = ", ".join(str(rf['threshold']) for rf in rfd_files)
-        print(f"    Trovati {len(rfd_files)} file di RFD (soglie: {soglie}).")
+        print(f"    Found {len(rfd_files)} RFD files (thresholds: {soglie}).")
     else:
-        print("    [ATTENZIONE] Nessun file di RFD trovato: il CSV di RFD compliance sara' vuoto.")
+        print("    [WARNING] No RFD file found: the RFD compliance CSV will be empty.")
 
-    # ---- [3] Loop di computazione: fidelity + diversity (una volta per dataset) ----
-    #          e RFD compliance (una volta per dataset x soglia di RFD trovata)
+    # ---- [3] Computation loop: fidelity + diversity (once per dataset) ----
+    #          and RFD compliance (once per dataset x RFD threshold found)
     fidelity_results = []
     diversity_results = []
     rfd_results = []
 
-    print(f"[3] Calcolo delle metriche per {len(matching_datasets)} dataset bilanciati...")
+    print(f"[3] Computing metrics for {len(matching_datasets)} balanced datasets...")
     for item in matching_datasets:
-        print(f"[-] Elaborazione di [{item['algorithm']}] -> {item['filename']}...")
+        print(f"[-] Processing [{item['algorithm']}] -> {item['filename']}...")
         try:
             comp_df = pd.read_csv(item['full_path'])
             metrics = evaluate_all(real_df, comp_df, n_bins=args.bins)
@@ -834,10 +825,10 @@ def main():
             div_row.update({k: metrics[k] for k in DIVERSITY_METRIC_KEYS})
             diversity_results.append(div_row)
         except Exception as e:
-            print(f"    [SALTATO] Errore durante il calcolo fidelity/diversity di {item['filename']}: {e}")
+            print(f"    [SKIPPED] Error while computing fidelity/diversity for {item['filename']}: {e}")
             continue
 
-        # RFD compliance: una riga per ciascuna soglia/file di RFD scoperto
+        # RFD compliance: one row for each discovered RFD threshold/file
         for rfd_item in rfd_files:
             try:
                 rfd_metrics = compute_rfd_compliance(
@@ -854,9 +845,9 @@ def main():
                 rfd_row.update(rfd_metrics)
                 rfd_results.append(rfd_row)
             except Exception as e:
-                print(f"    [SALTATO] Errore RFD compliance ({rfd_item['filename']}) su {item['filename']}: {e}")
+                print(f"    [SKIPPED] RFD compliance error ({rfd_item['filename']}) on {item['filename']}: {e}")
 
-    # ---- [4] Costruzione delle 3 tabelle finali ----
+    # ---- [4] Building the 3 final tables ----
     fidelity_table = pd.DataFrame(fidelity_results)
     diversity_table = pd.DataFrame(diversity_results)
     rfd_table = pd.DataFrame(rfd_results)
@@ -873,22 +864,22 @@ def main():
     pd.set_option('display.width', 1000)
 
     print("\n" + "="*120)
-    print(f" TABELLA FIDELITY (Dataset Radice: {clean_target})")
+    print(f" FIDELITY TABLE (Root dataset: {clean_target})")
     print("="*120)
-    print(fidelity_table.to_string(index=False) if not fidelity_table.empty else "(nessun risultato)")
+    print(fidelity_table.to_string(index=False) if not fidelity_table.empty else "(no results)")
 
     print("\n" + "="*120)
-    print(f" TABELLA DIVERSITY (Dataset Radice: {clean_target})")
+    print(f" DIVERSITY TABLE (Root dataset: {clean_target})")
     print("="*120)
-    print(diversity_table.to_string(index=False) if not diversity_table.empty else "(nessun risultato)")
+    print(diversity_table.to_string(index=False) if not diversity_table.empty else "(no results)")
 
     print("\n" + "="*120)
-    print(f" TABELLA RFD COMPLIANCE (Dataset Radice: {clean_target})")
+    print(f" RFD COMPLIANCE TABLE (Root dataset: {clean_target})")
     print("="*120)
-    print(rfd_table.to_string(index=False) if not rfd_table.empty else "(nessun risultato: nessun file di RFD trovato)")
+    print(rfd_table.to_string(index=False) if not rfd_table.empty else "(no results: no RFD file found)")
     print("="*120 + "\n")
 
-    # ---- [5] Salvataggio dei 3 CSV nelle rispettive sottocartelle ----
+    # ---- [5] Saving the 3 CSVs into their respective subfolders ----
     fidelity_dir = os.path.join(args.output_dir, "fidelity")
     diversity_dir = os.path.join(args.output_dir, "diversity")
     rfd_dir_out = os.path.join(args.output_dir, "RFDcompliance")
@@ -904,9 +895,9 @@ def main():
     diversity_table.to_csv(diversity_path, index=False)
     rfd_table.to_csv(rfd_path, index=False)
 
-    print(f"[OK] Fidelity esportata in:       {fidelity_path}")
-    print(f"[OK] Diversity esportata in:      {diversity_path}")
-    print(f"[OK] RFD compliance esportata in: {rfd_path}")
+    print(f"[OK] Fidelity exported to:        {fidelity_path}")
+    print(f"[OK] Diversity exported to:       {diversity_path}")
+    print(f"[OK] RFD compliance exported to:  {rfd_path}")
 
 if __name__ == "__main__":
     main()

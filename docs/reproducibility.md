@@ -72,9 +72,10 @@ not part of this repository (see paper references).
    Each run saves a checkpoint under `checkpoint/` and prints the generated
    tuples; see `src/syrfd_learning_v7_resnet.py --help` for all options
    (`--oversampling`, `--epochs`, `--rfd_mode`, `--seed`).
-4. **Rebalance datasets** with the generated tuples:
-   `python src/balance_datasets.py` (fixed thresholds) or
-   `python src/balance_datasets_variable.py` (variable thresholds).
+4. **Rebalance datasets** with the generated tuples by merging real and
+   synthetic tuples into the layout used under `augmented_datasets/`. The
+   already-merged datasets are included directly in this artifact; the
+   merging script itself is an internal utility not part of this artifact.
 5. **Run baselines** (SMOTE family, deep generative models, LLM-based
    generators) using their respective official implementations/libraries;
    outputs are expected under `augmented_datasets/<baseline_name>/`, matching
@@ -85,15 +86,11 @@ not part of this repository (see paper references).
    `scripts/evaluate_metrics.sh`, `scripts/evaluate_metrics2.sh`, or directly
    `src/evaluate_metrics_v5.py` for a single dataset (see its `--help`).
 7. **Validate RFD compliance** independently with `src/validate_rfds.py`.
-8. **Aggregate metrics into paper-ready tables**:
-   `src/aggregate_fidelity_full.py`, `src/aggregate_diversity_full.py`,
-   `src/aggregate_rfd_compliance.py`, `src/aggregate_fidelity_rfd_compliance.py`
-   (outputs land in `evaluation_metrics/aggregated/`).
-9. **Regenerate figures**: `src/barplot_diversity.py`,
-   `src/heatmap_rfd_compliance.py`, `src/plot_rfd_compliance.py`,
-   `src/plot_llm_fidelity.py`, `src/plot_llm_diversity.py`,
-   `src/plot_llm_diversity_with_error_bars.py` (outputs land in `plots/` and
-   `evaluation_plots/`).
+8. **Aggregate metrics into paper-ready tables** and **regenerate figures**.
+   The aggregation and plotting utilities used to produce the paper's tables
+   from raw per-run metrics are internal utilities not part of this
+   artifact; their outputs are included directly under
+   `evaluation_metrics/aggregated/` and `plots/`.
 
 ## Known limitations
 
@@ -103,9 +100,9 @@ not part of this repository (see paper references).
   provided directly so this step does not need to be reproduced, except for
   SUSY (see `scripts/download_susy.py`, which performs this extraction
   inline).
-- Trained checkpoints are not included in this artifact (see the note on
-  checkpoints in `README.md`); regenerate them with the training scripts
-  under the same fixed seed.
+- Dataset-merging, metric-aggregation, and plotting utility scripts are not
+  included in this artifact (see the note on utility scripts in `README.md`);
+  their outputs are included directly.
 - A handful of raw result files under `augmentation_results/v7_variable_*/`
   have long auto-generated filenames (up to ~130 characters). On Windows,
   `git clone` may fail on these files if the repository is cloned into an

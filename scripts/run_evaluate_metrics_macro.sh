@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # =============================================================================
 # run_evaluate_metrics_v5.sh
-# Esegue src/evaluate_metrics_v5.py per ciascun dataset, con una chiamata
-# esplicita per dataset (NESSUN ciclo/for/while: comandi elencati uno a uno).
+# Runs src/evaluate_metrics_v5.py for each dataset, with one explicit call
+# per dataset (NO loop/for/while: commands are listed one by one).
 # =============================================================================
 #python src/evaluate_metrics_v5.py --real ./imbalanced_datasets/min/abalone9-18_min.csv --imbalanced ./imbalanced_datasets/abalone9-18.csv --augmented_dir ./augmented_datasets --rfd_dir ./discovered_rfds_processed --output_dir ./evaluation_metrics
 
