@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8389154704944178,
+  "balanced_accuracy": 0.7540197554925585,
+  "precision": 0.4274193548387097,
+  "recall": 0.6385542168674698,
+  "f1": 0.5120772946859904,
+  "mcc": 0.43225611940406194,
+  "roc_auc": 0.8788647236002834,
+  "pr_auc": 0.5835638507155754,
+  "confusion_matrix": [
+    [
+      473,
+      71
+    ],
+    [
+      30,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.87      0.90       544\n           1       0.43      0.64      0.51        83\n\n    accuracy                           0.84       627\n   macro avg       0.68      0.75      0.71       627\nweighted avg       0.87      0.84      0.85       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8893931199506607,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.38419260000228,
+  "prediction_time_seconds": 0.021479200018802658,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__gemma4_31b-cloud_distribution_guidance__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__gemma4_31b-cloud_distribution_guidance__AdaBoostClassifier.json"
+}

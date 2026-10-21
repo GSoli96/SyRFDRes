@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8615384615384616,
+  "balanced_accuracy": 0.9166666666666667,
+  "precision": 0.55,
+  "recall": 1.0,
+  "f1": 0.7096774193548387,
+  "mcc": 0.67700320038633,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      45,
+      9
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.83      0.91        54\n           1       0.55      1.00      0.71        11\n\n    accuracy                           0.86        65\n   macro avg       0.78      0.92      0.81        65\nweighted avg       0.92      0.86      0.88        65\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8140483748288627,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6775284000032116,
+  "prediction_time_seconds": 0.0016537999908905476,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma4_31b-cloud_distribution_guidance__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma4_31b-cloud_distribution_guidance__DecisionTreeClassifier.json"
+}

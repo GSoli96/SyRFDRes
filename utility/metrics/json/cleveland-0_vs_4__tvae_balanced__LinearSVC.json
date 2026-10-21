@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "tvae__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9622641509433962,
+  "balanced_accuracy": 0.9795918367346939,
+  "precision": 0.6666666666666666,
+  "recall": 1.0,
+  "f1": 0.8,
+  "mcc": 0.7996597916069841,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      47,
+      2
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98        49\n           1       0.67      1.00      0.80         4\n\n    accuracy                           0.96        53\n   macro avg       0.83      0.98      0.89        53\nweighted avg       0.97      0.96      0.97        53\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9697474821193988,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.47889369999757037,
+  "prediction_time_seconds": 0.004464899946469814,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__tvae_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__tvae_balanced__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8720538720538721,
+  "balanced_accuracy": 0.8962962962962964,
+  "precision": 0.4098360655737705,
+  "recall": 0.9259259259259259,
+  "f1": 0.5681818181818182,
+  "mcc": 0.56401785731762,
+  "roc_auc": 0.9633744855967079,
+  "pr_auc": 0.7893322892056436,
+  "confusion_matrix": [
+    [
+      234,
+      36
+    ],
+    [
+      2,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.87      0.92       270\n           1       0.41      0.93      0.57        27\n\n    accuracy                           0.87       297\n   macro avg       0.70      0.90      0.75       297\nweighted avg       0.94      0.87      0.89       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.4984243920746724,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4048847999947611,
+  "prediction_time_seconds": 0.0025033999991137534,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__devstral-small-2_24b-cloud_decision_tree_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__devstral-small-2_24b-cloud_decision_tree_balanced__LogisticRegression.json"
+}

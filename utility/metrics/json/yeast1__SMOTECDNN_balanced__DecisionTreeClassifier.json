@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7775280898876404,
+  "balanced_accuracy": 0.7470194289078599,
+  "precision": 0.6041666666666666,
+  "recall": 0.6744186046511628,
+  "f1": 0.6373626373626373,
+  "mcc": 0.4791097529286928,
+  "roc_auc": 0.8040182513982926,
+  "pr_auc": 0.5574453624914306,
+  "confusion_matrix": [
+    [
+      259,
+      57
+    ],
+    [
+      42,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.82      0.84       316\n           1       0.60      0.67      0.64       129\n\n    accuracy                           0.78       445\n   macro avg       0.73      0.75      0.74       445\nweighted avg       0.79      0.78      0.78       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.7365515675825189,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8868807000108063,
+  "prediction_time_seconds": 0.0016824000049382448,
+  "n_train_samples": 1907,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SMOTECDNN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SMOTECDNN_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8719101123595505,
+  "balanced_accuracy": 0.7951256010205083,
+  "precision": 0.9186046511627907,
+  "recall": 0.6124031007751938,
+  "f1": 0.7348837209302326,
+  "mcc": 0.6782328591588273,
+  "roc_auc": 0.9489009910705524,
+  "pr_auc": 0.888867177456744,
+  "confusion_matrix": [
+    [
+      309,
+      7
+    ],
+    [
+      50,
+      79
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.98      0.92       316\n           1       0.92      0.61      0.73       129\n\n    accuracy                           0.87       445\n   macro avg       0.89      0.80      0.83       445\nweighted avg       0.88      0.87      0.86       445\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.833953442896803,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 25.314870100002736,
+  "prediction_time_seconds": 0.016843200020957738,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__GOGGLE_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__GOGGLE_balanced__RandomForestClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8044444444444444,
+  "balanced_accuracy": 0.7219723562966214,
+  "precision": 0.5882352941176471,
+  "recall": 0.5660377358490566,
+  "f1": 0.5769230769230769,
+  "mcc": 0.4499573329965159,
+  "roc_auc": 0.8493308468626591,
+  "pr_auc": 0.6783464772135598,
+  "confusion_matrix": [
+    [
+      151,
+      21
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.88      0.87       172\n           1       0.59      0.57      0.58        53\n\n    accuracy                           0.80       225\n   macro avg       0.73      0.72      0.72       225\nweighted avg       0.80      0.80      0.80       225\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8182683533668242,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 19.411186199984513,
+  "prediction_time_seconds": 0.011733600025763735,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr8_strict_thr8_strict_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr8_strict_thr8_strict_balanced__RandomForestClassifier.json"
+}

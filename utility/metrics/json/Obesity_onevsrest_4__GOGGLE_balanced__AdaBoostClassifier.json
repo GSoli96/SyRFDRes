@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "GOGGLE__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9266347687400319,
+  "balanced_accuracy": 0.8380131362889984,
+  "precision": 0.8314606741573034,
+  "recall": 0.7047619047619048,
+  "f1": 0.7628865979381443,
+  "mcc": 0.7232814622509453,
+  "roc_auc": 0.9589126071884692,
+  "pr_auc": 0.811852874817455,
+  "confusion_matrix": [
+    [
+      507,
+      15
+    ],
+    [
+      31,
+      74
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.97      0.96       522\n           1       0.83      0.70      0.76       105\n\n    accuracy                           0.93       627\n   macro avg       0.89      0.84      0.86       627\nweighted avg       0.92      0.93      0.92       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9578324526200823,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.171315800020238,
+  "prediction_time_seconds": 0.011039900011382997,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__GOGGLE_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__GOGGLE_balanced__AdaBoostClassifier.json"
+}

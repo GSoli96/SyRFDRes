@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9035087719298246,
+  "balanced_accuracy": 0.8872368860674908,
+  "precision": 0.8947368421052632,
+  "recall": 0.8292682926829268,
+  "f1": 0.8607594936708861,
+  "mcc": 0.7884269824035861,
+  "roc_auc": 0.9858002004677582,
+  "pr_auc": 0.969966837826273,
+  "confusion_matrix": [
+    [
+      69,
+      4
+    ],
+    [
+      7,
+      34
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.95      0.93        73\n           1       0.89      0.83      0.86        41\n\n    accuracy                           0.90       114\n   macro avg       0.90      0.89      0.89       114\nweighted avg       0.90      0.90      0.90       114\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9061813635653297,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6263957000046503,
+  "prediction_time_seconds": 0.005636200017761439,
+  "n_train_samples": 450,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__SYRFD_thr8_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__SYRFD_thr8_balanced__KNeighborsClassifier.json"
+}

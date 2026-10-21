@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8268398268398268,
+  "balanced_accuracy": 0.7940811258278146,
+  "precision": 0.7857142857142857,
+  "recall": 0.6875,
+  "f1": 0.7333333333333333,
+  "mcc": 0.6089318034568054,
+  "roc_auc": 0.8843543046357617,
+  "pr_auc": 0.8063662346445575,
+  "confusion_matrix": [
+    [
+      136,
+      15
+    ],
+    [
+      25,
+      55
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.90      0.87       151\n           1       0.79      0.69      0.73        80\n\n    accuracy                           0.83       231\n   macro avg       0.82      0.79      0.80       231\nweighted avg       0.82      0.83      0.82       231\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8205185928211989,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.618817999988096,
+  "prediction_time_seconds": 0.012177800002973527,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_confidence__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_confidence__AdaBoostClassifier.json"
+}

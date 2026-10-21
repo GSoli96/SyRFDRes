@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.6355555555555555,
+  "balanced_accuracy": 0.6898310662571303,
+  "precision": 0.37168141592920356,
+  "recall": 0.7924528301886793,
+  "f1": 0.5060240963855421,
+  "mcc": 0.322219046348832,
+  "roc_auc": 0.7565269855199649,
+  "pr_auc": 0.4929211863561567,
+  "confusion_matrix": [
+    [
+      101,
+      71
+    ],
+    [
+      11,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.59      0.71       172\n           1       0.37      0.79      0.51        53\n\n    accuracy                           0.64       225\n   macro avg       0.64      0.69      0.61       225\nweighted avg       0.78      0.64      0.66       225\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7062477458036094,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31332129999645986,
+  "prediction_time_seconds": 0.002593999990494922,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr2_relaxed_thr2_relaxed_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr2_relaxed_thr2_relaxed_balanced__LogisticRegression.json"
+}

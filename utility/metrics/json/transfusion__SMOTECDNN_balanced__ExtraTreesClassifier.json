@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8666666666666667,
+  "balanced_accuracy": 0.7887779727950855,
+  "precision": 0.7555555555555555,
+  "recall": 0.6415094339622641,
+  "f1": 0.6938775510204082,
+  "mcc": 0.6127082214509703,
+  "roc_auc": 0.8856406318560772,
+  "pr_auc": 0.7834333390055499,
+  "confusion_matrix": [
+    [
+      161,
+      11
+    ],
+    [
+      19,
+      34
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.94      0.91       172\n           1       0.76      0.64      0.69        53\n\n    accuracy                           0.87       225\n   macro avg       0.82      0.79      0.80       225\nweighted avg       0.86      0.87      0.86       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.6797119637208903,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.299373599991668,
+  "prediction_time_seconds": 0.026912199973594397,
+  "n_train_samples": 911,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SMOTECDNN_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SMOTECDNN_balanced__ExtraTreesClassifier.json"
+}

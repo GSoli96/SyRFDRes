@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "tvae__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8947368421052632,
+  "balanced_accuracy": 0.825,
+  "precision": 0.21428571428571427,
+  "recall": 0.75,
+  "f1": 0.3333333333333333,
+  "mcc": 0.3643977418779023,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      99,
+      11
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.90      0.94       110\n           1       0.21      0.75      0.33         4\n\n    accuracy                           0.89       114\n   macro avg       0.60      0.82      0.64       114\nweighted avg       0.96      0.89      0.92       114\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.9249288291533112,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.18783999999868684,
+  "prediction_time_seconds": 0.0024200000043492764,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__tvae_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__tvae_balanced__RidgeClassifier.json"
+}

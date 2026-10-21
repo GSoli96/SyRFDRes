@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "GOGGLE__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9640449438202248,
+  "balanced_accuracy": 0.8993248814677386,
+  "precision": 0.851063829787234,
+  "recall": 0.8163265306122449,
+  "f1": 0.8333333333333334,
+  "mcc": 0.8134137979160261,
+  "roc_auc": 0.9884559884559885,
+  "pr_auc": 0.8901491065847512,
+  "confusion_matrix": [
+    [
+      389,
+      7
+    ],
+    [
+      9,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.85      0.82      0.83        49\n\n    accuracy                           0.96       445\n   macro avg       0.91      0.90      0.91       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.971861025033179,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.316317899996648,
+  "prediction_time_seconds": 0.009954499982995912,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__GOGGLE_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__GOGGLE_balanced__AdaBoostClassifier.json"
+}

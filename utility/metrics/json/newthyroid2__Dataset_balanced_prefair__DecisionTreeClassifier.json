@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9907407407407407,
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9485206154979929,
+  "roc_auc": 0.98989898989899,
+  "pr_auc": 0.9097796143250688,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99        54\n           1       0.92      1.00      0.96        11\n\n    accuracy                           0.98        65\n   macro avg       0.96      0.99      0.97        65\nweighted avg       0.99      0.98      0.98        65\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9774517374517375,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6355473999865353,
+  "prediction_time_seconds": 0.001663700008066371,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__Dataset_balanced_prefair__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__Dataset_balanced_prefair__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "LinearSVC",
+  "accuracy": 0.6741573033707865,
+  "balanced_accuracy": 0.5710185457756844,
+  "precision": 0.42,
+  "recall": 0.32558139534883723,
+  "f1": 0.36681222707423583,
+  "mcc": 0.15439407138148625,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      258,
+      58
+    ],
+    [
+      87,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.75      0.82      0.78       316\n           1       0.42      0.33      0.37       129\n\n    accuracy                           0.67       445\n   macro avg       0.58      0.57      0.57       445\nweighted avg       0.65      0.67      0.66       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7437878397596596,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.282048000022769,
+  "prediction_time_seconds": 0.0025550000136718154,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_distribution_guidance__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_distribution_guidance__LinearSVC.json"
+}

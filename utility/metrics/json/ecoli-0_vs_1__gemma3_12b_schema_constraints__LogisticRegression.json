@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "LogisticRegression",
+  "accuracy": 0.9242424242424242,
+  "balanced_accuracy": 0.9115267947421638,
+  "precision": 0.9090909090909091,
+  "recall": 0.8695652173913043,
+  "f1": 0.8888888888888888,
+  "mcc": 0.8319334382645827,
+  "roc_auc": 0.9898887765419616,
+  "pr_auc": 0.9822023002552303,
+  "confusion_matrix": [
+    [
+      41,
+      2
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.95      0.94        43\n           1       0.91      0.87      0.89        23\n\n    accuracy                           0.92        66\n   macro avg       0.92      0.91      0.92        66\nweighted avg       0.92      0.92      0.92        66\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.931782693558881,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.47340390004683286,
+  "prediction_time_seconds": 0.00381980009842664,
+  "n_train_samples": 284,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__gemma3_12b_schema_constraints__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__gemma3_12b_schema_constraints__LogisticRegression.json"
+}

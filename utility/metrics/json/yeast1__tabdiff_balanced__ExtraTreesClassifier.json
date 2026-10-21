@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "tabdiff__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9932584269662922,
+  "balanced_accuracy": 0.9906657835344912,
+  "precision": 0.9921875,
+  "recall": 0.9844961240310077,
+  "f1": 0.9883268482490273,
+  "mcc": 0.9836023321685998,
+  "roc_auc": 0.9999018742027278,
+  "pr_auc": 0.9997609952437442,
+  "confusion_matrix": [
+    [
+      315,
+      1
+    ],
+    [
+      2,
+      127
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00       316\n           1       0.99      0.98      0.99       129\n\n    accuracy                           0.99       445\n   macro avg       0.99      0.99      0.99       445\nweighted avg       0.99      0.99      0.99       445\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7683798121252499,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.981837500003166,
+  "prediction_time_seconds": 0.042399700003443286,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__tabdiff_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__tabdiff_balanced__ExtraTreesClassifier.json"
+}

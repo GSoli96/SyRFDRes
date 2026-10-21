@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__hierarchical__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.6950965335673541,
+  "precision": 0.5178571428571429,
+  "recall": 0.5471698113207547,
+  "f1": 0.5321100917431193,
+  "mcc": 0.3829519992198542,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      145,
+      27
+    ],
+    [
+      24,
+      29
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.84      0.85       172\n           1       0.52      0.55      0.53        53\n\n    accuracy                           0.77       225\n   macro avg       0.69      0.70      0.69       225\nweighted avg       0.78      0.77      0.78       225\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.5038572158886968,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.16569200000958517,
+  "prediction_time_seconds": 0.0016317999979946762,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_hierarchical_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_hierarchical_balanced__RidgeClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.84,
+  "balanced_accuracy": 0.7517551557700746,
+  "precision": 0.6888888888888889,
+  "recall": 0.5849056603773585,
+  "f1": 0.6326530612244898,
+  "mcc": 0.5341558853675125,
+  "roc_auc": 0.8689666520403686,
+  "pr_auc": 0.7200569414032673,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.92      0.90       172\n           1       0.69      0.58      0.63        53\n\n    accuracy                           0.84       225\n   macro avg       0.78      0.75      0.77       225\nweighted avg       0.83      0.84      0.84       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7734897477143553,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.957640100008575,
+  "prediction_time_seconds": 0.0034679000091273338,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_20b-cloud_decision_tree_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_20b-cloud_decision_tree_balanced__GradientBoostingClassifier.json"
+}

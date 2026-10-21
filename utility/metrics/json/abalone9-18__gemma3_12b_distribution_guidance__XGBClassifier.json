@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "XGBClassifier",
+  "accuracy": 0.9954337899543378,
+  "balanced_accuracy": 0.9615384615384616,
+  "precision": 1.0,
+  "recall": 0.9230769230769231,
+  "f1": 0.96,
+  "mcc": 0.9584454153835721,
+  "roc_auc": 0.9996265870052278,
+  "pr_auc": 0.9945054945054943,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      1,
+      12
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       206\n           1       1.00      0.92      0.96        13\n\n    accuracy                           1.00       219\n   macro avg       1.00      0.96      0.98       219\nweighted avg       1.00      1.00      1.00       219\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9551629994464099,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.803330999973696,
+  "prediction_time_seconds": 0.007900499971583486,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma3_12b_distribution_guidance__XGBClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma3_12b_distribution_guidance__XGBClassifier.json"
+}

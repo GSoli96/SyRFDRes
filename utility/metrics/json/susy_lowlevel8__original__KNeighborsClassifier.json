@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "original",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.784534,
+  "balanced_accuracy": 0.7767805795787612,
+  "precision": 0.8142900910288388,
+  "recall": 0.6854234295138909,
+  "f1": 0.7443201640406399,
+  "mcc": 0.5667164042339826,
+  "roc_auc": 0.8467635160965677,
+  "pr_auc": 0.8343252749848855,
+  "confusion_matrix": [
+    [
+      706362,
+      107290
+    ],
+    [
+      215909,
+      470439
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.87      0.81    813652\n           1       0.81      0.69      0.74    686348\n\n    accuracy                           0.78   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.78      0.78   1500000\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7437438500143643,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10149.953242499992,
+  "prediction_time_seconds": 690.5114770999935,
+  "n_train_samples": 3500000,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__original__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__original__KNeighborsClassifier.json"
+}

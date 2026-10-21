@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9124579124579124,
+  "balanced_accuracy": 0.9351851851851851,
+  "precision": 0.5098039215686274,
+  "recall": 0.9629629629629629,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6634607276210768,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      245,
+      25
+    ],
+    [
+      1,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95       270\n           1       0.51      0.96      0.67        27\n\n    accuracy                           0.91       297\n   macro avg       0.75      0.94      0.81       297\nweighted avg       0.95      0.91      0.92       297\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.49897765382841497,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23815279998234473,
+  "prediction_time_seconds": 0.0026239000144414604,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.json"
+}

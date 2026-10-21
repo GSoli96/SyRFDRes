@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.8315907393577296,
+  "precision": 0.6,
+  "recall": 0.6923076923076923,
+  "f1": 0.6428571428571429,
+  "mcc": 0.6204073894007792,
+  "roc_auc": 0.9805825242718447,
+  "pr_auc": 0.7480064862673558,
+  "confusion_matrix": [
+    [
+      200,
+      6
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.98       206\n           1       0.60      0.69      0.64        13\n\n    accuracy                           0.95       219\n   macro avg       0.79      0.83      0.81       219\nweighted avg       0.96      0.95      0.96       219\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9253627085716722,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.4425236000097357,
+  "prediction_time_seconds": 0.0037028000224381685,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_tabularargn__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_tabularargn__DecisionTreeClassifier.json"
+}

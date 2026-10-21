@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "ctabganp__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8356164383561644,
+  "balanced_accuracy": 0.8405526512322629,
+  "precision": 0.24444444444444444,
+  "recall": 0.8461538461538461,
+  "f1": 0.3793103448275862,
+  "mcc": 0.3983260105605134,
+  "roc_auc": 0.9010455563853622,
+  "pr_auc": 0.606722784655336,
+  "confusion_matrix": [
+    [
+      172,
+      34
+    ],
+    [
+      2,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.83      0.91       206\n           1       0.24      0.85      0.38        13\n\n    accuracy                           0.84       219\n   macro avg       0.62      0.84      0.64       219\nweighted avg       0.94      0.84      0.87       219\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7968582698248883,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5156135999714024,
+  "prediction_time_seconds": 0.0042560999863781035,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__ctabganp_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__ctabganp_balanced__LogisticRegression.json"
+}

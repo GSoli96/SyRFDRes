@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "LogisticRegression",
+  "accuracy": 0.9057239057239057,
+  "balanced_accuracy": 0.7314814814814814,
+  "precision": 0.4827586206896552,
+  "recall": 0.5185185185185185,
+  "f1": 0.5,
+  "mcc": 0.44837729958061817,
+  "roc_auc": 0.8602194787379973,
+  "pr_auc": 0.49920678814587716,
+  "confusion_matrix": [
+    [
+      255,
+      15
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.94      0.95       270\n           1       0.48      0.52      0.50        27\n\n    accuracy                           0.91       297\n   macro avg       0.72      0.73      0.72       297\nweighted avg       0.91      0.91      0.91       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8956045692455058,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3694295999885071,
+  "prediction_time_seconds": 0.002515000000130385,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma3_12b_cot_decision_tree__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma3_12b_cot_decision_tree__LogisticRegression.json"
+}

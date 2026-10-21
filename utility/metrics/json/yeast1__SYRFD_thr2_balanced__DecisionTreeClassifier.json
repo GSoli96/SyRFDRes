@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8224719101123595,
+  "balanced_accuracy": 0.8016019036404671,
+  "precision": 0.6736111111111112,
+  "recall": 0.751937984496124,
+  "f1": 0.7106227106227107,
+  "mcc": 0.5849759032108658,
+  "roc_auc": 0.8976670591698558,
+  "pr_auc": 0.7685010019737708,
+  "confusion_matrix": [
+    [
+      269,
+      47
+    ],
+    [
+      32,
+      97
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.85      0.87       316\n           1       0.67      0.75      0.71       129\n\n    accuracy                           0.82       445\n   macro avg       0.78      0.80      0.79       445\nweighted avg       0.83      0.82      0.83       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.7086258433179601,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7486399000044912,
+  "prediction_time_seconds": 0.0015697999915573746,
+  "n_train_samples": 1921,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr2_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr2_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "MLPClassifier",
+  "accuracy": 0.8044444444444444,
+  "balanced_accuracy": 0.6632294866169373,
+  "precision": 0.6363636363636364,
+  "recall": 0.39622641509433965,
+  "f1": 0.4883720930232558,
+  "mcc": 0.3915824184744956,
+  "roc_auc": 0.8066586222027204,
+  "pr_auc": 0.572845488173632,
+  "confusion_matrix": [
+    [
+      160,
+      12
+    ],
+    [
+      32,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.93      0.88       172\n           1       0.64      0.40      0.49        53\n\n    accuracy                           0.80       225\n   macro avg       0.73      0.66      0.68       225\nweighted avg       0.79      0.80      0.79       225\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.84336468834568,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 28.336751999973785,
+  "prediction_time_seconds": 0.0031381000007968396,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_cot_hierarchical__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_cot_hierarchical__MLPClassifier.json"
+}

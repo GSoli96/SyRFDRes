@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      0,
+      129
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       316\n           1       1.00      1.00      1.00       129\n\n    accuracy                           1.00       445\n   macro avg       1.00      1.00      1.00       445\nweighted avg       1.00      1.00      1.00       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9377976358976683,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.447081599995727,
+  "prediction_time_seconds": 0.0078125,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__devstral-small-2_24b-cloud_react_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__devstral-small-2_24b-cloud_react_balanced__HistGradientBoostingClassifier.json"
+}

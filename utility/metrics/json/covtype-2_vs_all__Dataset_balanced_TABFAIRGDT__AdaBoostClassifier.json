@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7373726363135671,
+  "balanced_accuracy": 0.738567079899435,
+  "precision": 0.7074476527038609,
+  "recall": 0.7867160842452053,
+  "f1": 0.7449791925483139,
+  "mcc": 0.47869783878770406,
+  "roc_auc": 0.8074818915652026,
+  "pr_auc": 0.7582609522829096,
+  "confusion_matrix": [
+    [
+      61664,
+      27650
+    ],
+    [
+      18127,
+      66863
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.69      0.73     89314\n           1       0.71      0.79      0.74     84990\n\n    accuracy                           0.74    174304\n   macro avg       0.74      0.74      0.74    174304\nweighted avg       0.74      0.74      0.74    174304\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7478973277347747,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 86.90430480000214,
+  "prediction_time_seconds": 2.6156900000059977,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.json"
+}

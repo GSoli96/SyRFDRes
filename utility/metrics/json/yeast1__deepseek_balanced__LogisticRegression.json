@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "deepseek__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7595505617977528,
+  "balanced_accuracy": 0.6609631047002257,
+  "precision": 0.625,
+  "recall": 0.4263565891472868,
+  "f1": 0.5069124423963134,
+  "mcc": 0.3667070743338681,
+  "roc_auc": 0.7920959670297321,
+  "pr_auc": 0.5919613302706369,
+  "confusion_matrix": [
+    [
+      283,
+      33
+    ],
+    [
+      74,
+      55
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.90      0.84       316\n           1       0.62      0.43      0.51       129\n\n    accuracy                           0.76       445\n   macro avg       0.71      0.66      0.67       445\nweighted avg       0.74      0.76      0.74       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5686165488698844,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27618580000125803,
+  "prediction_time_seconds": 0.0019403999904170632,
+  "n_train_samples": 1633,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__deepseek_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__deepseek_balanced__LogisticRegression.json"
+}

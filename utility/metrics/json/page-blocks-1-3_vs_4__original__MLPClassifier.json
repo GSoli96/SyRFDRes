@@ -1,0 +1,39 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "original",
+  "model": "MLPClassifier",
+  "accuracy": 0.9859154929577465,
+  "balanced_accuracy": 0.9337686567164178,
+  "precision": 0.875,
+  "recall": 0.875,
+  "f1": 0.875,
+  "mcc": 0.8675373134328358,
+  "roc_auc": 0.9972014925373134,
+  "pr_auc": 0.9526289682539683,
+  "confusion_matrix": [
+    [
+      133,
+      1
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       134\n           1       0.88      0.88      0.88         8\n\n    accuracy                           0.99       142\n   macro avg       0.93      0.93      0.93       142\nweighted avg       0.99      0.99      0.99       142\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9714285714285713,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.6945120000164025,
+  "prediction_time_seconds": 0.003751600015675649,
+  "n_train_samples": 329,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__original__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__original__MLPClassifier.json"
+}

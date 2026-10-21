@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "llama__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7402597402597403,
+  "balanced_accuracy": 0.7131622516556291,
+  "precision": 0.625,
+  "recall": 0.625,
+  "f1": 0.625,
+  "mcc": 0.42632450331125826,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      121,
+      30
+    ],
+    [
+      30,
+      50
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.80      0.80      0.80       151\n           1       0.62      0.62      0.62        80\n\n    accuracy                           0.74       231\n   macro avg       0.71      0.71      0.71       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.794136228957905,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.245516700000735,
+  "prediction_time_seconds": 0.002483500022208318,
+  "n_train_samples": 1006,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__llama_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__llama_balanced__RidgeClassifier.json"
+}

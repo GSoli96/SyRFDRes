@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-4_vs_all",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9820658160455297,
+  "balanced_accuracy": 0.84242748667483,
+  "precision": 0.16714864083285136,
+  "recall": 0.7014563106796117,
+  "f1": 0.26996730499766464,
+  "mcc": 0.336877514711855,
+  "roc_auc": 0.9805214634013937,
+  "pr_auc": 0.22026155158288094,
+  "confusion_matrix": [
+    [
+      170600,
+      2880
+    ],
+    [
+      246,
+      578
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99    173480\n           1       0.17      0.70      0.27       824\n\n    accuracy                           0.98    174304\n   macro avg       0.58      0.84      0.63    174304\nweighted avg       0.99      0.98      0.99    174304\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9901807265785605,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 563.8256675000011,
+  "prediction_time_seconds": 0.24939189999713562,
+  "n_train_samples": 79660,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-4_vs_all__Dataset_balanced_prefair__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-4_vs_all__Dataset_balanced_prefair__GradientBoostingClassifier.json"
+}

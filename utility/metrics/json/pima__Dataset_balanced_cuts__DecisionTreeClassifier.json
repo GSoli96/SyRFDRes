@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9177489177489178,
+  "balanced_accuracy": 0.9047599337748344,
+  "precision": 0.8961038961038961,
+  "recall": 0.8625,
+  "f1": 0.8789808917197452,
+  "mcc": 0.8170624575897788,
+  "roc_auc": 0.9747102649006623,
+  "pr_auc": 0.9475912707364662,
+  "confusion_matrix": [
+    [
+      143,
+      8
+    ],
+    [
+      11,
+      69
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.95      0.94       151\n           1       0.90      0.86      0.88        80\n\n    accuracy                           0.92       231\n   macro avg       0.91      0.90      0.91       231\nweighted avg       0.92      0.92      0.92       231\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.7539275078821367,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.770377799984999,
+  "prediction_time_seconds": 0.0022311000211630017,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_cuts__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_cuts__DecisionTreeClassifier.json"
+}

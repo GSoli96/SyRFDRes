@@ -1,0 +1,38 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "MLPClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.7234876773711725,
+  "precision": 0.6666666666666666,
+  "recall": 0.46153846153846156,
+  "f1": 0.5454545454545454,
+  "mcc": 0.5320567557477478,
+  "roc_auc": 0.939880507841673,
+  "pr_auc": 0.7022638965293342,
+  "confusion_matrix": [
+    [
+      203,
+      3
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       206\n           1       0.67      0.46      0.55        13\n\n    accuracy                           0.95       219\n   macro avg       0.82      0.72      0.76       219\nweighted avg       0.95      0.95      0.95       219\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.9549877198475791,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 96.81425090000266,
+  "prediction_time_seconds": 0.005077599955257028,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_prefair__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_prefair__MLPClassifier.json"
+}

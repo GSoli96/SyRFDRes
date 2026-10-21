@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7619047619047619,
+  "balanced_accuracy": 0.7355960264900663,
+  "precision": 0.6582278481012658,
+  "recall": 0.65,
+  "f1": 0.6540880503144654,
+  "mcc": 0.47260257616759,
+  "roc_auc": 0.8706539735099338,
+  "pr_auc": 0.7886171837300284,
+  "confusion_matrix": [
+    [
+      124,
+      27
+    ],
+    [
+      28,
+      52
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.82      0.82       151\n           1       0.66      0.65      0.65        80\n\n    accuracy                           0.76       231\n   macro avg       0.74      0.74      0.74       231\nweighted avg       0.76      0.76      0.76       231\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.791680093031885,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.026219499995932,
+  "prediction_time_seconds": 0.01451519998954609,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr4_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr4_balanced__AdaBoostClassifier.json"
+}

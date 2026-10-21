@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "deepseek__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.898876404494382,
+  "balanced_accuracy": 0.8462246099499557,
+  "precision": 0.9117647058823529,
+  "recall": 0.7209302325581395,
+  "f1": 0.8051948051948052,
+  "mcc": 0.7474448964752336,
+  "roc_auc": 0.9707094495142773,
+  "pr_auc": 0.9366931986569799,
+  "confusion_matrix": [
+    [
+      307,
+      9
+    ],
+    [
+      36,
+      93
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.97      0.93       316\n           1       0.91      0.72      0.81       129\n\n    accuracy                           0.90       445\n   macro avg       0.90      0.85      0.87       445\nweighted avg       0.90      0.90      0.90       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.6864179055768875,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 21.521319999999832,
+  "prediction_time_seconds": 0.021535800013225526,
+  "n_train_samples": 1633,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__deepseek_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__deepseek_balanced__RandomForestClassifier.json"
+}

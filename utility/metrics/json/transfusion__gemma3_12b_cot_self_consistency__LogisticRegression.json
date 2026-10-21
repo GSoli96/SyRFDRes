@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "LogisticRegression",
+  "accuracy": 0.7466666666666667,
+  "balanced_accuracy": 0.6123848179025888,
+  "precision": 0.4523809523809524,
+  "recall": 0.3584905660377358,
+  "f1": 0.4,
+  "mcc": 0.24478771032956384,
+  "roc_auc": 0.7571851689337429,
+  "pr_auc": 0.47124578424087504,
+  "confusion_matrix": [
+    [
+      149,
+      23
+    ],
+    [
+      34,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.87      0.84       172\n           1       0.45      0.36      0.40        53\n\n    accuracy                           0.75       225\n   macro avg       0.63      0.61      0.62       225\nweighted avg       0.73      0.75      0.74       225\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8394350334907401,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3337236000224948,
+  "prediction_time_seconds": 0.0020486000285018235,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_self_consistency__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_self_consistency__LogisticRegression.json"
+}

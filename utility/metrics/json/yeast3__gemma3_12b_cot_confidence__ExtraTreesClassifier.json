@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9595505617977528,
+  "balanced_accuracy": 0.8431508967223253,
+  "precision": 0.918918918918919,
+  "recall": 0.6938775510204082,
+  "f1": 0.7906976744186046,
+  "mcc": 0.7780899809801881,
+  "roc_auc": 0.9893836322407751,
+  "pr_auc": 0.9205415478869994,
+  "confusion_matrix": [
+    [
+      393,
+      3
+    ],
+    [
+      15,
+      34
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.98       396\n           1       0.92      0.69      0.79        49\n\n    accuracy                           0.96       445\n   macro avg       0.94      0.84      0.88       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9716291475704534,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.610395900002914,
+  "prediction_time_seconds": 0.0235423999838531,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma3_12b_cot_confidence__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma3_12b_cot_confidence__ExtraTreesClassifier.json"
+}

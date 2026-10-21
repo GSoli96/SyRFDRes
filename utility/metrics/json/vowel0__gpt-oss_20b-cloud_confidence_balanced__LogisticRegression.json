@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_20b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9225589225589226,
+  "balanced_accuracy": 0.924074074074074,
+  "precision": 0.5434782608695652,
+  "recall": 0.9259259259259259,
+  "f1": 0.684931506849315,
+  "mcc": 0.6739376291174224,
+  "roc_auc": 0.9742112482853224,
+  "pr_auc": 0.8043570377599856,
+  "confusion_matrix": [
+    [
+      249,
+      21
+    ],
+    [
+      2,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.92      0.96       270\n           1       0.54      0.93      0.68        27\n\n    accuracy                           0.92       297\n   macro avg       0.77      0.92      0.82       297\nweighted avg       0.95      0.92      0.93       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7373362286247751,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3990215000230819,
+  "prediction_time_seconds": 0.0018958000000566244,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_20b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_20b-cloud_confidence_balanced__LogisticRegression.json"
+}

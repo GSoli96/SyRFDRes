@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gpt-oss_20b-cloud__ensemble__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      73,
+      0
+    ],
+    [
+      0,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        73\n           1       1.00      1.00      1.00        41\n\n    accuracy                           1.00       114\n   macro avg       1.00      1.00      1.00       114\nweighted avg       1.00      1.00      1.00       114\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9215082969281122,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.489515799999936,
+  "prediction_time_seconds": 0.02167119999649003,
+  "n_train_samples": 859,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gpt-oss_20b-cloud_ensemble_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gpt-oss_20b-cloud_ensemble_balanced__ExtraTreesClassifier.json"
+}

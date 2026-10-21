@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "GOGGLE__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8311111111111111,
+  "balanced_accuracy": 0.713306274681878,
+  "precision": 0.7027027027027027,
+  "recall": 0.49056603773584906,
+  "f1": 0.5777777777777777,
+  "mcc": 0.48837789453041813,
+  "roc_auc": 0.8822400175515578,
+  "pr_auc": 0.704773459316541,
+  "confusion_matrix": [
+    [
+      161,
+      11
+    ],
+    [
+      27,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.94      0.89       172\n           1       0.70      0.49      0.58        53\n\n    accuracy                           0.83       225\n   macro avg       0.78      0.71      0.74       225\nweighted avg       0.82      0.83      0.82       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8392344496200941,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.077103999996325,
+  "prediction_time_seconds": 0.003669800003990531,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__GOGGLE_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__GOGGLE_balanced__HistGradientBoostingClassifier.json"
+}

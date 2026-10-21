@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9258426966292135,
+  "balanced_accuracy": 0.8957431457431457,
+  "precision": 0.6176470588235294,
+  "recall": 0.8571428571428571,
+  "f1": 0.717948717948718,
+  "mcc": 0.6885950537857787,
+  "roc_auc": 0.9607812822098537,
+  "pr_auc": 0.7932878577106256,
+  "confusion_matrix": [
+    [
+      370,
+      26
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.93      0.96       396\n           1       0.62      0.86      0.72        49\n\n    accuracy                           0.93       445\n   macro avg       0.80      0.90      0.84       445\nweighted avg       0.94      0.93      0.93       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8830170428795621,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.381637200014666,
+  "prediction_time_seconds": 0.0180949000059627,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.json"
+}

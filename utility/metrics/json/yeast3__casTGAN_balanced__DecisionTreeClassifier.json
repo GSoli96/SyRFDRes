@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "casTGAN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9617977528089887,
+  "balanced_accuracy": 0.8980622552051123,
+  "precision": 0.8333333333333334,
+  "recall": 0.8163265306122449,
+  "f1": 0.8247422680412371,
+  "mcc": 0.803361020528135,
+  "roc_auc": 0.9909297052154195,
+  "pr_auc": 0.9149965379063798,
+  "confusion_matrix": [
+    [
+      388,
+      8
+    ],
+    [
+      9,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.83      0.82      0.82        49\n\n    accuracy                           0.96       445\n   macro avg       0.91      0.90      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.9204154740819519,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.768061700015096,
+  "prediction_time_seconds": 0.0023206000041682273,
+  "n_train_samples": 1757,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__casTGAN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__casTGAN_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8133971291866029,
+  "balanced_accuracy": 0.6589537660082483,
+  "precision": 0.35185185185185186,
+  "recall": 0.4470588235294118,
+  "f1": 0.39378238341968913,
+  "mcc": 0.2882135315750192,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      472,
+      70
+    ],
+    [
+      47,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.87      0.89       542\n           1       0.35      0.45      0.39        85\n\n    accuracy                           0.81       627\n   macro avg       0.63      0.66      0.64       627\nweighted avg       0.83      0.81      0.82       627\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.7337053300967058,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2041791999945417,
+  "prediction_time_seconds": 0.001815099996747449,
+  "n_train_samples": 5697,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__devstral-small-2_24b-cloud_distribution_guidance_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__devstral-small-2_24b-cloud_distribution_guidance_balanced__RidgeClassifier.json"
+}

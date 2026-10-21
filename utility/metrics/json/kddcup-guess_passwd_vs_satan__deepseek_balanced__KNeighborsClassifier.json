@@ -1,0 +1,36 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "deepseek__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      477,
+      0
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       477\n           1       1.00      1.00      1.00        16\n\n    accuracy                           1.00       493\n   macro avg       1.00      1.00      1.00       493\nweighted avg       1.00      1.00      1.00       493\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.9992031840890782,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7876072000071872,
+  "prediction_time_seconds": 0.006838600005721673,
+  "n_train_samples": 2843,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__deepseek_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__deepseek_balanced__KNeighborsClassifier.json"
+}

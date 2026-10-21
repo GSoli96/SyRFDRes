@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.8848940914158305,
+  "precision": 0.9473684210526315,
+  "recall": 0.782608695652174,
+  "f1": 0.8571428571428571,
+  "mcc": 0.8260355388740889,
+  "roc_auc": 0.9863433667781494,
+  "pr_auc": 0.9347457001550159,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      5,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.99      0.96        78\n           1       0.95      0.78      0.86        23\n\n    accuracy                           0.94       101\n   macro avg       0.94      0.88      0.91       101\nweighted avg       0.94      0.94      0.94       101\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.935673223733108,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4863979000074323,
+  "prediction_time_seconds": 0.00421809998806566,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__GOGGLE_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__GOGGLE_balanced__KNeighborsClassifier.json"
+}

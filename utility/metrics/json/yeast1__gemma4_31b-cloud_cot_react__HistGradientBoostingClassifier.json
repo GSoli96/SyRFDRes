@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_react",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8719101123595505,
+  "balanced_accuracy": 0.8043003630654499,
+  "precision": 0.8829787234042553,
+  "recall": 0.6434108527131783,
+  "f1": 0.7443946188340808,
+  "mcc": 0.6764775331819723,
+  "roc_auc": 0.9546658816602884,
+  "pr_auc": 0.8894689031029528,
+  "confusion_matrix": [
+    [
+      305,
+      11
+    ],
+    [
+      46,
+      83
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.97      0.91       316\n           1       0.88      0.64      0.74       129\n\n    accuracy                           0.87       445\n   macro avg       0.88      0.80      0.83       445\nweighted avg       0.87      0.87      0.87       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 10,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8266324389025987,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.40515089998371,
+  "prediction_time_seconds": 0.005197699996642768,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_react__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_react__HistGradientBoostingClassifier.json"
+}

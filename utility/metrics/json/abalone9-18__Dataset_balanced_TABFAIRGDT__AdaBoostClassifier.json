@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9360730593607306,
+  "balanced_accuracy": 0.9660194174757282,
+  "precision": 0.48148148148148145,
+  "recall": 1.0,
+  "f1": 0.65,
+  "mcc": 0.6698950955565365,
+  "roc_auc": 0.9906646751306947,
+  "pr_auc": 0.8876764261379646,
+  "confusion_matrix": [
+    [
+      192,
+      14
+    ],
+    [
+      0,
+      13
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96       206\n           1       0.48      1.00      0.65        13\n\n    accuracy                           0.94       219\n   macro avg       0.74      0.97      0.81       219\nweighted avg       0.97      0.94      0.95       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8885765250214501,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.482810399960726,
+  "prediction_time_seconds": 0.0578343000379391,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.json"
+}

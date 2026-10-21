@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9433962264150944,
+  "balanced_accuracy": 0.9693877551020409,
+  "precision": 0.5714285714285714,
+  "recall": 1.0,
+  "f1": 0.7272727272727273,
+  "mcc": 0.7324227936704637,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      46,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97        49\n           1       0.57      1.00      0.73         4\n\n    accuracy                           0.94        53\n   macro avg       0.79      0.97      0.85        53\nweighted avg       0.97      0.94      0.95        53\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8777612047497912,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.2470618999795988,
+  "prediction_time_seconds": 0.005571499990765005,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__DecisionTreeClassifier.json"
+}

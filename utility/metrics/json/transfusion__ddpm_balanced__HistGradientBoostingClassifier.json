@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "ddpm__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8533333333333334,
+  "balanced_accuracy": 0.7996379991224221,
+  "precision": 0.6851851851851852,
+  "recall": 0.6981132075471698,
+  "f1": 0.6915887850467289,
+  "mcc": 0.5954346545268597,
+  "roc_auc": 0.8969394471259324,
+  "pr_auc": 0.7405165295020252,
+  "confusion_matrix": [
+    [
+      155,
+      17
+    ],
+    [
+      16,
+      37
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.90      0.90       172\n           1       0.69      0.70      0.69        53\n\n    accuracy                           0.85       225\n   macro avg       0.80      0.80      0.80       225\nweighted avg       0.85      0.85      0.85       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.7799590069455279,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.778356599999825,
+  "prediction_time_seconds": 0.007428299984894693,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__ddpm_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__ddpm_balanced__HistGradientBoostingClassifier.json"
+}

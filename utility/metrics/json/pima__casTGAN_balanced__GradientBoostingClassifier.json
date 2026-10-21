@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "casTGAN__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9696969696969697,
+  "balanced_accuracy": 0.9591887417218543,
+  "precision": 0.9866666666666667,
+  "recall": 0.925,
+  "f1": 0.9548387096774194,
+  "mcc": 0.9331721381553593,
+  "roc_auc": 0.9970198675496689,
+  "pr_auc": 0.9947897157544524,
+  "confusion_matrix": [
+    [
+      150,
+      1
+    ],
+    [
+      6,
+      74
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.98       151\n           1       0.99      0.93      0.95        80\n\n    accuracy                           0.97       231\n   macro avg       0.97      0.96      0.97       231\nweighted avg       0.97      0.97      0.97       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.6534996555100264,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.952307800005656,
+  "prediction_time_seconds": 0.002242900023702532,
+  "n_train_samples": 790,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__casTGAN_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__casTGAN_balanced__GradientBoostingClassifier.json"
+}

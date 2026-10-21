@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9956709956709957,
+  "balanced_accuracy": 0.9966887417218543,
+  "precision": 0.9876543209876543,
+  "recall": 1.0,
+  "f1": 0.9937888198757764,
+  "mcc": 0.9905117686807263,
+  "roc_auc": 0.999751655629139,
+  "pr_auc": 0.9995312011642442,
+  "confusion_matrix": [
+    [
+      150,
+      1
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       151\n           1       0.99      1.00      0.99        80\n\n    accuracy                           1.00       231\n   macro avg       0.99      1.00      1.00       231\nweighted avg       1.00      1.00      1.00       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7920028396186641,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 19.949723300000187,
+  "prediction_time_seconds": 0.02150269999401644,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr8_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr8_balanced__RandomForestClassifier.json"
+}

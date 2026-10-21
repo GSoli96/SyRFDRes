@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8533333333333334,
+  "balanced_accuracy": 0.7539491004826678,
+  "precision": 0.75,
+  "recall": 0.5660377358490566,
+  "f1": 0.6451612903225806,
+  "mcc": 0.5637193894691281,
+  "roc_auc": 0.8576678367705134,
+  "pr_auc": 0.7195236866133388,
+  "confusion_matrix": [
+    [
+      162,
+      10
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.94      0.91       172\n           1       0.75      0.57      0.65        53\n\n    accuracy                           0.85       225\n   macro avg       0.81      0.75      0.78       225\nweighted avg       0.85      0.85      0.85       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8142324796823773,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.583065199985867,
+  "prediction_time_seconds": 0.0023598999832756817,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_cot_decision_tree__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_cot_decision_tree__GradientBoostingClassifier.json"
+}

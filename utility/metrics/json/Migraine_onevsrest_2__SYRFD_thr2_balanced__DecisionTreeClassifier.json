@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       107\n           1       1.00      1.00      1.00         7\n\n    accuracy                           1.00       114\n   macro avg       1.00      1.00      1.00       114\nweighted avg       1.00      1.00      1.00       114\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9349765538512047,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6223050999979023,
+  "prediction_time_seconds": 0.0022579999931622297,
+  "n_train_samples": 606,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__SYRFD_thr2_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__SYRFD_thr2_balanced__DecisionTreeClassifier.json"
+}

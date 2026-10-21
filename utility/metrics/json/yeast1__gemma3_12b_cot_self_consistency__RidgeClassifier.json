@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "RidgeClassifier",
+  "accuracy": 0.6786516853932584,
+  "balanced_accuracy": 0.5604209596702974,
+  "precision": 0.4186046511627907,
+  "recall": 0.27906976744186046,
+  "f1": 0.33488372093023255,
+  "mcc": 0.13885437281145352,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      266,
+      50
+    ],
+    [
+      93,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.74      0.84      0.79       316\n           1       0.42      0.28      0.33       129\n\n    accuracy                           0.68       445\n   macro avg       0.58      0.56      0.56       445\nweighted avg       0.65      0.68      0.66       445\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.7580480315538914,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.18962970000575297,
+  "prediction_time_seconds": 0.0023748000094201416,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_cot_self_consistency__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_cot_self_consistency__RidgeClassifier.json"
+}

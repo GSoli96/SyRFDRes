@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8577777777777778,
+  "balanced_accuracy": 0.7242211496270294,
+  "precision": 0.8620689655172413,
+  "recall": 0.4716981132075472,
+  "f1": 0.6097560975609756,
+  "mcc": 0.5679128484234152,
+  "roc_auc": 0.8427490127248793,
+  "pr_auc": 0.727256503235184,
+  "confusion_matrix": [
+    [
+      168,
+      4
+    ],
+    [
+      28,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.98      0.91       172\n           1       0.86      0.47      0.61        53\n\n    accuracy                           0.86       225\n   macro avg       0.86      0.72      0.76       225\nweighted avg       0.86      0.86      0.84       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8327453152356901,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.552273600012995,
+  "prediction_time_seconds": 0.010027699987404048,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_cuts__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_cuts__ExtraTreesClassifier.json"
+}

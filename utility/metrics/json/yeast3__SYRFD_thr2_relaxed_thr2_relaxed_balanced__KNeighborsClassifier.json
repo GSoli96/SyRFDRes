@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9550561797752809,
+  "balanced_accuracy": 0.9032158317872604,
+  "precision": 0.7735849056603774,
+  "recall": 0.8367346938775511,
+  "f1": 0.803921568627451,
+  "mcc": 0.7793494552094686,
+  "roc_auc": 0.9875283446712018,
+  "pr_auc": 0.9025200017113764,
+  "confusion_matrix": [
+    [
+      384,
+      12
+    ],
+    [
+      8,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.97       396\n           1       0.77      0.84      0.80        49\n\n    accuracy                           0.96       445\n   macro avg       0.88      0.90      0.89       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.960659122623821,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0245437000121456,
+  "prediction_time_seconds": 0.011345299979439005,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__SYRFD_thr2_relaxed_thr2_relaxed_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__SYRFD_thr2_relaxed_thr2_relaxed_balanced__KNeighborsClassifier.json"
+}

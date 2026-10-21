@@ -1,0 +1,37 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "original",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9056603773584906,
+  "balanced_accuracy": 0.7193877551020409,
+  "precision": 0.4,
+  "recall": 0.5,
+  "f1": 0.4444444444444444,
+  "mcc": 0.3965197235402832,
+  "roc_auc": 0.9540816326530612,
+  "pr_auc": 0.7182539682539683,
+  "confusion_matrix": [
+    [
+      46,
+      3
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.94      0.95        49\n           1       0.40      0.50      0.44         4\n\n    accuracy                           0.91        53\n   macro avg       0.68      0.72      0.70        53\nweighted avg       0.92      0.91      0.91        53\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.48,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.081551900017075,
+  "prediction_time_seconds": 0.004361399973277003,
+  "n_train_samples": 123,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__original__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__original__GradientBoostingClassifier.json"
+}

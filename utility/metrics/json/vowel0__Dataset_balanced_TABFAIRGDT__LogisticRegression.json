@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LogisticRegression",
+  "accuracy": 0.9629629629629629,
+  "balanced_accuracy": 0.9629629629629629,
+  "precision": 0.7222222222222222,
+  "recall": 0.9629629629629629,
+  "f1": 0.8253968253968254,
+  "mcc": 0.8155836382148659,
+  "roc_auc": 0.9958847736625515,
+  "pr_auc": 0.9653616732360695,
+  "confusion_matrix": [
+    [
+      260,
+      10
+    ],
+    [
+      1,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       270\n           1       0.72      0.96      0.83        27\n\n    accuracy                           0.96       297\n   macro avg       0.86      0.96      0.90       297\nweighted avg       0.97      0.96      0.97       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9749119614674047,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39038060000166297,
+  "prediction_time_seconds": 0.0021225999807938933,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__Dataset_balanced_TABFAIRGDT__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__Dataset_balanced_TABFAIRGDT__LogisticRegression.json"
+}

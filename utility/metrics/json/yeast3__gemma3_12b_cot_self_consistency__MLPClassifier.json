@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "MLPClassifier",
+  "accuracy": 0.9707865168539326,
+  "balanced_accuracy": 0.8941713048855906,
+  "precision": 0.9285714285714286,
+  "recall": 0.7959183673469388,
+  "f1": 0.8571428571428571,
+  "mcc": 0.8440797189838573,
+  "roc_auc": 0.9889198103483818,
+  "pr_auc": 0.9271226546730467,
+  "confusion_matrix": [
+    [
+      393,
+      3
+    ],
+    [
+      10,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.99      0.98       396\n           1       0.93      0.80      0.86        49\n\n    accuracy                           0.97       445\n   macro avg       0.95      0.89      0.92       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.969657518720917,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 74.75451999998768,
+  "prediction_time_seconds": 0.0024850000045262277,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma3_12b_cot_self_consistency__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma3_12b_cot_self_consistency__MLPClassifier.json"
+}

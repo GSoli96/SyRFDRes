@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8787878787878788,
+  "balanced_accuracy": 0.8244937055281882,
+  "precision": 0.6141732283464567,
+  "recall": 0.7428571428571429,
+  "f1": 0.6724137931034483,
+  "mcc": 0.6029472391575066,
+  "roc_auc": 0.9359514687100894,
+  "pr_auc": 0.7991825490726356,
+  "confusion_matrix": [
+    [
+      473,
+      49
+    ],
+    [
+      27,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.91      0.93       522\n           1       0.61      0.74      0.67       105\n\n    accuracy                           0.88       627\n   macro avg       0.78      0.82      0.80       627\nweighted avg       0.89      0.88      0.88       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.904664137837039,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.049703399999999,
+  "prediction_time_seconds": 0.02435769999283366,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__Dataset_balanced_tabfairgan__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__Dataset_balanced_tabfairgan__AdaBoostClassifier.json"
+}

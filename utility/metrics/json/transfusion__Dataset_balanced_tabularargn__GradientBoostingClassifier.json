@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.6508885476086003,
+  "precision": 0.6060606060606061,
+  "recall": 0.37735849056603776,
+  "f1": 0.46511627906976744,
+  "mcc": 0.36197689288418594,
+  "roc_auc": 0.8162022817025011,
+  "pr_auc": 0.6150497667369483,
+  "confusion_matrix": [
+    [
+      159,
+      13
+    ],
+    [
+      33,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.92      0.87       172\n           1       0.61      0.38      0.47        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.65      0.67       225\nweighted avg       0.78      0.80      0.78       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8262647558320049,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.125829700002214,
+  "prediction_time_seconds": 0.0033955999824684113,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabularargn__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabularargn__GradientBoostingClassifier.json"
+}

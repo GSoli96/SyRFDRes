@@ -1,0 +1,39 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "MLPClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9954545454545455,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1": 0.8888888888888888,
+  "mcc": 0.8903523306687486,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      109,
+      1
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       110\n           1       0.80      1.00      0.89         4\n\n    accuracy                           0.99       114\n   macro avg       0.90      1.00      0.94       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9347473888645934,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 23.50783250000677,
+  "prediction_time_seconds": 0.0026980999973602593,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__gemma3_12b_schema_constraints__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__gemma3_12b_schema_constraints__MLPClassifier.json"
+}

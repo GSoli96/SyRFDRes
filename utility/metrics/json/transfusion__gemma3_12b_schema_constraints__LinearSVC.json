@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "LinearSVC",
+  "accuracy": 0.76,
+  "balanced_accuracy": 0.621105748135147,
+  "precision": 0.48717948717948717,
+  "recall": 0.3584905660377358,
+  "f1": 0.41304347826086957,
+  "mcc": 0.27152394515696915,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      152,
+      20
+    ],
+    [
+      34,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.88      0.85       172\n           1       0.49      0.36      0.41        53\n\n    accuracy                           0.76       225\n   macro avg       0.65      0.62      0.63       225\nweighted avg       0.74      0.76      0.75       225\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8487778048113214,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.262086900009308,
+  "prediction_time_seconds": 0.0017622000013943762,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_schema_constraints__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_schema_constraints__LinearSVC.json"
+}

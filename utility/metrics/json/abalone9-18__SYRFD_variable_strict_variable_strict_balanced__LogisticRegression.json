@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8949771689497716,
+  "balanced_accuracy": 0.8360716952949963,
+  "precision": 0.3333333333333333,
+  "recall": 0.7692307692307693,
+  "f1": 0.46511627906976744,
+  "mcc": 0.4619294904588288,
+  "roc_auc": 0.950336071695295,
+  "pr_auc": 0.7121193514626694,
+  "confusion_matrix": [
+    [
+      186,
+      20
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.90      0.94       206\n           1       0.33      0.77      0.47        13\n\n    accuracy                           0.89       219\n   macro avg       0.66      0.84      0.70       219\nweighted avg       0.95      0.89      0.91       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.859321375791964,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6681128999916837,
+  "prediction_time_seconds": 0.00513080001110211,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_variable_strict_variable_strict_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_variable_strict_variable_strict_balanced__LogisticRegression.json"
+}

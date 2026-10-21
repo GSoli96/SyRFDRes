@@ -1,0 +1,35 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "GOGGLE__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9433962264150944,
+  "balanced_accuracy": 0.625,
+  "precision": 1.0,
+  "recall": 0.25,
+  "f1": 0.4,
+  "mcc": 0.4853626716970755,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      49,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      1.00      0.97        49\n           1       1.00      0.25      0.40         4\n\n    accuracy                           0.94        53\n   macro avg       0.97      0.62      0.69        53\nweighted avg       0.95      0.94      0.93        53\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.964835164835165,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3209326000069268,
+  "prediction_time_seconds": 0.0036023000138811767,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__GOGGLE_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__GOGGLE_balanced__RidgeClassifier.json"
+}

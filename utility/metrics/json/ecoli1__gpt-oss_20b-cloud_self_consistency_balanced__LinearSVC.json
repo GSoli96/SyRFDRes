@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8811881188118812,
+  "balanced_accuracy": 0.9077480490523968,
+  "precision": 0.6666666666666666,
+  "recall": 0.9565217391304348,
+  "f1": 0.7857142857142857,
+  "mcc": 0.7291580594940881,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      67,
+      11
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.86      0.92        78\n           1       0.67      0.96      0.79        23\n\n    accuracy                           0.88       101\n   macro avg       0.83      0.91      0.85       101\nweighted avg       0.91      0.88      0.89       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7495039682539681,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2433858999866061,
+  "prediction_time_seconds": 0.0016846000216901302,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7422222222222222,
+  "balanced_accuracy": 0.7073826239578762,
+  "precision": 0.4657534246575342,
+  "recall": 0.6415094339622641,
+  "f1": 0.5396825396825397,
+  "mcc": 0.37594238741624214,
+  "roc_auc": 0.7719942957437472,
+  "pr_auc": 0.46402980088588397,
+  "confusion_matrix": [
+    [
+      133,
+      39
+    ],
+    [
+      19,
+      34
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.77      0.82       172\n           1       0.47      0.64      0.54        53\n\n    accuracy                           0.74       225\n   macro avg       0.67      0.71      0.68       225\nweighted avg       0.78      0.74      0.75       225\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.7507141948680057,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.48901789999217726,
+  "prediction_time_seconds": 0.001505599997472018,
+  "n_train_samples": 1021,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr2_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr2_balanced__DecisionTreeClassifier.json"
+}

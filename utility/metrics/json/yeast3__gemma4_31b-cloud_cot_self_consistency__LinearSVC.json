@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma4_31b-cloud__cot_self_consistency",
+  "model": "LinearSVC",
+  "accuracy": 0.7370786516853932,
+  "balanced_accuracy": 0.8343898165326736,
+  "precision": 0.29012345679012347,
+  "recall": 0.9591836734693877,
+  "f1": 0.44549763033175355,
+  "mcc": 0.43508884281822074,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      281,
+      115
+    ],
+    [
+      2,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.71      0.83       396\n           1       0.29      0.96      0.45        49\n\n    accuracy                           0.74       445\n   macro avg       0.64      0.83      0.64       445\nweighted avg       0.92      0.74      0.79       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7134586856875911,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.29635099999723025,
+  "prediction_time_seconds": 0.0017156999965664,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma4_31b-cloud_cot_self_consistency__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma4_31b-cloud_cot_self_consistency__LinearSVC.json"
+}

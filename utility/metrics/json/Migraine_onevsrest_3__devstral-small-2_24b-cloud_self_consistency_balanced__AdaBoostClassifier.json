@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_3",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9210526315789473,
+  "balanced_accuracy": 0.9583333333333333,
+  "precision": 0.4,
+  "recall": 1.0,
+  "f1": 0.5714285714285714,
+  "mcc": 0.6055300708194983,
+  "roc_auc": 0.9984567901234568,
+  "pr_auc": 0.976190476190476,
+  "confusion_matrix": [
+    [
+      99,
+      9
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.92      0.96       108\n           1       0.40      1.00      0.57         6\n\n    accuracy                           0.92       114\n   macro avg       0.70      0.96      0.76       114\nweighted avg       0.97      0.92      0.94       114\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7966754636596944,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.67953110000235,
+  "prediction_time_seconds": 0.023374299984425306,
+  "n_train_samples": 1091,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_3__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_3__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.json"
+}

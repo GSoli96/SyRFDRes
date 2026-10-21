@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "LinearSVC",
+  "accuracy": 0.9452054794520548,
+  "balanced_accuracy": 0.8267363704256908,
+  "precision": 0.5294117647058824,
+  "recall": 0.6923076923076923,
+  "f1": 0.6,
+  "mcc": 0.5770754739607592,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      198,
+      8
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       206\n           1       0.53      0.69      0.60        13\n\n    accuracy                           0.95       219\n   macro avg       0.75      0.83      0.79       219\nweighted avg       0.95      0.95      0.95       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9496282957708786,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5788036999874748,
+  "prediction_time_seconds": 0.0041226999601349235,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_fsmote__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_fsmote__LinearSVC.json"
+}

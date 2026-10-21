@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9415730337078652,
+  "balanced_accuracy": 0.8777571634714492,
+  "precision": 0.7090909090909091,
+  "recall": 0.7959183673469388,
+  "f1": 0.75,
+  "mcc": 0.7185792779463105,
+  "roc_auc": 0.9812409812409811,
+  "pr_auc": 0.8671099784737687,
+  "confusion_matrix": [
+    [
+      380,
+      16
+    ],
+    [
+      10,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97       396\n           1       0.71      0.80      0.75        49\n\n    accuracy                           0.94       445\n   macro avg       0.84      0.88      0.86       445\nweighted avg       0.95      0.94      0.94       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9638443539679773,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.32549749998725,
+  "prediction_time_seconds": 0.023499100003391504,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_fsmote__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_fsmote__AdaBoostClassifier.json"
+}

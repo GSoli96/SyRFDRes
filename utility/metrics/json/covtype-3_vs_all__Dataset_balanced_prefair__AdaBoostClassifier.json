@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-3_vs_all",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9312293464292271,
+  "balanced_accuracy": 0.8569016583097185,
+  "precision": 0.4646283309957924,
+  "recall": 0.7721424575797129,
+  "f1": 0.5801548106896431,
+  "mcc": 0.56613121908067,
+  "roc_auc": 0.9611456768369746,
+  "pr_auc": 0.5698957994834234,
+  "confusion_matrix": [
+    [
+      154035,
+      9543
+    ],
+    [
+      2444,
+      8282
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.94      0.96    163578\n           1       0.46      0.77      0.58     10726\n\n    accuracy                           0.93    174304\n   macro avg       0.72      0.86      0.77    174304\nweighted avg       0.95      0.93      0.94    174304\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9512300060392572,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 173.1839614000055,
+  "prediction_time_seconds": 2.6289933000225574,
+  "n_train_samples": 74994,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-3_vs_all__Dataset_balanced_prefair__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-3_vs_all__Dataset_balanced_prefair__AdaBoostClassifier.json"
+}

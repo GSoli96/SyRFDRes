@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.797752808988764,
+  "balanced_accuracy": 0.7750220783043862,
+  "precision": 0.6326530612244898,
+  "recall": 0.7209302325581395,
+  "f1": 0.6739130434782609,
+  "mcc": 0.5306023295384464,
+  "roc_auc": 0.8643901481699539,
+  "pr_auc": 0.7215295702406608,
+  "confusion_matrix": [
+    [
+      262,
+      54
+    ],
+    [
+      36,
+      93
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.83      0.85       316\n           1       0.63      0.72      0.67       129\n\n    accuracy                           0.80       445\n   macro avg       0.76      0.78      0.76       445\nweighted avg       0.81      0.80      0.80       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.7342148371212561,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 60.89461349998601,
+  "prediction_time_seconds": 0.002438399998936802,
+  "n_train_samples": 1921,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr2_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr2_balanced__MLPClassifier.json"
+}

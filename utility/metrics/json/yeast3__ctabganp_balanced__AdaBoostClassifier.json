@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "ctabganp__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9415730337078652,
+  "balanced_accuracy": 0.8777571634714492,
+  "precision": 0.7090909090909091,
+  "recall": 0.7959183673469388,
+  "f1": 0.75,
+  "mcc": 0.7185792779463105,
+  "roc_auc": 0.9824005359719645,
+  "pr_auc": 0.8572539159290034,
+  "confusion_matrix": [
+    [
+      380,
+      16
+    ],
+    [
+      10,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97       396\n           1       0.71      0.80      0.75        49\n\n    accuracy                           0.94       445\n   macro avg       0.84      0.88      0.86       445\nweighted avg       0.95      0.94      0.94       445\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 50
+  },
+  "cv_best_score": 0.9680271736379533,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.224463499995181,
+  "prediction_time_seconds": 0.010605099989334121,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__ctabganp_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__ctabganp_balanced__AdaBoostClassifier.json"
+}

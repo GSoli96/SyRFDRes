@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "RidgeClassifier",
+  "accuracy": 0.70995670995671,
+  "balanced_accuracy": 0.6635347682119206,
+  "precision": 0.5942028985507246,
+  "recall": 0.5125,
+  "f1": 0.5503355704697986,
+  "mcc": 0.34000985882512585,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      123,
+      28
+    ],
+    [
+      39,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.76      0.81      0.79       151\n           1       0.59      0.51      0.55        80\n\n    accuracy                           0.71       231\n   macro avg       0.68      0.66      0.67       231\nweighted avg       0.70      0.71      0.70       231\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7133103100997062,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2468323000066448,
+  "prediction_time_seconds": 0.0020589999912772328,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_tabfairgan__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_tabfairgan__RidgeClassifier.json"
+}

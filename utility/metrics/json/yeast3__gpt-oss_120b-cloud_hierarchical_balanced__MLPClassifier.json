@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gpt-oss_120b-cloud__hierarchical__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9932584269662922,
+  "balanced_accuracy": 0.9872706658420944,
+  "precision": 0.96,
+  "recall": 0.9795918367346939,
+  "f1": 0.9696969696969697,
+  "mcc": 0.9659671242708269,
+  "roc_auc": 0.9998453927025356,
+  "pr_auc": 0.9988226059654631,
+  "confusion_matrix": [
+    [
+      394,
+      2
+    ],
+    [
+      1,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       396\n           1       0.96      0.98      0.97        49\n\n    accuracy                           0.99       445\n   macro avg       0.98      0.99      0.98       445\nweighted avg       0.99      0.99      0.99       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9478442564659731,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 117.96024250000482,
+  "prediction_time_seconds": 0.0037179999926593155,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gpt-oss_120b-cloud_hierarchical_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gpt-oss_120b-cloud_hierarchical_balanced__MLPClassifier.json"
+}

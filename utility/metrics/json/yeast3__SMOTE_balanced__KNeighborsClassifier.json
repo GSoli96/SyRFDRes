@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "SMOTE__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9617977528089887,
+  "balanced_accuracy": 0.9070037105751392,
+  "precision": 0.82,
+  "recall": 0.8367346938775511,
+  "f1": 0.8282828282828283,
+  "mcc": 0.8068456228375309,
+  "roc_auc": 0.9899505256648113,
+  "pr_auc": 0.9122548531607765,
+  "confusion_matrix": [
+    [
+      387,
+      9
+    ],
+    [
+      8,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.82      0.84      0.83        49\n\n    accuracy                           0.96       445\n   macro avg       0.90      0.91      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9502458001807703,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7274477999890223,
+  "prediction_time_seconds": 0.010412100004032254,
+  "n_train_samples": 2293,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__SMOTE_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__SMOTE_balanced__KNeighborsClassifier.json"
+}

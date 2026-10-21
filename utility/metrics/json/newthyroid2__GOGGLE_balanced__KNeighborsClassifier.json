@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "GOGGLE__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9545454545454546,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "f1": 0.9523809523809523,
+  "mcc": 0.9447549859466603,
+  "roc_auc": 0.9991582491582491,
+  "pr_auc": 0.9924242424242424,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99        54\n           1       1.00      0.91      0.95        11\n\n    accuracy                           0.98        65\n   macro avg       0.99      0.95      0.97        65\nweighted avg       0.98      0.98      0.98        65\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9943661971830986,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4658616000087932,
+  "prediction_time_seconds": 0.003402800008188933,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__GOGGLE_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__GOGGLE_balanced__KNeighborsClassifier.json"
+}

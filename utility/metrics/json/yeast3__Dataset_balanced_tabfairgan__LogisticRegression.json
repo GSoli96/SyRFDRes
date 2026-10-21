@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LogisticRegression",
+  "accuracy": 0.9325842696629213,
+  "balanced_accuracy": 0.8637652030509173,
+  "precision": 0.6666666666666666,
+  "recall": 0.7755102040816326,
+  "f1": 0.7169811320754716,
+  "mcc": 0.6814648991003837,
+  "roc_auc": 0.9572253143681715,
+  "pr_auc": 0.786484993933681,
+  "confusion_matrix": [
+    [
+      377,
+      19
+    ],
+    [
+      11,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.95      0.96       396\n           1       0.67      0.78      0.72        49\n\n    accuracy                           0.93       445\n   macro avg       0.82      0.86      0.84       445\nweighted avg       0.94      0.93      0.93       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9451309552507624,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.35699649999151006,
+  "prediction_time_seconds": 0.0023990999907255173,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_tabfairgan__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_tabfairgan__LogisticRegression.json"
+}

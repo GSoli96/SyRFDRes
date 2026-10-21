@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "original",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9831649831649831,
+  "balanced_accuracy": 0.9074074074074074,
+  "precision": 1.0,
+  "recall": 0.8148148148148148,
+  "f1": 0.8979591836734694,
+  "mcc": 0.894427190999916,
+  "roc_auc": 0.9978052126200274,
+  "pr_auc": 0.986218776916451,
+  "confusion_matrix": [
+    [
+      270,
+      0
+    ],
+    [
+      5,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       270\n           1       1.00      0.81      0.90        27\n\n    accuracy                           0.98       297\n   macro avg       0.99      0.91      0.94       297\nweighted avg       0.98      0.98      0.98       297\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9143978919631094,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.960806499992032,
+  "prediction_time_seconds": 0.002380499994615093,
+  "n_train_samples": 690,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__original__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__original__GradientBoostingClassifier.json"
+}

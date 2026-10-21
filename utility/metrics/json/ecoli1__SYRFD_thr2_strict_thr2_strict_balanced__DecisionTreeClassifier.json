@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_thr2_strict__thr2_strict_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9372909698996655,
+  "precision": 0.875,
+  "recall": 0.9130434782608695,
+  "f1": 0.8936170212765957,
+  "mcc": 0.8617092220138142,
+  "roc_auc": 0.9877369007803791,
+  "pr_auc": 0.9323704544488889,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97        78\n           1       0.88      0.91      0.89        23\n\n    accuracy                           0.95       101\n   macro avg       0.92      0.94      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9367593666062657,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6931524000247009,
+  "prediction_time_seconds": 0.0022252000053413212,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_thr2_strict_thr2_strict_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_thr2_strict_thr2_strict_balanced__DecisionTreeClassifier.json"
+}

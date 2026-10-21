@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9640449438202248,
+  "balanced_accuracy": 0.9586277107251496,
+  "precision": 0.9312977099236641,
+  "recall": 0.9457364341085271,
+  "f1": 0.9384615384615385,
+  "mcc": 0.9131207500345881,
+  "roc_auc": 0.9956088705720734,
+  "pr_auc": 0.9896965988374291,
+  "confusion_matrix": [
+    [
+      307,
+      9
+    ],
+    [
+      7,
+      122
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.97       316\n           1       0.93      0.95      0.94       129\n\n    accuracy                           0.96       445\n   macro avg       0.95      0.96      0.96       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8516948589671139,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 108.99087179999333,
+  "prediction_time_seconds": 0.009427799988770857,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_20b-cloud_self_consistency_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_20b-cloud_self_consistency_balanced__MLPClassifier.json"
+}

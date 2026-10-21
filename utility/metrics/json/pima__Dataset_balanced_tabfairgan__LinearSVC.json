@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LinearSVC",
+  "accuracy": 0.7142857142857143,
+  "balanced_accuracy": 0.684478476821192,
+  "precision": 0.5875,
+  "recall": 0.5875,
+  "f1": 0.5875,
+  "mcc": 0.3689569536423841,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      118,
+      33
+    ],
+    [
+      33,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.78      0.78       151\n           1       0.59      0.59      0.59        80\n\n    accuracy                           0.71       231\n   macro avg       0.68      0.68      0.68       231\nweighted avg       0.71      0.71      0.71       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7259531312992689,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2784359999932349,
+  "prediction_time_seconds": 0.0021761000098194927,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_tabfairgan__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_tabfairgan__LinearSVC.json"
+}

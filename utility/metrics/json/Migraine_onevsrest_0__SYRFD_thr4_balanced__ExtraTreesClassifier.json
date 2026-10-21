@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.9512195121951219,
+  "precision": 1.0,
+  "recall": 0.9024390243902439,
+  "f1": 0.9487179487179487,
+  "mcc": 0.9249643642169519,
+  "roc_auc": 0.998329435349148,
+  "pr_auc": 0.9972370943221628,
+  "confusion_matrix": [
+    [
+      73,
+      0
+    ],
+    [
+      4,
+      37
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      1.00      0.97        73\n           1       1.00      0.90      0.95        41\n\n    accuracy                           0.96       114\n   macro avg       0.97      0.95      0.96       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.947936737910049,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.609418999985792,
+  "prediction_time_seconds": 0.006106000015279278,
+  "n_train_samples": 450,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__SYRFD_thr4_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__SYRFD_thr4_balanced__ExtraTreesClassifier.json"
+}

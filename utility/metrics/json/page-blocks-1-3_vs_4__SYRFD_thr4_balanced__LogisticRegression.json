@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8802816901408451,
+  "balanced_accuracy": 0.8190298507462687,
+  "precision": 0.2857142857142857,
+  "recall": 0.75,
+  "f1": 0.41379310344827586,
+  "mcc": 0.41443495328944757,
+  "roc_auc": 0.9347014925373135,
+  "pr_auc": 0.43230875484164955,
+  "confusion_matrix": [
+    [
+      119,
+      15
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.89      0.93       134\n           1       0.29      0.75      0.41         8\n\n    accuracy                           0.88       142\n   macro avg       0.63      0.82      0.67       142\nweighted avg       0.94      0.88      0.90       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9287133797057171,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.29742990000522695,
+  "prediction_time_seconds": 0.0028452000115066767,
+  "n_train_samples": 760,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__SYRFD_thr4_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__SYRFD_thr4_balanced__LogisticRegression.json"
+}

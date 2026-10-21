@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "LinearSVC",
+  "accuracy": 0.9692307692307692,
+  "balanced_accuracy": 0.9452861952861953,
+  "precision": 0.9090909090909091,
+  "recall": 0.9090909090909091,
+  "f1": 0.9090909090909091,
+  "mcc": 0.8905723905723906,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        54\n           1       0.91      0.91      0.91        11\n\n    accuracy                           0.97        65\n   macro avg       0.95      0.95      0.95        65\nweighted avg       0.97      0.97      0.97        65\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9629591930668981,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2161826999799814,
+  "prediction_time_seconds": 0.002365799999097362,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma4_31b-cloud_schema_constraints__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma4_31b-cloud_schema_constraints__LinearSVC.json"
+}

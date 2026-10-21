@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gpt-oss_20b-cloud__ensemble__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8771929824561403,
+  "balanced_accuracy": 0.7343124165554071,
+  "precision": 0.26666666666666666,
+  "recall": 0.5714285714285714,
+  "f1": 0.36363636363636365,
+  "mcc": 0.33281506823516016,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      96,
+      11
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.90      0.93       107\n           1       0.27      0.57      0.36         7\n\n    accuracy                           0.88       114\n   macro avg       0.62      0.73      0.65       114\nweighted avg       0.93      0.88      0.90       114\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.3533630121507036,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4396621999912895,
+  "prediction_time_seconds": 0.003131499979645014,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gpt-oss_20b-cloud_ensemble_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gpt-oss_20b-cloud_ensemble_balanced__LinearSVC.json"
+}

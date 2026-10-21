@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "devstral-small-2_24b-cloud__schema_constraints__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8811881188118812,
+  "balanced_accuracy": 0.8770903010033444,
+  "precision": 0.6896551724137931,
+  "recall": 0.8695652173913043,
+  "f1": 0.7692307692307693,
+  "mcc": 0.6990710703195939,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      69,
+      9
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.88      0.92        78\n           1       0.69      0.87      0.77        23\n\n    accuracy                           0.88       101\n   macro avg       0.82      0.88      0.84       101\nweighted avg       0.90      0.88      0.89       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7931348582195026,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2609103000140749,
+  "prediction_time_seconds": 0.0023785999801475555,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__devstral-small-2_24b-cloud_schema_constraints_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__devstral-small-2_24b-cloud_schema_constraints_balanced__LinearSVC.json"
+}

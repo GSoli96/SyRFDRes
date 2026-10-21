@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "LinearSVC",
+  "accuracy": 0.7654046666666666,
+  "balanced_accuracy": 0.7549052812572992,
+  "precision": 0.8143486327519216,
+  "recall": 0.6311929225407519,
+  "f1": 0.7111675089405243,
+  "mcc": 0.5308971109672465,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      714889,
+      98763
+    ],
+    [
+      253130,
+      433218
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.74      0.88      0.80    813652\n           1       0.81      0.63      0.71    686348\n\n    accuracy                           0.77   1500000\n   macro avg       0.78      0.75      0.76   1500000\nweighted avg       0.77      0.77      0.76   1500000\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.756506550138073,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.8480039999994915,
+  "prediction_time_seconds": 0.24645360000431538,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_cuts__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_cuts__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9617977528089887,
+  "balanced_accuracy": 0.9695938981653267,
+  "precision": 0.75,
+  "recall": 0.9795918367346939,
+  "f1": 0.8495575221238938,
+  "mcc": 0.8378101141757011,
+  "roc_auc": 0.9926303854875282,
+  "pr_auc": 0.9360298379397486,
+  "confusion_matrix": [
+    [
+      380,
+      16
+    ],
+    [
+      1,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       396\n           1       0.75      0.98      0.85        49\n\n    accuracy                           0.96       445\n   macro avg       0.87      0.97      0.91       445\nweighted avg       0.97      0.96      0.96       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9417849602599503,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.68946959997993,
+  "prediction_time_seconds": 0.029377600003499538,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.json"
+}

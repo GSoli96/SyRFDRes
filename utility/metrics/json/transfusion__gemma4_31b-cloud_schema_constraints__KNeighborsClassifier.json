@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.7777777777777778,
+  "balanced_accuracy": 0.645787626151821,
+  "precision": 0.5384615384615384,
+  "recall": 0.39622641509433965,
+  "f1": 0.45652173913043476,
+  "mcc": 0.3268617057188514,
+  "roc_auc": 0.776656428258008,
+  "pr_auc": 0.5036274108503282,
+  "confusion_matrix": [
+    [
+      154,
+      18
+    ],
+    [
+      32,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.90      0.86       172\n           1       0.54      0.40      0.46        53\n\n    accuracy                           0.78       225\n   macro avg       0.68      0.65      0.66       225\nweighted avg       0.76      0.78      0.77       225\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8098701006375594,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4926592000119854,
+  "prediction_time_seconds": 0.003730199998244643,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_schema_constraints__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_schema_constraints__KNeighborsClassifier.json"
+}

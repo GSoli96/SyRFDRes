@@ -1,0 +1,35 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9436619718309859,
+  "balanced_accuracy": 0.8526119402985075,
+  "precision": 0.5,
+  "recall": 0.75,
+  "f1": 0.6,
+  "mcc": 0.5846044321893877,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      128,
+      6
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       134\n           1       0.50      0.75      0.60         8\n\n    accuracy                           0.94       142\n   macro avg       0.74      0.85      0.78       142\nweighted avg       0.96      0.94      0.95       142\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.833607832035249,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20172720000846311,
+  "prediction_time_seconds": 0.002431900007650256,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__devstral-small-2_24b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__devstral-small-2_24b-cloud_react_balanced__RidgeClassifier.json"
+}

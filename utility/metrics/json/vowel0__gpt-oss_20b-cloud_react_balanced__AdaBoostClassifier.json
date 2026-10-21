@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9595959595959596,
+  "balanced_accuracy": 0.8944444444444444,
+  "precision": 0.7586206896551724,
+  "recall": 0.8148148148148148,
+  "f1": 0.7857142857142857,
+  "mcc": 0.7640349184853734,
+  "roc_auc": 0.9662551440329218,
+  "pr_auc": 0.8666439459778277,
+  "confusion_matrix": [
+    [
+      263,
+      7
+    ],
+    [
+      5,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.98       270\n           1       0.76      0.81      0.79        27\n\n    accuracy                           0.96       297\n   macro avg       0.87      0.89      0.88       297\nweighted avg       0.96      0.96      0.96       297\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7573140036922514,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.698211199982325,
+  "prediction_time_seconds": 0.02520649999496527,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "GOGGLE__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9907407407407407,
+  "balanced_accuracy": 0.9166666666666667,
+  "precision": 1.0,
+  "recall": 0.8333333333333334,
+  "f1": 0.9090909090909091,
+  "mcc": 0.9084287085108012,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      102,
+      0
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00       102\n           1       1.00      0.83      0.91         6\n\n    accuracy                           0.99       108\n   macro avg       1.00      0.92      0.95       108\nweighted avg       0.99      0.99      0.99       108\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.9895826522828811,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.49633440002799034,
+  "prediction_time_seconds": 0.006547400029376149,
+  "n_train_samples": 674,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__GOGGLE_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__GOGGLE_balanced__RidgeClassifier.json"
+}

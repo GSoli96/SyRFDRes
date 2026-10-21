@@ -1,0 +1,39 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9692307692307692,
+  "balanced_accuracy": 0.9814814814814814,
+  "precision": 0.8461538461538461,
+  "recall": 1.0,
+  "f1": 0.9166666666666666,
+  "mcc": 0.9026709338484401,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      52,
+      2
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98        54\n           1       0.85      1.00      0.92        11\n\n    accuracy                           0.97        65\n   macro avg       0.92      0.98      0.95        65\nweighted avg       0.97      0.97      0.97        65\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8965555888068835,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 20.778224299981957,
+  "prediction_time_seconds": 0.0022687999880872667,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.json"
+}

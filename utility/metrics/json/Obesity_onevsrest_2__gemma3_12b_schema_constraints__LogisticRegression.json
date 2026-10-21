@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "LogisticRegression",
+  "accuracy": 0.8261562998405104,
+  "balanced_accuracy": 0.7058269844082211,
+  "precision": 0.3879310344827586,
+  "recall": 0.5421686746987951,
+  "f1": 0.45226130653266333,
+  "mcc": 0.359278607012956,
+  "roc_auc": 0.7844835223245925,
+  "pr_auc": 0.3910367323404628,
+  "confusion_matrix": [
+    [
+      473,
+      71
+    ],
+    [
+      38,
+      45
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.87      0.90       544\n           1       0.39      0.54      0.45        83\n\n    accuracy                           0.83       627\n   macro avg       0.66      0.71      0.67       627\nweighted avg       0.85      0.83      0.84       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8494173032965888,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4258560999878682,
+  "prediction_time_seconds": 0.002889600000344217,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__gemma3_12b_schema_constraints__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__gemma3_12b_schema_constraints__LogisticRegression.json"
+}

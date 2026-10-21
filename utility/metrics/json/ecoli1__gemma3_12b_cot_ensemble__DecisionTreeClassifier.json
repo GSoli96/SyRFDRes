@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.9615384615384616,
+  "precision": 0.7931034482758621,
+  "recall": 1.0,
+  "f1": 0.8846153846153846,
+  "mcc": 0.8556257889499242,
+  "roc_auc": 0.9944258639910813,
+  "pr_auc": 0.9787392726215077,
+  "confusion_matrix": [
+    [
+      72,
+      6
+    ],
+    [
+      0,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.92      0.96        78\n           1       0.79      1.00      0.88        23\n\n    accuracy                           0.94       101\n   macro avg       0.90      0.96      0.92       101\nweighted avg       0.95      0.94      0.94       101\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8582925305623345,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6624952999991365,
+  "prediction_time_seconds": 0.002710000000661239,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_cot_ensemble__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_cot_ensemble__DecisionTreeClassifier.json"
+}

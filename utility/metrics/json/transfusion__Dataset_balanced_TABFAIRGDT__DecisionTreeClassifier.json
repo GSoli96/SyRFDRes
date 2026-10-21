@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9066666666666666,
+  "balanced_accuracy": 0.880210618692409,
+  "precision": 0.7857142857142857,
+  "recall": 0.8301886792452831,
+  "f1": 0.8073394495412844,
+  "mcc": 0.7463096032027071,
+  "roc_auc": 0.9662681000438789,
+  "pr_auc": 0.9164627428883274,
+  "confusion_matrix": [
+    [
+      160,
+      12
+    ],
+    [
+      9,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.93      0.94       172\n           1       0.79      0.83      0.81        53\n\n    accuracy                           0.91       225\n   macro avg       0.87      0.88      0.87       225\nweighted avg       0.91      0.91      0.91       225\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.7555274014031271,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7248842000262812,
+  "prediction_time_seconds": 0.0021784999989904463,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.json"
+}

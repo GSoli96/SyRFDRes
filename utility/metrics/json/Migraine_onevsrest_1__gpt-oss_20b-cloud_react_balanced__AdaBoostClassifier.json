@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9385964912280702,
+  "balanced_accuracy": 0.9635416666666667,
+  "precision": 0.72,
+  "recall": 1.0,
+  "f1": 0.8372093023255814,
+  "mcc": 0.8170067319184096,
+  "roc_auc": 0.998263888888889,
+  "pr_auc": 0.9913580246913581,
+  "confusion_matrix": [
+    [
+      89,
+      7
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96        96\n           1       0.72      1.00      0.84        18\n\n    accuracy                           0.94       114\n   macro avg       0.86      0.96      0.90       114\nweighted avg       0.96      0.94      0.94       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8290675105716737,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.117343799996888,
+  "prediction_time_seconds": 0.014740700018592179,
+  "n_train_samples": 1011,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.json"
+}

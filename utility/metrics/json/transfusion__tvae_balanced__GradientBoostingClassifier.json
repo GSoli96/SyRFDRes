@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "tvae__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8133333333333334,
+  "balanced_accuracy": 0.7277863097849935,
+  "precision": 0.6122448979591837,
+  "recall": 0.5660377358490566,
+  "f1": 0.5882352941176471,
+  "mcc": 0.4683876105773561,
+  "roc_auc": 0.8053422553751646,
+  "pr_auc": 0.5903411764480238,
+  "confusion_matrix": [
+    [
+      153,
+      19
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.89      0.88       172\n           1       0.61      0.57      0.59        53\n\n    accuracy                           0.81       225\n   macro avg       0.74      0.73      0.73       225\nweighted avg       0.81      0.81      0.81       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8422029785776276,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.463186199980555,
+  "prediction_time_seconds": 0.002604100009193644,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__tvae_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__tvae_balanced__GradientBoostingClassifier.json"
+}

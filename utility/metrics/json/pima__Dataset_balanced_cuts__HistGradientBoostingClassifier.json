@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.987012987012987,
+  "balanced_accuracy": 0.9841887417218542,
+  "precision": 0.9873417721518988,
+  "recall": 0.975,
+  "f1": 0.9811320754716981,
+  "mcc": 0.9712763415334623,
+  "roc_auc": 0.9990066225165563,
+  "pr_auc": 0.9980963978375578,
+  "confusion_matrix": [
+    [
+      150,
+      1
+    ],
+    [
+      2,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       151\n           1       0.99      0.97      0.98        80\n\n    accuracy                           0.99       231\n   macro avg       0.99      0.98      0.99       231\nweighted avg       0.99      0.99      0.99       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8062722783130866,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.611349700018764,
+  "prediction_time_seconds": 0.004718099982710555,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_cuts__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_cuts__HistGradientBoostingClassifier.json"
+}

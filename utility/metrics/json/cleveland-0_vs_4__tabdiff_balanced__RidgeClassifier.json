@@ -1,0 +1,35 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "tabdiff__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8867924528301887,
+  "balanced_accuracy": 0.9387755102040816,
+  "precision": 0.4,
+  "recall": 1.0,
+  "f1": 0.5714285714285714,
+  "mcc": 0.5924697529522206,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      43,
+      6
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.88      0.93        49\n           1       0.40      1.00      0.57         4\n\n    accuracy                           0.89        53\n   macro avg       0.70      0.94      0.75        53\nweighted avg       0.95      0.89      0.91        53\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9221264834597818,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3395771000068635,
+  "prediction_time_seconds": 0.0038176000234670937,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__tabdiff_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__tabdiff_balanced__RidgeClassifier.json"
+}

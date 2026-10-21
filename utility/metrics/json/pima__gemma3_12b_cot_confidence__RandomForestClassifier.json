@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9090909090909091,
+  "balanced_accuracy": 0.8863824503311258,
+  "precision": 0.9154929577464789,
+  "recall": 0.8125,
+  "f1": 0.8609271523178808,
+  "mcc": 0.7968777290857504,
+  "roc_auc": 0.9709437086092716,
+  "pr_auc": 0.951790720516364,
+  "confusion_matrix": [
+    [
+      145,
+      6
+    ],
+    [
+      15,
+      65
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.96      0.93       151\n           1       0.92      0.81      0.86        80\n\n    accuracy                           0.91       231\n   macro avg       0.91      0.89      0.90       231\nweighted avg       0.91      0.91      0.91       231\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8185645135582315,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 19.842459499981487,
+  "prediction_time_seconds": 0.006881400011479855,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_confidence__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_confidence__RandomForestClassifier.json"
+}

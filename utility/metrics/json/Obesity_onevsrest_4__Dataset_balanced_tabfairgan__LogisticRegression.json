@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LogisticRegression",
+  "accuracy": 0.7049441786283892,
+  "balanced_accuracy": 0.6440065681444992,
+  "precision": 0.29591836734693877,
+  "recall": 0.5523809523809524,
+  "f1": 0.3853820598006645,
+  "mcc": 0.23199334491954962,
+  "roc_auc": 0.6931216931216931,
+  "pr_auc": 0.26164764868974744,
+  "confusion_matrix": [
+    [
+      384,
+      138
+    ],
+    [
+      47,
+      58
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.74      0.81       522\n           1       0.30      0.55      0.39       105\n\n    accuracy                           0.70       627\n   macro avg       0.59      0.64      0.60       627\nweighted avg       0.79      0.70      0.74       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7664509960887446,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.37654070000280626,
+  "prediction_time_seconds": 0.002245700015919283,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__Dataset_balanced_tabfairgan__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__Dataset_balanced_tabfairgan__LogisticRegression.json"
+}

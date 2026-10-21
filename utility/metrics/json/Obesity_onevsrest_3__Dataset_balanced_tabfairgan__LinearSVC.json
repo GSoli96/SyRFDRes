@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LinearSVC",
+  "accuracy": 0.748006379585327,
+  "balanced_accuracy": 0.7090676883780331,
+  "precision": 0.3081081081081081,
+  "recall": 0.6551724137931034,
+  "f1": 0.41911764705882354,
+  "mcc": 0.3169395378834809,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      412,
+      128
+    ],
+    [
+      30,
+      57
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.76      0.84       540\n           1       0.31      0.66      0.42        87\n\n    accuracy                           0.75       627\n   macro avg       0.62      0.71      0.63       627\nweighted avg       0.85      0.75      0.78       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.777624166827489,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3702259999990929,
+  "prediction_time_seconds": 0.0029476000054273754,
+  "n_train_samples": 3594,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__Dataset_balanced_tabfairgan__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__Dataset_balanced_tabfairgan__LinearSVC.json"
+}

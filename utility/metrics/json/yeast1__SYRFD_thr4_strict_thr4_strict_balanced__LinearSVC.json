@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr4_strict__thr4_strict_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.6921348314606741,
+  "balanced_accuracy": 0.7052423707192621,
+  "precision": 0.4797979797979798,
+  "recall": 0.7364341085271318,
+  "f1": 0.581039755351682,
+  "mcc": 0.3747609600457233,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      213,
+      103
+    ],
+    [
+      34,
+      95
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.67      0.76       316\n           1       0.48      0.74      0.58       129\n\n    accuracy                           0.69       445\n   macro avg       0.67      0.71      0.67       445\nweighted avg       0.75      0.69      0.71       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7122536529231477,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27632740000262856,
+  "prediction_time_seconds": 0.0019583000103011727,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr4_strict_thr4_strict_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr4_strict_thr4_strict_balanced__LinearSVC.json"
+}

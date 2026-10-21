@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7445887445887446,
+  "balanced_accuracy": 0.7135347682119206,
+  "precision": 0.6363636363636364,
+  "recall": 0.6125,
+  "f1": 0.6242038216560509,
+  "mcc": 0.43104869809854474,
+  "roc_auc": 0.8325331125827814,
+  "pr_auc": 0.7034080478614728,
+  "confusion_matrix": [
+    [
+      123,
+      28
+    ],
+    [
+      31,
+      49
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.80      0.81      0.81       151\n           1       0.64      0.61      0.62        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.71      0.72       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7338964119847933,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.341071800008649,
+  "prediction_time_seconds": 0.0024261999933514744,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr8_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr8_balanced__LogisticRegression.json"
+}

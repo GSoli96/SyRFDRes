@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "LogisticRegression",
+  "accuracy": 0.9210526315789473,
+  "balanced_accuracy": 0.9062813230872034,
+  "precision": 0.9210526315789473,
+  "recall": 0.8536585365853658,
+  "f1": 0.8860759493670886,
+  "mcc": 0.8272020798988444,
+  "roc_auc": 0.9077848312729703,
+  "pr_auc": 0.9148372185166603,
+  "confusion_matrix": [
+    [
+      70,
+      3
+    ],
+    [
+      6,
+      35
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.96      0.94        73\n           1       0.92      0.85      0.89        41\n\n    accuracy                           0.92       114\n   macro avg       0.92      0.91      0.91       114\nweighted avg       0.92      0.92      0.92       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9325130422196629,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2900406999979168,
+  "prediction_time_seconds": 0.0028292999777477235,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__Dataset_balanced_fsmote__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__Dataset_balanced_fsmote__LogisticRegression.json"
+}

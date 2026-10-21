@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "casTGAN__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.755056179775281,
+  "balanced_accuracy": 0.6922039054067315,
+  "precision": 0.5833333333333334,
+  "recall": 0.5426356589147286,
+  "f1": 0.5622489959839357,
+  "mcc": 0.39300519979097304,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      266,
+      50
+    ],
+    [
+      59,
+      70
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.84      0.83       316\n           1       0.58      0.54      0.56       129\n\n    accuracy                           0.76       445\n   macro avg       0.70      0.69      0.70       445\nweighted avg       0.75      0.76      0.75       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6603577190580132,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2733806000032928,
+  "prediction_time_seconds": 0.002310399984708056,
+  "n_train_samples": 1742,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__casTGAN_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__casTGAN_balanced__LinearSVC.json"
+}

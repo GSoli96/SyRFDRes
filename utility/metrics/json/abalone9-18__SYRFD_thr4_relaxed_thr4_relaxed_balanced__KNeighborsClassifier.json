@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9406392694063926,
+  "balanced_accuracy": 0.8603435399551904,
+  "precision": 0.5,
+  "recall": 0.7692307692307693,
+  "f1": 0.6060606060606061,
+  "mcc": 0.5911674133524342,
+  "roc_auc": 0.9809559372666169,
+  "pr_auc": 0.8503118503118503,
+  "confusion_matrix": [
+    [
+      196,
+      10
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.95      0.97       206\n           1       0.50      0.77      0.61        13\n\n    accuracy                           0.94       219\n   macro avg       0.74      0.86      0.79       219\nweighted avg       0.96      0.94      0.95       219\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9441966041978631,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.7214903000276536,
+  "prediction_time_seconds": 0.03120399999897927,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr4_relaxed_thr4_relaxed_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr4_relaxed_thr4_relaxed_balanced__KNeighborsClassifier.json"
+}

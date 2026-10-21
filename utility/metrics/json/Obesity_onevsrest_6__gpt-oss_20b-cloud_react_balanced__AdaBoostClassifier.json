@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_6",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9633173843700159,
+  "balanced_accuracy": 0.9783018867924529,
+  "precision": 0.8083333333333333,
+  "recall": 1.0,
+  "f1": 0.8940092165898618,
+  "mcc": 0.8793490302383531,
+  "roc_auc": 0.9992802956623226,
+  "pr_auc": 0.9962739655735411,
+  "confusion_matrix": [
+    [
+      507,
+      23
+    ],
+    [
+      0,
+      97
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       530\n           1       0.81      1.00      0.89        97\n\n    accuracy                           0.96       627\n   macro avg       0.90      0.98      0.94       627\nweighted avg       0.97      0.96      0.96       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.940945790586385,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.481511599995429,
+  "prediction_time_seconds": 0.023545899981399998,
+  "n_train_samples": 5605,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_6__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_6__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.json"
+}

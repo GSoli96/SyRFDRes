@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma4_31b-cloud__cot_react",
+  "model": "LogisticRegression",
+  "accuracy": 0.9629629629629629,
+  "balanced_accuracy": 0.9296296296296296,
+  "precision": 0.75,
+  "recall": 0.8888888888888888,
+  "f1": 0.8135593220338984,
+  "mcc": 0.7966912709023963,
+  "roc_auc": 0.992318244170096,
+  "pr_auc": 0.9411165554854795,
+  "confusion_matrix": [
+    [
+      262,
+      8
+    ],
+    [
+      3,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       270\n           1       0.75      0.89      0.81        27\n\n    accuracy                           0.96       297\n   macro avg       0.87      0.93      0.90       297\nweighted avg       0.97      0.96      0.96       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9643266477752558,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.37294489998021163,
+  "prediction_time_seconds": 0.0019224999996367842,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma4_31b-cloud_cot_react__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma4_31b-cloud_cot_react__LogisticRegression.json"
+}

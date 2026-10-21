@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8943820224719101,
+  "balanced_accuracy": 0.6366470830756545,
+  "precision": 0.5357142857142857,
+  "recall": 0.30612244897959184,
+  "f1": 0.38961038961038963,
+  "mcc": 0.3523132291494938,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      383,
+      13
+    ],
+    [
+      34,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.97      0.94       396\n           1       0.54      0.31      0.39        49\n\n    accuracy                           0.89       445\n   macro avg       0.73      0.64      0.67       445\nweighted avg       0.88      0.89      0.88       445\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.4064219065975137,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2687648000137415,
+  "prediction_time_seconds": 0.002207200013799593,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__devstral-small-2_24b-cloud_ensemble_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__devstral-small-2_24b-cloud_ensemble_balanced__LinearSVC.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7415730337078652,
+  "balanced_accuracy": 0.6047247571386517,
+  "precision": 0.6206896551724138,
+  "recall": 0.27906976744186046,
+  "f1": 0.3850267379679144,
+  "mcc": 0.2822593094663732,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      294,
+      22
+    ],
+    [
+      93,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.76      0.93      0.84       316\n           1       0.62      0.28      0.39       129\n\n    accuracy                           0.74       445\n   macro avg       0.69      0.60      0.61       445\nweighted avg       0.72      0.74      0.71       445\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.3999172351923085,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.19051819999003783,
+  "prediction_time_seconds": 0.0017542999994475394,
+  "n_train_samples": 1483,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_variable_relaxed_variable_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_variable_relaxed_variable_relaxed_balanced__RidgeClassifier.json"
+}

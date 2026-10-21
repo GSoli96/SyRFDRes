@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9124579124579124,
+  "balanced_accuracy": 0.9518518518518518,
+  "precision": 0.5094339622641509,
+  "recall": 1.0,
+  "f1": 0.675,
+  "mcc": 0.6785111336526218,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      244,
+      26
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95       270\n           1       0.51      1.00      0.68        27\n\n    accuracy                           0.91       297\n   macro avg       0.75      0.95      0.81       297\nweighted avg       0.96      0.91      0.92       297\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 0.9434681161409341,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21345879998989403,
+  "prediction_time_seconds": 0.002492500003427267,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.json"
+}

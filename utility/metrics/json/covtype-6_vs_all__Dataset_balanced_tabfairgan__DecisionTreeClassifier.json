@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-6_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9659273453277033,
+  "balanced_accuracy": 0.8019947938870875,
+  "precision": 0.44985555096987206,
+  "recall": 0.6276391554702495,
+  "f1": 0.5240804551646766,
+  "mcc": 0.5144833651291651,
+  "roc_auc": 0.8019947938870875,
+  "pr_auc": 0.2934769378997318,
+  "confusion_matrix": [
+    [
+      165095,
+      3999
+    ],
+    [
+      1940,
+      3270
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.98      0.98    169094\n           1       0.45      0.63      0.52      5210\n\n    accuracy                           0.97    174304\n   macro avg       0.72      0.80      0.75    174304\nweighted avg       0.97      0.97      0.97    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9731214005067252,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.202019799995469,
+  "prediction_time_seconds": 0.029136599972844124,
+  "n_train_samples": 77704,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-6_vs_all__Dataset_balanced_tabfairgan__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-6_vs_all__Dataset_balanced_tabfairgan__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9595505617977528,
+  "balanced_accuracy": 0.9302325581395349,
+  "precision": 1.0,
+  "recall": 0.8604651162790697,
+  "f1": 0.925,
+  "mcc": 0.9022708821318972,
+  "roc_auc": 0.9999264056520459,
+  "pr_auc": 0.9998238195912614,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      18,
+      111
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      1.00      0.97       316\n           1       1.00      0.86      0.93       129\n\n    accuracy                           0.96       445\n   macro avg       0.97      0.93      0.95       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.815049672229696,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.825658699992346,
+  "prediction_time_seconds": 0.031901100010145456,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_prefair__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_prefair__ExtraTreesClassifier.json"
+}

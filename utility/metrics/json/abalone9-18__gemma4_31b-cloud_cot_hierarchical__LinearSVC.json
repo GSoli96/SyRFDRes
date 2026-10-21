@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.8904109589041096,
+  "balanced_accuracy": 0.833644510828977,
+  "precision": 0.3225806451612903,
+  "recall": 0.7692307692307693,
+  "f1": 0.45454545454545453,
+  "mcc": 0.4523342724650201,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      185,
+      21
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.90      0.94       206\n           1       0.32      0.77      0.45        13\n\n    accuracy                           0.89       219\n   macro avg       0.65      0.83      0.70       219\nweighted avg       0.94      0.89      0.91       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9057133930978507,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5611013000016101,
+  "prediction_time_seconds": 0.00531310000224039,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_cot_hierarchical__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "original",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9464240102171138,
+  "precision": 0.975,
+  "recall": 0.896551724137931,
+  "f1": 0.9341317365269461,
+  "mcc": 0.9251142903988347,
+  "roc_auc": 0.9949127288207749,
+  "pr_auc": 0.9770747115260208,
+  "confusion_matrix": [
+    [
+      538,
+      2
+    ],
+    [
+      9,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       540\n           1       0.97      0.90      0.93        87\n\n    accuracy                           0.98       627\n   macro avg       0.98      0.95      0.96       627\nweighted avg       0.98      0.98      0.98       627\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8451636367827966,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.266338299989002,
+  "prediction_time_seconds": 0.028389700019033626,
+  "n_train_samples": 1460,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__original__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__original__ExtraTreesClassifier.json"
+}

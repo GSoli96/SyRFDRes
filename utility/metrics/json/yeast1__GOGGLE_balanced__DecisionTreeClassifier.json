@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.851685393258427,
+  "balanced_accuracy": 0.7831787852026297,
+  "precision": 0.8247422680412371,
+  "recall": 0.6201550387596899,
+  "f1": 0.7079646017699115,
+  "mcc": 0.6223771182188861,
+  "roc_auc": 0.904633990776175,
+  "pr_auc": 0.8139509751681933,
+  "confusion_matrix": [
+    [
+      299,
+      17
+    ],
+    [
+      49,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.95      0.90       316\n           1       0.82      0.62      0.71       129\n\n    accuracy                           0.85       445\n   macro avg       0.84      0.78      0.80       445\nweighted avg       0.85      0.85      0.84       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8196995975959906,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7632336000096984,
+  "prediction_time_seconds": 0.0015639000048395246,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__GOGGLE_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__GOGGLE_balanced__DecisionTreeClassifier.json"
+}

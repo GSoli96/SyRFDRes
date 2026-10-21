@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8038277511961722,
+  "balanced_accuracy": 0.7808500914076782,
+  "precision": 0.36809815950920244,
+  "recall": 0.75,
+  "f1": 0.49382716049382713,
+  "mcc": 0.42725822252332524,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      444,
+      103
+    ],
+    [
+      20,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.81      0.88       547\n           1       0.37      0.75      0.49        80\n\n    accuracy                           0.80       627\n   macro avg       0.66      0.78      0.69       627\nweighted avg       0.88      0.80      0.83       627\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.8342258236356447,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2202996000123676,
+  "prediction_time_seconds": 0.00199570000404492,
+  "n_train_samples": 3640,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__gemma4_31b-cloud_cot_ensemble__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__gemma4_31b-cloud_cot_ensemble__RidgeClassifier.json"
+}

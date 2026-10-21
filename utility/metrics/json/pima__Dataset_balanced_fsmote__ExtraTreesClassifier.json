@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9177489177489178,
+  "balanced_accuracy": 0.8841887417218544,
+  "precision": 0.9841269841269841,
+  "recall": 0.775,
+  "f1": 0.8671328671328671,
+  "mcc": 0.820886628294152,
+  "roc_auc": 0.984023178807947,
+  "pr_auc": 0.9746155265296369,
+  "confusion_matrix": [
+    [
+      150,
+      1
+    ],
+    [
+      18,
+      62
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.99      0.94       151\n           1       0.98      0.78      0.87        80\n\n    accuracy                           0.92       231\n   macro avg       0.94      0.88      0.90       231\nweighted avg       0.92      0.92      0.92       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8254220768034424,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.637126100016758,
+  "prediction_time_seconds": 0.02342259997385554,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_fsmote__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_fsmote__ExtraTreesClassifier.json"
+}

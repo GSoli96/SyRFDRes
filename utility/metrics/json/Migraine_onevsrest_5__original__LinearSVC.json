@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "original",
+  "model": "LinearSVC",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.7363636363636363,
+  "precision": 0.4,
+  "recall": 0.5,
+  "f1": 0.4444444444444444,
+  "mcc": 0.42475524031903605,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      107,
+      3
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.98       110\n           1       0.40      0.50      0.44         4\n\n    accuracy                           0.96       114\n   macro avg       0.69      0.74      0.71       114\nweighted avg       0.96      0.96      0.96       114\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.5333333333333333,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.28852530001313426,
+  "prediction_time_seconds": 0.001731700001982972,
+  "n_train_samples": 263,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__original__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__original__LinearSVC.json"
+}

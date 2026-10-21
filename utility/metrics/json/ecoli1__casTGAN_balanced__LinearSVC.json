@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "casTGAN__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8316831683168316,
+  "balanced_accuracy": 0.7837235228539576,
+  "precision": 0.6153846153846154,
+  "recall": 0.6956521739130435,
+  "f1": 0.6530612244897959,
+  "mcc": 0.5442760859233388,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      68,
+      10
+    ],
+    [
+      7,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.87      0.89        78\n           1       0.62      0.70      0.65        23\n\n    accuracy                           0.83       101\n   macro avg       0.76      0.78      0.77       101\nweighted avg       0.84      0.83      0.84       101\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8060299869621904,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2500257999927271,
+  "prediction_time_seconds": 0.0024668000114616007,
+  "n_train_samples": 382,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__casTGAN_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__casTGAN_balanced__LinearSVC.json"
+}

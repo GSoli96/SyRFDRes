@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "original",
+  "model": "MLPClassifier",
+  "accuracy": 0.7528089887640449,
+  "balanced_accuracy": 0.6493351977234815,
+  "precision": 0.611764705882353,
+  "recall": 0.40310077519379844,
+  "f1": 0.48598130841121495,
+  "mcc": 0.34472268216672575,
+  "roc_auc": 0.7801000883132176,
+  "pr_auc": 0.5690709947142227,
+  "confusion_matrix": [
+    [
+      283,
+      33
+    ],
+    [
+      77,
+      52
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.90      0.84       316\n           1       0.61      0.40      0.49       129\n\n    accuracy                           0.75       445\n   macro avg       0.70      0.65      0.66       445\nweighted avg       0.74      0.75      0.74       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.563686178565868,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 34.88280280001345,
+  "prediction_time_seconds": 0.003194899996742606,
+  "n_train_samples": 1038,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__original__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__original__MLPClassifier.json"
+}

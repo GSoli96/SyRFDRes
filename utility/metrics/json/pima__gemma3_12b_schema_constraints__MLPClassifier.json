@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "MLPClassifier",
+  "accuracy": 0.8398268398268398,
+  "balanced_accuracy": 0.815769867549669,
+  "precision": 0.7866666666666666,
+  "recall": 0.7375,
+  "f1": 0.7612903225806451,
+  "mcc": 0.6417135606622711,
+  "roc_auc": 0.9106788079470198,
+  "pr_auc": 0.8382608980750559,
+  "confusion_matrix": [
+    [
+      135,
+      16
+    ],
+    [
+      21,
+      59
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.89      0.88       151\n           1       0.79      0.74      0.76        80\n\n    accuracy                           0.84       231\n   macro avg       0.83      0.82      0.82       231\nweighted avg       0.84      0.84      0.84       231\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.8052329941797547,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 30.88885049999226,
+  "prediction_time_seconds": 0.0030928000051062554,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_schema_constraints__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_schema_constraints__MLPClassifier.json"
+}

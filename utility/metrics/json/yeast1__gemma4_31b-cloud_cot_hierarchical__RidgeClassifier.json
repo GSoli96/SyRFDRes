@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "RidgeClassifier",
+  "accuracy": 0.6808988764044944,
+  "balanced_accuracy": 0.5688843096850162,
+  "precision": 0.42857142857142855,
+  "recall": 0.3023255813953488,
+  "f1": 0.35454545454545455,
+  "mcc": 0.1549766880434163,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      264,
+      52
+    ],
+    [
+      90,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.75      0.84      0.79       316\n           1       0.43      0.30      0.35       129\n\n    accuracy                           0.68       445\n   macro avg       0.59      0.57      0.57       445\nweighted avg       0.65      0.68      0.66       445\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.764590131302276,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.15718499998911284,
+  "prediction_time_seconds": 0.0017186999903060496,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_hierarchical__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_hierarchical__RidgeClassifier.json"
+}

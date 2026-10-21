@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9545454545454546,
+  "balanced_accuracy": 0.9550050556117291,
+  "precision": 0.9166666666666666,
+  "recall": 0.9565217391304348,
+  "f1": 0.9361702127659575,
+  "mcc": 0.9013928266178335,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      41,
+      2
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.95      0.96        43\n           1       0.92      0.96      0.94        23\n\n    accuracy                           0.95        66\n   macro avg       0.95      0.96      0.95        66\nweighted avg       0.96      0.95      0.95        66\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8546862253542118,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4584205000428483,
+  "prediction_time_seconds": 0.0076824999414384365,
+  "n_train_samples": 503,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.json"
+}

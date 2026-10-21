@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7775280898876404,
+  "balanced_accuracy": 0.685089785104504,
+  "precision": 0.6666666666666666,
+  "recall": 0.46511627906976744,
+  "f1": 0.547945205479452,
+  "mcc": 0.41813393165699897,
+  "roc_auc": 0.8003753311745658,
+  "pr_auc": 0.5599793900714956,
+  "confusion_matrix": [
+    [
+      286,
+      30
+    ],
+    [
+      69,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.91      0.85       316\n           1       0.67      0.47      0.55       129\n\n    accuracy                           0.78       445\n   macro avg       0.74      0.69      0.70       445\nweighted avg       0.77      0.78      0.76       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8193503703657617,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8106876000238117,
+  "prediction_time_seconds": 0.0024744000111240894,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_cuts__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_cuts__DecisionTreeClassifier.json"
+}

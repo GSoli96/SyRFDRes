@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9108910891089109,
+  "balanced_accuracy": 0.9269788182831662,
+  "precision": 0.7333333333333333,
+  "recall": 0.9565217391304348,
+  "f1": 0.8301886792452831,
+  "mcc": 0.7837142513714032,
+  "roc_auc": 0.9827201783723524,
+  "pr_auc": 0.9428373037068689,
+  "confusion_matrix": [
+    [
+      70,
+      8
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.90      0.94        78\n           1       0.73      0.96      0.83        23\n\n    accuracy                           0.91       101\n   macro avg       0.86      0.93      0.88       101\nweighted avg       0.93      0.91      0.91       101\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.7760608813842287,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.06889730002149,
+  "prediction_time_seconds": 0.011627400002907962,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_120b-cloud_ensemble_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_120b-cloud_ensemble_balanced__AdaBoostClassifier.json"
+}

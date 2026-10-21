@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "LinearSVC",
+  "accuracy": 0.6168647879566734,
+  "balanced_accuracy": 0.6164565465660479,
+  "precision": 0.608665552637861,
+  "recall": 0.6,
+  "f1": 0.6043017123896427,
+  "mcc": 0.23301589204227655,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      56528,
+      32786
+    ],
+    [
+      33996,
+      50994
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.62      0.63      0.63     89314\n           1       0.61      0.60      0.60     84990\n\n    accuracy                           0.62    174304\n   macro avg       0.62      0.62      0.62    174304\nweighted avg       0.62      0.62      0.62    174304\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6090591098452082,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.6756524000084028,
+  "prediction_time_seconds": 0.034457000001566485,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_tabularargn__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_tabularargn__LinearSVC.json"
+}

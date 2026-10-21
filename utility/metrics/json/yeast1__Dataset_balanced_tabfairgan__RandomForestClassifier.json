@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.903370786516854,
+  "balanced_accuracy": 0.8585639289569228,
+  "precision": 0.8981481481481481,
+  "recall": 0.751937984496124,
+  "f1": 0.8185654008438819,
+  "mcc": 0.7589412564267053,
+  "roc_auc": 0.9621479737022864,
+  "pr_auc": 0.9163890545230615,
+  "confusion_matrix": [
+    [
+      305,
+      11
+    ],
+    [
+      32,
+      97
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.97      0.93       316\n           1       0.90      0.75      0.82       129\n\n    accuracy                           0.90       445\n   macro avg       0.90      0.86      0.88       445\nweighted avg       0.90      0.90      0.90       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8317601379218642,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 22.7167617000232,
+  "prediction_time_seconds": 0.029167999979108572,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_tabfairgan__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_tabfairgan__RandomForestClassifier.json"
+}

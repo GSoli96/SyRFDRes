@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9629629629629629,
+  "balanced_accuracy": 0.9796296296296296,
+  "precision": 0.7105263157894737,
+  "recall": 1.0,
+  "f1": 0.8307692307692308,
+  "mcc": 0.8255779474818965,
+  "roc_auc": 0.9990397805212621,
+  "pr_auc": 0.9911680911680909,
+  "confusion_matrix": [
+    [
+      259,
+      11
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       270\n           1       0.71      1.00      0.83        27\n\n    accuracy                           0.96       297\n   macro avg       0.86      0.98      0.90       297\nweighted avg       0.97      0.96      0.97       297\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.938249614589075,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.574017900013132,
+  "prediction_time_seconds": 0.03047379999770783,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__Dataset_balanced_prefair__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__Dataset_balanced_prefair__AdaBoostClassifier.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "MLPClassifier",
+  "accuracy": 0.8320463098953552,
+  "balanced_accuracy": 0.831764448903985,
+  "precision": 0.8326785053202288,
+  "recall": 0.8204024002823862,
+  "f1": 0.8264948704119672,
+  "mcc": 0.6638345265353551,
+  "roc_auc": 0.9137211834173626,
+  "pr_auc": 0.9037660184564315,
+  "confusion_matrix": [
+    [
+      75303,
+      14011
+    ],
+    [
+      15264,
+      69726
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.84      0.84     89314\n           1       0.83      0.82      0.83     84990\n\n    accuracy                           0.83    174304\n   macro avg       0.83      0.83      0.83    174304\nweighted avg       0.83      0.83      0.83    174304\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8214133945081601,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 892.9812389000144,
+  "prediction_time_seconds": 0.12256259997957386,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_fsmote__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_fsmote__MLPClassifier.json"
+}

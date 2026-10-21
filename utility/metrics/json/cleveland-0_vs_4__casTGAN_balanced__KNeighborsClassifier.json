@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "casTGAN__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9622641509433962,
+  "balanced_accuracy": 0.75,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6931032800836721,
+  "roc_auc": 0.9974489795918368,
+  "pr_auc": 0.95,
+  "confusion_matrix": [
+    [
+      49,
+      0
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      1.00      0.98        49\n           1       1.00      0.50      0.67         4\n\n    accuracy                           0.96        53\n   macro avg       0.98      0.75      0.82        53\nweighted avg       0.96      0.96      0.96        53\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.6333333333333333,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0482937000342645,
+  "prediction_time_seconds": 0.010491500026546419,
+  "n_train_samples": 180,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__casTGAN_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__casTGAN_balanced__KNeighborsClassifier.json"
+}

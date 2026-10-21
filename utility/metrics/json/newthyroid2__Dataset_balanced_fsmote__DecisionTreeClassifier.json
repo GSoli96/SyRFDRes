@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9692307692307692,
+  "balanced_accuracy": 0.9452861952861953,
+  "precision": 0.9090909090909091,
+  "recall": 0.9090909090909091,
+  "f1": 0.9090909090909091,
+  "mcc": 0.8905723905723906,
+  "roc_auc": 0.9983164983164984,
+  "pr_auc": 0.9924242424242424,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        54\n           1       0.91      0.91      0.91        11\n\n    accuracy                           0.97        65\n   macro avg       0.95      0.95      0.95        65\nweighted avg       0.97      0.97      0.97        65\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9862252663622527,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5914099999936298,
+  "prediction_time_seconds": 0.002351699979044497,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__Dataset_balanced_fsmote__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__Dataset_balanced_fsmote__DecisionTreeClassifier.json"
+}

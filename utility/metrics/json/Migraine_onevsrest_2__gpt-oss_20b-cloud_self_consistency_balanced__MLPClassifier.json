@@ -1,0 +1,39 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9473684210526315,
+  "balanced_accuracy": 0.9719626168224299,
+  "precision": 0.5384615384615384,
+  "recall": 1.0,
+  "f1": 0.7,
+  "mcc": 0.7129287716883632,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      101,
+      6
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97       107\n           1       0.54      1.00      0.70         7\n\n    accuracy                           0.95       114\n   macro avg       0.77      0.97      0.84       114\nweighted avg       0.97      0.95      0.95       114\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.7976315395371006,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 36.11860549999983,
+  "prediction_time_seconds": 0.002729600004386157,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gpt-oss_20b-cloud_self_consistency_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gpt-oss_20b-cloud_self_consistency_balanced__MLPClassifier.json"
+}

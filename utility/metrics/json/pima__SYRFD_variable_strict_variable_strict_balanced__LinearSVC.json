@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7662337662337663,
+  "balanced_accuracy": 0.7359685430463576,
+  "precision": 0.6710526315789473,
+  "recall": 0.6375,
+  "f1": 0.6538461538461539,
+  "mcc": 0.4779086912078152,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      126,
+      25
+    ],
+    [
+      29,
+      51
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.83      0.82       151\n           1       0.67      0.64      0.65        80\n\n    accuracy                           0.77       231\n   macro avg       0.74      0.74      0.74       231\nweighted avg       0.76      0.77      0.76       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7531258531041963,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2578528000158258,
+  "prediction_time_seconds": 0.0023797999892849475,
+  "n_train_samples": 952,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_variable_strict_variable_strict_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_variable_strict_variable_strict_balanced__LinearSVC.json"
+}

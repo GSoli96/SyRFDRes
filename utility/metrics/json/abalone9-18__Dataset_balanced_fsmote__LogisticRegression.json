@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "LogisticRegression",
+  "accuracy": 0.9406392694063926,
+  "balanced_accuracy": 0.8243091859596714,
+  "precision": 0.5,
+  "recall": 0.6923076923076923,
+  "f1": 0.5806451612903226,
+  "mcc": 0.5580334736041996,
+  "roc_auc": 0.931665421956684,
+  "pr_auc": 0.6567098836835679,
+  "confusion_matrix": [
+    [
+      197,
+      9
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       206\n           1       0.50      0.69      0.58        13\n\n    accuracy                           0.94       219\n   macro avg       0.74      0.82      0.77       219\nweighted avg       0.95      0.94      0.95       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9474800520167033,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6841925000189804,
+  "prediction_time_seconds": 0.005775999976322055,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_fsmote__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_fsmote__LogisticRegression.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "original",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9946071231870754,
+  "balanced_accuracy": 0.9550078468734244,
+  "precision": 0.9333333333333333,
+  "recall": 0.9124004550625711,
+  "f1": 0.9227481919789612,
+  "mcc": 0.9200181307922016,
+  "roc_auc": 0.9862179757648831,
+  "pr_auc": 0.9497414987493474,
+  "confusion_matrix": [
+    [
+      167750,
+      401
+    ],
+    [
+      539,
+      5614
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    168151\n           1       0.93      0.91      0.92      6153\n\n    accuracy                           0.99    174304\n   macro avg       0.97      0.96      0.96    174304\nweighted avg       0.99      0.99      0.99    174304\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.9102126085042741,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 915.3272388000041,
+  "prediction_time_seconds": 25.20619080006145,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__original__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__original__KNeighborsClassifier.json"
+}

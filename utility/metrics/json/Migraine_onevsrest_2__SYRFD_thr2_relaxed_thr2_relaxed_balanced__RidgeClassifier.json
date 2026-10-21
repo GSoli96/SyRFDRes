@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.868421052631579,
+  "balanced_accuracy": 0.9299065420560748,
+  "precision": 0.3181818181818182,
+  "recall": 1.0,
+  "f1": 0.4827586206896552,
+  "mcc": 0.5230457823167302,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      92,
+      15
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.86      0.92       107\n           1       0.32      1.00      0.48         7\n\n    accuracy                           0.87       114\n   macro avg       0.66      0.93      0.70       114\nweighted avg       0.96      0.87      0.90       114\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.9282065670600703,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20572520000860095,
+  "prediction_time_seconds": 0.0017044999985955656,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.json"
+}

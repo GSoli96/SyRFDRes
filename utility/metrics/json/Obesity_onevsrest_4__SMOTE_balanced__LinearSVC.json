@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "SMOTE__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7671451355661882,
+  "balanced_accuracy": 0.7308155446086481,
+  "precision": 0.3879781420765027,
+  "recall": 0.6761904761904762,
+  "f1": 0.4930555555555556,
+  "mcc": 0.3791472588133825,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      410,
+      112
+    ],
+    [
+      34,
+      71
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.79      0.85       522\n           1       0.39      0.68      0.49       105\n\n    accuracy                           0.77       627\n   macro avg       0.66      0.73      0.67       627\nweighted avg       0.83      0.77      0.79       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7353657657056852,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2743518000061158,
+  "prediction_time_seconds": 0.0017669999797362834,
+  "n_train_samples": 3055,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__SMOTE_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__SMOTE_balanced__LinearSVC.json"
+}

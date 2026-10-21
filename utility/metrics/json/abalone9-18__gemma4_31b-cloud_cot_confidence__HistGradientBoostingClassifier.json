@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__cot_confidence",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9954337899543378,
+  "balanced_accuracy": 0.9975728155339806,
+  "precision": 0.9285714285714286,
+  "recall": 1.0,
+  "f1": 0.9629629629629629,
+  "mcc": 0.961282372811128,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      0,
+      13
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       206\n           1       0.93      1.00      0.96        13\n\n    accuracy                           1.00       219\n   macro avg       0.96      1.00      0.98       219\nweighted avg       1.00      1.00      1.00       219\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 10,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9371023574058659,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 21.337423000019044,
+  "prediction_time_seconds": 0.01606810005614534,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_cot_confidence__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_cot_confidence__HistGradientBoostingClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "casTGAN__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.5188679245283019,
+  "precision": 1.0,
+  "recall": 0.03773584905660377,
+  "f1": 0.07272727272727272,
+  "mcc": 0.1706038607396207,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      172,
+      0
+    ],
+    [
+      51,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      1.00      0.87       172\n           1       1.00      0.04      0.07        53\n\n    accuracy                           0.77       225\n   macro avg       0.89      0.52      0.47       225\nweighted avg       0.83      0.77      0.68       225\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.3516650403330731,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20697919998201542,
+  "prediction_time_seconds": 0.0017613999953027815,
+  "n_train_samples": 823,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__casTGAN_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__casTGAN_balanced__RidgeClassifier.json"
+}

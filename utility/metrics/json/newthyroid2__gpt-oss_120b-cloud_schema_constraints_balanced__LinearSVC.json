@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9230769230769231,
+  "balanced_accuracy": 0.9537037037037037,
+  "precision": 0.6875,
+  "recall": 1.0,
+  "f1": 0.8148148148148148,
+  "mcc": 0.7898370671173851,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      49,
+      5
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95        54\n           1       0.69      1.00      0.81        11\n\n    accuracy                           0.92        65\n   macro avg       0.84      0.95      0.88        65\nweighted avg       0.95      0.92      0.93        65\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6276657548236496,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2477280999883078,
+  "prediction_time_seconds": 0.001654799998505041,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gpt-oss_120b-cloud_schema_constraints_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gpt-oss_120b-cloud_schema_constraints_balanced__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9887640449438202,
+  "balanced_accuracy": 0.9758039579468151,
+  "precision": 0.94,
+  "recall": 0.9591836734693877,
+  "f1": 0.9494949494949495,
+  "mcc": 0.9432354812089274,
+  "roc_auc": 0.9988662131519274,
+  "pr_auc": 0.9907474800707003,
+  "confusion_matrix": [
+    [
+      393,
+      3
+    ],
+    [
+      2,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       396\n           1       0.94      0.96      0.95        49\n\n    accuracy                           0.99       445\n   macro avg       0.97      0.98      0.97       445\nweighted avg       0.99      0.99      0.99       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9715029221410063,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 22.724926800001413,
+  "prediction_time_seconds": 0.01236409999546595,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma3_12b_cot_confidence__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma3_12b_cot_confidence__RandomForestClassifier.json"
+}

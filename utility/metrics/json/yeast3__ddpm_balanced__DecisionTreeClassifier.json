@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "ddpm__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9617977528089887,
+  "balanced_accuracy": 0.9159451659451658,
+  "precision": 0.8076923076923077,
+  "recall": 0.8571428571428571,
+  "f1": 0.8316831683168316,
+  "mcc": 0.8106133707662545,
+  "roc_auc": 0.9772727272727273,
+  "pr_auc": 0.8158713786613323,
+  "confusion_matrix": [
+    [
+      386,
+      10
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.98       396\n           1       0.81      0.86      0.83        49\n\n    accuracy                           0.96       445\n   macro avg       0.89      0.92      0.91       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9465471652432645,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8652722999977414,
+  "prediction_time_seconds": 0.0016873999848030508,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__ddpm_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__ddpm_balanced__DecisionTreeClassifier.json"
+}

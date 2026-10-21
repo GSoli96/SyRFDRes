@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7316017316017316,
+  "balanced_accuracy": 0.7006622516556291,
+  "precision": 0.6153846153846154,
+  "recall": 0.6,
+  "f1": 0.6075949367088608,
+  "mcc": 0.4037719332683642,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      121,
+      30
+    ],
+    [
+      32,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.80      0.80       151\n           1       0.62      0.60      0.61        80\n\n    accuracy                           0.73       231\n   macro avg       0.70      0.70      0.70       231\nweighted avg       0.73      0.73      0.73       231\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6363930043623013,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.26628069998696446,
+  "prediction_time_seconds": 0.0025747999898158014,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gpt-oss_120b-cloud_ensemble_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gpt-oss_120b-cloud_ensemble_balanced__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gpt-oss_120b-cloud__hierarchical__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9920255183413078,
+  "balanced_accuracy": 0.9952107279693487,
+  "precision": 0.9545454545454546,
+  "recall": 1.0,
+  "f1": 0.9767441860465116,
+  "mcc": 0.9723180029448055,
+  "roc_auc": 0.9997993066958584,
+  "pr_auc": 0.9989966561763968,
+  "confusion_matrix": [
+    [
+      517,
+      5
+    ],
+    [
+      0,
+      105
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       522\n           1       0.95      1.00      0.98       105\n\n    accuracy                           0.99       627\n   macro avg       0.98      1.00      0.99       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9789467444065476,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 25.813969300012104,
+  "prediction_time_seconds": 0.0028052999987266958,
+  "n_train_samples": 5559,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gpt-oss_120b-cloud_hierarchical_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gpt-oss_120b-cloud_hierarchical_balanced__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9122807017543859,
+  "balanced_accuracy": 0.9532710280373832,
+  "precision": 0.4117647058823529,
+  "recall": 1.0,
+  "f1": 0.5833333333333334,
+  "mcc": 0.6109681031687413,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      97,
+      10
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95       107\n           1       0.41      1.00      0.58         7\n\n    accuracy                           0.91       114\n   macro avg       0.71      0.95      0.77       114\nweighted avg       0.96      0.91      0.93       114\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9451314643892434,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3092461999913212,
+  "prediction_time_seconds": 0.002854599995771423,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__SYRFD_thr8_relaxed_thr8_relaxed_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__SYRFD_thr8_relaxed_thr8_relaxed_balanced__LinearSVC.json"
+}

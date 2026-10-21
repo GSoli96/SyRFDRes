@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "devstral-small-2_24b-cloud__schema_constraints__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8539325842696629,
+  "balanced_accuracy": 0.805404278284761,
+  "precision": 0.7807017543859649,
+  "recall": 0.689922480620155,
+  "f1": 0.7325102880658436,
+  "mcc": 0.6348587156679069,
+  "roc_auc": 0.920775684427436,
+  "pr_auc": 0.8183923342832868,
+  "confusion_matrix": [
+    [
+      291,
+      25
+    ],
+    [
+      40,
+      89
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.92      0.90       316\n           1       0.78      0.69      0.73       129\n\n    accuracy                           0.85       445\n   macro avg       0.83      0.81      0.82       445\nweighted avg       0.85      0.85      0.85       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.796639726315365,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.905623699974967,
+  "prediction_time_seconds": 0.0037543000071309507,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__devstral-small-2_24b-cloud_schema_constraints_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__devstral-small-2_24b-cloud_schema_constraints_balanced__GradientBoostingClassifier.json"
+}

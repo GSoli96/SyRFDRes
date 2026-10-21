@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7466666666666667,
+  "balanced_accuracy": 0.6841816586222027,
+  "precision": 0.46875,
+  "recall": 0.5660377358490566,
+  "f1": 0.5128205128205128,
+  "mcc": 0.3464779558982072,
+  "roc_auc": 0.7602018429135586,
+  "pr_auc": 0.4949166412205792,
+  "confusion_matrix": [
+    [
+      138,
+      34
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.80      0.83       172\n           1       0.47      0.57      0.51        53\n\n    accuracy                           0.75       225\n   macro avg       0.66      0.68      0.67       225\nweighted avg       0.77      0.75      0.75       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.6417068430315194,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.260150799993426,
+  "prediction_time_seconds": 0.010391599993454292,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_react_balanced__AdaBoostClassifier.json"
+}

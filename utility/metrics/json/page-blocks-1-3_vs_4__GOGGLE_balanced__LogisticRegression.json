@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.795774647887324,
+  "balanced_accuracy": 0.539179104477612,
+  "precision": 0.08,
+  "recall": 0.25,
+  "f1": 0.12121212121212122,
+  "mcc": 0.0474371903300188,
+  "roc_auc": 0.8106343283582089,
+  "pr_auc": 0.353426475706197,
+  "confusion_matrix": [
+    [
+      111,
+      23
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.83      0.88       134\n           1       0.08      0.25      0.12         8\n\n    accuracy                           0.80       142\n   macro avg       0.51      0.54      0.50       142\nweighted avg       0.90      0.80      0.84       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9146305857882175,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4013418999966234,
+  "prediction_time_seconds": 0.0024514999822713435,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__GOGGLE_balanced__LogisticRegression.json"
+}

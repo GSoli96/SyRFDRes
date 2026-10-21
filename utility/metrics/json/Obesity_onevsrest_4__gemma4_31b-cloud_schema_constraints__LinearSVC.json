@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "LinearSVC",
+  "accuracy": 0.7894736842105263,
+  "balanced_accuracy": 0.7175971538040504,
+  "precision": 0.4129032258064516,
+  "recall": 0.6095238095238096,
+  "f1": 0.49230769230769234,
+  "mcc": 0.37668320655389853,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      431,
+      91
+    ],
+    [
+      41,
+      64
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.83      0.87       522\n           1       0.41      0.61      0.49       105\n\n    accuracy                           0.79       627\n   macro avg       0.66      0.72      0.68       627\nweighted avg       0.83      0.79      0.80       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8481641868860494,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.36717879999196157,
+  "prediction_time_seconds": 0.003092700004344806,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gemma4_31b-cloud_schema_constraints__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gemma4_31b-cloud_schema_constraints__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.6153846153846154,
+  "precision": 1.0,
+  "recall": 0.23076923076923078,
+  "f1": 0.375,
+  "mcc": 0.4691326785521022,
+  "roc_auc": 0.979462285287528,
+  "pr_auc": 0.6474358974358974,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      10,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      1.00      0.98       206\n           1       1.00      0.23      0.38        13\n\n    accuracy                           0.95       219\n   macro avg       0.98      0.62      0.68       219\nweighted avg       0.96      0.95      0.94       219\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9716629121347393,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.7094286999781616,
+  "prediction_time_seconds": 0.0358358999947086,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_tabfairgan__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_tabfairgan__KNeighborsClassifier.json"
+}

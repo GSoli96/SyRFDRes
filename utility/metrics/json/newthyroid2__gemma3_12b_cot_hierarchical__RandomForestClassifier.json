@@ -1,0 +1,37 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "RandomForestClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        54\n           1       1.00      1.00      1.00        11\n\n    accuracy                           1.00        65\n   macro avg       1.00      1.00      1.00        65\nweighted avg       1.00      1.00      1.00        65\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9971830985915492,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.462144799996167,
+  "prediction_time_seconds": 0.021177199989324436,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma3_12b_cot_hierarchical__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma3_12b_cot_hierarchical__RandomForestClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "MLPClassifier",
+  "accuracy": 0.7913333333333333,
+  "balanced_accuracy": 0.7850916639971415,
+  "precision": 0.8093753625350105,
+  "recall": 0.7115472034594695,
+  "f1": 0.7573150515841202,
+  "mcc": 0.5793022370590696,
+  "roc_auc": 0.8620641948623691,
+  "pr_auc": 0.8658920583217735,
+  "confusion_matrix": [
+    [
+      698631,
+      115021
+    ],
+    [
+      197979,
+      488369
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.86      0.82    813652\n           1       0.81      0.71      0.76    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.79      0.79   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.7799965066739019,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 656.9525741000252,
+  "prediction_time_seconds": 0.8476761000056285,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_fsmote__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_fsmote__MLPClassifier.json"
+}

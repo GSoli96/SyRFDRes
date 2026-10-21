@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "tvae__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9330143540669856,
+  "balanced_accuracy": 0.8684729064039409,
+  "precision": 0.8181818181818182,
+  "recall": 0.7714285714285715,
+  "f1": 0.7941176470588235,
+  "mcc": 0.754624494751408,
+  "roc_auc": 0.9623517606276227,
+  "pr_auc": 0.8142905779917663,
+  "confusion_matrix": [
+    [
+      504,
+      18
+    ],
+    [
+      24,
+      81
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.97      0.96       522\n           1       0.82      0.77      0.79       105\n\n    accuracy                           0.93       627\n   macro avg       0.89      0.87      0.88       627\nweighted avg       0.93      0.93      0.93       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9552650490617474,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.007437599997502,
+  "prediction_time_seconds": 0.033532200002809986,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__tvae_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__tvae_balanced__AdaBoostClassifier.json"
+}

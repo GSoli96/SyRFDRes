@@ -1,0 +1,38 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "MLPClassifier",
+  "accuracy": 0.9696969696969697,
+  "balanced_accuracy": 0.9666329625884732,
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9332659251769464,
+  "roc_auc": 0.9969666329625885,
+  "pr_auc": 0.9946313799621928,
+  "confusion_matrix": [
+    [
+      42,
+      1
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        43\n           1       0.96      0.96      0.96        23\n\n    accuracy                           0.97        66\n   macro avg       0.97      0.97      0.97        66\nweighted avg       0.97      0.97      0.97        66\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.9892185007974481,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.688091900083236,
+  "prediction_time_seconds": 0.006050899974070489,
+  "n_train_samples": 284,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__gemma3_12b_cot_hierarchical__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__gemma3_12b_cot_hierarchical__MLPClassifier.json"
+}

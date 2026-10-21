@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_1",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8859649122807017,
+  "balanced_accuracy": 0.9322916666666667,
+  "precision": 0.5806451612903226,
+  "recall": 1.0,
+  "f1": 0.7346938775510204,
+  "mcc": 0.7085309654716991,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0000000000000002,
+  "confusion_matrix": [
+    [
+      83,
+      13
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.86      0.93        96\n           1       0.58      1.00      0.73        18\n\n    accuracy                           0.89       114\n   macro avg       0.79      0.93      0.83       114\nweighted avg       0.93      0.89      0.90       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8819777023907178,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.9308900000178255,
+  "prediction_time_seconds": 0.018215799995232373,
+  "n_train_samples": 634,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_1__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_1__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8514851485148515,
+  "balanced_accuracy": 0.8118729096989966,
+  "precision": 0.6538461538461539,
+  "recall": 0.7391304347826086,
+  "f1": 0.6938775510204082,
+  "mcc": 0.5982759726406838,
+  "roc_auc": 0.9392419175027871,
+  "pr_auc": 0.8065880534416002,
+  "confusion_matrix": [
+    [
+      69,
+      9
+    ],
+    [
+      6,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.88      0.90        78\n           1       0.65      0.74      0.69        23\n\n    accuracy                           0.85       101\n   macro avg       0.79      0.81      0.80       101\nweighted avg       0.86      0.85      0.85       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7687900709512803,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2877771000203211,
+  "prediction_time_seconds": 0.003037999995285645,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__devstral-small-2_24b-cloud_decision_tree_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__devstral-small-2_24b-cloud_decision_tree_balanced__LogisticRegression.json"
+}

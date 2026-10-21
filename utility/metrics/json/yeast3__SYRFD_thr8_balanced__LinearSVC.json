@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9280898876404494,
+  "balanced_accuracy": 0.9059472273757988,
+  "precision": 0.6231884057971014,
+  "recall": 0.8775510204081632,
+  "f1": 0.7288135593220338,
+  "mcc": 0.7021448912840794,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      370,
+      26
+    ],
+    [
+      6,
+      43
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.93      0.96       396\n           1       0.62      0.88      0.73        49\n\n    accuracy                           0.93       445\n   macro avg       0.80      0.91      0.84       445\nweighted avg       0.94      0.93      0.93       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9285304992031733,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2707732999988366,
+  "prediction_time_seconds": 0.0024441999848932028,
+  "n_train_samples": 2293,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__SYRFD_thr8_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__SYRFD_thr8_balanced__LinearSVC.json"
+}

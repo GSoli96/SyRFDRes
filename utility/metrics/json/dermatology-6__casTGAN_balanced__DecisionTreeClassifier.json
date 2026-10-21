@@ -1,0 +1,36 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "casTGAN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9907407407407407,
+  "balanced_accuracy": 0.9166666666666667,
+  "precision": 1.0,
+  "recall": 0.8333333333333334,
+  "f1": 0.9090909090909091,
+  "mcc": 0.9084287085108012,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      102,
+      0
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00       102\n           1       1.00      0.83      0.91         6\n\n    accuracy                           0.99       108\n   macro avg       1.00      0.92      0.95       108\nweighted avg       0.99      0.99      0.99       108\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9059824330259112,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.6030229000607505,
+  "prediction_time_seconds": 0.005839299992658198,
+  "n_train_samples": 450,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__casTGAN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__casTGAN_balanced__DecisionTreeClassifier.json"
+}

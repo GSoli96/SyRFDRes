@@ -1,0 +1,37 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9537037037037037,
+  "balanced_accuracy": 0.9754901960784313,
+  "precision": 0.5454545454545454,
+  "recall": 1.0,
+  "f1": 0.7058823529411765,
+  "mcc": 0.7202198119602841,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      97,
+      5
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.95      0.97       102\n           1       0.55      1.00      0.71         6\n\n    accuracy                           0.95       108\n   macro avg       0.77      0.98      0.84       108\nweighted avg       0.97      0.95      0.96       108\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9355469652676514,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8916793999960646,
+  "prediction_time_seconds": 0.008671200019307435,
+  "n_train_samples": 1031,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__gpt-oss_120b-cloud_self_consistency_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__gpt-oss_120b-cloud_self_consistency_balanced__LogisticRegression.json"
+}

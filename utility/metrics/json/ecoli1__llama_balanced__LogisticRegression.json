@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "llama__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8712871287128713,
+  "balanced_accuracy": 0.8400222965440357,
+  "precision": 0.6923076923076923,
+  "recall": 0.782608695652174,
+  "f1": 0.7346938775510204,
+  "mcc": 0.6522758593580288,
+  "roc_auc": 0.9169453734671126,
+  "pr_auc": 0.7448134193943691,
+  "confusion_matrix": [
+    [
+      70,
+      8
+    ],
+    [
+      5,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.90      0.92        78\n           1       0.69      0.78      0.73        23\n\n    accuracy                           0.87       101\n   macro avg       0.81      0.84      0.82       101\nweighted avg       0.88      0.87      0.87       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9258886416781154,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3455071000207681,
+  "prediction_time_seconds": 0.0028996999899391085,
+  "n_train_samples": 529,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__llama_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__llama_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "iris0",
+  "augmentation": "GOGGLE__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9777777777777777,
+  "balanced_accuracy": 0.9833333333333334,
+  "precision": 0.9375,
+  "recall": 1.0,
+  "f1": 0.967741935483871,
+  "mcc": 0.9519716382329885,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      29,
+      1
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.98        30\n           1       0.94      1.00      0.97        15\n\n    accuracy                           0.98        45\n   macro avg       0.97      0.98      0.98        45\nweighted avg       0.98      0.98      0.98        45\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 1.0,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.17944809998152778,
+  "prediction_time_seconds": 0.0023572999925818294,
+  "n_train_samples": 200,
+  "n_test_samples": 45,
+  "checkpoint_path": "utility\\checkpoints\\iris0__GOGGLE_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\iris0__GOGGLE_balanced__RidgeClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "casTGAN__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8044444444444444,
+  "balanced_accuracy": 0.676283457656867,
+  "precision": 0.6216216216216216,
+  "recall": 0.4339622641509434,
+  "f1": 0.5111111111111111,
+  "mcc": 0.4036118675805513,
+  "roc_auc": 0.7734203598069329,
+  "pr_auc": 0.5600430231741269,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      30,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.92      0.88       172\n           1       0.62      0.43      0.51        53\n\n    accuracy                           0.80       225\n   macro avg       0.73      0.68      0.69       225\nweighted avg       0.79      0.80      0.79       225\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.6308122810252627,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 20.996825199981686,
+  "prediction_time_seconds": 0.0028483999776653945,
+  "n_train_samples": 823,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__casTGAN_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__casTGAN_balanced__MLPClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "deepseek__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9366197183098591,
+  "balanced_accuracy": 0.9664179104477613,
+  "precision": 0.47058823529411764,
+  "recall": 1.0,
+  "f1": 0.64,
+  "mcc": 0.6625568373916033,
+  "roc_auc": 0.9636194029850746,
+  "pr_auc": 0.5579554738562091,
+  "confusion_matrix": [
+    [
+      125,
+      9
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.97       134\n           1       0.47      1.00      0.64         8\n\n    accuracy                           0.94       142\n   macro avg       0.74      0.97      0.80       142\nweighted avg       0.97      0.94      0.95       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9730327997579099,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31863029999658465,
+  "prediction_time_seconds": 0.002150099986465648,
+  "n_train_samples": 916,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__deepseek_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__deepseek_balanced__LogisticRegression.json"
+}

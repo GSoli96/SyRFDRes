@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 0.9999999999999999,
+  "confusion_matrix": [
+    [
+      522,
+      0
+    ],
+    [
+      0,
+      105
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       522\n           1       1.00      1.00      1.00       105\n\n    accuracy                           1.00       627\n   macro avg       1.00      1.00      1.00       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9893142136876103,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.394817199994577,
+  "prediction_time_seconds": 0.010813400003826246,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gemma4_31b-cloud_schema_constraints__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gemma4_31b-cloud_schema_constraints__HistGradientBoostingClassifier.json"
+}

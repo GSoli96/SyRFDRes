@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9333333333333333,
+  "balanced_accuracy": 0.8845985081175954,
+  "precision": 0.9130434782608695,
+  "recall": 0.7924528301886793,
+  "f1": 0.8484848484848485,
+  "mcc": 0.8093461736414728,
+  "roc_auc": 0.9713141728828434,
+  "pr_auc": 0.9293692591052839,
+  "confusion_matrix": [
+    [
+      168,
+      4
+    ],
+    [
+      11,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.98      0.96       172\n           1       0.91      0.79      0.85        53\n\n    accuracy                           0.93       225\n   macro avg       0.93      0.88      0.90       225\nweighted avg       0.93      0.93      0.93       225\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8481510617620536,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.261713600018993,
+  "prediction_time_seconds": 0.031454999989364296,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_ensemble_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_ensemble_balanced__ExtraTreesClassifier.json"
+}

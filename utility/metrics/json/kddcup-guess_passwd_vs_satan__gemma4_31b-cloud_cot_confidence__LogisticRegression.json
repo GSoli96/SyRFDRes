@@ -1,0 +1,37 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gemma4_31b-cloud__cot_confidence",
+  "model": "LogisticRegression",
+  "accuracy": 0.9797160243407708,
+  "balanced_accuracy": 0.9895178197064989,
+  "precision": 0.6153846153846154,
+  "recall": 1.0,
+  "f1": 0.7619047619047619,
+  "mcc": 0.7761980870937513,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      467,
+      10
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       477\n           1       0.62      1.00      0.76        16\n\n    accuracy                           0.98       493\n   macro avg       0.81      0.99      0.88       493\nweighted avg       0.99      0.98      0.98       493\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9540901091222679,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7584243000019342,
+  "prediction_time_seconds": 0.0030922000005375594,
+  "n_train_samples": 3178,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_confidence__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_confidence__LogisticRegression.json"
+}

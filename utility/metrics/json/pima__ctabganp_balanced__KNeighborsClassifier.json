@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "ctabganp__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.7792207792207793,
+  "balanced_accuracy": 0.7723509933774835,
+  "precision": 0.6593406593406593,
+  "recall": 0.75,
+  "f1": 0.7017543859649122,
+  "mcc": 0.530405125875272,
+  "roc_auc": 0.8659768211920529,
+  "pr_auc": 0.7678284221548265,
+  "confusion_matrix": [
+    [
+      120,
+      31
+    ],
+    [
+      20,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.79      0.82       151\n           1       0.66      0.75      0.70        80\n\n    accuracy                           0.78       231\n   macro avg       0.76      0.77      0.76       231\nweighted avg       0.79      0.78      0.78       231\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7495610365783981,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6300520999939181,
+  "prediction_time_seconds": 0.007047599996440113,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ctabganp_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ctabganp_balanced__KNeighborsClassifier.json"
+}

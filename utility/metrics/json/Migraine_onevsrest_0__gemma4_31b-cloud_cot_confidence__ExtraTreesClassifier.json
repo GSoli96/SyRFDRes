@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gemma4_31b-cloud__cot_confidence",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.9565653190778483,
+  "precision": 0.9743589743589743,
+  "recall": 0.926829268292683,
+  "f1": 0.95,
+  "mcc": 0.9236838238937133,
+  "roc_auc": 0.9909789508853992,
+  "pr_auc": 0.986125945177102,
+  "confusion_matrix": [
+    [
+      72,
+      1
+    ],
+    [
+      3,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.97        73\n           1       0.97      0.93      0.95        41\n\n    accuracy                           0.96       114\n   macro avg       0.97      0.96      0.96       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8971907200806435,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.948553099995479,
+  "prediction_time_seconds": 0.026838599995244294,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_confidence__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_confidence__ExtraTreesClassifier.json"
+}

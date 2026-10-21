@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LogisticRegression",
+  "accuracy": 0.9298245614035088,
+  "balanced_accuracy": 0.9626168224299065,
+  "precision": 0.4666666666666667,
+  "recall": 1.0,
+  "f1": 0.6363636363636364,
+  "mcc": 0.6570964167719828,
+  "roc_auc": 0.9879839786381842,
+  "pr_auc": 0.8242424242424242,
+  "confusion_matrix": [
+    [
+      99,
+      8
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96       107\n           1       0.47      1.00      0.64         7\n\n    accuracy                           0.93       114\n   macro avg       0.73      0.96      0.80       114\nweighted avg       0.97      0.93      0.94       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.951903688316649,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3254466000071261,
+  "prediction_time_seconds": 0.0025510000123176724,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__Dataset_balanced_TABFAIRGDT__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__Dataset_balanced_TABFAIRGDT__LogisticRegression.json"
+}

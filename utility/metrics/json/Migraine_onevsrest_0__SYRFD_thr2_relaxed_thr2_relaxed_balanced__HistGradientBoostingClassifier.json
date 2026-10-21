@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9809555629802873,
+  "precision": 0.975609756097561,
+  "recall": 0.975609756097561,
+  "f1": 0.975609756097561,
+  "mcc": 0.9619111259605747,
+  "roc_auc": 0.9994988306047443,
+  "pr_auc": 0.9988243959094644,
+  "confusion_matrix": [
+    [
+      72,
+      1
+    ],
+    [
+      1,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99        73\n           1       0.98      0.98      0.98        41\n\n    accuracy                           0.98       114\n   macro avg       0.98      0.98      0.98       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9479810996563574,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.895970700017642,
+  "prediction_time_seconds": 0.0053106999839656055,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__SYRFD_thr2_relaxed_thr2_relaxed_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__SYRFD_thr2_relaxed_thr2_relaxed_balanced__HistGradientBoostingClassifier.json"
+}

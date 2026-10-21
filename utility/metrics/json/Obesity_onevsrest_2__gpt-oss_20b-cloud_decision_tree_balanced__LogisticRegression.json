@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.835725677830941,
+  "balanced_accuracy": 0.7011317328136073,
+  "precision": 0.4056603773584906,
+  "recall": 0.5180722891566265,
+  "f1": 0.455026455026455,
+  "mcc": 0.3637284673600826,
+  "roc_auc": 0.7388155563430192,
+  "pr_auc": 0.30443037421559893,
+  "confusion_matrix": [
+    [
+      481,
+      63
+    ],
+    [
+      40,
+      43
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.88      0.90       544\n           1       0.41      0.52      0.46        83\n\n    accuracy                           0.84       627\n   macro avg       0.66      0.70      0.68       627\nweighted avg       0.85      0.84      0.84       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5643967602955615,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4758735000214074,
+  "prediction_time_seconds": 0.002715299982810393,
+  "n_train_samples": 5709,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__gpt-oss_20b-cloud_decision_tree_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__gpt-oss_20b-cloud_decision_tree_balanced__LogisticRegression.json"
+}

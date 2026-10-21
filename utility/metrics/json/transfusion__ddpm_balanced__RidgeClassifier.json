@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "ddpm__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.68,
+  "balanced_accuracy": 0.7123738481790259,
+  "precision": 0.40594059405940597,
+  "recall": 0.7735849056603774,
+  "f1": 0.5324675324675324,
+  "mcc": 0.3623778641257852,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      112,
+      60
+    ],
+    [
+      12,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.65      0.76       172\n           1       0.41      0.77      0.53        53\n\n    accuracy                           0.68       225\n   macro avg       0.65      0.71      0.64       225\nweighted avg       0.79      0.68      0.70       225\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.7193933002433288,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.1549632000096608,
+  "prediction_time_seconds": 0.002098099997965619,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__ddpm_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__ddpm_balanced__RidgeClassifier.json"
+}

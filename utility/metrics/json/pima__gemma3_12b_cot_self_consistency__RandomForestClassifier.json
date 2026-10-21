@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9134199134199135,
+  "balanced_accuracy": 0.8955711920529801,
+  "precision": 0.9054054054054054,
+  "recall": 0.8375,
+  "f1": 0.8701298701298701,
+  "mcc": 0.8067192733296361,
+  "roc_auc": 0.9677980132450331,
+  "pr_auc": 0.9459049981644954,
+  "confusion_matrix": [
+    [
+      144,
+      7
+    ],
+    [
+      13,
+      67
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.95      0.94       151\n           1       0.91      0.84      0.87        80\n\n    accuracy                           0.91       231\n   macro avg       0.91      0.90      0.90       231\nweighted avg       0.91      0.91      0.91       231\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8132862834664243,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 19.873851900018053,
+  "prediction_time_seconds": 0.016934199986280873,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_self_consistency__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_self_consistency__RandomForestClassifier.json"
+}

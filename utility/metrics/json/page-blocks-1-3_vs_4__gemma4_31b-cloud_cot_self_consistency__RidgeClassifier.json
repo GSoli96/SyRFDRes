@@ -1,0 +1,35 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gemma4_31b-cloud__cot_self_consistency",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9154929577464789,
+  "balanced_accuracy": 0.7789179104477613,
+  "precision": 0.35714285714285715,
+  "recall": 0.625,
+  "f1": 0.45454545454545453,
+  "mcc": 0.43145428707919825,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      125,
+      9
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.93      0.95       134\n           1       0.36      0.62      0.45         8\n\n    accuracy                           0.92       142\n   macro avg       0.67      0.78      0.70       142\nweighted avg       0.94      0.92      0.93       142\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9654062982932727,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21933649998391047,
+  "prediction_time_seconds": 0.002579899999545887,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gemma4_31b-cloud_cot_self_consistency__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gemma4_31b-cloud_cot_self_consistency__RidgeClassifier.json"
+}

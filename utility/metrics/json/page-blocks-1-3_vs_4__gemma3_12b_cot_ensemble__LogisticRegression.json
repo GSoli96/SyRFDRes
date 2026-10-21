@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "LogisticRegression",
+  "accuracy": 0.9084507042253521,
+  "balanced_accuracy": 0.7164179104477613,
+  "precision": 0.3076923076923077,
+  "recall": 0.5,
+  "f1": 0.38095238095238093,
+  "mcc": 0.34606211410530824,
+  "roc_auc": 0.8684701492537313,
+  "pr_auc": 0.38418790453074436,
+  "confusion_matrix": [
+    [
+      125,
+      9
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.93      0.95       134\n           1       0.31      0.50      0.38         8\n\n    accuracy                           0.91       142\n   macro avg       0.64      0.72      0.67       142\nweighted avg       0.93      0.91      0.92       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9374082506078978,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.32592770000337623,
+  "prediction_time_seconds": 0.0026477999927010387,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gemma3_12b_cot_ensemble__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gemma3_12b_cot_ensemble__LogisticRegression.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9647887323943662,
+  "balanced_accuracy": 0.9813432835820896,
+  "precision": 0.6153846153846154,
+  "recall": 1.0,
+  "f1": 0.7619047619047619,
+  "mcc": 0.7696898744755994,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      129,
+      5
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       134\n           1       0.62      1.00      0.76         8\n\n    accuracy                           0.96       142\n   macro avg       0.81      0.98      0.87       142\nweighted avg       0.98      0.96      0.97       142\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9223560622299642,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.952986499993131,
+  "prediction_time_seconds": 0.02786010000272654,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_120b-cloud_ensemble_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_120b-cloud_ensemble_balanced__AdaBoostClassifier.json"
+}

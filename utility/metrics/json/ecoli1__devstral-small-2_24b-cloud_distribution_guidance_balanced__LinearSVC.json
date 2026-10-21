@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8415841584158416,
+  "balanced_accuracy": 0.8514492753623188,
+  "precision": 0.6060606060606061,
+  "recall": 0.8695652173913043,
+  "f1": 0.7142857142857143,
+  "mcc": 0.628481416966538,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      65,
+      13
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.83      0.89        78\n           1       0.61      0.87      0.71        23\n\n    accuracy                           0.84       101\n   macro avg       0.78      0.85      0.80       101\nweighted avg       0.88      0.84      0.85       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.5774275722360308,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.25432910001836717,
+  "prediction_time_seconds": 0.0018192999996244907,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__devstral-small-2_24b-cloud_distribution_guidance_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__devstral-small-2_24b-cloud_distribution_guidance_balanced__LinearSVC.json"
+}

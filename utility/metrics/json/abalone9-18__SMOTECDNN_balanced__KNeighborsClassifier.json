@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8995433789954338,
+  "balanced_accuracy": 0.7664301717699776,
+  "precision": 0.32,
+  "recall": 0.6153846153846154,
+  "f1": 0.42105263157894735,
+  "mcc": 0.3959568106801851,
+  "roc_auc": 0.9421209858103062,
+  "pr_auc": 0.475797373358349,
+  "confusion_matrix": [
+    [
+      189,
+      17
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.92      0.94       206\n           1       0.32      0.62      0.42        13\n\n    accuracy                           0.90       219\n   macro avg       0.65      0.77      0.68       219\nweighted avg       0.94      0.90      0.91       219\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9173725281339375,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.5491233000066131,
+  "prediction_time_seconds": 0.027428700006566942,
+  "n_train_samples": 1173,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SMOTECDNN_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SMOTECDNN_balanced__KNeighborsClassifier.json"
+}

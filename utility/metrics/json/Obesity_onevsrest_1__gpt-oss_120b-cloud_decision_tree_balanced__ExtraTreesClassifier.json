@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      542,
+      0
+    ],
+    [
+      0,
+      85
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       542\n           1       1.00      1.00      1.00        85\n\n    accuracy                           1.00       627\n   macro avg       1.00      1.00      1.00       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9800770261425488,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 33.4042810999963,
+  "prediction_time_seconds": 0.019845299975713715,
+  "n_train_samples": 5697,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__gpt-oss_120b-cloud_decision_tree_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__gpt-oss_120b-cloud_decision_tree_balanced__ExtraTreesClassifier.json"
+}

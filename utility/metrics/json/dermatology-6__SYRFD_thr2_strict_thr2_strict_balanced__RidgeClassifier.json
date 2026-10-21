@@ -1,0 +1,35 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "SYRFD_thr2_strict__thr2_strict_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9907407407407407,
+  "balanced_accuracy": 0.9950980392156863,
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1": 0.9230769230769231,
+  "mcc": 0.9212705877201982,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      101,
+      1
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       102\n           1       0.86      1.00      0.92         6\n\n    accuracy                           0.99       108\n   macro avg       0.93      1.00      0.96       108\nweighted avg       0.99      0.99      0.99       108\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.9971014492753623,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4426772999577224,
+  "prediction_time_seconds": 0.00586859998293221,
+  "n_train_samples": 674,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__SYRFD_thr2_strict_thr2_strict_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__SYRFD_thr2_strict_thr2_strict_balanced__RidgeClassifier.json"
+}

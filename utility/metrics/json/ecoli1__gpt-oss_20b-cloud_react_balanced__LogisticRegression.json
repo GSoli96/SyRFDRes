@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8910891089108911,
+  "balanced_accuracy": 0.8835005574136009,
+  "precision": 0.7142857142857143,
+  "recall": 0.8695652173913043,
+  "f1": 0.7843137254901961,
+  "mcc": 0.718566173293918,
+  "roc_auc": 0.9559643255295429,
+  "pr_auc": 0.8813751174566895,
+  "confusion_matrix": [
+    [
+      70,
+      8
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.90      0.93        78\n           1       0.71      0.87      0.78        23\n\n    accuracy                           0.89       101\n   macro avg       0.84      0.88      0.86       101\nweighted avg       0.90      0.89      0.89       101\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7226164489692392,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3310442000220064,
+  "prediction_time_seconds": 0.0016653999919071794,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_20b-cloud_react_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_20b-cloud_react_balanced__LogisticRegression.json"
+}

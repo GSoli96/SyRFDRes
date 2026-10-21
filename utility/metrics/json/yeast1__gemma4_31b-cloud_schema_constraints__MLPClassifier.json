@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "MLPClassifier",
+  "accuracy": 0.8202247191011236,
+  "balanced_accuracy": 0.7495584339122756,
+  "precision": 0.7425742574257426,
+  "recall": 0.5813953488372093,
+  "f1": 0.6521739130434783,
+  "mcc": 0.540630739612578,
+  "roc_auc": 0.8509714453929939,
+  "pr_auc": 0.683989468140698,
+  "confusion_matrix": [
+    [
+      290,
+      26
+    ],
+    [
+      54,
+      75
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.92      0.88       316\n           1       0.74      0.58      0.65       129\n\n    accuracy                           0.82       445\n   macro avg       0.79      0.75      0.77       445\nweighted avg       0.81      0.82      0.81       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.8166982142517092,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 67.54805230000056,
+  "prediction_time_seconds": 0.00289499998325482,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_schema_constraints__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_schema_constraints__MLPClassifier.json"
+}

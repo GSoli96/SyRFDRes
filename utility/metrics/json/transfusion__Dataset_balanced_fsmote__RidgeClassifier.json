@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "RidgeClassifier",
+  "accuracy": 0.68,
+  "balanced_accuracy": 0.699319877139096,
+  "precision": 0.4020618556701031,
+  "recall": 0.7358490566037735,
+  "f1": 0.52,
+  "mcc": 0.34157958988321685,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      114,
+      58
+    ],
+    [
+      14,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.66      0.76       172\n           1       0.40      0.74      0.52        53\n\n    accuracy                           0.68       225\n   macro avg       0.65      0.70      0.64       225\nweighted avg       0.78      0.68      0.70       225\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 0.7903470414776915,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.17531930000404827,
+  "prediction_time_seconds": 0.0016151999880094081,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_fsmote__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_fsmote__RidgeClassifier.json"
+}

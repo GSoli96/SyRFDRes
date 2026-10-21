@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.7555555555555555,
+  "balanced_accuracy": 0.6247257569109259,
+  "precision": 0.47619047619047616,
+  "recall": 0.37735849056603776,
+  "f1": 0.42105263157894735,
+  "mcc": 0.2716677663686814,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      150,
+      22
+    ],
+    [
+      33,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.87      0.85       172\n           1       0.48      0.38      0.42        53\n\n    accuracy                           0.76       225\n   macro avg       0.65      0.62      0.63       225\nweighted avg       0.74      0.76      0.75       225\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.850071790046608,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2724685999855865,
+  "prediction_time_seconds": 0.004845599993132055,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_hierarchical__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7511111111111111,
+  "balanced_accuracy": 0.7066695919262834,
+  "precision": 0.4782608695652174,
+  "recall": 0.6226415094339622,
+  "f1": 0.5409836065573771,
+  "mcc": 0.38038369370503317,
+  "roc_auc": 0.7876810004387891,
+  "pr_auc": 0.5457685216096231,
+  "confusion_matrix": [
+    [
+      136,
+      36
+    ],
+    [
+      20,
+      33
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.79      0.83       172\n           1       0.48      0.62      0.54        53\n\n    accuracy                           0.75       225\n   macro avg       0.68      0.71      0.69       225\nweighted avg       0.78      0.75      0.76       225\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 50
+  },
+  "cv_best_score": 0.7517251181039315,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.746183899987955,
+  "prediction_time_seconds": 0.00538859999505803,
+  "n_train_samples": 1021,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr2_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr2_balanced__AdaBoostClassifier.json"
+}

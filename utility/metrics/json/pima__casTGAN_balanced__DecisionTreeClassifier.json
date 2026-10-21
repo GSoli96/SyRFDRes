@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "casTGAN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8138528138528138,
+  "balanced_accuracy": 0.769453642384106,
+  "precision": 0.7936507936507936,
+  "recall": 0.625,
+  "f1": 0.6993006993006993,
+  "mcc": 0.5757349655456723,
+  "roc_auc": 0.8943294701986755,
+  "pr_auc": 0.8018236844309294,
+  "confusion_matrix": [
+    [
+      138,
+      13
+    ],
+    [
+      30,
+      50
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.91      0.87       151\n           1       0.79      0.62      0.70        80\n\n    accuracy                           0.81       231\n   macro avg       0.81      0.77      0.78       231\nweighted avg       0.81      0.81      0.81       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.6455823231501727,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7552260999800637,
+  "prediction_time_seconds": 0.0015759999805595726,
+  "n_train_samples": 790,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__casTGAN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__casTGAN_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "KNeighborsClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      270,
+      0
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       270\n           1       1.00      1.00      1.00        27\n\n    accuracy                           1.00       297\n   macro avg       1.00      1.00      1.00       297\nweighted avg       1.00      1.00      1.00       297\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.9988857938718663,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7388326000072993,
+  "prediction_time_seconds": 0.004933299991535023,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma3_12b_cot_ensemble__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma3_12b_cot_ensemble__KNeighborsClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.7363636363636363,
+  "precision": 0.4,
+  "recall": 0.5,
+  "f1": 0.4444444444444444,
+  "mcc": 0.42475524031903605,
+  "roc_auc": 0.9318181818181818,
+  "pr_auc": 0.4666666666666667,
+  "confusion_matrix": [
+    [
+      107,
+      3
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.98       110\n           1       0.40      0.50      0.44         4\n\n    accuracy                           0.96       114\n   macro avg       0.69      0.74      0.71       114\nweighted avg       0.96      0.96      0.96       114\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9585885770852102,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6141569999745116,
+  "prediction_time_seconds": 0.00198540001292713,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__Dataset_balanced_tabfairgan__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__Dataset_balanced_tabfairgan__DecisionTreeClassifier.json"
+}

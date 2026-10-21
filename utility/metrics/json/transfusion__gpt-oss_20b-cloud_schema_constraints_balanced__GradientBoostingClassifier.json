@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_20b-cloud__schema_constraints__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8355555555555556,
+  "balanced_accuracy": 0.722740236946029,
+  "precision": 0.7105263157894737,
+  "recall": 0.5094339622641509,
+  "f1": 0.5934065934065934,
+  "mcc": 0.5045662872804844,
+  "roc_auc": 0.8709412022817026,
+  "pr_auc": 0.7364510307668739,
+  "confusion_matrix": [
+    [
+      161,
+      11
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.94      0.90       172\n           1       0.71      0.51      0.59        53\n\n    accuracy                           0.84       225\n   macro avg       0.79      0.72      0.75       225\nweighted avg       0.83      0.84      0.83       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7653289797655564,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.974638500018045,
+  "prediction_time_seconds": 0.0032193999795708805,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.json"
+}

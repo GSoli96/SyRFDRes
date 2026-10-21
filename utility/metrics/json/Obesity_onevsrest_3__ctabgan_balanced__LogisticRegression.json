@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "ctabgan__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7304625199362041,
+  "balanced_accuracy": 0.5831736909323116,
+  "precision": 0.22297297297297297,
+  "recall": 0.3793103448275862,
+  "f1": 0.28085106382978725,
+  "mcc": 0.135417209982161,
+  "roc_auc": 0.6984674329501915,
+  "pr_auc": 0.20723651489278333,
+  "confusion_matrix": [
+    [
+      425,
+      115
+    ],
+    [
+      54,
+      33
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.79      0.83       540\n           1       0.22      0.38      0.28        87\n\n    accuracy                           0.73       627\n   macro avg       0.56      0.58      0.56       627\nweighted avg       0.80      0.73      0.76       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7891808509612118,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4385135999764316,
+  "prediction_time_seconds": 0.0030203000060282648,
+  "n_train_samples": 3594,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__ctabgan_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__ctabgan_balanced__LogisticRegression.json"
+}

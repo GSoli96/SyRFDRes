@@ -1,0 +1,38 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "casTGAN__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.9155518394648829,
+  "precision": 0.8695652173913043,
+  "recall": 0.8695652173913043,
+  "f1": 0.8695652173913043,
+  "mcc": 0.8311036789297659,
+  "roc_auc": 0.9855072463768115,
+  "pr_auc": 0.9590811611033478,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.96      0.96        78\n           1       0.87      0.87      0.87        23\n\n    accuracy                           0.94       101\n   macro avg       0.92      0.92      0.92       101\nweighted avg       0.94      0.94      0.94       101\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.8552511773940346,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.844048099999782,
+  "prediction_time_seconds": 0.0033014000218827277,
+  "n_train_samples": 382,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__casTGAN_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__casTGAN_balanced__MLPClassifier.json"
+}

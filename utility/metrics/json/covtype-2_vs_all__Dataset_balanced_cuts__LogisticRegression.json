@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "LogisticRegression",
+  "accuracy": 0.5928836974481366,
+  "balanced_accuracy": 0.592240239452278,
+  "precision": 0.5852952621850375,
+  "recall": 0.5663019178726909,
+  "f1": 0.5756419609859946,
+  "mcc": 0.1847182846543287,
+  "roc_auc": 0.6431272057516237,
+  "pr_auc": 0.610080587680436,
+  "confusion_matrix": [
+    [
+      55212,
+      34102
+    ],
+    [
+      36860,
+      48130
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.60      0.62      0.61     89314\n           1       0.59      0.57      0.58     84990\n\n    accuracy                           0.59    174304\n   macro avg       0.59      0.59      0.59    174304\nweighted avg       0.59      0.59      0.59    174304\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5861619295036441,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.2272544999723323,
+  "prediction_time_seconds": 0.029935300000943244,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_cuts__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_cuts__LogisticRegression.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "iris0",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9777777777777777,
+  "balanced_accuracy": 0.9833333333333334,
+  "precision": 0.9375,
+  "recall": 1.0,
+  "f1": 0.967741935483871,
+  "mcc": 0.9519716382329885,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      29,
+      1
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.98        30\n           1       0.94      1.00      0.97        15\n\n    accuracy                           0.98        45\n   macro avg       0.97      0.98      0.98        45\nweighted avg       0.98      0.98      0.98        45\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9452325381389011,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.003551700006938,
+  "prediction_time_seconds": 0.003030299994861707,
+  "n_train_samples": 349,
+  "n_test_samples": 45,
+  "checkpoint_path": "utility\\checkpoints\\iris0__gpt-oss_20b-cloud_decision_tree_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\iris0__gpt-oss_20b-cloud_decision_tree_balanced__MLPClassifier.json"
+}

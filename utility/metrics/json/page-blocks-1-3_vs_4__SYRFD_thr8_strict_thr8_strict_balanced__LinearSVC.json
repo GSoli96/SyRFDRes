@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9014084507042254,
+  "balanced_accuracy": 0.9477611940298507,
+  "precision": 0.36363636363636365,
+  "recall": 1.0,
+  "f1": 0.5333333333333333,
+  "mcc": 0.5706527006411013,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      120,
+      14
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.94       134\n           1       0.36      1.00      0.53         8\n\n    accuracy                           0.90       142\n   macro avg       0.68      0.95      0.74       142\nweighted avg       0.96      0.90      0.92       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9715002987532649,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23540190001949668,
+  "prediction_time_seconds": 0.0025040000036824495,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__SYRFD_thr8_strict_thr8_strict_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__SYRFD_thr8_strict_thr8_strict_balanced__LinearSVC.json"
+}

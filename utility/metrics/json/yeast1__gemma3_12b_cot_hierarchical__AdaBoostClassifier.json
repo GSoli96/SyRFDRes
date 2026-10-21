@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7955056179775281,
+  "balanced_accuracy": 0.7115101560200177,
+  "precision": 0.7021276595744681,
+  "recall": 0.5116279069767442,
+  "f1": 0.5919282511210763,
+  "mcc": 0.4701994672171362,
+  "roc_auc": 0.8207854970071632,
+  "pr_auc": 0.6271294601079679,
+  "confusion_matrix": [
+    [
+      288,
+      28
+    ],
+    [
+      63,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.91      0.86       316\n           1       0.70      0.51      0.59       129\n\n    accuracy                           0.80       445\n   macro avg       0.76      0.71      0.73       445\nweighted avg       0.79      0.80      0.78       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8322436575938534,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.202590300003067,
+  "prediction_time_seconds": 0.01718080000136979,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_cot_hierarchical__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_cot_hierarchical__AdaBoostClassifier.json"
+}

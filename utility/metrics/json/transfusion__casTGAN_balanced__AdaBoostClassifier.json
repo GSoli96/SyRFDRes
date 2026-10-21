@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "casTGAN__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7822222222222223,
+  "balanced_accuracy": 0.6225866608161474,
+  "precision": 0.5666666666666667,
+  "recall": 0.32075471698113206,
+  "f1": 0.40963855421686746,
+  "mcc": 0.3060535604341004,
+  "roc_auc": 0.7696358051777095,
+  "pr_auc": 0.4666196710080589,
+  "confusion_matrix": [
+    [
+      159,
+      13
+    ],
+    [
+      36,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.92      0.87       172\n           1       0.57      0.32      0.41        53\n\n    accuracy                           0.78       225\n   macro avg       0.69      0.62      0.64       225\nweighted avg       0.76      0.78      0.76       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.5297245968213711,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.872284200013382,
+  "prediction_time_seconds": 0.02460479998262599,
+  "n_train_samples": 823,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__casTGAN_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__casTGAN_balanced__AdaBoostClassifier.json"
+}

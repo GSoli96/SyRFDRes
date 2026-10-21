@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9076923076923077,
+  "balanced_accuracy": 0.9082491582491583,
+  "precision": 0.6666666666666666,
+  "recall": 0.9090909090909091,
+  "f1": 0.7692307692307693,
+  "mcc": 0.7266376295437165,
+  "roc_auc": 0.9806397306397308,
+  "pr_auc": 0.9435736677115987,
+  "confusion_matrix": [
+    [
+      49,
+      5
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.91      0.94        54\n           1       0.67      0.91      0.77        11\n\n    accuracy                           0.91        65\n   macro avg       0.82      0.91      0.86        65\nweighted avg       0.93      0.91      0.91        65\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8353236186191229,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.44634490000316873,
+  "prediction_time_seconds": 0.0034675000060815364,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma4_31b-cloud_distribution_guidance__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma4_31b-cloud_distribution_guidance__KNeighborsClassifier.json"
+}

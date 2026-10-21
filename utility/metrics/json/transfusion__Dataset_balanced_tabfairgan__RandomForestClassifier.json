@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.7031044317683195,
+  "precision": 0.5714285714285714,
+  "recall": 0.5283018867924528,
+  "f1": 0.5490196078431373,
+  "mcc": 0.4176352809939681,
+  "roc_auc": 0.8494405440982887,
+  "pr_auc": 0.5891711289781997,
+  "confusion_matrix": [
+    [
+      151,
+      21
+    ],
+    [
+      25,
+      28
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.88      0.87       172\n           1       0.57      0.53      0.55        53\n\n    accuracy                           0.80       225\n   macro avg       0.71      0.70      0.71       225\nweighted avg       0.79      0.80      0.79       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8274853763737366,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.417719199991552,
+  "prediction_time_seconds": 0.010970400006044656,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabfairgan__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabfairgan__RandomForestClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "llama__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.988835725677831,
+  "balanced_accuracy": 0.9775936928702011,
+  "precision": 0.9506172839506173,
+  "recall": 0.9625,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9501417557171133,
+  "roc_auc": 0.9995886654478976,
+  "pr_auc": 0.9965909090909091,
+  "confusion_matrix": [
+    [
+      543,
+      4
+    ],
+    [
+      3,
+      77
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       547\n           1       0.95      0.96      0.96        80\n\n    accuracy                           0.99       627\n   macro avg       0.97      0.98      0.98       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9678297665719399,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8795241999905556,
+  "prediction_time_seconds": 0.0017575999954715371,
+  "n_train_samples": 2377,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__llama_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__llama_balanced__DecisionTreeClassifier.json"
+}

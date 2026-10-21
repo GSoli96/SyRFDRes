@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9076923076923077,
+  "balanced_accuracy": 0.9444444444444444,
+  "precision": 0.6470588235294118,
+  "recall": 1.0,
+  "f1": 0.7857142857142857,
+  "mcc": 0.7583952786593615,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      48,
+      6
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.89      0.94        54\n           1       0.65      1.00      0.79        11\n\n    accuracy                           0.91        65\n   macro avg       0.82      0.94      0.86        65\nweighted avg       0.94      0.91      0.91        65\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9354132457580733,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.24962529999902472,
+  "prediction_time_seconds": 0.002378199977101758,
+  "n_train_samples": 315,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__SYRFD_thr2_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__SYRFD_thr2_balanced__LinearSVC.json"
+}

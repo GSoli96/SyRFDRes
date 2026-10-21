@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8112359550561797,
+  "balanced_accuracy": 0.7271734864095771,
+  "precision": 0.7472527472527473,
+  "recall": 0.5271317829457365,
+  "f1": 0.6181818181818182,
+  "mcc": 0.5110974428867723,
+  "roc_auc": 0.8357128839171818,
+  "pr_auc": 0.6545682971065605,
+  "confusion_matrix": [
+    [
+      293,
+      23
+    ],
+    [
+      61,
+      68
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.93      0.87       316\n           1       0.75      0.53      0.62       129\n\n    accuracy                           0.81       445\n   macro avg       0.79      0.73      0.75       445\nweighted avg       0.80      0.81      0.80       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.835221519185158,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.51126810000278,
+  "prediction_time_seconds": 0.0037410999939311296,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr8_relaxed_thr8_relaxed_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr8_relaxed_thr8_relaxed_balanced__GradientBoostingClassifier.json"
+}

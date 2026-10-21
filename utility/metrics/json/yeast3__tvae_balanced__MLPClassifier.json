@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "tvae__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.952808988764045,
+  "balanced_accuracy": 0.9287775716347144,
+  "precision": 0.7333333333333333,
+  "recall": 0.8979591836734694,
+  "f1": 0.8073394495412844,
+  "mcc": 0.7859622713261717,
+  "roc_auc": 0.9869099154813441,
+  "pr_auc": 0.9124996214022376,
+  "confusion_matrix": [
+    [
+      380,
+      16
+    ],
+    [
+      5,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.96      0.97       396\n           1       0.73      0.90      0.81        49\n\n    accuracy                           0.95       445\n   macro avg       0.86      0.93      0.89       445\nweighted avg       0.96      0.95      0.95       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9474731784472968,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 59.94930530001875,
+  "prediction_time_seconds": 0.0023889000003691763,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__tvae_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__tvae_balanced__MLPClassifier.json"
+}

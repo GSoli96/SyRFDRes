@@ -1,0 +1,38 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "MLPClassifier",
+  "accuracy": 0.9984051036682615,
+  "balanced_accuracy": 0.9990706319702602,
+  "precision": 0.9888888888888889,
+  "recall": 1.0,
+  "f1": 0.994413407821229,
+  "mcc": 0.9935043057039523,
+  "roc_auc": 0.9999791153251745,
+  "pr_auc": 0.9998751560549315,
+  "confusion_matrix": [
+    [
+      537,
+      1
+    ],
+    [
+      0,
+      89
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       538\n           1       0.99      1.00      0.99        89\n\n    accuracy                           1.00       627\n   macro avg       0.99      1.00      1.00       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9924621025848916,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 38.48797190000187,
+  "prediction_time_seconds": 0.003557100018952042,
+  "n_train_samples": 3580,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__Dataset_balanced_tabfairgan__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__Dataset_balanced_tabfairgan__MLPClassifier.json"
+}

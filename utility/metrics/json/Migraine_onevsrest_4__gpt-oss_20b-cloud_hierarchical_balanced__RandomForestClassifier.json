@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "gpt-oss_20b-cloud__hierarchical__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9954128440366973,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1": 0.9090909090909091,
+  "mcc": 0.9086737992230739,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      108,
+      1
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       109\n           1       0.83      1.00      0.91         5\n\n    accuracy                           0.99       114\n   macro avg       0.92      1.00      0.95       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8242599798211362,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.291028300009202,
+  "prediction_time_seconds": 0.006770700012566522,
+  "n_train_samples": 1095,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__gpt-oss_20b-cloud_hierarchical_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__gpt-oss_20b-cloud_hierarchical_balanced__RandomForestClassifier.json"
+}

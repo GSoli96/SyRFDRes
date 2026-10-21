@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "casTGAN__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.5449758666081614,
+  "precision": 0.6,
+  "recall": 0.11320754716981132,
+  "f1": 0.19047619047619047,
+  "mcc": 0.18522195514719922,
+  "roc_auc": 0.7725427819218955,
+  "pr_auc": 0.5336692668998679,
+  "confusion_matrix": [
+    [
+      168,
+      4
+    ],
+    [
+      47,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.98      0.87       172\n           1       0.60      0.11      0.19        53\n\n    accuracy                           0.77       225\n   macro avg       0.69      0.54      0.53       225\nweighted avg       0.74      0.77      0.71       225\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5091193017880097,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.34349400000064634,
+  "prediction_time_seconds": 0.001670500001637265,
+  "n_train_samples": 823,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__casTGAN_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__casTGAN_balanced__LogisticRegression.json"
+}

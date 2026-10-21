@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9913419913419913,
+  "balanced_accuracy": 0.9933774834437086,
+  "precision": 0.975609756097561,
+  "recall": 1.0,
+  "f1": 0.9876543209876543,
+  "mcc": 0.9811665366150081,
+  "roc_auc": 0.999337748344371,
+  "pr_auc": 0.998757524279708,
+  "confusion_matrix": [
+    [
+      149,
+      2
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       151\n           1       0.98      1.00      0.99        80\n\n    accuracy                           0.99       231\n   macro avg       0.99      0.99      0.99       231\nweighted avg       0.99      0.99      0.99       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8083967605380471,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.803812600002857,
+  "prediction_time_seconds": 0.005507599998963997,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_distribution_guidance__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_distribution_guidance__HistGradientBoostingClassifier.json"
+}

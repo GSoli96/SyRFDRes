@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "tabdiff__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.7595220313666915,
+  "precision": 0.6363636363636364,
+  "recall": 0.5384615384615384,
+  "f1": 0.5833333333333334,
+  "mcc": 0.561541042406903,
+  "roc_auc": 0.9660194174757282,
+  "pr_auc": 0.5652680652680653,
+  "confusion_matrix": [
+    [
+      202,
+      4
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.98      0.98       206\n           1       0.64      0.54      0.58        13\n\n    accuracy                           0.95       219\n   macro avg       0.80      0.76      0.78       219\nweighted avg       0.95      0.95      0.95       219\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8442058049903286,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.7879052000353113,
+  "prediction_time_seconds": 0.03699739999137819,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__tabdiff_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__tabdiff_balanced__KNeighborsClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9326599326599326,
+  "balanced_accuracy": 0.962962962962963,
+  "precision": 0.574468085106383,
+  "recall": 1.0,
+  "f1": 0.7297297297297297,
+  "mcc": 0.7293249574894728,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      250,
+      20
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96       270\n           1       0.57      1.00      0.73        27\n\n    accuracy                           0.93       297\n   macro avg       0.79      0.96      0.85       297\nweighted avg       0.96      0.93      0.94       297\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8211325064524821,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23808859998825938,
+  "prediction_time_seconds": 0.006530400016345084,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__devstral-small-2_24b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__devstral-small-2_24b-cloud_react_balanced__RidgeClassifier.json"
+}

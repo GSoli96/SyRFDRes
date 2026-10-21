@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "original",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.7402597402597403,
+  "balanced_accuracy": 0.6867135761589404,
+  "precision": 0.6612903225806451,
+  "recall": 0.5125,
+  "f1": 0.5774647887323944,
+  "mcc": 0.40095918162316896,
+  "roc_auc": 0.8301324503311258,
+  "pr_auc": 0.6997996403895398,
+  "confusion_matrix": [
+    [
+      130,
+      21
+    ],
+    [
+      39,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.86      0.81       151\n           1       0.66      0.51      0.58        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.69      0.69       231\nweighted avg       0.73      0.74      0.73       231\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.6419737750172534,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.99666839998099,
+  "prediction_time_seconds": 0.017122499994002283,
+  "n_train_samples": 536,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__original__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__original__RandomForestClassifier.json"
+}

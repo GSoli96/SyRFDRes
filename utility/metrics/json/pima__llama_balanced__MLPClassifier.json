@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "llama__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8138528138528138,
+  "balanced_accuracy": 0.7929635761589404,
+  "precision": 0.7341772151898734,
+  "recall": 0.725,
+  "f1": 0.7295597484276729,
+  "mcc": 0.5876811374058682,
+  "roc_auc": 0.8877483443708609,
+  "pr_auc": 0.8120848919911298,
+  "confusion_matrix": [
+    [
+      130,
+      21
+    ],
+    [
+      22,
+      58
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.86      0.86       151\n           1       0.73      0.72      0.73        80\n\n    accuracy                           0.81       231\n   macro avg       0.79      0.79      0.79       231\nweighted avg       0.81      0.81      0.81       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.8077620650115478,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.60443479998503,
+  "prediction_time_seconds": 0.0026079000090248883,
+  "n_train_samples": 1006,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__llama_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__llama_balanced__MLPClassifier.json"
+}

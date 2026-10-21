@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "GOGGLE__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8051948051948052,
+  "balanced_accuracy": 0.7745860927152318,
+  "precision": 0.7397260273972602,
+  "recall": 0.675,
+  "f1": 0.7058823529411765,
+  "mcc": 0.5620203311467544,
+  "roc_auc": 0.8860513245033113,
+  "pr_auc": 0.7552403101473685,
+  "confusion_matrix": [
+    [
+      132,
+      19
+    ],
+    [
+      26,
+      54
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.87      0.85       151\n           1       0.74      0.68      0.71        80\n\n    accuracy                           0.81       231\n   macro avg       0.79      0.77      0.78       231\nweighted avg       0.80      0.81      0.80       231\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7790409048069129,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5165447000181302,
+  "prediction_time_seconds": 0.005034900008467957,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__GOGGLE_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__GOGGLE_balanced__KNeighborsClassifier.json"
+}

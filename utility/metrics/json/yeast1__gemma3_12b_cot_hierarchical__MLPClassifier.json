@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "MLPClassifier",
+  "accuracy": 0.8157303370786517,
+  "balanced_accuracy": 0.7303380433716025,
+  "precision": 0.7640449438202247,
+  "recall": 0.5271317829457365,
+  "f1": 0.6238532110091743,
+  "mcc": 0.5225334092399793,
+  "roc_auc": 0.8579874398979492,
+  "pr_auc": 0.7201652114658481,
+  "confusion_matrix": [
+    [
+      295,
+      21
+    ],
+    [
+      61,
+      68
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.93      0.88       316\n           1       0.76      0.53      0.62       129\n\n    accuracy                           0.82       445\n   macro avg       0.80      0.73      0.75       445\nweighted avg       0.81      0.82      0.80       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.825564473491134,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 59.85591360001126,
+  "prediction_time_seconds": 0.003425000002607703,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_cot_hierarchical__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_cot_hierarchical__MLPClassifier.json"
+}

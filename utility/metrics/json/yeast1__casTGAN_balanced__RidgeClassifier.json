@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "casTGAN__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7460674157303371,
+  "balanced_accuracy": 0.6767000294377392,
+  "precision": 0.5689655172413793,
+  "recall": 0.5116279069767442,
+  "f1": 0.5387755102040817,
+  "mcc": 0.36523977821653103,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      266,
+      50
+    ],
+    [
+      63,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.84      0.82       316\n           1       0.57      0.51      0.54       129\n\n    accuracy                           0.75       445\n   macro avg       0.69      0.68      0.68       445\nweighted avg       0.74      0.75      0.74       445\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.6384373719107896,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2181737999781035,
+  "prediction_time_seconds": 0.002445999998599291,
+  "n_train_samples": 1742,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__casTGAN_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__casTGAN_balanced__RidgeClassifier.json"
+}

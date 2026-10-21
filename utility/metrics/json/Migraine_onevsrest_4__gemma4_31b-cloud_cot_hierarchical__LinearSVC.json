@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.9862385321100917,
+  "precision": 0.625,
+  "recall": 1.0,
+  "f1": 0.7692307692307693,
+  "mcc": 0.7796141129671876,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      106,
+      3
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99       109\n           1       0.62      1.00      0.77         5\n\n    accuracy                           0.97       114\n   macro avg       0.81      0.99      0.88       114\nweighted avg       0.98      0.97      0.98       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.966710980855422,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2509072999819182,
+  "prediction_time_seconds": 0.001710100012132898,
+  "n_train_samples": 718,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__gemma4_31b-cloud_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__gemma4_31b-cloud_cot_hierarchical__LinearSVC.json"
+}

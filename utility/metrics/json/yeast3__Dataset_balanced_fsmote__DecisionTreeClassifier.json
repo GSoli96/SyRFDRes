@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9640449438202248,
+  "balanced_accuracy": 0.9172077922077921,
+  "precision": 0.8235294117647058,
+  "recall": 0.8571428571428571,
+  "f1": 0.84,
+  "mcc": 0.8199641047255399,
+  "roc_auc": 0.9887136672850959,
+  "pr_auc": 0.9178502357714606,
+  "confusion_matrix": [
+    [
+      387,
+      9
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.82      0.86      0.84        49\n\n    accuracy                           0.96       445\n   macro avg       0.90      0.92      0.91       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.9630351801277154,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7037754000048153,
+  "prediction_time_seconds": 0.0029047000280115753,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_fsmote__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_fsmote__DecisionTreeClassifier.json"
+}

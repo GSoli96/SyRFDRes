@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma4_31b-cloud__cot_self_consistency",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9528619528619529,
+  "balanced_accuracy": 0.9074074074074074,
+  "precision": 0.696969696969697,
+  "recall": 0.8518518518518519,
+  "f1": 0.7666666666666667,
+  "mcc": 0.7453559924999299,
+  "roc_auc": 0.9707818930041152,
+  "pr_auc": 0.8723647267380883,
+  "confusion_matrix": [
+    [
+      260,
+      10
+    ],
+    [
+      4,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       270\n           1       0.70      0.85      0.77        27\n\n    accuracy                           0.95       297\n   macro avg       0.84      0.91      0.87       297\nweighted avg       0.96      0.95      0.95       297\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9191473689988318,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.335304600012023,
+  "prediction_time_seconds": 0.018633800005773082,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma4_31b-cloud_cot_self_consistency__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma4_31b-cloud_cot_self_consistency__AdaBoostClassifier.json"
+}

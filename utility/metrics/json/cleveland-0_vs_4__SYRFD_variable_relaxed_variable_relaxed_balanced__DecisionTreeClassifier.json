@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9622641509433962,
+  "balanced_accuracy": 0.8647959183673469,
+  "precision": 0.75,
+  "recall": 0.75,
+  "f1": 0.75,
+  "mcc": 0.7295918367346939,
+  "roc_auc": 0.9821428571428571,
+  "pr_auc": 0.7053571428571428,
+  "confusion_matrix": [
+    [
+      48,
+      1
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        49\n           1       0.75      0.75      0.75         4\n\n    accuracy                           0.96        53\n   macro avg       0.86      0.86      0.86        53\nweighted avg       0.96      0.96      0.96        53\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.4847619047619047,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.297393600048963,
+  "prediction_time_seconds": 0.0038086000131443143,
+  "n_train_samples": 176,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__SYRFD_variable_relaxed_variable_relaxed_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__SYRFD_variable_relaxed_variable_relaxed_balanced__DecisionTreeClassifier.json"
+}

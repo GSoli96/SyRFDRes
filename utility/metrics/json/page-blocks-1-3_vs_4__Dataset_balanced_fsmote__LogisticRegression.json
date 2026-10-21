@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "LogisticRegression",
+  "accuracy": 0.9084507042253521,
+  "balanced_accuracy": 0.9514925373134329,
+  "precision": 0.38095238095238093,
+  "recall": 1.0,
+  "f1": 0.5517241379310345,
+  "mcc": 0.5865102847722007,
+  "roc_auc": 0.9664179104477613,
+  "pr_auc": 0.6063492063492064,
+  "confusion_matrix": [
+    [
+      121,
+      13
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95       134\n           1       0.38      1.00      0.55         8\n\n    accuracy                           0.91       142\n   macro avg       0.69      0.95      0.75       142\nweighted avg       0.97      0.91      0.93       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.968217975204946,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.32494570000562817,
+  "prediction_time_seconds": 0.00243730001966469,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__Dataset_balanced_fsmote__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__Dataset_balanced_fsmote__LogisticRegression.json"
+}

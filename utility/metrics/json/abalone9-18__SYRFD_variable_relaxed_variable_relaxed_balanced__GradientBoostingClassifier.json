@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9771689497716894,
+  "balanced_accuracy": 0.8437266616878267,
+  "precision": 0.9,
+  "recall": 0.6923076923076923,
+  "f1": 0.782608695652174,
+  "mcc": 0.7781715682507099,
+  "roc_auc": 0.9943988050784167,
+  "pr_auc": 0.9251667136282518,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       206\n           1       0.90      0.69      0.78        13\n\n    accuracy                           0.98       219\n   macro avg       0.94      0.84      0.89       219\nweighted avg       0.98      0.98      0.98       219\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9541199240815897,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 28.558078999980353,
+  "prediction_time_seconds": 0.0062259999685920775,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_variable_relaxed_variable_relaxed_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_variable_relaxed_variable_relaxed_balanced__GradientBoostingClassifier.json"
+}

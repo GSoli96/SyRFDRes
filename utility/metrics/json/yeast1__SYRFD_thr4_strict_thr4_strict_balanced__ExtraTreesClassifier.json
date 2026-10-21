@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr4_strict__thr4_strict_balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8314606741573034,
+  "balanced_accuracy": 0.775819350407222,
+  "precision": 0.7410714285714286,
+  "recall": 0.6434108527131783,
+  "f1": 0.6887966804979253,
+  "mcc": 0.5767159933731666,
+  "roc_auc": 0.898905897360416,
+  "pr_auc": 0.7879083898422736,
+  "confusion_matrix": [
+    [
+      287,
+      29
+    ],
+    [
+      46,
+      83
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.91      0.88       316\n           1       0.74      0.64      0.69       129\n\n    accuracy                           0.83       445\n   macro avg       0.80      0.78      0.79       445\nweighted avg       0.83      0.83      0.83       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8302084137941401,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.596727199997986,
+  "prediction_time_seconds": 0.03427380000357516,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr4_strict_thr4_strict_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr4_strict_thr4_strict_balanced__ExtraTreesClassifier.json"
+}

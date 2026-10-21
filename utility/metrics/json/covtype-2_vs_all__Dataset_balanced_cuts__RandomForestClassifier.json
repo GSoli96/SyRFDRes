@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8826705067009363,
+  "balanced_accuracy": 0.8830817373500363,
+  "precision": 0.8651015443797024,
+  "recall": 0.8996587833862807,
+  "f1": 0.8820418168709445,
+  "mcc": 0.766004354886477,
+  "roc_auc": 0.954101701781017,
+  "pr_auc": 0.95011877085825,
+  "confusion_matrix": [
+    [
+      77391,
+      11923
+    ],
+    [
+      8528,
+      76462
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.87      0.88     89314\n           1       0.87      0.90      0.88     84990\n\n    accuracy                           0.88    174304\n   macro avg       0.88      0.88      0.88    174304\nweighted avg       0.88      0.88      0.88    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8667406225275307,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 678.2119401000091,
+  "prediction_time_seconds": 8.482005099998787,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_cuts__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_cuts__RandomForestClassifier.json"
+}

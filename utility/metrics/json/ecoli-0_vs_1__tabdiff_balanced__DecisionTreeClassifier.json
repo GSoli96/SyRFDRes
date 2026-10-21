@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "tabdiff__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9848484848484849,
+  "balanced_accuracy": 0.9782608695652174,
+  "precision": 1.0,
+  "recall": 0.9565217391304348,
+  "f1": 0.9777777777777777,
+  "mcc": 0.966841563388569,
+  "roc_auc": 0.9772497472194136,
+  "pr_auc": 0.97167325428195,
+  "confusion_matrix": [
+    [
+      43,
+      0
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99        43\n           1       1.00      0.96      0.98        23\n\n    accuracy                           0.98        66\n   macro avg       0.99      0.98      0.98        66\nweighted avg       0.99      0.98      0.98        66\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9783045998835472,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6413668000022881,
+  "prediction_time_seconds": 0.0015371000044979155,
+  "n_train_samples": 284,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__tabdiff_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__tabdiff_balanced__DecisionTreeClassifier.json"
+}

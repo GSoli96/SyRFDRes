@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "casTGAN__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9680365296803652,
+  "balanced_accuracy": 0.7307692307692308,
+  "precision": 1.0,
+  "recall": 0.46153846153846156,
+  "f1": 0.631578947368421,
+  "mcc": 0.6681096697979854,
+  "roc_auc": 0.9992531740104555,
+  "pr_auc": 0.9897435897435896,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       206\n           1       1.00      0.46      0.63        13\n\n    accuracy                           0.97       219\n   macro avg       0.98      0.73      0.81       219\nweighted avg       0.97      0.97      0.96       219\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.6864966074406302,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 27.950516899989452,
+  "prediction_time_seconds": 0.0583061000215821,
+  "n_train_samples": 793,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__casTGAN_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__casTGAN_balanced__ExtraTreesClassifier.json"
+}

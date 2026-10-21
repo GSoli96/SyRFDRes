@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "GOGGLE__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7922077922077922,
+  "balanced_accuracy": 0.7235099337748344,
+  "precision": 0.8333333333333334,
+  "recall": 0.5,
+  "f1": 0.625,
+  "mcc": 0.5242206554732429,
+  "roc_auc": 0.8826572847682119,
+  "pr_auc": 0.7745713005333049,
+  "confusion_matrix": [
+    [
+      143,
+      8
+    ],
+    [
+      40,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.95      0.86       151\n           1       0.83      0.50      0.62        80\n\n    accuracy                           0.79       231\n   macro avg       0.81      0.72      0.74       231\nweighted avg       0.80      0.79      0.78       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8057827147428892,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7720204000070225,
+  "prediction_time_seconds": 0.0015306999848689884,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__GOGGLE_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__GOGGLE_balanced__DecisionTreeClassifier.json"
+}

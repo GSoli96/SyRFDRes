@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "ctabganp__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9393939393939394,
+  "balanced_accuracy": 0.9333333333333333,
+  "precision": 0.6097560975609756,
+  "recall": 0.9259259259259259,
+  "f1": 0.7352941176470589,
+  "mcc": 0.7222772675500124,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      254,
+      16
+    ],
+    [
+      2,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.94      0.97       270\n           1       0.61      0.93      0.74        27\n\n    accuracy                           0.94       297\n   macro avg       0.80      0.93      0.85       297\nweighted avg       0.96      0.94      0.94       297\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9389316430707829,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2818220999906771,
+  "prediction_time_seconds": 0.002461399999447167,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__ctabganp_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__ctabganp_balanced__LinearSVC.json"
+}

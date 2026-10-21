@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "ddpm__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9685393258426966,
+  "balanced_accuracy": 0.9526175056422332,
+  "precision": 0.9752066115702479,
+  "recall": 0.9147286821705426,
+  "f1": 0.944,
+  "mcc": 0.923069813507802,
+  "roc_auc": 0.9956088705720734,
+  "pr_auc": 0.9894614099176628,
+  "confusion_matrix": [
+    [
+      313,
+      3
+    ],
+    [
+      11,
+      118
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       316\n           1       0.98      0.91      0.94       129\n\n    accuracy                           0.97       445\n   macro avg       0.97      0.95      0.96       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.7960622491148074,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.018318600021303,
+  "prediction_time_seconds": 0.008586100011598319,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__ddpm_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__ddpm_balanced__HistGradientBoostingClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8441558441558441,
+  "balanced_accuracy": 0.813203642384106,
+  "precision": 0.8142857142857143,
+  "recall": 0.7125,
+  "f1": 0.76,
+  "mcc": 0.64852736900178,
+  "roc_auc": 0.9137417218543046,
+  "pr_auc": 0.8633988008487261,
+  "confusion_matrix": [
+    [
+      138,
+      13
+    ],
+    [
+      23,
+      57
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.91      0.88       151\n           1       0.81      0.71      0.76        80\n\n    accuracy                           0.84       231\n   macro avg       0.84      0.81      0.82       231\nweighted avg       0.84      0.84      0.84       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.7558342265806253,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 29.876812600006815,
+  "prediction_time_seconds": 0.002742200013017282,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr2_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr2_balanced__MLPClassifier.json"
+}

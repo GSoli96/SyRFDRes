@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr2_strict__thr2_strict_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8767123287671232,
+  "balanced_accuracy": 0.8263629574309186,
+  "precision": 0.29411764705882354,
+  "recall": 0.7692307692307693,
+  "f1": 0.425531914893617,
+  "mcc": 0.42590311772532785,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      182,
+      24
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.88      0.93       206\n           1       0.29      0.77      0.43        13\n\n    accuracy                           0.88       219\n   macro avg       0.64      0.83      0.68       219\nweighted avg       0.94      0.88      0.90       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8569108848906575,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6761228999821469,
+  "prediction_time_seconds": 0.00424029998248443,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr2_strict_thr2_strict_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr2_strict_thr2_strict_balanced__LinearSVC.json"
+}

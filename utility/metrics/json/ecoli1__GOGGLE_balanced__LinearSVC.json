@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.900990099009901,
+  "balanced_accuracy": 0.8439241917502787,
+  "precision": 0.8095238095238095,
+  "recall": 0.7391304347826086,
+  "f1": 0.7727272727272727,
+  "mcc": 0.7108030775282446,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      74,
+      4
+    ],
+    [
+      6,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.95      0.94        78\n           1       0.81      0.74      0.77        23\n\n    accuracy                           0.90       101\n   macro avg       0.87      0.84      0.85       101\nweighted avg       0.90      0.90      0.90       101\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9282284978170162,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.28371429999242537,
+  "prediction_time_seconds": 0.0022619999945163727,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__GOGGLE_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__GOGGLE_balanced__LinearSVC.json"
+}

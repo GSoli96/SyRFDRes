@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "tvae__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7359307359307359,
+  "balanced_accuracy": 0.7186672185430463,
+  "precision": 0.6091954022988506,
+  "recall": 0.6625,
+  "f1": 0.6347305389221557,
+  "mcc": 0.4294437348316555,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      117,
+      34
+    ],
+    [
+      27,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.77      0.79       151\n           1       0.61      0.66      0.63        80\n\n    accuracy                           0.74       231\n   macro avg       0.71      0.72      0.71       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7524807639439173,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.22529569998732768,
+  "prediction_time_seconds": 0.002426699997158721,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__tvae_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__tvae_balanced__RidgeClassifier.json"
+}

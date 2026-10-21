@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9595505617977528,
+  "balanced_accuracy": 0.941701010695712,
+  "precision": 0.9586776859504132,
+  "recall": 0.8992248062015504,
+  "f1": 0.928,
+  "mcc": 0.9008066733755036,
+  "roc_auc": 0.9951182415857128,
+  "pr_auc": 0.9881776615542435,
+  "confusion_matrix": [
+    [
+      311,
+      5
+    ],
+    [
+      13,
+      116
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.98      0.97       316\n           1       0.96      0.90      0.93       129\n\n    accuracy                           0.96       445\n   macro avg       0.96      0.94      0.95       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8584472264079027,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 103.8608288000105,
+  "prediction_time_seconds": 0.0026704000192694366,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__devstral-small-2_24b-cloud_distribution_guidance_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__devstral-small-2_24b-cloud_distribution_guidance_balanced__MLPClassifier.json"
+}

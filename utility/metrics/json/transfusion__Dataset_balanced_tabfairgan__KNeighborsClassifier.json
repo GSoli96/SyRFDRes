@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8088888888888889,
+  "balanced_accuracy": 0.685717419921018,
+  "precision": 0.631578947368421,
+  "recall": 0.4528301886792453,
+  "f1": 0.5274725274725275,
+  "mcc": 0.42069969188173356,
+  "roc_auc": 0.8451623519087319,
+  "pr_auc": 0.6095250705379801,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      29,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.92      0.88       172\n           1       0.63      0.45      0.53        53\n\n    accuracy                           0.81       225\n   macro avg       0.74      0.69      0.70       225\nweighted avg       0.79      0.81      0.80       225\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8285694874614373,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5157329999783542,
+  "prediction_time_seconds": 0.0029303999908734113,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabfairgan__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabfairgan__KNeighborsClassifier.json"
+}

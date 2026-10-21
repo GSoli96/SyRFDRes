@@ -1,0 +1,38 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "llama__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9808612440191388,
+  "balanced_accuracy": 0.944291295854135,
+  "precision": 0.9620253164556962,
+  "recall": 0.8941176470588236,
+  "f1": 0.926829268292683,
+  "mcc": 0.9166490273094358,
+  "roc_auc": 0.9982200998480574,
+  "pr_auc": 0.9896512979406095,
+  "confusion_matrix": [
+    [
+      539,
+      3
+    ],
+    [
+      9,
+      76
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.99      0.99       542\n           1       0.96      0.89      0.93        85\n\n    accuracy                           0.98       627\n   macro avg       0.97      0.94      0.96       627\nweighted avg       0.98      0.98      0.98       627\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.9459181745862789,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 85.88817069999641,
+  "prediction_time_seconds": 0.003420900000492111,
+  "n_train_samples": 3469,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__llama_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__llama_balanced__MLPClassifier.json"
+}

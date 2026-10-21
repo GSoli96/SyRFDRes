@@ -1,0 +1,37 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "LogisticRegression",
+  "accuracy": 0.8867924528301887,
+  "balanced_accuracy": 0.9387755102040816,
+  "precision": 0.4,
+  "recall": 1.0,
+  "f1": 0.5714285714285714,
+  "mcc": 0.5924697529522206,
+  "roc_auc": 0.9846938775510203,
+  "pr_auc": 0.8541666666666666,
+  "confusion_matrix": [
+    [
+      43,
+      6
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.88      0.93        49\n           1       0.40      1.00      0.57         4\n\n    accuracy                           0.89        53\n   macro avg       0.70      0.94      0.75        53\nweighted avg       0.95      0.89      0.91        53\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8827623640922873,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4927198000368662,
+  "prediction_time_seconds": 0.0033390999888069928,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__LogisticRegression.json"
+}

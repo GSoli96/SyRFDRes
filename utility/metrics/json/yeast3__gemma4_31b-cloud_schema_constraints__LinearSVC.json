@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "LinearSVC",
+  "accuracy": 0.7235955056179775,
+  "balanced_accuracy": 0.8268140589569161,
+  "precision": 0.27976190476190477,
+  "recall": 0.9591836734693877,
+  "f1": 0.43317972350230416,
+  "mcc": 0.4220674243317968,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      275,
+      121
+    ],
+    [
+      2,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.69      0.82       396\n           1       0.28      0.96      0.43        49\n\n    accuracy                           0.72       445\n   macro avg       0.64      0.83      0.63       445\nweighted avg       0.91      0.72      0.77       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6840898287826318,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.30092740000691265,
+  "prediction_time_seconds": 0.002479599992511794,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma4_31b-cloud_schema_constraints__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma4_31b-cloud_schema_constraints__LinearSVC.json"
+}

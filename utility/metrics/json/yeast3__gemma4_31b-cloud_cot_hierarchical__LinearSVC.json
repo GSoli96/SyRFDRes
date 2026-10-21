@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.7056179775280899,
+  "balanced_accuracy": 0.816713048855906,
+  "precision": 0.26704545454545453,
+  "recall": 0.9591836734693877,
+  "f1": 0.4177777777777778,
+  "mcc": 0.40551704337681654,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      267,
+      129
+    ],
+    [
+      2,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.67      0.80       396\n           1       0.27      0.96      0.42        49\n\n    accuracy                           0.71       445\n   macro avg       0.63      0.82      0.61       445\nweighted avg       0.91      0.71      0.76       445\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7046752277439048,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.30060640000738204,
+  "prediction_time_seconds": 0.002973399998154491,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma4_31b-cloud_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma4_31b-cloud_cot_hierarchical__LinearSVC.json"
+}

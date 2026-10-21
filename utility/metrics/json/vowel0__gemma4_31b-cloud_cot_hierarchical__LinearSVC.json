@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.797979797979798,
+  "balanced_accuracy": 0.8888888888888888,
+  "precision": 0.3103448275862069,
+  "recall": 1.0,
+  "f1": 0.47368421052631576,
+  "mcc": 0.4913036844405175,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      210,
+      60
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.78      0.88       270\n           1       0.31      1.00      0.47        27\n\n    accuracy                           0.80       297\n   macro avg       0.66      0.89      0.67       297\nweighted avg       0.94      0.80      0.84       297\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7682224029442859,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.299518599989824,
+  "prediction_time_seconds": 0.0026345000078435987,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma4_31b-cloud_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma4_31b-cloud_cot_hierarchical__LinearSVC.json"
+}

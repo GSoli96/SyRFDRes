@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "LinearSVC",
+  "accuracy": 0.9483146067415731,
+  "balanced_accuracy": 0.8904864976293547,
+  "precision": 0.7407407407407407,
+  "recall": 0.8163265306122449,
+  "f1": 0.7766990291262136,
+  "mcc": 0.7486802752188516,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      382,
+      14
+    ],
+    [
+      9,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       396\n           1       0.74      0.82      0.78        49\n\n    accuracy                           0.95       445\n   macro avg       0.86      0.89      0.87       445\nweighted avg       0.95      0.95      0.95       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9644790448454609,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.24388759999419563,
+  "prediction_time_seconds": 0.0026482999965082854,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma3_12b_cot_react__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma3_12b_cot_react__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "deepseek__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9662921348314607,
+  "balanced_accuracy": 0.9274118738404453,
+  "precision": 0.8269230769230769,
+  "recall": 0.8775510204081632,
+  "f1": 0.8514851485148515,
+  "mcc": 0.8329602267934496,
+  "roc_auc": 0.9912904555761698,
+  "pr_auc": 0.9341228932956787,
+  "confusion_matrix": [
+    [
+      387,
+      9
+    ],
+    [
+      6,
+      43
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.83      0.88      0.85        49\n\n    accuracy                           0.97       445\n   macro avg       0.91      0.93      0.92       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9612609416669013,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.365548800007673,
+  "prediction_time_seconds": 0.003008700005011633,
+  "n_train_samples": 2413,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__deepseek_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__deepseek_balanced__GradientBoostingClassifier.json"
+}

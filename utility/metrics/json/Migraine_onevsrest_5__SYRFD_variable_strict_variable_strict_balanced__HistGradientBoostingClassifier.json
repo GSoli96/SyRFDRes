@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.875,
+  "precision": 1.0,
+  "recall": 0.75,
+  "f1": 0.8571428571428571,
+  "mcc": 0.8621155625803557,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      110,
+      0
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00       110\n           1       1.00      0.75      0.86         4\n\n    accuracy                           0.99       114\n   macro avg       1.00      0.88      0.93       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.22666666666666666,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 4.833641899982467,
+  "prediction_time_seconds": 0.0042953000229317695,
+  "n_train_samples": 377,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__SYRFD_variable_strict_variable_strict_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__SYRFD_variable_strict_variable_strict_balanced__HistGradientBoostingClassifier.json"
+}

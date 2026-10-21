@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "original",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9936031301633927,
+  "balanced_accuracy": 0.949868509571552,
+  "precision": 0.9148550724637681,
+  "recall": 0.9028116366000325,
+  "f1": 0.9087934560327199,
+  "mcc": 0.9055002800067775,
+  "roc_auc": 0.949868509571552,
+  "pr_auc": 0.8293725928123545,
+  "confusion_matrix": [
+    [
+      167634,
+      517
+    ],
+    [
+      598,
+      5555
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    168151\n           1       0.91      0.90      0.91      6153\n\n    accuracy                           0.99    174304\n   macro avg       0.96      0.95      0.95    174304\nweighted avg       0.99      0.99      0.99    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9026030729416552,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 162.81346859992482,
+  "prediction_time_seconds": 0.06336679996456951,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__original__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__original__DecisionTreeClassifier.json"
+}

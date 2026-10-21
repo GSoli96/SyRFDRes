@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8181818181818182,
+  "balanced_accuracy": 0.8286009933774834,
+  "precision": 0.69,
+  "recall": 0.8625,
+  "f1": 0.7666666666666667,
+  "mcc": 0.6310978301418463,
+  "roc_auc": 0.897433774834437,
+  "pr_auc": 0.794614952345348,
+  "confusion_matrix": [
+    [
+      120,
+      31
+    ],
+    [
+      11,
+      69
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.79      0.85       151\n           1       0.69      0.86      0.77        80\n\n    accuracy                           0.82       231\n   macro avg       0.80      0.83      0.81       231\nweighted avg       0.84      0.82      0.82       231\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7970696338863766,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.48715010000159964,
+  "prediction_time_seconds": 0.003964300005463883,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr8_relaxed_thr8_relaxed_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr8_relaxed_thr8_relaxed_balanced__KNeighborsClassifier.json"
+}

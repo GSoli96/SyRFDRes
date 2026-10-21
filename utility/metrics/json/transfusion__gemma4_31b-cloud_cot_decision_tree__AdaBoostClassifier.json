@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7511111111111111,
+  "balanced_accuracy": 0.6675076788064941,
+  "precision": 0.47368421052631576,
+  "recall": 0.5094339622641509,
+  "f1": 0.4909090909090909,
+  "mcc": 0.3268698063700943,
+  "roc_auc": 0.7735849056603774,
+  "pr_auc": 0.48374279391382413,
+  "confusion_matrix": [
+    [
+      142,
+      30
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.83      0.84       172\n           1       0.47      0.51      0.49        53\n\n    accuracy                           0.75       225\n   macro avg       0.66      0.67      0.66       225\nweighted avg       0.76      0.75      0.75       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8136783700426257,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.729906200023834,
+  "prediction_time_seconds": 0.01009549997979775,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.json"
+}

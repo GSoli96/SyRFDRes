@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "ctabgan__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8138528138528138,
+  "balanced_accuracy": 0.8194122516556291,
+  "precision": 0.6907216494845361,
+  "recall": 0.8375,
+  "f1": 0.7570621468926554,
+  "mcc": 0.6158525823141611,
+  "roc_auc": 0.9106788079470198,
+  "pr_auc": 0.8158400133377705,
+  "confusion_matrix": [
+    [
+      121,
+      30
+    ],
+    [
+      13,
+      67
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.80      0.85       151\n           1       0.69      0.84      0.76        80\n\n    accuracy                           0.81       231\n   macro avg       0.80      0.82      0.80       231\nweighted avg       0.83      0.81      0.82       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.7929698584999466,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7890226999879815,
+  "prediction_time_seconds": 0.0022047999955248088,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ctabgan_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ctabgan_balanced__DecisionTreeClassifier.json"
+}

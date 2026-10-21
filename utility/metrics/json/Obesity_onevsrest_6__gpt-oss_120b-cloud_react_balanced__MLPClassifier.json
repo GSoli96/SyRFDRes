@@ -1,0 +1,39 @@
+{
+  "dataset": "Obesity_onevsrest_6",
+  "augmentation": "gpt-oss_120b-cloud__react__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.989622641509434,
+  "precision": 0.8981481481481481,
+  "recall": 1.0,
+  "f1": 0.9463414634146341,
+  "mcc": 0.9378205252212203,
+  "roc_auc": 0.9999999999999999,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      519,
+      11
+    ],
+    [
+      0,
+      97
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       530\n           1       0.90      1.00      0.95        97\n\n    accuracy                           0.98       627\n   macro avg       0.95      0.99      0.97       627\nweighted avg       0.98      0.98      0.98       627\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9514429873799235,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 118.71650720000616,
+  "prediction_time_seconds": 0.0038035000034142286,
+  "n_train_samples": 5613,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_6__gpt-oss_120b-cloud_react_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_6__gpt-oss_120b-cloud_react_balanced__MLPClassifier.json"
+}

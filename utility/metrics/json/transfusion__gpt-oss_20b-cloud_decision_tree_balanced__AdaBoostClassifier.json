@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.76,
+  "balanced_accuracy": 0.6667946467749013,
+  "precision": 0.49056603773584906,
+  "recall": 0.49056603773584906,
+  "f1": 0.49056603773584906,
+  "mcc": 0.33358929354980255,
+  "roc_auc": 0.7494515138218517,
+  "pr_auc": 0.4742454964137527,
+  "confusion_matrix": [
+    [
+      145,
+      27
+    ],
+    [
+      27,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.84      0.84       172\n           1       0.49      0.49      0.49        53\n\n    accuracy                           0.76       225\n   macro avg       0.67      0.67      0.67       225\nweighted avg       0.76      0.76      0.76       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.6526923088060517,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.536214899999322,
+  "prediction_time_seconds": 0.03326990001369268,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_20b-cloud_decision_tree_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_20b-cloud_decision_tree_balanced__AdaBoostClassifier.json"
+}

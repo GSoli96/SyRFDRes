@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8086124401913876,
+  "balanced_accuracy": 0.855655569942776,
+  "precision": 0.4205128205128205,
+  "recall": 0.9213483146067416,
+  "f1": 0.5774647887323944,
+  "mcc": 0.536273790841594,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      425,
+      113
+    ],
+    [
+      7,
+      82
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.79      0.88       538\n           1       0.42      0.92      0.58        89\n\n    accuracy                           0.81       627\n   macro avg       0.70      0.86      0.73       627\nweighted avg       0.90      0.81      0.83       627\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.8471170989838637,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2142394999973476,
+  "prediction_time_seconds": 0.001808699977118522,
+  "n_train_samples": 3580,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__gemma3_12b_schema_constraints__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__gemma3_12b_schema_constraints__RidgeClassifier.json"
+}

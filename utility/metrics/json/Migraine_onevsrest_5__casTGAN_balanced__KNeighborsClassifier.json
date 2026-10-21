@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "casTGAN__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.75,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1": 0.6666666666666666,
+  "mcc": 0.7007648882267351,
+  "roc_auc": 0.9863636363636363,
+  "pr_auc": 0.7,
+  "confusion_matrix": [
+    [
+      110,
+      0
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       110\n           1       1.00      0.50      0.67         4\n\n    accuracy                           0.98       114\n   macro avg       0.99      0.75      0.83       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.4333333333333333,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6405175999971107,
+  "prediction_time_seconds": 0.004365600005257875,
+  "n_train_samples": 426,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__casTGAN_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__casTGAN_balanced__KNeighborsClassifier.json"
+}

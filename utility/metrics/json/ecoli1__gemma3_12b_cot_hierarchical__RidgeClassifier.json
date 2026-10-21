@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8613861386138614,
+  "balanced_accuracy": 0.8642697881828316,
+  "precision": 0.6451612903225806,
+  "recall": 0.8695652173913043,
+  "f1": 0.7407407407407407,
+  "mcc": 0.6624216243735949,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      67,
+      11
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.86      0.91        78\n           1       0.65      0.87      0.74        23\n\n    accuracy                           0.86       101\n   macro avg       0.80      0.86      0.82       101\nweighted avg       0.89      0.86      0.87       101\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9123852964983111,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.19354440001188777,
+  "prediction_time_seconds": 0.0020586999889928848,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_cot_hierarchical__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_cot_hierarchical__RidgeClassifier.json"
+}

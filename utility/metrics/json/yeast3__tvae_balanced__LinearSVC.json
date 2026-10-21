@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "tvae__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9235955056179775,
+  "balanced_accuracy": 0.9123634302205731,
+  "precision": 0.6027397260273972,
+  "recall": 0.8979591836734694,
+  "f1": 0.7213114754098361,
+  "mcc": 0.6971446072824077,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      367,
+      29
+    ],
+    [
+      5,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.93      0.96       396\n           1       0.60      0.90      0.72        49\n\n    accuracy                           0.92       445\n   macro avg       0.79      0.91      0.84       445\nweighted avg       0.94      0.92      0.93       445\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9294349783470522,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3133877000072971,
+  "prediction_time_seconds": 0.00259280001046136,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__tvae_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__tvae_balanced__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9831649831649831,
+  "balanced_accuracy": 0.9907407407407407,
+  "precision": 0.84375,
+  "recall": 1.0,
+  "f1": 0.9152542372881356,
+  "mcc": 0.9100137361600648,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      265,
+      5
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       270\n           1       0.84      1.00      0.92        27\n\n    accuracy                           0.98       297\n   macro avg       0.92      0.99      0.95       297\nweighted avg       0.99      0.98      0.98       297\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9248012134714287,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.9782717000052799,
+  "prediction_time_seconds": 0.0019195000058971345,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__Dataset_balanced_prefair__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__Dataset_balanced_prefair__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8787878787878788,
+  "balanced_accuracy": 0.8661423841059602,
+  "precision": 0.825,
+  "recall": 0.825,
+  "f1": 0.825,
+  "mcc": 0.7322847682119206,
+  "roc_auc": 0.9512831125827814,
+  "pr_auc": 0.9103368705729271,
+  "confusion_matrix": [
+    [
+      137,
+      14
+    ],
+    [
+      14,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.91      0.91       151\n           1       0.82      0.82      0.82        80\n\n    accuracy                           0.88       231\n   macro avg       0.87      0.87      0.87       231\nweighted avg       0.88      0.88      0.88       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.7425936231142132,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7382020000077318,
+  "prediction_time_seconds": 0.0015885999891906977,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr8_relaxed_thr8_relaxed_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr8_relaxed_thr8_relaxed_balanced__DecisionTreeClassifier.json"
+}

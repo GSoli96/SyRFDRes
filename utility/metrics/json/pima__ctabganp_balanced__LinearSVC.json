@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "ctabganp__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7532467532467533,
+  "balanced_accuracy": 0.7495447019867549,
+  "precision": 0.6210526315789474,
+  "recall": 0.7375,
+  "f1": 0.6742857142857143,
+  "mcc": 0.48259249073867694,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      115,
+      36
+    ],
+    [
+      21,
+      59
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.76      0.80       151\n           1       0.62      0.74      0.67        80\n\n    accuracy                           0.75       231\n   macro avg       0.73      0.75      0.74       231\nweighted avg       0.77      0.75      0.76       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7444774154823229,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23419350001495332,
+  "prediction_time_seconds": 0.0017017999780364335,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ctabganp_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ctabganp_balanced__LinearSVC.json"
+}

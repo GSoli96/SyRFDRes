@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "RidgeClassifier",
+  "accuracy": 0.821917808219178,
+  "balanced_accuracy": 0.6170649738610904,
+  "precision": 0.1388888888888889,
+  "recall": 0.38461538461538464,
+  "f1": 0.20408163265306123,
+  "mcc": 0.14927444296759534,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      175,
+      31
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.85      0.90       206\n           1       0.14      0.38      0.20        13\n\n    accuracy                           0.82       219\n   macro avg       0.55      0.62      0.55       219\nweighted avg       0.91      0.82      0.86       219\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.850457300981614,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.38811870000790805,
+  "prediction_time_seconds": 0.004351400013547391,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma3_12b_cot_confidence__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma3_12b_cot_confidence__RidgeClassifier.json"
+}

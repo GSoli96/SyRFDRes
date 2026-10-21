@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.84,
+  "balanced_accuracy": 0.7517551557700746,
+  "precision": 0.6888888888888889,
+  "recall": 0.5849056603773585,
+  "f1": 0.6326530612244898,
+  "mcc": 0.5341558853675125,
+  "roc_auc": 0.8677599824484422,
+  "pr_auc": 0.69665161503967,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.92      0.90       172\n           1       0.69      0.58      0.63        53\n\n    accuracy                           0.84       225\n   macro avg       0.78      0.75      0.77       225\nweighted avg       0.83      0.84      0.84       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8342009565550661,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.071631899976637,
+  "prediction_time_seconds": 0.010447500011650845,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_schema_constraints__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_schema_constraints__ExtraTreesClassifier.json"
+}

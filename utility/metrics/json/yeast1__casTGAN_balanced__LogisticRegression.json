@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "casTGAN__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7528089887640449,
+  "balanced_accuracy": 0.6952090079481896,
+  "precision": 0.576,
+  "recall": 0.5581395348837209,
+  "f1": 0.5669291338582677,
+  "mcc": 0.3941288724196337,
+  "roc_auc": 0.8049013835737415,
+  "pr_auc": 0.5929984029684215,
+  "confusion_matrix": [
+    [
+      263,
+      53
+    ],
+    [
+      57,
+      72
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.83      0.83       316\n           1       0.58      0.56      0.57       129\n\n    accuracy                           0.75       445\n   macro avg       0.70      0.70      0.70       445\nweighted avg       0.75      0.75      0.75       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6619837141258839,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3493841999734286,
+  "prediction_time_seconds": 0.002543200011132285,
+  "n_train_samples": 1742,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__casTGAN_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__casTGAN_balanced__LogisticRegression.json"
+}

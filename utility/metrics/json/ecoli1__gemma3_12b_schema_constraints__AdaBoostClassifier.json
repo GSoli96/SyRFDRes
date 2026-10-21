@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8811881188118812,
+  "balanced_accuracy": 0.9077480490523968,
+  "precision": 0.6666666666666666,
+  "recall": 0.9565217391304348,
+  "f1": 0.7857142857142857,
+  "mcc": 0.7291580594940881,
+  "roc_auc": 0.9843924191750278,
+  "pr_auc": 0.9561235865583692,
+  "confusion_matrix": [
+    [
+      67,
+      11
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.86      0.92        78\n           1       0.67      0.96      0.79        23\n\n    accuracy                           0.88       101\n   macro avg       0.83      0.91      0.85       101\nweighted avg       0.91      0.88      0.89       101\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 50
+  },
+  "cv_best_score": 0.8977123587012981,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.438849400001345,
+  "prediction_time_seconds": 0.005145200004335493,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_schema_constraints__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_schema_constraints__AdaBoostClassifier.json"
+}

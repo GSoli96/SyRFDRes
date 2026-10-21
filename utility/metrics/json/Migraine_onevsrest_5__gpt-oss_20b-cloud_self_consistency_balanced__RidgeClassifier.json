@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8771929824561403,
+  "balanced_accuracy": 0.575,
+  "precision": 0.08333333333333333,
+  "recall": 0.25,
+  "f1": 0.125,
+  "mcc": 0.08993461677306269,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      99,
+      11
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.90      0.93       110\n           1       0.08      0.25      0.12         4\n\n    accuracy                           0.88       114\n   macro avg       0.53      0.57      0.53       114\nweighted avg       0.94      0.88      0.91       114\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 0.17071029669729526,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.19339999998919666,
+  "prediction_time_seconds": 0.0018330999882891774,
+  "n_train_samples": 1103,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__gpt-oss_20b-cloud_self_consistency_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__gpt-oss_20b-cloud_self_consistency_balanced__RidgeClassifier.json"
+}

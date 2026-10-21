@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9497716894977168,
+  "balanced_accuracy": 0.8291635548917102,
+  "precision": 0.5625,
+  "recall": 0.6923076923076923,
+  "f1": 0.6206896551724138,
+  "mcc": 0.5977767446955602,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      199,
+      7
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.97       206\n           1       0.56      0.69      0.62        13\n\n    accuracy                           0.95       219\n   macro avg       0.77      0.83      0.80       219\nweighted avg       0.96      0.95      0.95       219\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.2558145196500778,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.36333550000563264,
+  "prediction_time_seconds": 0.004210799990687519,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.json"
+}

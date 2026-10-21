@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "devstral-small-2_24b-cloud__hierarchical__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9213483146067416,
+  "balanced_accuracy": 0.8932178932178931,
+  "precision": 0.6,
+  "recall": 0.8571428571428571,
+  "f1": 0.7058823529411765,
+  "mcc": 0.6761518595562221,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      368,
+      28
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.93      0.95       396\n           1       0.60      0.86      0.71        49\n\n    accuracy                           0.92       445\n   macro avg       0.79      0.89      0.83       445\nweighted avg       0.94      0.92      0.93       445\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.6348721449288787,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21409669998683967,
+  "prediction_time_seconds": 0.002296799997566268,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__devstral-small-2_24b-cloud_hierarchical_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__devstral-small-2_24b-cloud_hierarchical_balanced__RidgeClassifier.json"
+}

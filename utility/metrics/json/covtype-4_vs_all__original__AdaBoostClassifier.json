@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-4_vs_all",
+  "augmentation": "original",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9969478612080044,
+  "balanced_accuracy": 0.7490502248657409,
+  "precision": 0.7754716981132076,
+  "recall": 0.4987864077669903,
+  "f1": 0.6070901033973413,
+  "mcc": 0.6205473318649678,
+  "roc_auc": 0.9970872492226518,
+  "pr_auc": 0.6895321816643474,
+  "confusion_matrix": [
+    [
+      173361,
+      119
+    ],
+    [
+      413,
+      411
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    173480\n           1       0.78      0.50      0.61       824\n\n    accuracy                           1.00    174304\n   macro avg       0.89      0.75      0.80    174304\nweighted avg       1.00      1.00      1.00    174304\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.5838314170803026,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1629.3781064000214,
+  "prediction_time_seconds": 4.541210099996533,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-4_vs_all__original__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-4_vs_all__original__AdaBoostClassifier.json"
+}

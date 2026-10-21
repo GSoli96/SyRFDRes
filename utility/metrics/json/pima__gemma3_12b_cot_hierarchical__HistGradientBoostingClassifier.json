@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9913419913419913,
+  "balanced_accuracy": 0.9904387417218543,
+  "precision": 0.9875,
+  "recall": 0.9875,
+  "f1": 0.9875,
+  "mcc": 0.9808774834437086,
+  "roc_auc": 0.999751655629139,
+  "pr_auc": 0.9995312011642441,
+  "confusion_matrix": [
+    [
+      150,
+      1
+    ],
+    [
+      1,
+      79
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       151\n           1       0.99      0.99      0.99        80\n\n    accuracy                           0.99       231\n   macro avg       0.99      0.99      0.99       231\nweighted avg       0.99      0.99      0.99       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.811486363452605,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.879581499990309,
+  "prediction_time_seconds": 0.008107800007564947,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_hierarchical__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_hierarchical__HistGradientBoostingClassifier.json"
+}

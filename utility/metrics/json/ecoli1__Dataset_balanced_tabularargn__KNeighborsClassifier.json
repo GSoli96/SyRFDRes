@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9306930693069307,
+  "balanced_accuracy": 0.9091415830546266,
+  "precision": 0.8333333333333334,
+  "recall": 0.8695652173913043,
+  "f1": 0.851063829787234,
+  "mcc": 0.8062390936368893,
+  "roc_auc": 0.9735228539576366,
+  "pr_auc": 0.9065891472868217,
+  "confusion_matrix": [
+    [
+      74,
+      4
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.95      0.95        78\n           1       0.83      0.87      0.85        23\n\n    accuracy                           0.93       101\n   macro avg       0.90      0.91      0.90       101\nweighted avg       0.93      0.93      0.93       101\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9184597603044207,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4682050999836065,
+  "prediction_time_seconds": 0.0031279000104404986,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_tabularargn__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_tabularargn__KNeighborsClassifier.json"
+}

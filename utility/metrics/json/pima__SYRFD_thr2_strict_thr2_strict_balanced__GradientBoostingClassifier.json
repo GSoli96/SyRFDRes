@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr2_strict__thr2_strict_balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8354978354978355,
+  "balanced_accuracy": 0.8242135761589404,
+  "precision": 0.75,
+  "recall": 0.7875,
+  "f1": 0.7682926829268293,
+  "mcc": 0.6413518458387973,
+  "roc_auc": 0.9169701986754967,
+  "pr_auc": 0.8711548533644744,
+  "confusion_matrix": [
+    [
+      130,
+      21
+    ],
+    [
+      17,
+      63
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.86      0.87       151\n           1       0.75      0.79      0.77        80\n\n    accuracy                           0.84       231\n   macro avg       0.82      0.82      0.82       231\nweighted avg       0.84      0.84      0.84       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.813781229074101,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.802465899992967,
+  "prediction_time_seconds": 0.003759300016099587,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr2_strict_thr2_strict_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr2_strict_thr2_strict_balanced__GradientBoostingClassifier.json"
+}

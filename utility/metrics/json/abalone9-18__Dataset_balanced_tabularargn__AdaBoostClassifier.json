@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.8676250933532488,
+  "precision": 0.5882352941176471,
+  "recall": 0.7692307692307693,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6492923475592771,
+  "roc_auc": 0.9634055265123227,
+  "pr_auc": 0.7222882095489367,
+  "confusion_matrix": [
+    [
+      199,
+      7
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       206\n           1       0.59      0.77      0.67        13\n\n    accuracy                           0.95       219\n   macro avg       0.79      0.87      0.82       219\nweighted avg       0.96      0.95      0.96       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9351943084094886,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.5618237000308,
+  "prediction_time_seconds": 0.07336869998835027,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_tabularargn__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_tabularargn__AdaBoostClassifier.json"
+}

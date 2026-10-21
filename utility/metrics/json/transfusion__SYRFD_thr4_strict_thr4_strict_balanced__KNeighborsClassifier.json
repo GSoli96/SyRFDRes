@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr4_strict__thr4_strict_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.7553203159280386,
+  "precision": 0.5538461538461539,
+  "recall": 0.6792452830188679,
+  "f1": 0.6101694915254238,
+  "mcc": 0.47808031000695894,
+  "roc_auc": 0.8273365511189118,
+  "pr_auc": 0.6116560076308504,
+  "confusion_matrix": [
+    [
+      143,
+      29
+    ],
+    [
+      17,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.83      0.86       172\n           1       0.55      0.68      0.61        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.76      0.74       225\nweighted avg       0.81      0.80      0.80       225\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7987395197896474,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.48275170000852086,
+  "prediction_time_seconds": 0.007815699995262548,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr4_strict_thr4_strict_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr4_strict_thr4_strict_balanced__KNeighborsClassifier.json"
+}

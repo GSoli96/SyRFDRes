@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9372909698996655,
+  "precision": 0.875,
+  "recall": 0.9130434782608695,
+  "f1": 0.8936170212765957,
+  "mcc": 0.8617092220138142,
+  "roc_auc": 0.988015607580825,
+  "pr_auc": 0.9646276711494102,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97        78\n           1       0.88      0.91      0.89        23\n\n    accuracy                           0.95       101\n   macro avg       0.92      0.94      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7743435662395921,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.134473299985984,
+  "prediction_time_seconds": 0.01545599999371916,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.json"
+}

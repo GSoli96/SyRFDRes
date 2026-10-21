@@ -1,0 +1,38 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "MLPClassifier",
+  "accuracy": 0.7897653333333333,
+  "balanced_accuracy": 0.7864934372458516,
+  "precision": 0.7829007167912155,
+  "recall": 0.7479412776026155,
+  "f1": 0.765021817401464,
+  "mcc": 0.5754866077628253,
+  "roc_auc": 0.8635906428888124,
+  "pr_auc": 0.8669144963384701,
+  "confusion_matrix": [
+    [
+      671300,
+      142352
+    ],
+    [
+      173000,
+      513348
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.80      0.83      0.81    813652\n           1       0.78      0.75      0.77    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.79      0.79   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.777172874150095,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 700.1886653999973,
+  "prediction_time_seconds": 0.7765081999823451,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__MLPClassifier.json"
+}

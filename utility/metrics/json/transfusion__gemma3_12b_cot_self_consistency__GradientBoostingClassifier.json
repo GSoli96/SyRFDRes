@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.7911111111111111,
+  "balanced_accuracy": 0.6479815708644142,
+  "precision": 0.5882352941176471,
+  "recall": 0.37735849056603776,
+  "f1": 0.45977011494252873,
+  "mcc": 0.35065791399777796,
+  "roc_auc": 0.8080298376480913,
+  "pr_auc": 0.5643571257734852,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      33,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.92      0.87       172\n           1       0.59      0.38      0.46        53\n\n    accuracy                           0.79       225\n   macro avg       0.71      0.65      0.67       225\nweighted avg       0.77      0.79      0.77       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8457267680477496,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.98579740000423,
+  "prediction_time_seconds": 0.003994499973487109,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.json"
+}

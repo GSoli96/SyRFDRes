@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_confidence",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8095238095238095,
+  "balanced_accuracy": 0.7749586092715232,
+  "precision": 0.7571428571428571,
+  "recall": 0.6625,
+  "f1": 0.7066666666666667,
+  "mcc": 0.569336237911831,
+  "roc_auc": 0.8911009933774834,
+  "pr_auc": 0.7808020873222528,
+  "confusion_matrix": [
+    [
+      134,
+      17
+    ],
+    [
+      27,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.89      0.86       151\n           1       0.76      0.66      0.71        80\n\n    accuracy                           0.81       231\n   macro avg       0.79      0.77      0.78       231\nweighted avg       0.81      0.81      0.81       231\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8011741077254856,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5043032999965362,
+  "prediction_time_seconds": 0.004123099992284551,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_confidence__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_confidence__KNeighborsClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.783414,
+  "balanced_accuracy": 0.7794629222098531,
+  "precision": 0.7803863224897648,
+  "recall": 0.7329080874425219,
+  "f1": 0.7559024117559107,
+  "mcc": 0.5624924527186094,
+  "roc_auc": 0.855086552179106,
+  "pr_auc": 0.8559069604792859,
+  "confusion_matrix": [
+    [
+      672091,
+      141561
+    ],
+    [
+      183318,
+      503030
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.83      0.81    813652\n           1       0.78      0.73      0.76    686348\n\n    accuracy                           0.78   1500000\n   macro avg       0.78      0.78      0.78   1500000\nweighted avg       0.78      0.78      0.78   1500000\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7713506044353633,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 721.907692000008,
+  "prediction_time_seconds": 59.666610699991,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.json"
+}

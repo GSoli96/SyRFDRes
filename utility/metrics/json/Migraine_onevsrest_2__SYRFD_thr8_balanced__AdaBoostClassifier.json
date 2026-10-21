@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.9766355140186915,
+  "precision": 0.5833333333333334,
+  "recall": 1.0,
+  "f1": 0.7368421052631579,
+  "mcc": 0.7457042083528429,
+  "roc_auc": 0.9893190921228304,
+  "pr_auc": 0.8441043083900226,
+  "confusion_matrix": [
+    [
+      102,
+      5
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.95      0.98       107\n           1       0.58      1.00      0.74         7\n\n    accuracy                           0.96       114\n   macro avg       0.79      0.98      0.86       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9304180962463038,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.3377771000086796,
+  "prediction_time_seconds": 0.017029199982061982,
+  "n_train_samples": 606,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__SYRFD_thr8_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__SYRFD_thr8_balanced__AdaBoostClassifier.json"
+}

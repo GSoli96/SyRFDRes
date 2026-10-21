@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9771689497716894,
+  "balanced_accuracy": 0.8076923076923077,
+  "precision": 1.0,
+  "recall": 0.6153846153846154,
+  "f1": 0.7619047619047619,
+  "mcc": 0.7751142119457851,
+  "roc_auc": 0.9874906646751307,
+  "pr_auc": 0.8705417389627916,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       206\n           1       1.00      0.62      0.76        13\n\n    accuracy                           0.98       219\n   macro avg       0.99      0.81      0.87       219\nweighted avg       0.98      0.98      0.97       219\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9762794065751603,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 22.57972790003987,
+  "prediction_time_seconds": 0.004820300033316016,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_tabfairgan__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_tabfairgan__GradientBoostingClassifier.json"
+}

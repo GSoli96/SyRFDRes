@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7316017316017316,
+  "balanced_accuracy": 0.6947847682119206,
+  "precision": 0.6216216216216216,
+  "recall": 0.575,
+  "f1": 0.5974025974025974,
+  "mcc": 0.397239813779352,
+  "roc_auc": 0.8336920529801324,
+  "pr_auc": 0.7128065891092634,
+  "confusion_matrix": [
+    [
+      123,
+      28
+    ],
+    [
+      34,
+      46
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.81      0.80       151\n           1       0.62      0.57      0.60        80\n\n    accuracy                           0.73       231\n   macro avg       0.70      0.69      0.70       231\nweighted avg       0.73      0.73      0.73       231\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6354095933534045,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.29417259999900125,
+  "prediction_time_seconds": 0.003118499997071922,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gpt-oss_120b-cloud_self_consistency_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gpt-oss_120b-cloud_self_consistency_balanced__LogisticRegression.json"
+}

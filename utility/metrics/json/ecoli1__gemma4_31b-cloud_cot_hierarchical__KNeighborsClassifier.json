@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9108910891089109,
+  "balanced_accuracy": 0.8809921962095875,
+  "precision": 0.7916666666666666,
+  "recall": 0.8260869565217391,
+  "f1": 0.8085106382978723,
+  "mcc": 0.7507689652599643,
+  "roc_auc": 0.9757525083612042,
+  "pr_auc": 0.9093962433816276,
+  "confusion_matrix": [
+    [
+      73,
+      5
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.94      0.94        78\n           1       0.79      0.83      0.81        23\n\n    accuracy                           0.91       101\n   macro avg       0.87      0.88      0.88       101\nweighted avg       0.91      0.91      0.91       101\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9356475101120401,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5032705999910831,
+  "prediction_time_seconds": 0.0027225999801885337,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma4_31b-cloud_cot_hierarchical__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma4_31b-cloud_cot_hierarchical__KNeighborsClassifier.json"
+}

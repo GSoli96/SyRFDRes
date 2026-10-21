@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "original",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8811881188118812,
+  "balanced_accuracy": 0.7851170568561874,
+  "precision": 0.8235294117647058,
+  "recall": 0.6086956521739131,
+  "f1": 0.7,
+  "mcc": 0.6391463463481987,
+  "roc_auc": 0.9662764771460423,
+  "pr_auc": 0.8702077757901453,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      9,
+      14
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.96      0.93        78\n           1       0.82      0.61      0.70        23\n\n    accuracy                           0.88       101\n   macro avg       0.86      0.79      0.81       101\nweighted avg       0.88      0.88      0.87       101\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.7599134199134199,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 4.249046700017061,
+  "prediction_time_seconds": 0.0018817999807652086,
+  "n_train_samples": 234,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__original__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__original__GradientBoostingClassifier.json"
+}

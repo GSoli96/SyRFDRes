@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_6",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9952153110047847,
+  "balanced_accuracy": 0.9929585683719121,
+  "precision": 0.9795918367346939,
+  "recall": 0.9896907216494846,
+  "f1": 0.9846153846153847,
+  "mcc": 0.9818007136647042,
+  "roc_auc": 0.9998735654541918,
+  "pr_auc": 0.9989499809087438,
+  "confusion_matrix": [
+    [
+      528,
+      2
+    ],
+    [
+      1,
+      96
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       530\n           1       0.98      0.99      0.98        97\n\n    accuracy                           1.00       627\n   macro avg       0.99      0.99      0.99       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.995186064613162,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.36824529999285,
+  "prediction_time_seconds": 0.016852600005222484,
+  "n_train_samples": 3526,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_6__gemma4_31b-cloud_cot_hierarchical__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_6__gemma4_31b-cloud_cot_hierarchical__KNeighborsClassifier.json"
+}

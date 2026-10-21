@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "casTGAN__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8316831683168316,
+  "balanced_accuracy": 0.7683946488294314,
+  "precision": 0.625,
+  "recall": 0.6521739130434783,
+  "f1": 0.6382978723404256,
+  "mcc": 0.5288884517522645,
+  "roc_auc": 0.9069119286510591,
+  "pr_auc": 0.773025994590226,
+  "confusion_matrix": [
+    [
+      69,
+      9
+    ],
+    [
+      8,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.88      0.89        78\n           1       0.62      0.65      0.64        23\n\n    accuracy                           0.83       101\n   macro avg       0.76      0.77      0.76       101\nweighted avg       0.83      0.83      0.83       101\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7839057942274659,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.34946970001328737,
+  "prediction_time_seconds": 0.0023501999967265874,
+  "n_train_samples": 382,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__casTGAN_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__casTGAN_balanced__LogisticRegression.json"
+}

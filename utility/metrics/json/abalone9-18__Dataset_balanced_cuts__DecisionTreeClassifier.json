@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.6153846153846154,
+  "precision": 1.0,
+  "recall": 0.23076923076923078,
+  "f1": 0.375,
+  "mcc": 0.4691326785521022,
+  "roc_auc": 0.8519417475728156,
+  "pr_auc": 0.43277517300236984,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      10,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      1.00      0.98       206\n           1       1.00      0.23      0.38        13\n\n    accuracy                           0.95       219\n   macro avg       0.98      0.62      0.68       219\nweighted avg       0.96      0.95      0.94       219\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9717451138013162,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.4539885999984108,
+  "prediction_time_seconds": 0.0056838999735191464,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_cuts__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_cuts__DecisionTreeClassifier.json"
+}

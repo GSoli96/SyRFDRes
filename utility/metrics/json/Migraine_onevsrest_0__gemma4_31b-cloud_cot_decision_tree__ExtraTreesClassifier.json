@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.9497160040093552,
+  "precision": 0.95,
+  "recall": 0.926829268292683,
+  "f1": 0.9382716049382716,
+  "mcc": 0.9044318370298741,
+  "roc_auc": 0.9906448379552288,
+  "pr_auc": 0.9857815155122766,
+  "confusion_matrix": [
+    [
+      71,
+      2
+    ],
+    [
+      3,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.97      0.97        73\n           1       0.95      0.93      0.94        41\n\n    accuracy                           0.96       114\n   macro avg       0.95      0.95      0.95       114\nweighted avg       0.96      0.96      0.96       114\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8938634768988981,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.268153600016376,
+  "prediction_time_seconds": 0.010455199982970953,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.json"
+}

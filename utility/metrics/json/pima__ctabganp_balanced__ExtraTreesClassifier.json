@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "ctabganp__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9134199134199135,
+  "balanced_accuracy": 0.9043874172185431,
+  "precision": 0.875,
+  "recall": 0.875,
+  "f1": 0.875,
+  "mcc": 0.8087748344370861,
+  "roc_auc": 0.9721854304635761,
+  "pr_auc": 0.9583341762068018,
+  "confusion_matrix": [
+    [
+      141,
+      10
+    ],
+    [
+      10,
+      70
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.93      0.93       151\n           1       0.88      0.88      0.88        80\n\n    accuracy                           0.91       231\n   macro avg       0.90      0.90      0.90       231\nweighted avg       0.91      0.91      0.91       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8066719579836203,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.036176699999487,
+  "prediction_time_seconds": 0.033698300016112626,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ctabganp_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ctabganp_balanced__ExtraTreesClassifier.json"
+}

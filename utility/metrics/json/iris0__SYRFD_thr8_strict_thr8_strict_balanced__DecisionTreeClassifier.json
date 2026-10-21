@@ -1,0 +1,36 @@
+{
+  "dataset": "iris0",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      30,
+      0
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        30\n           1       1.00      1.00      1.00        15\n\n    accuracy                           1.00        45\n   macro avg       1.00      1.00      1.00        45\nweighted avg       1.00      1.00      1.00        45\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 1.0,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.668283800012432,
+  "prediction_time_seconds": 0.0022066999808885157,
+  "n_train_samples": 200,
+  "n_test_samples": 45,
+  "checkpoint_path": "utility\\checkpoints\\iris0__SYRFD_thr8_strict_thr8_strict_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\iris0__SYRFD_thr8_strict_thr8_strict_balanced__DecisionTreeClassifier.json"
+}

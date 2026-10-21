@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "casTGAN__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9783549783549783,
+  "balanced_accuracy": 0.96875,
+  "precision": 1.0,
+  "recall": 0.9375,
+  "f1": 0.967741935483871,
+  "mcc": 0.9526027099882318,
+  "roc_auc": 0.9999172185430463,
+  "pr_auc": 0.9998456790123453,
+  "confusion_matrix": [
+    [
+      151,
+      0
+    ],
+    [
+      5,
+      75
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       151\n           1       1.00      0.94      0.97        80\n\n    accuracy                           0.98       231\n   macro avg       0.98      0.97      0.98       231\nweighted avg       0.98      0.98      0.98       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.6693270883356377,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.64755540000624,
+  "prediction_time_seconds": 0.009656100010033697,
+  "n_train_samples": 790,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__casTGAN_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__casTGAN_balanced__RandomForestClassifier.json"
+}

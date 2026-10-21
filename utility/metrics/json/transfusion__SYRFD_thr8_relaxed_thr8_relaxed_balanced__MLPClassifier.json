@@ -1,0 +1,39 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.7466666666666667,
+  "balanced_accuracy": 0.723343571741992,
+  "precision": 0.47368421052631576,
+  "recall": 0.6792452830188679,
+  "f1": 0.5581395348837209,
+  "mcc": 0.40077966758832245,
+  "roc_auc": 0.7898749451513821,
+  "pr_auc": 0.5944970174318724,
+  "confusion_matrix": [
+    [
+      132,
+      40
+    ],
+    [
+      17,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.77      0.82       172\n           1       0.47      0.68      0.56        53\n\n    accuracy                           0.75       225\n   macro avg       0.68      0.72      0.69       225\nweighted avg       0.79      0.75      0.76       225\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8042628562703721,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 32.84517089999281,
+  "prediction_time_seconds": 0.003167100017890334,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr8_relaxed_thr8_relaxed_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr8_relaxed_thr8_relaxed_balanced__MLPClassifier.json"
+}

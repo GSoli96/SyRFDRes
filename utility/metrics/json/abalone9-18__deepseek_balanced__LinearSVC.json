@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "deepseek__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.958904109589041,
+  "balanced_accuracy": 0.8700522778192681,
+  "precision": 0.625,
+  "recall": 0.7692307692307693,
+  "f1": 0.6896551724137931,
+  "mcc": 0.6720326193911516,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      200,
+      6
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       206\n           1       0.62      0.77      0.69        13\n\n    accuracy                           0.96       219\n   macro avg       0.81      0.87      0.83       219\nweighted avg       0.96      0.96      0.96       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9034530321598162,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5056365000200458,
+  "prediction_time_seconds": 0.0036213999846950173,
+  "n_train_samples": 1090,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__deepseek_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__deepseek_balanced__LinearSVC.json"
+}

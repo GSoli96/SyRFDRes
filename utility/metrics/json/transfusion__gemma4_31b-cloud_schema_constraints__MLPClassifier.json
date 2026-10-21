@@ -1,0 +1,38 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "MLPClassifier",
+  "accuracy": 0.7866666666666666,
+  "balanced_accuracy": 0.658128565160158,
+  "precision": 0.5641025641025641,
+  "recall": 0.41509433962264153,
+  "f1": 0.4782608695652174,
+  "mcc": 0.3545305859997926,
+  "roc_auc": 0.7821961386573056,
+  "pr_auc": 0.5250707350489336,
+  "confusion_matrix": [
+    [
+      155,
+      17
+    ],
+    [
+      31,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.90      0.87       172\n           1       0.56      0.42      0.48        53\n\n    accuracy                           0.79       225\n   macro avg       0.70      0.66      0.67       225\nweighted avg       0.77      0.79      0.77       225\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.8333148722351111,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 34.2279547000071,
+  "prediction_time_seconds": 0.003006899991305545,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_schema_constraints__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_schema_constraints__MLPClassifier.json"
+}

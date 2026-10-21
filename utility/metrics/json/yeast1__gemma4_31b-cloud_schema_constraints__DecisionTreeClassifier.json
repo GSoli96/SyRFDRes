@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7752808988764045,
+  "balanced_accuracy": 0.7018570307133746,
+  "precision": 0.6355140186915887,
+  "recall": 0.5271317829457365,
+  "f1": 0.576271186440678,
+  "mcc": 0.4286097377274445,
+  "roc_auc": 0.7924148758708666,
+  "pr_auc": 0.5736357614724019,
+  "confusion_matrix": [
+    [
+      277,
+      39
+    ],
+    [
+      61,
+      68
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.88      0.85       316\n           1       0.64      0.53      0.58       129\n\n    accuracy                           0.78       445\n   macro avg       0.73      0.70      0.71       445\nweighted avg       0.77      0.78      0.77       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8029690380150768,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7361829000001308,
+  "prediction_time_seconds": 0.001590200001373887,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_schema_constraints__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_schema_constraints__DecisionTreeClassifier.json"
+}

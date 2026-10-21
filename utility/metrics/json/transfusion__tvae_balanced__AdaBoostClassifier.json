@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "tvae__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8,
+  "balanced_accuracy": 0.7255923650724001,
+  "precision": 0.5740740740740741,
+  "recall": 0.5849056603773585,
+  "f1": 0.5794392523364486,
+  "mcc": 0.4482926476421333,
+  "roc_auc": 0.7803312856516016,
+  "pr_auc": 0.5225024033606981,
+  "confusion_matrix": [
+    [
+      149,
+      23
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.87      0.87       172\n           1       0.57      0.58      0.58        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.73      0.72       225\nweighted avg       0.80      0.80      0.80       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8413786480120626,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.508827599987853,
+  "prediction_time_seconds": 0.029642799985595047,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__tvae_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__tvae_balanced__AdaBoostClassifier.json"
+}

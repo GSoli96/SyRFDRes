@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9047619047619048,
+  "balanced_accuracy": 0.8771937086092716,
+  "precision": 0.9264705882352942,
+  "recall": 0.7875,
+  "f1": 0.8513513513513513,
+  "mcc": 0.7875527359492641,
+  "roc_auc": 0.9689569536423841,
+  "pr_auc": 0.9504969275606094,
+  "confusion_matrix": [
+    [
+      146,
+      5
+    ],
+    [
+      17,
+      63
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.97      0.93       151\n           1       0.93      0.79      0.85        80\n\n    accuracy                           0.90       231\n   macro avg       0.91      0.88      0.89       231\nweighted avg       0.91      0.90      0.90       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8151448581327662,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.577025799982948,
+  "prediction_time_seconds": 0.0030223999929148704,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_decision_tree__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_decision_tree__GradientBoostingClassifier.json"
+}

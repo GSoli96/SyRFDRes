@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9372909698996655,
+  "precision": 0.875,
+  "recall": 0.9130434782608695,
+  "f1": 0.8936170212765957,
+  "mcc": 0.8617092220138142,
+  "roc_auc": 0.9933110367892977,
+  "pr_auc": 0.979566515443577,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97        78\n           1       0.88      0.91      0.89        23\n\n    accuracy                           0.95       101\n   macro avg       0.92      0.94      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9057097412652821,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.12845349998679,
+  "prediction_time_seconds": 0.0019245999865233898,
+  "n_train_samples": 461,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_thr4_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_thr4_balanced__GradientBoostingClassifier.json"
+}

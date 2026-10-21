@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9567099567099567,
+  "balanced_accuracy": 0.9463162251655629,
+  "precision": 0.9605263157894737,
+  "recall": 0.9125,
+  "f1": 0.9358974358974359,
+  "mcc": 0.9039272789499863,
+  "roc_auc": 0.9946192052980133,
+  "pr_auc": 0.9904981741827648,
+  "confusion_matrix": [
+    [
+      148,
+      3
+    ],
+    [
+      7,
+      73
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.98      0.97       151\n           1       0.96      0.91      0.94        80\n\n    accuracy                           0.96       231\n   macro avg       0.96      0.95      0.95       231\nweighted avg       0.96      0.96      0.96       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8704904383033052,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.805997399991611,
+  "prediction_time_seconds": 0.003805899992585182,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__devstral-small-2_24b-cloud_self_consistency_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__devstral-small-2_24b-cloud_self_consistency_balanced__GradientBoostingClassifier.json"
+}

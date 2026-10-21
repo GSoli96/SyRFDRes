@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9984051036682615,
+  "balanced_accuracy": 0.9990421455938697,
+  "precision": 0.9905660377358491,
+  "recall": 1.0,
+  "f1": 0.995260663507109,
+  "mcc": 0.9943180585950516,
+  "roc_auc": 1.0,
+  "pr_auc": 0.9999999999999999,
+  "confusion_matrix": [
+    [
+      521,
+      1
+    ],
+    [
+      0,
+      105
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       522\n           1       0.99      1.00      1.00       105\n\n    accuracy                           1.00       627\n   macro avg       1.00      1.00      1.00       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9956767900959701,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.70334459998412,
+  "prediction_time_seconds": 0.003415199986193329,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__SYRFD_variable_strict_variable_strict_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__SYRFD_variable_strict_variable_strict_balanced__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "llama__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8,
+  "balanced_accuracy": 0.7060114085125055,
+  "precision": 0.5833333333333334,
+  "recall": 0.5283018867924528,
+  "f1": 0.5544554455445545,
+  "mcc": 0.42679190494369024,
+  "roc_auc": 0.7950307152259762,
+  "pr_auc": 0.5854202594758875,
+  "confusion_matrix": [
+    [
+      152,
+      20
+    ],
+    [
+      25,
+      28
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.88      0.87       172\n           1       0.58      0.53      0.55        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.71      0.71       225\nweighted avg       0.79      0.80      0.80       225\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.8563499712340716,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 30.726327499985928,
+  "prediction_time_seconds": 0.0032842000073287636,
+  "n_train_samples": 1147,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__llama_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__llama_balanced__MLPClassifier.json"
+}

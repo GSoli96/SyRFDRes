@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8444444444444444,
+  "balanced_accuracy": 0.7546621325142606,
+  "precision": 0.7045454545454546,
+  "recall": 0.5849056603773585,
+  "f1": 0.6391752577319587,
+  "mcc": 0.5449176810048935,
+  "roc_auc": 0.8793330408073716,
+  "pr_auc": 0.7423252395866641,
+  "confusion_matrix": [
+    [
+      159,
+      13
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.92      0.90       172\n           1       0.70      0.58      0.64        53\n\n    accuracy                           0.84       225\n   macro avg       0.79      0.75      0.77       225\nweighted avg       0.84      0.84      0.84       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7889764520802556,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.041962199989939,
+  "prediction_time_seconds": 0.0031826000194996595,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_confidence_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_confidence_balanced__GradientBoostingClassifier.json"
+}

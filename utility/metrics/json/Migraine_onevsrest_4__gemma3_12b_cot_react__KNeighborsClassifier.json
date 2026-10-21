@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.8,
+  "precision": 1.0,
+  "recall": 0.6,
+  "f1": 0.75,
+  "mcc": 0.7675866004492191,
+  "roc_auc": 0.9990825688073394,
+  "pr_auc": 0.9666666666666667,
+  "confusion_matrix": [
+    [
+      109,
+      0
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       109\n           1       1.00      0.60      0.75         5\n\n    accuracy                           0.98       114\n   macro avg       0.99      0.80      0.87       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9858148923297261,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4619369000138249,
+  "prediction_time_seconds": 0.0032386000093538314,
+  "n_train_samples": 718,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__gemma3_12b_cot_react__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__gemma3_12b_cot_react__KNeighborsClassifier.json"
+}

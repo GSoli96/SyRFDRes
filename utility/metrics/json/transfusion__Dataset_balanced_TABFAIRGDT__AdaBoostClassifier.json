@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.6711111111111111,
+  "balanced_accuracy": 0.7130868802106187,
+  "precision": 0.4,
+  "recall": 0.7924528301886793,
+  "f1": 0.5316455696202531,
+  "mcc": 0.3624963118845232,
+  "roc_auc": 0.8011737604212373,
+  "pr_auc": 0.5584111861635679,
+  "confusion_matrix": [
+    [
+      109,
+      63
+    ],
+    [
+      11,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.63      0.75       172\n           1       0.40      0.79      0.53        53\n\n    accuracy                           0.67       225\n   macro avg       0.65      0.71      0.64       225\nweighted avg       0.79      0.67      0.70       225\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7041875965096118,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.447985600010725,
+  "prediction_time_seconds": 0.02533090001088567,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_TABFAIRGDT__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "LogisticRegression",
+  "accuracy": 0.9154704944178629,
+  "balanced_accuracy": 0.9515539305301646,
+  "precision": 0.6015037593984962,
+  "recall": 1.0,
+  "f1": 0.7511737089201878,
+  "mcc": 0.7370364804879896,
+  "roc_auc": 0.9934872029250457,
+  "pr_auc": 0.9380424380842269,
+  "confusion_matrix": [
+    [
+      494,
+      53
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95       547\n           1       0.60      1.00      0.75        80\n\n    accuracy                           0.92       627\n   macro avg       0.80      0.95      0.85       627\nweighted avg       0.95      0.92      0.92       627\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9507137765877044,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.46629050001502037,
+  "prediction_time_seconds": 0.0019010000105481595,
+  "n_train_samples": 3640,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__Dataset_balanced_tabularargn__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__Dataset_balanced_tabularargn__LogisticRegression.json"
+}

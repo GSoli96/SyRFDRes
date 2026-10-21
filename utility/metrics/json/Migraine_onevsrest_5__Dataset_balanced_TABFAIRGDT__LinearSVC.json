@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LinearSVC",
+  "accuracy": 0.9385964912280702,
+  "balanced_accuracy": 0.9681818181818183,
+  "precision": 0.36363636363636365,
+  "recall": 1.0,
+  "f1": 0.5333333333333333,
+  "mcc": 0.5835202376684078,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      103,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97       110\n           1       0.36      1.00      0.53         4\n\n    accuracy                           0.94       114\n   macro avg       0.68      0.97      0.75       114\nweighted avg       0.98      0.94      0.95       114\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8994872486008015,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2467002999910619,
+  "prediction_time_seconds": 0.002087000000756234,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__Dataset_balanced_TABFAIRGDT__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__Dataset_balanced_TABFAIRGDT__LinearSVC.json"
+}

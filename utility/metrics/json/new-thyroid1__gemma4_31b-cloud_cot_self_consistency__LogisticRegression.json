@@ -1,0 +1,37 @@
+{
+  "dataset": "new-thyroid1",
+  "augmentation": "gemma4_31b-cloud__cot_self_consistency",
+  "model": "LogisticRegression",
+  "accuracy": 0.9692307692307692,
+  "balanced_accuracy": 0.9814814814814814,
+  "precision": 0.8461538461538461,
+  "recall": 1.0,
+  "f1": 0.9166666666666666,
+  "mcc": 0.9026709338484401,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      52,
+      2
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98        54\n           1       0.85      1.00      0.92        11\n\n    accuracy                           0.97        65\n   macro avg       0.92      0.98      0.95        65\nweighted avg       0.97      0.97      0.97        65\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8465586631153166,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.260392199998023,
+  "prediction_time_seconds": 0.0016248000029008836,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\new-thyroid1__gemma4_31b-cloud_cot_self_consistency__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\new-thyroid1__gemma4_31b-cloud_cot_self_consistency__LogisticRegression.json"
+}

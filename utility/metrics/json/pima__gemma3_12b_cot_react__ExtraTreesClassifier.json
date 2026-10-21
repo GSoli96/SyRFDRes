@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9177489177489178,
+  "balanced_accuracy": 0.88125,
+  "precision": 1.0,
+  "recall": 0.7625,
+  "f1": 0.8652482269503546,
+  "mcc": 0.8229698729386792,
+  "roc_auc": 0.9861754966887417,
+  "pr_auc": 0.9794168542561958,
+  "confusion_matrix": [
+    [
+      151,
+      0
+    ],
+    [
+      19,
+      61
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      1.00      0.94       151\n           1       1.00      0.76      0.87        80\n\n    accuracy                           0.92       231\n   macro avg       0.94      0.88      0.90       231\nweighted avg       0.93      0.92      0.91       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8088693738482051,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.893902700016042,
+  "prediction_time_seconds": 0.011561599996639416,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_react__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_react__ExtraTreesClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-5_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LogisticRegression",
+  "accuracy": 0.7167075913346797,
+  "balanced_accuracy": 0.7615638145836741,
+  "precision": 0.045000293352629415,
+  "recall": 0.807935393258427,
+  "f1": 0.08525221837313128,
+  "mcc": 0.1456629575842128,
+  "roc_auc": 0.8011089436481361,
+  "pr_auc": 0.0398007581960186,
+  "confusion_matrix": [
+    [
+      122624,
+      48832
+    ],
+    [
+      547,
+      2301
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.72      0.83    171456\n           1       0.05      0.81      0.09      2848\n\n    accuracy                           0.72    174304\n   macro avg       0.52      0.76      0.46    174304\nweighted avg       0.98      0.72      0.82    174304\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7731258393281946,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 2.516182499995921,
+  "prediction_time_seconds": 0.051293800002895296,
+  "n_train_samples": 78718,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-5_vs_all__Dataset_balanced_TABFAIRGDT__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-5_vs_all__Dataset_balanced_TABFAIRGDT__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.9462095875139354,
+  "precision": 0.8148148148148148,
+  "recall": 0.9565217391304348,
+  "f1": 0.88,
+  "mcc": 0.8456338724625844,
+  "roc_auc": 0.9910813823857303,
+  "pr_auc": 0.9745856644524244,
+  "confusion_matrix": [
+    [
+      73,
+      5
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.94      0.96        78\n           1       0.81      0.96      0.88        23\n\n    accuracy                           0.94       101\n   macro avg       0.90      0.95      0.92       101\nweighted avg       0.95      0.94      0.94       101\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9321634872093588,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.312097899994114,
+  "prediction_time_seconds": 0.010763500002212822,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.json"
+}

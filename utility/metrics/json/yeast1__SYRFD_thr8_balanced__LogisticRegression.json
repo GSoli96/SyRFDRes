@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7258426966292135,
+  "balanced_accuracy": 0.7152144048670395,
+  "precision": 0.52046783625731,
+  "recall": 0.689922480620155,
+  "f1": 0.5933333333333334,
+  "mcc": 0.4014822893680228,
+  "roc_auc": 0.7765430281621039,
+  "pr_auc": 0.5655046621831554,
+  "confusion_matrix": [
+    [
+      234,
+      82
+    ],
+    [
+      40,
+      89
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.74      0.79       316\n           1       0.52      0.69      0.59       129\n\n    accuracy                           0.73       445\n   macro avg       0.69      0.72      0.69       445\nweighted avg       0.76      0.73      0.74       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7164394468058041,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2965740999788977,
+  "prediction_time_seconds": 0.0025711999915074557,
+  "n_train_samples": 1921,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr8_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr8_balanced__LogisticRegression.json"
+}

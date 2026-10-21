@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "casTGAN__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9295774647887324,
+  "balanced_accuracy": 0.6688432835820896,
+  "precision": 0.375,
+  "recall": 0.375,
+  "f1": 0.375,
+  "mcc": 0.3376865671641791,
+  "roc_auc": 0.9505597014925373,
+  "pr_auc": 0.5007965675535335,
+  "confusion_matrix": [
+    [
+      129,
+      5
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.96      0.96       134\n           1       0.38      0.38      0.38         8\n\n    accuracy                           0.93       142\n   macro avg       0.67      0.67      0.67       142\nweighted avg       0.93      0.93      0.93       142\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6143178505623849,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3266480000165757,
+  "prediction_time_seconds": 0.002532400016207248,
+  "n_train_samples": 530,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__casTGAN_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__casTGAN_balanced__LogisticRegression.json"
+}

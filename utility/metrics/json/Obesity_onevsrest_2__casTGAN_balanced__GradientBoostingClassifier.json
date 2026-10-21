@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "casTGAN__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9936204146730463,
+  "balanced_accuracy": 0.9912185506732814,
+  "precision": 0.9647058823529412,
+  "recall": 0.9879518072289156,
+  "f1": 0.9761904761904762,
+  "mcc": 0.9725997306871268,
+  "roc_auc": 0.9996456413890857,
+  "pr_auc": 0.9975687703618253,
+  "confusion_matrix": [
+    [
+      541,
+      3
+    ],
+    [
+      1,
+      82
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       544\n           1       0.96      0.99      0.98        83\n\n    accuracy                           0.99       627\n   macro avg       0.98      0.99      0.99       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8940554683307276,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.62543309998,
+  "prediction_time_seconds": 0.005142100009834394,
+  "n_train_samples": 2192,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__casTGAN_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__casTGAN_balanced__GradientBoostingClassifier.json"
+}

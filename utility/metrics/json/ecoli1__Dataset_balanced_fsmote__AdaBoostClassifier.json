@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9372909698996655,
+  "precision": 0.875,
+  "recall": 0.9130434782608695,
+  "f1": 0.8936170212765957,
+  "mcc": 0.8617092220138142,
+  "roc_auc": 0.9818840579710145,
+  "pr_auc": 0.9502643723869504,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97        78\n           1       0.88      0.91      0.89        23\n\n    accuracy                           0.95       101\n   macro avg       0.92      0.94      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 50
+  },
+  "cv_best_score": 0.934226394135018,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.128218300000299,
+  "prediction_time_seconds": 0.009292200003983453,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_fsmote__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_fsmote__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "llama__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.865909090909091,
+  "precision": 0.6,
+  "recall": 0.75,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6575537854938923,
+  "roc_auc": 0.9954545454545455,
+  "pr_auc": 0.9166666666666666,
+  "confusion_matrix": [
+    [
+      108,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.98      0.99       110\n           1       0.60      0.75      0.67         4\n\n    accuracy                           0.97       114\n   macro avg       0.80      0.87      0.83       114\nweighted avg       0.98      0.97      0.98       114\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9494476800229554,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.100293399998918,
+  "prediction_time_seconds": 0.002826599986292422,
+  "n_train_samples": 688,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__llama_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__llama_balanced__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.722685388328214,
+  "precision": 0.5636363636363636,
+  "recall": 0.5849056603773585,
+  "f1": 0.5740740740740741,
+  "mcc": 0.4397623754586044,
+  "roc_auc": 0.8454914436156209,
+  "pr_auc": 0.6398464859841461,
+  "confusion_matrix": [
+    [
+      148,
+      24
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.86      0.87       172\n           1       0.56      0.58      0.57        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.72      0.72       225\nweighted avg       0.80      0.80      0.80       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.7348759352023349,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.86673099998734,
+  "prediction_time_seconds": 0.0037409000215120614,
+  "n_train_samples": 1021,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr8_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr8_balanced__HistGradientBoostingClassifier.json"
+}

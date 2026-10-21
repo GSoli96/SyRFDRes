@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-4_vs_all",
+  "augmentation": "original",
+  "model": "XGBClassifier",
+  "accuracy": 0.9988984762254453,
+  "balanced_accuracy": 0.9299965190022184,
+  "precision": 0.9020356234096693,
+  "recall": 0.8604368932038835,
+  "f1": 0.8807453416149068,
+  "mcc": 0.8804398849962818,
+  "roc_auc": 0.999564798325987,
+  "pr_auc": 0.9416166335653999,
+  "confusion_matrix": [
+    [
+      173403,
+      77
+    ],
+    [
+      115,
+      709
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    173480\n           1       0.90      0.86      0.88       824\n\n    accuracy                           1.00    174304\n   macro avg       0.95      0.93      0.94    174304\nweighted avg       1.00      1.00      1.00    174304\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 6,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8606329841233105,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 333.3389260999975,
+  "prediction_time_seconds": 1.5519837000174448,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-4_vs_all__original__XGBClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-4_vs_all__original__XGBClassifier.json"
+}

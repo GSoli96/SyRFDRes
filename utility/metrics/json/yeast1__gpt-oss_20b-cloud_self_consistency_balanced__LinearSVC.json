@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.755056179775281,
+  "balanced_accuracy": 0.7174345010303209,
+  "precision": 0.5704225352112676,
+  "recall": 0.627906976744186,
+  "f1": 0.5977859778597786,
+  "mcc": 0.4232835216494088,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      255,
+      61
+    ],
+    [
+      48,
+      81
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.81      0.82       316\n           1       0.57      0.63      0.60       129\n\n    accuracy                           0.76       445\n   macro avg       0.71      0.72      0.71       445\nweighted avg       0.76      0.76      0.76       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.5257464177143811,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3396737999864854,
+  "prediction_time_seconds": 0.0031615000043530017,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.json"
+}

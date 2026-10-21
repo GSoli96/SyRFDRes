@@ -1,0 +1,38 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "MLPClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      477,
+      0
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       477\n           1       1.00      1.00      1.00        16\n\n    accuracy                           1.00       493\n   macro avg       1.00      1.00      1.00       493\nweighted avg       1.00      1.00      1.00       493\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9993700724912641,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.799003899999661,
+  "prediction_time_seconds": 0.0028076999878976494,
+  "n_train_samples": 3178,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__Dataset_balanced_tabfairgan__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__Dataset_balanced_tabfairgan__MLPClassifier.json"
+}

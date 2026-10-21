@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "tabdiff__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7965367965367965,
+  "balanced_accuracy": 0.7855960264900662,
+  "precision": 0.6896551724137931,
+  "recall": 0.75,
+  "f1": 0.718562874251497,
+  "mcc": 0.5608861954076136,
+  "roc_auc": 0.8737168874172185,
+  "pr_auc": 0.7840225515374774,
+  "confusion_matrix": [
+    [
+      124,
+      27
+    ],
+    [
+      20,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.82      0.84       151\n           1       0.69      0.75      0.72        80\n\n    accuracy                           0.80       231\n   macro avg       0.78      0.79      0.78       231\nweighted avg       0.80      0.80      0.80       231\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7627054776714621,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.862008099997183,
+  "prediction_time_seconds": 0.02266240000608377,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__tabdiff_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__tabdiff_balanced__AdaBoostClassifier.json"
+}

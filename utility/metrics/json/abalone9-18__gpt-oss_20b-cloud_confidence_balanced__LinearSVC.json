@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_20b-cloud__confidence__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9041095890410958,
+  "balanced_accuracy": 0.8769604182225541,
+  "precision": 0.36666666666666664,
+  "recall": 0.8461538461538461,
+  "f1": 0.5116279069767442,
+  "mcc": 0.5181309117979863,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      187,
+      19
+    ],
+    [
+      2,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.91      0.95       206\n           1       0.37      0.85      0.51        13\n\n    accuracy                           0.90       219\n   macro avg       0.68      0.88      0.73       219\nweighted avg       0.95      0.90      0.92       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.5571339224021192,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5704309000284411,
+  "prediction_time_seconds": 0.006757699942681938,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_20b-cloud_confidence_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_20b-cloud_confidence_balanced__LinearSVC.json"
+}

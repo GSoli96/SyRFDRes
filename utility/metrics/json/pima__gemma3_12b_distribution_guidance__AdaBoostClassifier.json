@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8008658008658008,
+  "balanced_accuracy": 0.7653973509933775,
+  "precision": 0.7428571428571429,
+  "recall": 0.65,
+  "f1": 0.6933333333333334,
+  "mcc": 0.5495384551393436,
+  "roc_auc": 0.9001655629139073,
+  "pr_auc": 0.8267548674914882,
+  "confusion_matrix": [
+    [
+      133,
+      18
+    ],
+    [
+      28,
+      52
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.88      0.85       151\n           1       0.74      0.65      0.69        80\n\n    accuracy                           0.80       231\n   macro avg       0.78      0.77      0.77       231\nweighted avg       0.80      0.80      0.80       231\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8153163110821431,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.317624800023623,
+  "prediction_time_seconds": 0.028281800012337044,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_distribution_guidance__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_distribution_guidance__AdaBoostClassifier.json"
+}

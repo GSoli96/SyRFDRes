@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8943820224719101,
+  "balanced_accuracy": 0.7975932797361369,
+  "precision": 0.515625,
+  "recall": 0.673469387755102,
+  "f1": 0.584070796460177,
+  "mcc": 0.5309410123252398,
+  "roc_auc": 0.9263296227581942,
+  "pr_auc": 0.6494657134941644,
+  "confusion_matrix": [
+    [
+      365,
+      31
+    ],
+    [
+      16,
+      33
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.92      0.94       396\n           1       0.52      0.67      0.58        49\n\n    accuracy                           0.89       445\n   macro avg       0.74      0.80      0.76       445\nweighted avg       0.91      0.89      0.90       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.6771136521768499,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.035082099988358,
+  "prediction_time_seconds": 0.01715709999552928,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.json"
+}

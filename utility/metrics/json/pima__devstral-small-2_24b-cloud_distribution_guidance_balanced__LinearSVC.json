@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7619047619047619,
+  "balanced_accuracy": 0.7355960264900663,
+  "precision": 0.6582278481012658,
+  "recall": 0.65,
+  "f1": 0.6540880503144654,
+  "mcc": 0.47260257616759,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      124,
+      27
+    ],
+    [
+      28,
+      52
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.82      0.82       151\n           1       0.66      0.65      0.65        80\n\n    accuracy                           0.76       231\n   macro avg       0.74      0.74      0.74       231\nweighted avg       0.76      0.76      0.76       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6456181770746643,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2617147999990266,
+  "prediction_time_seconds": 0.0024049000057857484,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__devstral-small-2_24b-cloud_distribution_guidance_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__devstral-small-2_24b-cloud_distribution_guidance_balanced__LinearSVC.json"
+}

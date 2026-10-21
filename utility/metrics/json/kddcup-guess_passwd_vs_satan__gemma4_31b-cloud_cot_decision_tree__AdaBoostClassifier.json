@@ -1,0 +1,36 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9046653144016227,
+  "balanced_accuracy": 0.950733752620545,
+  "precision": 0.25396825396825395,
+  "recall": 1.0,
+  "f1": 0.4050632911392405,
+  "mcc": 0.4784810636955213,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      430,
+      47
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95       477\n           1       0.25      1.00      0.41        16\n\n    accuracy                           0.90       493\n   macro avg       0.63      0.95      0.68       493\nweighted avg       0.98      0.90      0.93       493\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9220101784089587,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.581306799984304,
+  "prediction_time_seconds": 0.032736599998315796,
+  "n_train_samples": 3178,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.json"
+}

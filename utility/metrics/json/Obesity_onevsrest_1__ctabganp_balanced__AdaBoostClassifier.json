@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "ctabganp__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9106858054226475,
+  "balanced_accuracy": 0.744985891035381,
+  "precision": 0.7457627118644068,
+  "recall": 0.5176470588235295,
+  "f1": 0.6111111111111112,
+  "mcc": 0.5744867304662803,
+  "roc_auc": 0.9424896896027785,
+  "pr_auc": 0.7299998980428339,
+  "confusion_matrix": [
+    [
+      527,
+      15
+    ],
+    [
+      41,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.97      0.95       542\n           1       0.75      0.52      0.61        85\n\n    accuracy                           0.91       627\n   macro avg       0.84      0.74      0.78       627\nweighted avg       0.90      0.91      0.90       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.942173486498055,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.339639400015585,
+  "prediction_time_seconds": 0.018904399999883026,
+  "n_train_samples": 3610,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__ctabganp_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__ctabganp_balanced__AdaBoostClassifier.json"
+}

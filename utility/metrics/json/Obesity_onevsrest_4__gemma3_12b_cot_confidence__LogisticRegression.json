@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "LogisticRegression",
+  "accuracy": 0.722488038277512,
+  "balanced_accuracy": 0.6469348659003831,
+  "precision": 0.30939226519337015,
+  "recall": 0.5333333333333333,
+  "f1": 0.3916083916083916,
+  "mcc": 0.24214641343649884,
+  "roc_auc": 0.7476008027732165,
+  "pr_auc": 0.39172033231337,
+  "confusion_matrix": [
+    [
+      397,
+      125
+    ],
+    [
+      49,
+      56
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.76      0.82       522\n           1       0.31      0.53      0.39       105\n\n    accuracy                           0.72       627\n   macro avg       0.60      0.65      0.61       627\nweighted avg       0.79      0.72      0.75       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7986688723052829,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.38677159999497235,
+  "prediction_time_seconds": 0.0018832000205293298,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gemma3_12b_cot_confidence__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gemma3_12b_cot_confidence__LogisticRegression.json"
+}

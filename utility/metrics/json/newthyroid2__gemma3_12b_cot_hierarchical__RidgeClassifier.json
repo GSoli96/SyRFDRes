@@ -1,0 +1,35 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9230769230769231,
+  "balanced_accuracy": 0.7727272727272727,
+  "precision": 1.0,
+  "recall": 0.5454545454545454,
+  "f1": 0.7058823529411765,
+  "mcc": 0.7065618047809736,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      1.00      0.96        54\n           1       1.00      0.55      0.71        11\n\n    accuracy                           0.92        65\n   macro avg       0.96      0.77      0.83        65\nweighted avg       0.93      0.92      0.91        65\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9530673323177972,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.16849589999765158,
+  "prediction_time_seconds": 0.0017906999855767936,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma3_12b_cot_hierarchical__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma3_12b_cot_hierarchical__RidgeClassifier.json"
+}

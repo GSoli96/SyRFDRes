@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RidgeClassifier",
+  "accuracy": 0.867579908675799,
+  "balanced_accuracy": 0.8215085884988798,
+  "precision": 0.2777777777777778,
+  "recall": 0.7692307692307693,
+  "f1": 0.40816326530612246,
+  "mcc": 0.4099690443224867,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      180,
+      26
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.87      0.93       206\n           1       0.28      0.77      0.41        13\n\n    accuracy                           0.87       219\n   macro avg       0.63      0.82      0.67       219\nweighted avg       0.94      0.87      0.89       219\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7971631848794358,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.38256519997958094,
+  "prediction_time_seconds": 0.0041631999774836,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_TABFAIRGDT__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_TABFAIRGDT__RidgeClassifier.json"
+}

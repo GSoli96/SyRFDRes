@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "ctabganp__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7348314606741573,
+  "balanced_accuracy": 0.7215435187910901,
+  "precision": 0.5329341317365269,
+  "recall": 0.689922480620155,
+  "f1": 0.6013513513513513,
+  "mcc": 0.41518992650376896,
+  "roc_auc": 0.7886125012265724,
+  "pr_auc": 0.5846338907857491,
+  "confusion_matrix": [
+    [
+      238,
+      78
+    ],
+    [
+      40,
+      89
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.75      0.80       316\n           1       0.53      0.69      0.60       129\n\n    accuracy                           0.73       445\n   macro avg       0.69      0.72      0.70       445\nweighted avg       0.76      0.73      0.74       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7390156082834795,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31482149998191744,
+  "prediction_time_seconds": 0.0026493000041227788,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__ctabganp_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__ctabganp_balanced__LogisticRegression.json"
+}

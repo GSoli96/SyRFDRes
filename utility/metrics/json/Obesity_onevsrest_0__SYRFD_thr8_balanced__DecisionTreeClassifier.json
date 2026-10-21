@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9968102073365231,
+  "balanced_accuracy": 0.9981718464351006,
+  "precision": 0.975609756097561,
+  "recall": 1.0,
+  "f1": 0.9876543209876543,
+  "mcc": 0.9859222216739209,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      545,
+      2
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       547\n           1       0.98      1.00      0.99        80\n\n    accuracy                           1.00       627\n   macro avg       0.99      1.00      0.99       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9647482250906666,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0023594999802299,
+  "prediction_time_seconds": 0.0017165000026579946,
+  "n_train_samples": 3173,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__SYRFD_thr8_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__SYRFD_thr8_balanced__DecisionTreeClassifier.json"
+}

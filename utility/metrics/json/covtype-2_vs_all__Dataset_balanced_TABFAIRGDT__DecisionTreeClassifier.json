@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8219604828345879,
+  "balanced_accuracy": 0.8219577994345115,
+  "precision": 0.8146511004070398,
+  "recall": 0.821849629368161,
+  "f1": 0.8182345326859212,
+  "mcc": 0.6438018179567261,
+  "roc_auc": 0.8219577994345115,
+  "pr_auc": 0.7563861813429227,
+  "confusion_matrix": [
+    [
+      73422,
+      15892
+    ],
+    [
+      15141,
+      69849
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.82      0.83     89314\n           1       0.81      0.82      0.82     84990\n\n    accuracy                           0.82    174304\n   macro avg       0.82      0.82      0.82    174304\nweighted avg       0.82      0.82      0.82    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8007638945033039,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.210858000005828,
+  "prediction_time_seconds": 0.054741600004490465,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.json"
+}

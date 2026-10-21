@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_20b-cloud__self_consistency__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9158249158249159,
+  "balanced_accuracy": 0.9537037037037037,
+  "precision": 0.5192307692307693,
+  "recall": 1.0,
+  "f1": 0.6835443037974683,
+  "mcc": 0.6864064729836441,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      245,
+      25
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95       270\n           1       0.52      1.00      0.68        27\n\n    accuracy                           0.92       297\n   macro avg       0.76      0.95      0.82       297\nweighted avg       0.96      0.92      0.93       297\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.4847296213485849,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.310849400004372,
+  "prediction_time_seconds": 0.0018208000110462308,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_20b-cloud_self_consistency_balanced__LinearSVC.json"
+}

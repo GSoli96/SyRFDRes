@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8359550561797753,
+  "balanced_accuracy": 0.7514596212344224,
+  "precision": 0.8255813953488372,
+  "recall": 0.5503875968992248,
+  "f1": 0.6604651162790698,
+  "mcc": 0.5778833733267577,
+  "roc_auc": 0.9012609164949466,
+  "pr_auc": 0.803337438119524,
+  "confusion_matrix": [
+    [
+      301,
+      15
+    ],
+    [
+      58,
+      71
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.95      0.89       316\n           1       0.83      0.55      0.66       129\n\n    accuracy                           0.84       445\n   macro avg       0.83      0.75      0.78       445\nweighted avg       0.83      0.84      0.82       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8139063731101182,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8636167000222486,
+  "prediction_time_seconds": 0.002496200002497062,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_cot_react__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_cot_react__DecisionTreeClassifier.json"
+}

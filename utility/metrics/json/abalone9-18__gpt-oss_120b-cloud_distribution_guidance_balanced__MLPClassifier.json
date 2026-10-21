@@ -1,0 +1,39 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_120b-cloud__distribution_guidance__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9863013698630136,
+  "balanced_accuracy": 0.9927184466019418,
+  "precision": 0.8125,
+  "recall": 1.0,
+  "f1": 0.896551724137931,
+  "mcc": 0.8948002434779259,
+  "roc_auc": 0.9992531740104555,
+  "pr_auc": 0.9897435897435896,
+  "confusion_matrix": [
+    [
+      203,
+      3
+    ],
+    [
+      0,
+      13
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       206\n           1       0.81      1.00      0.90        13\n\n    accuracy                           0.99       219\n   macro avg       0.91      0.99      0.94       219\nweighted avg       0.99      0.99      0.99       219\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.895190647904399,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 157.68571190000512,
+  "prediction_time_seconds": 0.004689699970185757,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_120b-cloud_distribution_guidance_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_120b-cloud_distribution_guidance_balanced__MLPClassifier.json"
+}

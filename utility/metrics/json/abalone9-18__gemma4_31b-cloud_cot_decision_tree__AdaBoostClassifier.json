@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.91324200913242,
+  "balanced_accuracy": 0.8818147871545929,
+  "precision": 0.39285714285714285,
+  "recall": 0.8461538461538461,
+  "f1": 0.5365853658536586,
+  "mcc": 0.5403713644960919,
+  "roc_auc": 0.9268110530246453,
+  "pr_auc": 0.7867936773910318,
+  "confusion_matrix": [
+    [
+      189,
+      17
+    ],
+    [
+      2,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.92      0.95       206\n           1       0.39      0.85      0.54        13\n\n    accuracy                           0.91       219\n   macro avg       0.69      0.88      0.74       219\nweighted avg       0.95      0.91      0.93       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8878531769785092,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.142055900010746,
+  "prediction_time_seconds": 0.06317839998519048,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_cot_decision_tree__AdaBoostClassifier.json"
+}

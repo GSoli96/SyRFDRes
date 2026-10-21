@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "LinearSVC",
+  "accuracy": 0.776255707762557,
+  "balanced_accuracy": 0.8089992531740104,
+  "precision": 0.1896551724137931,
+  "recall": 0.8461538461538461,
+  "f1": 0.30985915492957744,
+  "mcc": 0.3309525845102937,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      159,
+      47
+    ],
+    [
+      2,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.77      0.87       206\n           1       0.19      0.85      0.31        13\n\n    accuracy                           0.78       219\n   macro avg       0.59      0.81      0.59       219\nweighted avg       0.94      0.78      0.83       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7146437784725712,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5142781999893486,
+  "prediction_time_seconds": 0.00430699996650219,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_cot_ensemble__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_cot_ensemble__LinearSVC.json"
+}

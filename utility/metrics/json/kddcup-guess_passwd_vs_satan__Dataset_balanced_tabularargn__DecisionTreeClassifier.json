@@ -1,0 +1,36 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      477,
+      0
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       477\n           1       1.00      1.00      1.00        16\n\n    accuracy                           1.00       493\n   macro avg       1.00      1.00      1.00       493\nweighted avg       1.00      1.00      1.00       493\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9992606284658041,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8064665999845602,
+  "prediction_time_seconds": 0.0024864000151865184,
+  "n_train_samples": 2941,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__Dataset_balanced_tabularargn__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__Dataset_balanced_tabularargn__DecisionTreeClassifier.json"
+}

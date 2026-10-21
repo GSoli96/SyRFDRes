@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      110,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       110\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00       114\n   macro avg       1.00      1.00      1.00       114\nweighted avg       1.00      1.00      1.00       114\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9903440348031751,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.801611100003356,
+  "prediction_time_seconds": 0.014733399992110208,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__SYRFD_thr8_relaxed_thr8_relaxed_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__SYRFD_thr8_relaxed_thr8_relaxed_balanced__RandomForestClassifier.json"
+}

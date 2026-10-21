@@ -1,0 +1,39 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.985981308411215,
+  "precision": 0.7,
+  "recall": 1.0,
+  "f1": 0.8235294117647058,
+  "mcc": 0.8248477627875952,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      104,
+      3
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99       107\n           1       0.70      1.00      0.82         7\n\n    accuracy                           0.97       114\n   macro avg       0.85      0.99      0.90       114\nweighted avg       0.98      0.97      0.98       114\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8926660328909491,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 33.76928300000145,
+  "prediction_time_seconds": 0.002345799992326647,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_ensemble_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_ensemble_balanced__MLPClassifier.json"
+}

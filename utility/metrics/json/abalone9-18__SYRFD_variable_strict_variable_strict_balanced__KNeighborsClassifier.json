@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8995433789954338,
+  "balanced_accuracy": 0.8024645257654967,
+  "precision": 0.3333333333333333,
+  "recall": 0.6923076923076923,
+  "f1": 0.45,
+  "mcc": 0.4347876822121751,
+  "roc_auc": 0.9400672143390589,
+  "pr_auc": 0.6485207100591717,
+  "confusion_matrix": [
+    [
+      188,
+      18
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.91      0.94       206\n           1       0.33      0.69      0.45        13\n\n    accuracy                           0.90       219\n   macro avg       0.66      0.80      0.70       219\nweighted avg       0.94      0.90      0.92       219\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9352523524115334,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.6851097000180744,
+  "prediction_time_seconds": 0.024953999964054674,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_variable_strict_variable_strict_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_variable_strict_variable_strict_balanced__KNeighborsClassifier.json"
+}

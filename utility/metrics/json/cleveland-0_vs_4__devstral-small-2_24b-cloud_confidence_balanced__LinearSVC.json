@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9056603773584906,
+  "balanced_accuracy": 0.7193877551020409,
+  "precision": 0.4,
+  "recall": 0.5,
+  "f1": 0.4444444444444444,
+  "mcc": 0.3965197235402832,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      46,
+      3
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.94      0.95        49\n           1       0.40      0.50      0.44         4\n\n    accuracy                           0.91        53\n   macro avg       0.68      0.72      0.70        53\nweighted avg       0.92      0.91      0.91        53\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.808981082299422,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.47273680003127083,
+  "prediction_time_seconds": 0.006457299983594567,
+  "n_train_samples": 502,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__devstral-small-2_24b-cloud_confidence_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__devstral-small-2_24b-cloud_confidence_balanced__LinearSVC.json"
+}

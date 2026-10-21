@@ -1,0 +1,39 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9809555629802873,
+  "precision": 0.975609756097561,
+  "recall": 0.975609756097561,
+  "f1": 0.975609756097561,
+  "mcc": 0.9619111259605747,
+  "roc_auc": 0.9989976612094887,
+  "pr_auc": 0.9982146398119035,
+  "confusion_matrix": [
+    [
+      72,
+      1
+    ],
+    [
+      1,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99        73\n           1       0.98      0.98      0.98        41\n\n    accuracy                           0.98       114\n   macro avg       0.98      0.98      0.98       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9799320296472178,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 27.582200799981365,
+  "prediction_time_seconds": 0.0033703999943099916,
+  "n_train_samples": 859,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gpt-oss_120b-cloud_schema_constraints_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gpt-oss_120b-cloud_schema_constraints_balanced__MLPClassifier.json"
+}

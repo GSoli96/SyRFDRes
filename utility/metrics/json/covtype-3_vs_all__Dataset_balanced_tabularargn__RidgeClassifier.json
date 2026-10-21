@@ -1,0 +1,35 @@
+{
+  "dataset": "covtype-3_vs_all",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "RidgeClassifier",
+  "accuracy": 0.910059436387002,
+  "balanced_accuracy": 0.9292995789771685,
+  "precision": 0.4023740978822416,
+  "recall": 0.9512399776244639,
+  "f1": 0.565529473713383,
+  "mcc": 0.5852035958302362,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      148424,
+      15154
+    ],
+    [
+      523,
+      10203
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95    163578\n           1       0.40      0.95      0.57     10726\n\n    accuracy                           0.91    174304\n   macro avg       0.70      0.93      0.76    174304\nweighted avg       0.96      0.91      0.93    174304\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9390954140265461,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.359559000004083,
+  "prediction_time_seconds": 0.037348799989558756,
+  "n_train_samples": 74994,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-3_vs_all__Dataset_balanced_tabularargn__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-3_vs_all__Dataset_balanced_tabularargn__RidgeClassifier.json"
+}

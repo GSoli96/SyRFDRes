@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9288888888888889,
+  "balanced_accuracy": 0.8751645458534445,
+  "precision": 0.9111111111111111,
+  "recall": 0.7735849056603774,
+  "f1": 0.8367346938775511,
+  "mcc": 0.7959970056457049,
+  "roc_auc": 0.9725208424747696,
+  "pr_auc": 0.931086792166541,
+  "confusion_matrix": [
+    [
+      168,
+      4
+    ],
+    [
+      12,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.98      0.95       172\n           1       0.91      0.77      0.84        53\n\n    accuracy                           0.93       225\n   macro avg       0.92      0.88      0.90       225\nweighted avg       0.93      0.93      0.93       225\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8544029076941285,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 23.309925599984126,
+  "prediction_time_seconds": 0.032782800000859424,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_self_consistency_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_self_consistency_balanced__RandomForestClassifier.json"
+}

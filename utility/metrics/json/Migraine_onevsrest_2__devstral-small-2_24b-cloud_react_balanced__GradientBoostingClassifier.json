@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9906542056074766,
+  "precision": 0.7777777777777778,
+  "recall": 1.0,
+  "f1": 0.875,
+  "mcc": 0.8736360085238063,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      105,
+      2
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       107\n           1       0.78      1.00      0.88         7\n\n    accuracy                           0.98       114\n   macro avg       0.89      0.99      0.93       114\nweighted avg       0.99      0.98      0.98       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9434913250058596,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.3453159000200685,
+  "prediction_time_seconds": 0.00363140000263229,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_react_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_react_balanced__GradientBoostingClassifier.json"
+}

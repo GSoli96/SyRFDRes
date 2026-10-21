@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "LinearSVC",
+  "accuracy": 0.9225352112676056,
+  "balanced_accuracy": 0.7238805970149254,
+  "precision": 0.36363636363636365,
+  "recall": 0.5,
+  "f1": 0.42105263157894735,
+  "mcc": 0.38619963082175796,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      127,
+      7
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.95      0.96       134\n           1       0.36      0.50      0.42         8\n\n    accuracy                           0.92       142\n   macro avg       0.67      0.72      0.69       142\nweighted avg       0.94      0.92      0.93       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9416716362233812,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2254421999969054,
+  "prediction_time_seconds": 0.0017685999919194728,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gemma3_12b_cot_confidence__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gemma3_12b_cot_confidence__LinearSVC.json"
+}

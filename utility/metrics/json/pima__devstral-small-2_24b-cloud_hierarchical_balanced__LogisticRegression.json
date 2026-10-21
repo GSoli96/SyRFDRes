@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "devstral-small-2_24b-cloud__hierarchical__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7619047619047619,
+  "balanced_accuracy": 0.7326572847682119,
+  "precision": 0.6623376623376623,
+  "recall": 0.6375,
+  "f1": 0.6496815286624203,
+  "mcc": 0.4696500740476681,
+  "roc_auc": 0.8436258278145695,
+  "pr_auc": 0.7216195884258796,
+  "confusion_matrix": [
+    [
+      125,
+      26
+    ],
+    [
+      29,
+      51
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.83      0.82       151\n           1       0.66      0.64      0.65        80\n\n    accuracy                           0.76       231\n   macro avg       0.74      0.73      0.73       231\nweighted avg       0.76      0.76      0.76       231\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6504200076880494,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3553879000246525,
+  "prediction_time_seconds": 0.001778100006049499,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__devstral-small-2_24b-cloud_hierarchical_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__devstral-small-2_24b-cloud_hierarchical_balanced__LogisticRegression.json"
+}

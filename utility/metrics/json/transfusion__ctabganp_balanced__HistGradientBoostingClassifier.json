@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "ctabganp__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8444444444444444,
+  "balanced_accuracy": 0.7481351469942957,
+  "precision": 0.7142857142857143,
+  "recall": 0.5660377358490566,
+  "f1": 0.631578947368421,
+  "mcc": 0.5404683267598569,
+  "roc_auc": 0.8904673102237823,
+  "pr_auc": 0.7415288324350611,
+  "confusion_matrix": [
+    [
+      160,
+      12
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.93      0.90       172\n           1       0.71      0.57      0.63        53\n\n    accuracy                           0.84       225\n   macro avg       0.79      0.75      0.77       225\nweighted avg       0.84      0.84      0.84       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8232147840473949,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.084110199997667,
+  "prediction_time_seconds": 0.004116900003282353,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__ctabganp_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__ctabganp_balanced__HistGradientBoostingClassifier.json"
+}

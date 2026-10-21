@@ -1,0 +1,39 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "MLPClassifier",
+  "accuracy": 0.9788732394366197,
+  "balanced_accuracy": 0.9888059701492538,
+  "precision": 0.7272727272727273,
+  "recall": 1.0,
+  "f1": 0.8421052631578947,
+  "mcc": 0.8432025272941716,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      131,
+      3
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       134\n           1       0.73      1.00      0.84         8\n\n    accuracy                           0.98       142\n   macro avg       0.86      0.99      0.92       142\nweighted avg       0.98      0.98      0.98       142\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9696006668854146,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 26.327314399997704,
+  "prediction_time_seconds": 0.003196100005879998,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gemma4_31b-cloud_cot_decision_tree__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gemma4_31b-cloud_cot_decision_tree__MLPClassifier.json"
+}

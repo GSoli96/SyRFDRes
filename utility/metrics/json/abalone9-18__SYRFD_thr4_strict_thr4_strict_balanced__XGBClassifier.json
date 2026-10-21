@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr4_strict__thr4_strict_balanced",
+  "model": "XGBClassifier",
+  "accuracy": 0.9817351598173516,
+  "balanced_accuracy": 0.8821882001493653,
+  "precision": 0.9090909090909091,
+  "recall": 0.7692307692307693,
+  "f1": 0.8333333333333334,
+  "mcc": 0.8269600818754895,
+  "roc_auc": 0.9951456310679612,
+  "pr_auc": 0.9491559165472208,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99       206\n           1       0.91      0.77      0.83        13\n\n    accuracy                           0.98       219\n   macro avg       0.95      0.88      0.91       219\nweighted avg       0.98      0.98      0.98       219\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9506179807713574,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.6413620999665,
+  "prediction_time_seconds": 0.005610100051853806,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr4_strict_thr4_strict_balanced__XGBClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr4_strict_thr4_strict_balanced__XGBClassifier.json"
+}

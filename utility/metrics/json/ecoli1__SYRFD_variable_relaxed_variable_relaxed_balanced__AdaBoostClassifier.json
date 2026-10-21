@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9702970297029703,
+  "balanced_accuracy": 0.9654403567447045,
+  "precision": 0.9166666666666666,
+  "recall": 0.9565217391304348,
+  "f1": 0.9361702127659575,
+  "mcc": 0.9171793503907392,
+  "roc_auc": 0.9958193979933111,
+  "pr_auc": 0.9873813093453272,
+  "confusion_matrix": [
+    [
+      76,
+      2
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98        78\n           1       0.92      0.96      0.94        23\n\n    accuracy                           0.97       101\n   macro avg       0.95      0.97      0.96       101\nweighted avg       0.97      0.97      0.97       101\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.92991413257487,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.657707099977415,
+  "prediction_time_seconds": 0.029225900012534112,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_variable_relaxed_variable_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_variable_relaxed_variable_relaxed_balanced__AdaBoostClassifier.json"
+}

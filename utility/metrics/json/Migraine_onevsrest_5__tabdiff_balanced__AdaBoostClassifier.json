@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "tabdiff__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.9863636363636363,
+  "precision": 0.5714285714285714,
+  "recall": 1.0,
+  "f1": 0.7272727272727273,
+  "mcc": 0.7455495663228272,
+  "roc_auc": 0.9977272727272727,
+  "pr_auc": 0.95,
+  "confusion_matrix": [
+    [
+      107,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99       110\n           1       0.57      1.00      0.73         4\n\n    accuracy                           0.97       114\n   macro avg       0.79      0.99      0.86       114\nweighted avg       0.98      0.97      0.98       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9671923886415594,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.978470300004119,
+  "prediction_time_seconds": 0.016855699999723583,
+  "n_train_samples": 721,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__tabdiff_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__tabdiff_balanced__AdaBoostClassifier.json"
+}

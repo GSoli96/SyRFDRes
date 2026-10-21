@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7573033707865169,
+  "balanced_accuracy": 0.6846114218428025,
+  "precision": 0.5945945945945946,
+  "recall": 0.5116279069767442,
+  "f1": 0.55,
+  "mcc": 0.38716156480120834,
+  "roc_auc": 0.8065204592287313,
+  "pr_auc": 0.5964090155398543,
+  "confusion_matrix": [
+    [
+      271,
+      45
+    ],
+    [
+      63,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.86      0.83       316\n           1       0.59      0.51      0.55       129\n\n    accuracy                           0.76       445\n   macro avg       0.70      0.68      0.69       445\nweighted avg       0.75      0.76      0.75       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8293853914407912,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.9321503000101075,
+  "prediction_time_seconds": 0.01626959998975508,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__AdaBoostClassifier.json"
+}

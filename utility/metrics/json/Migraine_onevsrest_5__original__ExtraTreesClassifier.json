@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "original",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9385964912280702,
+  "balanced_accuracy": 0.6068181818181818,
+  "precision": 0.2,
+  "recall": 0.25,
+  "f1": 0.2222222222222222,
+  "mcc": 0.19195669514417976,
+  "roc_auc": 0.959090909090909,
+  "pr_auc": 0.4921016483516484,
+  "confusion_matrix": [
+    [
+      106,
+      4
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.96      0.97       110\n           1       0.20      0.25      0.22         4\n\n    accuracy                           0.94       114\n   macro avg       0.59      0.61      0.60       114\nweighted avg       0.95      0.94      0.94       114\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.4666666666666666,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.619666899990989,
+  "prediction_time_seconds": 0.008266099990578368,
+  "n_train_samples": 263,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__original__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__original__ExtraTreesClassifier.json"
+}

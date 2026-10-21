@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9662921348314607,
+  "balanced_accuracy": 0.9556226081836915,
+  "precision": 0.9523809523809523,
+  "recall": 0.9302325581395349,
+  "f1": 0.9411764705882353,
+  "mcc": 0.9176837550752842,
+  "roc_auc": 0.9938426062211755,
+  "pr_auc": 0.9853302331111187,
+  "confusion_matrix": [
+    [
+      310,
+      6
+    ],
+    [
+      9,
+      120
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.98      0.98       316\n           1       0.95      0.93      0.94       129\n\n    accuracy                           0.97       445\n   macro avg       0.96      0.96      0.96       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8504051476848513,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 108.57800589999533,
+  "prediction_time_seconds": 0.0034715000074356794,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.json"
+}

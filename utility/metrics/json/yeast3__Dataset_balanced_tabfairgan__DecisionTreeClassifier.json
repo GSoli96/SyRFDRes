@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9640449438202248,
+  "balanced_accuracy": 0.881441970727685,
+  "precision": 0.8837209302325582,
+  "recall": 0.7755102040816326,
+  "f1": 0.8260869565217391,
+  "mcc": 0.8082707298182983,
+  "roc_auc": 0.9881467738610595,
+  "pr_auc": 0.855033235345706,
+  "confusion_matrix": [
+    [
+      391,
+      5
+    ],
+    [
+      11,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       396\n           1       0.88      0.78      0.83        49\n\n    accuracy                           0.96       445\n   macro avg       0.93      0.88      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9738272837606583,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7602448999823537,
+  "prediction_time_seconds": 0.0022616999922320247,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_tabfairgan__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_tabfairgan__DecisionTreeClassifier.json"
+}

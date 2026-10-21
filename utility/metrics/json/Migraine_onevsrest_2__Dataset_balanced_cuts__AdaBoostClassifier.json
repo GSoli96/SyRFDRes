@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.8477970627503337,
+  "precision": 0.7142857142857143,
+  "recall": 0.7142857142857143,
+  "f1": 0.7142857142857143,
+  "mcc": 0.6955941255006676,
+  "roc_auc": 0.991989319092123,
+  "pr_auc": 0.9095238095238094,
+  "confusion_matrix": [
+    [
+      105,
+      2
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       107\n           1       0.71      0.71      0.71         7\n\n    accuracy                           0.96       114\n   macro avg       0.85      0.85      0.85       114\nweighted avg       0.96      0.96      0.96       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9622915476310988,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.952062399999704,
+  "prediction_time_seconds": 0.02303429998573847,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__Dataset_balanced_cuts__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__Dataset_balanced_cuts__AdaBoostClassifier.json"
+}

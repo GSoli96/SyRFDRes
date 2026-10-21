@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7965367965367965,
+  "balanced_accuracy": 0.765024834437086,
+  "precision": 0.726027397260274,
+  "recall": 0.6625,
+  "f1": 0.6928104575163399,
+  "mcc": 0.5424504341773694,
+  "roc_auc": 0.890521523178808,
+  "pr_auc": 0.8063766660336018,
+  "confusion_matrix": [
+    [
+      131,
+      20
+    ],
+    [
+      27,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.87      0.85       151\n           1       0.73      0.66      0.69        80\n\n    accuracy                           0.80       231\n   macro avg       0.78      0.77      0.77       231\nweighted avg       0.79      0.80      0.79       231\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8099919966445587,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.736195399978897,
+  "prediction_time_seconds": 0.01606059999903664,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_react__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_react__AdaBoostClassifier.json"
+}

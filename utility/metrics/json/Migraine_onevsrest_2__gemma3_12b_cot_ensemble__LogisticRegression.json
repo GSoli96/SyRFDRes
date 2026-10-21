@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "LogisticRegression",
+  "accuracy": 0.8333333333333334,
+  "balanced_accuracy": 0.9112149532710281,
+  "precision": 0.2692307692307692,
+  "recall": 1.0,
+  "f1": 0.42424242424242425,
+  "mcc": 0.47055651772843116,
+  "roc_auc": 0.9639519359145527,
+  "pr_auc": 0.7311688311688311,
+  "confusion_matrix": [
+    [
+      88,
+      19
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.82      0.90       107\n           1       0.27      1.00      0.42         7\n\n    accuracy                           0.83       114\n   macro avg       0.63      0.91      0.66       114\nweighted avg       0.96      0.83      0.87       114\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8492335833180903,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3424613999959547,
+  "prediction_time_seconds": 0.0018440000130794942,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gemma3_12b_cot_ensemble__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gemma3_12b_cot_ensemble__LogisticRegression.json"
+}

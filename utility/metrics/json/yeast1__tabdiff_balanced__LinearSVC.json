@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "tabdiff__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7325842696629213,
+  "balanced_accuracy": 0.7428981454224316,
+  "precision": 0.526595744680851,
+  "recall": 0.7674418604651163,
+  "f1": 0.6246056782334385,
+  "mcc": 0.44621801992941534,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      227,
+      89
+    ],
+    [
+      30,
+      99
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.72      0.79       316\n           1       0.53      0.77      0.62       129\n\n    accuracy                           0.73       445\n   macro avg       0.70      0.74      0.71       445\nweighted avg       0.78      0.73      0.74       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7008930848097285,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2831008000066504,
+  "prediction_time_seconds": 0.002175999979954213,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__tabdiff_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__tabdiff_balanced__LinearSVC.json"
+}

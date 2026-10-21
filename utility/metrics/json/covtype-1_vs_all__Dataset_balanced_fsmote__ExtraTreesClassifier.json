@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-1_vs_all",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8940184964200477,
+  "balanced_accuracy": 0.8834443199878199,
+  "precision": 0.8620977717801661,
+  "recall": 0.8443951409869084,
+  "f1": 0.8531546355694402,
+  "mcc": 0.7703604820288461,
+  "roc_auc": 0.9589739129152051,
+  "pr_auc": 0.9352658500175742,
+  "confusion_matrix": [
+    [
+      102168,
+      8584
+    ],
+    [
+      9889,
+      53663
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.92      0.92    110752\n           1       0.86      0.84      0.85     63552\n\n    accuracy                           0.89    174304\n   macro avg       0.89      0.88      0.89    174304\nweighted avg       0.89      0.89      0.89    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9032468822614789,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 274.73762240001815,
+  "prediction_time_seconds": 10.134740000008605,
+  "n_train_samples": 50840,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-1_vs_all__Dataset_balanced_fsmote__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-1_vs_all__Dataset_balanced_fsmote__ExtraTreesClassifier.json"
+}

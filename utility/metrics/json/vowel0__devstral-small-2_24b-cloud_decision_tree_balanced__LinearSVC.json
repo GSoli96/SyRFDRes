@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8821548821548821,
+  "balanced_accuracy": 0.8851851851851852,
+  "precision": 0.42857142857142855,
+  "recall": 0.8888888888888888,
+  "f1": 0.5783132530120482,
+  "mcc": 0.5661881820547989,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      238,
+      32
+    ],
+    [
+      3,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.88      0.93       270\n           1       0.43      0.89      0.58        27\n\n    accuracy                           0.88       297\n   macro avg       0.71      0.89      0.75       297\nweighted avg       0.94      0.88      0.90       297\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.4949263708675547,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2633909000142012,
+  "prediction_time_seconds": 0.0018599999893922359,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__devstral-small-2_24b-cloud_decision_tree_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__devstral-small-2_24b-cloud_decision_tree_balanced__LinearSVC.json"
+}

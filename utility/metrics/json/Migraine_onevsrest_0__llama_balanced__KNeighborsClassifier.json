@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "llama__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      73,
+      0
+    ],
+    [
+      0,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        73\n           1       1.00      1.00      1.00        41\n\n    accuracy                           1.00       114\n   macro avg       1.00      1.00      1.00       114\nweighted avg       1.00      1.00      1.00       114\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.916595216822828,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5532229999953415,
+  "prediction_time_seconds": 0.003980100009357557,
+  "n_train_samples": 477,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__llama_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__llama_balanced__KNeighborsClassifier.json"
+}

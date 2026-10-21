@@ -1,0 +1,35 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7640273333333333,
+  "balanced_accuracy": 0.7514072720304671,
+  "precision": 0.8357837739546818,
+  "recall": 0.6027073729361782,
+  "f1": 0.7003630767303285,
+  "mcc": 0.5327530942614935,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      732374,
+      81278
+    ],
+    [
+      272681,
+      413667
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.73      0.90      0.81    813652\n           1       0.84      0.60      0.70    686348\n\n    accuracy                           0.76   1500000\n   macro avg       0.78      0.75      0.75   1500000\nweighted avg       0.78      0.76      0.76   1500000\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7050187294500612,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6210253000026569,
+  "prediction_time_seconds": 0.20915599999716505,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_fsmote__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_fsmote__RidgeClassifier.json"
+}

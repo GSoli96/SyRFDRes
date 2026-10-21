@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9954128440366973,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1": 0.9090909090909091,
+  "mcc": 0.9086737992230739,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      108,
+      1
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       109\n           1       0.83      1.00      0.91         5\n\n    accuracy                           0.99       114\n   macro avg       0.92      1.00      0.95       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.90682471217856,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.34591100001125596,
+  "prediction_time_seconds": 0.002051699993899092,
+  "n_train_samples": 1095,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__devstral-small-2_24b-cloud_self_consistency_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__devstral-small-2_24b-cloud_self_consistency_balanced__LogisticRegression.json"
+}

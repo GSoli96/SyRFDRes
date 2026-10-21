@@ -1,0 +1,35 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9084507042253521,
+  "balanced_accuracy": 0.6576492537313433,
+  "precision": 0.2727272727272727,
+  "recall": 0.375,
+  "f1": 0.3157894736842105,
+  "mcc": 0.27194890670365457,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      126,
+      8
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.94      0.95       134\n           1       0.27      0.38      0.32         8\n\n    accuracy                           0.91       142\n   macro avg       0.62      0.66      0.63       142\nweighted avg       0.92      0.91      0.92       142\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7534235782540613,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.18351490001077764,
+  "prediction_time_seconds": 0.0016296999820042402,
+  "n_train_samples": 760,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__SYRFD_thr4_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__SYRFD_thr4_balanced__RidgeClassifier.json"
+}

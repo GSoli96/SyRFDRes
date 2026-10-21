@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9796103359647512,
+  "balanced_accuracy": 0.8929817259094599,
+  "precision": 0.6794146072069585,
+  "recall": 0.7997724687144482,
+  "f1": 0.7346969244550612,
+  "mcc": 0.726772950583636,
+  "roc_auc": 0.9865377973509514,
+  "pr_auc": 0.8098523290309282,
+  "confusion_matrix": [
+    [
+      165829,
+      2322
+    ],
+    [
+      1232,
+      4921
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99    168151\n           1       0.68      0.80      0.73      6153\n\n    accuracy                           0.98    174304\n   macro avg       0.84      0.89      0.86    174304\nweighted avg       0.98      0.98      0.98    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9868568057517184,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 931.0064940000011,
+  "prediction_time_seconds": 1.3738765000016429,
+  "n_train_samples": 77172,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__Dataset_balanced_tabfairgan__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__Dataset_balanced_tabfairgan__RandomForestClassifier.json"
+}

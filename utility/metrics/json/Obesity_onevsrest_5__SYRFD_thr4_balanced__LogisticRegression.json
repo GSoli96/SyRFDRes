@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9266347687400319,
+  "balanced_accuracy": 0.94787185163527,
+  "precision": 0.6641221374045801,
+  "recall": 0.9775280898876404,
+  "f1": 0.7909090909090909,
+  "mcc": 0.7689417097618473,
+  "roc_auc": 0.9871350403074224,
+  "pr_auc": 0.8994774442075503,
+  "confusion_matrix": [
+    [
+      494,
+      44
+    ],
+    [
+      2,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.92      0.96       538\n           1       0.66      0.98      0.79        89\n\n    accuracy                           0.93       627\n   macro avg       0.83      0.95      0.87       627\nweighted avg       0.95      0.93      0.93       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9068830736844461,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4445807000156492,
+  "prediction_time_seconds": 0.002994800015585497,
+  "n_train_samples": 3131,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__SYRFD_thr4_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__SYRFD_thr4_balanced__LogisticRegression.json"
+}

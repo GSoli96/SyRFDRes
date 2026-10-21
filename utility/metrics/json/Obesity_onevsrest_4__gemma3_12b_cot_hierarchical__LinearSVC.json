@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "LinearSVC",
+  "accuracy": 0.7496012759170654,
+  "balanced_accuracy": 0.6784345922276956,
+  "precision": 0.3488372093023256,
+  "recall": 0.5714285714285714,
+  "f1": 0.4332129963898917,
+  "mcc": 0.2986544757488801,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      410,
+      112
+    ],
+    [
+      45,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.79      0.84       522\n           1       0.35      0.57      0.43       105\n\n    accuracy                           0.75       627\n   macro avg       0.62      0.68      0.64       627\nweighted avg       0.81      0.75      0.77       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8150353341465069,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39511459998902865,
+  "prediction_time_seconds": 0.001799099991330877,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gemma3_12b_cot_hierarchical__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gemma3_12b_cot_hierarchical__LinearSVC.json"
+}

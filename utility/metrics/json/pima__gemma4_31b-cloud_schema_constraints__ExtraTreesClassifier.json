@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      151,
+      0
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       151\n           1       1.00      1.00      1.00        80\n\n    accuracy                           1.00       231\n   macro avg       1.00      1.00      1.00       231\nweighted avg       1.00      1.00      1.00       231\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8160096541854311,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.466492500010645,
+  "prediction_time_seconds": 0.029843099997378886,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_schema_constraints__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_schema_constraints__ExtraTreesClassifier.json"
+}

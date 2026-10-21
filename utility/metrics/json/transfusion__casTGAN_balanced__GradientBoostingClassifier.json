@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "casTGAN__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8044444444444444,
+  "balanced_accuracy": 0.6632294866169373,
+  "precision": 0.6363636363636364,
+  "recall": 0.39622641509433965,
+  "f1": 0.4883720930232558,
+  "mcc": 0.3915824184744956,
+  "roc_auc": 0.8378126371215445,
+  "pr_auc": 0.6472327653837928,
+  "confusion_matrix": [
+    [
+      160,
+      12
+    ],
+    [
+      32,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.93      0.88       172\n           1       0.64      0.40      0.49        53\n\n    accuracy                           0.80       225\n   macro avg       0.73      0.66      0.68       225\nweighted avg       0.79      0.80      0.79       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.5849854136675842,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 4.940794399997685,
+  "prediction_time_seconds": 0.002354399999603629,
+  "n_train_samples": 823,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__casTGAN_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__casTGAN_balanced__GradientBoostingClassifier.json"
+}

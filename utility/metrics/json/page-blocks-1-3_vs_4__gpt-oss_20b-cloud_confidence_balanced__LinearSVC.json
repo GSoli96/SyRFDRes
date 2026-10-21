@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_20b-cloud__confidence__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9436619718309859,
+  "balanced_accuracy": 0.7938432835820896,
+  "precision": 0.5,
+  "recall": 0.625,
+  "f1": 0.5555555555555556,
+  "mcc": 0.5296100175525332,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      129,
+      5
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       134\n           1       0.50      0.62      0.56         8\n\n    accuracy                           0.94       142\n   macro avg       0.74      0.79      0.76       142\nweighted avg       0.95      0.94      0.95       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8172748047813926,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23950840000179596,
+  "prediction_time_seconds": 0.0023680000158492476,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_confidence_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_confidence_balanced__LinearSVC.json"
+}

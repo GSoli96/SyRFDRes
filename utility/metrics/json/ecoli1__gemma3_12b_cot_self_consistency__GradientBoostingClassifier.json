@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9801980198019802,
+  "balanced_accuracy": 0.971850613154961,
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9437012263099219,
+  "roc_auc": 0.9933110367892977,
+  "pr_auc": 0.9818347020024711,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99        78\n           1       0.96      0.96      0.96        23\n\n    accuracy                           0.98       101\n   macro avg       0.97      0.97      0.97       101\nweighted avg       0.98      0.98      0.98       101\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9208968727459048,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.28866150000249,
+  "prediction_time_seconds": 0.002085100015392527,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "MLPClassifier",
+  "accuracy": 0.9920255183413078,
+  "balanced_accuracy": 0.9954044117647058,
+  "precision": 0.9431818181818182,
+  "recall": 1.0,
+  "f1": 0.9707602339181286,
+  "mcc": 0.9667020573305194,
+  "roc_auc": 0.9998892629340893,
+  "pr_auc": 0.9992651354742241,
+  "confusion_matrix": [
+    [
+      539,
+      5
+    ],
+    [
+      0,
+      83
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       544\n           1       0.94      1.00      0.97        83\n\n    accuracy                           0.99       627\n   macro avg       0.97      1.00      0.98       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9539788228488417,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 96.25996629998554,
+  "prediction_time_seconds": 0.0026332999987062067,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__gemma4_31b-cloud_cot_decision_tree__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__gemma4_31b-cloud_cot_decision_tree__MLPClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7705627705627706,
+  "balanced_accuracy": 0.7539735099337748,
+  "precision": 0.6588235294117647,
+  "recall": 0.7,
+  "f1": 0.6787878787878788,
+  "mcc": 0.501147990249514,
+  "roc_auc": 0.8726407284768212,
+  "pr_auc": 0.7911979487678592,
+  "confusion_matrix": [
+    [
+      122,
+      29
+    ],
+    [
+      24,
+      56
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.81      0.82       151\n           1       0.66      0.70      0.68        80\n\n    accuracy                           0.77       231\n   macro avg       0.75      0.75      0.75       231\nweighted avg       0.77      0.77      0.77       231\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7979755333842082,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.644780400005402,
+  "prediction_time_seconds": 0.01746230002027005,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.json"
+}

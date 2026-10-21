@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "tabdiff__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      0,
+      129
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       316\n           1       1.00      1.00      1.00       129\n\n    accuracy                           1.00       445\n   macro avg       1.00      1.00      1.00       445\nweighted avg       1.00      1.00      1.00       445\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7718366338202767,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 26.90358980000019,
+  "prediction_time_seconds": 0.04965629999060184,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__tabdiff_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__tabdiff_balanced__RandomForestClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.6755155770074595,
+  "precision": 0.52,
+  "recall": 0.49056603773584906,
+  "f1": 0.5048543689320388,
+  "mcc": 0.3582975129051658,
+  "roc_auc": 0.775010969723563,
+  "pr_auc": 0.49335998678082277,
+  "confusion_matrix": [
+    [
+      148,
+      24
+    ],
+    [
+      27,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.86      0.85       172\n           1       0.52      0.49      0.50        53\n\n    accuracy                           0.77       225\n   macro avg       0.68      0.68      0.68       225\nweighted avg       0.77      0.77      0.77       225\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8221215572734518,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.994291300012264,
+  "prediction_time_seconds": 0.01638090002234094,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma4_31b-cloud_schema_constraints__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma4_31b-cloud_schema_constraints__AdaBoostClassifier.json"
+}

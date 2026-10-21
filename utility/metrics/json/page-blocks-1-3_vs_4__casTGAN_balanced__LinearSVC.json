@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "casTGAN__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9225352112676056,
+  "balanced_accuracy": 0.6063432835820896,
+  "precision": 0.2857142857142857,
+  "recall": 0.25,
+  "f1": 0.26666666666666666,
+  "mcc": 0.22652782235286006,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      129,
+      5
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.96      0.96       134\n           1       0.29      0.25      0.27         8\n\n    accuracy                           0.92       142\n   macro avg       0.62      0.61      0.61       142\nweighted avg       0.92      0.92      0.92       142\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6212426788897376,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.26605999999446794,
+  "prediction_time_seconds": 0.0016794000111985952,
+  "n_train_samples": 530,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__casTGAN_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__casTGAN_balanced__LinearSVC.json"
+}

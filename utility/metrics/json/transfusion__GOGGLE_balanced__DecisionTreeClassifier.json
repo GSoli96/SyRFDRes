@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "GOGGLE__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8177777777777778,
+  "balanced_accuracy": 0.7306932865291795,
+  "precision": 0.625,
+  "recall": 0.5660377358490566,
+  "f1": 0.594059405940594,
+  "mcc": 0.4779251203922154,
+  "roc_auc": 0.8205353225098727,
+  "pr_auc": 0.5487257828386827,
+  "confusion_matrix": [
+    [
+      154,
+      18
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.90      0.88       172\n           1       0.62      0.57      0.59        53\n\n    accuracy                           0.82       225\n   macro avg       0.75      0.73      0.74       225\nweighted avg       0.81      0.82      0.81       225\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8474912277895129,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6819682999921497,
+  "prediction_time_seconds": 0.002307699993252754,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__GOGGLE_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__GOGGLE_balanced__DecisionTreeClassifier.json"
+}

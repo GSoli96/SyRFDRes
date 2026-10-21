@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9936204146730463,
+  "balanced_accuracy": 0.9963235294117647,
+  "precision": 0.9540229885057471,
+  "recall": 1.0,
+  "f1": 0.9764705882352941,
+  "mcc": 0.9731434188187597,
+  "roc_auc": 0.9994241672572644,
+  "pr_auc": 0.9957565170547139,
+  "confusion_matrix": [
+    [
+      540,
+      4
+    ],
+    [
+      0,
+      83
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       544\n           1       0.95      1.00      0.98        83\n\n    accuracy                           0.99       627\n   macro avg       0.98      1.00      0.99       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9701984195268538,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 25.752804100018693,
+  "prediction_time_seconds": 0.0027695999888237566,
+  "n_train_samples": 5709,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__devstral-small-2_24b-cloud_react_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__devstral-small-2_24b-cloud_react_balanced__GradientBoostingClassifier.json"
+}

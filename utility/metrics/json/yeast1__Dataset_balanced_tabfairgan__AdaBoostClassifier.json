@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7842696629213484,
+  "balanced_accuracy": 0.7265356687273085,
+  "precision": 0.6386554621848739,
+  "recall": 0.5891472868217055,
+  "f1": 0.6129032258064516,
+  "mcc": 0.4644326079787623,
+  "roc_auc": 0.8262192130311059,
+  "pr_auc": 0.6530129402126493,
+  "confusion_matrix": [
+    [
+      273,
+      43
+    ],
+    [
+      53,
+      76
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.86      0.85       316\n           1       0.64      0.59      0.61       129\n\n    accuracy                           0.78       445\n   macro avg       0.74      0.73      0.73       445\nweighted avg       0.78      0.78      0.78       445\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8226482296437692,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.9428734999964945,
+  "prediction_time_seconds": 0.017164000018965453,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_tabfairgan__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_tabfairgan__AdaBoostClassifier.json"
+}

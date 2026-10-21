@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8644338118022329,
+  "balanced_accuracy": 0.7975906229650531,
+  "precision": 0.5,
+  "recall": 0.7058823529411765,
+  "f1": 0.5853658536585366,
+  "mcc": 0.5179212636066565,
+  "roc_auc": 0.9226611677881484,
+  "pr_auc": 0.645243649503005,
+  "confusion_matrix": [
+    [
+      482,
+      60
+    ],
+    [
+      25,
+      60
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.89      0.92       542\n           1       0.50      0.71      0.59        85\n\n    accuracy                           0.86       627\n   macro avg       0.73      0.80      0.75       627\nweighted avg       0.89      0.86      0.87       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9100866701615876,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.889234600006603,
+  "prediction_time_seconds": 0.03187229999457486,
+  "n_train_samples": 3610,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__AdaBoostClassifier.json"
+}

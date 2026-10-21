@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LogisticRegression",
+  "accuracy": 0.7669273333333333,
+  "balanced_accuracy": 0.7608192497181163,
+  "precision": 0.7765410016736718,
+  "recall": 0.688848805562193,
+  "f1": 0.7300710552668375,
+  "mcc": 0.5292143688000907,
+  "roc_auc": 0.8312301172913295,
+  "pr_auc": 0.8298809585349802,
+  "confusion_matrix": [
+    [
+      677601,
+      136051
+    ],
+    [
+      213558,
+      472790
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.76      0.83      0.79    813652\n           1       0.78      0.69      0.73    686348\n\n    accuracy                           0.77   1500000\n   macro avg       0.77      0.76      0.76   1500000\nweighted avg       0.77      0.77      0.77   1500000\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.740638278338605,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.339215099986177,
+  "prediction_time_seconds": 0.21057480000308715,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__LogisticRegression.json"
+}

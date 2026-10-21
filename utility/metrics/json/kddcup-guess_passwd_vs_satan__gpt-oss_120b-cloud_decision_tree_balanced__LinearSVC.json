@@ -1,0 +1,36 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9979716024340771,
+  "balanced_accuracy": 0.9989517819706499,
+  "precision": 0.9411764705882353,
+  "recall": 1.0,
+  "f1": 0.9696969696969697,
+  "mcc": 0.9691250457488414,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      476,
+      1
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       477\n           1       0.94      1.00      0.97        16\n\n    accuracy                           1.00       493\n   macro avg       0.97      1.00      0.98       493\nweighted avg       1.00      1.00      1.00       493\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9374197423406038,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.058802099985769,
+  "prediction_time_seconds": 0.00285059999441728,
+  "n_train_samples": 4819,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.json"
+}

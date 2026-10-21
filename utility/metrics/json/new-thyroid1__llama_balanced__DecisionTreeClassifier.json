@@ -1,0 +1,36 @@
+{
+  "dataset": "new-thyroid1",
+  "augmentation": "llama__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9907407407407407,
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9485206154979929,
+  "roc_auc": 0.9991582491582491,
+  "pr_auc": 0.9924242424242424,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99        54\n           1       0.92      1.00      0.96        11\n\n    accuracy                           0.98        65\n   macro avg       0.96      0.99      0.97        65\nweighted avg       0.99      0.98      0.98        65\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9764138317822528,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6248066000116523,
+  "prediction_time_seconds": 0.0016565999831072986,
+  "n_train_samples": 370,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\new-thyroid1__llama_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\new-thyroid1__llama_balanced__DecisionTreeClassifier.json"
+}

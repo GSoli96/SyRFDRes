@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "tabdiff__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.849438202247191,
+  "balanced_accuracy": 0.809120792856442,
+  "precision": 0.7540983606557377,
+  "recall": 0.7131782945736435,
+  "f1": 0.7330677290836654,
+  "mcc": 0.6288042006146712,
+  "roc_auc": 0.9132322637621432,
+  "pr_auc": 0.8172490905995867,
+  "confusion_matrix": [
+    [
+      286,
+      30
+    ],
+    [
+      37,
+      92
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.91      0.90       316\n           1       0.75      0.71      0.73       129\n\n    accuracy                           0.85       445\n   macro avg       0.82      0.81      0.81       445\nweighted avg       0.85      0.85      0.85       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.798325169320262,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.138961200020276,
+  "prediction_time_seconds": 0.0036312000011093915,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__tabdiff_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__tabdiff_balanced__GradientBoostingClassifier.json"
+}

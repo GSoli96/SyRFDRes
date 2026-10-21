@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "ctabganp__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      134,
+      0
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       134\n           1       1.00      1.00      1.00         8\n\n    accuracy                           1.00       142\n   macro avg       1.00      1.00      1.00       142\nweighted avg       1.00      1.00      1.00       142\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 1.0,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.0172141000221,
+  "prediction_time_seconds": 0.013962099998025224,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__ctabganp_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__ctabganp_balanced__RandomForestClassifier.json"
+}

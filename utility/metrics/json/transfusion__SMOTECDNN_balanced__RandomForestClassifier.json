@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8888888888888888,
+  "balanced_accuracy": 0.8294207985958754,
+  "precision": 0.7916666666666666,
+  "recall": 0.7169811320754716,
+  "f1": 0.7524752475247525,
+  "mcc": 0.6824579821863161,
+  "roc_auc": 0.9235958753839403,
+  "pr_auc": 0.8406076314109147,
+  "confusion_matrix": [
+    [
+      162,
+      10
+    ],
+    [
+      15,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.94      0.93       172\n           1       0.79      0.72      0.75        53\n\n    accuracy                           0.89       225\n   macro avg       0.85      0.83      0.84       225\nweighted avg       0.89      0.89      0.89       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.6898654559364034,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.900326600007247,
+  "prediction_time_seconds": 0.011063699988881126,
+  "n_train_samples": 911,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SMOTECDNN_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SMOTECDNN_balanced__RandomForestClassifier.json"
+}

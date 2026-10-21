@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "tvae__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.748006379585327,
+  "balanced_accuracy": 0.6888888888888889,
+  "precision": 0.35195530726256985,
+  "recall": 0.6,
+  "f1": 0.44366197183098594,
+  "mcc": 0.3123207120702723,
+  "roc_auc": 0.7413245758073345,
+  "pr_auc": 0.38930332702564524,
+  "confusion_matrix": [
+    [
+      406,
+      116
+    ],
+    [
+      42,
+      63
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.78      0.84       522\n           1       0.35      0.60      0.44       105\n\n    accuracy                           0.75       627\n   macro avg       0.63      0.69      0.64       627\nweighted avg       0.81      0.75      0.77       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8213701457791046,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39332960001775064,
+  "prediction_time_seconds": 0.0022908000100869685,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__tvae_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__tvae_balanced__LogisticRegression.json"
+}

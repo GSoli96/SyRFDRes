@@ -1,0 +1,38 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "MLPClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9285714285714286,
+  "precision": 1.0,
+  "recall": 0.8571428571428571,
+  "f1": 0.9230769230769231,
+  "mcc": 0.9215239276363633,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      1.00       107\n           1       1.00      0.86      0.92         7\n\n    accuracy                           0.99       114\n   macro avg       1.00      0.93      0.96       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.972962637222422,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.519984200014733,
+  "prediction_time_seconds": 0.002189100021496415,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__Dataset_balanced_fsmote__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__Dataset_balanced_fsmote__MLPClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gpt-oss_20b-cloud__ensemble__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.773524720893142,
+  "balanced_accuracy": 0.5596606458675424,
+  "precision": 0.28735632183908044,
+  "recall": 0.23809523809523808,
+  "f1": 0.2604166666666667,
+  "mcc": 0.12888172525569364,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      460,
+      62
+    ],
+    [
+      80,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.88      0.87       522\n           1       0.29      0.24      0.26       105\n\n    accuracy                           0.77       627\n   macro avg       0.57      0.56      0.56       627\nweighted avg       0.76      0.77      0.76       627\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.5024892546362489,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21726490001310594,
+  "prediction_time_seconds": 0.002368799992837012,
+  "n_train_samples": 5492,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gpt-oss_20b-cloud_ensemble_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gpt-oss_20b-cloud_ensemble_balanced__RidgeClassifier.json"
+}

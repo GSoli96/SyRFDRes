@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9913419913419913,
+  "balanced_accuracy": 0.9875,
+  "precision": 1.0,
+  "recall": 0.975,
+  "f1": 0.9873417721518988,
+  "mcc": 0.9809459220368799,
+  "roc_auc": 0.9999172185430463,
+  "pr_auc": 0.9998456790123453,
+  "confusion_matrix": [
+    [
+      151,
+      0
+    ],
+    [
+      2,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99       151\n           1       1.00      0.97      0.99        80\n\n    accuracy                           0.99       231\n   macro avg       0.99      0.99      0.99       231\nweighted avg       0.99      0.99      0.99       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8200134418309497,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 19.581026500003645,
+  "prediction_time_seconds": 0.019894199998816475,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.json"
+}

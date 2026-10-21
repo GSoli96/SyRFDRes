@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "ctabgan__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.9002229654403567,
+  "precision": 0.9047619047619048,
+  "recall": 0.8260869565217391,
+  "f1": 0.8636363636363636,
+  "mcc": 0.8271582004299508,
+  "roc_auc": 0.988015607580825,
+  "pr_auc": 0.9654864395785695,
+  "confusion_matrix": [
+    [
+      76,
+      2
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.97      0.96        78\n           1       0.90      0.83      0.86        23\n\n    accuracy                           0.94       101\n   macro avg       0.93      0.90      0.91       101\nweighted avg       0.94      0.94      0.94       101\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.933109290285761,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.942660600005183,
+  "prediction_time_seconds": 0.002592700009699911,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__ctabgan_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__ctabgan_balanced__GradientBoostingClassifier.json"
+}

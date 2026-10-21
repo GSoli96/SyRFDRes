@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7445887445887446,
+  "balanced_accuracy": 0.7017798013245033,
+  "precision": 0.6521739130434783,
+  "recall": 0.5625,
+  "f1": 0.6040268456375839,
+  "mcc": 0.4195262115344187,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      127,
+      24
+    ],
+    [
+      35,
+      45
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.84      0.81       151\n           1       0.65      0.56      0.60        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.70      0.71       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.6246543724398401,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2400334000121802,
+  "prediction_time_seconds": 0.0026948000013362616,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gpt-oss_20b-cloud_decision_tree_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gpt-oss_20b-cloud_decision_tree_balanced__RidgeClassifier.json"
+}

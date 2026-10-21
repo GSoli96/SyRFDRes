@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8629213483146068,
+  "balanced_accuracy": 0.8277892257874595,
+  "precision": 0.7741935483870968,
+  "recall": 0.7441860465116279,
+  "f1": 0.758893280632411,
+  "mcc": 0.6634370294824045,
+  "roc_auc": 0.9220145226179963,
+  "pr_auc": 0.8414033378473933,
+  "confusion_matrix": [
+    [
+      288,
+      28
+    ],
+    [
+      33,
+      96
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.91      0.90       316\n           1       0.77      0.74      0.76       129\n\n    accuracy                           0.86       445\n   macro avg       0.84      0.83      0.83       445\nweighted avg       0.86      0.86      0.86       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7727616080141961,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.871156100009102,
+  "prediction_time_seconds": 0.00361359998350963,
+  "n_train_samples": 1907,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SMOTECDNN_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SMOTECDNN_balanced__GradientBoostingClassifier.json"
+}

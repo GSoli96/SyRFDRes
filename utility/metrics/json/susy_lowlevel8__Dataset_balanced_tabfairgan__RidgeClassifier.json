@@ -1,0 +1,35 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "RidgeClassifier",
+  "accuracy": 0.758326,
+  "balanced_accuracy": 0.7448102944243793,
+  "precision": 0.8373618360054589,
+  "recall": 0.5855571809053134,
+  "f1": 0.6891793984925015,
+  "mcc": 0.522927258035319,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      735593,
+      78059
+    ],
+    [
+      284452,
+      401896
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.72      0.90      0.80    813652\n           1       0.84      0.59      0.69    686348\n\n    accuracy                           0.76   1500000\n   macro avg       0.78      0.74      0.75   1500000\nweighted avg       0.77      0.76      0.75   1500000\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.6919439490088142,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6439753999875393,
+  "prediction_time_seconds": 0.23418880000826903,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabfairgan__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabfairgan__RidgeClassifier.json"
+}

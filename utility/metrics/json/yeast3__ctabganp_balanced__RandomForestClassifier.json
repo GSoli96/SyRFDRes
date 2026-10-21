@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "ctabganp__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9617977528089887,
+  "balanced_accuracy": 0.8891207998350856,
+  "precision": 0.8478260869565217,
+  "recall": 0.7959183673469388,
+  "f1": 0.8210526315789474,
+  "mcc": 0.8001929318348163,
+  "roc_auc": 0.9921150278293135,
+  "pr_auc": 0.9430464268708566,
+  "confusion_matrix": [
+    [
+      389,
+      7
+    ],
+    [
+      10,
+      39
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.98      0.98       396\n           1       0.85      0.80      0.82        49\n\n    accuracy                           0.96       445\n   macro avg       0.91      0.89      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9710922942748393,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 25.293556999997236,
+  "prediction_time_seconds": 0.029948599985800683,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__ctabganp_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__ctabganp_balanced__RandomForestClassifier.json"
+}

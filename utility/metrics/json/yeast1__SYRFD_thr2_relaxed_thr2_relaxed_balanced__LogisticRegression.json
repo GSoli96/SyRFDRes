@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7348314606741573,
+  "balanced_accuracy": 0.7330119713472671,
+  "precision": 0.5310734463276836,
+  "recall": 0.7286821705426356,
+  "f1": 0.6143790849673203,
+  "mcc": 0.4320088025935837,
+  "roc_auc": 0.7908203316651947,
+  "pr_auc": 0.5861539442917962,
+  "confusion_matrix": [
+    [
+      233,
+      83
+    ],
+    [
+      35,
+      94
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.74      0.80       316\n           1       0.53      0.73      0.61       129\n\n    accuracy                           0.73       445\n   macro avg       0.70      0.73      0.71       445\nweighted avg       0.77      0.73      0.74       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7566871399178641,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3545000000158325,
+  "prediction_time_seconds": 0.0027590000245254487,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__LogisticRegression.json"
+}

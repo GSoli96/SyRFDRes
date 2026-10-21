@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "deepseek__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.900990099009901,
+  "balanced_accuracy": 0.859253065774805,
+  "precision": 0.782608695652174,
+  "recall": 0.782608695652174,
+  "f1": 0.782608695652174,
+  "mcc": 0.7185061315496098,
+  "roc_auc": 0.9676700111482721,
+  "pr_auc": 0.8684598223350586,
+  "confusion_matrix": [
+    [
+      73,
+      5
+    ],
+    [
+      5,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.94      0.94        78\n           1       0.78      0.78      0.78        23\n\n    accuracy                           0.90       101\n   macro avg       0.86      0.86      0.86       101\nweighted avg       0.90      0.90      0.90       101\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9538874958680678,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6042354000092018,
+  "prediction_time_seconds": 0.003972300008172169,
+  "n_train_samples": 635,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__deepseek_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__deepseek_balanced__KNeighborsClassifier.json"
+}

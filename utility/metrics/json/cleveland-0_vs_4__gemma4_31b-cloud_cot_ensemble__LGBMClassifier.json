@@ -1,0 +1,37 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "LGBMClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      49,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        49\n           1       1.00      1.00      1.00         4\n\n    accuracy                           1.00        53\n   macro avg       1.00      1.00      1.00        53\nweighted avg       1.00      1.00      1.00        53\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__n_estimators": 100,
+    "model__num_leaves": 15
+  },
+  "cv_best_score": 0.9199883449883451,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 3.0762877000379376,
+  "prediction_time_seconds": 0.0059278999688103795,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__LGBMClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma4_31b-cloud_cot_ensemble__LGBMClassifier.json"
+}

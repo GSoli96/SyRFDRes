@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gpt-oss_20b-cloud__hierarchical__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8898876404494382,
+  "balanced_accuracy": 0.9023654916512059,
+  "precision": 0.5,
+  "recall": 0.9183673469387755,
+  "f1": 0.6474820143884892,
+  "mcc": 0.6271348342183298,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      351,
+      45
+    ],
+    [
+      4,
+      45
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.89      0.93       396\n           1       0.50      0.92      0.65        49\n\n    accuracy                           0.89       445\n   macro avg       0.74      0.90      0.79       445\nweighted avg       0.93      0.89      0.90       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.43383063548008777,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3166104000119958,
+  "prediction_time_seconds": 0.0018164000066462904,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gpt-oss_20b-cloud_hierarchical_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gpt-oss_20b-cloud_hierarchical_balanced__LinearSVC.json"
+}

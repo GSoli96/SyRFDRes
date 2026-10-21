@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "devstral-small-2_24b-cloud__schema_constraints__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9538461538461539,
+  "balanced_accuracy": 0.9722222222222222,
+  "precision": 0.7857142857142857,
+  "recall": 1.0,
+  "f1": 0.88,
+  "mcc": 0.8614310721488353,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      51,
+      3
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97        54\n           1       0.79      1.00      0.88        11\n\n    accuracy                           0.95        65\n   macro avg       0.89      0.97      0.93        65\nweighted avg       0.96      0.95      0.96        65\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8470551825848295,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.235478200018406,
+  "prediction_time_seconds": 0.02163880001171492,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__devstral-small-2_24b-cloud_schema_constraints_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__devstral-small-2_24b-cloud_schema_constraints_balanced__AdaBoostClassifier.json"
+}

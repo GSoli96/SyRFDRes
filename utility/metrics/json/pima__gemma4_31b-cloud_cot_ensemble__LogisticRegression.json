@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "LogisticRegression",
+  "accuracy": 0.7402597402597403,
+  "balanced_accuracy": 0.7249172185430464,
+  "precision": 0.6136363636363636,
+  "recall": 0.675,
+  "f1": 0.6428571428571429,
+  "mcc": 0.44073426091208506,
+  "roc_auc": 0.8381622516556291,
+  "pr_auc": 0.7149653484993858,
+  "confusion_matrix": [
+    [
+      117,
+      34
+    ],
+    [
+      26,
+      54
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.77      0.80       151\n           1       0.61      0.68      0.64        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.72      0.72       231\nweighted avg       0.75      0.74      0.74       231\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7140781518360907,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.30965509999077767,
+  "prediction_time_seconds": 0.0016760000144131482,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_ensemble__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_ensemble__LogisticRegression.json"
+}

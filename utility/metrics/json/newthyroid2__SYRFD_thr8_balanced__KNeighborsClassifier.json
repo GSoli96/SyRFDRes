@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9692307692307692,
+  "balanced_accuracy": 0.9452861952861953,
+  "precision": 0.9090909090909091,
+  "recall": 0.9090909090909091,
+  "f1": 0.9090909090909091,
+  "mcc": 0.8905723905723906,
+  "roc_auc": 0.9983164983164984,
+  "pr_auc": 0.9924242424242424,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        54\n           1       0.91      0.91      0.91        11\n\n    accuracy                           0.97        65\n   macro avg       0.95      0.95      0.95        65\nweighted avg       0.97      0.97      0.97        65\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9809625668449197,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4588463999971282,
+  "prediction_time_seconds": 0.0034551999997347593,
+  "n_train_samples": 315,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__SYRFD_thr8_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__SYRFD_thr8_balanced__KNeighborsClassifier.json"
+}

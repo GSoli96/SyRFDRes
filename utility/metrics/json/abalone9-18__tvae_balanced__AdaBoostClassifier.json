@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "tvae__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.954337899543379,
+  "balanced_accuracy": 0.6874533233756535,
+  "precision": 0.7142857142857143,
+  "recall": 0.38461538461538464,
+  "f1": 0.5,
+  "mcc": 0.5036298654101983,
+  "roc_auc": 0.9587378640776699,
+  "pr_auc": 0.6810650219345871,
+  "confusion_matrix": [
+    [
+      204,
+      2
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.98       206\n           1       0.71      0.38      0.50        13\n\n    accuracy                           0.95       219\n   macro avg       0.84      0.69      0.74       219\nweighted avg       0.95      0.95      0.95       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9718556176925549,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.194577699992806,
+  "prediction_time_seconds": 0.06090570002561435,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__tvae_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__tvae_balanced__AdaBoostClassifier.json"
+}

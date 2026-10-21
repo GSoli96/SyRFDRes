@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "original",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.98989898989899,
+  "balanced_accuracy": 0.9444444444444444,
+  "precision": 1.0,
+  "recall": 0.8888888888888888,
+  "f1": 0.9411764705882353,
+  "mcc": 0.9376144618769908,
+  "roc_auc": 1.0,
+  "pr_auc": 0.9999999999999998,
+  "confusion_matrix": [
+    [
+      270,
+      0
+    ],
+    [
+      3,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99       270\n           1       1.00      0.89      0.94        27\n\n    accuracy                           0.99       297\n   macro avg       0.99      0.94      0.97       297\nweighted avg       0.99      0.99      0.99       297\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9476363636363636,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.80638250001357,
+  "prediction_time_seconds": 0.010851099999854341,
+  "n_train_samples": 690,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__original__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__original__RandomForestClassifier.json"
+}

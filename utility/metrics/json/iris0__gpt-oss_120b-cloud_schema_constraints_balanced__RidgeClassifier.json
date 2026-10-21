@@ -1,0 +1,35 @@
+{
+  "dataset": "iris0",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      30,
+      0
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        30\n           1       1.00      1.00      1.00        15\n\n    accuracy                           1.00        45\n   macro avg       1.00      1.00      1.00        45\nweighted avg       1.00      1.00      1.00        45\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 0.9620851166922394,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23556980001740158,
+  "prediction_time_seconds": 0.0022129999997559935,
+  "n_train_samples": 349,
+  "n_test_samples": 45,
+  "checkpoint_path": "utility\\checkpoints\\iris0__gpt-oss_120b-cloud_schema_constraints_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\iris0__gpt-oss_120b-cloud_schema_constraints_balanced__RidgeClassifier.json"
+}

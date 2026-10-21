@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "casTGAN__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8067415730337079,
+  "balanced_accuracy": 0.7469458345599058,
+  "precision": 0.6902654867256637,
+  "recall": 0.6046511627906976,
+  "f1": 0.6446280991735537,
+  "mcc": 0.5148276142511093,
+  "roc_auc": 0.8620841919340595,
+  "pr_auc": 0.7402601869125489,
+  "confusion_matrix": [
+    [
+      281,
+      35
+    ],
+    [
+      51,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.89      0.87       316\n           1       0.69      0.60      0.64       129\n\n    accuracy                           0.81       445\n   macro avg       0.77      0.75      0.76       445\nweighted avg       0.80      0.81      0.80       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.699092283685307,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 51.9945965000079,
+  "prediction_time_seconds": 0.002390499983448535,
+  "n_train_samples": 1742,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__casTGAN_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__casTGAN_balanced__MLPClassifier.json"
+}

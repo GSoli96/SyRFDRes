@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "tvae__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.9098798397863819,
+  "precision": 0.6,
+  "recall": 0.8571428571428571,
+  "f1": 0.7058823529411765,
+  "mcc": 0.6956820416917355,
+  "roc_auc": 0.9813084112149533,
+  "pr_auc": 0.7499226963512677,
+  "confusion_matrix": [
+    [
+      103,
+      4
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.96      0.98       107\n           1       0.60      0.86      0.71         7\n\n    accuracy                           0.96       114\n   macro avg       0.80      0.91      0.84       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9668751278403637,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3304206999891903,
+  "prediction_time_seconds": 0.0018044000025838614,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__tvae_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__tvae_balanced__LogisticRegression.json"
+}

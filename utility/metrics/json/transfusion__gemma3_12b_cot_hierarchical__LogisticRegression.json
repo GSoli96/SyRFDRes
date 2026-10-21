@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "LogisticRegression",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.6885695480473892,
+  "precision": 0.5185185185185185,
+  "recall": 0.5283018867924528,
+  "f1": 0.5233644859813084,
+  "mcc": 0.37472164419977005,
+  "roc_auc": 0.765631856077227,
+  "pr_auc": 0.49866093743458034,
+  "confusion_matrix": [
+    [
+      146,
+      26
+    ],
+    [
+      25,
+      28
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.85      0.85       172\n           1       0.52      0.53      0.52        53\n\n    accuracy                           0.77       225\n   macro avg       0.69      0.69      0.69       225\nweighted avg       0.77      0.77      0.77       225\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.851308705758193,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3071445999958087,
+  "prediction_time_seconds": 0.0025024999922607094,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_hierarchical__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_hierarchical__LogisticRegression.json"
+}

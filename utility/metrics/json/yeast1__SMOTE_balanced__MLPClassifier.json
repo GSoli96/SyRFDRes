@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SMOTE__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.903370786516854,
+  "balanced_accuracy": 0.8837945245805122,
+  "precision": 0.8307692307692308,
+  "recall": 0.8372093023255814,
+  "f1": 0.833976833976834,
+  "mcc": 0.7658438226172408,
+  "roc_auc": 0.9600628005102542,
+  "pr_auc": 0.9032241803490336,
+  "confusion_matrix": [
+    [
+      294,
+      22
+    ],
+    [
+      21,
+      108
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.93      0.93       316\n           1       0.83      0.84      0.83       129\n\n    accuracy                           0.90       445\n   macro avg       0.88      0.88      0.88       445\nweighted avg       0.90      0.90      0.90       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.7886357065273866,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 61.26548949998687,
+  "prediction_time_seconds": 0.00943780000670813,
+  "n_train_samples": 1921,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SMOTE_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SMOTE_balanced__MLPClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8311688311688312,
+  "balanced_accuracy": 0.8179635761589403,
+  "precision": 0.7469879518072289,
+  "recall": 0.775,
+  "f1": 0.7607361963190185,
+  "mcc": 0.6306246343986388,
+  "roc_auc": 0.8941225165562914,
+  "pr_auc": 0.8009487651289198,
+  "confusion_matrix": [
+    [
+      130,
+      21
+    ],
+    [
+      18,
+      62
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.86      0.87       151\n           1       0.75      0.78      0.76        80\n\n    accuracy                           0.83       231\n   macro avg       0.81      0.82      0.82       231\nweighted avg       0.83      0.83      0.83       231\n",
+  "best_params": {
+    "model__n_neighbors": 7,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.7600674136548314,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5045519000268541,
+  "prediction_time_seconds": 0.0036872000200673938,
+  "n_train_samples": 952,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_variable_strict_variable_strict_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_variable_strict_variable_strict_balanced__KNeighborsClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8622222222222222,
+  "balanced_accuracy": 0.7662900394910048,
+  "precision": 0.775,
+  "recall": 0.5849056603773585,
+  "f1": 0.6666666666666666,
+  "mcc": 0.5911139602316667,
+  "roc_auc": 0.9171237384817903,
+  "pr_auc": 0.8139916952418941,
+  "confusion_matrix": [
+    [
+      163,
+      9
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.95      0.91       172\n           1       0.78      0.58      0.67        53\n\n    accuracy                           0.86       225\n   macro avg       0.83      0.77      0.79       225\nweighted avg       0.86      0.86      0.86       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 10,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8330516043934912,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.271297699975548,
+  "prediction_time_seconds": 0.003888899984303862,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_decision_tree__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_decision_tree__HistGradientBoostingClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.903370786516854,
+  "balanced_accuracy": 0.7042877757163472,
+  "precision": 0.5789473684210527,
+  "recall": 0.4489795918367347,
+  "f1": 0.5057471264367817,
+  "mcc": 0.45764529899489265,
+  "roc_auc": 0.917027417027417,
+  "pr_auc": 0.5024546884682313,
+  "confusion_matrix": [
+    [
+      380,
+      16
+    ],
+    [
+      27,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.96      0.95       396\n           1       0.58      0.45      0.51        49\n\n    accuracy                           0.90       445\n   macro avg       0.76      0.70      0.73       445\nweighted avg       0.89      0.90      0.90       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.48314071721669,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.40267450001556426,
+  "prediction_time_seconds": 0.002669600013177842,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__devstral-small-2_24b-cloud_ensemble_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__devstral-small-2_24b-cloud_ensemble_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_120b-cloud__distribution_guidance__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9797752808988764,
+  "balanced_accuracy": 0.9765847316259444,
+  "precision": 0.9615384615384616,
+  "recall": 0.9689922480620154,
+  "f1": 0.9652509652509652,
+  "mcc": 0.951002292355158,
+  "roc_auc": 0.9954616818761652,
+  "pr_auc": 0.9882197903274745,
+  "confusion_matrix": [
+    [
+      311,
+      5
+    ],
+    [
+      4,
+      125
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.98      0.99       316\n           1       0.96      0.97      0.97       129\n\n    accuracy                           0.98       445\n   macro avg       0.97      0.98      0.98       445\nweighted avg       0.98      0.98      0.98       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8633881541079823,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 115.11759169999277,
+  "prediction_time_seconds": 0.0035690999939106405,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_120b-cloud_distribution_guidance_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_120b-cloud_distribution_guidance_balanced__MLPClassifier.json"
+}

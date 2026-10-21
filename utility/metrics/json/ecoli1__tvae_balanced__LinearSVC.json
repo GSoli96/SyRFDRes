@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "tvae__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8415841584158416,
+  "balanced_accuracy": 0.8207915273132664,
+  "precision": 0.6206896551724138,
+  "recall": 0.782608695652174,
+  "f1": 0.6923076923076923,
+  "mcc": 0.5947012578993737,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      67,
+      11
+    ],
+    [
+      5,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.86      0.89        78\n           1       0.62      0.78      0.69        23\n\n    accuracy                           0.84       101\n   macro avg       0.78      0.82      0.79       101\nweighted avg       0.86      0.84      0.85       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9118735587182188,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20628949999809265,
+  "prediction_time_seconds": 0.0018488999921828508,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__tvae_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__tvae_balanced__LinearSVC.json"
+}

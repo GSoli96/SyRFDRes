@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "ctabganp__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.974025974025974,
+  "balanced_accuracy": 0.9683774834437087,
+  "precision": 0.9743589743589743,
+  "recall": 0.95,
+  "f1": 0.9620253164556962,
+  "mcc": 0.9424676561189789,
+  "roc_auc": 0.997682119205298,
+  "pr_auc": 0.9957944507354444,
+  "confusion_matrix": [
+    [
+      149,
+      2
+    ],
+    [
+      4,
+      76
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       151\n           1       0.97      0.95      0.96        80\n\n    accuracy                           0.97       231\n   macro avg       0.97      0.97      0.97       231\nweighted avg       0.97      0.97      0.97       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 10,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8083022959337862,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.610596999991685,
+  "prediction_time_seconds": 0.00358399999095127,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ctabganp_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ctabganp_balanced__HistGradientBoostingClassifier.json"
+}

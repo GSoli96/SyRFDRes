@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8564593301435407,
+  "balanced_accuracy": 0.8483660877513711,
+  "precision": 0.4652777777777778,
+  "recall": 0.8375,
+  "f1": 0.5982142857142857,
+  "mcc": 0.5526494119082221,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      470,
+      77
+    ],
+    [
+      13,
+      67
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.86      0.91       547\n           1       0.47      0.84      0.60        80\n\n    accuracy                           0.86       627\n   macro avg       0.72      0.85      0.76       627\nweighted avg       0.91      0.86      0.87       627\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6856550556774499,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6553024999739137,
+  "prediction_time_seconds": 0.0021892999939154834,
+  "n_train_samples": 5727,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.json"
+}

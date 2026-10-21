@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8831168831168831,
+  "balanced_accuracy": 0.878269867549669,
+  "precision": 0.8117647058823529,
+  "recall": 0.8625,
+  "f1": 0.8363636363636363,
+  "mcc": 0.7464132142911193,
+  "roc_auc": 0.9413907284768211,
+  "pr_auc": 0.8973563026199113,
+  "confusion_matrix": [
+    [
+      135,
+      16
+    ],
+    [
+      11,
+      69
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.89      0.91       151\n           1       0.81      0.86      0.84        80\n\n    accuracy                           0.88       231\n   macro avg       0.87      0.88      0.87       231\nweighted avg       0.89      0.88      0.88       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.8045383077791058,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 30.45969160000095,
+  "prediction_time_seconds": 0.0029266999918036163,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr8_strict_thr8_strict_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr8_strict_thr8_strict_balanced__MLPClassifier.json"
+}

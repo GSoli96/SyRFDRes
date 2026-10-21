@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "MLPClassifier",
+  "accuracy": 0.8354978354978355,
+  "balanced_accuracy": 0.8065811258278146,
+  "precision": 0.7916666666666666,
+  "recall": 0.7125,
+  "f1": 0.75,
+  "mcc": 0.6298600555313199,
+  "roc_auc": 0.9,
+  "pr_auc": 0.825157477931618,
+  "confusion_matrix": [
+    [
+      136,
+      15
+    ],
+    [
+      23,
+      57
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.90      0.88       151\n           1       0.79      0.71      0.75        80\n\n    accuracy                           0.84       231\n   macro avg       0.82      0.81      0.81       231\nweighted avg       0.83      0.84      0.83       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.820161524784561,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 30.007210199983092,
+  "prediction_time_seconds": 0.003189300012309104,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_confidence__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_confidence__MLPClassifier.json"
+}

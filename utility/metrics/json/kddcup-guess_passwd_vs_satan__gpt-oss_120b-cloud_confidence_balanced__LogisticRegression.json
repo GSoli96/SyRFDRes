@@ -1,0 +1,37 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gpt-oss_120b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9817444219066938,
+  "balanced_accuracy": 0.9905660377358491,
+  "precision": 0.64,
+  "recall": 1.0,
+  "f1": 0.7804878048780488,
+  "mcc": 0.7924168904698378,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      468,
+      9
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       477\n           1       0.64      1.00      0.78        16\n\n    accuracy                           0.98       493\n   macro avg       0.82      0.99      0.89       493\nweighted avg       0.99      0.98      0.98       493\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.955673313894464,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0864438000135124,
+  "prediction_time_seconds": 0.002209599973866716,
+  "n_train_samples": 4815,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.json"
+}

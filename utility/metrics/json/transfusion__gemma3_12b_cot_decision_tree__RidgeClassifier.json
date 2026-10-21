@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.5515028521281263,
+  "precision": 0.5833333333333334,
+  "recall": 0.1320754716981132,
+  "f1": 0.2153846153846154,
+  "mcc": 0.19452839755583798,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      167,
+      5
+    ],
+    [
+      46,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.97      0.87       172\n           1       0.58      0.13      0.22        53\n\n    accuracy                           0.77       225\n   macro avg       0.68      0.55      0.54       225\nweighted avg       0.74      0.77      0.71       225\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.8304559826711906,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.17183490001480095,
+  "prediction_time_seconds": 0.003221599996322766,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_decision_tree__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_decision_tree__RidgeClassifier.json"
+}

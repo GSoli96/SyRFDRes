@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8508771929824561,
+  "balanced_accuracy": 0.8538050734312417,
+  "precision": 0.2727272727272727,
+  "recall": 0.8571428571428571,
+  "f1": 0.41379310344827586,
+  "mcc": 0.4304569326519674,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      91,
+      16
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.85      0.91       107\n           1       0.27      0.86      0.41         7\n\n    accuracy                           0.85       114\n   macro avg       0.63      0.85      0.66       114\nweighted avg       0.95      0.85      0.88       114\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.6474544191009103,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23281880002468824,
+  "prediction_time_seconds": 0.002166999998735264,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.json"
+}

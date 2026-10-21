@@ -1,0 +1,39 @@
+{
+  "dataset": "pima",
+  "augmentation": "devstral-small-2_24b-cloud__schema_constraints__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.987012987012987,
+  "balanced_accuracy": 0.98125,
+  "precision": 1.0,
+  "recall": 0.9625,
+  "f1": 0.9808917197452229,
+  "mcc": 0.9714679613862724,
+  "roc_auc": 0.9996688741721854,
+  "pr_auc": 0.9994047619047616,
+  "confusion_matrix": [
+    [
+      151,
+      0
+    ],
+    [
+      3,
+      77
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       151\n           1       1.00      0.96      0.98        80\n\n    accuracy                           0.99       231\n   macro avg       0.99      0.98      0.99       231\nweighted avg       0.99      0.99      0.99       231\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8759694251544229,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 58.37453589998768,
+  "prediction_time_seconds": 0.0024867000174708664,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__devstral-small-2_24b-cloud_schema_constraints_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__devstral-small-2_24b-cloud_schema_constraints_balanced__MLPClassifier.json"
+}

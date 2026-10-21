@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9035087719298246,
+  "balanced_accuracy": 0.9485981308411215,
+  "precision": 0.3888888888888889,
+  "recall": 1.0,
+  "f1": 0.56,
+  "mcc": 0.5906857517503468,
+  "roc_auc": 0.9826435246995995,
+  "pr_auc": 0.8588744588744588,
+  "confusion_matrix": [
+    [
+      96,
+      11
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95       107\n           1       0.39      1.00      0.56         7\n\n    accuracy                           0.90       114\n   macro avg       0.69      0.95      0.75       114\nweighted avg       0.96      0.90      0.92       114\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9431391308068671,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.30729820000124164,
+  "prediction_time_seconds": 0.0025505000085104257,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__SYRFD_thr8_strict_thr8_strict_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__SYRFD_thr8_strict_thr8_strict_balanced__LogisticRegression.json"
+}

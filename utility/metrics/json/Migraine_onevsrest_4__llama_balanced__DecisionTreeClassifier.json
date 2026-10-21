@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "llama__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.981651376146789,
+  "precision": 0.5555555555555556,
+  "recall": 1.0,
+  "f1": 0.7142857142857143,
+  "mcc": 0.7315519091073814,
+  "roc_auc": 0.9935779816513761,
+  "pr_auc": 0.8050000000000002,
+  "confusion_matrix": [
+    [
+      105,
+      4
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       109\n           1       0.56      1.00      0.71         5\n\n    accuracy                           0.96       114\n   macro avg       0.78      0.98      0.85       114\nweighted avg       0.98      0.96      0.97       114\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9721111985313401,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7474646000191569,
+  "prediction_time_seconds": 0.0016087999974843115,
+  "n_train_samples": 662,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__llama_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__llama_balanced__DecisionTreeClassifier.json"
+}

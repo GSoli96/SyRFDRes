@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8118811881188119,
+  "balanced_accuracy": 0.6022853957636567,
+  "precision": 0.8333333333333334,
+  "recall": 0.21739130434782608,
+  "f1": 0.3448275862068966,
+  "mcc": 0.3629254442079679,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      18,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.99      0.89        78\n           1       0.83      0.22      0.34        23\n\n    accuracy                           0.81       101\n   macro avg       0.82      0.60      0.62       101\nweighted avg       0.82      0.81      0.77       101\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.849290667539878,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.1652862000046298,
+  "prediction_time_seconds": 0.0016887000238057226,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_cuts__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_cuts__RidgeClassifier.json"
+}

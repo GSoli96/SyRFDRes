@@ -1,0 +1,39 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9859154929577465,
+  "balanced_accuracy": 0.9925373134328358,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1": 0.8888888888888888,
+  "mcc": 0.8877272675166271,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      132,
+      2
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       134\n           1       0.80      1.00      0.89         8\n\n    accuracy                           0.99       142\n   macro avg       0.90      0.99      0.94       142\nweighted avg       0.99      0.99      0.99       142\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9681148734488293,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 38.74930930000846,
+  "prediction_time_seconds": 0.004020700027467683,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_react_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_react_balanced__MLPClassifier.json"
+}

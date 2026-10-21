@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "LogisticRegression",
+  "accuracy": 0.8831460674157303,
+  "balanced_accuracy": 0.8985776128633272,
+  "precision": 0.4838709677419355,
+  "recall": 0.9183673469387755,
+  "f1": 0.6338028169014085,
+  "mcc": 0.6137276989043,
+  "roc_auc": 0.970263863121006,
+  "pr_auc": 0.8214482488360432,
+  "confusion_matrix": [
+    [
+      348,
+      48
+    ],
+    [
+      4,
+      45
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.88      0.93       396\n           1       0.48      0.92      0.63        49\n\n    accuracy                           0.88       445\n   macro avg       0.74      0.90      0.78       445\nweighted avg       0.93      0.88      0.90       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8698731838650076,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4358316999860108,
+  "prediction_time_seconds": 0.002357499994104728,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_tabularargn__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_tabularargn__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "casTGAN__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9385964912280702,
+  "balanced_accuracy": 0.5,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "mcc": 0.0,
+  "roc_auc": 0.9532710280373832,
+  "pr_auc": 0.7427210884353741,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      1.00      0.97       107\n           1       0.00      0.00      0.00         7\n\n    accuracy                           0.94       114\n   macro avg       0.47      0.50      0.48       114\nweighted avg       0.88      0.94      0.91       114\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8894793156417183,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.320822199981194,
+  "prediction_time_seconds": 0.0032253999961540103,
+  "n_train_samples": 434,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__casTGAN_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__casTGAN_balanced__LogisticRegression.json"
+}

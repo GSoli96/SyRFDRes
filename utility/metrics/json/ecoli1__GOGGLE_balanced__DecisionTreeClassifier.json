@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.8695652173913043,
+  "precision": 1.0,
+  "recall": 0.7391304347826086,
+  "f1": 0.85,
+  "mcc": 0.8284536219527971,
+  "roc_auc": 0.964046822742475,
+  "pr_auc": 0.9120749031424882,
+  "confusion_matrix": [
+    [
+      78,
+      0
+    ],
+    [
+      6,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      1.00      0.96        78\n           1       1.00      0.74      0.85        23\n\n    accuracy                           0.94       101\n   macro avg       0.96      0.87      0.91       101\nweighted avg       0.94      0.94      0.94       101\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9334854590065899,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5926685000013094,
+  "prediction_time_seconds": 0.0023313999990932643,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__GOGGLE_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__GOGGLE_balanced__DecisionTreeClassifier.json"
+}

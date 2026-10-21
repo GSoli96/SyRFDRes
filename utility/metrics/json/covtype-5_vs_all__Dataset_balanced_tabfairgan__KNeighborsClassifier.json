@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-5_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9873382136956123,
+  "balanced_accuracy": 0.7420193106181663,
+  "precision": 0.6496964035497431,
+  "recall": 0.4884129213483146,
+  "f1": 0.5576267789136099,
+  "mcc": 0.5571191757929382,
+  "roc_auc": 0.9025545836881924,
+  "pr_auc": 0.5629426562879954,
+  "confusion_matrix": [
+    [
+      170706,
+      750
+    ],
+    [
+      1457,
+      1391
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99    171456\n           1       0.65      0.49      0.56      2848\n\n    accuracy                           0.99    174304\n   macro avg       0.82      0.74      0.78    174304\nweighted avg       0.99      0.99      0.99    174304\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.9906733174773439,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 80.57973709999351,
+  "prediction_time_seconds": 14.448562600009609,
+  "n_train_samples": 78718,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-5_vs_all__Dataset_balanced_tabfairgan__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-5_vs_all__Dataset_balanced_tabfairgan__KNeighborsClassifier.json"
+}

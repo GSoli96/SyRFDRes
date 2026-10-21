@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "original",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.786096,
+  "balanced_accuracy": 0.7792499664396796,
+  "precision": 0.807937288946705,
+  "recall": 0.6985843915914376,
+  "f1": 0.7492920768870136,
+  "mcc": 0.5690185946470899,
+  "roc_auc": 0.857040088259202,
+  "pr_auc": 0.8597388104915751,
+  "confusion_matrix": [
+    [
+      699672,
+      113980
+    ],
+    [
+      206876,
+      479472
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.86      0.81    813652\n           1       0.81      0.70      0.75    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.79      0.78   1500000\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7484765813647252,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 48609.297060600016,
+  "prediction_time_seconds": 1.4546199000033084,
+  "n_train_samples": 3500000,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__original__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__original__GradientBoostingClassifier.json"
+}

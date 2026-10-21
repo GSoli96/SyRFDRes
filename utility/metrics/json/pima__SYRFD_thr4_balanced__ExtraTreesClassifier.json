@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8181818181818182,
+  "balanced_accuracy": 0.7874586092715232,
+  "precision": 0.7638888888888888,
+  "recall": 0.6875,
+  "f1": 0.7236842105263158,
+  "mcc": 0.5905735231085482,
+  "roc_auc": 0.905298013245033,
+  "pr_auc": 0.8403285045497486,
+  "confusion_matrix": [
+    [
+      134,
+      17
+    ],
+    [
+      25,
+      55
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.89      0.86       151\n           1       0.76      0.69      0.72        80\n\n    accuracy                           0.82       231\n   macro avg       0.80      0.79      0.79       231\nweighted avg       0.82      0.82      0.82       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.7889594749752415,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.900944799999706,
+  "prediction_time_seconds": 0.008770700020249933,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr4_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr4_balanced__ExtraTreesClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LogisticRegression",
+  "accuracy": 0.8859649122807017,
+  "balanced_accuracy": 0.8681924490477781,
+  "precision": 0.868421052631579,
+  "recall": 0.8048780487804879,
+  "f1": 0.8354430379746836,
+  "mcc": 0.7496518849083278,
+  "roc_auc": 0.9011025726695623,
+  "pr_auc": 0.9064671190227753,
+  "confusion_matrix": [
+    [
+      68,
+      5
+    ],
+    [
+      8,
+      33
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.93      0.91        73\n           1       0.87      0.80      0.84        41\n\n    accuracy                           0.89       114\n   macro avg       0.88      0.87      0.87       114\nweighted avg       0.89      0.89      0.88       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.8118271249522149,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.33900740000535734,
+  "prediction_time_seconds": 0.0017573999939486384,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__Dataset_balanced_tabfairgan__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__Dataset_balanced_tabfairgan__LogisticRegression.json"
+}

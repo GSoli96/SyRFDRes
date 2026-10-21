@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "deepseek__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7438202247191011,
+  "balanced_accuracy": 0.6200691786870769,
+  "precision": 0.6086956521739131,
+  "recall": 0.32558139534883723,
+  "f1": 0.42424242424242425,
+  "mcc": 0.30101037460336083,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      289,
+      27
+    ],
+    [
+      87,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.91      0.84       316\n           1       0.61      0.33      0.42       129\n\n    accuracy                           0.74       445\n   macro avg       0.69      0.62      0.63       445\nweighted avg       0.72      0.74      0.72       445\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.526510721410466,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.22864259997732006,
+  "prediction_time_seconds": 0.0021247999975457788,
+  "n_train_samples": 1633,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__deepseek_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__deepseek_balanced__RidgeClassifier.json"
+}

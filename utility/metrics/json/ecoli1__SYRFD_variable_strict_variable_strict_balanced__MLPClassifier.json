@@ -1,0 +1,39 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9702970297029703,
+  "balanced_accuracy": 0.9807692307692308,
+  "precision": 0.8846153846153846,
+  "recall": 1.0,
+  "f1": 0.9387755102040817,
+  "mcc": 0.9222752929447537,
+  "roc_auc": 1.0,
+  "pr_auc": 0.9999999999999999,
+  "confusion_matrix": [
+    [
+      75,
+      3
+    ],
+    [
+      0,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98        78\n           1       0.88      1.00      0.94        23\n\n    accuracy                           0.97       101\n   macro avg       0.94      0.98      0.96       101\nweighted avg       0.97      0.97      0.97       101\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9314512330189594,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.717101799993543,
+  "prediction_time_seconds": 0.0033651000121608377,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_variable_strict_variable_strict_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_variable_strict_variable_strict_balanced__MLPClassifier.json"
+}

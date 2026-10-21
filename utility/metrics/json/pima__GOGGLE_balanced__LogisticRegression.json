@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.6666666666666666,
+  "balanced_accuracy": 0.5980960264900662,
+  "precision": 0.5263157894736842,
+  "recall": 0.375,
+  "f1": 0.43795620437956206,
+  "mcc": 0.21652239730400277,
+  "roc_auc": 0.6035596026490065,
+  "pr_auc": 0.442399736702289,
+  "confusion_matrix": [
+    [
+      124,
+      27
+    ],
+    [
+      50,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.71      0.82      0.76       151\n           1       0.53      0.38      0.44        80\n\n    accuracy                           0.67       231\n   macro avg       0.62      0.60      0.60       231\nweighted avg       0.65      0.67      0.65       231\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6814490397249018,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3449405999854207,
+  "prediction_time_seconds": 0.0016750999784562737,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__GOGGLE_balanced__LogisticRegression.json"
+}

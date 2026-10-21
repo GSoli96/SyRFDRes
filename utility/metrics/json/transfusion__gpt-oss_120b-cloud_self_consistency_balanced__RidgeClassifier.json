@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.7096314172882843,
+  "precision": 0.5686274509803921,
+  "recall": 0.5471698113207547,
+  "f1": 0.5576923076923077,
+  "mcc": 0.42494117289663547,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      150,
+      22
+    ],
+    [
+      24,
+      29
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.87      0.87       172\n           1       0.57      0.55      0.56        53\n\n    accuracy                           0.80       225\n   macro avg       0.72      0.71      0.71       225\nweighted avg       0.79      0.80      0.79       225\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.3973580780494066,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.226838599977782,
+  "prediction_time_seconds": 0.00229939998826012,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.json"
+}

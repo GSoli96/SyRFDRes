@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7775280898876404,
+  "balanced_accuracy": 0.6988519281719163,
+  "precision": 0.6470588235294118,
+  "recall": 0.5116279069767442,
+  "f1": 0.5714285714285714,
+  "mcc": 0.42929027745266896,
+  "roc_auc": 0.8126165243842607,
+  "pr_auc": 0.6497239358337683,
+  "confusion_matrix": [
+    [
+      280,
+      36
+    ],
+    [
+      63,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.89      0.85       316\n           1       0.65      0.51      0.57       129\n\n    accuracy                           0.78       445\n   macro avg       0.73      0.70      0.71       445\nweighted avg       0.77      0.78      0.77       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.810490964472754,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.705844899988733,
+  "prediction_time_seconds": 0.019433500012382865,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_prefair__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_prefair__AdaBoostClassifier.json"
+}

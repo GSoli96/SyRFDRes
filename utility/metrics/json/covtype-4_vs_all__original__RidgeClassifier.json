@@ -1,0 +1,35 @@
+{
+  "dataset": "covtype-4_vs_all",
+  "augmentation": "original",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9952726271342023,
+  "balanced_accuracy": 0.5,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "mcc": 0.0,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      173480,
+      0
+    ],
+    [
+      824,
+      0
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    173480\n           1       0.00      0.00      0.00       824\n\n    accuracy                           1.00    174304\n   macro avg       0.50      0.50      0.50    174304\nweighted avg       0.99      1.00      0.99    174304\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.0,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.286083499959204,
+  "prediction_time_seconds": 0.06244619999779388,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-4_vs_all__original__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-4_vs_all__original__RidgeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "tabdiff__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8802816901408451,
+  "balanced_accuracy": 0.9365671641791045,
+  "precision": 0.32,
+  "recall": 1.0,
+  "f1": 0.48484848484848486,
+  "mcc": 0.5285858351059238,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      117,
+      17
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.87      0.93       134\n           1       0.32      1.00      0.48         8\n\n    accuracy                           0.88       142\n   macro avg       0.66      0.94      0.71       142\nweighted avg       0.96      0.88      0.91       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9432388582382705,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27156510000349954,
+  "prediction_time_seconds": 0.001969800010556355,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__tabdiff_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__tabdiff_balanced__LinearSVC.json"
+}

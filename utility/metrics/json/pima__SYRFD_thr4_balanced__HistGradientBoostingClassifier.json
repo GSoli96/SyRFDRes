@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.974025974025974,
+  "balanced_accuracy": 0.9742549668874172,
+  "precision": 0.9512195121951219,
+  "recall": 0.975,
+  "f1": 0.9629629629629629,
+  "mcc": 0.9431381020582855,
+  "roc_auc": 0.9982615894039735,
+  "pr_auc": 0.9966908722413764,
+  "confusion_matrix": [
+    [
+      147,
+      4
+    ],
+    [
+      2,
+      78
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       151\n           1       0.95      0.97      0.96        80\n\n    accuracy                           0.97       231\n   macro avg       0.97      0.97      0.97       231\nweighted avg       0.97      0.97      0.97       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.7863466243901026,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.987390700000105,
+  "prediction_time_seconds": 0.005860000004759058,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr4_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr4_balanced__HistGradientBoostingClassifier.json"
+}

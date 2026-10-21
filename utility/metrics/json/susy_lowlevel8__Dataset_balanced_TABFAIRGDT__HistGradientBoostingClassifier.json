@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.7873206666666667,
+  "balanced_accuracy": 0.7834271108819595,
+  "precision": 0.7847056981598287,
+  "recall": 0.7375500474977708,
+  "f1": 0.7603974911581425,
+  "mcc": 0.5704157290750215,
+  "roc_auc": 0.8601572115406553,
+  "pr_auc": 0.8634816023600145,
+  "confusion_matrix": [
+    [
+      674765,
+      138887
+    ],
+    [
+      180132,
+      506216
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.83      0.81    813652\n           1       0.78      0.74      0.76    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 10,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.7740333503822284,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 20.300848299986683,
+  "prediction_time_seconds": 9.490126499993494,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_TABFAIRGDT__HistGradientBoostingClassifier.json"
+}

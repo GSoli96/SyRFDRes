@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LinearSVC",
+  "accuracy": 0.9280898876404494,
+  "balanced_accuracy": 0.8344155844155845,
+  "precision": 0.660377358490566,
+  "recall": 0.7142857142857143,
+  "f1": 0.6862745098039216,
+  "mcc": 0.6463699661112273,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      378,
+      18
+    ],
+    [
+      14,
+      35
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.95      0.96       396\n           1       0.66      0.71      0.69        49\n\n    accuracy                           0.93       445\n   macro avg       0.81      0.83      0.82       445\nweighted avg       0.93      0.93      0.93       445\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9438760623950351,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.26588079999783076,
+  "prediction_time_seconds": 0.001991900004213676,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_tabfairgan__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_tabfairgan__LinearSVC.json"
+}

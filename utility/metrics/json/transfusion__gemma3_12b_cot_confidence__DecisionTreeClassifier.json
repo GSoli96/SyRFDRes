@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8,
+  "balanced_accuracy": 0.6342145677928916,
+  "precision": 0.6538461538461539,
+  "recall": 0.32075471698113206,
+  "f1": 0.43037974683544306,
+  "mcc": 0.3563022779248376,
+  "roc_auc": 0.8241553312856515,
+  "pr_auc": 0.5837512427802007,
+  "confusion_matrix": [
+    [
+      163,
+      9
+    ],
+    [
+      36,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.95      0.88       172\n           1       0.65      0.32      0.43        53\n\n    accuracy                           0.80       225\n   macro avg       0.74      0.63      0.65       225\nweighted avg       0.78      0.80      0.77       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8424575729915537,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6468846000207122,
+  "prediction_time_seconds": 0.0022228999878279865,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_confidence__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_confidence__DecisionTreeClassifier.json"
+}

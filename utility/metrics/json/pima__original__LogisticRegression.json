@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "original",
+  "model": "LogisticRegression",
+  "accuracy": 0.7489177489177489,
+  "balanced_accuracy": 0.6903973509933774,
+  "precision": 0.6896551724137931,
+  "recall": 0.5,
+  "f1": 0.5797101449275363,
+  "mcc": 0.41781816386142034,
+  "roc_auc": 0.8384933774834437,
+  "pr_auc": 0.7073631566528688,
+  "confusion_matrix": [
+    [
+      133,
+      18
+    ],
+    [
+      40,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.88      0.82       151\n           1       0.69      0.50      0.58        80\n\n    accuracy                           0.75       231\n   macro avg       0.73      0.69      0.70       231\nweighted avg       0.74      0.75      0.74       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6390872144877852,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23677700001280755,
+  "prediction_time_seconds": 0.0024435999803245068,
+  "n_train_samples": 536,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__original__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__original__LogisticRegression.json"
+}

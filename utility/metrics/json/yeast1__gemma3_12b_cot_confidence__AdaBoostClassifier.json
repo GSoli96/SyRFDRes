@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7910112359550562,
+  "balanced_accuracy": 0.7198140516141693,
+  "precision": 0.6698113207547169,
+  "recall": 0.5503875968992248,
+  "f1": 0.6042553191489362,
+  "mcc": 0.4682427498982525,
+  "roc_auc": 0.8079064861151997,
+  "pr_auc": 0.6019991255113902,
+  "confusion_matrix": [
+    [
+      281,
+      35
+    ],
+    [
+      58,
+      71
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.89      0.86       316\n           1       0.67      0.55      0.60       129\n\n    accuracy                           0.79       445\n   macro avg       0.75      0.72      0.73       445\nweighted avg       0.78      0.79      0.78       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8115411789244409,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.82094160001725,
+  "prediction_time_seconds": 0.02277979999780655,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma3_12b_cot_confidence__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma3_12b_cot_confidence__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9707865168539326,
+  "balanced_accuracy": 0.920995670995671,
+  "precision": 0.875,
+  "recall": 0.8571428571428571,
+  "f1": 0.865979381443299,
+  "mcc": 0.849644766532151,
+  "roc_auc": 0.9913419913419913,
+  "pr_auc": 0.9405984151953014,
+  "confusion_matrix": [
+    [
+      390,
+      6
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.88      0.86      0.87        49\n\n    accuracy                           0.97       445\n   macro avg       0.93      0.92      0.92       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9742542907721516,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.5899311999965,
+  "prediction_time_seconds": 0.00312320000375621,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma3_12b_cot_self_consistency__GradientBoostingClassifier.json"
+}

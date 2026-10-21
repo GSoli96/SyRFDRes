@@ -1,0 +1,38 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "llama__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9238985313751669,
+  "precision": 0.8571428571428571,
+  "recall": 0.8571428571428571,
+  "f1": 0.8571428571428571,
+  "mcc": 0.8477970627503337,
+  "roc_auc": 0.9986648865153538,
+  "pr_auc": 0.982142857142857,
+  "confusion_matrix": [
+    [
+      106,
+      1
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       107\n           1       0.86      0.86      0.86         7\n\n    accuracy                           0.98       114\n   macro avg       0.92      0.92      0.92       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.9129749322953206,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 21.46289650001563,
+  "prediction_time_seconds": 0.003119100001640618,
+  "n_train_samples": 611,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__llama_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__llama_balanced__MLPClassifier.json"
+}

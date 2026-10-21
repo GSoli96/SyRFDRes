@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "original",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7787273333333333,
+  "balanced_accuracy": 0.7723327144471542,
+  "precision": 0.7942325476373502,
+  "recall": 0.6969860770338079,
+  "f1": 0.7424384573420897,
+  "mcc": 0.5535387080708831,
+  "roc_auc": 0.8490914437604303,
+  "pr_auc": 0.8490385981166421,
+  "confusion_matrix": [
+    [
+      689716,
+      123936
+    ],
+    [
+      207973,
+      478375
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.85      0.81    813652\n           1       0.79      0.70      0.74    686348\n\n    accuracy                           0.78   1500000\n   macro avg       0.78      0.77      0.77   1500000\nweighted avg       0.78      0.78      0.78   1500000\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7424745138145791,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15354.04696549999,
+  "prediction_time_seconds": 16.240457099978812,
+  "n_train_samples": 3500000,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__original__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__original__AdaBoostClassifier.json"
+}

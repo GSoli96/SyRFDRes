@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9427609427609428,
+  "balanced_accuracy": 0.8351851851851853,
+  "precision": 0.6785714285714286,
+  "recall": 0.7037037037037037,
+  "f1": 0.6909090909090909,
+  "mcc": 0.6595130890318666,
+  "roc_auc": 0.9436213991769546,
+  "pr_auc": 0.8138353651443592,
+  "confusion_matrix": [
+    [
+      261,
+      9
+    ],
+    [
+      8,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.97      0.97       270\n           1       0.68      0.70      0.69        27\n\n    accuracy                           0.94       297\n   macro avg       0.82      0.84      0.83       297\nweighted avg       0.94      0.94      0.94       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9755829507094914,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39938690001145005,
+  "prediction_time_seconds": 0.0022111999860499054,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__GOGGLE_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7644444444444445,
+  "balanced_accuracy": 0.6370666959192628,
+  "precision": 0.5,
+  "recall": 0.39622641509433965,
+  "f1": 0.4421052631578947,
+  "mcc": 0.2985478224077989,
+  "roc_auc": 0.757130320315928,
+  "pr_auc": 0.42278023763780526,
+  "confusion_matrix": [
+    [
+      151,
+      21
+    ],
+    [
+      32,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.88      0.85       172\n           1       0.50      0.40      0.44        53\n\n    accuracy                           0.76       225\n   macro avg       0.66      0.64      0.65       225\nweighted avg       0.75      0.76      0.75       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8329928065917469,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.539600100019015,
+  "prediction_time_seconds": 0.00899040000513196,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabfairgan__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabfairgan__AdaBoostClassifier.json"
+}

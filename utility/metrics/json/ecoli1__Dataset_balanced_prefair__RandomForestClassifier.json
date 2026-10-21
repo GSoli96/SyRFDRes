@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9306930693069307,
+  "balanced_accuracy": 0.939799331103679,
+  "precision": 0.7857142857142857,
+  "recall": 0.9565217391304348,
+  "f1": 0.8627450980392157,
+  "mcc": 0.8240533586175891,
+  "roc_auc": 0.9921962095875139,
+  "pr_auc": 0.9812265239486411,
+  "confusion_matrix": [
+    [
+      72,
+      6
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.92      0.95        78\n           1       0.79      0.96      0.86        23\n\n    accuracy                           0.93       101\n   macro avg       0.89      0.94      0.91       101\nweighted avg       0.94      0.93      0.93       101\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8940138398386109,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.384945400001016,
+  "prediction_time_seconds": 0.007259499980136752,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_prefair__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_prefair__RandomForestClassifier.json"
+}

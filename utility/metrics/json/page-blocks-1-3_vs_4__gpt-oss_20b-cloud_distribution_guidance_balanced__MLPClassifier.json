@@ -1,0 +1,39 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_20b-cloud__distribution_guidance__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      134,
+      0
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       134\n           1       1.00      1.00      1.00         8\n\n    accuracy                           1.00       142\n   macro avg       1.00      1.00      1.00       142\nweighted avg       1.00      1.00      1.00       142\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.985240701277853,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 34.67997789999936,
+  "prediction_time_seconds": 0.0025568999990355223,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_distribution_guidance_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_distribution_guidance_balanced__MLPClassifier.json"
+}

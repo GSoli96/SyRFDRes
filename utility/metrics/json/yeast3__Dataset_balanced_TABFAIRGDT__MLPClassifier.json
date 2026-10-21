@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "MLPClassifier",
+  "accuracy": 0.946067415730337,
+  "balanced_accuracy": 0.9607555143269428,
+  "precision": 0.676056338028169,
+  "recall": 0.9795918367346939,
+  "f1": 0.8,
+  "mcc": 0.7877369092867379,
+  "roc_auc": 0.9937641723356009,
+  "pr_auc": 0.9556791955794577,
+  "confusion_matrix": [
+    [
+      373,
+      23
+    ],
+    [
+      1,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97       396\n           1       0.68      0.98      0.80        49\n\n    accuracy                           0.95       445\n   macro avg       0.84      0.96      0.88       445\nweighted avg       0.96      0.95      0.95       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9425709011838486,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 77.73258989999886,
+  "prediction_time_seconds": 0.003211199975339696,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_TABFAIRGDT__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_TABFAIRGDT__MLPClassifier.json"
+}

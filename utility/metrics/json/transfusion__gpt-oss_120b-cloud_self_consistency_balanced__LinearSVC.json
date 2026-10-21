@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.76,
+  "balanced_accuracy": 0.7320645019745502,
+  "precision": 0.4931506849315068,
+  "recall": 0.6792452830188679,
+  "f1": 0.5714285714285714,
+  "mcc": 0.42068559670936806,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      135,
+      37
+    ],
+    [
+      17,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.78      0.83       172\n           1       0.49      0.68      0.57        53\n\n    accuracy                           0.76       225\n   macro avg       0.69      0.73      0.70       225\nweighted avg       0.80      0.76      0.77       225\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.4423707801820912,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21165330000803806,
+  "prediction_time_seconds": 0.002842599991708994,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_self_consistency_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_self_consistency_balanced__LinearSVC.json"
+}

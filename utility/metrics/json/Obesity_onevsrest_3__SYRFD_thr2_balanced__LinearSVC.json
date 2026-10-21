@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "SYRFD_thr2__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7543859649122807,
+  "balanced_accuracy": 0.6308109833971902,
+  "precision": 0.272108843537415,
+  "recall": 0.45977011494252873,
+  "f1": 0.3418803418803419,
+  "mcc": 0.21347716485169974,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      433,
+      107
+    ],
+    [
+      47,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.80      0.85       540\n           1       0.27      0.46      0.34        87\n\n    accuracy                           0.75       627\n   macro avg       0.59      0.63      0.60       627\nweighted avg       0.81      0.75      0.78       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7177450886243795,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3122487000073306,
+  "prediction_time_seconds": 0.0025154000031761825,
+  "n_train_samples": 3141,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__SYRFD_thr2_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__SYRFD_thr2_balanced__LinearSVC.json"
+}

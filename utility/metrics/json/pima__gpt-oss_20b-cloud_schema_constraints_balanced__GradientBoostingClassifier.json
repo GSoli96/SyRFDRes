@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gpt-oss_20b-cloud__schema_constraints__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9437229437229437,
+  "balanced_accuracy": 0.9334437086092715,
+  "precision": 0.935064935064935,
+  "recall": 0.9,
+  "f1": 0.9171974522292994,
+  "mcc": 0.8749645215134639,
+  "roc_auc": 0.9942880794701987,
+  "pr_auc": 0.9900033484359283,
+  "confusion_matrix": [
+    [
+      146,
+      5
+    ],
+    [
+      8,
+      72
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.97      0.96       151\n           1       0.94      0.90      0.92        80\n\n    accuracy                           0.94       231\n   macro avg       0.94      0.93      0.94       231\nweighted avg       0.94      0.94      0.94       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.866107507342134,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.01700890000211,
+  "prediction_time_seconds": 0.0022402000031434,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.json"
+}

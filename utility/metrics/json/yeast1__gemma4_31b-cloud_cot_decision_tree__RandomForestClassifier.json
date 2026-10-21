@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8719101123595505,
+  "balanced_accuracy": 0.8249435776665686,
+  "precision": 0.8214285714285714,
+  "recall": 0.7131782945736435,
+  "f1": 0.7634854771784232,
+  "mcc": 0.6794307865185186,
+  "roc_auc": 0.9334707094495143,
+  "pr_auc": 0.8552532859412506,
+  "confusion_matrix": [
+    [
+      296,
+      20
+    ],
+    [
+      37,
+      92
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.94      0.91       316\n           1       0.82      0.71      0.76       129\n\n    accuracy                           0.87       445\n   macro avg       0.86      0.82      0.84       445\nweighted avg       0.87      0.87      0.87       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8293864270330991,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 23.908015199995134,
+  "prediction_time_seconds": 0.023496800014982,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.json"
+}

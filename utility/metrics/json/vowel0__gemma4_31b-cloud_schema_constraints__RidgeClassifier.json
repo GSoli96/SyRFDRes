@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7441077441077442,
+  "balanced_accuracy": 0.8592592592592593,
+  "precision": 0.2621359223300971,
+  "recall": 1.0,
+  "f1": 0.4153846153846154,
+  "mcc": 0.43399252823419304,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      194,
+      76
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.72      0.84       270\n           1       0.26      1.00      0.42        27\n\n    accuracy                           0.74       297\n   macro avg       0.63      0.86      0.63       297\nweighted avg       0.93      0.74      0.80       297\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.6640940725300085,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.19268609999562614,
+  "prediction_time_seconds": 0.0017029000155162066,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma4_31b-cloud_schema_constraints__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma4_31b-cloud_schema_constraints__RidgeClassifier.json"
+}

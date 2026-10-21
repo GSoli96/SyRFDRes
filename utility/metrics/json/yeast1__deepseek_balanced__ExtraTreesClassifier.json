@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "deepseek__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9865168539325843,
+  "balanced_accuracy": 0.9767441860465116,
+  "precision": 1.0,
+  "recall": 0.9534883720930233,
+  "f1": 0.9761904761904762,
+  "mcc": 0.9673269912582589,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      6,
+      123
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       316\n           1       1.00      0.95      0.98       129\n\n    accuracy                           0.99       445\n   macro avg       0.99      0.98      0.98       445\nweighted avg       0.99      0.99      0.99       445\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.6967832491231176,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.56772049999563,
+  "prediction_time_seconds": 0.015389800013508648,
+  "n_train_samples": 1633,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__deepseek_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__deepseek_balanced__ExtraTreesClassifier.json"
+}

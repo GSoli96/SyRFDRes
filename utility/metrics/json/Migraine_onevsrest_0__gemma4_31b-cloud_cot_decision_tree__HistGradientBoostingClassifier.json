@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.9741062479117941,
+  "precision": 0.9523809523809523,
+  "recall": 0.975609756097561,
+  "f1": 0.963855421686747,
+  "mcc": 0.9433397594898876,
+  "roc_auc": 0.9954894754426996,
+  "pr_auc": 0.9913860000022066,
+  "confusion_matrix": [
+    [
+      71,
+      2
+    ],
+    [
+      1,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98        73\n           1       0.95      0.98      0.96        41\n\n    accuracy                           0.97       114\n   macro avg       0.97      0.97      0.97       114\nweighted avg       0.97      0.97      0.97       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8792921824146838,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.874502300022868,
+  "prediction_time_seconds": 0.004436200018972158,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_decision_tree__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gemma4_31b-cloud_cot_decision_tree__HistGradientBoostingClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "ctabgan__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9057239057239057,
+  "balanced_accuracy": 0.8981481481481481,
+  "precision": 0.4897959183673469,
+  "recall": 0.8888888888888888,
+  "f1": 0.631578947368421,
+  "mcc": 0.6167576989787045,
+  "roc_auc": 0.9781893004115226,
+  "pr_auc": 0.8656543774522327,
+  "confusion_matrix": [
+    [
+      245,
+      25
+    ],
+    [
+      3,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.91      0.95       270\n           1       0.49      0.89      0.63        27\n\n    accuracy                           0.91       297\n   macro avg       0.74      0.90      0.79       297\nweighted avg       0.94      0.91      0.92       297\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9114405519360893,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.33403070000349544,
+  "prediction_time_seconds": 0.0018709999858401716,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__ctabgan_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__ctabgan_balanced__LogisticRegression.json"
+}

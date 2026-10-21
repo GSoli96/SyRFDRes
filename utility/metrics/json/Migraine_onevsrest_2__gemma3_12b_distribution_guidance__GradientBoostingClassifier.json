@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.956140350877193,
+  "balanced_accuracy": 0.9766355140186915,
+  "precision": 0.5833333333333334,
+  "recall": 1.0,
+  "f1": 0.7368421052631579,
+  "mcc": 0.7457042083528429,
+  "roc_auc": 0.9973297730307076,
+  "pr_auc": 0.9617346938775508,
+  "confusion_matrix": [
+    [
+      102,
+      5
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.95      0.98       107\n           1       0.58      1.00      0.74         7\n\n    accuracy                           0.96       114\n   macro avg       0.79      0.98      0.86       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9341950129342267,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.368131399998674,
+  "prediction_time_seconds": 0.002781399991363287,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gemma3_12b_distribution_guidance__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gemma3_12b_distribution_guidance__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "deepseek__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7688888888888888,
+  "balanced_accuracy": 0.6595546292233436,
+  "precision": 0.5106382978723404,
+  "recall": 0.4528301886792453,
+  "f1": 0.48,
+  "mcc": 0.33310613612287676,
+  "roc_auc": 0.8124177270732778,
+  "pr_auc": 0.5213166933923643,
+  "confusion_matrix": [
+    [
+      149,
+      23
+    ],
+    [
+      29,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.87      0.85       172\n           1       0.51      0.45      0.48        53\n\n    accuracy                           0.77       225\n   macro avg       0.67      0.66      0.67       225\nweighted avg       0.76      0.77      0.76       225\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8469741630539411,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6031004000105895,
+  "prediction_time_seconds": 0.0020921999821439385,
+  "n_train_samples": 1167,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__deepseek_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__deepseek_balanced__DecisionTreeClassifier.json"
+}

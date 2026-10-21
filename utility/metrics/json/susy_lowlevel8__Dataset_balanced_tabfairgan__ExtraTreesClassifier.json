@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.787096,
+  "balanced_accuracy": 0.7819818542012896,
+  "precision": 0.7941989437466531,
+  "recall": 0.7217227995127836,
+  "f1": 0.7562283311782191,
+  "mcc": 0.5700684542251386,
+  "roc_auc": 0.8583753323308624,
+  "pr_auc": 0.8587181973490302,
+  "confusion_matrix": [
+    [
+      685291,
+      128361
+    ],
+    [
+      190995,
+      495353
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.84      0.81    813652\n           1       0.79      0.72      0.76    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7825260398492794,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 219.3935092999891,
+  "prediction_time_seconds": 100.9462984999991,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabfairgan__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabfairgan__ExtraTreesClassifier.json"
+}

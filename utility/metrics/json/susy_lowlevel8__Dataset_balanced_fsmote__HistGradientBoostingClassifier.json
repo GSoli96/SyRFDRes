@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.7872113333333334,
+  "balanced_accuracy": 0.782649174997125,
+  "precision": 0.7898434601387782,
+  "recall": 0.7288940887130144,
+  "f1": 0.7581457764562983,
+  "mcc": 0.5701935027144042,
+  "roc_auc": 0.858857571181325,
+  "pr_auc": 0.8619880524423331,
+  "confusion_matrix": [
+    [
+      680542,
+      133110
+    ],
+    [
+      186073,
+      500275
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.84      0.81    813652\n           1       0.79      0.73      0.76    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 10,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.7766016489694795,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 22.997242499986896,
+  "prediction_time_seconds": 7.7608951999864075,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_fsmote__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_fsmote__HistGradientBoostingClassifier.json"
+}

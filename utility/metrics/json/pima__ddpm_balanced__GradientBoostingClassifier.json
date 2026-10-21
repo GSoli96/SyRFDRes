@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "ddpm__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8095238095238095,
+  "balanced_accuracy": 0.7925910596026491,
+  "precision": 0.7195121951219512,
+  "recall": 0.7375,
+  "f1": 0.7283950617283951,
+  "mcc": 0.5818679737694205,
+  "roc_auc": 0.8835264900662252,
+  "pr_auc": 0.8202574360178464,
+  "confusion_matrix": [
+    [
+      128,
+      23
+    ],
+    [
+      21,
+      59
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.85      0.85       151\n           1       0.72      0.74      0.73        80\n\n    accuracy                           0.81       231\n   macro avg       0.79      0.79      0.79       231\nweighted avg       0.81      0.81      0.81       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8007662475415099,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.744924900005572,
+  "prediction_time_seconds": 0.002542499976698309,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__ddpm_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__ddpm_balanced__GradientBoostingClassifier.json"
+}

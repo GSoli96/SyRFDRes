@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9122807017543859,
+  "balanced_accuracy": 0.9532710280373832,
+  "precision": 0.4117647058823529,
+  "recall": 1.0,
+  "f1": 0.5833333333333334,
+  "mcc": 0.6109681031687413,
+  "roc_auc": 0.9666221628838452,
+  "pr_auc": 0.5798319327731092,
+  "confusion_matrix": [
+    [
+      97,
+      10
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.91      0.95       107\n           1       0.41      1.00      0.58         7\n\n    accuracy                           0.91       114\n   macro avg       0.71      0.95      0.77       114\nweighted avg       0.96      0.91      0.93       114\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8963047270190128,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6893491999944672,
+  "prediction_time_seconds": 0.0026698999863583595,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gemma3_12b_cot_ensemble__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gemma3_12b_cot_ensemble__DecisionTreeClassifier.json"
+}

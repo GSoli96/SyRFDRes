@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8088888888888889,
+  "balanced_accuracy": 0.7248793330408074,
+  "precision": 0.6,
+  "recall": 0.5660377358490566,
+  "f1": 0.5825242718446602,
+  "mcc": 0.45906868840974374,
+  "roc_auc": 0.8629333040807372,
+  "pr_auc": 0.695838531063971,
+  "confusion_matrix": [
+    [
+      152,
+      20
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.88      0.88       172\n           1       0.60      0.57      0.58        53\n\n    accuracy                           0.81       225\n   macro avg       0.73      0.72      0.73       225\nweighted avg       0.81      0.81      0.81       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 10,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.8284179954449277,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.84032920000027,
+  "prediction_time_seconds": 0.004245999996783212,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr4_relaxed_thr4_relaxed_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr4_relaxed_thr4_relaxed_balanced__HistGradientBoostingClassifier.json"
+}

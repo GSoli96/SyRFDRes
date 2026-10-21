@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9696969696969697,
+  "balanced_accuracy": 0.9621274834437086,
+  "precision": 0.974025974025974,
+  "recall": 0.9375,
+  "f1": 0.9554140127388535,
+  "mcc": 0.9328665854371491,
+  "roc_auc": 0.9967715231788079,
+  "pr_auc": 0.9939996416966759,
+  "confusion_matrix": [
+    [
+      149,
+      2
+    ],
+    [
+      5,
+      75
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       151\n           1       0.97      0.94      0.96        80\n\n    accuracy                           0.97       231\n   macro avg       0.97      0.96      0.97       231\nweighted avg       0.97      0.97      0.97       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 10,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.7650716395450117,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.526460499997484,
+  "prediction_time_seconds": 0.006003000016789883,
+  "n_train_samples": 952,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_variable_strict_variable_strict_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_variable_strict_variable_strict_balanced__HistGradientBoostingClassifier.json"
+}

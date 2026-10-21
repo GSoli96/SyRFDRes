@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8070175438596491,
+  "balanced_accuracy": 0.5386363636363636,
+  "precision": 0.05,
+  "recall": 0.25,
+  "f1": 0.08333333333333333,
+  "mcc": 0.03738295725635111,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      91,
+      19
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.83      0.89       110\n           1       0.05      0.25      0.08         4\n\n    accuracy                           0.81       114\n   macro avg       0.51      0.54      0.49       114\nweighted avg       0.94      0.81      0.86       114\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6276072270162352,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.285631500009913,
+  "prediction_time_seconds": 0.0023658999998588115,
+  "n_train_samples": 1103,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__devstral-small-2_24b-cloud_confidence_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__devstral-small-2_24b-cloud_confidence_balanced__LinearSVC.json"
+}

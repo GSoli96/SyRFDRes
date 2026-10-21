@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9907407407407407,
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9485206154979929,
+  "roc_auc": 0.9983164983164984,
+  "pr_auc": 0.9924242424242424,
+  "confusion_matrix": [
+    [
+      53,
+      1
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99        54\n           1       0.92      1.00      0.96        11\n\n    accuracy                           0.98        65\n   macro avg       0.96      0.99      0.97        65\nweighted avg       0.99      0.98      0.98        65\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7457977307096403,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.643441599997459,
+  "prediction_time_seconds": 0.026639900024747476,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gemma4_31b-cloud_cot_ensemble__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gemma4_31b-cloud_cot_ensemble__AdaBoostClassifier.json"
+}

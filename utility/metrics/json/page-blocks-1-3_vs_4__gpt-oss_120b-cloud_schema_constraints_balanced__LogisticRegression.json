@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9295774647887324,
+  "balanced_accuracy": 0.6100746268656716,
+  "precision": 0.3333333333333333,
+  "recall": 0.25,
+  "f1": 0.2857142857142857,
+  "mcc": 0.25233037371813094,
+  "roc_auc": 0.8134328358208955,
+  "pr_auc": 0.31966228846310146,
+  "confusion_matrix": [
+    [
+      130,
+      4
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.97      0.96       134\n           1       0.33      0.25      0.29         8\n\n    accuracy                           0.93       142\n   macro avg       0.64      0.61      0.62       142\nweighted avg       0.92      0.93      0.92       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.2382958192630909,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3228368000127375,
+  "prediction_time_seconds": 0.0022308999905362725,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_120b-cloud_schema_constraints_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_120b-cloud_schema_constraints_balanced__LogisticRegression.json"
+}

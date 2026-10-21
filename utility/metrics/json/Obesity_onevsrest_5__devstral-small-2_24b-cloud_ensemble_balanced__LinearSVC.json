@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9202551834130781,
+  "balanced_accuracy": 0.9113341130278602,
+  "precision": 0.6611570247933884,
+  "recall": 0.898876404494382,
+  "f1": 0.7619047619047619,
+  "mcc": 0.7275166238153545,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      497,
+      41
+    ],
+    [
+      9,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.92      0.95       538\n           1       0.66      0.90      0.76        89\n\n    accuracy                           0.92       627\n   macro avg       0.82      0.91      0.86       627\nweighted avg       0.94      0.92      0.93       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.863535762690004,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4343083999992814,
+  "prediction_time_seconds": 0.00284169998485595,
+  "n_train_samples": 5667,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__devstral-small-2_24b-cloud_ensemble_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__devstral-small-2_24b-cloud_ensemble_balanced__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_1",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9947916666666667,
+  "precision": 0.9473684210526315,
+  "recall": 1.0,
+  "f1": 0.972972972972973,
+  "mcc": 0.9682458365518543,
+  "roc_auc": 0.9997106481481481,
+  "pr_auc": 0.9970760233918129,
+  "confusion_matrix": [
+    [
+      95,
+      1
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99        96\n           1       0.95      1.00      0.97        18\n\n    accuracy                           0.99       114\n   macro avg       0.97      0.99      0.98       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.971826635145784,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5665320999978576,
+  "prediction_time_seconds": 0.003510400012601167,
+  "n_train_samples": 444,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_1__SMOTECDNN_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_1__SMOTECDNN_balanced__KNeighborsClassifier.json"
+}

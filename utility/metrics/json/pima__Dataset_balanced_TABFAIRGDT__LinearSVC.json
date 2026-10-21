@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LinearSVC",
+  "accuracy": 0.7662337662337663,
+  "balanced_accuracy": 0.7536009933774834,
+  "precision": 0.6477272727272727,
+  "recall": 0.7125,
+  "f1": 0.6785714285714286,
+  "mcc": 0.49694126179763437,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      120,
+      31
+    ],
+    [
+      23,
+      57
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.79      0.82       151\n           1       0.65      0.71      0.68        80\n\n    accuracy                           0.77       231\n   macro avg       0.74      0.75      0.75       231\nweighted avg       0.77      0.77      0.77       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7467948483591138,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2637599000008777,
+  "prediction_time_seconds": 0.002292599994689226,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_TABFAIRGDT__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_TABFAIRGDT__LinearSVC.json"
+}

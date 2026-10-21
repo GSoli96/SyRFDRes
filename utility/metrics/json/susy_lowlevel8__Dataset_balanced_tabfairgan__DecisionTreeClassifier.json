@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7668146666666666,
+  "balanced_accuracy": 0.7616739694996222,
+  "precision": 0.7688989022578017,
+  "recall": 0.7011020648417421,
+  "f1": 0.7334370794206274,
+  "mcc": 0.5287567379297121,
+  "roc_auc": 0.8312129642372472,
+  "pr_auc": 0.824432447258203,
+  "confusion_matrix": [
+    [
+      669022,
+      144630
+    ],
+    [
+      205148,
+      481200
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.82      0.79    813652\n           1       0.77      0.70      0.73    686348\n\n    accuracy                           0.77   1500000\n   macro avg       0.77      0.76      0.76   1500000\nweighted avg       0.77      0.77      0.77   1500000\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.7605328415794746,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.75272279998171,
+  "prediction_time_seconds": 0.33578970000962727,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabfairgan__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabfairgan__DecisionTreeClassifier.json"
+}

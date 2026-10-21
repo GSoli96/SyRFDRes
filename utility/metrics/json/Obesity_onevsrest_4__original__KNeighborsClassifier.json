@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "original",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9457735247208932,
+  "balanced_accuracy": 0.8875478927203065,
+  "precision": 0.865979381443299,
+  "recall": 0.8,
+  "f1": 0.8316831683168316,
+  "mcc": 0.8003159541038674,
+  "roc_auc": 0.9660463419084109,
+  "pr_auc": 0.9010924138626534,
+  "confusion_matrix": [
+    [
+      509,
+      13
+    ],
+    [
+      21,
+      84
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.98      0.97       522\n           1       0.87      0.80      0.83       105\n\n    accuracy                           0.95       627\n   macro avg       0.91      0.89      0.90       627\nweighted avg       0.94      0.95      0.94       627\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.8513527045175755,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5461619000125211,
+  "prediction_time_seconds": 0.005490600015036762,
+  "n_train_samples": 1460,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__original__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__original__KNeighborsClassifier.json"
+}

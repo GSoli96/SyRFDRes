@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "LogisticRegression",
+  "accuracy": 0.852112676056338,
+  "balanced_accuracy": 0.8041044776119404,
+  "precision": 0.24,
+  "recall": 0.75,
+  "f1": 0.36363636363636365,
+  "mcc": 0.3682029535139555,
+  "roc_auc": 0.875,
+  "pr_auc": 0.3333759537563885,
+  "confusion_matrix": [
+    [
+      115,
+      19
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.86      0.92       134\n           1       0.24      0.75      0.36         8\n\n    accuracy                           0.85       142\n   macro avg       0.61      0.80      0.64       142\nweighted avg       0.94      0.85      0.89       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9210294862139123,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.35438959999009967,
+  "prediction_time_seconds": 0.00294539998867549,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gemma3_12b_cot_decision_tree__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gemma3_12b_cot_decision_tree__LogisticRegression.json"
+}

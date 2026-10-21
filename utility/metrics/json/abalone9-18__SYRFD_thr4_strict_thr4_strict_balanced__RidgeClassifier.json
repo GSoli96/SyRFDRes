@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr4_strict__thr4_strict_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.867579908675799,
+  "balanced_accuracy": 0.8935772964899178,
+  "precision": 0.3,
+  "recall": 0.9230769230769231,
+  "f1": 0.4528301886792453,
+  "mcc": 0.48140301847965805,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      178,
+      28
+    ],
+    [
+      1,
+      12
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.86      0.92       206\n           1       0.30      0.92      0.45        13\n\n    accuracy                           0.87       219\n   macro avg       0.65      0.89      0.69       219\nweighted avg       0.95      0.87      0.90       219\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8174179048734237,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3480647000251338,
+  "prediction_time_seconds": 0.005983399983961135,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr4_strict_thr4_strict_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr4_strict_thr4_strict_balanced__RidgeClassifier.json"
+}

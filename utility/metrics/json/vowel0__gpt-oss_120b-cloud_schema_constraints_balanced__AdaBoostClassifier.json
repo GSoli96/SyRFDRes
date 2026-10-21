@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.936026936026936,
+  "balanced_accuracy": 0.8981481481481481,
+  "precision": 0.6052631578947368,
+  "recall": 0.8518518518518519,
+  "f1": 0.7076923076923077,
+  "mcc": 0.6853253231992577,
+  "roc_auc": 0.9770919067215363,
+  "pr_auc": 0.8649957773062205,
+  "confusion_matrix": [
+    [
+      255,
+      15
+    ],
+    [
+      4,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.94      0.96       270\n           1       0.61      0.85      0.71        27\n\n    accuracy                           0.94       297\n   macro avg       0.79      0.90      0.84       297\nweighted avg       0.95      0.94      0.94       297\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7579694041937756,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.71684579999419,
+  "prediction_time_seconds": 0.017112200002884492,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_120b-cloud_schema_constraints_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_120b-cloud_schema_constraints_balanced__AdaBoostClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "casTGAN__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9122807017543859,
+  "balanced_accuracy": 0.8887403942532577,
+  "precision": 0.9428571428571428,
+  "recall": 0.8048780487804879,
+  "f1": 0.868421052631579,
+  "mcc": 0.8089011578246605,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      71,
+      2
+    ],
+    [
+      8,
+      33
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.97      0.93        73\n           1       0.94      0.80      0.87        41\n\n    accuracy                           0.91       114\n   macro avg       0.92      0.89      0.90       114\nweighted avg       0.91      0.91      0.91       114\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8703010870824412,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.18320080000557937,
+  "prediction_time_seconds": 0.002476800000295043,
+  "n_train_samples": 385,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__casTGAN_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__casTGAN_balanced__RidgeClassifier.json"
+}

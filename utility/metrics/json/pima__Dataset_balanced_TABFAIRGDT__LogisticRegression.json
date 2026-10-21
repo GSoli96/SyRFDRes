@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LogisticRegression",
+  "accuracy": 0.7619047619047619,
+  "balanced_accuracy": 0.7502897350993378,
+  "precision": 0.6404494382022472,
+  "recall": 0.7125,
+  "f1": 0.6745562130177515,
+  "mcc": 0.48940378740083457,
+  "roc_auc": 0.8500827814569536,
+  "pr_auc": 0.7383756360535814,
+  "confusion_matrix": [
+    [
+      119,
+      32
+    ],
+    [
+      23,
+      57
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.79      0.81       151\n           1       0.64      0.71      0.67        80\n\n    accuracy                           0.76       231\n   macro avg       0.74      0.75      0.74       231\nweighted avg       0.77      0.76      0.76       231\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7524690722998281,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31193609998445027,
+  "prediction_time_seconds": 0.0024099000147543848,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_TABFAIRGDT__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_TABFAIRGDT__LogisticRegression.json"
+}

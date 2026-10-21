@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9393939393939394,
+  "balanced_accuracy": 0.9389486754966887,
+  "precision": 0.8928571428571429,
+  "recall": 0.9375,
+  "f1": 0.9146341463414634,
+  "mcc": 0.8683181827040019,
+  "roc_auc": 0.9865066225165563,
+  "pr_auc": 0.9777247450871123,
+  "confusion_matrix": [
+    [
+      142,
+      9
+    ],
+    [
+      5,
+      75
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.94      0.95       151\n           1       0.89      0.94      0.91        80\n\n    accuracy                           0.94       231\n   macro avg       0.93      0.94      0.93       231\nweighted avg       0.94      0.94      0.94       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.801490724394872,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.9859595999878366,
+  "prediction_time_seconds": 0.002460299991071224,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__Dataset_balanced_TABFAIRGDT__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__Dataset_balanced_TABFAIRGDT__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-1_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LinearSVC",
+  "accuracy": 0.7544462548191665,
+  "balanced_accuracy": 0.7616700249223618,
+  "precision": 0.6305899233489823,
+  "recall": 0.7883465508559919,
+  "f1": 0.7006985867429355,
+  "mcc": 0.5057654425421582,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      81402,
+      29350
+    ],
+    [
+      13451,
+      50101
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.73      0.79    110752\n           1       0.63      0.79      0.70     63552\n\n    accuracy                           0.75    174304\n   macro avg       0.74      0.76      0.75    174304\nweighted avg       0.78      0.75      0.76    174304\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7854300882484262,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 2.115105999982916,
+  "prediction_time_seconds": 0.038728499988792464,
+  "n_train_samples": 50840,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-1_vs_all__Dataset_balanced_tabfairgan__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-1_vs_all__Dataset_balanced_tabfairgan__LinearSVC.json"
+}

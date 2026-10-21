@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7662921348314606,
+  "balanced_accuracy": 0.7253458934353842,
+  "precision": 0.5912408759124088,
+  "recall": 0.627906976744186,
+  "f1": 0.6090225563909775,
+  "mcc": 0.44297824525052315,
+  "roc_auc": 0.8049995093710136,
+  "pr_auc": 0.5838252213263682,
+  "confusion_matrix": [
+    [
+      260,
+      56
+    ],
+    [
+      48,
+      81
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.82      0.83       316\n           1       0.59      0.63      0.61       129\n\n    accuracy                           0.77       445\n   macro avg       0.72      0.73      0.72       445\nweighted avg       0.77      0.77      0.77       445\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7245424546690121,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.280653000023449,
+  "prediction_time_seconds": 0.024678099987795576,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_20b-cloud_react_balanced__AdaBoostClassifier.json"
+}

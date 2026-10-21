@@ -1,0 +1,35 @@
+{
+  "dataset": "new-thyroid1",
+  "augmentation": "SYRFD_thr8__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9538461538461539,
+  "balanced_accuracy": 0.8636363636363636,
+  "precision": 1.0,
+  "recall": 0.7272727272727273,
+  "f1": 0.8421052631578947,
+  "mcc": 0.8300573566392896,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      1.00      0.97        54\n           1       1.00      0.73      0.84        11\n\n    accuracy                           0.95        65\n   macro avg       0.97      0.86      0.91        65\nweighted avg       0.96      0.95      0.95        65\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8883246915787592,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2116966000176035,
+  "prediction_time_seconds": 0.0023882999958004802,
+  "n_train_samples": 315,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\new-thyroid1__SYRFD_thr8_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\new-thyroid1__SYRFD_thr8_balanced__RidgeClassifier.json"
+}

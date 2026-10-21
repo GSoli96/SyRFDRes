@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9820224719101124,
+  "balanced_accuracy": 0.9809575345289632,
+  "precision": 0.8727272727272727,
+  "recall": 0.9795918367346939,
+  "f1": 0.9230769230769231,
+  "mcc": 0.9148896468531982,
+  "roc_auc": 0.9929911358482787,
+  "pr_auc": 0.9007812937518413,
+  "confusion_matrix": [
+    [
+      389,
+      7
+    ],
+    [
+      1,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       396\n           1       0.87      0.98      0.92        49\n\n    accuracy                           0.98       445\n   macro avg       0.94      0.98      0.96       445\nweighted avg       0.98      0.98      0.98       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9558909946390161,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.957714299991494,
+  "prediction_time_seconds": 0.0023520000104326755,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_TABFAIRGDT__DecisionTreeClassifier.json"
+}

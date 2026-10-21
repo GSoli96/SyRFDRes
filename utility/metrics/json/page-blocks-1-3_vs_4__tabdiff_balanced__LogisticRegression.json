@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "tabdiff__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8661971830985915,
+  "balanced_accuracy": 0.9291044776119404,
+  "precision": 0.2962962962962963,
+  "recall": 1.0,
+  "f1": 0.45714285714285713,
+  "mcc": 0.5042659366655157,
+  "roc_auc": 0.957089552238806,
+  "pr_auc": 0.5183779761904762,
+  "confusion_matrix": [
+    [
+      115,
+      19
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.86      0.92       134\n           1       0.30      1.00      0.46         8\n\n    accuracy                           0.87       142\n   macro avg       0.65      0.93      0.69       142\nweighted avg       0.96      0.87      0.90       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9330276802788351,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3172010999987833,
+  "prediction_time_seconds": 0.0017436000052839518,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__tabdiff_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__tabdiff_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9702970297029703,
+  "balanced_accuracy": 0.9654403567447045,
+  "precision": 0.9166666666666666,
+  "recall": 0.9565217391304348,
+  "f1": 0.9361702127659575,
+  "mcc": 0.9171793503907392,
+  "roc_auc": 0.9977703455964325,
+  "pr_auc": 0.9928985507246375,
+  "confusion_matrix": [
+    [
+      76,
+      2
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98        78\n           1       0.92      0.96      0.94        23\n\n    accuracy                           0.97       101\n   macro avg       0.95      0.97      0.96       101\nweighted avg       0.97      0.97      0.97       101\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9121378741788545,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 27.374505199986743,
+  "prediction_time_seconds": 0.0032728000078350306,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_20b-cloud_decision_tree_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_20b-cloud_decision_tree_balanced__MLPClassifier.json"
+}

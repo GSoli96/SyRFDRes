@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7688888888888888,
+  "balanced_accuracy": 0.698716542343133,
+  "precision": 0.5084745762711864,
+  "recall": 0.5660377358490566,
+  "f1": 0.5357142857142857,
+  "mcc": 0.38343003211286303,
+  "roc_auc": 0.7775888547608599,
+  "pr_auc": 0.5248048633802828,
+  "confusion_matrix": [
+    [
+      143,
+      29
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.83      0.85       172\n           1       0.51      0.57      0.54        53\n\n    accuracy                           0.77       225\n   macro avg       0.68      0.70      0.69       225\nweighted avg       0.78      0.77      0.77       225\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.6893613665053122,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.528574299998581,
+  "prediction_time_seconds": 0.023070900002494454,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_react_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_react_balanced__AdaBoostClassifier.json"
+}

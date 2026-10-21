@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.861244019138756,
+  "balanced_accuracy": 0.5289272030651341,
+  "precision": 0.5,
+  "recall": 0.06896551724137931,
+  "f1": 0.12121212121212122,
+  "mcc": 0.14597038895904496,
+  "roc_auc": 0.8131758194976586,
+  "pr_auc": 0.4279469073463552,
+  "confusion_matrix": [
+    [
+      534,
+      6
+    ],
+    [
+      81,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.99      0.92       540\n           1       0.50      0.07      0.12        87\n\n    accuracy                           0.86       627\n   macro avg       0.68      0.53      0.52       627\nweighted avg       0.82      0.86      0.81       627\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9167723600211077,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4139881000155583,
+  "prediction_time_seconds": 0.001803699997253716,
+  "n_train_samples": 3594,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__GOGGLE_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "original",
+  "model": "LogisticRegression",
+  "accuracy": 0.7682486666666667,
+  "balanced_accuracy": 0.7589790154155988,
+  "precision": 0.8061486233656364,
+  "recall": 0.6497563918012437,
+  "f1": 0.7195527391099154,
+  "mcc": 0.5348307693415028,
+  "roc_auc": 0.8313260928439543,
+  "pr_auc": 0.829916843718268,
+  "confusion_matrix": [
+    [
+      706414,
+      107238
+    ],
+    [
+      240389,
+      445959
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.75      0.87      0.80    813652\n           1       0.81      0.65      0.72    686348\n\n    accuracy                           0.77   1500000\n   macro avg       0.78      0.76      0.76   1500000\nweighted avg       0.77      0.77      0.76   1500000\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7193168615797523,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 124.82599190002657,
+  "prediction_time_seconds": 0.22346140001900494,
+  "n_train_samples": 3500000,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__original__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__original__LogisticRegression.json"
+}

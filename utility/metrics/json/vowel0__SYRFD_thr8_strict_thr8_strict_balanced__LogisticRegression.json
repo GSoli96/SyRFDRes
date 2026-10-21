@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9696969696969697,
+  "balanced_accuracy": 0.95,
+  "precision": 0.78125,
+  "recall": 0.9259259259259259,
+  "f1": 0.847457627118644,
+  "mcc": 0.8344654259882858,
+  "roc_auc": 0.9947873799725652,
+  "pr_auc": 0.9603900074619509,
+  "confusion_matrix": [
+    [
+      263,
+      7
+    ],
+    [
+      2,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       270\n           1       0.78      0.93      0.85        27\n\n    accuracy                           0.97       297\n   macro avg       0.89      0.95      0.92       297\nweighted avg       0.97      0.97      0.97       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9796940580976058,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.36963859997922555,
+  "prediction_time_seconds": 0.0023939000093378127,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__SYRFD_thr8_strict_thr8_strict_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__SYRFD_thr8_strict_thr8_strict_balanced__LogisticRegression.json"
+}

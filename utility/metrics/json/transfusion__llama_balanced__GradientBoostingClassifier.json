@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "llama__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8177777777777778,
+  "balanced_accuracy": 0.7306932865291795,
+  "precision": 0.625,
+  "recall": 0.5660377358490566,
+  "f1": 0.594059405940594,
+  "mcc": 0.4779251203922154,
+  "roc_auc": 0.8249232119350592,
+  "pr_auc": 0.6035893093696505,
+  "confusion_matrix": [
+    [
+      154,
+      18
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.90      0.88       172\n           1       0.62      0.57      0.59        53\n\n    accuracy                           0.82       225\n   macro avg       0.75      0.73      0.74       225\nweighted avg       0.81      0.82      0.81       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8491047982034596,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.0079845000000205,
+  "prediction_time_seconds": 0.0032942999969236553,
+  "n_train_samples": 1147,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__llama_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__llama_balanced__GradientBoostingClassifier.json"
+}

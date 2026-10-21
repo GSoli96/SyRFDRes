@@ -1,0 +1,36 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "gpt-oss_20b-cloud__ensemble__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9351851851851852,
+  "balanced_accuracy": 0.9656862745098039,
+  "precision": 0.46153846153846156,
+  "recall": 1.0,
+  "f1": 0.631578947368421,
+  "mcc": 0.6556403384430104,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      95,
+      7
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96       102\n           1       0.46      1.00      0.63         6\n\n    accuracy                           0.94       108\n   macro avg       0.73      0.97      0.80       108\nweighted avg       0.97      0.94      0.95       108\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9277172796999761,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8092632000334561,
+  "prediction_time_seconds": 0.00674430001527071,
+  "n_train_samples": 1031,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__gpt-oss_20b-cloud_ensemble_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__gpt-oss_20b-cloud_ensemble_balanced__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9820224719101124,
+  "balanced_accuracy": 0.9720160791589363,
+  "precision": 0.8867924528301887,
+  "recall": 0.9591836734693877,
+  "f1": 0.9215686274509803,
+  "mcc": 0.91232894430771,
+  "roc_auc": 0.9972686044114616,
+  "pr_auc": 0.9789412692067998,
+  "confusion_matrix": [
+    [
+      390,
+      6
+    ],
+    [
+      2,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.98      0.99       396\n           1       0.89      0.96      0.92        49\n\n    accuracy                           0.98       445\n   macro avg       0.94      0.97      0.96       445\nweighted avg       0.98      0.98      0.98       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9556378361140361,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 26.149433800019324,
+  "prediction_time_seconds": 0.020842300000367686,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_prefair__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_prefair__RandomForestClassifier.json"
+}

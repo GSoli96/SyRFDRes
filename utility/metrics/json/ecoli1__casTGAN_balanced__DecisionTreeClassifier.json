@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "casTGAN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9066332218506132,
+  "precision": 0.95,
+  "recall": 0.8260869565217391,
+  "f1": 0.8837209302325582,
+  "mcc": 0.8558281460984887,
+  "roc_auc": 0.9874581939799332,
+  "pr_auc": 0.9590539894887721,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.99      0.97        78\n           1       0.95      0.83      0.88        23\n\n    accuracy                           0.95       101\n   macro avg       0.95      0.91      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8613704520709886,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5734442000102717,
+  "prediction_time_seconds": 0.0024646999954711646,
+  "n_train_samples": 382,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__casTGAN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__casTGAN_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "mcc": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      270,
+      0
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       270\n           1       1.00      1.00      1.00        27\n\n    accuracy                           1.00       297\n   macro avg       1.00      1.00      1.00       297\nweighted avg       1.00      1.00      1.00       297\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9994428969359331,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.924288799986243,
+  "prediction_time_seconds": 0.007760200009215623,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma3_12b_cot_self_consistency__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma3_12b_cot_self_consistency__ExtraTreesClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7733333333333333,
+  "balanced_accuracy": 0.5253949100482668,
+  "precision": 0.75,
+  "recall": 0.05660377358490566,
+  "f1": 0.10526315789473684,
+  "mcc": 0.16309952651156764,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      171,
+      1
+    ],
+    [
+      50,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.99      0.87       172\n           1       0.75      0.06      0.11        53\n\n    accuracy                           0.77       225\n   macro avg       0.76      0.53      0.49       225\nweighted avg       0.77      0.77      0.69       225\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.14805966795697217,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.16328370000701398,
+  "prediction_time_seconds": 0.0019972000154666603,
+  "n_train_samples": 747,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_variable_relaxed_variable_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_variable_relaxed_variable_relaxed_balanced__RidgeClassifier.json"
+}

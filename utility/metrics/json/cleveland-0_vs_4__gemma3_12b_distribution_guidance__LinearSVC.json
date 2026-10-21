@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "LinearSVC",
+  "accuracy": 0.7547169811320755,
+  "balanced_accuracy": 0.5229591836734694,
+  "precision": 0.09090909090909091,
+  "recall": 0.25,
+  "f1": 0.13333333333333333,
+  "mcc": 0.02990842104852228,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      39,
+      10
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.80      0.86        49\n           1       0.09      0.25      0.13         4\n\n    accuracy                           0.75        53\n   macro avg       0.51      0.52      0.50        53\nweighted avg       0.87      0.75      0.80        53\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8640493679782042,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4335356999654323,
+  "prediction_time_seconds": 0.00657239998690784,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma3_12b_distribution_guidance__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma3_12b_distribution_guidance__LinearSVC.json"
+}

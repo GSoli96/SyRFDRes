@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "LogisticRegression",
+  "accuracy": 0.9081719295024784,
+  "balanced_accuracy": 0.6882633234285758,
+  "precision": 0.18032574135357862,
+  "recall": 0.45164960182025027,
+  "f1": 0.2577443887961417,
+  "mcc": 0.24474910301194241,
+  "roc_auc": 0.8593056354200181,
+  "pr_auc": 0.18702036957238263,
+  "confusion_matrix": [
+    [
+      155519,
+      12632
+    ],
+    [
+      3374,
+      2779
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.92      0.95    168151\n           1       0.18      0.45      0.26      6153\n\n    accuracy                           0.91    174304\n   macro avg       0.58      0.69      0.60    174304\nweighted avg       0.95      0.91      0.93    174304\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9137822366506352,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 2.201410100009525,
+  "prediction_time_seconds": 0.029833899985533208,
+  "n_train_samples": 77172,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__Dataset_balanced_cuts__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__Dataset_balanced_cuts__LogisticRegression.json"
+}

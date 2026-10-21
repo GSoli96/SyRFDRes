@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.763954,
+  "balanced_accuracy": 0.7640067385873104,
+  "precision": 0.7316104460612584,
+  "recall": 0.7646281478200563,
+  "f1": 0.7477549938696461,
+  "mcc": 0.5266085162987961,
+  "roc_auc": 0.8417954005844631,
+  "pr_auc": 0.8378672772409167,
+  "confusion_matrix": [
+    [
+      621130,
+      192522
+    ],
+    [
+      161547,
+      524801
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.76      0.78    813652\n           1       0.73      0.76      0.75    686348\n\n    accuracy                           0.76   1500000\n   macro avg       0.76      0.76      0.76   1500000\nweighted avg       0.77      0.76      0.76   1500000\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7720504411605154,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 138.166933600005,
+  "prediction_time_seconds": 19.787029600003734,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabfairgan__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabfairgan__AdaBoostClassifier.json"
+}

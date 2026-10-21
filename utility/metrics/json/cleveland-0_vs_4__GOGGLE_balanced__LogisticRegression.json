@@ -1,0 +1,37 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9622641509433962,
+  "balanced_accuracy": 0.75,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6931032800836721,
+  "roc_auc": 0.9897959183673469,
+  "pr_auc": 0.8875,
+  "confusion_matrix": [
+    [
+      49,
+      0
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      1.00      0.98        49\n           1       1.00      0.50      0.67         4\n\n    accuracy                           0.96        53\n   macro avg       0.98      0.75      0.82        53\nweighted avg       0.96      0.96      0.96        53\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9718817874687093,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4822165999794379,
+  "prediction_time_seconds": 0.004450200009159744,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__GOGGLE_balanced__LogisticRegression.json"
+}

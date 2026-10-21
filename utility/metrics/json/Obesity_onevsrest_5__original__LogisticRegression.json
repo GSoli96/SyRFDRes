@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "original",
+  "model": "LogisticRegression",
+  "accuracy": 0.9872408293460925,
+  "balanced_accuracy": 0.9784992272670314,
+  "precision": 0.945054945054945,
+  "recall": 0.9662921348314607,
+  "f1": 0.9555555555555556,
+  "mcc": 0.9481876329259784,
+  "roc_auc": 0.9955724489369701,
+  "pr_auc": 0.943504995002634,
+  "confusion_matrix": [
+    [
+      533,
+      5
+    ],
+    [
+      3,
+      86
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       538\n           1       0.95      0.97      0.96        89\n\n    accuracy                           0.99       627\n   macro avg       0.97      0.98      0.97       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9693307748119295,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3975759000168182,
+  "prediction_time_seconds": 0.0020935999928042293,
+  "n_train_samples": 1460,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__original__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__original__LogisticRegression.json"
+}

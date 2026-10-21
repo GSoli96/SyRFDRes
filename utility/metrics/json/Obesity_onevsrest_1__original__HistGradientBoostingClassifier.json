@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "original",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9856459330143541,
+  "balanced_accuracy": 0.9619383546776644,
+  "precision": 0.9634146341463414,
+  "recall": 0.9294117647058824,
+  "f1": 0.9461077844311377,
+  "mcc": 0.9380326338693489,
+  "roc_auc": 0.9991100499240287,
+  "pr_auc": 0.9943166270199096,
+  "confusion_matrix": [
+    [
+      539,
+      3
+    ],
+    [
+      6,
+      79
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       542\n           1       0.96      0.93      0.95        85\n\n    accuracy                           0.99       627\n   macro avg       0.98      0.96      0.97       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9249541654604947,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.861287999985507,
+  "prediction_time_seconds": 0.00991930000600405,
+  "n_train_samples": 1460,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__original__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__original__HistGradientBoostingClassifier.json"
+}

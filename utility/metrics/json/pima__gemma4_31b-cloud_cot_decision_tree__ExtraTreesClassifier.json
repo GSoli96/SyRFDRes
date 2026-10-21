@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.935064935064935,
+  "balanced_accuracy": 0.9150662251655629,
+  "precision": 0.9577464788732394,
+  "recall": 0.85,
+  "f1": 0.9006622516556292,
+  "mcc": 0.8560353366118805,
+  "roc_auc": 0.9843543046357617,
+  "pr_auc": 0.976150010135394,
+  "confusion_matrix": [
+    [
+      148,
+      3
+    ],
+    [
+      12,
+      68
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.98      0.95       151\n           1       0.96      0.85      0.90        80\n\n    accuracy                           0.94       231\n   macro avg       0.94      0.92      0.93       231\nweighted avg       0.94      0.94      0.93       231\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.8169958240625295,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.75164499998209,
+  "prediction_time_seconds": 0.017566399998031557,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_decision_tree__ExtraTreesClassifier.json"
+}

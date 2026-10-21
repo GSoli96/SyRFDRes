@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9775280898876404,
+  "balanced_accuracy": 0.9658276910999901,
+  "precision": 0.983739837398374,
+  "recall": 0.937984496124031,
+  "f1": 0.9603174603174603,
+  "mcc": 0.9451771244727323,
+  "roc_auc": 0.9978167010106958,
+  "pr_auc": 0.99515666826492,
+  "confusion_matrix": [
+    [
+      314,
+      2
+    ],
+    [
+      8,
+      121
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.99      0.98       316\n           1       0.98      0.94      0.96       129\n\n    accuracy                           0.98       445\n   macro avg       0.98      0.97      0.97       445\nweighted avg       0.98      0.98      0.98       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.8143750185534419,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.189250900002662,
+  "prediction_time_seconds": 0.009449100005440414,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_fsmote__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_fsmote__HistGradientBoostingClassifier.json"
+}

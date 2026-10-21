@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LinearSVC",
+  "accuracy": 0.7256778309409888,
+  "balanced_accuracy": 0.7653370836286322,
+  "precision": 0.3022222222222222,
+  "recall": 0.8192771084337349,
+  "f1": 0.44155844155844154,
+  "mcc": 0.3749403301950306,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      387,
+      157
+    ],
+    [
+      15,
+      68
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.71      0.82       544\n           1       0.30      0.82      0.44        83\n\n    accuracy                           0.73       627\n   macro avg       0.63      0.77      0.63       627\nweighted avg       0.88      0.73      0.77       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7748128888761743,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.37792670002090745,
+  "prediction_time_seconds": 0.0027951000083703548,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__Dataset_balanced_TABFAIRGDT__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__Dataset_balanced_TABFAIRGDT__LinearSVC.json"
+}

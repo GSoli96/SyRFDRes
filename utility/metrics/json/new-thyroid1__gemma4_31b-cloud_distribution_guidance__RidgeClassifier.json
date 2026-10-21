@@ -1,0 +1,35 @@
+{
+  "dataset": "new-thyroid1",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9076923076923077,
+  "balanced_accuracy": 0.9444444444444444,
+  "precision": 0.6470588235294118,
+  "recall": 1.0,
+  "f1": 0.7857142857142857,
+  "mcc": 0.7583952786593615,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      48,
+      6
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.89      0.94        54\n           1       0.65      1.00      0.79        11\n\n    accuracy                           0.91        65\n   macro avg       0.82      0.94      0.86        65\nweighted avg       0.94      0.91      0.91        65\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7072323246986756,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20221040002070367,
+  "prediction_time_seconds": 0.001991600001929328,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\new-thyroid1__gemma4_31b-cloud_distribution_guidance__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\new-thyroid1__gemma4_31b-cloud_distribution_guidance__RidgeClassifier.json"
+}

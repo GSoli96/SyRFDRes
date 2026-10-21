@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__schema_constraints",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8268398268398268,
+  "balanced_accuracy": 0.7940811258278146,
+  "precision": 0.7857142857142857,
+  "recall": 0.6875,
+  "f1": 0.7333333333333333,
+  "mcc": 0.6089318034568054,
+  "roc_auc": 0.8990480132450331,
+  "pr_auc": 0.8291517080948918,
+  "confusion_matrix": [
+    [
+      136,
+      15
+    ],
+    [
+      25,
+      55
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.90      0.87       151\n           1       0.79      0.69      0.73        80\n\n    accuracy                           0.83       231\n   macro avg       0.82      0.79      0.80       231\nweighted avg       0.82      0.83      0.82       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.7910494578457005,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7497255000052974,
+  "prediction_time_seconds": 0.002163900004234165,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_schema_constraints__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_schema_constraints__DecisionTreeClassifier.json"
+}

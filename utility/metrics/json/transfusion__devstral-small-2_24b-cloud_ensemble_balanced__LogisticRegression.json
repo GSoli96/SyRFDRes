@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.76,
+  "balanced_accuracy": 0.621105748135147,
+  "precision": 0.48717948717948717,
+  "recall": 0.3584905660377358,
+  "f1": 0.41304347826086957,
+  "mcc": 0.27152394515696915,
+  "roc_auc": 0.763328214129004,
+  "pr_auc": 0.4874538147515998,
+  "confusion_matrix": [
+    [
+      152,
+      20
+    ],
+    [
+      34,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.88      0.85       172\n           1       0.49      0.36      0.41        53\n\n    accuracy                           0.76       225\n   macro avg       0.65      0.62      0.63       225\nweighted avg       0.74      0.76      0.75       225\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.38674874600238596,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.32436650001909584,
+  "prediction_time_seconds": 0.0021816999942529947,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__LogisticRegression.json"
+}

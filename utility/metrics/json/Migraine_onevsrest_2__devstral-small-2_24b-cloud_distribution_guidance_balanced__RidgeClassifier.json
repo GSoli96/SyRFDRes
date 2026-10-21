@@ -1,0 +1,35 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8157894736842105,
+  "balanced_accuracy": 0.835113484646195,
+  "precision": 0.23076923076923078,
+  "recall": 0.8571428571428571,
+  "f1": 0.36363636363636365,
+  "mcc": 0.3834730063306371,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      87,
+      20
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.81      0.89       107\n           1       0.23      0.86      0.36         7\n\n    accuracy                           0.82       114\n   macro avg       0.61      0.84      0.63       114\nweighted avg       0.94      0.82      0.86       114\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.8216443171917744,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27820110000902787,
+  "prediction_time_seconds": 0.002944100007880479,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_distribution_guidance_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__devstral-small-2_24b-cloud_distribution_guidance_balanced__RidgeClassifier.json"
+}

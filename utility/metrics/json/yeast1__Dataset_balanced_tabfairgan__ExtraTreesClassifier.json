@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9797752808988764,
+  "balanced_accuracy": 0.9651162790697674,
+  "precision": 1.0,
+  "recall": 0.9302325581395349,
+  "f1": 0.963855421686747,
+  "mcc": 0.9510374713512252,
+  "roc_auc": 0.9999264056520458,
+  "pr_auc": 0.9998238195912614,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      9,
+      120
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.99       316\n           1       1.00      0.93      0.96       129\n\n    accuracy                           0.98       445\n   macro avg       0.99      0.97      0.97       445\nweighted avg       0.98      0.98      0.98       445\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.833174852446718,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.482862899982138,
+  "prediction_time_seconds": 0.01585289998911321,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_tabfairgan__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_tabfairgan__ExtraTreesClassifier.json"
+}

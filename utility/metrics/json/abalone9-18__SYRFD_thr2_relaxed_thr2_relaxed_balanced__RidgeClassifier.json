@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9041095890410958,
+  "balanced_accuracy": 0.8409260642270351,
+  "precision": 0.35714285714285715,
+  "recall": 0.7692307692307693,
+  "f1": 0.4878048780487805,
+  "mcc": 0.4825027440439432,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      188,
+      18
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.91      0.95       206\n           1       0.36      0.77      0.49        13\n\n    accuracy                           0.90       219\n   macro avg       0.67      0.84      0.72       219\nweighted avg       0.95      0.90      0.92       219\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7871569127512116,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.37567449995549396,
+  "prediction_time_seconds": 0.004684199986513704,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.json"
+}

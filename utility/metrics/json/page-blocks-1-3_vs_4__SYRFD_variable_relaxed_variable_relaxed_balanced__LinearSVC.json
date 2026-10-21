@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9366197183098591,
+  "balanced_accuracy": 0.6138059701492538,
+  "precision": 0.4,
+  "recall": 0.25,
+  "f1": 0.3076923076923077,
+  "mcc": 0.28473912617507063,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      131,
+      3
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.98      0.97       134\n           1       0.40      0.25      0.31         8\n\n    accuracy                           0.94       142\n   macro avg       0.68      0.61      0.64       142\nweighted avg       0.92      0.94      0.93       142\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.621036741036741,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.21747430000687018,
+  "prediction_time_seconds": 0.0024135999847203493,
+  "n_train_samples": 477,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__SYRFD_variable_relaxed_variable_relaxed_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__SYRFD_variable_relaxed_variable_relaxed_balanced__LinearSVC.json"
+}

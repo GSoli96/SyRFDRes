@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gpt-oss_120b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8943820224719101,
+  "balanced_accuracy": 0.9138321995464853,
+  "precision": 0.5111111111111111,
+  "recall": 0.9387755102040817,
+  "f1": 0.6618705035971223,
+  "mcc": 0.6450070725293869,
+  "roc_auc": 0.9665532879818595,
+  "pr_auc": 0.8425028826287742,
+  "confusion_matrix": [
+    [
+      352,
+      44
+    ],
+    [
+      3,
+      46
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.89      0.94       396\n           1       0.51      0.94      0.66        49\n\n    accuracy                           0.89       445\n   macro avg       0.75      0.91      0.80       445\nweighted avg       0.94      0.89      0.91       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6376187460311324,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.388180400012061,
+  "prediction_time_seconds": 0.0023188000195659697,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.json"
+}

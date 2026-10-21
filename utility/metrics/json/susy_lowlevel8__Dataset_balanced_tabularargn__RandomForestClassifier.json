@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.7834506666666666,
+  "balanced_accuracy": 0.7795631708339064,
+  "precision": 0.7799464768577455,
+  "recall": 0.7337575107671327,
+  "f1": 0.7561472917683271,
+  "mcc": 0.5625753863246541,
+  "roc_auc": 0.8553695129029999,
+  "pr_auc": 0.8561922381050172,
+  "confusion_matrix": [
+    [
+      671563,
+      142089
+    ],
+    [
+      182735,
+      503613
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.83      0.81    813652\n           1       0.78      0.73      0.76    686348\n\n    accuracy                           0.78   1500000\n   macro avg       0.78      0.78      0.78   1500000\nweighted avg       0.78      0.78      0.78   1500000\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7723347011607415,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 710.9231923999905,
+  "prediction_time_seconds": 61.43330159998732,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabularargn__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabularargn__RandomForestClassifier.json"
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "Obesity_onevsrest_6",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "MLPClassifier",
+  "accuracy": 0.9968102073365231,
+  "balanced_accuracy": 0.9981132075471698,
+  "precision": 0.9797979797979798,
+  "recall": 1.0,
+  "f1": 0.9897959183673469,
+  "mcc": 0.9879780508345404,
+  "roc_auc": 0.999980548531414,
+  "pr_auc": 0.9998948032821375,
+  "confusion_matrix": [
+    [
+      528,
+      2
+    ],
+    [
+      0,
+      97
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       530\n           1       0.98      1.00      0.99        97\n\n    accuracy                           1.00       627\n   macro avg       0.99      1.00      0.99       627\nweighted avg       1.00      1.00      1.00       627\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9923466483308656,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 60.91579540001112,
+  "prediction_time_seconds": 0.002684100007172674,
+  "n_train_samples": 3526,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_6__gemma3_12b_cot_confidence__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_6__gemma3_12b_cot_confidence__MLPClassifier.json"
+}

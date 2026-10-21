@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7911111111111111,
+  "balanced_accuracy": 0.6871434839842037,
+  "precision": 0.5652173913043478,
+  "recall": 0.49056603773584906,
+  "f1": 0.5252525252525253,
+  "mcc": 0.39382332351179483,
+  "roc_auc": 0.7745721807810443,
+  "pr_auc": 0.5254170101139095,
+  "confusion_matrix": [
+    [
+      152,
+      20
+    ],
+    [
+      27,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.88      0.87       172\n           1       0.57      0.49      0.53        53\n\n    accuracy                           0.79       225\n   macro avg       0.71      0.69      0.70       225\nweighted avg       0.78      0.79      0.79       225\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8408459528729549,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.978519500000402,
+  "prediction_time_seconds": 0.0260689000133425,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_distribution_guidance__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_distribution_guidance__AdaBoostClassifier.json"
+}

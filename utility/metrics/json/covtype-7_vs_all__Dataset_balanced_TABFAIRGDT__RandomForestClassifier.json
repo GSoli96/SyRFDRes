@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9726282816229117,
+  "balanced_accuracy": 0.9590389681355478,
+  "precision": 0.56748046875,
+  "recall": 0.9444173573866407,
+  "f1": 0.7089611419508327,
+  "mcc": 0.7204703436550547,
+  "roc_auc": 0.9940553946300712,
+  "pr_auc": 0.9065136572395442,
+  "confusion_matrix": [
+    [
+      163722,
+      4429
+    ],
+    [
+      342,
+      5811
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99    168151\n           1       0.57      0.94      0.71      6153\n\n    accuracy                           0.97    174304\n   macro avg       0.78      0.96      0.85    174304\nweighted avg       0.98      0.97      0.98    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9815218371758793,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 915.6572661999962,
+  "prediction_time_seconds": 3.581041199999163,
+  "n_train_samples": 77172,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.json"
+}

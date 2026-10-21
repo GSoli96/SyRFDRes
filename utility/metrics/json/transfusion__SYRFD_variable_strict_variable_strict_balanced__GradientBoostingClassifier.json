@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8088888888888889,
+  "balanced_accuracy": 0.6530824923211935,
+  "precision": 0.6785714285714286,
+  "recall": 0.3584905660377358,
+  "f1": 0.4691358024691358,
+  "mcc": 0.3935913537660722,
+  "roc_auc": 0.8209192628345766,
+  "pr_auc": 0.6010307601978188,
+  "confusion_matrix": [
+    [
+      163,
+      9
+    ],
+    [
+      34,
+      19
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.95      0.88       172\n           1       0.68      0.36      0.47        53\n\n    accuracy                           0.81       225\n   macro avg       0.75      0.65      0.68       225\nweighted avg       0.79      0.81      0.79       225\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.4123575849437919,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 4.763272000011057,
+  "prediction_time_seconds": 0.002917000005254522,
+  "n_train_samples": 747,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_variable_strict_variable_strict_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_variable_strict_variable_strict_balanced__GradientBoostingClassifier.json"
+}

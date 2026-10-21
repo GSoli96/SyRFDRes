@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "devstral-small-2_24b-cloud__distribution_guidance__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9696969696969697,
+  "balanced_accuracy": 0.9333333333333333,
+  "precision": 0.8,
+  "recall": 0.8888888888888888,
+  "f1": 0.8421052631578947,
+  "mcc": 0.8267983464049609,
+  "roc_auc": 0.9935528120713306,
+  "pr_auc": 0.9438024840460427,
+  "confusion_matrix": [
+    [
+      264,
+      6
+    ],
+    [
+      3,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.98      0.98       270\n           1       0.80      0.89      0.84        27\n\n    accuracy                           0.97       297\n   macro avg       0.89      0.93      0.91       297\nweighted avg       0.97      0.97      0.97       297\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.88173494081783,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.721768499992322,
+  "prediction_time_seconds": 0.023225000011734664,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__devstral-small-2_24b-cloud_distribution_guidance_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__devstral-small-2_24b-cloud_distribution_guidance_balanced__AdaBoostClassifier.json"
+}

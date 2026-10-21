@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.7822222222222223,
+  "balanced_accuracy": 0.6617485739359368,
+  "precision": 0.5476190476190477,
+  "recall": 0.4339622641509434,
+  "f1": 0.4842105263157895,
+  "mcc": 0.35230793448603404,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      153,
+      19
+    ],
+    [
+      30,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.89      0.86       172\n           1       0.55      0.43      0.48        53\n\n    accuracy                           0.78       225\n   macro avg       0.69      0.66      0.67       225\nweighted avg       0.77      0.78      0.77       225\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.5334427572844882,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.204445500014117,
+  "prediction_time_seconds": 0.0029147999885026366,
+  "n_train_samples": 911,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SMOTECDNN_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SMOTECDNN_balanced__LinearSVC.json"
+}

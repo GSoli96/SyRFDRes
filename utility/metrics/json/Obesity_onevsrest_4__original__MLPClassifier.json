@@ -1,0 +1,38 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "original",
+  "model": "MLPClassifier",
+  "accuracy": 0.9665071770334929,
+  "balanced_accuracy": 0.9266283524904215,
+  "precision": 0.9285714285714286,
+  "recall": 0.8666666666666667,
+  "f1": 0.896551724137931,
+  "mcc": 0.877341629349975,
+  "roc_auc": 0.9877941981390258,
+  "pr_auc": 0.9466587989732336,
+  "confusion_matrix": [
+    [
+      515,
+      7
+    ],
+    [
+      14,
+      91
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       522\n           1       0.93      0.87      0.90       105\n\n    accuracy                           0.97       627\n   macro avg       0.95      0.93      0.94       627\nweighted avg       0.97      0.97      0.97       627\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9370175438596491,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 25.624274700006936,
+  "prediction_time_seconds": 0.003275499999290332,
+  "n_train_samples": 1460,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__original__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__original__MLPClassifier.json"
+}

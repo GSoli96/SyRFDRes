@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "GOGGLE__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9662921348314607,
+  "balanced_accuracy": 0.8827045969903113,
+  "precision": 0.9047619047619048,
+  "recall": 0.7755102040816326,
+  "f1": 0.8351648351648352,
+  "mcc": 0.8195248732658853,
+  "roc_auc": 0.9898474541331684,
+  "pr_auc": 0.9031612645058023,
+  "confusion_matrix": [
+    [
+      392,
+      4
+    ],
+    [
+      11,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       396\n           1       0.90      0.78      0.84        49\n\n    accuracy                           0.97       445\n   macro avg       0.94      0.88      0.91       445\nweighted avg       0.97      0.97      0.97       445\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9681548140802552,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.892743199976394,
+  "prediction_time_seconds": 0.00795170001219958,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__GOGGLE_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__GOGGLE_balanced__KNeighborsClassifier.json"
+}

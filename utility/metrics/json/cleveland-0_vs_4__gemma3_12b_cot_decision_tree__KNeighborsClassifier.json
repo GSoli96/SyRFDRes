@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.8490566037735849,
+  "balanced_accuracy": 0.6887755102040816,
+  "precision": 0.25,
+  "recall": 0.5,
+  "f1": 0.3333333333333333,
+  "mcc": 0.2785816033957858,
+  "roc_auc": 0.8928571428571428,
+  "pr_auc": 0.6052631578947368,
+  "confusion_matrix": [
+    [
+      43,
+      6
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.88      0.91        49\n           1       0.25      0.50      0.33         4\n\n    accuracy                           0.85        53\n   macro avg       0.60      0.69      0.62        53\nweighted avg       0.90      0.85      0.87        53\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.8914093452335476,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0735461000003852,
+  "prediction_time_seconds": 0.011149299971293658,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma3_12b_cot_decision_tree__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma3_12b_cot_decision_tree__KNeighborsClassifier.json"
+}

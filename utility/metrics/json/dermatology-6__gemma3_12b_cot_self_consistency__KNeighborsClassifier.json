@@ -1,0 +1,36 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9629629629629629,
+  "balanced_accuracy": 0.9803921568627452,
+  "precision": 0.6,
+  "recall": 1.0,
+  "f1": 0.75,
+  "mcc": 0.7592566023652967,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      98,
+      4
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       102\n           1       0.60      1.00      0.75         6\n\n    accuracy                           0.96       108\n   macro avg       0.80      0.98      0.86       108\nweighted avg       0.98      0.96      0.97       108\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9827708577520843,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.6749050000216812,
+  "prediction_time_seconds": 0.015989699983038008,
+  "n_train_samples": 674,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__gemma3_12b_cot_self_consistency__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__gemma3_12b_cot_self_consistency__KNeighborsClassifier.json"
+}

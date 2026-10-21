@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "LogisticRegression",
+  "accuracy": 0.8613861386138614,
+  "balanced_accuracy": 0.894927536231884,
+  "precision": 0.6285714285714286,
+  "recall": 0.9565217391304348,
+  "f1": 0.7586206896551724,
+  "mcc": 0.6960695584243028,
+  "roc_auc": 0.9459308807134894,
+  "pr_auc": 0.8323292711742283,
+  "confusion_matrix": [
+    [
+      65,
+      13
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.83      0.90        78\n           1       0.63      0.96      0.76        23\n\n    accuracy                           0.86       101\n   macro avg       0.81      0.89      0.83       101\nweighted avg       0.90      0.86      0.87       101\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.857215240078332,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3316410999977961,
+  "prediction_time_seconds": 0.006047299975762144,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_cot_ensemble__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_cot_ensemble__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.8222222222222222,
+  "balanced_accuracy": 0.6879113646336112,
+  "precision": 0.696969696969697,
+  "recall": 0.4339622641509434,
+  "f1": 0.5348837209302325,
+  "mcc": 0.4507934696551149,
+  "roc_auc": 0.8640302764370338,
+  "pr_auc": 0.6789564767141867,
+  "confusion_matrix": [
+    [
+      162,
+      10
+    ],
+    [
+      30,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.94      0.89       172\n           1       0.70      0.43      0.53        53\n\n    accuracy                           0.82       225\n   macro avg       0.77      0.69      0.71       225\nweighted avg       0.81      0.82      0.81       225\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8447058639280526,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 17.41149410000071,
+  "prediction_time_seconds": 0.009724600007757545,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_self_consistency__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_self_consistency__RandomForestClassifier.json"
+}

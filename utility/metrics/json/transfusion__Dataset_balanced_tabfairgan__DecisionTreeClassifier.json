@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7955555555555556,
+  "balanced_accuracy": 0.6704695041684949,
+  "precision": 0.5897435897435898,
+  "recall": 0.4339622641509434,
+  "f1": 0.5,
+  "mcc": 0.38219946628073376,
+  "roc_auc": 0.7599824484422992,
+  "pr_auc": 0.46864254466436206,
+  "confusion_matrix": [
+    [
+      156,
+      16
+    ],
+    [
+      30,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.91      0.87       172\n           1       0.59      0.43      0.50        53\n\n    accuracy                           0.80       225\n   macro avg       0.71      0.67      0.69       225\nweighted avg       0.78      0.80      0.78       225\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.8254236446733518,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6295248000242282,
+  "prediction_time_seconds": 0.0016162999963853508,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabfairgan__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabfairgan__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_confidence",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7445887445887446,
+  "balanced_accuracy": 0.7076572847682119,
+  "precision": 0.6438356164383562,
+  "recall": 0.5875,
+  "f1": 0.6143790849673203,
+  "mcc": 0.42503105236105926,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      125,
+      26
+    ],
+    [
+      33,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.83      0.81       151\n           1       0.64      0.59      0.61        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.71      0.71       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.7829508784066123,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20042380000813864,
+  "prediction_time_seconds": 0.0023929000017233193,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_confidence__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_confidence__RidgeClassifier.json"
+}

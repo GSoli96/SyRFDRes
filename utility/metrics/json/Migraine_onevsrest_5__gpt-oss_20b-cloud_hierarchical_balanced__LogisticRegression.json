@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "gpt-oss_20b-cloud__hierarchical__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7982456140350878,
+  "balanced_accuracy": 0.5340909090909092,
+  "precision": 0.047619047619047616,
+  "recall": 0.25,
+  "f1": 0.08,
+  "mcc": 0.03236262901893442,
+  "roc_auc": 0.5795454545454546,
+  "pr_auc": 0.2848052874112788,
+  "confusion_matrix": [
+    [
+      90,
+      20
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.82      0.89       110\n           1       0.05      0.25      0.08         4\n\n    accuracy                           0.80       114\n   macro avg       0.51      0.53      0.48       114\nweighted avg       0.94      0.80      0.86       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.4038354373812124,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.40500800000154413,
+  "prediction_time_seconds": 0.002779200003715232,
+  "n_train_samples": 1103,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__gpt-oss_20b-cloud_hierarchical_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__gpt-oss_20b-cloud_hierarchical_balanced__LogisticRegression.json"
+}

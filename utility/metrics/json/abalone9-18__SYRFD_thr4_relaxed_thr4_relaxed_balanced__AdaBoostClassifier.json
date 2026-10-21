@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9269406392694064,
+  "balanced_accuracy": 0.7809932785660941,
+  "precision": 0.42105263157894735,
+  "recall": 0.6153846153846154,
+  "f1": 0.5,
+  "mcc": 0.47177987967292073,
+  "roc_auc": 0.9581777445855115,
+  "pr_auc": 0.6556238354733337,
+  "confusion_matrix": [
+    [
+      195,
+      11
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.95      0.96       206\n           1       0.42      0.62      0.50        13\n\n    accuracy                           0.93       219\n   macro avg       0.70      0.78      0.73       219\nweighted avg       0.94      0.93      0.93       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9196839931592538,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.276063100027386,
+  "prediction_time_seconds": 0.07601210003485903,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.json"
+}

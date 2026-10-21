@@ -1,0 +1,39 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "MLPClassifier",
+  "accuracy": 0.9801980198019802,
+  "balanced_accuracy": 0.9871794871794872,
+  "precision": 0.92,
+  "recall": 1.0,
+  "f1": 0.9583333333333334,
+  "mcc": 0.9467894467146624,
+  "roc_auc": 0.9977703455964325,
+  "pr_auc": 0.9928985507246375,
+  "confusion_matrix": [
+    [
+      76,
+      2
+    ],
+    [
+      0,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99        78\n           1       0.92      1.00      0.96        23\n\n    accuracy                           0.98       101\n   macro avg       0.96      0.99      0.97       101\nweighted avg       0.98      0.98      0.98       101\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9121750641534485,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.811524000018835,
+  "prediction_time_seconds": 0.003171100019244477,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_TABFAIRGDT__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_TABFAIRGDT__MLPClassifier.json"
+}

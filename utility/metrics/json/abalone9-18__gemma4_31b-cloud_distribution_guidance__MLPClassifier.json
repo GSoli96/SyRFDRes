@@ -1,0 +1,39 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "MLPClassifier",
+  "accuracy": 0.9771689497716894,
+  "balanced_accuracy": 0.9518297236743839,
+  "precision": 0.75,
+  "recall": 0.9230769230769231,
+  "f1": 0.8275862068965517,
+  "mcc": 0.8205443687823344,
+  "roc_auc": 0.9958924570575056,
+  "pr_auc": 0.938564301460229,
+  "confusion_matrix": [
+    [
+      202,
+      4
+    ],
+    [
+      1,
+      12
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       206\n           1       0.75      0.92      0.83        13\n\n    accuracy                           0.98       219\n   macro avg       0.87      0.95      0.91       219\nweighted avg       0.98      0.98      0.98       219\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9272452437801274,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 103.49774969997816,
+  "prediction_time_seconds": 0.00640349998138845,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_distribution_guidance__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_distribution_guidance__MLPClassifier.json"
+}

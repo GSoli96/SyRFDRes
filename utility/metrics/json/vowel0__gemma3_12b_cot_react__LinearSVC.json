@@ -1,0 +1,36 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "LinearSVC",
+  "accuracy": 0.8417508417508418,
+  "balanced_accuracy": 0.762962962962963,
+  "precision": 0.32142857142857145,
+  "recall": 0.6666666666666666,
+  "f1": 0.43373493975903615,
+  "mcc": 0.38653231659510306,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      232,
+      38
+    ],
+    [
+      9,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.86      0.91       270\n           1       0.32      0.67      0.43        27\n\n    accuracy                           0.84       297\n   macro avg       0.64      0.76      0.67       297\nweighted avg       0.90      0.84      0.86       297\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8319864770999186,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.25753630002145655,
+  "prediction_time_seconds": 0.0022585999977309257,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma3_12b_cot_react__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma3_12b_cot_react__LinearSVC.json"
+}

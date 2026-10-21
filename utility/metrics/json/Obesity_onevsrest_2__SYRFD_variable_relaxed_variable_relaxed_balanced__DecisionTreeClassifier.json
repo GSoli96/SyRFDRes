@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9490498759744862,
+  "precision": 0.9615384615384616,
+  "recall": 0.9036144578313253,
+  "f1": 0.9316770186335404,
+  "mcc": 0.922209515249334,
+  "roc_auc": 0.9976745216158752,
+  "pr_auc": 0.9819986801021898,
+  "confusion_matrix": [
+    [
+      541,
+      3
+    ],
+    [
+      8,
+      75
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       544\n           1       0.96      0.90      0.93        83\n\n    accuracy                           0.98       627\n   macro avg       0.97      0.95      0.96       627\nweighted avg       0.98      0.98      0.98       627\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9390190327189982,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8518716999969911,
+  "prediction_time_seconds": 0.0017789000121410936,
+  "n_train_samples": 2658,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__SYRFD_variable_relaxed_variable_relaxed_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__SYRFD_variable_relaxed_variable_relaxed_balanced__DecisionTreeClassifier.json"
+}

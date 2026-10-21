@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "original",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9438202247191011,
+  "balanced_accuracy": 0.8343125128839415,
+  "precision": 0.7727272727272727,
+  "recall": 0.6938775510204082,
+  "f1": 0.7311827956989247,
+  "mcc": 0.7011803487338287,
+  "roc_auc": 0.9582044939187797,
+  "pr_auc": 0.8342201465255347,
+  "confusion_matrix": [
+    [
+      386,
+      10
+    ],
+    [
+      15,
+      34
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.97      0.97       396\n           1       0.77      0.69      0.73        49\n\n    accuracy                           0.94       445\n   macro avg       0.87      0.83      0.85       445\nweighted avg       0.94      0.94      0.94       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 10,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.7577152123239079,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.637813599983929,
+  "prediction_time_seconds": 0.00859919999493286,
+  "n_train_samples": 1038,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__original__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__original__HistGradientBoostingClassifier.json"
+}

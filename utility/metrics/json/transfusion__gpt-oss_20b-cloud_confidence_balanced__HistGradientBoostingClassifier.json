@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_20b-cloud__confidence__balanced",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.8888888888888888,
+  "balanced_accuracy": 0.8098398420359807,
+  "precision": 0.8333333333333334,
+  "recall": 0.660377358490566,
+  "f1": 0.7368421052631579,
+  "mcc": 0.6748686069554447,
+  "roc_auc": 0.9475098727512067,
+  "pr_auc": 0.8755085509713934,
+  "confusion_matrix": [
+    [
+      165,
+      7
+    ],
+    [
+      18,
+      35
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.96      0.93       172\n           1       0.83      0.66      0.74        53\n\n    accuracy                           0.89       225\n   macro avg       0.87      0.81      0.83       225\nweighted avg       0.89      0.89      0.88       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 10,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.8096723265331753,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 9.889497199998004,
+  "prediction_time_seconds": 0.008374500001082197,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_20b-cloud_confidence_balanced__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_20b-cloud_confidence_balanced__HistGradientBoostingClassifier.json"
+}

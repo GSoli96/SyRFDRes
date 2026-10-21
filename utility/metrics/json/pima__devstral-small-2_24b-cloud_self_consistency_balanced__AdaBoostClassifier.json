@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8138528138528138,
+  "balanced_accuracy": 0.7841473509933774,
+  "precision": 0.7534246575342466,
+  "recall": 0.6875,
+  "f1": 0.7189542483660131,
+  "mcc": 0.5815902281161395,
+  "roc_auc": 0.8863824503311258,
+  "pr_auc": 0.8158650243717025,
+  "confusion_matrix": [
+    [
+      133,
+      18
+    ],
+    [
+      25,
+      55
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.88      0.86       151\n           1       0.75      0.69      0.72        80\n\n    accuracy                           0.81       231\n   macro avg       0.80      0.78      0.79       231\nweighted avg       0.81      0.81      0.81       231\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7560889644210915,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.26359250000678,
+  "prediction_time_seconds": 0.02819480001926422,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.json"
+}

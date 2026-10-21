@@ -1,0 +1,36 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gemma4_31b-cloud__cot_confidence",
+  "model": "LinearSVC",
+  "accuracy": 0.9797160243407708,
+  "balanced_accuracy": 0.9895178197064989,
+  "precision": 0.6153846153846154,
+  "recall": 1.0,
+  "f1": 0.7619047619047619,
+  "mcc": 0.7761980870937513,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      467,
+      10
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       477\n           1       0.62      1.00      0.76        16\n\n    accuracy                           0.98       493\n   macro avg       0.81      0.99      0.88       493\nweighted avg       0.99      0.98      0.98       493\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.952668783970163,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.786886499990942,
+  "prediction_time_seconds": 0.00322250000317581,
+  "n_train_samples": 3178,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_confidence__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_cot_confidence__LinearSVC.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-1_vs_all",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7435113365155132,
+  "balanced_accuracy": 0.7559923673312146,
+  "precision": 0.613383391694644,
+  "recall": 0.8020833333333334,
+  "f1": 0.6951552964440353,
+  "mcc": 0.49338877094203765,
+  "roc_auc": 0.8267094691650287,
+  "pr_auc": 0.6758414555342043,
+  "confusion_matrix": [
+    [
+      78623,
+      32129
+    ],
+    [
+      12578,
+      50974
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.71      0.78    110752\n           1       0.61      0.80      0.70     63552\n\n    accuracy                           0.74    174304\n   macro avg       0.74      0.76      0.74    174304\nweighted avg       0.77      0.74      0.75    174304\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7642009281889116,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 106.28257850001683,
+  "prediction_time_seconds": 2.528856499993708,
+  "n_train_samples": 50840,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-1_vs_all__Dataset_balanced_fsmote__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-1_vs_all__Dataset_balanced_fsmote__AdaBoostClassifier.json"
+}

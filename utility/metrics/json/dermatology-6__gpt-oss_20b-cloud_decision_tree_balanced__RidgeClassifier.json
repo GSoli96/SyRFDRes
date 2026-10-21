@@ -1,0 +1,35 @@
+{
+  "dataset": "dermatology-6",
+  "augmentation": "gpt-oss_20b-cloud__decision_tree__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9722222222222222,
+  "balanced_accuracy": 0.9852941176470589,
+  "precision": 0.6666666666666666,
+  "recall": 1.0,
+  "f1": 0.8,
+  "mcc": 0.8043996665398437,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      99,
+      3
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.99       102\n           1       0.67      1.00      0.80         6\n\n    accuracy                           0.97       108\n   macro avg       0.83      0.99      0.89       108\nweighted avg       0.98      0.97      0.97       108\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8850525443909512,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.548268000013195,
+  "prediction_time_seconds": 0.006204500095918775,
+  "n_train_samples": 1030,
+  "n_test_samples": 108,
+  "checkpoint_path": "utility\\checkpoints\\dermatology-6__gpt-oss_20b-cloud_decision_tree_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\dermatology-6__gpt-oss_20b-cloud_decision_tree_balanced__RidgeClassifier.json"
+}

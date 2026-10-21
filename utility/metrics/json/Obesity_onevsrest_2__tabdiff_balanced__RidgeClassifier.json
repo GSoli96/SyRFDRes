@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "tabdiff__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.6810207336523126,
+  "balanced_accuracy": 0.7191818745570517,
+  "precision": 0.2612244897959184,
+  "recall": 0.7710843373493976,
+  "f1": 0.3902439024390244,
+  "mcc": 0.3044797434309835,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      363,
+      181
+    ],
+    [
+      19,
+      64
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.67      0.78       544\n           1       0.26      0.77      0.39        83\n\n    accuracy                           0.68       627\n   macro avg       0.61      0.72      0.59       627\nweighted avg       0.86      0.68      0.73       627\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.7062191557561647,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2745011999795679,
+  "prediction_time_seconds": 0.0021450000058393925,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__tabdiff_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__tabdiff_balanced__RidgeClassifier.json"
+}

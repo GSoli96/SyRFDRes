@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9865168539325843,
+  "balanced_accuracy": 0.9924242424242424,
+  "precision": 0.8909090909090909,
+  "recall": 1.0,
+  "f1": 0.9423076923076923,
+  "mcc": 0.9367019100650746,
+  "roc_auc": 0.9992784992784992,
+  "pr_auc": 0.9942887551122153,
+  "confusion_matrix": [
+    [
+      390,
+      6
+    ],
+    [
+      0,
+      49
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       396\n           1       0.89      1.00      0.94        49\n\n    accuracy                           0.99       445\n   macro avg       0.95      0.99      0.97       445\nweighted avg       0.99      0.99      0.99       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.966292392190258,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 23.790605299989693,
+  "prediction_time_seconds": 0.02871929999673739,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.json"
+}

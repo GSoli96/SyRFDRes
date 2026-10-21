@@ -1,0 +1,35 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "gpt-oss_20b-cloud__hierarchical__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9154929577464789,
+  "balanced_accuracy": 0.5438432835820896,
+  "precision": 0.16666666666666666,
+  "recall": 0.125,
+  "f1": 0.14285714285714285,
+  "mcc": 0.10050447088773012,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      129,
+      5
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.96      0.96       134\n           1       0.17      0.12      0.14         8\n\n    accuracy                           0.92       142\n   macro avg       0.56      0.54      0.55       142\nweighted avg       0.90      0.92      0.91       142\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.6732377309813573,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20406799999182113,
+  "prediction_time_seconds": 0.0020093999919481575,
+  "n_train_samples": 1357,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_hierarchical_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__gpt-oss_20b-cloud_hierarchical_balanced__RidgeClassifier.json"
+}

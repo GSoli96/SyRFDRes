@@ -1,0 +1,35 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9056603773584906,
+  "balanced_accuracy": 0.9489795918367347,
+  "precision": 0.4444444444444444,
+  "recall": 1.0,
+  "f1": 0.6153846153846154,
+  "mcc": 0.6317380553057905,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      44,
+      5
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.90      0.95        49\n           1       0.44      1.00      0.62         4\n\n    accuracy                           0.91        53\n   macro avg       0.72      0.95      0.78        53\nweighted avg       0.96      0.91      0.92        53\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.4063626479053406,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39370999997481704,
+  "prediction_time_seconds": 0.0065327000338584185,
+  "n_train_samples": 502,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gpt-oss_120b-cloud_ensemble_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gpt-oss_120b-cloud_ensemble_balanced__RidgeClassifier.json"
+}

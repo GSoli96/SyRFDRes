@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9124579124579124,
+  "balanced_accuracy": 0.7185185185185186,
+  "precision": 0.52,
+  "recall": 0.48148148148148145,
+  "f1": 0.5,
+  "mcc": 0.45250934341994853,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      258,
+      12
+    ],
+    [
+      14,
+      13
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.96      0.95       270\n           1       0.52      0.48      0.50        27\n\n    accuracy                           0.91       297\n   macro avg       0.73      0.72      0.73       297\nweighted avg       0.91      0.91      0.91       297\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.8992687279359057,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23739130000467412,
+  "prediction_time_seconds": 0.002650399983394891,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gemma3_12b_cot_decision_tree__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gemma3_12b_cot_decision_tree__RidgeClassifier.json"
+}

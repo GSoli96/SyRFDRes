@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-1_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "LinearSVC",
+  "accuracy": 0.7544864145401138,
+  "balanced_accuracy": 0.7652658467696296,
+  "precision": 0.627240407012382,
+  "recall": 0.8050730110775428,
+  "f1": 0.7051170739102273,
+  "mcc": 0.5117607872127525,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      80346,
+      30406
+    ],
+    [
+      12388,
+      51164
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.73      0.79    110752\n           1       0.63      0.81      0.71     63552\n\n    accuracy                           0.75    174304\n   macro avg       0.75      0.77      0.75    174304\nweighted avg       0.78      0.75      0.76    174304\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.7729874360466665,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.7212903999898117,
+  "prediction_time_seconds": 0.027422000013757497,
+  "n_train_samples": 50840,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-1_vs_all__Dataset_balanced_TABFAIRGDT__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-1_vs_all__Dataset_balanced_TABFAIRGDT__LinearSVC.json"
+}

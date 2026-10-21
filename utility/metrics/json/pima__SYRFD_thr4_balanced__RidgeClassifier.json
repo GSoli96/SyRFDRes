@@ -1,0 +1,35 @@
+{
+  "dataset": "pima",
+  "augmentation": "SYRFD_thr4__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7445887445887446,
+  "balanced_accuracy": 0.7105960264900661,
+  "precision": 0.64,
+  "recall": 0.6,
+  "f1": 0.6193548387096774,
+  "mcc": 0.42797727050067313,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      124,
+      27
+    ],
+    [
+      32,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.82      0.81       151\n           1       0.64      0.60      0.62        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.71      0.71       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.7384739966200412,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2548755999887362,
+  "prediction_time_seconds": 0.002586399990832433,
+  "n_train_samples": 929,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SYRFD_thr4_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SYRFD_thr4_balanced__RidgeClassifier.json"
+}

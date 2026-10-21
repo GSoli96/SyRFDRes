@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_5",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9665071770334929,
+  "balanced_accuracy": 0.9711060523787645,
+  "precision": 0.8207547169811321,
+  "recall": 0.9775280898876404,
+  "f1": 0.8923076923076924,
+  "mcc": 0.8773300931314585,
+  "roc_auc": 0.9921473622655695,
+  "pr_auc": 0.8956824507028505,
+  "confusion_matrix": [
+    [
+      519,
+      19
+    ],
+    [
+      2,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       538\n           1       0.82      0.98      0.89        89\n\n    accuracy                           0.97       627\n   macro avg       0.91      0.97      0.94       627\nweighted avg       0.97      0.97      0.97       627\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9410056901939372,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5290676000004169,
+  "prediction_time_seconds": 0.00380480001331307,
+  "n_train_samples": 5667,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_5__devstral-small-2_24b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_5__devstral-small-2_24b-cloud_confidence_balanced__LogisticRegression.json"
+}

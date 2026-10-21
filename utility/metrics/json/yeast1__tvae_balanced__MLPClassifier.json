@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "tvae__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.7393258426966293,
+  "balanced_accuracy": 0.7453512903542341,
+  "precision": 0.5355191256830601,
+  "recall": 0.7596899224806202,
+  "f1": 0.6282051282051282,
+  "mcc": 0.4524603717192215,
+  "roc_auc": 0.8528848984397999,
+  "pr_auc": 0.7248138123784941,
+  "confusion_matrix": [
+    [
+      231,
+      85
+    ],
+    [
+      31,
+      98
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.73      0.80       316\n           1       0.54      0.76      0.63       129\n\n    accuracy                           0.74       445\n   macro avg       0.71      0.75      0.71       445\nweighted avg       0.78      0.74      0.75       445\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.7557742756378397,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 64.35222650002106,
+  "prediction_time_seconds": 0.004111100017325953,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__tvae_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__tvae_balanced__MLPClassifier.json"
+}

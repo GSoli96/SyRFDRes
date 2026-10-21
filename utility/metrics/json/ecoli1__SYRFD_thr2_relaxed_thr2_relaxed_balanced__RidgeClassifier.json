@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_thr2_relaxed__thr2_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8811881188118812,
+  "balanced_accuracy": 0.8770903010033444,
+  "precision": 0.6896551724137931,
+  "recall": 0.8695652173913043,
+  "f1": 0.7692307692307693,
+  "mcc": 0.6990710703195939,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      69,
+      9
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.88      0.92        78\n           1       0.69      0.87      0.77        23\n\n    accuracy                           0.88       101\n   macro avg       0.82      0.88      0.84       101\nweighted avg       0.90      0.88      0.89       101\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9174876275129211,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20539369998732582,
+  "prediction_time_seconds": 0.002412899979390204,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_thr2_relaxed_thr2_relaxed_balanced__RidgeClassifier.json"
+}

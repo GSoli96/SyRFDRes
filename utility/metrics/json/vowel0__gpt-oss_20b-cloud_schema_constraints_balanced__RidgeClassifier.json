@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "gpt-oss_20b-cloud__schema_constraints__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.8888888888888888,
+  "balanced_accuracy": 0.9222222222222223,
+  "precision": 0.4482758620689655,
+  "recall": 0.9629629629629629,
+  "f1": 0.611764705882353,
+  "mcc": 0.6123812709002113,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      238,
+      32
+    ],
+    [
+      1,
+      26
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.88      0.94       270\n           1       0.45      0.96      0.61        27\n\n    accuracy                           0.89       297\n   macro avg       0.72      0.92      0.77       297\nweighted avg       0.95      0.89      0.91       297\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.6334223757090928,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2173373999830801,
+  "prediction_time_seconds": 0.0026581999845802784,
+  "n_train_samples": 2783,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__gpt-oss_20b-cloud_schema_constraints_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__gpt-oss_20b-cloud_schema_constraints_balanced__RidgeClassifier.json"
+}

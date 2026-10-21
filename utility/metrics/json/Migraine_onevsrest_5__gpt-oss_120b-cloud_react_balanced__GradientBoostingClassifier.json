@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "gpt-oss_120b-cloud__react__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.9818181818181818,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6941312425025845,
+  "roc_auc": 0.9977272727272728,
+  "pr_auc": 0.95,
+  "confusion_matrix": [
+    [
+      106,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       110\n           1       0.50      1.00      0.67         4\n\n    accuracy                           0.96       114\n   macro avg       0.75      0.98      0.82       114\nweighted avg       0.98      0.96      0.97       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8347185857152788,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.58943900000304,
+  "prediction_time_seconds": 0.0021699999924749136,
+  "n_train_samples": 1103,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__gpt-oss_120b-cloud_react_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__gpt-oss_120b-cloud_react_balanced__GradientBoostingClassifier.json"
+}

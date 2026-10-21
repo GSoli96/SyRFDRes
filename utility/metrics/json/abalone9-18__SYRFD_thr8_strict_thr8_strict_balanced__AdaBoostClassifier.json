@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8858447488584474,
+  "balanced_accuracy": 0.7231142643764004,
+  "precision": 0.2692307692307692,
+  "recall": 0.5384615384615384,
+  "f1": 0.358974358974359,
+  "mcc": 0.3259847550943528,
+  "roc_auc": 0.9053398058252426,
+  "pr_auc": 0.5836719561532994,
+  "confusion_matrix": [
+    [
+      187,
+      19
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.91      0.94       206\n           1       0.27      0.54      0.36        13\n\n    accuracy                           0.89       219\n   macro avg       0.62      0.72      0.65       219\nweighted avg       0.93      0.89      0.90       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9084313751539925,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.617735699983314,
+  "prediction_time_seconds": 0.06784829997923225,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SYRFD_thr8_strict_thr8_strict_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SYRFD_thr8_strict_thr8_strict_balanced__AdaBoostClassifier.json"
+}

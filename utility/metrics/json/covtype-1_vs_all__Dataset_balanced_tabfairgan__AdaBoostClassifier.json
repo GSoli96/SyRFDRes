@@ -1,0 +1,36 @@
+{
+  "dataset": "covtype-1_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7381414081145584,
+  "balanced_accuracy": 0.7494430935829919,
+  "precision": 0.6083384753124509,
+  "recall": 0.7911788771399798,
+  "f1": 0.6878150542047126,
+  "mcc": 0.48088802779943224,
+  "roc_auc": 0.808592528932096,
+  "pr_auc": 0.6456166731978813,
+  "confusion_matrix": [
+    [
+      78380,
+      32372
+    ],
+    [
+      13271,
+      50281
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.71      0.77    110752\n           1       0.61      0.79      0.69     63552\n\n    accuracy                           0.74    174304\n   macro avg       0.73      0.75      0.73    174304\nweighted avg       0.77      0.74      0.74    174304\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7831746696907941,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 96.59959379999782,
+  "prediction_time_seconds": 2.1778232000069693,
+  "n_train_samples": 50840,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-1_vs_all__Dataset_balanced_tabfairgan__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-1_vs_all__Dataset_balanced_tabfairgan__AdaBoostClassifier.json"
+}

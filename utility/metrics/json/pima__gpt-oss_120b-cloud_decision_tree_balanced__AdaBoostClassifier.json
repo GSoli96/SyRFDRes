@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7965367965367965,
+  "balanced_accuracy": 0.765024834437086,
+  "precision": 0.726027397260274,
+  "recall": 0.6625,
+  "f1": 0.6928104575163399,
+  "mcc": 0.5424504341773694,
+  "roc_auc": 0.8837334437086093,
+  "pr_auc": 0.8023793091684001,
+  "confusion_matrix": [
+    [
+      131,
+      20
+    ],
+    [
+      27,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.87      0.85       151\n           1       0.73      0.66      0.69        80\n\n    accuracy                           0.80       231\n   macro avg       0.78      0.77      0.77       231\nweighted avg       0.79      0.80      0.79       231\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7441239332923277,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.772804699983681,
+  "prediction_time_seconds": 0.029303899995284155,
+  "n_train_samples": 1767,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.json"
+}

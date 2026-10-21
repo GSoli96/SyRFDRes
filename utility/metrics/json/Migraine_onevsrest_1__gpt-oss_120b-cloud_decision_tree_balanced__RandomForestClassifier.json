@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_1",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9947916666666667,
+  "precision": 0.9473684210526315,
+  "recall": 1.0,
+  "f1": 0.972972972972973,
+  "mcc": 0.9682458365518543,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      95,
+      1
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99        96\n           1       0.95      1.00      0.97        18\n\n    accuracy                           0.99       114\n   macro avg       0.97      0.99      0.98       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.9291688087304527,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.98427799998899,
+  "prediction_time_seconds": 0.029395699995802715,
+  "n_train_samples": 1011,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_1__gpt-oss_120b-cloud_decision_tree_balanced__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_1__gpt-oss_120b-cloud_decision_tree_balanced__RandomForestClassifier.json"
+}

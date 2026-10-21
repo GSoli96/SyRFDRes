@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.9906542056074766,
+  "precision": 0.7777777777777778,
+  "recall": 1.0,
+  "f1": 0.875,
+  "mcc": 0.8736360085238063,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      105,
+      2
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       107\n           1       0.78      1.00      0.88         7\n\n    accuracy                           0.98       114\n   macro avg       0.89      0.99      0.93       114\nweighted avg       0.99      0.98      0.98       114\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9375647944141094,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.898030900018057,
+  "prediction_time_seconds": 0.006654500000877306,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gemma3_12b_distribution_guidance__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gemma3_12b_distribution_guidance__ExtraTreesClassifier.json"
+}

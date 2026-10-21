@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8426966292134831,
+  "balanced_accuracy": 0.7699685997448729,
+  "precision": 0.8105263157894737,
+  "recall": 0.5968992248062015,
+  "f1": 0.6875,
+  "mcc": 0.5978411728821141,
+  "roc_auc": 0.8946251594544206,
+  "pr_auc": 0.7966442266348048,
+  "confusion_matrix": [
+    [
+      298,
+      18
+    ],
+    [
+      52,
+      77
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.94      0.89       316\n           1       0.81      0.60      0.69       129\n\n    accuracy                           0.84       445\n   macro avg       0.83      0.77      0.79       445\nweighted avg       0.84      0.84      0.83       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.78732259159123,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7868255999928806,
+  "prediction_time_seconds": 0.0016171999741345644,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_decision_tree__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_decision_tree__DecisionTreeClassifier.json"
+}

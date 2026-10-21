@@ -1,0 +1,35 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9259259259259259,
+  "balanced_accuracy": 0.9592592592592593,
+  "precision": 0.5510204081632653,
+  "recall": 1.0,
+  "f1": 0.7105263157894737,
+  "mcc": 0.7114228341707847,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      248,
+      22
+    ],
+    [
+      0,
+      27
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.92      0.96       270\n           1       0.55      1.00      0.71        27\n\n    accuracy                           0.93       297\n   macro avg       0.78      0.96      0.83       297\nweighted avg       0.96      0.93      0.94       297\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.9507342313508683,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.20999279999523424,
+  "prediction_time_seconds": 0.0022713000071235,
+  "n_train_samples": 1796,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__Dataset_balanced_TABFAIRGDT__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__Dataset_balanced_TABFAIRGDT__RidgeClassifier.json"
+}

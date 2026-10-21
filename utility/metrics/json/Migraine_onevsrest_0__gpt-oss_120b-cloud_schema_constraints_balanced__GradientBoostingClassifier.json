@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9912280701754386,
+  "balanced_accuracy": 0.9931506849315068,
+  "precision": 0.9761904761904762,
+  "recall": 1.0,
+  "f1": 0.9879518072289156,
+  "mcc": 0.9812328999345131,
+  "roc_auc": 0.9986635482793184,
+  "pr_auc": 0.99758924894261,
+  "confusion_matrix": [
+    [
+      72,
+      1
+    ],
+    [
+      0,
+      41
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99        73\n           1       0.98      1.00      0.99        41\n\n    accuracy                           0.99       114\n   macro avg       0.99      0.99      0.99       114\nweighted avg       0.99      0.99      0.99       114\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.982403491291236,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.901029800006654,
+  "prediction_time_seconds": 0.003945700009353459,
+  "n_train_samples": 859,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gpt-oss_120b-cloud_schema_constraints_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gpt-oss_120b-cloud_schema_constraints_balanced__GradientBoostingClassifier.json"
+}

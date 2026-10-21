@@ -1,0 +1,38 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SMOTE__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9405940594059405,
+  "balanced_accuracy": 0.930880713489409,
+  "precision": 0.84,
+  "recall": 0.9130434782608695,
+  "f1": 0.875,
+  "mcc": 0.8373778516137689,
+  "roc_auc": 0.9782608695652173,
+  "pr_auc": 0.9374283186115779,
+  "confusion_matrix": [
+    [
+      74,
+      4
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.95      0.96        78\n           1       0.84      0.91      0.88        23\n\n    accuracy                           0.94       101\n   macro avg       0.91      0.93      0.92       101\nweighted avg       0.94      0.94      0.94       101\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.8922030651340996,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.234519499994349,
+  "prediction_time_seconds": 0.00875920001999475,
+  "n_train_samples": 461,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SMOTE_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SMOTE_balanced__MLPClassifier.json"
+}

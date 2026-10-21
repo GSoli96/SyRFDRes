@@ -1,0 +1,37 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.78677,
+  "balanced_accuracy": 0.7816431738536593,
+  "precision": 0.7938922238277686,
+  "recall": 0.7212347089231702,
+  "f1": 0.7558213303345876,
+  "mcc": 0.5694075924920907,
+  "roc_auc": 0.8578601116977591,
+  "pr_auc": 0.8582637774486297,
+  "confusion_matrix": [
+    [
+      685137,
+      128515
+    ],
+    [
+      191330,
+      495018
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.78      0.84      0.81    813652\n           1       0.79      0.72      0.76    686348\n\n    accuracy                           0.79   1500000\n   macro avg       0.79      0.78      0.78   1500000\nweighted avg       0.79      0.79      0.79   1500000\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.7760489016310114,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 212.27537699998356,
+  "prediction_time_seconds": 98.41174149999279,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_fsmote__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_fsmote__ExtraTreesClassifier.json"
+}

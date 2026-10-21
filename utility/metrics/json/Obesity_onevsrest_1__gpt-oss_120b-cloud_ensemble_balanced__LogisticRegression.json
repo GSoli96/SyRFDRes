@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_1",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8389154704944178,
+  "balanced_accuracy": 0.7629911004992402,
+  "precision": 0.4375,
+  "recall": 0.6588235294117647,
+  "f1": 0.5258215962441315,
+  "mcc": 0.44670919967154477,
+  "roc_auc": 0.8682439765574126,
+  "pr_auc": 0.46687068351675115,
+  "confusion_matrix": [
+    [
+      470,
+      72
+    ],
+    [
+      29,
+      56
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.87      0.90       542\n           1       0.44      0.66      0.53        85\n\n    accuracy                           0.84       627\n   macro avg       0.69      0.76      0.71       627\nweighted avg       0.87      0.84      0.85       627\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5225646540743474,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4577976999862585,
+  "prediction_time_seconds": 0.0020938000234309584,
+  "n_train_samples": 5697,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_1__gpt-oss_120b-cloud_ensemble_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_1__gpt-oss_120b-cloud_ensemble_balanced__LogisticRegression.json"
+}

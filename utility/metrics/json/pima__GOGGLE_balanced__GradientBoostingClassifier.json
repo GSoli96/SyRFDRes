@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "GOGGLE__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8441558441558441,
+  "balanced_accuracy": 0.8014486754966887,
+  "precision": 0.8548387096774194,
+  "recall": 0.6625,
+  "f1": 0.7464788732394366,
+  "mcc": 0.6473477543253247,
+  "roc_auc": 0.9263245033112583,
+  "pr_auc": 0.8926175839828495,
+  "confusion_matrix": [
+    [
+      142,
+      9
+    ],
+    [
+      27,
+      53
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.84      0.94      0.89       151\n           1       0.85      0.66      0.75        80\n\n    accuracy                           0.84       231\n   macro avg       0.85      0.80      0.82       231\nweighted avg       0.85      0.84      0.84       231\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8165157273864848,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.97576209998806,
+  "prediction_time_seconds": 0.0027731999871321023,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__GOGGLE_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__GOGGLE_balanced__GradientBoostingClassifier.json"
+}

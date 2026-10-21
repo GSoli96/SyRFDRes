@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "SYRFD_thr8_relaxed__thr8_relaxed_balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9545454545454546,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "f1": 0.9523809523809523,
+  "mcc": 0.9447549859466603,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99        54\n           1       1.00      0.91      0.95        11\n\n    accuracy                           0.98        65\n   macro avg       0.99      0.95      0.97        65\nweighted avg       0.98      0.98      0.98        65\n",
+  "best_params": {
+    "model__max_depth": 3,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9829282886863666,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5964729999832343,
+  "prediction_time_seconds": 0.001639699999941513,
+  "n_train_samples": 358,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__SYRFD_thr8_relaxed_thr8_relaxed_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__SYRFD_thr8_relaxed_thr8_relaxed_balanced__DecisionTreeClassifier.json"
+}

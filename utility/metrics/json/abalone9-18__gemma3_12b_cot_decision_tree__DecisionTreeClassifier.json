@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.958904109589041,
+  "balanced_accuracy": 0.6538461538461539,
+  "precision": 1.0,
+  "recall": 0.3076923076923077,
+  "f1": 0.47058823529411764,
+  "mcc": 0.5429660805055934,
+  "roc_auc": 0.7725914861837192,
+  "pr_auc": 0.5194763036868301,
+  "confusion_matrix": [
+    [
+      206,
+      0
+    ],
+    [
+      9,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      1.00      0.98       206\n           1       1.00      0.31      0.47        13\n\n    accuracy                           0.96       219\n   macro avg       0.98      0.65      0.72       219\nweighted avg       0.96      0.96      0.95       219\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.9440396575122835,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.4171254000393674,
+  "prediction_time_seconds": 0.0041658999980427325,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma3_12b_cot_decision_tree__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma3_12b_cot_decision_tree__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Runtime and Memory Comparison between SyRFDRes and SOTA Baselines.}
+\label{tab:runtime_memory_comparison}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{llcc}
+\toprule
+\textbf{Algorithm} & \textbf{Type} & \textbf{Execution Time (s)} & \textbf{Peak Memory (MB)} \\
+\midrule
+CasTGAN & SOTA Baseline & $1694.83 \pm 5177.92$ & $38.96 \pm 131.22$ \\
+CTAB-GAN & SOTA Baseline & $56.29 \pm 193.91$ & $1149.05 \pm 897.22$ \\
+CTAB-GAN+ & SOTA Baseline & $366.79 \pm 316.48$ & $1771.87 \pm 1060.66$ \\
+CUTS & SOTA Baseline & $34.18 \pm 38.93$ & $0.81 \pm 0.49$ \\
+TabDDPM & SOTA Baseline & $10.47 \pm 2.96$ & $594.73 \pm 265.48$ \\
+Fair-SMOTE & SOTA Baseline & $21.16 \pm 123.75$ & $29.19 \pm 123.92$ \\
+GOGGLE & SOTA Baseline & $190.56 \pm 645.46$ & $451.44 \pm 218.86$ \\
+PreFair & SOTA Baseline & $1.53 \pm 2.62$ & $24.84 \pm 112.44$ \\
+SMOTE & SOTA Baseline & $21.08 \pm 123.33$ & $29.36 \pm 123.88$ \\
+SMOTE-CDNN & SOTA Baseline & $21.06 \pm 123.31$ & $29.27 \pm 123.91$ \\
+TabFairGAN & SOTA Baseline & $201.11 \pm 880.15$ & $17.48 \pm 79.18$ \\
+Tabular-ARGN & SOTA Baseline & $34.14 \pm 128.49$ & $0.98 \pm 0.62$ \\
+TVAE & SOTA Baseline & $46.71 \pm 171.83$ & $710.43 \pm 761.24$ \\
+\textbf{SyRFDRes (Relaxed)} & SyRFDRes (Ours) & $175.88 \pm 160.57$ & $1393.19 \pm 2977.54$ \\
+\textbf{SyRFDRes (Strict)} & SyRFDRes (Ours) & $189.44 \pm 164.68$ & $691.27 \pm 262.93$ \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

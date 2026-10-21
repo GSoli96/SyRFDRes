@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9680365296803652,
+  "balanced_accuracy": 0.7668035847647499,
+  "precision": 0.875,
+  "recall": 0.5384615384615384,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6721105636350284,
+  "roc_auc": 0.9464152352501867,
+  "pr_auc": 0.7170522078011958,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       206\n           1       0.88      0.54      0.67        13\n\n    accuracy                           0.97       219\n   macro avg       0.92      0.77      0.82       219\nweighted avg       0.97      0.97      0.96       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8742282926729116,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.351287199999206,
+  "prediction_time_seconds": 0.08482389996061102,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_120b-cloud_decision_tree_balanced__AdaBoostClassifier.json"
+}

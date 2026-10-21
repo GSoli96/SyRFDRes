@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "SYRFD_variable_strict__variable_strict_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.696969696969697,
+  "balanced_accuracy": 0.6392172961138478,
+  "precision": 0.2885572139303483,
+  "recall": 0.5523809523809524,
+  "f1": 0.3790849673202614,
+  "mcc": 0.2227666957243064,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      379,
+      143
+    ],
+    [
+      47,
+      58
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.73      0.80       522\n           1       0.29      0.55      0.38       105\n\n    accuracy                           0.70       627\n   macro avg       0.59      0.64      0.59       627\nweighted avg       0.79      0.70      0.73       627\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8324974727129651,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3259521999862045,
+  "prediction_time_seconds": 0.0020265000057406723,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__SYRFD_variable_strict_variable_strict_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__SYRFD_variable_strict_variable_strict_balanced__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7101123595505618,
+  "balanced_accuracy": 0.511468452556177,
+  "precision": 0.5,
+  "recall": 0.03875968992248062,
+  "f1": 0.07194244604316546,
+  "mcc": 0.07021478751814768,
+  "roc_auc": 0.62412913354921,
+  "pr_auc": 0.4117105072104366,
+  "confusion_matrix": [
+    [
+      311,
+      5
+    ],
+    [
+      124,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.71      0.98      0.83       316\n           1       0.50      0.04      0.07       129\n\n    accuracy                           0.71       445\n   macro avg       0.61      0.51      0.45       445\nweighted avg       0.65      0.71      0.61       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7324120831252684,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39325980001012795,
+  "prediction_time_seconds": 0.0017949000175576657,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__GOGGLE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__GOGGLE_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7370786516853932,
+  "balanced_accuracy": 0.695601511137278,
+  "precision": 0.5422535211267606,
+  "recall": 0.5968992248062015,
+  "f1": 0.5682656826568265,
+  "mcc": 0.38078086081926565,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      251,
+      65
+    ],
+    [
+      52,
+      77
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.79      0.81       316\n           1       0.54      0.60      0.57       129\n\n    accuracy                           0.74       445\n   macro avg       0.69      0.70      0.69       445\nweighted avg       0.75      0.74      0.74       445\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.45926533748884674,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27004539998597465,
+  "prediction_time_seconds": 0.0020877000060863793,
+  "n_train_samples": 3591,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gpt-oss_120b-cloud_self_consistency_balanced__RidgeClassifier.json"
+}

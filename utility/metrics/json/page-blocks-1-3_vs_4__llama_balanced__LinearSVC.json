@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "llama__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9436619718309859,
+  "balanced_accuracy": 0.9701492537313433,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6856743058707562,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      126,
+      8
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97       134\n           1       0.50      1.00      0.67         8\n\n    accuracy                           0.94       142\n   macro avg       0.75      0.97      0.82       142\nweighted avg       0.97      0.94      0.95       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.976306919069631,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.26274910001666285,
+  "prediction_time_seconds": 0.0018402000132482499,
+  "n_train_samples": 878,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__llama_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__llama_balanced__LinearSVC.json"
+}

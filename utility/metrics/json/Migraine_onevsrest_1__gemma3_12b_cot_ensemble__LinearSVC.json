@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_1",
+  "augmentation": "gemma3_12b__cot_ensemble",
+  "model": "LinearSVC",
+  "accuracy": 0.9385964912280702,
+  "balanced_accuracy": 0.9409722222222222,
+  "precision": 0.7391304347826086,
+  "recall": 0.9444444444444444,
+  "f1": 0.8292682926829268,
+  "mcc": 0.8013615185948421,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      90,
+      6
+    ],
+    [
+      1,
+      17
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.94      0.96        96\n           1       0.74      0.94      0.83        18\n\n    accuracy                           0.94       114\n   macro avg       0.86      0.94      0.90       114\nweighted avg       0.95      0.94      0.94       114\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9010765708886996,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.27285040001152083,
+  "prediction_time_seconds": 0.0022914000146556646,
+  "n_train_samples": 634,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_1__gemma3_12b_cot_ensemble__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_1__gemma3_12b_cot_ensemble__LinearSVC.json"
+}

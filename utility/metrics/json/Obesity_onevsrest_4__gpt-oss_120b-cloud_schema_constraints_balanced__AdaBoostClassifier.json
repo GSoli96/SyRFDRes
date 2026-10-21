@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8740031897926634,
+  "balanced_accuracy": 0.833032293377121,
+  "precision": 0.5955882352941176,
+  "recall": 0.7714285714285715,
+  "f1": 0.6721991701244814,
+  "mcc": 0.6034427092442819,
+  "roc_auc": 0.9177704798394455,
+  "pr_auc": 0.6969597665472499,
+  "confusion_matrix": [
+    [
+      467,
+      55
+    ],
+    [
+      24,
+      81
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.89      0.92       522\n           1       0.60      0.77      0.67       105\n\n    accuracy                           0.87       627\n   macro avg       0.77      0.83      0.80       627\nweighted avg       0.89      0.87      0.88       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8246822389781849,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.847107200010214,
+  "prediction_time_seconds": 0.037452799995662645,
+  "n_train_samples": 5559,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gpt-oss_120b-cloud_schema_constraints_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gpt-oss_120b-cloud_schema_constraints_balanced__AdaBoostClassifier.json"
+}

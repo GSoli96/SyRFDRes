@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7777777777777778,
+  "balanced_accuracy": 0.7175844668714348,
+  "precision": 0.5245901639344263,
+  "recall": 0.6037735849056604,
+  "f1": 0.5614035087719298,
+  "mcc": 0.4154064166805667,
+  "roc_auc": 0.7757240017551558,
+  "pr_auc": 0.520287725497333,
+  "confusion_matrix": [
+    [
+      143,
+      29
+    ],
+    [
+      21,
+      32
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.83      0.85       172\n           1       0.52      0.60      0.56        53\n\n    accuracy                           0.78       225\n   macro avg       0.70      0.72      0.71       225\nweighted avg       0.79      0.78      0.78       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8165116640790467,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.11909000002197,
+  "prediction_time_seconds": 0.024275500007206574,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr4_relaxed_thr4_relaxed_balanced__AdaBoostClassifier.json"
+}

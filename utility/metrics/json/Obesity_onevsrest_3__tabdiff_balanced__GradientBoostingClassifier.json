@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_3",
+  "augmentation": "tabdiff__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9792663476874003,
+  "balanced_accuracy": 0.9879629629629629,
+  "precision": 0.87,
+  "recall": 1.0,
+  "f1": 0.93048128342246,
+  "mcc": 0.9214421064589764,
+  "roc_auc": 0.9993401447424437,
+  "pr_auc": 0.9957197587167353,
+  "confusion_matrix": [
+    [
+      527,
+      13
+    ],
+    [
+      0,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       540\n           1       0.87      1.00      0.93        87\n\n    accuracy                           0.98       627\n   macro avg       0.94      0.99      0.96       627\nweighted avg       0.98      0.98      0.98       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9611512804815409,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 22.233167200000025,
+  "prediction_time_seconds": 0.004352700023446232,
+  "n_train_samples": 3594,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_3__tabdiff_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_3__tabdiff_balanced__GradientBoostingClassifier.json"
+}

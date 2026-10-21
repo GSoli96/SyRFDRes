@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "LogisticRegression",
+  "accuracy": 0.7990867579908676,
+  "balanced_accuracy": 0.6409634055265123,
+  "precision": 0.13953488372093023,
+  "recall": 0.46153846153846156,
+  "f1": 0.21428571428571427,
+  "mcc": 0.1677069665554022,
+  "roc_auc": 0.664301717699776,
+  "pr_auc": 0.20836681833679083,
+  "confusion_matrix": [
+    [
+      169,
+      37
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.82      0.88       206\n           1       0.14      0.46      0.21        13\n\n    accuracy                           0.80       219\n   macro avg       0.55      0.64      0.55       219\nweighted avg       0.91      0.80      0.85       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7856367339981828,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6413878999883309,
+  "prediction_time_seconds": 0.005088900041300803,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma3_12b_cot_hierarchical__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma3_12b_cot_hierarchical__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "casTGAN__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9415730337078652,
+  "balanced_accuracy": 0.8992248062015504,
+  "precision": 1.0,
+  "recall": 0.7984496124031008,
+  "f1": 0.8879310344827587,
+  "mcc": 0.858923026048638,
+  "roc_auc": 0.9990678049259151,
+  "pr_auc": 0.9978510887847104,
+  "confusion_matrix": [
+    [
+      316,
+      0
+    ],
+    [
+      26,
+      103
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      1.00      0.96       316\n           1       1.00      0.80      0.89       129\n\n    accuracy                           0.94       445\n   macro avg       0.96      0.90      0.92       445\nweighted avg       0.95      0.94      0.94       445\n",
+  "best_params": {
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.7363022966516002,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.460591599985491,
+  "prediction_time_seconds": 0.011042700003599748,
+  "n_train_samples": 1742,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__casTGAN_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__casTGAN_balanced__ExtraTreesClassifier.json"
+}

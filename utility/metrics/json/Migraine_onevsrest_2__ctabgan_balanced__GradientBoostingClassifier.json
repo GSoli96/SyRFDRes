@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "ctabgan__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.7142857142857143,
+  "precision": 1.0,
+  "recall": 0.42857142857142855,
+  "f1": 0.6,
+  "mcc": 0.6427498838019445,
+  "roc_auc": 0.9973297730307077,
+  "pr_auc": 0.9642857142857142,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      1.00      0.98       107\n           1       1.00      0.43      0.60         7\n\n    accuracy                           0.96       114\n   macro avg       0.98      0.71      0.79       114\nweighted avg       0.97      0.96      0.96       114\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.979747950619317,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.249635299987858,
+  "prediction_time_seconds": 0.0027055000246036798,
+  "n_train_samples": 706,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__ctabgan_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__ctabgan_balanced__GradientBoostingClassifier.json"
+}

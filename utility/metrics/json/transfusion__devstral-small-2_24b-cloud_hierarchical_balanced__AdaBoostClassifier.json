@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__hierarchical__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7911111111111111,
+  "balanced_accuracy": 0.719778411584028,
+  "precision": 0.5535714285714286,
+  "recall": 0.5849056603773585,
+  "f1": 0.5688073394495413,
+  "mcc": 0.4313996797509012,
+  "roc_auc": 0.7708424747696359,
+  "pr_auc": 0.49410373894869375,
+  "confusion_matrix": [
+    [
+      147,
+      25
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.85      0.86       172\n           1       0.55      0.58      0.57        53\n\n    accuracy                           0.79       225\n   macro avg       0.71      0.72      0.72       225\nweighted avg       0.80      0.79      0.79       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.6968761483608622,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.159932000009576,
+  "prediction_time_seconds": 0.017854100005934015,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_hierarchical_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_hierarchical_balanced__AdaBoostClassifier.json"
+}

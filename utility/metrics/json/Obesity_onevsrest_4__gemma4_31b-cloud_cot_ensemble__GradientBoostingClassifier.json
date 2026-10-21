@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9904306220095693,
+  "balanced_accuracy": 0.990448823207444,
+  "precision": 0.9541284403669725,
+  "recall": 0.9904761904761905,
+  "f1": 0.9719626168224299,
+  "mcc": 0.9664412639852678,
+  "roc_auc": 0.9994891443167305,
+  "pr_auc": 0.9979949874686715,
+  "confusion_matrix": [
+    [
+      517,
+      5
+    ],
+    [
+      1,
+      104
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       522\n           1       0.95      0.99      0.97       105\n\n    accuracy                           0.99       627\n   macro avg       0.98      0.99      0.98       627\nweighted avg       0.99      0.99      0.99       627\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9500866401391805,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 18.923496200004593,
+  "prediction_time_seconds": 0.004031100019346923,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__gemma4_31b-cloud_cot_ensemble__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__gemma4_31b-cloud_cot_ensemble__GradientBoostingClassifier.json"
+}

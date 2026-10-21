@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "SYRFD_thr2_strict__thr2_strict_balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9245283018867925,
+  "balanced_accuracy": 0.9591836734693877,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6776309271789385,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      45,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.92      0.96        49\n           1       0.50      1.00      0.67         4\n\n    accuracy                           0.92        53\n   macro avg       0.75      0.96      0.81        53\nweighted avg       0.96      0.92      0.94        53\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9701263141974387,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.1082214000052772,
+  "prediction_time_seconds": 0.009113900014199317,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__SYRFD_thr2_strict_thr2_strict_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__SYRFD_thr2_strict_thr2_strict_balanced__KNeighborsClassifier.json"
+}

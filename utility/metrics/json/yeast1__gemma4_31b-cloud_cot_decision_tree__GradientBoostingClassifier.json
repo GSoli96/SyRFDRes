@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8247191011235955,
+  "balanced_accuracy": 0.7710725149641842,
+  "precision": 0.7217391304347827,
+  "recall": 0.6434108527131783,
+  "f1": 0.680327868852459,
+  "mcc": 0.5618857099317255,
+  "roc_auc": 0.8651751545481307,
+  "pr_auc": 0.7299071867204716,
+  "confusion_matrix": [
+    [
+      284,
+      32
+    ],
+    [
+      46,
+      83
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.90      0.88       316\n           1       0.72      0.64      0.68       129\n\n    accuracy                           0.82       445\n   macro avg       0.79      0.77      0.78       445\nweighted avg       0.82      0.82      0.82       445\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8199373172507294,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 10.089837699983036,
+  "prediction_time_seconds": 0.002577799983555451,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_decision_tree__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_decision_tree__GradientBoostingClassifier.json"
+}

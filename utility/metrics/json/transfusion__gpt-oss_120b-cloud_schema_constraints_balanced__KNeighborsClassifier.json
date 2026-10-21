@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__schema_constraints__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9022222222222223,
+  "balanced_accuracy": 0.8381417288284335,
+  "precision": 0.8444444444444444,
+  "recall": 0.7169811320754716,
+  "f1": 0.7755102040816326,
+  "mcc": 0.7174446695622472,
+  "roc_auc": 0.9325910487055727,
+  "pr_auc": 0.8709598874530495,
+  "confusion_matrix": [
+    [
+      165,
+      7
+    ],
+    [
+      15,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.96      0.94       172\n           1       0.84      0.72      0.78        53\n\n    accuracy                           0.90       225\n   macro avg       0.88      0.84      0.86       225\nweighted avg       0.90      0.90      0.90       225\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.8171704933627731,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5692227999970783,
+  "prediction_time_seconds": 0.004236800014041364,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_schema_constraints_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_schema_constraints_balanced__KNeighborsClassifier.json"
+}

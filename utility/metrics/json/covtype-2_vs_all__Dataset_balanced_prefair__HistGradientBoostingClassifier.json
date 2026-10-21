@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "Dataset_balanced_prefair",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.827313199926565,
+  "balanced_accuracy": 0.8281168586034326,
+  "precision": 0.8003392427226964,
+  "recall": 0.8605130015295918,
+  "f1": 0.8293360548846176,
+  "mcc": 0.6568051159612932,
+  "roc_auc": 0.9141234450713518,
+  "pr_auc": 0.9061060239570486,
+  "confusion_matrix": [
+    [
+      71069,
+      18245
+    ],
+    [
+      11855,
+      73135
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.80      0.83     89314\n           1       0.80      0.86      0.83     84990\n\n    accuracy                           0.83    174304\n   macro avg       0.83      0.83      0.83    174304\nweighted avg       0.83      0.83      0.83    174304\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.8263518958667412,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 21.395624199998565,
+  "prediction_time_seconds": 0.6274822000123095,
+  "n_train_samples": 40912,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__Dataset_balanced_prefair__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__Dataset_balanced_prefair__HistGradientBoostingClassifier.json"
+}

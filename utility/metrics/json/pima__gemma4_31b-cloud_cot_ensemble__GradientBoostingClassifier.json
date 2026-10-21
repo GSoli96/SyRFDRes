@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_ensemble",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8874458874458875,
+  "balanced_accuracy": 0.8698261589403973,
+  "precision": 0.8552631578947368,
+  "recall": 0.8125,
+  "f1": 0.8333333333333334,
+  "mcc": 0.7490114288619241,
+  "roc_auc": 0.9668046357615894,
+  "pr_auc": 0.9439512790527131,
+  "confusion_matrix": [
+    [
+      140,
+      11
+    ],
+    [
+      15,
+      65
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.93      0.92       151\n           1       0.86      0.81      0.83        80\n\n    accuracy                           0.89       231\n   macro avg       0.88      0.87      0.87       231\nweighted avg       0.89      0.89      0.89       231\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.819537081617514,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 8.689659600000596,
+  "prediction_time_seconds": 0.002486000012140721,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_ensemble__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_ensemble__GradientBoostingClassifier.json"
+}

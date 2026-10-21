@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8008658008658008,
+  "balanced_accuracy": 0.7859685430463577,
+  "precision": 0.7023809523809523,
+  "recall": 0.7375,
+  "f1": 0.7195121951219512,
+  "mcc": 0.5656964002170626,
+  "roc_auc": 0.8827814569536424,
+  "pr_auc": 0.799364015604435,
+  "confusion_matrix": [
+    [
+      126,
+      25
+    ],
+    [
+      21,
+      59
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.83      0.85       151\n           1       0.70      0.74      0.72        80\n\n    accuracy                           0.80       231\n   macro avg       0.78      0.79      0.78       231\nweighted avg       0.80      0.80      0.80       231\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7681300051475489,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.1835727999859955,
+  "prediction_time_seconds": 0.018584199977340177,
+  "n_train_samples": 914,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__SMOTECDNN_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__SMOTECDNN_balanced__AdaBoostClassifier.json"
+}

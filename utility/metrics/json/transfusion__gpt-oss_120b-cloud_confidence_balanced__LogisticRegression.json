@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7466666666666667,
+  "balanced_accuracy": 0.723343571741992,
+  "precision": 0.47368421052631576,
+  "recall": 0.6792452830188679,
+  "f1": 0.5581395348837209,
+  "mcc": 0.40077966758832245,
+  "roc_auc": 0.7770403685827117,
+  "pr_auc": 0.5284751321928975,
+  "confusion_matrix": [
+    [
+      132,
+      40
+    ],
+    [
+      17,
+      36
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.77      0.82       172\n           1       0.47      0.68      0.56        53\n\n    accuracy                           0.75       225\n   macro avg       0.68      0.72      0.69       225\nweighted avg       0.79      0.75      0.76       225\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5484805075256423,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.32157210001605563,
+  "prediction_time_seconds": 0.001656300009926781,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.json"
+}

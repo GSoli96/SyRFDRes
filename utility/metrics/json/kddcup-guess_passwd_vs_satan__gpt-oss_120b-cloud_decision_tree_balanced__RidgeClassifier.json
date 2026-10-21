@@ -1,0 +1,35 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9939148073022313,
+  "balanced_accuracy": 0.9968553459119497,
+  "precision": 0.8421052631578947,
+  "recall": 1.0,
+  "f1": 0.9142857142857143,
+  "mcc": 0.9147726513408555,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      474,
+      3
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       477\n           1       0.84      1.00      0.91        16\n\n    accuracy                           0.99       493\n   macro avg       0.92      1.00      0.96       493\nweighted avg       0.99      0.99      0.99       493\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.768367948457805,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39606800000183284,
+  "prediction_time_seconds": 0.002085100015392527,
+  "n_train_samples": 4819,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_decision_tree_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_decision_tree_balanced__RidgeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9595505617977528,
+  "balanced_accuracy": 0.8967996289424861,
+  "precision": 0.8163265306122449,
+  "recall": 0.8163265306122449,
+  "f1": 0.8163265306122449,
+  "mcc": 0.7935992578849722,
+  "roc_auc": 0.987012987012987,
+  "pr_auc": 0.888611752678808,
+  "confusion_matrix": [
+    [
+      387,
+      9
+    ],
+    [
+      9,
+      40
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98       396\n           1       0.82      0.82      0.82        49\n\n    accuracy                           0.96       445\n   macro avg       0.90      0.90      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__n_neighbors": 3,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9594750600437143,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.0861652999883518,
+  "prediction_time_seconds": 0.011948100000154227,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma4_31b-cloud_cot_decision_tree__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma4_31b-cloud_cot_decision_tree__KNeighborsClassifier.json"
+}

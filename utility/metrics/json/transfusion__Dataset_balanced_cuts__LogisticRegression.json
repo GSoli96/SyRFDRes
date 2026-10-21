@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_cuts",
+  "model": "LogisticRegression",
+  "accuracy": 0.7688888888888888,
+  "balanced_accuracy": 0.6008117595436595,
+  "precision": 0.5172413793103449,
+  "recall": 0.2830188679245283,
+  "f1": 0.36585365853658536,
+  "mcc": 0.2553385067030913,
+  "roc_auc": 0.7560881965774462,
+  "pr_auc": 0.45713918954297594,
+  "confusion_matrix": [
+    [
+      158,
+      14
+    ],
+    [
+      38,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.81      0.92      0.86       172\n           1       0.52      0.28      0.37        53\n\n    accuracy                           0.77       225\n   macro avg       0.66      0.60      0.61       225\nweighted avg       0.74      0.77      0.74       225\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7804861536161459,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.34202539999387227,
+  "prediction_time_seconds": 0.0026378999755252153,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_cuts__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_cuts__LogisticRegression.json"
+}

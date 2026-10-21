@@ -1,0 +1,37 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gpt-oss_120b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8769230769230769,
+  "balanced_accuracy": 0.9259259259259259,
+  "precision": 0.5789473684210527,
+  "recall": 1.0,
+  "f1": 0.7333333333333333,
+  "mcc": 0.7022658954514522,
+  "roc_auc": 0.9983164983164984,
+  "pr_auc": 0.9924242424242425,
+  "confusion_matrix": [
+    [
+      46,
+      8
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.85      0.92        54\n           1       0.58      1.00      0.73        11\n\n    accuracy                           0.88        65\n   macro avg       0.79      0.93      0.83        65\nweighted avg       0.93      0.88      0.89        65\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5751848909743646,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.29751459998078644,
+  "prediction_time_seconds": 0.002092500013532117,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gpt-oss_120b-cloud_confidence_balanced__LogisticRegression.json"
+}

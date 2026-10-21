@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__schema_constraints",
+  "model": "LinearSVC",
+  "accuracy": 0.8613861386138614,
+  "balanced_accuracy": 0.8795986622073578,
+  "precision": 0.6363636363636364,
+  "recall": 0.9130434782608695,
+  "f1": 0.75,
+  "mcc": 0.678819738230313,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      66,
+      12
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.85      0.90        78\n           1       0.64      0.91      0.75        23\n\n    accuracy                           0.86       101\n   macro avg       0.80      0.88      0.83       101\nweighted avg       0.89      0.86      0.87       101\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8781573143837296,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2362476999987848,
+  "prediction_time_seconds": 0.0024320000084117055,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_schema_constraints__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_schema_constraints__LinearSVC.json"
+}

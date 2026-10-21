@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "LinearSVC",
+  "accuracy": 0.6853932584269663,
+  "balanced_accuracy": 0.787466501752216,
+  "precision": 0.24861878453038674,
+  "recall": 0.9183673469387755,
+  "f1": 0.391304347826087,
+  "mcc": 0.36637144867466537,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      260,
+      136
+    ],
+    [
+      4,
+      45
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.66      0.79       396\n           1       0.25      0.92      0.39        49\n\n    accuracy                           0.69       445\n   macro avg       0.62      0.79      0.59       445\nweighted avg       0.90      0.69      0.74       445\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.6161806605372715,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3445345000072848,
+  "prediction_time_seconds": 0.0027728000131901354,
+  "n_train_samples": 2640,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gemma4_31b-cloud_cot_decision_tree__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gemma4_31b-cloud_cot_decision_tree__LinearSVC.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "iris0",
+  "augmentation": "gemma4_31b-cloud__cot_decision_tree",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9777777777777777,
+  "balanced_accuracy": 0.9833333333333334,
+  "precision": 0.9375,
+  "recall": 1.0,
+  "f1": 0.967741935483871,
+  "mcc": 0.9519716382329885,
+  "roc_auc": 0.9999999999999999,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      29,
+      1
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.98        30\n           1       0.94      1.00      0.97        15\n\n    accuracy                           0.98        45\n   macro avg       0.97      0.98      0.98        45\nweighted avg       0.98      0.98      0.98        45\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8488656059863491,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 13.151528300018981,
+  "prediction_time_seconds": 0.00553969998145476,
+  "n_train_samples": 200,
+  "n_test_samples": 45,
+  "checkpoint_path": "utility\\checkpoints\\iris0__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\iris0__gemma4_31b-cloud_cot_decision_tree__RandomForestClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-2_vs_all",
+  "augmentation": "original",
+  "model": "LGBMClassifier",
+  "accuracy": 0.8457981457683128,
+  "balanced_accuracy": 0.8463383371321045,
+  "precision": 0.8248295136948016,
+  "recall": 0.8681138957524415,
+  "f1": 0.8459183673469388,
+  "mcc": 0.692704350880561,
+  "roc_auc": 0.9322046914189193,
+  "pr_auc": 0.9277995424426466,
+  "confusion_matrix": [
+    [
+      73645,
+      15669
+    ],
+    [
+      11209,
+      73781
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.82      0.85     89314\n           1       0.82      0.87      0.85     84990\n\n    accuracy                           0.85    174304\n   macro avg       0.85      0.85      0.85    174304\nweighted avg       0.85      0.85      0.85    174304\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__n_estimators": 300,
+    "model__num_leaves": 31
+  },
+  "cv_best_score": 0.8482603582241058,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 347.4920337999938,
+  "prediction_time_seconds": 4.464810699981172,
+  "n_train_samples": 406708,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-2_vs_all__original__LGBMClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-2_vs_all__original__LGBMClassifier.json"
+}

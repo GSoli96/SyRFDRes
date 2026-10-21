@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9244444444444444,
+  "balanced_accuracy": 0.8526766125493637,
+  "precision": 0.95,
+  "recall": 0.7169811320754716,
+  "f1": 0.8172043010752689,
+  "mcc": 0.7828759555694371,
+  "roc_auc": 0.9610574813514698,
+  "pr_auc": 0.9036058700209644,
+  "confusion_matrix": [
+    [
+      170,
+      2
+    ],
+    [
+      15,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.92      0.99      0.95       172\n           1       0.95      0.72      0.82        53\n\n    accuracy                           0.92       225\n   macro avg       0.93      0.85      0.88       225\nweighted avg       0.93      0.92      0.92       225\n",
+  "best_params": {
+    "model__n_neighbors": 5,
+    "model__weights": "distance"
+  },
+  "cv_best_score": 0.8363783934815648,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5994451000005938,
+  "prediction_time_seconds": 0.0024167000083252788,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__KNeighborsClassifier.json"
+}

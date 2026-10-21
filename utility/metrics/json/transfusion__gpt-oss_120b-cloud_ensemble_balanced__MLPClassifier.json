@@ -1,0 +1,39 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8311111111111111,
+  "balanced_accuracy": 0.6741443615620886,
+  "precision": 0.8,
+  "recall": 0.37735849056603776,
+  "f1": 0.5128205128205128,
+  "mcc": 0.47028006462516836,
+  "roc_auc": 0.8503181219833261,
+  "pr_auc": 0.6807554573693646,
+  "confusion_matrix": [
+    [
+      167,
+      5
+    ],
+    [
+      33,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.97      0.90       172\n           1       0.80      0.38      0.51        53\n\n    accuracy                           0.83       225\n   macro avg       0.82      0.67      0.71       225\nweighted avg       0.83      0.83      0.81       225\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.7540735381697531,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 48.9378925000201,
+  "prediction_time_seconds": 0.0030531999946106225,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gpt-oss_120b-cloud_ensemble_balanced__MLPClassifier.json"
+}

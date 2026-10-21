@@ -1,0 +1,35 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "SYRFD_thr4_relaxed__thr4_relaxed_balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.7799043062200957,
+  "balanced_accuracy": 0.7710621899362154,
+  "precision": 0.34806629834254144,
+  "recall": 0.7590361445783133,
+  "f1": 0.4772727272727273,
+  "mcc": 0.4054438504099699,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      426,
+      118
+    ],
+    [
+      20,
+      63
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.78      0.86       544\n           1       0.35      0.76      0.48        83\n\n    accuracy                           0.78       627\n   macro avg       0.65      0.77      0.67       627\nweighted avg       0.87      0.78      0.81       627\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.8649149605225398,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2793146999902092,
+  "prediction_time_seconds": 0.0026560999976936728,
+  "n_train_samples": 3622,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__SYRFD_thr4_relaxed_thr4_relaxed_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__SYRFD_thr4_relaxed_thr4_relaxed_balanced__RidgeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "casTGAN__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9736842105263158,
+  "balanced_accuracy": 0.7857142857142857,
+  "precision": 1.0,
+  "recall": 0.5714285714285714,
+  "f1": 0.7272727272727273,
+  "mcc": 0.7455495663228272,
+  "roc_auc": 0.9959946595460614,
+  "pr_auc": 0.9142857142857141,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.99       107\n           1       1.00      0.57      0.73         7\n\n    accuracy                           0.97       114\n   macro avg       0.99      0.79      0.86       114\nweighted avg       0.97      0.97      0.97       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8736754643206256,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.491109399998095,
+  "prediction_time_seconds": 0.01762500000768341,
+  "n_train_samples": 434,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__casTGAN_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__casTGAN_balanced__AdaBoostClassifier.json"
+}

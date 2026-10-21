@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "SMOTE__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.7438202247191011,
+  "balanced_accuracy": 0.72328525169267,
+  "precision": 0.5471698113207547,
+  "recall": 0.6744186046511628,
+  "f1": 0.6041666666666666,
+  "mcc": 0.42281155893002725,
+  "roc_auc": 0.8081150034344029,
+  "pr_auc": 0.6092801786012687,
+  "confusion_matrix": [
+    [
+      244,
+      72
+    ],
+    [
+      42,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.77      0.81       316\n           1       0.55      0.67      0.60       129\n\n    accuracy                           0.74       445\n   macro avg       0.70      0.72      0.71       445\nweighted avg       0.76      0.74      0.75       445\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.6568632661206915,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31195000000298023,
+  "prediction_time_seconds": 0.003282499994384125,
+  "n_train_samples": 1921,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__SMOTE_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__SMOTE_balanced__LogisticRegression.json"
+}

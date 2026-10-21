@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.76,
+  "balanced_accuracy": 0.6341597191750767,
+  "precision": 0.4883720930232558,
+  "recall": 0.39622641509433965,
+  "f1": 0.4375,
+  "mcc": 0.28959054128263145,
+  "roc_auc": 0.7891070645019747,
+  "pr_auc": 0.5330340746875049,
+  "confusion_matrix": [
+    [
+      150,
+      22
+    ],
+    [
+      32,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.82      0.87      0.85       172\n           1       0.49      0.40      0.44        53\n\n    accuracy                           0.76       225\n   macro avg       0.66      0.63      0.64       225\nweighted avg       0.75      0.76      0.75       225\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8255685094633494,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.28327809998882,
+  "prediction_time_seconds": 0.002130700013367459,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__Dataset_balanced_tabfairgan__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__Dataset_balanced_tabfairgan__GradientBoostingClassifier.json"
+}

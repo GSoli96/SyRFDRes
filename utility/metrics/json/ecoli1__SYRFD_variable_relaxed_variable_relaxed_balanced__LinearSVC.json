@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "SYRFD_variable_relaxed__variable_relaxed_balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8712871287128713,
+  "balanced_accuracy": 0.8860089186176142,
+  "precision": 0.65625,
+  "recall": 0.9130434782608695,
+  "f1": 0.7636363636363637,
+  "mcc": 0.6958874744311072,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      67,
+      11
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.86      0.91        78\n           1       0.66      0.91      0.76        23\n\n    accuracy                           0.87       101\n   macro avg       0.81      0.89      0.84       101\nweighted avg       0.90      0.87      0.88       101\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9082751733004668,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.2518774000054691,
+  "prediction_time_seconds": 0.0027587999938987195,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__SYRFD_variable_relaxed_variable_relaxed_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__SYRFD_variable_relaxed_variable_relaxed_balanced__LinearSVC.json"
+}

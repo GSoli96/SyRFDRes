@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "SYRFD_thr8_strict__thr8_strict_balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7688888888888888,
+  "balanced_accuracy": 0.7313514699429574,
+  "precision": 0.5072463768115942,
+  "recall": 0.660377358490566,
+  "f1": 0.5737704918032787,
+  "mcc": 0.4258116826029273,
+  "roc_auc": 0.7815928038613427,
+  "pr_auc": 0.5684063585914539,
+  "confusion_matrix": [
+    [
+      138,
+      34
+    ],
+    [
+      18,
+      35
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.80      0.84       172\n           1       0.51      0.66      0.57        53\n\n    accuracy                           0.77       225\n   macro avg       0.70      0.73      0.71       225\nweighted avg       0.80      0.77      0.78       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7992788820327126,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.857758500002092,
+  "prediction_time_seconds": 0.021746399987023324,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__SYRFD_thr8_strict_thr8_strict_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__SYRFD_thr8_strict_thr8_strict_balanced__AdaBoostClassifier.json"
+}

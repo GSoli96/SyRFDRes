@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "LinearSVC",
+  "accuracy": 0.7671451355661882,
+  "balanced_accuracy": 0.6433223864258347,
+  "precision": 0.35036496350364965,
+  "recall": 0.45714285714285713,
+  "f1": 0.39669421487603307,
+  "mcc": 0.2590094466128936,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      433,
+      89
+    ],
+    [
+      57,
+      48
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.83      0.86       522\n           1       0.35      0.46      0.40       105\n\n    accuracy                           0.77       627\n   macro avg       0.62      0.64      0.63       627\nweighted avg       0.79      0.77      0.78       627\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.83403526282216,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.38022359999013133,
+  "prediction_time_seconds": 0.0026874000031966716,
+  "n_train_samples": 3472,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__Dataset_balanced_fsmote__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__Dataset_balanced_fsmote__LinearSVC.json"
+}

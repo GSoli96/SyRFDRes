@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9393939393939394,
+  "balanced_accuracy": 0.9231547017189079,
+  "precision": 0.9523809523809523,
+  "recall": 0.8695652173913043,
+  "f1": 0.9090909090909091,
+  "mcc": 0.8657876926586613,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      42,
+      1
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.98      0.95        43\n           1       0.95      0.87      0.91        23\n\n    accuracy                           0.94        66\n   macro avg       0.94      0.92      0.93        66\nweighted avg       0.94      0.94      0.94        66\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.879100643144222,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4146039999322966,
+  "prediction_time_seconds": 0.004684800049290061,
+  "n_train_samples": 503,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__gpt-oss_20b-cloud_react_balanced__RidgeClassifier.json"
+}

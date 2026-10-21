@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__distribution_guidance",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7878787878787878,
+  "balanced_accuracy": 0.7143211920529802,
+  "precision": 0.8444444444444444,
+  "recall": 0.475,
+  "f1": 0.608,
+  "mcc": 0.5149509337265423,
+  "roc_auc": 0.885182119205298,
+  "pr_auc": 0.7721262062177126,
+  "confusion_matrix": [
+    [
+      144,
+      7
+    ],
+    [
+      42,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.77      0.95      0.85       151\n           1       0.84      0.47      0.61        80\n\n    accuracy                           0.79       231\n   macro avg       0.81      0.71      0.73       231\nweighted avg       0.80      0.79      0.77       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "cv_best_score": 0.7860310817951648,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7450553000089712,
+  "prediction_time_seconds": 0.0015512999962083995,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_distribution_guidance__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_distribution_guidance__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "deepseek__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8405103668261563,
+  "balanced_accuracy": 0.6068944897236003,
+  "precision": 0.36923076923076925,
+  "recall": 0.2891566265060241,
+  "f1": 0.32432432432432434,
+  "mcc": 0.2376834671717036,
+  "roc_auc": 0.7902418497519489,
+  "pr_auc": 0.38155204931937314,
+  "confusion_matrix": [
+    [
+      503,
+      41
+    ],
+    [
+      59,
+      24
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.92      0.91       544\n           1       0.37      0.29      0.32        83\n\n    accuracy                           0.84       627\n   macro avg       0.63      0.61      0.62       627\nweighted avg       0.83      0.84      0.83       627\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5340493527280021,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4522215999895707,
+  "prediction_time_seconds": 0.004034100013086572,
+  "n_train_samples": 2417,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__deepseek_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__deepseek_balanced__LogisticRegression.json"
+}

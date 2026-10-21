@@ -1,0 +1,38 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "MLPClassifier",
+  "accuracy": 0.900990099009901,
+  "balanced_accuracy": 0.859253065774805,
+  "precision": 0.782608695652174,
+  "recall": 0.782608695652174,
+  "f1": 0.782608695652174,
+  "mcc": 0.7185061315496098,
+  "roc_auc": 0.9726867335562988,
+  "pr_auc": 0.919731698470382,
+  "confusion_matrix": [
+    [
+      73,
+      5
+    ],
+    [
+      5,
+      18
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.94      0.94        78\n           1       0.78      0.78      0.78        23\n\n    accuracy                           0.90       101\n   macro avg       0.86      0.86      0.86       101\nweighted avg       0.90      0.90      0.90       101\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9290861086108612,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.210373900015838,
+  "prediction_time_seconds": 0.008668299997225404,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__Dataset_balanced_tabfairgan__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__Dataset_balanced_tabfairgan__MLPClassifier.json"
+}

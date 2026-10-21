@@ -1,0 +1,39 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "gpt-oss_120b-cloud__react__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9649122807017544,
+  "balanced_accuracy": 0.9813084112149533,
+  "precision": 0.6363636363636364,
+  "recall": 1.0,
+  "f1": 0.7777777777777778,
+  "mcc": 0.7826712857555873,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      103,
+      4
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       107\n           1       0.64      1.00      0.78         7\n\n    accuracy                           0.96       114\n   macro avg       0.82      0.98      0.88       114\nweighted avg       0.98      0.96      0.97       114\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.8141724439441603,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 37.69392990000779,
+  "prediction_time_seconds": 0.002949699992313981,
+  "n_train_samples": 1083,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__gpt-oss_120b-cloud_react_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__gpt-oss_120b-cloud_react_balanced__MLPClassifier.json"
+}

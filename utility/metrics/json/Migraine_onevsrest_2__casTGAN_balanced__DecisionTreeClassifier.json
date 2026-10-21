@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_2",
+  "augmentation": "casTGAN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.8571428571428572,
+  "precision": 1.0,
+  "recall": 0.7142857142857143,
+  "f1": 0.8333333333333334,
+  "mcc": 0.8373646484003032,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      107,
+      0
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99       107\n           1       1.00      0.71      0.83         7\n\n    accuracy                           0.98       114\n   macro avg       0.99      0.86      0.91       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.8673118279569891,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.551299899991136,
+  "prediction_time_seconds": 0.0017254000122193247,
+  "n_train_samples": 434,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_2__casTGAN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_2__casTGAN_balanced__DecisionTreeClassifier.json"
+}

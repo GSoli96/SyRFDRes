@@ -1,0 +1,39 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gpt-oss_20b-cloud__react__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9900990099009901,
+  "balanced_accuracy": 0.9935897435897436,
+  "precision": 0.9583333333333334,
+  "recall": 1.0,
+  "f1": 0.9787234042553191,
+  "mcc": 0.972649478767664,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      0,
+      23
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99        78\n           1       0.96      1.00      0.98        23\n\n    accuracy                           0.99       101\n   macro avg       0.98      0.99      0.99       101\nweighted avg       0.99      0.99      0.99       101\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9437766636281871,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 29.05876410001656,
+  "prediction_time_seconds": 0.0030470999772660434,
+  "n_train_samples": 851,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gpt-oss_20b-cloud_react_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gpt-oss_20b-cloud_react_balanced__MLPClassifier.json"
+}

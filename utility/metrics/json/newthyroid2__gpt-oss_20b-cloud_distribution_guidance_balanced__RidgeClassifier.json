@@ -1,0 +1,35 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "gpt-oss_20b-cloud__distribution_guidance__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9846153846153847,
+  "balanced_accuracy": 0.9545454545454546,
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "f1": 0.9523809523809523,
+  "mcc": 0.9447549859466603,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      54,
+      0
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      1.00      0.99        54\n           1       1.00      0.91      0.95        11\n\n    accuracy                           0.98        65\n   macro avg       0.99      0.95      0.97        65\nweighted avg       0.98      0.98      0.98        65\n",
+  "best_params": {
+    "model__alpha": 10.0
+  },
+  "cv_best_score": 0.6545322351494001,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.1902886000170838,
+  "prediction_time_seconds": 0.0024945999903138727,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__gpt-oss_20b-cloud_distribution_guidance_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__gpt-oss_20b-cloud_distribution_guidance_balanced__RidgeClassifier.json"
+}

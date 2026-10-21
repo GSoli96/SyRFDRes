@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "GOGGLE__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9497716894977168,
+  "balanced_accuracy": 0.648991784914115,
+  "precision": 0.6666666666666666,
+  "recall": 0.3076923076923077,
+  "f1": 0.42105263157894735,
+  "mcc": 0.43135235962685464,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      204,
+      2
+    ],
+    [
+      9,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.97       206\n           1       0.67      0.31      0.42        13\n\n    accuracy                           0.95       219\n   macro avg       0.81      0.65      0.70       219\nweighted avg       0.94      0.95      0.94       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9732879939537975,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5224060000036843,
+  "prediction_time_seconds": 0.0040145000093616545,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__GOGGLE_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__GOGGLE_balanced__LinearSVC.json"
+}

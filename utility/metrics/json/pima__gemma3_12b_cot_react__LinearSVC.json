@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_react",
+  "model": "LinearSVC",
+  "accuracy": 0.7619047619047619,
+  "balanced_accuracy": 0.7120860927152318,
+  "precision": 0.6984126984126984,
+  "recall": 0.55,
+  "f1": 0.6153846153846154,
+  "mcc": 0.45315913417143233,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      132,
+      19
+    ],
+    [
+      36,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.87      0.83       151\n           1       0.70      0.55      0.62        80\n\n    accuracy                           0.76       231\n   macro avg       0.74      0.71      0.72       231\nweighted avg       0.76      0.76      0.75       231\n",
+  "best_params": {
+    "model__C": 0.01,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8081703591957774,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.25640030001522973,
+  "prediction_time_seconds": 0.0017550000047776848,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_react__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_react__LinearSVC.json"
+}

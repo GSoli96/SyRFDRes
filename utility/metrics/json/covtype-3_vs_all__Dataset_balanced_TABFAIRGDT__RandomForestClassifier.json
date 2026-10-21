@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-3_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9598058564347347,
+  "balanced_accuracy": 0.9650818329443089,
+  "precision": 0.6086956521739131,
+  "recall": 0.9710982658959537,
+  "f1": 0.7483296213808464,
+  "mcc": 0.7512337809677809,
+  "roc_auc": 0.9929931716460173,
+  "pr_auc": 0.895962217519875,
+  "confusion_matrix": [
+    [
+      156882,
+      6696
+    ],
+    [
+      310,
+      10416
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98    163578\n           1       0.61      0.97      0.75     10726\n\n    accuracy                           0.96    174304\n   macro avg       0.80      0.97      0.86    174304\nweighted avg       0.97      0.96      0.96    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "cv_best_score": 0.975420072874917,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 897.312488399999,
+  "prediction_time_seconds": 3.06913569997414,
+  "n_train_samples": 74994,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-3_vs_all__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-3_vs_all__Dataset_balanced_TABFAIRGDT__RandomForestClassifier.json"
+}

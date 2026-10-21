@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_0",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9617224880382775,
+  "balanced_accuracy": 0.9780621572212066,
+  "precision": 0.7692307692307693,
+  "recall": 1.0,
+  "f1": 0.8695652173913043,
+  "mcc": 0.8576014469896721,
+  "roc_auc": 0.9987545703839122,
+  "pr_auc": 0.9871664957980103,
+  "confusion_matrix": [
+    [
+      523,
+      24
+    ],
+    [
+      0,
+      80
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.96      0.98       547\n           1       0.77      1.00      0.87        80\n\n    accuracy                           0.96       627\n   macro avg       0.88      0.98      0.92       627\nweighted avg       0.97      0.96      0.96       627\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9695972652705269,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.9882849999994505,
+  "prediction_time_seconds": 0.0023853000020608306,
+  "n_train_samples": 3640,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_0__Dataset_balanced_tabularargn__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_0__Dataset_balanced_tabularargn__DecisionTreeClassifier.json"
+}

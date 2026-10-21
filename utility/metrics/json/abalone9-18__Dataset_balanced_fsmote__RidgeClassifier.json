@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "Dataset_balanced_fsmote",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9406392694063926,
+  "balanced_accuracy": 0.7162061239731143,
+  "precision": 0.5,
+  "recall": 0.46153846153846156,
+  "f1": 0.48,
+  "mcc": 0.4489804979830811,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      200,
+      6
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.97      0.97       206\n           1       0.50      0.46      0.48        13\n\n    accuracy                           0.94       219\n   macro avg       0.73      0.72      0.72       219\nweighted avg       0.94      0.94      0.94       219\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9275934016020717,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.39232530002482235,
+  "prediction_time_seconds": 0.0055973000125959516,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__Dataset_balanced_fsmote__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__Dataset_balanced_fsmote__RidgeClassifier.json"
+}

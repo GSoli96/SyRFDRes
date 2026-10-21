@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_4",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "KNeighborsClassifier",
+  "accuracy": 0.9473684210526315,
+  "balanced_accuracy": 0.8770642201834863,
+  "precision": 0.4444444444444444,
+  "recall": 0.8,
+  "f1": 0.5714285714285714,
+  "mcc": 0.5727006374154929,
+  "roc_auc": 0.965137614678899,
+  "pr_auc": 0.534920634920635,
+  "confusion_matrix": [
+    [
+      104,
+      5
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.95      0.97       109\n           1       0.44      0.80      0.57         5\n\n    accuracy                           0.95       114\n   macro avg       0.72      0.88      0.77       114\nweighted avg       0.97      0.95      0.95       114\n",
+  "best_params": {
+    "model__n_neighbors": 11,
+    "model__weights": "uniform"
+  },
+  "cv_best_score": 0.9796047051672936,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.4328794999746606,
+  "prediction_time_seconds": 0.002549099997850135,
+  "n_train_samples": 718,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_4__Dataset_balanced_tabfairgan__KNeighborsClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_4__Dataset_balanced_tabfairgan__KNeighborsClassifier.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "original",
+  "model": "MLPClassifier",
+  "accuracy": 0.7445887445887446,
+  "balanced_accuracy": 0.7164735099337749,
+  "precision": 0.6329113924050633,
+  "recall": 0.625,
+  "f1": 0.6289308176100629,
+  "mcc": 0.4342430557548306,
+  "roc_auc": 0.8302980132450332,
+  "pr_auc": 0.7198863640183294,
+  "confusion_matrix": [
+    [
+      122,
+      29
+    ],
+    [
+      30,
+      50
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.80      0.81      0.81       151\n           1       0.63      0.62      0.63        80\n\n    accuracy                           0.74       231\n   macro avg       0.72      0.72      0.72       231\nweighted avg       0.74      0.74      0.74       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.628379188853289,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 18.762565300014103,
+  "prediction_time_seconds": 0.0030307999986689538,
+  "n_train_samples": 536,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__original__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__original__MLPClassifier.json"
+}

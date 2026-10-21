@@ -1,0 +1,36 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "ctabgan__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.8337078651685393,
+  "balanced_accuracy": 0.7751079383769993,
+  "precision": 0.7522935779816514,
+  "recall": 0.6356589147286822,
+  "f1": 0.6890756302521008,
+  "mcc": 0.5804818254950855,
+  "roc_auc": 0.903628201354136,
+  "pr_auc": 0.784994288907364,
+  "confusion_matrix": [
+    [
+      289,
+      27
+    ],
+    [
+      47,
+      82
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.86      0.91      0.89       316\n           1       0.75      0.64      0.69       129\n\n    accuracy                           0.83       445\n   macro avg       0.81      0.78      0.79       445\nweighted avg       0.83      0.83      0.83       445\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8090312126327215,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.8102137999958359,
+  "prediction_time_seconds": 0.0021499999857041985,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__ctabgan_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__ctabgan_balanced__DecisionTreeClassifier.json"
+}

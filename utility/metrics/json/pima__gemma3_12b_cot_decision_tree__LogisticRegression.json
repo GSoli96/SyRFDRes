@@ -1,0 +1,37 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "LogisticRegression",
+  "accuracy": 0.7532467532467533,
+  "balanced_accuracy": 0.7142798013245033,
+  "precision": 0.6619718309859155,
+  "recall": 0.5875,
+  "f1": 0.6225165562913907,
+  "mcc": 0.44193208392896943,
+  "roc_auc": 0.8144039735099339,
+  "pr_auc": 0.6652567885549109,
+  "confusion_matrix": [
+    [
+      127,
+      24
+    ],
+    [
+      33,
+      47
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.84      0.82       151\n           1       0.66      0.59      0.62        80\n\n    accuracy                           0.75       231\n   macro avg       0.73      0.71      0.72       231\nweighted avg       0.75      0.75      0.75       231\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7764751223249015,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.29006259999005124,
+  "prediction_time_seconds": 0.0018492999952286482,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma3_12b_cot_decision_tree__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma3_12b_cot_decision_tree__LogisticRegression.json"
+}

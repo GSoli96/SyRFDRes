@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9504950495049505,
+  "balanced_accuracy": 0.9526198439241917,
+  "precision": 0.8461538461538461,
+  "recall": 0.9565217391304348,
+  "f1": 0.8979591836734694,
+  "mcc": 0.8682754062274087,
+  "roc_auc": 0.9888517279821628,
+  "pr_auc": 0.9597703847131764,
+  "confusion_matrix": [
+    [
+      74,
+      4
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.95      0.97        78\n           1       0.85      0.96      0.90        23\n\n    accuracy                           0.95       101\n   macro avg       0.92      0.95      0.93       101\nweighted avg       0.95      0.95      0.95       101\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9119706462355497,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6025463000114542,
+  "prediction_time_seconds": 0.0016841999895405024,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma3_12b_cot_self_consistency__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma3_12b_cot_self_consistency__DecisionTreeClassifier.json"
+}

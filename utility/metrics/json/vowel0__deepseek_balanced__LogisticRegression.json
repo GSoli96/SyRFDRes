@@ -1,0 +1,37 @@
+{
+  "dataset": "vowel0",
+  "augmentation": "deepseek__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9259259259259259,
+  "balanced_accuracy": 0.9259259259259259,
+  "precision": 0.5555555555555556,
+  "recall": 0.9259259259259259,
+  "f1": 0.6944444444444444,
+  "mcc": 0.6830009515539733,
+  "roc_auc": 0.9853223593964335,
+  "pr_auc": 0.9091666653330028,
+  "confusion_matrix": [
+    [
+      250,
+      20
+    ],
+    [
+      2,
+      25
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.93      0.96       270\n           1       0.56      0.93      0.69        27\n\n    accuracy                           0.93       297\n   macro avg       0.77      0.93      0.83       297\nweighted avg       0.95      0.93      0.93       297\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9416795254982647,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.41865710000274703,
+  "prediction_time_seconds": 0.0021863000001758337,
+  "n_train_samples": 1827,
+  "n_test_samples": 297,
+  "checkpoint_path": "utility\\checkpoints\\vowel0__deepseek_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\vowel0__deepseek_balanced__LogisticRegression.json"
+}

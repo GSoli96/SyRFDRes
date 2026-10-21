@@ -1,0 +1,38 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "MLPClassifier",
+  "accuracy": 0.9878296146044625,
+  "balanced_accuracy": 0.9937106918238994,
+  "precision": 0.7272727272727273,
+  "recall": 1.0,
+  "f1": 0.8421052631578947,
+  "mcc": 0.8474223519904018,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      471,
+      6
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       477\n           1       0.73      1.00      0.84        16\n\n    accuracy                           0.99       493\n   macro avg       0.86      0.99      0.92       493\nweighted avg       0.99      0.99      0.99       493\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.9946701143868607,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 58.72342399999616,
+  "prediction_time_seconds": 0.0026572000060696155,
+  "n_train_samples": 3178,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_distribution_guidance__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gemma4_31b-cloud_distribution_guidance__MLPClassifier.json"
+}

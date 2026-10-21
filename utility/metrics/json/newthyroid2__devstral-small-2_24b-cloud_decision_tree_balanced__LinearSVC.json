@@ -1,0 +1,36 @@
+{
+  "dataset": "newthyroid2",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8923076923076924,
+  "balanced_accuracy": 0.898989898989899,
+  "precision": 0.625,
+  "recall": 0.9090909090909091,
+  "f1": 0.7407407407407407,
+  "mcc": 0.6945876990976633,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      48,
+      6
+    ],
+    [
+      1,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.89      0.93        54\n           1       0.62      0.91      0.74        11\n\n    accuracy                           0.89        65\n   macro avg       0.80      0.90      0.84        65\nweighted avg       0.92      0.89      0.90        65\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.883634286158499,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.25047680002171546,
+  "prediction_time_seconds": 0.0025068999966606498,
+  "n_train_samples": 572,
+  "n_test_samples": 65,
+  "checkpoint_path": "utility\\checkpoints\\newthyroid2__devstral-small-2_24b-cloud_decision_tree_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\newthyroid2__devstral-small-2_24b-cloud_decision_tree_balanced__LinearSVC.json"
+}

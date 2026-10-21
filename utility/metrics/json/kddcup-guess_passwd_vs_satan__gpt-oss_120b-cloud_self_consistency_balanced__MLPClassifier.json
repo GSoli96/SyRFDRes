@@ -1,0 +1,39 @@
+{
+  "dataset": "kddcup-guess_passwd_vs_satan",
+  "augmentation": "gpt-oss_120b-cloud__self_consistency__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9918864097363083,
+  "balanced_accuracy": 0.9958071278825995,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1": 0.8888888888888888,
+  "mcc": 0.8906690769371973,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": [
+    [
+      473,
+      4
+    ],
+    [
+      0,
+      16
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      1.00       477\n           1       0.80      1.00      0.89        16\n\n    accuracy                           0.99       493\n   macro avg       0.90      1.00      0.94       493\nweighted avg       0.99      0.99      0.99       493\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9861985453096785,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 125.71294720002334,
+  "prediction_time_seconds": 0.00464040000224486,
+  "n_train_samples": 4819,
+  "n_test_samples": 493,
+  "checkpoint_path": "utility\\checkpoints\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_self_consistency_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\kddcup-guess_passwd_vs_satan__gpt-oss_120b-cloud_self_consistency_balanced__MLPClassifier.json"
+}

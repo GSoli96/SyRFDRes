@@ -1,0 +1,39 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gemma4_31b-cloud__cot_self_consistency",
+  "model": "MLPClassifier",
+  "accuracy": 0.9726027397260274,
+  "balanced_accuracy": 0.9494025392083645,
+  "precision": 0.7058823529411765,
+  "recall": 0.9230769230769231,
+  "f1": 0.8,
+  "mcc": 0.7937260947563128,
+  "roc_auc": 0.9917849141150112,
+  "pr_auc": 0.9423909423909422,
+  "confusion_matrix": [
+    [
+      201,
+      5
+    ],
+    [
+      1,
+      12
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99       206\n           1       0.71      0.92      0.80        13\n\n    accuracy                           0.97       219\n   macro avg       0.85      0.95      0.89       219\nweighted avg       0.98      0.97      0.97       219\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9188313095948661,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 101.97145199996885,
+  "prediction_time_seconds": 0.005634800007101148,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gemma4_31b-cloud_cot_self_consistency__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gemma4_31b-cloud_cot_self_consistency__MLPClassifier.json"
+}

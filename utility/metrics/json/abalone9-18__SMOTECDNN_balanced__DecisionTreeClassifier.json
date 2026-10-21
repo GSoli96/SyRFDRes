@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9360730593607306,
+  "balanced_accuracy": 0.7137789395070948,
+  "precision": 0.46153846153846156,
+  "recall": 0.46153846153846156,
+  "f1": 0.46153846153846156,
+  "mcc": 0.4275578790141897,
+  "roc_auc": 0.9572442120985811,
+  "pr_auc": 0.6491841491841492,
+  "confusion_matrix": [
+    [
+      199,
+      7
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.97      0.97       206\n           1       0.46      0.46      0.46        13\n\n    accuracy                           0.94       219\n   macro avg       0.71      0.71      0.71       219\nweighted avg       0.94      0.94      0.94       219\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 5
+  },
+  "cv_best_score": 0.8932322673463251,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.7642663000151515,
+  "prediction_time_seconds": 0.003950700047425926,
+  "n_train_samples": 1173,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SMOTECDNN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SMOTECDNN_balanced__DecisionTreeClassifier.json"
+}

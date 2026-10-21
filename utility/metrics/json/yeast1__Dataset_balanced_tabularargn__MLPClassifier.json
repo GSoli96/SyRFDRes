@@ -1,0 +1,38 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "MLPClassifier",
+  "accuracy": 0.7595505617977528,
+  "balanced_accuracy": 0.7595917966833481,
+  "precision": 0.5632183908045977,
+  "recall": 0.7596899224806202,
+  "f1": 0.6468646864686468,
+  "mcc": 0.48272532856985173,
+  "roc_auc": 0.8504317535079973,
+  "pr_auc": 0.6970689672744592,
+  "confusion_matrix": [
+    [
+      240,
+      76
+    ],
+    [
+      31,
+      98
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.89      0.76      0.82       316\n           1       0.56      0.76      0.65       129\n\n    accuracy                           0.76       445\n   macro avg       0.72      0.76      0.73       445\nweighted avg       0.79      0.76      0.77       445\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.7395449645968533,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 65.00724380000611,
+  "prediction_time_seconds": 0.0025178000214509666,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__Dataset_balanced_tabularargn__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__Dataset_balanced_tabularargn__MLPClassifier.json"
+}

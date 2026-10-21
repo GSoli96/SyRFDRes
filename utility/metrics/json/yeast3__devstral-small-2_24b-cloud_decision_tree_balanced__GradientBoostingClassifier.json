@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9595505617977528,
+  "balanced_accuracy": 0.9325654504225933,
+  "precision": 0.7719298245614035,
+  "recall": 0.8979591836734694,
+  "f1": 0.8301886792452831,
+  "mcc": 0.8103528555074124,
+  "roc_auc": 0.9877860235003092,
+  "pr_auc": 0.936885824876269,
+  "confusion_matrix": [
+    [
+      383,
+      13
+    ],
+    [
+      5,
+      44
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.97      0.98       396\n           1       0.77      0.90      0.83        49\n\n    accuracy                           0.96       445\n   macro avg       0.88      0.93      0.90       445\nweighted avg       0.96      0.96      0.96       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.9368351386124836,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 16.14123639999889,
+  "prediction_time_seconds": 0.0027996999851893634,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__devstral-small-2_24b-cloud_decision_tree_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__devstral-small-2_24b-cloud_decision_tree_balanced__GradientBoostingClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "deepseek__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.900990099009901,
+  "balanced_accuracy": 0.8899108138238573,
+  "precision": 0.7407407407407407,
+  "recall": 0.8695652173913043,
+  "f1": 0.8,
+  "mcc": 0.7389392801843571,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      71,
+      7
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.91      0.93        78\n           1       0.74      0.87      0.80        23\n\n    accuracy                           0.90       101\n   macro avg       0.85      0.89      0.87       101\nweighted avg       0.91      0.90      0.90       101\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9405487512741596,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3043400000024121,
+  "prediction_time_seconds": 0.0020742999913636595,
+  "n_train_samples": 635,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__deepseek_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__deepseek_balanced__LinearSVC.json"
+}

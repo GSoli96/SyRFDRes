@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-6_vs_all",
+  "augmentation": "Dataset_balanced_TABFAIRGDT",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.9639021479713604,
+  "balanced_accuracy": 0.9430738736398183,
+  "precision": 0.4493350814759318,
+  "recall": 0.9209213051823416,
+  "f1": 0.6039778449144008,
+  "mcc": 0.6292424062348844,
+  "roc_auc": 0.9885716872444763,
+  "pr_auc": 0.7405688171314322,
+  "confusion_matrix": [
+    [
+      163214,
+      5880
+    ],
+    [
+      412,
+      4798
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.97      0.98    169094\n           1       0.45      0.92      0.60      5210\n\n    accuracy                           0.96    174304\n   macro avg       0.72      0.94      0.79    174304\nweighted avg       0.98      0.96      0.97    174304\n",
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9779933124630219,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 327.2516048999969,
+  "prediction_time_seconds": 1.51370969999698,
+  "n_train_samples": 77704,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-6_vs_all__Dataset_balanced_TABFAIRGDT__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-6_vs_all__Dataset_balanced_TABFAIRGDT__ExtraTreesClassifier.json"
+}

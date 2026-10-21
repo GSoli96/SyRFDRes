@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "tvae__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8310502283105022,
+  "balanced_accuracy": 0.7660567587752054,
+  "precision": 0.21428571428571427,
+  "recall": 0.6923076923076923,
+  "f1": 0.32727272727272727,
+  "mcc": 0.3193730748684779,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      173,
+      33
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.84      0.90       206\n           1       0.21      0.69      0.33        13\n\n    accuracy                           0.83       219\n   macro avg       0.60      0.77      0.62       219\nweighted avg       0.93      0.83      0.87       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.8222596249514549,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5190915000275709,
+  "prediction_time_seconds": 0.00629089999711141,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__tvae_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__tvae_balanced__LinearSVC.json"
+}

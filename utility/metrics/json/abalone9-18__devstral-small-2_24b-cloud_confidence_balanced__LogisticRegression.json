@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.8904109589041096,
+  "balanced_accuracy": 0.7976101568334578,
+  "precision": 0.3103448275862069,
+  "recall": 0.6923076923076923,
+  "f1": 0.42857142857142855,
+  "mcc": 0.4149609519567255,
+  "roc_auc": 0.8808812546676624,
+  "pr_auc": 0.6518544296903732,
+  "confusion_matrix": [
+    [
+      186,
+      20
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.90      0.94       206\n           1       0.31      0.69      0.43        13\n\n    accuracy                           0.89       219\n   macro avg       0.64      0.80      0.68       219\nweighted avg       0.94      0.89      0.91       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.17199205170506957,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6237317000050098,
+  "prediction_time_seconds": 0.0034712000051513314,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__devstral-small-2_24b-cloud_confidence_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__devstral-small-2_24b-cloud_confidence_balanced__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast1",
+  "augmentation": "gemma4_31b-cloud__cot_react",
+  "model": "LogisticRegression",
+  "accuracy": 0.6674157303370787,
+  "balanced_accuracy": 0.5570969482877048,
+  "precision": 0.4,
+  "recall": 0.29457364341085274,
+  "f1": 0.3392857142857143,
+  "mcc": 0.1264402844055539,
+  "roc_auc": 0.689897949170837,
+  "pr_auc": 0.45130290348562974,
+  "confusion_matrix": [
+    [
+      259,
+      57
+    ],
+    [
+      91,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.74      0.82      0.78       316\n           1       0.40      0.29      0.34       129\n\n    accuracy                           0.67       445\n   macro avg       0.57      0.56      0.56       445\nweighted avg       0.64      0.67      0.65       445\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.7613401557678712,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.331026900006691,
+  "prediction_time_seconds": 0.0023252999817486852,
+  "n_train_samples": 2108,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast1__gemma4_31b-cloud_cot_react__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast1__gemma4_31b-cloud_cot_react__LogisticRegression.json"
+}

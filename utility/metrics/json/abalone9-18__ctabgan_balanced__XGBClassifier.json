@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "ctabgan__balanced",
+  "model": "XGBClassifier",
+  "accuracy": 0.9634703196347032,
+  "balanced_accuracy": 0.7283420463032113,
+  "precision": 0.8571428571428571,
+  "recall": 0.46153846153846156,
+  "f1": 0.6,
+  "mcc": 0.6134853838612276,
+  "roc_auc": 0.9762882748319642,
+  "pr_auc": 0.8401070370444235,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       206\n           1       0.86      0.46      0.60        13\n\n    accuracy                           0.96       219\n   macro avg       0.91      0.73      0.79       219\nweighted avg       0.96      0.96      0.96       219\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.9654554987880541,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.108141599979717,
+  "prediction_time_seconds": 0.006823400035500526,
+  "n_train_samples": 1376,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__ctabgan_balanced__XGBClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__ctabgan_balanced__XGBClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "ctabganp__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.9295774647887324,
+  "balanced_accuracy": 0.9626865671641791,
+  "precision": 0.4444444444444444,
+  "recall": 1.0,
+  "f1": 0.6153846153846154,
+  "mcc": 0.6413087778834634,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      124,
+      10
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96       134\n           1       0.44      1.00      0.62         8\n\n    accuracy                           0.93       142\n   macro avg       0.72      0.96      0.79       142\nweighted avg       0.97      0.93      0.94       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.9697917912320337,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.23438820001319982,
+  "prediction_time_seconds": 0.0024874999944586307,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__ctabganp_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__ctabganp_balanced__LinearSVC.json"
+}

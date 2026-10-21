@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.91324200913242,
+  "balanced_accuracy": 0.7376773711725169,
+  "precision": 0.35,
+  "recall": 0.5384615384615384,
+  "f1": 0.42424242424242425,
+  "mcc": 0.3899254493252066,
+  "roc_auc": 0.9066467513069454,
+  "pr_auc": 0.5855232539357458,
+  "confusion_matrix": [
+    [
+      193,
+      13
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.94      0.95       206\n           1       0.35      0.54      0.42        13\n\n    accuracy                           0.91       219\n   macro avg       0.66      0.74      0.69       219\nweighted avg       0.93      0.91      0.92       219\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8796317897935758,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.347290100005921,
+  "prediction_time_seconds": 0.06438019999768585,
+  "n_train_samples": 1173,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__SMOTECDNN_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__SMOTECDNN_balanced__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "page-blocks-1-3_vs_4",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LogisticRegression",
+  "accuracy": 0.8098591549295775,
+  "balanced_accuracy": 0.8404850746268657,
+  "precision": 0.21212121212121213,
+  "recall": 0.875,
+  "f1": 0.34146341463414637,
+  "mcc": 0.37175365622425743,
+  "roc_auc": 0.9263059701492538,
+  "pr_auc": 0.40478225478225477,
+  "confusion_matrix": [
+    [
+      108,
+      26
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.81      0.89       134\n           1       0.21      0.88      0.34         8\n\n    accuracy                           0.81       142\n   macro avg       0.60      0.84      0.62       142\nweighted avg       0.95      0.81      0.86       142\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.916175511024587,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3576157999923453,
+  "prediction_time_seconds": 0.0026311000110581517,
+  "n_train_samples": 886,
+  "n_test_samples": 142,
+  "checkpoint_path": "utility\\checkpoints\\page-blocks-1-3_vs_4__Dataset_balanced_tabfairgan__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\page-blocks-1-3_vs_4__Dataset_balanced_tabfairgan__LogisticRegression.json"
+}

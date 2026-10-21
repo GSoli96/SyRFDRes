@@ -1,0 +1,38 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "casTGAN__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9680365296803652,
+  "balanced_accuracy": 0.7668035847647499,
+  "precision": 0.875,
+  "recall": 0.5384615384615384,
+  "f1": 0.6666666666666666,
+  "mcc": 0.6721105636350284,
+  "roc_auc": 0.9764749813293503,
+  "pr_auc": 0.8325301834917218,
+  "confusion_matrix": [
+    [
+      205,
+      1
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98       206\n           1       0.88      0.54      0.67        13\n\n    accuracy                           0.97       219\n   macro avg       0.92      0.77      0.82       219\nweighted avg       0.97      0.97      0.96       219\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.755999319157214,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 66.79832499998156,
+  "prediction_time_seconds": 0.006649599992670119,
+  "n_train_samples": 793,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__casTGAN_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__casTGAN_balanced__MLPClassifier.json"
+}

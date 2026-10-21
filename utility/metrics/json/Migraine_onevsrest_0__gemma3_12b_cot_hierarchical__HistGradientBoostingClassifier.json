@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_0",
+  "augmentation": "gemma3_12b__cot_hierarchical",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9473684210526315,
+  "balanced_accuracy": 0.942866688940862,
+  "precision": 0.926829268292683,
+  "recall": 0.926829268292683,
+  "f1": 0.926829268292683,
+  "mcc": 0.885733377881724,
+  "roc_auc": 0.9938189107918476,
+  "pr_auc": 0.9887506507763728,
+  "confusion_matrix": [
+    [
+      70,
+      3
+    ],
+    [
+      3,
+      38
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.96      0.96        73\n           1       0.93      0.93      0.93        41\n\n    accuracy                           0.95       114\n   macro avg       0.94      0.94      0.94       114\nweighted avg       0.95      0.95      0.95       114\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.9120917635241785,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.71737289999146,
+  "prediction_time_seconds": 0.0028876000142190605,
+  "n_train_samples": 482,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_0__gemma3_12b_cot_hierarchical__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_0__gemma3_12b_cot_hierarchical__HistGradientBoostingClassifier.json"
+}

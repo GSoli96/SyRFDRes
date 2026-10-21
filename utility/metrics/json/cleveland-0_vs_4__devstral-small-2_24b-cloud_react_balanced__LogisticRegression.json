@@ -1,0 +1,37 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9433962264150944,
+  "balanced_accuracy": 0.9693877551020409,
+  "precision": 0.5714285714285714,
+  "recall": 1.0,
+  "f1": 0.7272727272727273,
+  "mcc": 0.7324227936704637,
+  "roc_auc": 0.9846938775510203,
+  "pr_auc": 0.8041666666666667,
+  "confusion_matrix": [
+    [
+      46,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.94      0.97        49\n           1       0.57      1.00      0.73         4\n\n    accuracy                           0.94        53\n   macro avg       0.79      0.97      0.85        53\nweighted avg       0.97      0.94      0.95        53\n",
+  "best_params": {
+    "model__C": 0.1,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9294335431321732,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.563782200042624,
+  "prediction_time_seconds": 0.0075440999935381114,
+  "n_train_samples": 502,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__devstral-small-2_24b-cloud_react_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__devstral-small-2_24b-cloud_react_balanced__LogisticRegression.json"
+}

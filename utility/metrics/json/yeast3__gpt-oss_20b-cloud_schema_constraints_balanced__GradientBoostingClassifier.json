@@ -1,0 +1,37 @@
+{
+  "dataset": "yeast3",
+  "augmentation": "gpt-oss_20b-cloud__schema_constraints__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9303370786516854,
+  "balanced_accuracy": 0.8982683982683983,
+  "precision": 0.6363636363636364,
+  "recall": 0.8571428571428571,
+  "f1": 0.7304347826086957,
+  "mcc": 0.7015520586014907,
+  "roc_auc": 0.9846938775510204,
+  "pr_auc": 0.9120033336345235,
+  "confusion_matrix": [
+    [
+      372,
+      24
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.94      0.96       396\n           1       0.64      0.86      0.73        49\n\n    accuracy                           0.93       445\n   macro avg       0.81      0.90      0.85       445\nweighted avg       0.94      0.93      0.93       445\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8986334535069845,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 15.951504399999976,
+  "prediction_time_seconds": 0.002731899992795661,
+  "n_train_samples": 4123,
+  "n_test_samples": 445,
+  "checkpoint_path": "utility\\checkpoints\\yeast3__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\yeast3__gpt-oss_20b-cloud_schema_constraints_balanced__GradientBoostingClassifier.json"
+}

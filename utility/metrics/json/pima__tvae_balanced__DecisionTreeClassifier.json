@@ -1,0 +1,36 @@
+{
+  "dataset": "pima",
+  "augmentation": "tvae__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.7792207792207793,
+  "balanced_accuracy": 0.787044701986755,
+  "precision": 0.6435643564356436,
+  "recall": 0.8125,
+  "f1": 0.7182320441988951,
+  "mcc": 0.5506563290573055,
+  "roc_auc": 0.8666804635761589,
+  "pr_auc": 0.7196057017353309,
+  "confusion_matrix": [
+    [
+      115,
+      36
+    ],
+    [
+      15,
+      65
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.76      0.82       151\n           1       0.64      0.81      0.72        80\n\n    accuracy                           0.78       231\n   macro avg       0.76      0.79      0.77       231\nweighted avg       0.80      0.78      0.78       231\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.7572007615409893,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7852386999875307,
+  "prediction_time_seconds": 0.002225100004579872,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__tvae_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__tvae_balanced__DecisionTreeClassifier.json"
+}

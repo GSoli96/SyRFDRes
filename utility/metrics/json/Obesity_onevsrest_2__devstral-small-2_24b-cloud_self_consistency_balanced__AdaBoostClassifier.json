@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_2",
+  "augmentation": "devstral-small-2_24b-cloud__self_consistency__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8787878787878788,
+  "balanced_accuracy": 0.7718927179305457,
+  "precision": 0.5360824742268041,
+  "recall": 0.6265060240963856,
+  "f1": 0.5777777777777777,
+  "mcc": 0.5096150743044429,
+  "roc_auc": 0.8871035613040397,
+  "pr_auc": 0.6133283398699089,
+  "confusion_matrix": [
+    [
+      499,
+      45
+    ],
+    [
+      31,
+      52
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.94      0.92      0.93       544\n           1       0.54      0.63      0.58        83\n\n    accuracy                           0.88       627\n   macro avg       0.74      0.77      0.75       627\nweighted avg       0.89      0.88      0.88       627\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7764323258819077,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.427409600000829,
+  "prediction_time_seconds": 0.03105579997645691,
+  "n_train_samples": 5709,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_2__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_2__devstral-small-2_24b-cloud_self_consistency_balanced__AdaBoostClassifier.json"
+}

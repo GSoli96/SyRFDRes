@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "devstral-small-2_24b-cloud__react__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8812785388127854,
+  "balanced_accuracy": 0.792755787901419,
+  "precision": 0.2903225806451613,
+  "recall": 0.6923076923076923,
+  "f1": 0.4090909090909091,
+  "mcc": 0.39689991003086267,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      184,
+      22
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.89      0.93       206\n           1       0.29      0.69      0.41        13\n\n    accuracy                           0.88       219\n   macro avg       0.63      0.79      0.67       219\nweighted avg       0.94      0.88      0.90       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.4015339306604268,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.5877774999826215,
+  "prediction_time_seconds": 0.004959199985023588,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__devstral-small-2_24b-cloud_react_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__devstral-small-2_24b-cloud_react_balanced__LinearSVC.json"
+}

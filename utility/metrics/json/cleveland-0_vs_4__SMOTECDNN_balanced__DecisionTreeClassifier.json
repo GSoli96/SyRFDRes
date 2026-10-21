@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "SMOTECDNN__balanced",
+  "model": "DecisionTreeClassifier",
+  "accuracy": 0.9811320754716981,
+  "balanced_accuracy": 0.9897959183673469,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1": 0.8888888888888888,
+  "mcc": 0.885253336275981,
+  "roc_auc": 0.9948979591836734,
+  "pr_auc": 0.9,
+  "confusion_matrix": [
+    [
+      48,
+      1
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99        49\n           1       0.80      1.00      0.89         4\n\n    accuracy                           0.98        53\n   macro avg       0.90      0.99      0.94        53\nweighted avg       0.98      0.98      0.98        53\n",
+  "best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 1
+  },
+  "cv_best_score": 0.9508315965193749,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 1.2523164000012912,
+  "prediction_time_seconds": 0.0040330999763682485,
+  "n_train_samples": 276,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__SMOTECDNN_balanced__DecisionTreeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__SMOTECDNN_balanced__DecisionTreeClassifier.json"
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "devstral-small-2_24b-cloud__decision_tree__balanced",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.9210526315789473,
+  "balanced_accuracy": 0.8386363636363636,
+  "precision": 0.2727272727272727,
+  "recall": 0.75,
+  "f1": 0.4,
+  "mcc": 0.4220607544300619,
+  "roc_auc": 0.8977272727272728,
+  "pr_auc": 0.5629432624113475,
+  "confusion_matrix": [
+    [
+      102,
+      8
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.93      0.96       110\n           1       0.27      0.75      0.40         4\n\n    accuracy                           0.92       114\n   macro avg       0.63      0.84      0.68       114\nweighted avg       0.97      0.92      0.94       114\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8518314794824862,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.4037136999832,
+  "prediction_time_seconds": 0.032417000009445474,
+  "n_train_samples": 1103,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__devstral-small-2_24b-cloud_decision_tree_balanced__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__devstral-small-2_24b-cloud_decision_tree_balanced__AdaBoostClassifier.json"
+}

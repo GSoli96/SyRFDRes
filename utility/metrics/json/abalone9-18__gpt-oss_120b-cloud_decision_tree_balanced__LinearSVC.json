@@ -1,0 +1,36 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_120b-cloud__decision_tree__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8812785388127854,
+  "balanced_accuracy": 0.8287901418969381,
+  "precision": 0.30303030303030304,
+  "recall": 0.7692307692307693,
+  "f1": 0.43478260869565216,
+  "mcc": 0.4343508018356042,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      183,
+      23
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.89      0.93       206\n           1       0.30      0.77      0.43        13\n\n    accuracy                           0.88       219\n   macro avg       0.64      0.83      0.68       219\nweighted avg       0.94      0.88      0.90       219\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.342494752828994,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.6357889999635518,
+  "prediction_time_seconds": 0.007080199953634292,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_120b-cloud_decision_tree_balanced__LinearSVC.json"
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_react",
+  "model": "MLPClassifier",
+  "accuracy": 0.8831168831168831,
+  "balanced_accuracy": 0.8665149006622517,
+  "precision": 0.8441558441558441,
+  "recall": 0.8125,
+  "f1": 0.8280254777070064,
+  "mcc": 0.739859705691532,
+  "roc_auc": 0.9475993377483444,
+  "pr_auc": 0.9137817789174143,
+  "confusion_matrix": [
+    [
+      139,
+      12
+    ],
+    [
+      15,
+      65
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.90      0.92      0.91       151\n           1       0.84      0.81      0.83        80\n\n    accuracy                           0.88       231\n   macro avg       0.87      0.87      0.87       231\nweighted avg       0.88      0.88      0.88       231\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.8115083083051783,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 29.96111179998843,
+  "prediction_time_seconds": 0.0031334999948740005,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_react__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_react__MLPClassifier.json"
+}

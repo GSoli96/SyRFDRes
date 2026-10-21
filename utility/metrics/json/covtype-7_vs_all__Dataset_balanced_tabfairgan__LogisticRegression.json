@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-7_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "LogisticRegression",
+  "accuracy": 0.8880978061318157,
+  "balanced_accuracy": 0.8938546261650011,
+  "precision": 0.22670705747502864,
+  "recall": 0.9000487567040468,
+  "f1": 0.3621856708413721,
+  "mcc": 0.41874451254785705,
+  "roc_auc": 0.956844038847653,
+  "pr_auc": 0.43141478792476173,
+  "confusion_matrix": [
+    [
+      149261,
+      18890
+    ],
+    [
+      615,
+      5538
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.89      0.94    168151\n           1       0.23      0.90      0.36      6153\n\n    accuracy                           0.89    174304\n   macro avg       0.61      0.89      0.65    174304\nweighted avg       0.97      0.89      0.92    174304\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.9270150200126164,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 2.258347800001502,
+  "prediction_time_seconds": 0.03531150001799688,
+  "n_train_samples": 77172,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-7_vs_all__Dataset_balanced_tabfairgan__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-7_vs_all__Dataset_balanced_tabfairgan__LogisticRegression.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "ctabgan__balanced",
+  "model": "ExtraTreesClassifier",
+  "accuracy": 0.8355555555555556,
+  "balanced_accuracy": 0.7488481790258885,
+  "precision": 0.6739130434782609,
+  "recall": 0.5849056603773585,
+  "f1": 0.6262626262626263,
+  "mcc": 0.5236742141773192,
+  "roc_auc": 0.8536090390522159,
+  "pr_auc": 0.7245160629377603,
+  "confusion_matrix": [
+    [
+      157,
+      15
+    ],
+    [
+      22,
+      31
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.88      0.91      0.89       172\n           1       0.67      0.58      0.63        53\n\n    accuracy                           0.84       225\n   macro avg       0.78      0.75      0.76       225\nweighted avg       0.83      0.84      0.83       225\n",
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.834983325584332,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 12.267519200016977,
+  "prediction_time_seconds": 0.01045269999303855,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__ctabgan_balanced__ExtraTreesClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__ctabgan_balanced__ExtraTreesClassifier.json"
+}

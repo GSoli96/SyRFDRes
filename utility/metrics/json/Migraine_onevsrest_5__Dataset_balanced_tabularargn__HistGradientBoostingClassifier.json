@@ -1,0 +1,37 @@
+{
+  "dataset": "Migraine_onevsrest_5",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9824561403508771,
+  "balanced_accuracy": 0.8704545454545455,
+  "precision": 0.75,
+  "recall": 0.75,
+  "f1": 0.75,
+  "mcc": 0.740909090909091,
+  "roc_auc": 0.9954545454545454,
+  "pr_auc": 0.8875,
+  "confusion_matrix": [
+    [
+      109,
+      1
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       110\n           1       0.75      0.75      0.75         4\n\n    accuracy                           0.98       114\n   macro avg       0.87      0.87      0.87       114\nweighted avg       0.98      0.98      0.98       114\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": null,
+    "model__max_iter": 100
+  },
+  "cv_best_score": 0.9820677926342952,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 7.611861999990651,
+  "prediction_time_seconds": 0.003437899984419346,
+  "n_train_samples": 726,
+  "n_test_samples": 114,
+  "checkpoint_path": "utility\\checkpoints\\Migraine_onevsrest_5__Dataset_balanced_tabularargn__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Migraine_onevsrest_5__Dataset_balanced_tabularargn__HistGradientBoostingClassifier.json"
+}

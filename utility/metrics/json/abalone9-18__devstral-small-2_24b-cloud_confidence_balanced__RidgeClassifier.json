@@ -1,0 +1,35 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "devstral-small-2_24b-cloud__confidence__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.908675799086758,
+  "balanced_accuracy": 0.7712845407020165,
+  "precision": 0.34782608695652173,
+  "recall": 0.6153846153846154,
+  "f1": 0.4444444444444444,
+  "mcc": 0.4181849261909836,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      191,
+      15
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.93      0.95       206\n           1       0.35      0.62      0.44        13\n\n    accuracy                           0.91       219\n   macro avg       0.66      0.77      0.70       219\nweighted avg       0.94      0.91      0.92       219\n",
+  "best_params": {
+    "model__alpha": 1.0
+  },
+  "cv_best_score": 0.15887071581745027,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3935473000165075,
+  "prediction_time_seconds": 0.0037031000247225165,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__devstral-small-2_24b-cloud_confidence_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__devstral-small-2_24b-cloud_confidence_balanced__RidgeClassifier.json"
+}

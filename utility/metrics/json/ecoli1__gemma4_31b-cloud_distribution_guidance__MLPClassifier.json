@@ -1,0 +1,38 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "gemma4_31b-cloud__distribution_guidance",
+  "model": "MLPClassifier",
+  "accuracy": 0.9207920792079208,
+  "balanced_accuracy": 0.9027313266443702,
+  "precision": 0.8,
+  "recall": 0.8695652173913043,
+  "f1": 0.8333333333333334,
+  "mcc": 0.7826720540633221,
+  "roc_auc": 0.9771460423634337,
+  "pr_auc": 0.9314415808862082,
+  "confusion_matrix": [
+    [
+      73,
+      5
+    ],
+    [
+      3,
+      20
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.96      0.94      0.95        78\n           1       0.80      0.87      0.83        23\n\n    accuracy                           0.92       101\n   macro avg       0.88      0.90      0.89       101\nweighted avg       0.92      0.92      0.92       101\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50
+    ]
+  },
+  "cv_best_score": 0.9335060727678393,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 14.188696400000481,
+  "prediction_time_seconds": 0.003298199997516349,
+  "n_train_samples": 516,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__gemma4_31b-cloud_distribution_guidance__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__gemma4_31b-cloud_distribution_guidance__MLPClassifier.json"
+}

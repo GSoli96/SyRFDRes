@@ -1,0 +1,36 @@
+{
+  "dataset": "susy_lowlevel8",
+  "augmentation": "Dataset_balanced_tabularargn",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.776206,
+  "balanced_accuracy": 0.7735442873413729,
+  "precision": 0.7624155669604704,
+  "recall": 0.7421818086451771,
+  "f1": 0.7521626364637083,
+  "mcc": 0.5483915699493291,
+  "roc_auc": 0.848906350987737,
+  "pr_auc": 0.8487668758777633,
+  "confusion_matrix": [
+    [
+      654914,
+      158738
+    ],
+    [
+      176953,
+      509395
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.79      0.80      0.80    813652\n           1       0.76      0.74      0.75    686348\n\n    accuracy                           0.78   1500000\n   macro avg       0.77      0.77      0.77   1500000\nweighted avg       0.78      0.78      0.78   1500000\n",
+  "best_params": {
+    "model__learning_rate": 0.5,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.7653538496920548,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 139.5419966999907,
+  "prediction_time_seconds": 19.398365000000922,
+  "n_train_samples": 43274,
+  "n_test_samples": 1500000,
+  "checkpoint_path": "utility\\checkpoints\\susy_lowlevel8__Dataset_balanced_tabularargn__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\susy_lowlevel8__Dataset_balanced_tabularargn__AdaBoostClassifier.json"
+}

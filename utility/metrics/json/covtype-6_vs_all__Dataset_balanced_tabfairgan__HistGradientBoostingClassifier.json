@@ -1,0 +1,37 @@
+{
+  "dataset": "covtype-6_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "HistGradientBoostingClassifier",
+  "accuracy": 0.9755197815311181,
+  "balanced_accuracy": 0.7692687859087429,
+  "precision": 0.5984959264675161,
+  "recall": 0.5499040307101728,
+  "f1": 0.5731719515854756,
+  "mcc": 0.5611263013930706,
+  "roc_auc": 0.9815386225567457,
+  "pr_auc": 0.5929896396706587,
+  "confusion_matrix": [
+    [
+      167172,
+      1922
+    ],
+    [
+      2345,
+      2865
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99    169094\n           1       0.60      0.55      0.57      5210\n\n    accuracy                           0.98    174304\n   macro avg       0.79      0.77      0.78    174304\nweighted avg       0.97      0.98      0.98    174304\n",
+  "best_params": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": null,
+    "model__max_iter": 200
+  },
+  "cv_best_score": 0.9866879580062559,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 40.38730360000045,
+  "prediction_time_seconds": 1.119445899996208,
+  "n_train_samples": 77704,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-6_vs_all__Dataset_balanced_tabfairgan__HistGradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-6_vs_all__Dataset_balanced_tabfairgan__HistGradientBoostingClassifier.json"
+}

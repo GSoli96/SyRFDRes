@@ -1,0 +1,39 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "devstral-small-2_24b-cloud__ensemble__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.8266666666666667,
+  "balanced_accuracy": 0.7365072400175515,
+  "precision": 0.6521739130434783,
+  "recall": 0.5660377358490566,
+  "f1": 0.6060606060606061,
+  "mcc": 0.4977040360442143,
+  "roc_auc": 0.8426393154892496,
+  "pr_auc": 0.6818909860954196,
+  "confusion_matrix": [
+    [
+      156,
+      16
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.87      0.91      0.89       172\n           1       0.65      0.57      0.61        53\n\n    accuracy                           0.83       225\n   macro avg       0.76      0.74      0.75       225\nweighted avg       0.82      0.83      0.82       225\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.7333783041133557,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 47.62739690000308,
+  "prediction_time_seconds": 0.0030199000029824674,
+  "n_train_samples": 1887,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__devstral-small-2_24b-cloud_ensemble_balanced__MLPClassifier.json"
+}

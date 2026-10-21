@@ -1,0 +1,36 @@
+{
+  "dataset": "transfusion",
+  "augmentation": "gemma3_12b__cot_self_consistency",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.7822222222222223,
+  "balanced_accuracy": 0.655221588415972,
+  "precision": 0.55,
+  "recall": 0.41509433962264153,
+  "f1": 0.4731182795698925,
+  "mcc": 0.3445628233688191,
+  "roc_auc": 0.7839512944273803,
+  "pr_auc": 0.5402550807477077,
+  "confusion_matrix": [
+    [
+      154,
+      18
+    ],
+    [
+      31,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.83      0.90      0.86       172\n           1       0.55      0.42      0.47        53\n\n    accuracy                           0.78       225\n   macro avg       0.69      0.66      0.67       225\nweighted avg       0.77      0.78      0.77       225\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 200
+  },
+  "cv_best_score": 0.8492208161662983,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 6.032314000010956,
+  "prediction_time_seconds": 0.027123399981064722,
+  "n_train_samples": 1140,
+  "n_test_samples": 225,
+  "checkpoint_path": "utility\\checkpoints\\transfusion__gemma3_12b_cot_self_consistency__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\transfusion__gemma3_12b_cot_self_consistency__AdaBoostClassifier.json"
+}

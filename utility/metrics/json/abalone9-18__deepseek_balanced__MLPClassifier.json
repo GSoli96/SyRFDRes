@@ -1,0 +1,38 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "deepseek__balanced",
+  "model": "MLPClassifier",
+  "accuracy": 0.9771689497716894,
+  "balanced_accuracy": 0.8797610156833457,
+  "precision": 0.8333333333333334,
+  "recall": 0.7692307692307693,
+  "f1": 0.8,
+  "mcc": 0.7886237762500751,
+  "roc_auc": 0.9764749813293503,
+  "pr_auc": 0.846577034077034,
+  "confusion_matrix": [
+    [
+      204,
+      2
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99       206\n           1       0.83      0.77      0.80        13\n\n    accuracy                           0.98       219\n   macro avg       0.91      0.88      0.89       219\nweighted avg       0.98      0.98      0.98       219\n",
+  "best_params": {
+    "model__alpha": 0.0001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.938542645826257,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 81.29527230001986,
+  "prediction_time_seconds": 0.0052130999974906445,
+  "n_train_samples": 1090,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__deepseek_balanced__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__deepseek_balanced__MLPClassifier.json"
+}

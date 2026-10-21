@@ -1,0 +1,37 @@
+{
+  "dataset": "ecoli1",
+  "augmentation": "casTGAN__balanced",
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.9801980198019802,
+  "balanced_accuracy": 0.971850613154961,
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1": 0.9565217391304348,
+  "mcc": 0.9437012263099219,
+  "roc_auc": 0.9944258639910813,
+  "pr_auc": 0.9868247694334649,
+  "confusion_matrix": [
+    [
+      77,
+      1
+    ],
+    [
+      1,
+      22
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.99      0.99        78\n           1       0.96      0.96      0.96        23\n\n    accuracy                           0.98       101\n   macro avg       0.97      0.97      0.97       101\nweighted avg       0.98      0.98      0.98       101\n",
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8787808205232617,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 5.251296700007515,
+  "prediction_time_seconds": 0.0035140000109095126,
+  "n_train_samples": 382,
+  "n_test_samples": 101,
+  "checkpoint_path": "utility\\checkpoints\\ecoli1__casTGAN_balanced__GradientBoostingClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli1__casTGAN_balanced__GradientBoostingClassifier.json"
+}

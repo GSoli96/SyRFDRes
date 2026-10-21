@@ -1,0 +1,35 @@
+{
+  "dataset": "ecoli-0_vs_1",
+  "augmentation": "GOGGLE__balanced",
+  "model": "RidgeClassifier",
+  "accuracy": 0.9545454545454546,
+  "balanced_accuracy": 0.9448938321536906,
+  "precision": 0.9545454545454546,
+  "recall": 0.9130434782608695,
+  "f1": 0.9333333333333333,
+  "mcc": 0.8993875008265758,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      42,
+      1
+    ],
+    [
+      2,
+      21
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.95      0.98      0.97        43\n           1       0.95      0.91      0.93        23\n\n    accuracy                           0.95        66\n   macro avg       0.95      0.94      0.95        66\nweighted avg       0.95      0.95      0.95        66\n",
+  "best_params": {
+    "model__alpha": 0.1
+  },
+  "cv_best_score": 0.9634374397532293,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.3094590000109747,
+  "prediction_time_seconds": 0.003728700103238225,
+  "n_train_samples": 284,
+  "n_test_samples": 66,
+  "checkpoint_path": "utility\\checkpoints\\ecoli-0_vs_1__GOGGLE_balanced__RidgeClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\ecoli-0_vs_1__GOGGLE_balanced__RidgeClassifier.json"
+}

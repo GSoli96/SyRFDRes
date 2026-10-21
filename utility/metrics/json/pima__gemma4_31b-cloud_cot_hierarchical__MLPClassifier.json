@@ -1,0 +1,38 @@
+{
+  "dataset": "pima",
+  "augmentation": "gemma4_31b-cloud__cot_hierarchical",
+  "model": "MLPClassifier",
+  "accuracy": 0.9004329004329005,
+  "balanced_accuracy": 0.8826986754966888,
+  "precision": 0.88,
+  "recall": 0.825,
+  "f1": 0.8516129032258064,
+  "mcc": 0.7777275634923789,
+  "roc_auc": 0.9517384105960265,
+  "pr_auc": 0.9194880876944804,
+  "confusion_matrix": [
+    [
+      142,
+      9
+    ],
+    [
+      14,
+      66
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.91      0.94      0.93       151\n           1       0.88      0.82      0.85        80\n\n    accuracy                           0.90       231\n   macro avg       0.90      0.88      0.89       231\nweighted avg       0.90      0.90      0.90       231\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      100
+    ]
+  },
+  "cv_best_score": 0.8095357135261153,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 30.339819799992256,
+  "prediction_time_seconds": 0.003219799982616678,
+  "n_train_samples": 1000,
+  "n_test_samples": 231,
+  "checkpoint_path": "utility\\checkpoints\\pima__gemma4_31b-cloud_cot_hierarchical__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\pima__gemma4_31b-cloud_cot_hierarchical__MLPClassifier.json"
+}

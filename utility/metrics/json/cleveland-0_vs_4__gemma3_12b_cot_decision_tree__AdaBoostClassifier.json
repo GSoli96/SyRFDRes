@@ -1,0 +1,36 @@
+{
+  "dataset": "cleveland-0_vs_4",
+  "augmentation": "gemma3_12b__cot_decision_tree",
+  "model": "AdaBoostClassifier",
+  "accuracy": 0.8490566037735849,
+  "balanced_accuracy": 0.9183673469387755,
+  "precision": 0.3333333333333333,
+  "recall": 1.0,
+  "f1": 0.5,
+  "mcc": 0.5281207860194961,
+  "roc_auc": 0.9846938775510203,
+  "pr_auc": 0.8041666666666667,
+  "confusion_matrix": [
+    [
+      41,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.84      0.91        49\n           1       0.33      1.00      0.50         4\n\n    accuracy                           0.85        53\n   macro avg       0.67      0.92      0.71        53\nweighted avg       0.95      0.85      0.88        53\n",
+  "best_params": {
+    "model__learning_rate": 1.0,
+    "model__n_estimators": 100
+  },
+  "cv_best_score": 0.8587154161902703,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 11.144507499993779,
+  "prediction_time_seconds": 0.0337390000349842,
+  "n_train_samples": 326,
+  "n_test_samples": 53,
+  "checkpoint_path": "utility\\checkpoints\\cleveland-0_vs_4__gemma3_12b_cot_decision_tree__AdaBoostClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\cleveland-0_vs_4__gemma3_12b_cot_decision_tree__AdaBoostClassifier.json"
+}

@@ -1,0 +1,37 @@
+{
+  "dataset": "abalone9-18",
+  "augmentation": "gpt-oss_120b-cloud__ensemble__balanced",
+  "model": "LogisticRegression",
+  "accuracy": 0.9223744292237442,
+  "balanced_accuracy": 0.7785660941000747,
+  "precision": 0.4,
+  "recall": 0.6153846153846154,
+  "f1": 0.48484848484848486,
+  "mcc": 0.45700610400094915,
+  "roc_auc": 0.8129200896191188,
+  "pr_auc": 0.5890754111568124,
+  "confusion_matrix": [
+    [
+      194,
+      12
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.94      0.96       206\n           1       0.40      0.62      0.48        13\n\n    accuracy                           0.92       219\n   macro avg       0.69      0.78      0.72       219\nweighted avg       0.94      0.92      0.93       219\n",
+  "best_params": {
+    "model__C": 10.0,
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  },
+  "cv_best_score": 0.5037582206281606,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.7328509999788366,
+  "prediction_time_seconds": 0.007500199950300157,
+  "n_train_samples": 2106,
+  "n_test_samples": 219,
+  "checkpoint_path": "utility\\checkpoints\\abalone9-18__gpt-oss_120b-cloud_ensemble_balanced__LogisticRegression.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\abalone9-18__gpt-oss_120b-cloud_ensemble_balanced__LogisticRegression.json"
+}

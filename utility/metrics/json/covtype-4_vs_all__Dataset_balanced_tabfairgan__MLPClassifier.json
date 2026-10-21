@@ -1,0 +1,39 @@
+{
+  "dataset": "covtype-4_vs_all",
+  "augmentation": "Dataset_balanced_tabfairgan",
+  "model": "MLPClassifier",
+  "accuracy": 0.9974986230952818,
+  "balanced_accuracy": 0.7758991271761833,
+  "precision": 0.8716475095785441,
+  "recall": 0.5521844660194175,
+  "f1": 0.6760772659732541,
+  "mcc": 0.6926773515883488,
+  "roc_auc": 0.9973989685165577,
+  "pr_auc": 0.8024404847404117,
+  "confusion_matrix": [
+    [
+      173413,
+      67
+    ],
+    [
+      369,
+      455
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00    173480\n           1       0.87      0.55      0.68       824\n\n    accuracy                           1.00    174304\n   macro avg       0.93      0.78      0.84    174304\nweighted avg       1.00      1.00      1.00    174304\n",
+  "best_params": {
+    "model__alpha": 0.001,
+    "model__hidden_layer_sizes": [
+      50,
+      50
+    ]
+  },
+  "cv_best_score": 0.9986063292543947,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 258.9871933000104,
+  "prediction_time_seconds": 0.11492809999617748,
+  "n_train_samples": 79660,
+  "n_test_samples": 174304,
+  "checkpoint_path": "utility\\checkpoints\\covtype-4_vs_all__Dataset_balanced_tabfairgan__MLPClassifier.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\covtype-4_vs_all__Dataset_balanced_tabfairgan__MLPClassifier.json"
+}

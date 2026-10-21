@@ -1,0 +1,36 @@
+{
+  "dataset": "Obesity_onevsrest_4",
+  "augmentation": "casTGAN__balanced",
+  "model": "LinearSVC",
+  "accuracy": 0.8421052631578947,
+  "balanced_accuracy": 0.5590038314176246,
+  "precision": 0.6363636363636364,
+  "recall": 0.13333333333333333,
+  "f1": 0.2204724409448819,
+  "mcc": 0.2394699824994488,
+  "roc_auc": null,
+  "pr_auc": null,
+  "confusion_matrix": [
+    [
+      514,
+      8
+    ],
+    [
+      91,
+      14
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.98      0.91       522\n           1       0.64      0.13      0.22       105\n\n    accuracy                           0.84       627\n   macro avg       0.74      0.56      0.57       627\nweighted avg       0.81      0.84      0.80       627\n",
+  "best_params": {
+    "model__C": 1.0,
+    "model__loss": "squared_hinge"
+  },
+  "cv_best_score": 0.40860307807322105,
+  "n_cv_folds_used": 5,
+  "training_time_seconds": 0.31579920000513084,
+  "prediction_time_seconds": 0.003104400006122887,
+  "n_train_samples": 2169,
+  "n_test_samples": 627,
+  "checkpoint_path": "utility\\checkpoints\\Obesity_onevsrest_4__casTGAN_balanced__LinearSVC.joblib",
+  "metrics_json_path": "utility\\metrics\\json\\Obesity_onevsrest_4__casTGAN_balanced__LinearSVC.json"
+}
